@@ -87,7 +87,7 @@ let
           variantFiles
       ) {} parsedRaw;
 
-  baseUrl = "https://downloads.openwrt.org";
+  baseUrl = "https://downloads.immortalwrt.org";
   releaseUrl = if release == "snapshot" then "${baseUrl}/snapshots" else "${baseUrl}/releases/${release}";
   targetVariantUrl = "${releaseUrl}/targets/${target}/${variant}";
 

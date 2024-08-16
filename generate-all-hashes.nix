@@ -10,7 +10,7 @@ pkgs.writeShellApplication {
   ];
 
   text = ''
-    VERSIONS=$(curl -s https://downloads.openwrt.org/.versions.json)
+    VERSIONS=$(curl -s https://downloads.immortalwrt.org/.versions.json)
     readarray -t RELEASES < <(jq -r '.versions_list[]' <<< "''${VERSIONS}")
     RELEASES+=("snapshot")
 

@@ -11,7 +11,7 @@ pkgs.writeShellApplication {
     RELEASE="''${1:-${import ./latest-release.nix}}"
     FEEDS="base luci packages routing telephony"
 
-    UPSTREAM_URL=https://downloads.openwrt.org
+    UPSTREAM_URL=https://downloads.immortalwrt.org
     RELEASE_URL="''${UPSTREAM_URL}/releases/''${RELEASE}"
 
     if [ "''${RELEASE}" == "snapshot" ]; then
