@@ -10,7 +10,7 @@ if [ $# -gt 0 ]; then
   RELEASE=$1
 fi
 
-UPSTREAM_URL=https://downloads.openwrt.org
+UPSTREAM_URL=https://downloads.immortalwrt.org
 RELEASE_URL=$UPSTREAM_URL/releases/$RELEASE
 
 if [ $RELEASE == "snapshot" ]; then

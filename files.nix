@@ -85,7 +85,7 @@ let
           variantFiles
       ) {} parsedRaw;
 
-  baseUrl = "https://downloads.openwrt.org";
+  baseUrl = "https://downloads.immortalwrt.org";
   releaseUrl = if release == "snapshot" then "${baseUrl}/snapshots" else "${baseUrl}/releases/${release}";
   variantFiles = fetchSums "${releaseUrl}/targets/${target}/${variant}" sha256;
 
