@@ -131,7 +131,7 @@ pkgs.stdenv.mkDerivation ({
   nativeBuildInputs = with pkgs; [
     zlib unzip bzip2 zstd
     ncurses which rsync git file getopt wget
-    bash perl python311 dtc qemu-utils
+    bash perl python311 dtc qemu-utils cdrtools
   ] ++ lib.optional (lib.versionOlder release "21" && release != "snapshot") python2;
 
 
