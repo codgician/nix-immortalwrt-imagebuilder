@@ -46,7 +46,7 @@ let
   ) ++ profiles.profiles.${profile}.device_packages or []
     ++ packages;
   allRequiredPackages = expandDeps allPackages requiredPackages;
-  imageBuilderPrefix  = "openwrt-imagebuilder-${if release == "snapshot" then "" else "${release}-"}";
+  imageBuilderPrefix  = "immortalwrt-imagebuilder-${if release == "snapshot" then "" else "${release}-"}";
 
   extraArgs = builtins.removeAttrs args [
     "pkgs"
