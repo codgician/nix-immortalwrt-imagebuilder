@@ -1,7 +1,7 @@
 # nix-immortalwrt-imagebuilder
 
-> This project is forked from [astro/nix-openwrt-imagebuilder](https://github.com/astro/nix-openwrt-imagebuilder). 
-> This flake produces ImmortalWrt image instead of Vanilla OpenWrt.
+> This project is forked from [astro/nix-openwrt-imagebuilder](https://github.com/astro/nix-openwrt-imagebuilder), producing ImmortalWrt image instead of Vanilla OpenWrt.
+>
 > ImmortalWrt is a fork of OpenWrt packed with features useful for users in Mainland China.
 
 Generate ImmortalWrt images from Nix derivations using the official
@@ -65,7 +65,7 @@ in
 ```nix
 {
   inputs = {
-    immortalwrt-imagebuilder.url = "github:astro/nix-immortalwrt-imagebuilder";
+    immortalwrt-imagebuilder.url = "github:codgician/nix-immortalwrt-imagebuilder";
   };
   outputs = { self, nixpkgs, immortalwrt-imagebuilder }: {
     packages.x86_64-linux.my-router =

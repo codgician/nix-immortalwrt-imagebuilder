@@ -2,14 +2,13 @@
 , build ? import ./builder.nix
 }:
 build {
-  release = "19.07.10";
-  target = "ar71xx";
+  release = "23.05.3";
+  target = "ath79";
   variant = "tiny";
-  profile = "tl-wr841-v10";
+  profile = "engenius_eap350-v1";
   packages = [
     "tcpdump"
     "vxlan" "kmod-vxlan"
-    "-kmod-pppoa"
     "collectd" "collectd-mod-iwinfo" "collectd-mod-ping"
   ];
   files = pkgs.runCommand "image-files" {} ''
