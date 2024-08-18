@@ -26,13 +26,18 @@ jobs:
           echo "GIT_AUTHOR_EMAIL=<github-actions[bot]@users.noreply.github.com>" >> $GITHUB_ENV
           echo "GIT_COMMITTER_NAME=github-actions[bot]" >> $GITHUB_ENV
           echo "GIT_COMMITTER_EMAIL=<github-actions[bot]@users.noreply.github.com>" >> $GITHUB_ENV
+      - name: Update nix flake
+        shell: bash
+        run: |
+          nix flake update
+          git add flake.lock
       - name: Update all hashes
         shell: bash
         run: |
           git rm hashes/*.nix
           nix run .#generate-all-hashes
           git add hashes/*.nix
-          git commit -m "hashes: update"
+          git commit -m "hashes: update" || true
       - name: Update latest release
         shell: bash
         run: |
