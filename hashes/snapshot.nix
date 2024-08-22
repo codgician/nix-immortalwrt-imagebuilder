@@ -1,5 +1,5 @@
 {
-  targets."qualcommax"."ipq807x".sha256 = "sha256-Di1aNTRYLSMTMjmrKAP7OhS3xVTLHOqR4oZyfmCH8jk=";
+  targets."qualcommax"."ipq807x".sha256 = "sha256-bXO/570t0yOecRqSuMp+n4osgNAV1KYrvW6SEJZotvU=";
   targets."qualcommax"."ipq807x".packagesArch = "aarch64_cortex-a53";
   packages."aarch64_cortex-a53"."base".sha256 = "sha256-zV78zbPt3RFpf98zLbB2a3J29tSjH8talUPfq7fALPY=";
   packages."aarch64_cortex-a53"."luci".sha256 = "sha256-UJ83+qC/oRYyIYy233FmQpMhC6sB2d1NhB+Rz20Eg3k=";
@@ -18,7 +18,7 @@
   targets."ipq40xx"."chromium".sha256 = "sha256-G17jBXMsF72k3r0Hnw9bWxgsprW3Y7HWjMHgQ6nFb0I=";
   targets."ipq40xx"."chromium".packagesArch = "arm_cortex-a7_neon-vfpv4";
   targets."ramips"."rt288x".sha256 = "sha256-CkoL+UtzKjC12MNc6uXANwmHSaFBhTke5kiu0H1k7L4=";
-  targets."ramips"."mt7620".sha256 = "sha256-zwlos3EZLUCwTXx369z8J2Eyn5pGsi2RoV8tO9SdLU0=";
+  targets."ramips"."mt7620".sha256 = "sha256-sVotNvcHXtTEsypX8YA1qK/ANM4jWKW9HRYCGKhPxQM=";
   targets."ramips"."mt7620".packagesArch = "mipsel_24kc";
   packages."mipsel_24kc"."base".sha256 = "sha256-vXTFG6w6prMrcOeevTTEQ9wSj+gZYJ1cksufBg58YWU=";
   packages."mipsel_24kc"."luci".sha256 = "sha256-pPj/Xt3Hih5okGLuKdQLo1mxxhVFVdFTVGKRxE0uCRs=";
@@ -27,7 +27,7 @@
   packages."mipsel_24kc"."telephony".sha256 = "sha256-IZNEdFiMfrlW2nnd303ouCRh5qwSjOT5J2shjqhZCE0=";
   targets."ramips"."mt76x8".sha256 = "sha256-yMwCPXG4u3cQn9OqEgypHNGEXzbVn8K2U89Rxu30aZc=";
   targets."ramips"."mt76x8".packagesArch = "mipsel_24kc";
-  targets."ramips"."mt7621".sha256 = "sha256-Vkknh84iIr796c61E0WDYZgStCLyGMWKYOHmjq/iEP8=";
+  targets."ramips"."mt7621".sha256 = "sha256-mKYuWSq96JR4m8xGvWNwsHsg/YHnqGvLskKso6kEJmQ=";
   targets."ramips"."mt7621".packagesArch = "mipsel_24kc";
   targets."ramips"."rt3883".sha256 = "sha256-SmSkq2waaeMMcrwZJnMPhkf3RSAAlXXWkNvb5LswKuM=";
   targets."ramips"."rt3883".packagesArch = "mipsel_74kc";
@@ -66,7 +66,7 @@
   packages."riscv64_riscv64"."packages".sha256 = "sha256-Z5UPNHVE6jI/Q6nDxZ23bkye+O9NGMu94Nfe8dyDl+U=";
   packages."riscv64_riscv64"."routing".sha256 = "sha256-CeGXIpNsU9rq0JFWySuzI3/2x9gQU4InkENZQGZoNqQ=";
   packages."riscv64_riscv64"."telephony".sha256 = "sha256-55RY9TYjg3FmW5xZkxBWHgXqDsiK3+FVV3WaAK+RiH8=";
-  targets."rockchip"."armv8".sha256 = "sha256-f/jy64N1DMZm9Va+Do/c9oCR9iiZFgpzuE0U5C58+FU=";
+  targets."rockchip"."armv8".sha256 = "sha256-g4SdTa4iNpUR524xHsB7JB9nQlZ5nQn87DhmojvZNLI=";
   targets."rockchip"."armv8".packagesArch = "aarch64_generic";
   packages."aarch64_generic"."base".sha256 = "sha256-uHzN/KDof7ZP6Yd+Asn1i03TcsAwVb446u57EdyBWsQ=";
   packages."aarch64_generic"."luci".sha256 = "sha256-7Er3jxHAmnt5vlgYsdhQZLU0/gGhGcN3pRLdxIs9tGU=";
@@ -148,7 +148,7 @@
   targets."ipq806x"."generic".packagesArch = "arm_cortex-a15_neon-vfpv4";
   targets."ipq806x"."chromium".sha256 = "sha256-i+ldJ3Qt6zQbIwqWV/9q7wMTMGu5ryJK4CW2LED9q+c=";
   targets."ipq806x"."chromium".packagesArch = "arm_cortex-a15_neon-vfpv4";
-  targets."x86"."generic".sha256 = "sha256-VozFAdSPlmy2uZpt51X7vz9QBhRvnduaNL0QuL2q/0s=";
+  targets."x86"."generic".sha256 = "sha256-GGQF1sgEy4Oz0Grrqm9bH0R+VQxIgbIqmFUK7sJs6wY=";
   targets."x86"."generic".packagesArch = "i386_pentium4";
   packages."i386_pentium4"."base".sha256 = "sha256-iU9+cTlicbNEXHIuklYn8wLjTrlufKeYpuqCrzV0p3E=";
   packages."i386_pentium4"."luci".sha256 = "sha256-3NtvZoELPqZDe6ylmsklvKmvRAgZJfBWxiEoE19JeVA=";
@@ -162,7 +162,7 @@
   packages."i386_pentium-mmx"."packages".sha256 = "sha256-U9OHsRn2KQm6TCGqDjT85NlrQb/rqyDJAm3nk5pwwIc=";
   packages."i386_pentium-mmx"."routing".sha256 = "sha256-cpocS7/EOGldF0cqh+HRiIl2CryTSCukEjevtu7KPuI=";
   packages."i386_pentium-mmx"."telephony".sha256 = "sha256-OCADv94UZX/wL1K5Rz2GpXMFHVY7bb/vUpC7rslJhLU=";
-  targets."x86"."64".sha256 = "sha256-5IHlnj2lhTprM6R5FyHgCH6xFzcgaUm001lOej5kBMg=";
+  targets."x86"."64".sha256 = "sha256-ZGp46KGYnXqbIdEOCx+OCxRlxZMs3M7rDLijgSLcVeM=";
   targets."x86"."64".packagesArch = "x86_64";
   packages."x86_64"."base".sha256 = "sha256-NETXdtmarVvxRzD1aV1KMddtDNZlP1OksxySIcXRb3s=";
   packages."x86_64"."luci".sha256 = "sha256-7ShjcpkaJVouVOcPnRIRx+j+Em6qv9Mg9UEp/70T+nQ=";
