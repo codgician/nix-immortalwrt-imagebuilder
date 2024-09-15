@@ -120,7 +120,7 @@
   targets."imx"."cortexa53".packagesArch = "aarch64_cortex-a53";
   targets."starfive"."generic".sha256 = "sha256-DtLDg0cOUifvRjo/MqX1qs/XES1tPbAE+Lz0BWNyU4c=";
   targets."starfive"."generic".packagesArch = "riscv64_riscv64";
-  targets."mediatek"."filogic".sha256 = "sha256-aHbQYVK7CUB6IEb6UZ3ABs8jKCFAGt2gqTI5qQqj7XU=";
+  targets."mediatek"."filogic".sha256 = "sha256-X+Y4T4JPWiy5UTumQgRw+Id8hsBoDdjZbVd61wCTy74=";
   targets."mediatek"."filogic".packagesArch = "aarch64_cortex-a53";
   targets."mediatek"."mt7622".sha256 = "sha256-+mltxREKbTP9ZcMbL50wsO8wsD3ZR/spCn41NV8neBc=";
   targets."mediatek"."mt7622".packagesArch = "aarch64_cortex-a53";
