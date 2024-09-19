@@ -229,7 +229,7 @@
   packages."arm_fa526"."packages".sha256 = "sha256-X50rdIsEAJ4gsEbBsOt9wqMaCK6ZMLnuDOzjS+rh6/k=";
   packages."arm_fa526"."routing".sha256 = "sha256-t6Z/i3ioYiG9uLTgLKEs71bx8jgB4pfcycaKuIkd8is=";
   packages."arm_fa526"."telephony".sha256 = "sha256-LbG1TWM5xQtZ9Q/6wqMvPeH+zaWM1Yj+CAulx/LsE1k=";
-  targets."apm821xx"."sata".sha256 = "sha256-nBBd8cS11ey1WRgLoMfwFDN/xUi9qVer/GB2ywrID+o=";
+  targets."apm821xx"."sata".sha256 = "sha256-ZwkegwDtiUXLfcMq8kxOmLFvAGuQXHAAYM4+yFOC+MI=";
   targets."apm821xx"."sata".packagesArch = "powerpc_464fp";
   packages."powerpc_464fp"."base".sha256 = "sha256-jrAPune/lH+brEGJnmBDiccdOvfuTMpnTMlA6i8yXMM=";
   packages."powerpc_464fp"."luci".sha256 = "sha256-0mEB7CFPb7Louk4apMaQ1AgEU/l/0OdBhQfUI9Am8aw=";
