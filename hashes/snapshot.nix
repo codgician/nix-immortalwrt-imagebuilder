@@ -27,7 +27,7 @@
   packages."mipsel_24kc"."telephony".sha256 = "sha256-ZKH0ksCBCL5BB22Wc2kuXtjfYNksadWzPpM9GlgqtDM=";
   targets."ramips"."mt76x8".sha256 = "sha256-ZWUXhOaqbaWcivPAhrNEV0UUNXEbGPcoDOeMTa3KfZY=";
   targets."ramips"."mt76x8".packagesArch = "mipsel_24kc";
-  targets."ramips"."mt7621".sha256 = "sha256-21VzlPltVKHcEjWiWPx2/yG99EU0cggtMcdd2/GGznY=";
+  targets."ramips"."mt7621".sha256 = "sha256-YJILaMSNy9/gt8bIlt7zp9/BvViNEfvY9WY1LOnSQKo=";
   targets."ramips"."mt7621".packagesArch = "mipsel_24kc";
   targets."ramips"."rt3883".sha256 = "sha256-e+/fJYUcVlNQmAB3yLYNGTNb3XKh7R3ArTmHyDLTP7w=";
   targets."ramips"."rt3883".packagesArch = "mipsel_74kc";
@@ -321,7 +321,7 @@
   targets."realtek"."rtl839x".sha256 = "sha256-LpgJGzWe2B0/Zo/rqqt5u1SwIF4Esj+WoIiVwwzpC4s=";
   targets."realtek"."rtl839x".packagesArch = "mips_24kc";
   targets."realtek"."rtl931x".sha256 = "sha256-BDa3m7XNwCIk3evxopzGDJiNcDDBdPGOJ54hwHKp9nw=";
-  targets."realtek"."rtl838x".sha256 = "sha256-wZxw0IUsbWjL7GX8F3U7SXiv+h4ZHlhv3C7jcDasaV0=";
+  targets."realtek"."rtl838x".sha256 = "sha256-Z7lYt9i2apjbHd59kLqonZ3wgUdtzwESa2V/vyCT25Y=";
   targets."realtek"."rtl838x".packagesArch = "mips_4kec";
   packages."mips_4kec"."base".sha256 = "sha256-dKXQwegxRfPcNpYg0ndAOv+phjQ+eaSdhtHJhmDp9Gc=";
   packages."mips_4kec"."luci".sha256 = "sha256-lU8+Z4uf0VSj0QKKcnQereX/b28SVHn3D88TtBL+srs=";
