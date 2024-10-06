@@ -106,7 +106,7 @@
   targets."lantiq"."xway_legacy".sha256 = "sha256-roxmeTIqlwVBEDjYQ08/Q/s6QzEtuAeffrDyC2Pualo=";
   targets."ath79"."generic".sha256 = "sha256-JqH3q71ObUl7gA0le7yatLpz/U4BQnsaT7wt4YzBDdQ=";
   targets."ath79"."generic".packagesArch = "mips_24kc";
-  targets."ath79"."tiny".sha256 = "sha256-JHCCbqshiGyDhYFN+HHaya1r/9I1OuN2sKXUGRDWe6k=";
+  targets."ath79"."tiny".sha256 = "sha256-x0AYPZqo3mfiWO6KDvktYAGxSH24R5ZsW3WPIw7NSHs=";
   targets."ath79"."tiny".packagesArch = "mips_24kc";
   targets."ath79"."mikrotik".sha256 = "sha256-GYYzkLAX1wedbBmPlOXyaVpLqHNW95anurwdJ0Ioopo=";
   targets."ath79"."mikrotik".packagesArch = "mips_24kc";
@@ -229,14 +229,14 @@
   packages."arm_fa526"."packages".sha256 = "sha256-MP7KcOn20GU473KZ07oXy1FZ2sXN8uJn+JOX9DSRfkU=";
   packages."arm_fa526"."routing".sha256 = "sha256-uKuZ9wSC+J4vl6kW7zVeKTr7BiyFGLFljm05JqSNXXk=";
   packages."arm_fa526"."telephony".sha256 = "sha256-tTQn2rjOXScc/Pe16loZ4aZ7U1S0w+8wZQdm/iT00DE=";
-  targets."apm821xx"."sata".sha256 = "sha256-kh1HoPKAKyMHngGJrvV8lg7+qzIbzPL1dQyJTpviJhw=";
+  targets."apm821xx"."sata".sha256 = "sha256-cceWLgXQG6+Ys5Ms/rfASobcp3y5/620mHD6TPKEWDI=";
   targets."apm821xx"."sata".packagesArch = "powerpc_464fp";
   packages."powerpc_464fp"."base".sha256 = "sha256-m2Ox/N1RQRsfgE5HToTqVhD6ROabS2wE7OBwFIiELpo=";
   packages."powerpc_464fp"."luci".sha256 = "sha256-oT7x3rMCTzEWpwzX3kuXMJwzOBGUdATYV5KqoIwE3gQ=";
   packages."powerpc_464fp"."packages".sha256 = "sha256-w9zdXCERakpfgGMk7PtierTA0GkUtruSklQZQ1noeng=";
   packages."powerpc_464fp"."routing".sha256 = "sha256-elag0uxNtiknkL3eKrXQMNmwsOnKYK7dmxLkETRVwhw=";
   packages."powerpc_464fp"."telephony".sha256 = "sha256-a1+a+0cWUFyZ9BcKk1XfqDNHlKwqi9hoAHpxlk2Cwp8=";
-  targets."apm821xx"."nand".sha256 = "sha256-Sc4UHJodt8Ca2Gt9IOWnecERLYMFewAJ/LvC9OJQDmE=";
+  targets."apm821xx"."nand".sha256 = "sha256-0kkAJ1dI6fW7R/86LYEKzoltpETDE8mzL53uzAulFSg=";
   targets."apm821xx"."nand".packagesArch = "powerpc_464fp";
   targets."mpc85xx"."p1010".sha256 = "sha256-kG0vNT0hQ4cmKvqHdS3JdhI98pwY6fFT9ro9IKEMbI0=";
   targets."mpc85xx"."p1010".packagesArch = "powerpc_8548";
