@@ -354,69 +354,6 @@
     };
   };
   arc770 = {
-    generic = {
-      arch_packages = "arc_arc700";
-      default_packages = [
-        "base-files"
-        "block-mount"
-        "busybox"
-        "ca-bundle"
-        "default-settings-chn"
-        "dropbear"
-        "fstools"
-        "kmod-ipt-raw"
-        "kmod-nf-nathelper"
-        "kmod-nf-nathelper-extra"
-        "libc"
-        "libgcc"
-        "libustream-openssl"
-        "logd"
-        "luci"
-        "luci-app-cpufreq"
-        "luci-app-filetransfer"
-        "luci-app-turboacc"
-        "luci-compat"
-        "luci-lib-base"
-        "luci-lib-fs"
-        "luci-lib-ipkg"
-        "mtd"
-        "netifd"
-        "opkg"
-        "procd"
-        "uci"
-        "uclient-fetch"
-        "urandom-seed"
-        "urngd"
-      ];
-      metadata_version = 1;
-      profiles = {
-        nsim = {
-          device_packages = [ ];
-          image_prefix = "immortalwrt-21.02.0-arc770-generic-nsim";
-          images = [
-            {
-              filesystem = "initramfs";
-              name = "immortalwrt-21.02.0-arc770-generic-nsim-initramfs.elf";
-              sha256 = "1be0840436bb541ce6a6579ab0f2f032554401d82a476a50761918511765f8fb";
-              type = "kernel";
-            }
-          ];
-          supported_devices = [
-            "nsim"
-          ];
-          titles = [
-            {
-              model = "nSIM";
-              vendor = "Synopsys";
-            }
-          ];
-        };
-      };
-      source_date_epoch = "1650530611";
-      target = "arc770/generic";
-      version_code = "r19295-891f3af4fb";
-      version_number = "21.02.0";
-    };
     generic-glibc = {
       arch_packages = "arc_arc700";
       default_packages = [
@@ -482,69 +419,6 @@
     };
   };
   archs38 = {
-    generic = {
-      arch_packages = "arc_archs";
-      default_packages = [
-        "base-files"
-        "block-mount"
-        "busybox"
-        "ca-bundle"
-        "default-settings-chn"
-        "dropbear"
-        "fstools"
-        "kmod-ipt-raw"
-        "kmod-nf-nathelper"
-        "kmod-nf-nathelper-extra"
-        "libc"
-        "libgcc"
-        "libustream-openssl"
-        "logd"
-        "luci"
-        "luci-app-cpufreq"
-        "luci-app-filetransfer"
-        "luci-app-turboacc"
-        "luci-compat"
-        "luci-lib-base"
-        "luci-lib-fs"
-        "luci-lib-ipkg"
-        "mtd"
-        "netifd"
-        "opkg"
-        "procd"
-        "uci"
-        "uclient-fetch"
-        "urandom-seed"
-        "urngd"
-      ];
-      metadata_version = 1;
-      profiles = {
-        nsim_hs = {
-          device_packages = [ ];
-          image_prefix = "immortalwrt-21.02.0-archs38-generic-nsim_hs";
-          images = [
-            {
-              filesystem = "initramfs";
-              name = "immortalwrt-21.02.0-archs38-generic-nsim_hs-initramfs.elf";
-              sha256 = "4e577eb0344d3d37a168c0265c68c87dcebd7b498d0060a7ed4f0747e6458e7c";
-              type = "kernel";
-            }
-          ];
-          supported_devices = [
-            "nsim,hs"
-          ];
-          titles = [
-            {
-              model = "nSIM HS";
-              vendor = "Synopsys";
-            }
-          ];
-        };
-      };
-      source_date_epoch = "1650530611";
-      target = "archs38/generic";
-      version_code = "r19295-891f3af4fb";
-      version_number = "21.02.0";
-    };
     generic-glibc = {
       arch_packages = "arc_archs";
       default_packages = [
