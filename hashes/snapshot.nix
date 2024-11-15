@@ -91,7 +91,7 @@
   targets."ath79"."tiny".packagesArch = "mips_24kc";
   targets."ath79"."mikrotik".sha256 = "sha256-vHD2OW1SlH3pnd3EDG7GDA1X4HHGmi1l4cJfHIU5tT4=";
   targets."ath79"."mikrotik".packagesArch = "mips_24kc";
-  targets."ath79"."generic".sha256 = "sha256-sNgEhCE2y53oZwM/0uYMEBpCzsWbHGi71vwrPmgVKZQ=";
+  targets."ath79"."generic".sha256 = "sha256-3AhdoGGylj8GdRCD1npJLEN9tvj5stkTyiiSAEXbSgw=";
   targets."ath79"."generic".packagesArch = "mips_24kc";
   targets."ath79"."nand".sha256 = "sha256-vaedCDzID1QKB6ciyrsIP2Aq7BRAWTuKdmOAeJwQG2M=";
   targets."ath79"."nand".packagesArch = "mips_24kc";
