@@ -8,7 +8,7 @@
   packages."powerpc_464fp"."telephony".sha256 = "";
   targets."apm821xx"."nand".sha256 = "sha256-+GO8XEvOMGRwVTXT4aKUGFs56g37ntGwX2bWVQCDiFM=";
   targets."apm821xx"."nand".packagesArch = "powerpc_464fp";
-  targets."ipq806x"."generic".sha256 = "sha256-zuzq2S8e98O2AuV8oD9qHcac8PmhppFHXNLg/K1GDWA=";
+  targets."ipq806x"."generic".sha256 = "sha256-Y81mVjpL7n+CWGF7EOJMICvGpkk8bDqX9+HvGIDF7YI=";
   targets."ipq806x"."generic".packagesArch = "arm_cortex-a15_neon-vfpv4";
   packages."arm_cortex-a15_neon-vfpv4"."base".sha256 = "";
   packages."arm_cortex-a15_neon-vfpv4"."luci".sha256 = "";
