@@ -251,7 +251,7 @@
   targets."malta"."le64".sha256 = "sha256-cg0el5V+LpFqwdwdOteX4YRJ/N6kHzH4sMed4rt0hCk=";
   targets."malta"."be64".sha256 = "sha256-N3CGis2qWWa6lmgyzIAQfjgjPyEwlFpRbBFZLphwP1E=";
   targets."malta"."le".sha256 = "sha256-qzHooWSU10nsLu2vmJK+ex8cbIWuIJGsxCFpwt9hPyo=";
-  targets."bmips"."bcm6358".sha256 = "sha256-JqvS9J/wNpkZd2YEkv62w22c7IY64Rqq3484m7W4iI4=";
+  targets."bmips"."bcm6358".sha256 = "sha256-UY+HLVMCt09w5jxqLDdnmE1YylPger9imr/zBml+kWM=";
   targets."bmips"."bcm6358".packagesArch = "mips_mips32";
   packages."mips_mips32"."base".sha256 = "";
   packages."mips_mips32"."luci".sha256 = "";
@@ -266,7 +266,7 @@
   targets."bmips"."bcm6362".packagesArch = "mips_mips32";
   targets."bmips"."bcm6328".sha256 = "sha256-SHpwaewg4RkAJMW1wl3hb+CtXA7wpafsrhhFKHO80G8=";
   targets."bmips"."bcm6328".packagesArch = "mips_mips32";
-  targets."bmips"."bcm63268".sha256 = "sha256-OsU6Ca0BmrxYWSOLcKrafLBL61xLdvMP2eUDBVnqY0s=";
+  targets."bmips"."bcm63268".sha256 = "sha256-yHisEf0Ox9yl45+S+hqHPZViU0pQHpjvgXLWsCPjGUs=";
   targets."bmips"."bcm63268".packagesArch = "mips_mips32";
   targets."qualcommax"."ipq807x".sha256 = "sha256-Vh3NhcBnecfMX3FruvL/L7HRW/oFv8mWKXgPxkSu+A0=";
   targets."qualcommax"."ipq807x".packagesArch = "aarch64_cortex-a53";
