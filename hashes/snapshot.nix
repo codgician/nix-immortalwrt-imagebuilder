@@ -24,7 +24,7 @@
   packages."arm_cortex-a7_neon-vfpv4"."packages".sha256 = "";
   packages."arm_cortex-a7_neon-vfpv4"."routing".sha256 = "";
   packages."arm_cortex-a7_neon-vfpv4"."telephony".sha256 = "";
-  targets."ipq40xx"."generic".sha256 = "sha256-2o5LNGQYANPXK0PFybkSF/rZgoG5FP4QrTyhZ3XKAHw=";
+  targets."ipq40xx"."generic".sha256 = "sha256-+Ww0rPDaoVt88ptCOXZC6NB8RWoxoQAJ732/KZqCckM=";
   targets."ipq40xx"."generic".packagesArch = "arm_cortex-a7_neon-vfpv4";
   targets."ipq40xx"."chromium".sha256 = "sha256-mRdUeCnZDc6JITTTC8S7xJWPWofL8ISM5tvtD8s7nO8=";
   targets."ipq40xx"."chromium".packagesArch = "arm_cortex-a7_neon-vfpv4";
