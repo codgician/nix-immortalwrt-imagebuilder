@@ -223,13 +223,13 @@
   packages."mipsel_24kc"."packages".sha256 = "";
   packages."mipsel_24kc"."routing".sha256 = "";
   packages."mipsel_24kc"."telephony".sha256 = "";
-  targets."ramips"."mt76x8".sha256 = "sha256-CW1Zh/VFH1Yfs/jFT9VmSfpKlkJ/XvqoCPLEDa9AA5s=";
+  targets."ramips"."mt76x8".sha256 = "sha256-B9KSGaA8QSyr6SwuSCZTXVoT3Y2MdEQNRmmM/N4P1XM=";
   targets."ramips"."mt76x8".packagesArch = "mipsel_24kc";
   targets."ramips"."rt3883".sha256 = "sha256-6h5yBxagBgBCdW/qLch7Xhv6+KRcfQ/KfnOtYQwlWRg=";
   targets."ramips"."rt3883".packagesArch = "mipsel_74kc";
   targets."ramips"."rt305x".sha256 = "sha256-XyPyl9lX0nmYhGEiCjckoBpwEYRg5jN6RCJuUcQZj1U=";
   targets."ramips"."rt305x".packagesArch = "mipsel_24kc";
-  targets."ramips"."mt7621".sha256 = "sha256-ydAbzM0+ftLrpogi4kAVeoafasBHgH/9cQQdGENVLpo=";
+  targets."ramips"."mt7621".sha256 = "sha256-mTNniU3CeCGXw+d/Q52sagDAJOymPYk2XCdR3ZF6sjU=";
   targets."ramips"."mt7621".packagesArch = "mipsel_24kc";
   targets."starfive"."generic".sha256 = "sha256-5n2BmKN/+tJSvQ9AL3oFjIz3uznpO5ccCuzwRn7rjxU=";
   targets."starfive"."generic".packagesArch = "riscv64_riscv64";
