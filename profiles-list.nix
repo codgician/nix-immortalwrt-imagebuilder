@@ -10,8 +10,8 @@ let
       inherit (import ./profiles.nix {
         inherit pkgs release;
       }) allProfiles;
-    in pkgs.writeText "openwrt-${release}-profiles-list.md" ''
-      # OpenWRT ${release} profiles
+    in pkgs.writeText "immortalwrt-${release}-profiles-list.md" ''
+      # ImmortalWrt ${release} profiles
 
       ${lib.concatMapStrings (target:
         lib.concatMapStrings (variant: ''
@@ -26,7 +26,7 @@ let
     '';
 
 in
-pkgs.runCommand "openwrt-profiles" {
+pkgs.runCommand "immortalwrt-profiles" {
   passthru = lib.listToAttrs (map (release: {
     name = builtins.replaceStrings [ "." ] [ "_" ] release;
     value = list release;

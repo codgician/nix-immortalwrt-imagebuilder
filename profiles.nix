@@ -46,9 +46,9 @@ in rec {
       if builtins.length matches == 1
       then builtins.head matches
       else if matches == []
-      then throw "No match for OpenWRT profile ${profile}"
+      then throw "No match for ImmortalWrt profile ${profile}"
       else builtins.trace ''
-        ${builtins.length matches} matches for OpenWRT profile ${profile}
+        ${builtins.length matches} matches for ImmortalWrt profile ${profile}
         ${lib.concatMapStrings ({ target, variant }: ''
         - ${target}/${variant}
         '') matches}

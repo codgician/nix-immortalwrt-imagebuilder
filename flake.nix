@@ -1,5 +1,5 @@
 {
-  description = "Build OpenWRT images in Nix derivations";
+  description = "Build ImmortalWrt images in Nix derivations";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";

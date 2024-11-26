@@ -44,7 +44,7 @@ jobs:
           nix run .#generate-latest-release
           git add latest-release.nix
           git commit -m "latest-release: update" || true
-      - name: Cache OpenWrt profile information
+      - name: Cache ImmortalWrt profile information
         shell: bash
         run: |
           git rm cached-profiles/*
