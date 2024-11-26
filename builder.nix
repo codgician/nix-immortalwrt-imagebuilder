@@ -67,7 +67,7 @@ in
 
 pkgs.stdenv.mkDerivation ({
   name = lib.concatStringsSep "-" ([
-    "openwrt" release
+    "immortalwrt" release
   ] ++ lib.optional (extraImageName != null) extraImageName
   ++ [ target variant profile ]);
 
@@ -92,7 +92,7 @@ pkgs.stdenv.mkDerivation ({
 
   configurePhase =
     let
-      installPackages = pkgs.writeScript "install-openwrt-packages" (
+      installPackages = pkgs.writeScript "install-immortalwrt-packages" (
         lib.concatMapStrings (pname:
           let
             package = allPackages.${pname};
@@ -109,11 +109,11 @@ pkgs.stdenv.mkDerivation ({
 
       echo "src imagebuilder file:packages" > repositories.conf
 
-      # if the user provided key-build, key-build.pub and key-build.ucert in /run/openwrt use it
+      # if the user provided key-build, key-build.pub and key-build.ucert in /run/immortalwrt use it
       # NOTE: they need to be owned by group nixbld and have permission 440
       # NOTE2: auto-allocate-uids must be disabled because of bug https://github.com/NixOS/nix/issues/9276
-      if [[ -d /run/openwrt ]]; then
-        for file in /run/openwrt/*; do
+      if [[ -d /run/immortalwrt ]]; then
+        for file in /run/immortalwrt/*; do
           ln -s $file $(basename $file)
         done
       fi

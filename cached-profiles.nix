@@ -27,12 +27,12 @@ let
           )
         ) hashes.targets;
 
-    in pkgs.writeText "openwrt-cached-profiles-${release}.nix" (
+    in pkgs.writeText "immortalwrt-cached-profiles-${release}.nix" (
       lib.generators.toPretty {} profiles
     );
 
 in
-pkgs.runCommand "openwrt-cached-profiles" {
+pkgs.runCommand "immortalwrt-cached-profiles" {
   passthru = lib.listToAttrs (map (release: {
     name = builtins.replaceStrings [ "." ] [ "_" ] release;
     value = writeProfiles release;
