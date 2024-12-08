@@ -270,7 +270,7 @@
   targets."bmips"."bcm63268".packagesArch = "mips_mips32";
   targets."qualcommax"."ipq807x".sha256 = "sha256-vY263G2LCZqy9S/iLQyKC8TemByAB1hV9nU7qdNORiM=";
   targets."qualcommax"."ipq807x".packagesArch = "aarch64_cortex-a53";
-  targets."qualcommax"."ipq60xx".sha256 = "sha256-36m6K9TcnQbkvddLN+vt/fzB287ojjnqS5U5k9CcTEk=";
+  targets."qualcommax"."ipq60xx".sha256 = "sha256-5HkPTsrfJHQ9DSNKHpCiq/vMFouSrr9/JT8tuMFQH+g=";
   targets."qualcommax"."ipq60xx".packagesArch = "aarch64_cortex-a53";
   targets."octeon"."generic".sha256 = "sha256-f3WcKHuJu0YJBH51b/fpbWzoYXe7hikkGRyTl1lxY20=";
   targets."octeon"."generic".packagesArch = "mips64_octeonplus";
