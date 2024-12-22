@@ -73,11 +73,11 @@
   targets."lantiq"."xrx200".sha256 = "sha256-AFR6bID4RyswbHzGz+76idjBDS7/ufLu5qbK3nFaab8=";
   kmods."lantiq"."xrx200"."6.6.63-1-f897fa5acf8485dae42556479a6044f7".sha256 = "sha256-i2F8gAx8+wZ7UWtyPnRrRO8BZYvMEe8KvRSYVbZlh/I=";
   targets."lantiq"."xrx200".packagesArch = "mips_24kc";
-  packages."mips_24kc"."base".sha256 = "sha256-W76qb9Encu9udsx/KtaIsb9G20XFuXrcs5arqrIP3Ps=";
-  packages."mips_24kc"."luci".sha256 = "sha256-Px2vbY97SYOJ/O+CsL91QZKFfGCec4XlHFkXTjNMJwc=";
-  packages."mips_24kc"."packages".sha256 = "sha256-NkVOklKmCFe+MuOcbFm0naRDjSlqi5R/TE9iNWpBl9I=";
-  packages."mips_24kc"."routing".sha256 = "sha256-tZdLyR1aLNKdPwsowmXNssLVgThbRAONYZMU3ko2hb0=";
-  packages."mips_24kc"."telephony".sha256 = "sha256-4Gx6c4b0/9YFpabTKWzPPQywvYbnH12ZqHwZJfmM7T4=";
+  packages."mips_24kc"."base".sha256 = "sha256-5aMwCNf4tihAbY1/cz4mHLjIb8N28NfLrvy3OFZOuw8=";
+  packages."mips_24kc"."luci".sha256 = "sha256-R/zIvDaVWVcRvlUsr8Vv+M//7FRaPa6xVwOTpV4mgv0=";
+  packages."mips_24kc"."packages".sha256 = "sha256-vC46W/yhsvVM6+ZDnPeiRXcLEBkBWXLm75o1OBeH4tY=";
+  packages."mips_24kc"."routing".sha256 = "sha256-wJPJ3rTtdW5U1ilUW88pvOhojW6G+SqJ1j2mEPfjMuc=";
+  packages."mips_24kc"."telephony".sha256 = "sha256-vX7FBpo1rg5+raQf3J9zvomhhx+TQy/5EktbvjHeeLc=";
   targets."lantiq"."ase".sha256 = "sha256-TtC/Jt0qtSdQb7TnwIMytcvRVqU8wwRgMtXmNT6CFZs=";
   targets."lantiq"."xway".sha256 = "sha256-7tjuX/A7YuqFqcr7jfsTJY8zfCflwpRfo1nPXE+0pJQ=";
   kmods."lantiq"."xway"."6.6.63-1-32a4a738d99b502886de20e4574bc9fd".sha256 = "sha256-YWmw9YReec3j+NJikD2Rq7uF/0gp8b+U6xe18KuLYPI=";
