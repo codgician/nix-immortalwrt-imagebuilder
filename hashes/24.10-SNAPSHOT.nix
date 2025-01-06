@@ -114,8 +114,8 @@
   targets."ath79"."mikrotik".sha256 = "sha256-rzkkxQd16oXxWqu2cK5w8ExKAIv6VM/9Lm0hc75mcB0=";
   kmods."ath79"."mikrotik"."6.6.69-1-6467169e2c1c6a80918a8e116544ef5a".sha256 = "sha256-qvBmukDuuvdWx3+pQojkJV0SBaIRxxXPZpfxmkvbaX8=";
   targets."ath79"."mikrotik".packagesArch = "mips_24kc";
-  targets."ath79"."generic".sha256 = "sha256-tMe8hnica/9kIHGgfM+Tn84AW5WUuRjBoiQnw7HTZW0=";
-  kmods."ath79"."generic"."6.6.66-1-d5d36f31ea77fc73368e6b646b43e0c1".sha256 = "sha256-EO0Nu8F1oYJ7j+RI+l2LVse5VF8ey1EI1JnGlcM6NOY=";
+  targets."ath79"."generic".sha256 = "sha256-EWAJzCajvHPR2SvS6yqM5rFlI6qJIeIq8gvpVlWC8dc=";
+  kmods."ath79"."generic"."6.6.69-1-2547c42e73ae156139ec8e2d833363a3".sha256 = "sha256-c0PJPp8vuWQzbAgdV9bKPvfsZc7+Wbs+7sLMc95vvy0=";
   targets."ath79"."generic".packagesArch = "mips_24kc";
   targets."ath79"."nand".sha256 = "sha256-SoU2hHYR5ai0GvXH95N1lABmDU3uqSGvscJ9dT00gO4=";
   kmods."ath79"."nand"."6.6.69-1-a6c034a4fc4c276a41cd30aebe6caa17".sha256 = "sha256-QxpRUuG+8P7Gi4AVlC31EAqRGfPvO48z0y1qftUmRrs=";
@@ -283,8 +283,8 @@
   targets."ramips"."rt305x".sha256 = "sha256-HezkBgDOiYl/77Sk6QldA97mZffHwNsNeFbj+ckoSJA=";
   kmods."ramips"."rt305x"."6.6.69-1-ed77db6dd0065910cbbf7b414e2278ca".sha256 = "sha256-YGD/kUq9mFgrhzfhoVbNsgSr4EzioVaKNBiYp5Q/ucI=";
   targets."ramips"."rt305x".packagesArch = "mipsel_24kc";
-  targets."ramips"."mt7621".sha256 = "sha256-GqUpWFCrgRMx5A6H5i2N/t6W6WNOoKPzO2WnETy6xaE=";
-  kmods."ramips"."mt7621"."6.6.66-1-55ed3bb24fffc0d7cbb00e7a93ee1422".sha256 = "sha256-BJYJSjRwCjFBWl6X/YlZSZPj4prMoD4dasvoLwxuKJ4=";
+  targets."ramips"."mt7621".sha256 = "sha256-iZMrLS0t0cJz1EC91abTpPF7P9RXblw32YeTP2dLM4U=";
+  kmods."ramips"."mt7621"."6.6.69-1-2b9f6399cf526d77b054a3c7362cbeb2".sha256 = "sha256-oucQoV3OZAqqDeG46v0ytTDmk9PPecmhFqvD/PBNB14=";
   targets."ramips"."mt7621".packagesArch = "mipsel_24kc";
   targets."starfive"."generic".sha256 = "sha256-VjxkNFJ4u8LpvQ1dNGs0QP6X91zvKC4PVQvT4aSSM7Y=";
   kmods."starfive"."generic"."6.6.69-1-8370bc8a542663304278a33e4a3d7c22".sha256 = "sha256-uaja2Yd1Sik1UoAaGiEp+hrIrAf5/ssYxL/V3/LyrTo=";
