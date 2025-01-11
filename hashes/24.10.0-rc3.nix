@@ -175,8 +175,8 @@
   packages."i386_pentium4"."base".sha256 = "sha256-mj3DbaYwGV/zLLWCgWVogZOYOdVaQtoqJuWzA8h9qMc=";
   packages."i386_pentium4"."luci".sha256 = "sha256-hXBVXkqJ3dqrI8iu+ZFI1Jbnf7N4xiE93KaOYWUUaUs=";
   packages."i386_pentium4"."packages".sha256 = "sha256-nStRITrDUYxsGyxV3+R2d9/VUeSCWIvdD9qtMRwinb8=";
-  packages."i386_pentium4"."routing".sha256 = "sha256-Wp06DfK/qSdO66RzZZf6jx5RuGxFUdCj1K39AP8Des8=";
-  packages."i386_pentium4"."telephony".sha256 = "sha256-GmTmmdCHCU4/9ej6eP2ytGX3BMc3lXhAYucZtDvkn5g=";
+  packages."i386_pentium4"."routing".sha256 = "sha256-rjLTYwcOPETySvTjt8cwPdbI9KoGtaDvBbvLZNL2q6A=";
+  packages."i386_pentium4"."telephony".sha256 = "sha256-ga7sk0oSCNpp8NSBLP8oS01n24VyCmoVGg9RguGitm0=";
   targets."x86"."geode".sha256 = "sha256-oprnK8zaQgROVnEfHBMPPZ3Lf0b+FTdmPztlDfFaCjY=";
   kmods."x86"."geode"."6.6.67-1-7fb02830b4218f052529d630bfc17bac".sha256 = "sha256-/WNGTtcxxJ9JQ7r8tGiqRGFZ3ZEUyfcB+kby1XpAjrs=";
   targets."x86"."geode".packagesArch = "i386_pentium-mmx";
@@ -384,9 +384,9 @@
   targets."realtek"."rtl838x".sha256 = "sha256-xZo3ybaxw/uaJUSz/6p7OTyzvPo+TSwa6FnM16e/vsA=";
   kmods."realtek"."rtl838x"."6.6.67-1-cf86d3140203a199e89f30f843f4e3f4".sha256 = "sha256-Px0U/qXadXhHT8Yy/kzz4mYPKpmDLGJ7EmNfRV1meZQ=";
   targets."realtek"."rtl838x".packagesArch = "mips_4kec";
-  packages."mips_4kec"."base".sha256 = "sha256-/X14913ZzvPyUYyHb6vX+utyLCA/c8T37xZK81niEg8=";
-  packages."mips_4kec"."luci".sha256 = "sha256-LnHf5V5fi/tcCI0EYoduDXsLNRkKX70P0OKVlPBBCT4=";
-  packages."mips_4kec"."packages".sha256 = "sha256-/oWYC3NjD6z9qldGnQ55rhUKq1NVcrnJe92HlbxmY8I=";
+  packages."mips_4kec"."base".sha256 = "sha256-AG4lURwoZzJWAwbG8t5UXmw+vEt20rSqRS0SNfe3MBk=";
+  packages."mips_4kec"."luci".sha256 = "sha256-8RI2Aepm+qkAyct6ik+MAfOQEcoce+009KhdLv98rcU=";
+  packages."mips_4kec"."packages".sha256 = "sha256-AOMPldWGLgolbJciB0cpUqU+rYzIumMsFn+i+oF5CzA=";
   packages."mips_4kec"."routing".sha256 = "sha256-Fa9r7NLUPL1+Up/cD1VW6B/ftuXeZDIPxB6+kL8Je08=";
   packages."mips_4kec"."telephony".sha256 = "sha256-Xm6SF0b4VuHl0NjzxY4oGusyhJXs1L8xTUrgj6NTJew=";
   targets."realtek"."rtl930x".sha256 = "sha256-POZrg60Qcyc1M6PL+GLTxvGIoo+ylo0DzL/HkkYRSPg=";
