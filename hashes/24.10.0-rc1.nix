@@ -131,9 +131,9 @@
   targets."pistachio"."generic".sha256 = "sha256-/yEPox8d5lUke1A9XJPO3tSDRFN8oX7NIwvGBDvzCVg=";
   kmods."pistachio"."generic"."6.6.63-1-2476b6159e73e95b504810df623601fe".sha256 = "sha256-+17F8sBbolS/pG3STCuA0ZOJZuT7wZNOTcd846D0cD8=";
   targets."pistachio"."generic".packagesArch = "mipsel_24kc_24kf";
-  packages."mipsel_24kc_24kf"."base".sha256 = "sha256-s8CWqb4QTcU7QkpojIrwicgv1KlBv+sHS/ZcvJ6i37k=";
-  packages."mipsel_24kc_24kf"."luci".sha256 = "sha256-9zxm4bbUwAiB0t5fuf++0NJGvNo56kRlE+9+18yEN2k=";
-  packages."mipsel_24kc_24kf"."packages".sha256 = "sha256-JMdE7rNCTqzijUkt9Oww7WXBLschGcDwhaoTupOx5x4=";
+  packages."mipsel_24kc_24kf"."base".sha256 = "sha256-IrjdSqbWLssAASszHrSRSasFH/gePG1Y1ISEiY9JsGQ=";
+  packages."mipsel_24kc_24kf"."luci".sha256 = "sha256-WvI6VO5xC+5lrPi2Lk1aiaq8whDIMyvmzSPwgqSz1xk=";
+  packages."mipsel_24kc_24kf"."packages".sha256 = "sha256-B0nzyWNts1XEyk8z7WEezROjGxGu7uxtV4o8Wct/+ms=";
   packages."mipsel_24kc_24kf"."routing".sha256 = "sha256-fmjLv/jkR71A4ahgAbu/KVq4fEIxBjj0/fFe1hnlUqo=";
   packages."mipsel_24kc_24kf"."telephony".sha256 = "sha256-UhlZ350tQzR6vfrMgwsPJJ6NqtKUNR00bPPmZTsDNQA=";
   targets."armsr"."armv7".sha256 = "sha256-pR0IvYczI49oBNTP2Rn/Gaqu9g5BNW6173ro228GX9I=";
@@ -384,8 +384,8 @@
   packages."mips_4kec"."base".sha256 = "sha256-AG4lURwoZzJWAwbG8t5UXmw+vEt20rSqRS0SNfe3MBk=";
   packages."mips_4kec"."luci".sha256 = "sha256-8RI2Aepm+qkAyct6ik+MAfOQEcoce+009KhdLv98rcU=";
   packages."mips_4kec"."packages".sha256 = "sha256-AOMPldWGLgolbJciB0cpUqU+rYzIumMsFn+i+oF5CzA=";
-  packages."mips_4kec"."routing".sha256 = "sha256-Fa9r7NLUPL1+Up/cD1VW6B/ftuXeZDIPxB6+kL8Je08=";
-  packages."mips_4kec"."telephony".sha256 = "sha256-Xm6SF0b4VuHl0NjzxY4oGusyhJXs1L8xTUrgj6NTJew=";
+  packages."mips_4kec"."routing".sha256 = "sha256-WASRFElOMZ3IsSagopAoCnLwRWKKDt+XVQycvWJvXS4=";
+  packages."mips_4kec"."telephony".sha256 = "sha256-hvHZtE1wZaScUHS+m4cQDuMW3qQHbMDwcMrdye6bR2I=";
   targets."realtek"."rtl930x".sha256 = "sha256-iSc60yYrrEKie8oJmmaFKqMC7ovGF0eY5anJ5VQEfSs=";
   kmods."realtek"."rtl930x"."6.6.63-1-8b4d6f45d79c58c530743becaa4ccc99".sha256 = "sha256-hV4zHgX+WocFXFjlpKo6iSaGJE1a+JOY4d2uHa7IrEg=";
   targets."realtek"."rtl930x".packagesArch = "mips_24kc";
