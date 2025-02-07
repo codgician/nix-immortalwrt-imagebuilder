@@ -60917,4 +60917,5123 @@
       version_number = "24.10.0";
     };
   };
+  rockchip = {
+    armv8 = {
+      arch_packages = "aarch64_generic";
+      default_packages = [
+        "autocore"
+        "automount"
+        "base-files"
+        "block-mount"
+        "ca-bundle"
+        "default-settings-chn"
+        "dnsmasq-full"
+        "dropbear"
+        "fdisk"
+        "firewall4"
+        "fstools"
+        "kmod-gpio-button-hotplug"
+        "kmod-nf-nathelper"
+        "kmod-nf-nathelper-extra"
+        "kmod-nft-offload"
+        "libc"
+        "libgcc"
+        "libustream-openssl"
+        "logd"
+        "luci-app-cpufreq"
+        "luci-app-package-manager"
+        "luci-compat"
+        "luci-lib-base"
+        "luci-lib-ipkg"
+        "luci-light"
+        "mkf2fs"
+        "mtd"
+        "netifd"
+        "nftables"
+        "odhcp6c"
+        "odhcpd-ipv6only"
+        "opkg"
+        "partx-utils"
+        "ppp"
+        "ppp-mod-pppoe"
+        "procd-ujail"
+        "uboot-envtools"
+        "uci"
+        "uclient-fetch"
+        "urandom-seed"
+        "urngd"
+      ];
+      linux_kernel = {
+        release = "1";
+        vermagic = "f03df7cf7b7424bf4377334a801e4b66";
+        version = "6.6.73";
+      };
+      metadata_version = 1;
+      profiles = {
+        ariaboard_photonicat = {
+          device_packages = [
+            "kmod-ath10k-sdio"
+            "ath10k-firmware-qca9377-sdio"
+            "wpad-openssl"
+            "kmod-usb-net-cdc-mbim"
+            "kmod-usb-net-qmi-wwan"
+            "kmod-usb-serial-option"
+            "uqmi"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-ariaboard_photonicat";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-ariaboard_photonicat-squashfs-sysupgrade.img.gz";
+              sha256 = "d7b79cd9768d80274bc4fdbf87dd0324935252920de56b78c81e0592e8326801";
+              sha256_unsigned = "3dc8f6fdc2a0add6d312628d5eace5d1f90f11b8b19dc8ecff0610196ab267e2";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-ariaboard_photonicat-ext4-sysupgrade.img.gz";
+              sha256 = "5c026017da544255e519a7c72380e7f7525a5ece26a7d94dbdf53721ded8f37a";
+              sha256_unsigned = "a0cfeed980df2d57ee19508ccb3ef0ce912ad57e93b9551a00dcb9f293f0f847";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "ariaboard,photonicat"
+          ];
+          titles = [
+            {
+              model = "Photonicat";
+              vendor = "Ariaboard";
+            }
+          ];
+        };
+        armsom_sige3 = {
+          device_packages = [
+            "kmod-brcmfmac"
+            "kmod-r8125"
+            "wpad-openssl"
+            "brcmfmac-firmware-43752-sdio"
+            "brcmfmac-nvram-43752-sdio"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-armsom_sige3";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-armsom_sige3-squashfs-sysupgrade.img.gz";
+              sha256 = "e790564cfbcb71ca27908fb8e6ee5fd79d4a5794d3628cee2ae35dfa40df8ade";
+              sha256_unsigned = "6b0ab3259ef6d0818991b7b73bd5d2f47f38589dcdc950e47de175311bc166b3";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-armsom_sige3-ext4-sysupgrade.img.gz";
+              sha256 = "06390c0a3dd00e967f9f40b697a765f0ee87ab2e6d7217f6951748e7fe4f28fd";
+              sha256_unsigned = "16c58f37d8f5b26fce8f1b3971ac1a7358077ed33285f772429d47280a412933";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "armsom,sige3"
+          ];
+          titles = [
+            {
+              model = "Sige3";
+              vendor = "ArmSoM";
+            }
+          ];
+        };
+        armsom_sige7 = {
+          device_packages = [
+            "kmod-brcmfmac"
+            "kmod-r8125"
+            "wpad-openssl"
+            "brcmfmac-firmware-43752-pcie"
+            "brcmfmac-nvram-43752-pcie"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-armsom_sige7";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-armsom_sige7-squashfs-sysupgrade.img.gz";
+              sha256 = "32d7878db43d7b6e25dfdc0f3d6850a04ff21aeb3f41289c027110a832dacbab";
+              sha256_unsigned = "8f4086543e9006872d3b3b3f044bd07e49eeac76b5ff44c2140189656d7ba747";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-armsom_sige7-ext4-sysupgrade.img.gz";
+              sha256 = "017e0ddfb7d6a50216a03b40c2e633548946223c80493405869204eb8ec16b64";
+              sha256_unsigned = "758d969f5e69eacb361f5b9e85374e47b4c3b792953f42b601518f884ad40cd7";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "armsom,sige7"
+          ];
+          titles = [
+            {
+              model = "Sige7";
+              vendor = "ArmSoM";
+            }
+            {
+              model = "BPi-M7";
+              vendor = "Bananapi";
+            }
+          ];
+        };
+        cyber_cyber3588-aib = {
+          device_packages = [
+            "kmod-ata-ahci-dwc"
+            "kmod-r8125"
+            "kmod-mt7921e"
+            "wpad-openssl"
+            "kmod-usb-net-cdc-mbim"
+            "kmod-usb-net-qmi-wwan"
+            "kmod-usb-serial-option"
+            "uqmi"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-cyber_cyber3588-aib";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-cyber_cyber3588-aib-squashfs-sysupgrade.img.gz";
+              sha256 = "0fd7d2c52aad354fb66a7b9f243844514ed31e4a6aaf3259df6bbf935b9579d8";
+              sha256_unsigned = "3c8769701b744c7acb322a080e916592ae50ea3dd1cd9fba3a107a71d0304a78";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-cyber_cyber3588-aib-ext4-sysupgrade.img.gz";
+              sha256 = "185189fbf37ebea3b86158effa8a11938dd6ebb797ba03dbe3bf1fed2fe2ff65";
+              sha256_unsigned = "ddee391f04029efa782d35904b3d82b0c84f44c356e8ea7c1bf8baf2d676af16";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "cyber,cyber3588-aib"
+          ];
+          titles = [
+            {
+              model = "3588 AIB";
+              vendor = "Cyber";
+            }
+          ];
+        };
+        ezpro_mrkaio-m68s = {
+          device_packages = [
+            "kmod-ata-ahci-dwc"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-ezpro_mrkaio-m68s";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-ezpro_mrkaio-m68s-ext4-sysupgrade.img.gz";
+              sha256 = "d2eac63d15ca256084a3b1e6fabf266d176314c9bb3e839c3fae4456262ef6f4";
+              sha256_unsigned = "9f8fec544011a50c8adba56f9efe9b9c32937a36013c3b078cc0551070c03870";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-ezpro_mrkaio-m68s-squashfs-sysupgrade.img.gz";
+              sha256 = "03a7fb1dbcd1fb3f042017c5b6b56265fea7fc7c713b0b1d6d5397edce2d87a7";
+              sha256_unsigned = "799b479e3e5690056165e4a2018787a35aca86ba41314a0e39a566195fb28250";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "ezpro,mrkaio-m68s"
+          ];
+          titles = [
+            {
+              model = "Mrkaio M68S";
+              vendor = "EZPRO";
+            }
+          ];
+        };
+        firefly_roc-rk3328-cc = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-firefly_roc-rk3328-cc";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-firefly_roc-rk3328-cc-squashfs-sysupgrade.img.gz";
+              sha256 = "730bc7881abde31da9b7f836a28337a2f10b83584214cea733d8b27462ec7a58";
+              sha256_unsigned = "27e628b4ac41d11d0aaace8695ef3184089843be45e527239321fd5cd0a4fe35";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-firefly_roc-rk3328-cc-ext4-sysupgrade.img.gz";
+              sha256 = "891a44300082afe566cd73b3a3dcf96804458ff6643c8fb7b9528363b9580778";
+              sha256_unsigned = "957f094e59e252fbae8f6b01848e4581711a0c05cd4bc55a00a88ef84d4691c8";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "firefly,roc-rk3328-cc"
+          ];
+          titles = [
+            {
+              model = "ROC-RK3328-CC";
+              vendor = "Firefly";
+            }
+          ];
+        };
+        firefly_roc-rk3568-pc = {
+          device_packages = [
+            "kmod-ata-ahci-dwc"
+            "kmod-brcmfmac"
+            "wpad-openssl"
+            "brcmfmac-firmware-43752-sdio"
+            "brcmfmac-nvram-43752-sdio"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-firefly_roc-rk3568-pc";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-firefly_roc-rk3568-pc-squashfs-sysupgrade.img.gz";
+              sha256 = "24e09c5f605f9260ad529305dedee4afe08deed6fd4ca721bc265c1850415a1a";
+              sha256_unsigned = "c1b60e5f1803734136f3c9f0c58abb9fef19159565c8da3da91b622514f763e0";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-firefly_roc-rk3568-pc-ext4-sysupgrade.img.gz";
+              sha256 = "a39e380d895fe1cf8117f9fbee4f76d88cf5781be53e6d14dd3b7b57d9fa9127";
+              sha256_unsigned = "21a48884012f5a0e1dc4f6eda65a580b38770374715c813a13fd191c93dcb68f";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "firefly,rk3568-roc-pc"
+          ];
+          titles = [
+            {
+              model = "Station P2";
+              vendor = "Firefly";
+            }
+            {
+              model = "ROC-RK3568-PC";
+              vendor = "Firefly";
+            }
+          ];
+        };
+        friendlyarm_nanopc-t4 = {
+          device_packages = [
+            "kmod-brcmfmac"
+            "wpad-openssl"
+            "brcmfmac-firmware-4356-sdio"
+            "brcmfmac-nvram-4356-sdio"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopc-t4";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopc-t4-ext4-sysupgrade.img.gz";
+              sha256 = "2d5a23e0bad059794adca6f31c0f316030a04170c7f5b6e5cf511398e273f5b2";
+              sha256_unsigned = "e16f8afd07f765fd1b6e198513618fc4d664bd366beadb942b86572c29755801";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopc-t4-squashfs-sysupgrade.img.gz";
+              sha256 = "26e700cb1cb5401404fe40adf626b000d2e764eadd62018805e4ecdb74cc2c36";
+              sha256_unsigned = "e8afb2be8bd608d5e396ce44f4a5275bb0bbf27990b1f9fbdfb467421cce50ba";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "friendlyarm,nanopc-t4"
+          ];
+          titles = [
+            {
+              model = "NanoPC T4";
+              vendor = "FriendlyARM";
+            }
+          ];
+        };
+        friendlyarm_nanopc-t6 = {
+          device_packages = [
+            "kmod-r8125"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopc-t6";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopc-t6-ext4-sysupgrade.img.gz";
+              sha256 = "6d2ba175253e5f4fc5b351263bdbc42c4cb20673f8813f1150f54e8b251a7c96";
+              sha256_unsigned = "ff270cc03c7a72f9335ad6d737d6d764167d6ce6939bf02957a16abdd2238c52";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopc-t6-squashfs-sysupgrade.img.gz";
+              sha256 = "890a84088e55add866a5dbc489c1944fc7d58cdcc7b6ed450f4d13f6dd88219d";
+              sha256_unsigned = "5c408e5b64b04eb50893cf05c337d2839842c910e1f11e7c9984f599db4a363a";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "friendlyarm,nanopc-t6"
+          ];
+          titles = [
+            {
+              model = "NanoPC T6";
+              vendor = "FriendlyARM";
+            }
+          ];
+        };
+        friendlyarm_nanopi-r2c = {
+          device_packages = [
+            "kmod-usb-net-rtl8152"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r2c";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r2c-squashfs-sysupgrade.img.gz";
+              sha256 = "bd9373237495ba7f378cf1a2752587ab60d8a91ea39a1e679d386812369d4078";
+              sha256_unsigned = "662f613e75f55df75dfc465c3f72f253552a9540ef0de858be05e2e816788055";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r2c-ext4-sysupgrade.img.gz";
+              sha256 = "bc8953fd3e85cbe86b04b56d94cc3b0134d63e23e709a3dbb66db710d0c338b0";
+              sha256_unsigned = "f00b7124a314dcce7503f883380bd089d8bc1814e6d9bdafca465ddce792a247";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "friendlyarm,nanopi-r2c"
+          ];
+          titles = [
+            {
+              model = "NanoPi R2C";
+              vendor = "FriendlyARM";
+            }
+          ];
+        };
+        friendlyarm_nanopi-r2c-plus = {
+          device_packages = [
+            "kmod-usb-net-rtl8152"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r2c-plus";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r2c-plus-ext4-sysupgrade.img.gz";
+              sha256 = "216bfe7d19f29581e03976e648f37bcb454e80783fdca7b3a1494369e8030c62";
+              sha256_unsigned = "a1ce5f14d83311b3257274c6081d7db5be6e10cf3676102cdc208680cc6d37d0";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r2c-plus-squashfs-sysupgrade.img.gz";
+              sha256 = "093d9676ede825402be8446a58fdfeec0c7479b12342dbe8e0d28fda7918b71a";
+              sha256_unsigned = "dcdd5f484f93aadda04e02dc96786576d96117adcee0f53fbb211ea6dc47fbdb";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "friendlyarm,nanopi-r2c-plus"
+          ];
+          titles = [
+            {
+              model = "NanoPi R2C Plus";
+              vendor = "FriendlyARM";
+            }
+          ];
+        };
+        friendlyarm_nanopi-r2s = {
+          device_packages = [
+            "kmod-usb-net-rtl8152"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r2s";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r2s-ext4-sysupgrade.img.gz";
+              sha256 = "5a174b58d67f1f4fb3bc968087fabbd02678926f2b6082b11b439ef4f094cd5e";
+              sha256_unsigned = "f83fef2a16bd14aa9295a4a0583005c8cddbc058e3017745ea5c02646fb5a161";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r2s-squashfs-sysupgrade.img.gz";
+              sha256 = "7ef0f6a0d859bae9d4ba5508ca329f6a3e3f0708ee5ac47f387750ee4d6f4efe";
+              sha256_unsigned = "9e0596d52454e554e7b6be212108b4d2ffa6b726511049357c82f3d6bf10ee9c";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "friendlyarm,nanopi-r2s"
+          ];
+          titles = [
+            {
+              model = "NanoPi R2S";
+              vendor = "FriendlyARM";
+            }
+          ];
+        };
+        friendlyarm_nanopi-r3s = {
+          device_packages = [
+            "kmod-r8168"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r3s";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r3s-squashfs-sysupgrade.img.gz";
+              sha256 = "d036a3ee521d4fce6af543d0ea75ef8b34167bda329b255aac3f9ca6e54420dd";
+              sha256_unsigned = "f546722c04a55d218e3dc980e0898e3d8131aca5b13826f2cb26c6f5757dcdd6";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r3s-ext4-sysupgrade.img.gz";
+              sha256 = "26ec2df12c9b7ef028b1fe49f1f917ed412259a24eb1cf52410160346fc47c7b";
+              sha256_unsigned = "722e33eefa96993b3209bc4ca6f50d2ccd521ef8e8b7ef08ba864f71e6b0527a";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "friendlyarm,nanopi-r3s"
+          ];
+          titles = [
+            {
+              model = "NanoPi R3S";
+              vendor = "FriendlyARM";
+            }
+          ];
+        };
+        friendlyarm_nanopi-r4s = {
+          device_packages = [
+            "kmod-r8168"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r4s";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r4s-squashfs-sysupgrade.img.gz";
+              sha256 = "d45bfdffacb084f1f7b7241e2e5181de2c2355fb067b1a9727be7b9b6415b9cf";
+              sha256_unsigned = "a0bcb73b0bdcc5d260389a1a92cbdf7b5ae34a0e782a69df422317ce9f6f8854";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r4s-ext4-sysupgrade.img.gz";
+              sha256 = "99501deb72c5186c7f2fb95e1722c7e82050cbf2f2baa5399ca3745805985a5f";
+              sha256_unsigned = "00ad2c7105262f5ef945bb5c505fff041b8a7a394a444de1291f91d5dbc9d970";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "friendlyarm,nanopi-r4s"
+          ];
+          titles = [
+            {
+              model = "NanoPi R4S";
+              vendor = "FriendlyARM";
+            }
+          ];
+        };
+        friendlyarm_nanopi-r4s-enterprise = {
+          device_packages = [
+            "kmod-r8168"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r4s-enterprise";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r4s-enterprise-ext4-sysupgrade.img.gz";
+              sha256 = "1b26f577a02e9c1196c9571097694f77679b68410ebf409a62374f8a606fb557";
+              sha256_unsigned = "69f752dccf7a3f7f5f35fb98274f5e7ee0fc076974146d054e6f76121b6b26f5";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r4s-enterprise-squashfs-sysupgrade.img.gz";
+              sha256 = "5d58a10af574d5ea14a6245d7d8d0c8285f7c105e2d36986ba52b541df6761e7";
+              sha256_unsigned = "20b296c31ccf46e3c67634dbf7fac807f6ad1be2588985382d4ba693855659b2";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "friendlyarm,nanopi-r4s-enterprise"
+          ];
+          titles = [
+            {
+              model = "NanoPi R4S Enterprise Edition";
+              vendor = "FriendlyARM";
+            }
+          ];
+        };
+        friendlyarm_nanopi-r4se = {
+          device_packages = [
+            "kmod-r8168"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r4se";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r4se-ext4-sysupgrade.img.gz";
+              sha256 = "c1edd8a956e5439190ba584558b52ae4df3268c13494d7cb9f9190be79a2cbd7";
+              sha256_unsigned = "3870cf3d1266859aa93b6ff60c5191425cb4caa4688bd2978e3ea590ce3f8a19";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r4se-squashfs-sysupgrade.img.gz";
+              sha256 = "22e21d30c7cf4ce7500e8f79160cbcc67508ed77f3bf91b090ed1efb843cf499";
+              sha256_unsigned = "08e8f7dc39e2634af6b01f9df60f8ca02e81bd4c8dd1eca6081102fd43c0803f";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "friendlyarm,nanopi-r4se"
+          ];
+          titles = [
+            {
+              model = "NanoPi R4SE";
+              vendor = "FriendlyARM";
+            }
+          ];
+        };
+        friendlyarm_nanopi-r5c = {
+          device_packages = [
+            "kmod-r8125"
+            "kmod-rtw88-8822ce"
+            "rtl8822ce-firmware"
+            "wpad-openssl"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r5c";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r5c-squashfs-sysupgrade.img.gz";
+              sha256 = "ab7f030a9f1e83e6f95259c66c9aaf4d7ab759c140bf095816d2cf026f1d2fcd";
+              sha256_unsigned = "852ba2acd5e49c353c91b047c9aa380386f90d21c8c19985aaf354edb829d5dc";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r5c-ext4-sysupgrade.img.gz";
+              sha256 = "9b9034127a5436ddc5e178613bbe8fe1911c91261a96094170230f1fefb8a38e";
+              sha256_unsigned = "360e42ec0a64a17b10b612e8854f165a9579d123c391e770c8b6a8c0dc558b15";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "friendlyarm,nanopi-r5c"
+          ];
+          titles = [
+            {
+              model = "NanoPi R5C";
+              vendor = "FriendlyARM";
+            }
+          ];
+        };
+        friendlyarm_nanopi-r5s = {
+          device_packages = [
+            "kmod-r8125"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r5s";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r5s-squashfs-sysupgrade.img.gz";
+              sha256 = "963c96be22de613fc9d72c634cd96659c3f2f3876c35b5c8750767d5e5cd54a4";
+              sha256_unsigned = "f32963f631cb39d503198e8d36cbd4e9affde7a6536ec39f3d594cf11898b7f0";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r5s-ext4-sysupgrade.img.gz";
+              sha256 = "17da2cb8aee7053bf7cbd3d921ad83eefc7f7aca68c9b5f0767b65852418dde6";
+              sha256_unsigned = "af5ed585b6dabcdac4df94b1f6e61e292f5f286047922c47c85ffa5d213a9d08";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "friendlyarm,nanopi-r5s"
+          ];
+          titles = [
+            {
+              model = "NanoPi R5S";
+              vendor = "FriendlyARM";
+            }
+          ];
+        };
+        friendlyarm_nanopi-r6c = {
+          device_packages = [
+            "kmod-r8125"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r6c";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r6c-ext4-sysupgrade.img.gz";
+              sha256 = "8693931881fa052f4bbf00f2693918b3fd92b4cad975cb86018cfc0862dffabc";
+              sha256_unsigned = "fe1bd286e148476eb0753566f11ca633473cda7aa83f54cef8f0360c2be3139b";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r6c-squashfs-sysupgrade.img.gz";
+              sha256 = "ed53be1ce62041e37d3c906064026dd9b6736d99b77f82dbded0504eb00f78ee";
+              sha256_unsigned = "00f24c974dae0da8bc082dc315ff547894c98beef88f583d569832c6b3bd73a7";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "friendlyarm,nanopi-r6c"
+          ];
+          titles = [
+            {
+              model = "NanoPi R6C";
+              vendor = "FriendlyARM";
+            }
+          ];
+        };
+        friendlyarm_nanopi-r6s = {
+          device_packages = [
+            "kmod-r8125"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r6s";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r6s-squashfs-sysupgrade.img.gz";
+              sha256 = "7aaa830d71a02cb13ff4ddb1d20cb88da17e1d6a32300dfbfd729daa13e19e8a";
+              sha256_unsigned = "0dcefc248eae677610140a89265909a452db18419633a52cc9c09fbad5120759";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-friendlyarm_nanopi-r6s-ext4-sysupgrade.img.gz";
+              sha256 = "72f147e8602bc62d7191bcd4180c64f6e7f508ede37c35fbfa3ebdcc32e48989";
+              sha256_unsigned = "25a7031b71d19dc76c479ac362d5cfede657cf944065982072448cc92c651b9c";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "friendlyarm,nanopi-r6s"
+          ];
+          titles = [
+            {
+              model = "NanoPi R6S";
+              vendor = "FriendlyARM";
+            }
+          ];
+        };
+        huake_guangmiao-g4c = {
+          device_packages = [
+            "kmod-r8168"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-huake_guangmiao-g4c";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-huake_guangmiao-g4c-squashfs-sysupgrade.img.gz";
+              sha256 = "4188ba29c9c5588c2e8627dc7f1220461b05bb413df5bbb3fc5504e9476a67b7";
+              sha256_unsigned = "8583b280280e6af17e71b2c5635d3ddee294fbd6292eefb02ccae625362e8ee3";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-huake_guangmiao-g4c-ext4-sysupgrade.img.gz";
+              sha256 = "fe67c38d792cca7b5d5d1257bb85b93e4a9e686b76d91fc867efb4d5bfbc666a";
+              sha256_unsigned = "181986117473e64abbb1b3576210ad0b9c11047ed912c4e84c14dd0b3e1e6f85";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "huake,guangmiao-g4c"
+          ];
+          titles = [
+            {
+              model = "GuangMiao G4C";
+              vendor = "Huake-Cloud";
+            }
+          ];
+        };
+        lunzn_fastrhino-r66s = {
+          device_packages = [
+            "kmod-r8125"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-lunzn_fastrhino-r66s";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-lunzn_fastrhino-r66s-ext4-sysupgrade.img.gz";
+              sha256 = "91dd587ed8d5a5a90352236a80f8babc1c245c09abce08882c18d2af3e712e84";
+              sha256_unsigned = "a8ff222b56dcac2c69d1b0fc546b08c806bf9d7f2c5f06826f4f22e11f0005d9";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-lunzn_fastrhino-r66s-squashfs-sysupgrade.img.gz";
+              sha256 = "5c8e3e3ec33a28e78e48252446a795d42bcee4eca23f0e75ff6b796ec1d65550";
+              sha256_unsigned = "b934e500e59fb1965663abbc74119b16970607ffd5c32bfb22785d79f56e0c68";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "lunzn,fastrhino-r66s"
+          ];
+          titles = [
+            {
+              model = "FastRhino R66S";
+              vendor = "Lunzn";
+            }
+          ];
+        };
+        lunzn_fastrhino-r68s = {
+          device_packages = [
+            "kmod-r8125"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-lunzn_fastrhino-r68s";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-lunzn_fastrhino-r68s-squashfs-sysupgrade.img.gz";
+              sha256 = "b32bf69f9331ce1cc0483885092beb69950816382eb6f00620f2c780a6ac20cf";
+              sha256_unsigned = "0be7d5428bbce5db952d44bda69b543d01a83df4e58088880a62b0fcdfcc7deb";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-lunzn_fastrhino-r68s-ext4-sysupgrade.img.gz";
+              sha256 = "1dd7037dc7141c69a19158d41770a3429ac07b9ae10a264bd4c503ef3769c5f9";
+              sha256_unsigned = "9f3d6171ed2fa4dae9be3185c09a5227188fd5f2745f28843ea9f76f57e51283";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "lunzn,fastrhino-r68s"
+          ];
+          titles = [
+            {
+              model = "FastRhino R68S";
+              vendor = "Lunzn";
+            }
+          ];
+        };
+        lyt_t68m = {
+          device_packages = [
+            "kmod-r8125"
+            "kmod-mt7921e"
+            "wpad-openssl"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-lyt_t68m";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-lyt_t68m-ext4-sysupgrade.img.gz";
+              sha256 = "1157b48b7073495280f05c14bc34fac06c0f1d817cd1d38d4e5e84c80232ee9a";
+              sha256_unsigned = "a6f464dfa24c464b754034b1fa875ac6dd990f7d8e2720ee3caa0f36ab295c41";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-lyt_t68m-squashfs-sysupgrade.img.gz";
+              sha256 = "f0823339f3019caaa57eadf732f2b94e820c69bdad90850812fe01c5bb76a9c5";
+              sha256_unsigned = "6c1d0101e529b3b59d494d0336f15e88dce0b97474fb33aa0ea9a441ed9281bb";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "lyt,t68m"
+          ];
+          titles = [
+            {
+              model = "T68M";
+              vendor = "LYT";
+            }
+          ];
+        };
+        mmbox_anas3035 = {
+          device_packages = [
+            "kmod-r8125"
+            "kmod-ata-ahci-dwc"
+            "kmod-hwmon-pwmfan"
+            "kmod-hwmon-drivetemp"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-mmbox_anas3035";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-mmbox_anas3035-ext4-sysupgrade.img.gz";
+              sha256 = "c729327275fbe18688281a7c667f9c1fa7a5592b030543603ede06d10af4ab33";
+              sha256_unsigned = "2217be2b92478eabe1e8cc4b6e0bb37222db29503a59c9620b2dcf658c874072";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-mmbox_anas3035-squashfs-sysupgrade.img.gz";
+              sha256 = "efe91bf27a5f8de11fa5de3c597742c803542c4083a82b7c1c74159b8f69a144";
+              sha256_unsigned = "ae66318b9ab505e25c06ad7d231ad12141997a41e94d4c44ebd7e8828003f349";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "mmbox,anas3035"
+          ];
+          titles = [
+            {
+              model = "ANAS3035";
+              vendor = "MMBOX";
+            }
+          ];
+        };
+        pine64_rock64 = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-pine64_rock64";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-pine64_rock64-ext4-sysupgrade.img.gz";
+              sha256 = "904f10c4104d8064d3b3a3d334b1f03c4fc6e1c77122f2cf1e9a80037a9fe389";
+              sha256_unsigned = "309b9158d61a72d76b3b7026b19315b363a7706ca3ff5a6a7b7379f3918d95be";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-pine64_rock64-squashfs-sysupgrade.img.gz";
+              sha256 = "49d34d249c51448e774f09f7edc505854b7b6756543ca81144e61dab80bd3bdb";
+              sha256_unsigned = "479b52e619a55799deb3ac2e9b624498d69ab9ea458d203d5d06cc2e9e7da18a";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "pine64,rock64"
+          ];
+          titles = [
+            {
+              model = "Rock64";
+              vendor = "Pine64";
+            }
+          ];
+        };
+        pine64_rockpro64 = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-pine64_rockpro64";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-pine64_rockpro64-squashfs-sysupgrade.img.gz";
+              sha256 = "c78e7aa64f766e644dd4dacdfeea9cdf488653a2a62cabe6b14eeb03b9064ba1";
+              sha256_unsigned = "12cef59cc6fa9e6f0f6bf38831522d91fc34b7720f61a14ba2fbaf4dc23fca0f";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-pine64_rockpro64-ext4-sysupgrade.img.gz";
+              sha256 = "086781fda5688f9345be8be9a858f928a84f5b820bebfef435a9dda0553ac687";
+              sha256_unsigned = "1701369085df362cafe141d9c96b45fcd0407eb7d5cc4f656ae3c8052c7427b5";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "pine64,rockpro64"
+          ];
+          titles = [
+            {
+              model = "RockPro64";
+              vendor = "Pine64";
+            }
+          ];
+        };
+        radxa_cm3-io = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-radxa_cm3-io";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-radxa_cm3-io-ext4-sysupgrade.img.gz";
+              sha256 = "ca88f5ebb24ff0222b7280f45241210241feeaa507dc7b35b5e1bd2228705800";
+              sha256_unsigned = "f6228060882860fe22207673df8a14241b7cd5a91288afc7dc1233f7dfe77386";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-radxa_cm3-io-squashfs-sysupgrade.img.gz";
+              sha256 = "465946da14298b0ca6d42a165826719c9b35a5d7a7fd627e36cb4873dfaf6e93";
+              sha256_unsigned = "287137114a881a4208a1a4a84fa8c7ea1599967b90bfb3063f4a12e2ef7dc12f";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "radxa,cm3-io"
+          ];
+          titles = [
+            {
+              model = "CM3 IO";
+              vendor = "Radxa";
+            }
+          ];
+        };
+        radxa_e25 = {
+          device_packages = [
+            "kmod-r8125"
+            "kmod-ata-ahci-dwc"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-radxa_e25";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-radxa_e25-ext4-sysupgrade.img.gz";
+              sha256 = "30992c82bdfefd85eea657e27765dfa4deb377494a5b37f3a3f70058983e9a75";
+              sha256_unsigned = "451dafccac96836f3872422db962dac12f878579113453d32fcc9e793a99e0c8";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-radxa_e25-squashfs-sysupgrade.img.gz";
+              sha256 = "f9854ec771a670ceb98ea04851902f9e81fb3676b78e910a7e2ad773e1c24d85";
+              sha256_unsigned = "66968e90cad2787fbaa140764570961d2f954f5c3b3d2b31e4aaf9cc91ee2528";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "radxa,e25"
+          ];
+          titles = [
+            {
+              model = "E25";
+              vendor = "Radxa";
+            }
+          ];
+        };
+        radxa_rock-3a = {
+          device_packages = [
+            "kmod-usb-net-cdc-ncm"
+            "kmod-usb-net-rndis"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-radxa_rock-3a";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-radxa_rock-3a-ext4-sysupgrade.img.gz";
+              sha256 = "812e0c57e9b87a6be7bd07a44663815668cb97b23c172170e0b500a3f3cd25a8";
+              sha256_unsigned = "c79d63d3c2efdb30595a1b102169a93ec0e1d0ee65d1a584bbed7442caeeeb11";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-radxa_rock-3a-squashfs-sysupgrade.img.gz";
+              sha256 = "0b4adbca6622600b36d7aa6d70cacff05a2ded9cc0dba705615da1dceb760828";
+              sha256_unsigned = "c83ddc99895bb721e70333f7c40abfe5e6440a60558c3e16d670ecf5add4f11b";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "radxa,rock3a"
+          ];
+          titles = [
+            {
+              model = "ROCK 3A";
+              vendor = "Radxa";
+            }
+          ];
+        };
+        radxa_rock-3b = {
+          device_packages = [
+            "kmod-usb-net-cdc-ncm"
+            "kmod-usb-net-rndis"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-radxa_rock-3b";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-radxa_rock-3b-ext4-sysupgrade.img.gz";
+              sha256 = "11b08f6752d7f14de918f6ce50415c9194cbcba180d0b410974e64afe3c3d267";
+              sha256_unsigned = "dc651309f9be4d81fb3736eab886b1176d3429f0a1f084b80b3333632b9042df";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-radxa_rock-3b-squashfs-sysupgrade.img.gz";
+              sha256 = "f6d955256632ab824b36b0ddfbff92ada0da90eac046d3726cfb537444d75ee5";
+              sha256_unsigned = "cdee821444d3e460623b6b25f1b84505c08075fa4ed2a81c5bcbe8bc0b60cd80";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "radxa,rock-3b"
+          ];
+          titles = [
+            {
+              model = "ROCK 3B";
+              vendor = "Radxa";
+            }
+          ];
+        };
+        radxa_rock-3c = {
+          device_packages = [
+            "kmod-usb-net-cdc-ncm"
+            "kmod-usb-net-rndis"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-radxa_rock-3c";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-radxa_rock-3c-squashfs-sysupgrade.img.gz";
+              sha256 = "6bcf77c10e922cacf5fcea54eabff98bf4aa5ab1e2aeda4c1ae5e368c189c688";
+              sha256_unsigned = "bb49ef224a54e7ac23ccaa46b97bcfa836b16d6f326c8b8da63d181b7f2bf025";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-radxa_rock-3c-ext4-sysupgrade.img.gz";
+              sha256 = "5ae70f892828a6e526a3b60e50e88cc9dbf77836792b04265ec7a03817d41658";
+              sha256_unsigned = "4138331d9a416f4010ffa3c0a67230c6cc7e1151f577f9f2a00820c20324d026";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "radxa,rock-3c"
+          ];
+          titles = [
+            {
+              model = "ROCK 3C";
+              vendor = "Radxa";
+            }
+          ];
+        };
+        radxa_rock-5a = {
+          device_packages = [
+            "kmod-r8125"
+            "kmod-hwmon-pwmfan"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-radxa_rock-5a";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-radxa_rock-5a-ext4-sysupgrade.img.gz";
+              sha256 = "ccba595617066c08ccb48b131cea49f39855521df57ea09777d1a9d47634e62a";
+              sha256_unsigned = "d7042915f8d5d75b687003e85c0111ad52c54d0489a537d01067a4678d4894a2";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-radxa_rock-5a-squashfs-sysupgrade.img.gz";
+              sha256 = "3267592d2b1f897243fd0daf393ef562d1b0b44346eba6e94352c5cfa07512c9";
+              sha256_unsigned = "224afb0130f9f39b9a16f5054b11b35e39eba75bbc5f2fe54b9b95bef6cb348e";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "radxa,rock-5a"
+          ];
+          titles = [
+            {
+              model = "ROCK 5A";
+              vendor = "Radxa";
+            }
+          ];
+        };
+        radxa_rock-5b = {
+          device_packages = [
+            "kmod-r8125"
+            "kmod-hwmon-pwmfan"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-radxa_rock-5b";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-radxa_rock-5b-ext4-sysupgrade.img.gz";
+              sha256 = "e6ed205025d84c30f53473a7f21a25712d0e4f58b7818bbbf28104d8098d6c42";
+              sha256_unsigned = "41d220ef71d6d01d767ba07662509069ed73d7cd51d6683b0d1bc13d820be5fe";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-radxa_rock-5b-squashfs-sysupgrade.img.gz";
+              sha256 = "ed1b6ceaeeb40a473780488448d61f0666fa7f5a5e519ee085d99105173150ae";
+              sha256_unsigned = "c1004c6986ac6058d01552d277343026b17069dad975b678c25fe470ea698669";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "radxa,rock-5b"
+          ];
+          titles = [
+            {
+              model = "ROCK 5B";
+              vendor = "Radxa";
+            }
+          ];
+        };
+        radxa_rock-pi-4a = {
+          device_packages = [
+            "kmod-brcmfmac"
+            "wpad-openssl"
+            "brcmfmac-firmware-43456-sdio"
+            "brcmfmac-nvram-43456-sdio"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-radxa_rock-pi-4a";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-radxa_rock-pi-4a-ext4-sysupgrade.img.gz";
+              sha256 = "6a05f1ea93ab47ce397b131c3b2e10765300df5ead2f83ab066e01b27f405ea4";
+              sha256_unsigned = "4ad38835c24a154d5ced0b4fa8d5b9f0714715c005e9d2a5a7b71772378b506d";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-radxa_rock-pi-4a-squashfs-sysupgrade.img.gz";
+              sha256 = "bfbf5d463891e94174a84f7b5ff6226703e25f474a77f2bddb50bab0ee9c6e62";
+              sha256_unsigned = "e9f69bc4af3d7f4037bf0598c12b8ac2286a7204d77ad1a35038d20691dde1d9";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "radxa,rockpi4a"
+            "radxa,rockpi4"
+          ];
+          titles = [
+            {
+              model = "ROCK Pi 4A";
+              vendor = "Radxa";
+            }
+          ];
+        };
+        radxa_rock-pi-e = {
+          device_packages = [
+            "kmod-rtw88-8723du"
+            "kmod-usb-net-cdc-ncm"
+            "kmod-usb-net-rndis"
+            "wpad-openssl"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-radxa_rock-pi-e";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-radxa_rock-pi-e-ext4-sysupgrade.img.gz";
+              sha256 = "5a52ad7dae4c6ace31b8e4b0be4497557b3b538160c073b06ecd94cfaea2ba10";
+              sha256_unsigned = "0ba2c04f44d31bb565ebc01c2d7b4d796568612dbc4b0a480d02813dda2b4582";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-radxa_rock-pi-e-squashfs-sysupgrade.img.gz";
+              sha256 = "2c8e2084c7e7b08b1ac6568a0f3c12a4a191167bac03dace8b5fc3b2a200e38b";
+              sha256_unsigned = "b72d4d4be5302f78e0c3aa946245a22abe7fa3abbde0b51e2b40f155d17420dc";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "radxa,rockpi-e"
+          ];
+          titles = [
+            {
+              model = "ROCK Pi E";
+              vendor = "Radxa";
+            }
+            {
+              model = "ROCK Pi E v3.0";
+              vendor = "Radxa";
+            }
+          ];
+        };
+        radxa_rock-pi-s = {
+          device_packages = [
+            "kmod-rtw88-8723ds"
+            "kmod-usb-net-cdc-ncm"
+            "kmod-usb-net-rndis"
+            "wpad-openssl"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-radxa_rock-pi-s";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-radxa_rock-pi-s-ext4-sysupgrade.img.gz";
+              sha256 = "c85c06d121c01a8630a4c2a351c8be52cb74bccc9a80f697dca65977db68468d";
+              sha256_unsigned = "cd3a3e0a3f85c52e431feaaa2a293462aa99a33cfd04ab03f8c6555563854649";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-radxa_rock-pi-s-squashfs-sysupgrade.img.gz";
+              sha256 = "438df7f870d943e22c47386cab5614dba1aea3d13aed054515b89fad0565daa7";
+              sha256_unsigned = "07d616fbc27d704c845da556cb219191cb56565fd858392fa4e715f2e3adc00e";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "radxa,rockpis"
+          ];
+          titles = [
+            {
+              model = "ROCK Pi S";
+              vendor = "Radxa";
+            }
+          ];
+        };
+        radxa_zero-3e = {
+          device_packages = [
+            "kmod-usb-net-cdc-ncm"
+            "kmod-usb-net-rndis"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-radxa_zero-3e";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-radxa_zero-3e-squashfs-sysupgrade.img.gz";
+              sha256 = "fef637a80c7f74f4538e5c4014605a8b61924667911c687a44a6c049a9dd4d52";
+              sha256_unsigned = "05c2457691ae841d724363b0682bed03eab37f08b7ee200f7e3792a800a27773";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-radxa_zero-3e-ext4-sysupgrade.img.gz";
+              sha256 = "830f86cfef6dc456d919d14cf3e47ec48e2c2143b70b500b8f8e64fdddb35463";
+              sha256_unsigned = "c9dcb90f16ff795b0c1b990fc89c3243d4b78d9dc4064ad6c88b7b5cc33b974f";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "radxa,zero-3e"
+          ];
+          titles = [
+            {
+              model = "ZERO 3E";
+              vendor = "Radxa";
+            }
+          ];
+        };
+        radxa_zero-3w = {
+          device_packages = [
+            "kmod-usb-net-cdc-ncm"
+            "kmod-usb-net-rndis"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-radxa_zero-3w";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-radxa_zero-3w-ext4-sysupgrade.img.gz";
+              sha256 = "389a589e493d096e4833c7c282c3e1c80e51aaff9e38f3b0e8fe5ef5c39072e4";
+              sha256_unsigned = "3bae6ec16d9d052be78f5c39f8f18acc47ea5bfc668bea3ff0be402ff38386a3";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-radxa_zero-3w-squashfs-sysupgrade.img.gz";
+              sha256 = "41eb3a7cbee6357e3929f5f689cc556797a9bbe8044da0756eeb23f3ac8ab291";
+              sha256_unsigned = "7b879fdf0c88df0b919498822c07122cc186fc96bb7a35ef7ddb52a4bc88cbb4";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "radxa,zero-3w"
+          ];
+          titles = [
+            {
+              model = "ZERO 3W";
+              vendor = "Radxa";
+            }
+          ];
+        };
+        sinovoip_bpi-r2-pro = {
+          device_packages = [
+            "kmod-ata-ahci-dwc"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-sinovoip_bpi-r2-pro";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-sinovoip_bpi-r2-pro-squashfs-sysupgrade.img.gz";
+              sha256 = "397c38710748f935b75b6d3783bab8d53bf9e392444db080ea38ee49e05abe90";
+              sha256_unsigned = "da8d5654b912d81144ba900c028672aa62879fd2e667fd051c80f35b1e15db87";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-sinovoip_bpi-r2-pro-ext4-sysupgrade.img.gz";
+              sha256 = "e9204b35b4e265319b67efdc503eb86b3dbda5f6c4138381615582cd50b9466d";
+              sha256_unsigned = "899767ce67aef87da4561d5258c24dfea59768e8617a4cb45587f8296b461ff2";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "sinovoip,rk3568-bpi-r2pro"
+          ];
+          titles = [
+            {
+              model = "BPi-R2 Pro";
+              vendor = "Bananapi";
+            }
+          ];
+        };
+        xunlong_orangepi-5 = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-xunlong_orangepi-5";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-xunlong_orangepi-5-ext4-sysupgrade.img.gz";
+              sha256 = "e65d7f8c162c0e8e1a846d3d85ca07e6c9ea6a45bfd318427710d5b46827d333";
+              sha256_unsigned = "2487f09c497ae461505237ec16430971bc996aed226f96b33a239f6a5a47a63f";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-xunlong_orangepi-5-squashfs-sysupgrade.img.gz";
+              sha256 = "28da36627cc6e71e6b681e402a4e0fe6c8c03e649e900e867e4825c233db8122";
+              sha256_unsigned = "3c4db959adea06a5cba6ac0d0c8b48c24f93aebb1a5a8d0529c860f5fc2c7093";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "xunlong,orangepi-5"
+          ];
+          titles = [
+            {
+              model = "Orange Pi 5";
+              vendor = "Xunlong";
+            }
+          ];
+        };
+        xunlong_orangepi-5-plus = {
+          device_packages = [
+            "kmod-r8125"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-xunlong_orangepi-5-plus";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-xunlong_orangepi-5-plus-ext4-sysupgrade.img.gz";
+              sha256 = "d177410b50f917d1bf70ea21b8fc8db23b45280cb1c4a8b9de60fcec53736b7e";
+              sha256_unsigned = "f4ae82eb55a095aa1222cda84ab5cb2a22efe67f3dc313c1817cd95ab22c9533";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-xunlong_orangepi-5-plus-squashfs-sysupgrade.img.gz";
+              sha256 = "98e392b18edc6bba097ee6425e3a97d68a9d980e23a18a11bb1c69b2e7a37d17";
+              sha256_unsigned = "82cfc57b0d3237c61d1a1c7d5e7308aad7a64bb9527ef4f5e9c1dbc423d77449";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "xunlong,orangepi-5-plus"
+          ];
+          titles = [
+            {
+              model = "Orange Pi 5 Plus";
+              vendor = "Xunlong";
+            }
+          ];
+        };
+        xunlong_orangepi-r1-plus = {
+          device_packages = [
+            "kmod-usb-net-rtl8152"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-xunlong_orangepi-r1-plus";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-xunlong_orangepi-r1-plus-ext4-sysupgrade.img.gz";
+              sha256 = "6533667ede8f0aea46d140680bc8f71e924fbce8491c104b01f6915ed3fe4989";
+              sha256_unsigned = "749ca909946ad8930c79c2eba43eb71279842aa06aaf61a20b63e69fda057961";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-xunlong_orangepi-r1-plus-squashfs-sysupgrade.img.gz";
+              sha256 = "3a550de61131395278630f8c48b9ceb211c5b77e298ac768c6f4e2fde5b11bce";
+              sha256_unsigned = "42c169423eaf2a2d4017e13ead4b3cf57069c4fef1abd818cc10be0d5cabc709";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "xunlong,orangepi-r1-plus"
+          ];
+          titles = [
+            {
+              model = "Orange Pi R1 Plus";
+              vendor = "Xunlong";
+            }
+          ];
+        };
+        xunlong_orangepi-r1-plus-lts = {
+          device_packages = [
+            "kmod-usb-net-rtl8152"
+          ];
+          image_prefix = "immortalwrt-24.10.0-rockchip-armv8-xunlong_orangepi-r1-plus-lts";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-rockchip-armv8-xunlong_orangepi-r1-plus-lts-ext4-sysupgrade.img.gz";
+              sha256 = "c468cba1d975c42263657ac6cd7ebb071dd6e36edd98a138361a02ee0d466a51";
+              sha256_unsigned = "e0b4ed1b89ddd9c53f994f5b50150596175fef7fd08b2236fb32592d2e62570e";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-rockchip-armv8-xunlong_orangepi-r1-plus-lts-squashfs-sysupgrade.img.gz";
+              sha256 = "dcf97435c9a692364bd7689c8d45559260d096cc1c4d9fb19c7268dd71c69b8a";
+              sha256_unsigned = "5f886270c76ff6e615506e1e867dbda90cb8ae2a46ef21b302cee8a57436d6e6";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "xunlong,orangepi-r1-plus-lts"
+          ];
+          titles = [
+            {
+              model = "Orange Pi R1 Plus LTS";
+              vendor = "Xunlong";
+            }
+          ];
+        };
+      };
+      source_date_epoch = 1738744361;
+      target = "rockchip/armv8";
+      version_code = "r32824-6a73dae98c9c";
+      version_number = "24.10.0";
+    };
+  };
+  sifiveu = {
+    generic = {
+      arch_packages = "riscv64_riscv64";
+      default_packages = [
+        "base-files"
+        "block-mount"
+        "ca-bundle"
+        "default-settings-chn"
+        "dnsmasq-full"
+        "dropbear"
+        "firewall4"
+        "fstools"
+        "kmod-nf-nathelper"
+        "kmod-nf-nathelper-extra"
+        "kmod-nft-offload"
+        "libc"
+        "libgcc"
+        "libustream-openssl"
+        "logd"
+        "luci-app-package-manager"
+        "luci-compat"
+        "luci-lib-base"
+        "luci-lib-ipkg"
+        "luci-light"
+        "mtd"
+        "netifd"
+        "nftables"
+        "odhcp6c"
+        "odhcpd-ipv6only"
+        "opkg"
+        "ppp"
+        "ppp-mod-pppoe"
+        "procd-ujail"
+        "uci"
+        "uclient-fetch"
+        "urandom-seed"
+        "urngd"
+      ];
+      linux_kernel = {
+        release = "1";
+        vermagic = "5d6350119c07b12cb3a138090ca01e32";
+        version = "6.6.73";
+      };
+      metadata_version = 1;
+      profiles = {
+        sifive_unleashed = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-24.10.0-sifiveu-generic-sifive_unleashed";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sifiveu-generic-sifive_unleashed-ext4-sdcard.img.gz";
+              sha256 = "17a73d0b25db2d52d5905bd2cd7e205a16e54dcd74a5514ea757822221f38d57";
+              sha256_unsigned = "003633a7d6bef1048a5bdd5e2a64d3e3cdc0b52630aba0ea2487ea49155be616";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "sifive,unleashed"
+          ];
+          titles = [
+            {
+              model = "Unleashed (FU540)";
+              vendor = "SiFive";
+            }
+          ];
+        };
+        sifive_unmatched = {
+          device_packages = [
+            "kmod-eeprom-at24"
+            "kmod-hwmon-lm90"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sifiveu-generic-sifive_unmatched";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sifiveu-generic-sifive_unmatched-ext4-sdcard.img.gz";
+              sha256 = "d008738adda29f82f20550dc80b821f1d55ad8aaf0ce28250ed0a6b659c923ee";
+              sha256_unsigned = "ee49308e66ba87793d319014f9045603b8b2f1096250ba29bfcc4ceccca2bd8a";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "sifive,unmatched"
+          ];
+          titles = [
+            {
+              model = "Unmatched (FU740)";
+              vendor = "SiFive";
+            }
+          ];
+        };
+      };
+      source_date_epoch = 1738744361;
+      target = "sifiveu/generic";
+      version_code = "r32824-6a73dae98c9c";
+      version_number = "24.10.0";
+    };
+  };
+  starfive = {
+    generic = {
+      arch_packages = "riscv64_riscv64";
+      default_packages = [
+        "base-files"
+        "block-mount"
+        "ca-bundle"
+        "default-settings-chn"
+        "dnsmasq-full"
+        "dropbear"
+        "firewall4"
+        "fstools"
+        "kmod-nf-nathelper"
+        "kmod-nf-nathelper-extra"
+        "kmod-nft-offload"
+        "libc"
+        "libgcc"
+        "libustream-openssl"
+        "logd"
+        "luci-app-package-manager"
+        "luci-compat"
+        "luci-lib-base"
+        "luci-lib-ipkg"
+        "luci-light"
+        "mtd"
+        "netifd"
+        "nftables"
+        "odhcp6c"
+        "odhcpd-ipv6only"
+        "opkg"
+        "ppp"
+        "ppp-mod-pppoe"
+        "procd-ujail"
+        "uci"
+        "uclient-fetch"
+        "urandom-seed"
+        "urngd"
+      ];
+      linux_kernel = {
+        release = "1";
+        vermagic = "47ec2f33cc0e84bf1753f70424751a27";
+        version = "6.6.73";
+      };
+      metadata_version = 1;
+      profiles = {
+        beaglev-starlight = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-24.10.0-starfive-generic-beaglev-starlight";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-starfive-generic-beaglev-starlight-ext4-sdcard.img.gz";
+              sha256 = "b9699f265cc581f53959f3d8ab25ffe3991804514f5a0d3c8a2644b3b60e0ad1";
+              sha256_unsigned = "7a43428286a5f7e0b8e0baf08d59e990274c4b720f42be0ab11b1d448b2dc2ba";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "beaglev-starlight"
+          ];
+          titles = [
+            {
+              model = "Starlight";
+              vendor = "BeagleV";
+            }
+          ];
+        };
+        visionfive-v1 = {
+          device_packages = [
+            "kmod-eeprom-at24"
+            "kmod-brcmfmac"
+            "cypress-firmware-43430-sdio"
+            "wpad-basic-mbedtls"
+            "kmod-usb3"
+            "kmod-usb-cdns3-starfive"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-24.10.0-starfive-generic-visionfive-v1";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-starfive-generic-visionfive-v1-ext4-sdcard.img.gz";
+              sha256 = "4fa0a2dea1efb61873ae14d3c9280e704371087f06d0fd14880f88eccca16290";
+              sha256_unsigned = "88d5f0dd90d1576163fe3ed5e21a0c7fbd57a73020278d88bc82cb43a85811ee";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "visionfive-v1"
+          ];
+          titles = [
+            {
+              model = "VisionFive v1";
+              vendor = "StarFive";
+            }
+          ];
+        };
+        "visionfive2-v1.2a" = {
+          device_packages = [
+            "kmod-eeprom-at24"
+            "kmod-pcie-starfive"
+            "kmod-usb3"
+            "kmod-usb-cdns3-starfive"
+          ];
+          image_prefix = "immortalwrt-24.10.0-starfive-generic-visionfive2-v1.2a";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-starfive-generic-visionfive2-v1.2a-ext4-sdcard.img.gz";
+              sha256 = "109a8985a70010a57269b9025b0af29d36eb06571ccb2a8859be68c1caa27772";
+              sha256_unsigned = "1e41598e7389d96f182d7ce8d878ee43160ea966965dd7bf5bd70e755802640e";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "visionfive2-v1.2a"
+          ];
+          titles = [
+            {
+              model = "VisionFive2 v1.2a";
+              vendor = "StarFive";
+            }
+          ];
+        };
+        "visionfive2-v1.3b" = {
+          device_packages = [
+            "kmod-eeprom-at24"
+            "kmod-pcie-starfive"
+            "kmod-usb3"
+            "kmod-usb-cdns3-starfive"
+          ];
+          image_prefix = "immortalwrt-24.10.0-starfive-generic-visionfive2-v1.3b";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-starfive-generic-visionfive2-v1.3b-ext4-sdcard.img.gz";
+              sha256 = "f6a1b50e90257a5e3cfb4df2616450d91becf53b710c9290e9ae7a5dcc7a73eb";
+              sha256_unsigned = "bd59366a7227bda678b9e6f1237c9d660e7fba01cc68451b78cb99ebbeefdb66";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "visionfive2-v1.3b"
+          ];
+          titles = [
+            {
+              model = "VisionFive2 v1.3b";
+              vendor = "StarFive";
+            }
+          ];
+        };
+      };
+      source_date_epoch = 1738744361;
+      target = "starfive/generic";
+      version_code = "r32824-6a73dae98c9c";
+      version_number = "24.10.0";
+    };
+  };
+  stm32 = {
+    stm32mp1 = {
+      arch_packages = "arm_cortex-a7_neon-vfpv4";
+      default_packages = [
+        "base-files"
+        "block-mount"
+        "blockdev"
+        "ca-bundle"
+        "default-settings-chn"
+        "dnsmasq-full"
+        "dropbear"
+        "firewall4"
+        "fstools"
+        "kmod-gpio-button-hotplug"
+        "kmod-nf-nathelper"
+        "kmod-nf-nathelper-extra"
+        "kmod-nft-offload"
+        "libc"
+        "libgcc"
+        "libustream-openssl"
+        "logd"
+        "luci-app-package-manager"
+        "luci-compat"
+        "luci-lib-base"
+        "luci-lib-ipkg"
+        "luci-light"
+        "mtd"
+        "netifd"
+        "nftables"
+        "odhcp6c"
+        "odhcpd-ipv6only"
+        "opkg"
+        "ppp"
+        "ppp-mod-pppoe"
+        "procd-ujail"
+        "uci"
+        "uclient-fetch"
+        "urandom-seed"
+        "urngd"
+      ];
+      linux_kernel = {
+        release = "1";
+        vermagic = "03d817ea080eb1486105aa5597d4270a";
+        version = "6.6.73";
+      };
+      metadata_version = 1;
+      profiles = {
+        stm32mp135f-dk = {
+          device_packages = [
+            "kmod-brcmfmac"
+            "murata-firmware-43430-sdio"
+            "murata-nvram-43430-sdio"
+            "wpad-basic-mbedtls"
+            "kmod-phy-stm32-usbphyc"
+            "kmod-usb2"
+            "kmod-usb-storage"
+            "kmod-usb-ledtrig-usbport"
+            "-mtd"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-24.10.0-stm32-stm32mp1-stm32mp135f-dk";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-stm32-stm32mp1-stm32mp135f-dk-ext4-factory.img.gz";
+              sha256 = "47e2f45f30656a153f461bbc10b987c661a64e9deee4727fd2cc34fc6393203b";
+              sha256_unsigned = "47e2f45f30656a153f461bbc10b987c661a64e9deee4727fd2cc34fc6393203b";
+              type = "factory";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-stm32-stm32mp1-stm32mp135f-dk-ext4-sysupgrade.img.gz";
+              sha256 = "d675964c3302e536f49812cb615721841cf3305c6d155c2c2981ef58e75754d4";
+              sha256_unsigned = "9ee782921b5422478514352a0f1596ee8ff85d917b12cc1ab5718f82d4fa260f";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "st,stm32mp135f-dk"
+          ];
+          titles = [
+            {
+              model = "STM32MP135F-DK";
+              vendor = "STMicroelectronics";
+            }
+          ];
+        };
+      };
+      source_date_epoch = 1738744361;
+      target = "stm32/stm32mp1";
+      version_code = "r32824-6a73dae98c9c";
+      version_number = "24.10.0";
+    };
+  };
+  sunxi = {
+    cortexa53 = {
+      arch_packages = "aarch64_cortex-a53";
+      default_packages = [
+        "autocore"
+        "automount"
+        "base-files"
+        "block-mount"
+        "ca-bundle"
+        "default-settings-chn"
+        "dnsmasq-full"
+        "dropbear"
+        "firewall4"
+        "fstools"
+        "kmod-nf-nathelper"
+        "kmod-nf-nathelper-extra"
+        "kmod-nft-offload"
+        "libc"
+        "libgcc"
+        "libustream-openssl"
+        "logd"
+        "luci-app-cpufreq"
+        "luci-app-package-manager"
+        "luci-compat"
+        "luci-lib-base"
+        "luci-lib-ipkg"
+        "luci-light"
+        "mkf2fs"
+        "mtd"
+        "netifd"
+        "nftables"
+        "odhcp6c"
+        "odhcpd-ipv6only"
+        "opkg"
+        "partx-utils"
+        "ppp"
+        "ppp-mod-pppoe"
+        "procd-ujail"
+        "uboot-envtools"
+        "uci"
+        "uclient-fetch"
+        "urandom-seed"
+        "urngd"
+      ];
+      linux_kernel = {
+        release = "1";
+        vermagic = "4bd2610f08cf71877c76be225e48a059";
+        version = "6.6.73";
+      };
+      metadata_version = 1;
+      profiles = {
+        friendlyarm_nanopi-neo-plus2 = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa53-friendlyarm_nanopi-neo-plus2";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa53-friendlyarm_nanopi-neo-plus2-ext4-sdcard.img.gz";
+              sha256 = "1ac893031efd0d9c68f83b9388815d9393a6e56927c51415011967565525abec";
+              sha256_unsigned = "4e36f2c3d35cc38d06a115731c8dbfd99ac54b1dbd1769adf67d51e743feefe4";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa53-friendlyarm_nanopi-neo-plus2-squashfs-sdcard.img.gz";
+              sha256 = "be739cdc22ba76cafbe25bf221df81dbda916bf38a89fde43f4cecbf1e200091";
+              sha256_unsigned = "17086ddf0e69de1287ed22258327ae14450382929eb2095e8a1a3bccfb3206a6";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "nanopi-neo-plus2"
+          ];
+          titles = [
+            {
+              model = "NanoPi NEO Plus2";
+              vendor = "FriendlyARM";
+            }
+          ];
+        };
+        friendlyarm_nanopi-neo2 = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa53-friendlyarm_nanopi-neo2";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa53-friendlyarm_nanopi-neo2-ext4-sdcard.img.gz";
+              sha256 = "fc372b31f9b55c1281447f09bf1a533fe67cffb981be0a51fb8f3b54b9c1a3b1";
+              sha256_unsigned = "9cdc01a4037d95ad7d570fd37ff4c102ec6ab5a9a94d835652eb943f6eafb1f4";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa53-friendlyarm_nanopi-neo2-squashfs-sdcard.img.gz";
+              sha256 = "21b3ee64595a52555c6a53f737c85839a9aabb1bb68e593886962814e62a7141";
+              sha256_unsigned = "ac36b523c33bc4f4f454980721fb314be1e4e2c6687e746af649ac934e146fac";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "nanopi-neo2"
+          ];
+          titles = [
+            {
+              model = "NanoPi NEO2";
+              vendor = "FriendlyARM";
+            }
+          ];
+        };
+        friendlyarm_nanopi-r1s-h5 = {
+          device_packages = [
+            "kmod-gpio-button-hotplug"
+            "kmod-usb-net-rtl8152"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa53-friendlyarm_nanopi-r1s-h5";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa53-friendlyarm_nanopi-r1s-h5-ext4-sdcard.img.gz";
+              sha256 = "fabe33577fb8b085d17bbd5fee348049a089f3dfb284f3a4dfbece2f75719bb4";
+              sha256_unsigned = "63f70858a08095b19fdd8e0eab7a01f4ebf5fff5d647f2f267b059c5e6903a4f";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa53-friendlyarm_nanopi-r1s-h5-squashfs-sdcard.img.gz";
+              sha256 = "82c3b83edbecb7df522999459697ae42e4970724486c24b9688c63bac43b2279";
+              sha256_unsigned = "aec8d4c78266672af5e9c8824a9d6729dc38ef13ea4317ef9b216673f9c61888";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "nanopi-r1s-h5"
+          ];
+          titles = [
+            {
+              model = "Nanopi R1S H5";
+              vendor = "FriendlyARM";
+            }
+          ];
+        };
+        libretech_all-h3-cc-h5 = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa53-libretech_all-h3-cc-h5";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa53-libretech_all-h3-cc-h5-ext4-sdcard.img.gz";
+              sha256 = "53e083cfb56633360de79072e48565a669838f8538409dd77f10f9813ad1ddd0";
+              sha256_unsigned = "dd5ccca93b16f08e7e96907c9e2329d8ca34279dde0dc9258b00468e9ea9cfba";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa53-libretech_all-h3-cc-h5-squashfs-sdcard.img.gz";
+              sha256 = "77d33cdc1a6a2f17624a63dfd43bc6763fb340ae5e5aea513c05086db8cf9f51";
+              sha256_unsigned = "8692ca4e7b0d807660233348180fdb6c513c8826b771fcbee612ac02d6cc2c60";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "libretech,all-h3-cc-h5"
+          ];
+          titles = [
+            {
+              model = "ALL-H3-CC";
+              variant = "H5";
+              vendor = "Libre Computer";
+            }
+          ];
+        };
+        olimex_a64-olinuxino = {
+          device_packages = [
+            "kmod-rtl8723bs"
+            "rtl8723bu-firmware"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa53-olimex_a64-olinuxino";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa53-olimex_a64-olinuxino-squashfs-sdcard.img.gz";
+              sha256 = "e492ae5c849a0a3f5e9f021b38fa3be479abfb5755091b1a587ed5f9055f5246";
+              sha256_unsigned = "7596438caaab6b6d82dda01c7b3f6eaccb3960a99f9e52b114461e36089bad0d";
+              type = "sdcard";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa53-olimex_a64-olinuxino-ext4-sdcard.img.gz";
+              sha256 = "34fa289d40a151cfe50a013ebd4a140aa487065857780a87ebb6c5b4d55c45d0";
+              sha256_unsigned = "d39a4e8a20c492294625c164756704435f99eb7e2567a9244d9fca7c7737a535";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "olimex,a64-olinuxino"
+          ];
+          titles = [
+            {
+              model = "A64-Olinuxino";
+              vendor = "Olimex";
+            }
+          ];
+        };
+        olimex_a64-olinuxino-emmc = {
+          device_packages = [
+            "kmod-rtl8723bs"
+            "rtl8723bu-firmware"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa53-olimex_a64-olinuxino-emmc";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa53-olimex_a64-olinuxino-emmc-ext4-sdcard.img.gz";
+              sha256 = "551858499adbffcbdd350568952a27f1f6ee562f3577db8b219b18f53090748c";
+              sha256_unsigned = "e27b0806a9374641848c0f93fec3b72a3970392e6de877501c6d9709aef7c88e";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa53-olimex_a64-olinuxino-emmc-squashfs-sdcard.img.gz";
+              sha256 = "8aed5e4c3239a4ebc2df13f73eba4afb6d3bb6a5cee6a641cf751eedc5458a98";
+              sha256_unsigned = "09113c8a995e2c0266a596e276ea3e665cc9d269e4215a7c5ce4e7e6d61ced03";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "olimex,a64-olinuxino-emmc"
+          ];
+          titles = [
+            {
+              model = "A64-Olinuxino";
+              variant = "eMMC";
+              vendor = "Olimex";
+            }
+          ];
+        };
+        pine64_pine64-plus = {
+          device_packages = [
+            "kmod-rtl8723bs"
+            "rtl8723bu-firmware"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa53-pine64_pine64-plus";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa53-pine64_pine64-plus-squashfs-sdcard.img.gz";
+              sha256 = "add426eb1403ce698f028237d23422b142adfd57e4bb284df6c3492b023ed695";
+              sha256_unsigned = "fe72c0acc8a844cdb9e3202e70e884fcce6847ce2d3c78deda6e280d39a2e0cb";
+              type = "sdcard";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa53-pine64_pine64-plus-ext4-sdcard.img.gz";
+              sha256 = "da4d506504b9989e8e356653769809d62dcc00b7eac2e9a3941bd00ea01b3086";
+              sha256_unsigned = "8ee31a0083c6d87df32714457fef6c0d6e9ef45fdcb48a2794e601a61020fe46";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "pine64,pine64-plus"
+          ];
+          titles = [
+            {
+              model = "Pine64+";
+              vendor = "Pine64";
+            }
+          ];
+        };
+        pine64_sopine-baseboard = {
+          device_packages = [
+            "kmod-rtl8723bs"
+            "rtl8723bu-firmware"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa53-pine64_sopine-baseboard";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa53-pine64_sopine-baseboard-squashfs-sdcard.img.gz";
+              sha256 = "35a6a49a18b20c00c23c4ee647a5096fe16719e1d4e7cf0bb14eb1dfdb4cc20c";
+              sha256_unsigned = "0b74052ce644463dbc6c79e1a7e1aee59caee43121ac53f35c33e8d61fcf1b1b";
+              type = "sdcard";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa53-pine64_sopine-baseboard-ext4-sdcard.img.gz";
+              sha256 = "a2dc1f96e0148d0bf973397cb6ab9b835a741f43ed1f5279e1a4c225dd8708e9";
+              sha256_unsigned = "47379ae345baf46093d0424689d28ca0586e6cce0eca07cf5e2a98d4477e2514";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "pine64,sopine-baseboard"
+          ];
+          titles = [
+            {
+              model = "SoPine";
+              vendor = "Pine64";
+            }
+          ];
+        };
+        xunlong_orangepi-one-plus = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa53-xunlong_orangepi-one-plus";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa53-xunlong_orangepi-one-plus-ext4-sdcard.img.gz";
+              sha256 = "cb3229d8bb2648e963f96517e24d5fca294716e8640d3a97c2f01baf9d69fe78";
+              sha256_unsigned = "fd60d6415794f83ad3a8351264f4418aee2d8f1c9f9f33e20c912b1cf510637c";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa53-xunlong_orangepi-one-plus-squashfs-sdcard.img.gz";
+              sha256 = "bd53f169ba1270684b5083f5518e96bb258f2f5762b0ba99c80e400d432ac945";
+              sha256_unsigned = "b4d88f931afce33382c2cb8a20e45da706b58a99369705525c1848a0ac02f88d";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "xunlong,orangepi-one-plus"
+          ];
+          titles = [
+            {
+              model = "Orange Pi One Plus";
+              vendor = "Xunlong";
+            }
+          ];
+        };
+        xunlong_orangepi-pc2 = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa53-xunlong_orangepi-pc2";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa53-xunlong_orangepi-pc2-ext4-sdcard.img.gz";
+              sha256 = "b30ee9bbcedb4218f6d422cec152792d1727b9139889c3d725cb6e13612e3d33";
+              sha256_unsigned = "0b7073acb8894f6aef9599d9376458b1f7f0546db52cef3822c9f4d1f38c4a22";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa53-xunlong_orangepi-pc2-squashfs-sdcard.img.gz";
+              sha256 = "a8dbfb9cdc0552730a8c395e2dd536b94357446746da26c1bb153cac89b79aa7";
+              sha256_unsigned = "f23601b10fbcaa7dd71ea95b3b1977bd19120532c4416f41c05186e5787c5ea5";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "xunlong,orangepi-pc2"
+          ];
+          titles = [
+            {
+              model = "Orange Pi PC 2";
+              vendor = "Xunlong";
+            }
+          ];
+        };
+        xunlong_orangepi-zero-plus = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa53-xunlong_orangepi-zero-plus";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa53-xunlong_orangepi-zero-plus-ext4-sdcard.img.gz";
+              sha256 = "9f8637cd193220ebe4202f2beeb204a5a76c70d6375396ab1addb5948f08d019";
+              sha256_unsigned = "9dd2fc6934f4015d188ed1293f2d53f51f91f32fccb443e9d12ed006f984fe4c";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa53-xunlong_orangepi-zero-plus-squashfs-sdcard.img.gz";
+              sha256 = "4d586bb3a43b239301c9ed7f3f5e868e9ad1e07cba1a9d9b85c1e79bf124acc9";
+              sha256_unsigned = "dee58dc622d72771e77b55b5e09e5d468d720f004c85d1085dcc43490f912ced";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "xunlong,orangepi-zero-plus"
+          ];
+          titles = [
+            {
+              model = "Orange Pi Zero Plus";
+              vendor = "Xunlong";
+            }
+          ];
+        };
+        xunlong_orangepi-zero2 = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa53-xunlong_orangepi-zero2";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa53-xunlong_orangepi-zero2-ext4-sdcard.img.gz";
+              sha256 = "90a2eae1809385667d722fc215060a27b86ae46424fc300dd00e34b3213a46ee";
+              sha256_unsigned = "b54585d651cda6013a7c5b4522f901a440a937056164d3cd89e00a2090b18bae";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa53-xunlong_orangepi-zero2-squashfs-sdcard.img.gz";
+              sha256 = "0a5f5869eda291de700dd7d52133034cc6801bf16184a691e5b49274cdf4a16a";
+              sha256_unsigned = "ffe69082bb20c805b679b11a092118f65c4374a4679764bfab63e54fc99543b6";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "xunlong,orangepi-zero2"
+          ];
+          titles = [
+            {
+              model = "Orange Pi Zero 2";
+              vendor = "Xunlong";
+            }
+          ];
+        };
+        xunlong_orangepi-zero3 = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa53-xunlong_orangepi-zero3";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa53-xunlong_orangepi-zero3-ext4-sdcard.img.gz";
+              sha256 = "80b63c9b60d0d91675e5fae2e9fa988465c501a01c6f0b4918d5d833296b792a";
+              sha256_unsigned = "7b978899108d11be4454ed633465108a498d6b8b2189d2cdcf2b8445d594e9df";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa53-xunlong_orangepi-zero3-squashfs-sdcard.img.gz";
+              sha256 = "caa8df5df52fb074cac76a2f50f47c6590e6a379b6c0b301910393f5a201961d";
+              sha256_unsigned = "02c98a996b4e091735099746a198e535bb1c52675c09cf1098dfe687e36acc1b";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "xunlong,orangepi-zero3"
+          ];
+          titles = [
+            {
+              model = "Orange Pi Zero 3";
+              vendor = "Xunlong";
+            }
+          ];
+        };
+      };
+      source_date_epoch = 1738744361;
+      target = "sunxi/cortexa53";
+      version_code = "r32824-6a73dae98c9c";
+      version_number = "24.10.0";
+    };
+    cortexa7 = {
+      arch_packages = "arm_cortex-a7_neon-vfpv4";
+      default_packages = [
+        "autocore"
+        "automount"
+        "base-files"
+        "block-mount"
+        "ca-bundle"
+        "default-settings-chn"
+        "dnsmasq-full"
+        "dropbear"
+        "firewall4"
+        "fstools"
+        "kmod-nf-nathelper"
+        "kmod-nf-nathelper-extra"
+        "kmod-nft-offload"
+        "libc"
+        "libgcc"
+        "libustream-openssl"
+        "logd"
+        "luci-app-cpufreq"
+        "luci-app-package-manager"
+        "luci-compat"
+        "luci-lib-base"
+        "luci-lib-ipkg"
+        "luci-light"
+        "mkf2fs"
+        "mtd"
+        "netifd"
+        "nftables"
+        "odhcp6c"
+        "odhcpd-ipv6only"
+        "opkg"
+        "partx-utils"
+        "ppp"
+        "ppp-mod-pppoe"
+        "procd-ujail"
+        "uboot-envtools"
+        "uci"
+        "uclient-fetch"
+        "urandom-seed"
+        "urngd"
+      ];
+      linux_kernel = {
+        release = "1";
+        vermagic = "5ca04f698c83135b557ec86184f67104";
+        version = "6.6.73";
+      };
+      metadata_version = 1;
+      profiles = {
+        cubietech_cubieboard2 = {
+          device_packages = [
+            "kmod-ata-sunxi"
+            "kmod-sun4i-emac"
+            "kmod-rtc-sunxi"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa7-cubietech_cubieboard2";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-cubietech_cubieboard2-squashfs-sdcard.img.gz";
+              sha256 = "cfec4b74f3682ee0f15414d2c49633115bb9536e459dcd10be1791f6b38806e6";
+              sha256_unsigned = "bbde7c030f99a11eca080f7be553924fc330655b73c202a701fc1de3735cd876";
+              type = "sdcard";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-cubietech_cubieboard2-ext4-sdcard.img.gz";
+              sha256 = "a6e1fa18c9de9b20d533ca0218de581e9ba7871ac1747ab7d02062652b9484ec";
+              sha256_unsigned = "466709ea5d575eecf8e5e4625abb60457664a1718ec5bf7329d87504208d9879";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "cubietech,cubieboard2"
+          ];
+          titles = [
+            {
+              model = "Cubieboard2";
+              vendor = "Cubietech";
+            }
+          ];
+        };
+        cubietech_cubietruck = {
+          device_packages = [
+            "kmod-ata-sunxi"
+            "kmod-rtc-sunxi"
+            "kmod-brcmfmac"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa7-cubietech_cubietruck";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-cubietech_cubietruck-ext4-sdcard.img.gz";
+              sha256 = "aafc16753e01d3cd8538ed1a0d2b5780b6d747386a8913a2b09f91d5b51d8456";
+              sha256_unsigned = "681a994e870fc9405da31e62cac9c67402710e74f90b2c635d463a5704318a35";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-cubietech_cubietruck-squashfs-sdcard.img.gz";
+              sha256 = "83b0ce8270e1e90530a2dbd99d2c0baada2b0bbd6d22d9dd1fced917c84b066d";
+              sha256_unsigned = "c26e437306d5f727c3b912deb232aaa448ad3058b96643c08a311f72b41f63f3";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "cubietech,cubietruck"
+          ];
+          titles = [
+            {
+              model = "Cubietruck";
+              vendor = "Cubietech";
+            }
+          ];
+        };
+        friendlyarm_nanopi-m1-plus = {
+          device_packages = [
+            "kmod-leds-gpio"
+            "kmod-brcmfmac"
+            "cypress-firmware-43430-sdio"
+            "wpad-basic-openssl"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa7-friendlyarm_nanopi-m1-plus";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-friendlyarm_nanopi-m1-plus-squashfs-sdcard.img.gz";
+              sha256 = "917db7ca3d8ac4c38e27f831294d7b8353d19e5c7b164d6283d0ba46cd33d41c";
+              sha256_unsigned = "0dca942fb694f7b25ee9ea1750ab9a9c748b11c9c59a46b930d7804cae583b80";
+              type = "sdcard";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-friendlyarm_nanopi-m1-plus-ext4-sdcard.img.gz";
+              sha256 = "9c0e41539a90575790b16c7387ae7e7afa2311263c42b24808a032e8a95fb640";
+              sha256_unsigned = "c43d4014f89712733c431401aec6bd3ec1df9424e9e4c99329854b8ce7ccf008";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "friendlyarm,nanopi-m1-plus"
+          ];
+          titles = [
+            {
+              model = "NanoPi M1 Plus";
+              vendor = "FriendlyARM";
+            }
+          ];
+        };
+        friendlyarm_nanopi-neo = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa7-friendlyarm_nanopi-neo";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-friendlyarm_nanopi-neo-squashfs-sdcard.img.gz";
+              sha256 = "6013cbefb755adee29fa6dcd47b58d2de16d9549dd51b128818cbc7e7d9b9461";
+              sha256_unsigned = "a5ad4a38902c95447558f2a85f0a6376fe361716ad5964259c8a68efcc0f6463";
+              type = "sdcard";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-friendlyarm_nanopi-neo-ext4-sdcard.img.gz";
+              sha256 = "8adc0edc5a240b67cac1122f36e03f245397fc94c3b9b81e1336305ecb6f60c1";
+              sha256_unsigned = "70a1d83408b1e5c855414de779560f1f69e20fe3c790985e6ec87141db7a8943";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "friendlyarm,nanopi-neo"
+          ];
+          titles = [
+            {
+              model = "NanoPi NEO";
+              vendor = "FriendlyARM";
+            }
+          ];
+        };
+        friendlyarm_nanopi-neo-air = {
+          device_packages = [
+            "kmod-leds-gpio"
+            "kmod-brcmfmac"
+            "brcmfmac-firmware-43430a0-sdio"
+            "wpad-basic-openssl"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa7-friendlyarm_nanopi-neo-air";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-friendlyarm_nanopi-neo-air-ext4-sdcard.img.gz";
+              sha256 = "80394981cd826e84c55e33bc5c204e122bb6dd95cd0d9b29930575b4c6f3419f";
+              sha256_unsigned = "58e1117e419b94e1f94d89e2ee43cb347b43744778b2bbfcd4de61bb64eef2d1";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-friendlyarm_nanopi-neo-air-squashfs-sdcard.img.gz";
+              sha256 = "8f4da6b6b9fda9f24e0fff0ac46969c744f56a02cb0c7a9ab009094b91d2641a";
+              sha256_unsigned = "95fb80947dc099645db40ad0f4b7ce07cc94aaf05756c0b5cc9162f47ad95fa2";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "friendlyarm,nanopi-neo-air"
+          ];
+          titles = [
+            {
+              model = "NanoPi NEO Air";
+              vendor = "FriendlyARM";
+            }
+          ];
+        };
+        friendlyarm_nanopi-r1 = {
+          device_packages = [
+            "kmod-usb-net-rtl8152"
+            "kmod-leds-gpio"
+            "kmod-brcmfmac"
+            "cypress-firmware-43430-sdio"
+            "wpad-basic-openssl"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa7-friendlyarm_nanopi-r1";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-friendlyarm_nanopi-r1-squashfs-sdcard.img.gz";
+              sha256 = "3dfc33c9683fa7fdff09017d8e1210e55fba40719904bdd570281749fa57ec3b";
+              sha256_unsigned = "63c92952f252ce03347c13a4ebff5d10f6c1c84cdb64c35b40225de7339a5510";
+              type = "sdcard";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-friendlyarm_nanopi-r1-ext4-sdcard.img.gz";
+              sha256 = "74503a226910b08657e004159fe70a2e53b5d85622d8dc910d16a1d05614da9e";
+              sha256_unsigned = "cb721a32bcef161caeb500d9ceb6406cdc3c1880ccb18c98f0e9296e16ad1f4e";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "friendlyarm,nanopi-r1"
+          ];
+          titles = [
+            {
+              model = "NanoPi R1";
+              vendor = "FriendlyARM";
+            }
+          ];
+        };
+        friendlyarm_zeropi = {
+          device_packages = [
+            "kmod-rtc-sunxi"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa7-friendlyarm_zeropi";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-friendlyarm_zeropi-ext4-sdcard.img.gz";
+              sha256 = "2aed93f34efb2bfd6f931e079b8dd630786804b0c482312d3a369fdafebf0a12";
+              sha256_unsigned = "0e96dad914edbf8ccd108ae1ae3d5467e575de760f0438f0089bf57e547610e6";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-friendlyarm_zeropi-squashfs-sdcard.img.gz";
+              sha256 = "a8d3470429f5bf67f0e5e6262303dab2dc8cf2f5a999f4d9a0e115b2f335e34f";
+              sha256_unsigned = "d8a9cebd2fa44acbbc0431f36ede5b6a7e0bffc9012d1764dfd7cc78991331c2";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "friendlyarm,zeropi"
+          ];
+          titles = [
+            {
+              model = "ZeroPi";
+              vendor = "FriendlyARM";
+            }
+          ];
+        };
+        lamobo_lamobo-r1 = {
+          device_packages = [
+            "kmod-ata-sunxi"
+            "kmod-rtl8192cu"
+            "wpad-basic-openssl"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa7-lamobo_lamobo-r1";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-lamobo_lamobo-r1-squashfs-sdcard.img.gz";
+              sha256 = "d41e20ecd33c4cb51281cf5bc77d0b60964aeabd07aa27f7b246ab05d4c2f384";
+              sha256_unsigned = "36584acdf33e481047855fef47bda1dfcc78b87c3c3393d4650379ae3a33c02f";
+              type = "sdcard";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-lamobo_lamobo-r1-ext4-sdcard.img.gz";
+              sha256 = "97b997b6f468087798828cb92f15559fb427cd6e9a47c1df26869c789e45116e";
+              sha256_unsigned = "63adf8443c65020ff0be3cb18fdd9944b809a268dc9c8c03d9a39786b988cb69";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "lamobo,lamobo-r1"
+          ];
+          titles = [
+            {
+              model = "Lamobo R1";
+              vendor = "Lamobo";
+            }
+            {
+              model = "BPi-R1";
+              vendor = "Bananapi";
+            }
+          ];
+        };
+        lemaker_bananapi = {
+          device_packages = [
+            "kmod-rtc-sunxi"
+            "kmod-ata-sunxi"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa7-lemaker_bananapi";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-lemaker_bananapi-ext4-sdcard.img.gz";
+              sha256 = "6fa75b43ba9b8a089c3a6f486b894dee75d539f4a0447b1be9637cb8cb89eb56";
+              sha256_unsigned = "a81ef673af809caf740c0efef04edb7421b457fb8d8ac0695fb10d12afcabc24";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-lemaker_bananapi-squashfs-sdcard.img.gz";
+              sha256 = "bf42bcd86a47679d08feeb609b26e46eef814ec10e42c438e671f3fdac6f96d7";
+              sha256_unsigned = "c04c73551708f26982d86bfe6f6692eab0d4a0432e05870547f5e0f51af7fbba";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "lemaker,bananapi"
+          ];
+          titles = [
+            {
+              model = "Banana Pi";
+              vendor = "LeMaker";
+            }
+          ];
+        };
+        lemaker_bananapro = {
+          device_packages = [
+            "kmod-rtc-sunxi"
+            "kmod-ata-sunxi"
+            "kmod-brcmfmac"
+            "cypress-firmware-43362-sdio"
+            "wpad-basic-openssl"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa7-lemaker_bananapro";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-lemaker_bananapro-ext4-sdcard.img.gz";
+              sha256 = "d2749e9465aff00306fc96687f705af5ba8fc0165bad7f6db0e446b2d80ed06e";
+              sha256_unsigned = "f6da60ba3e9b3aadfc7ce7f63707d9114853791ff82ae686f65e93841dd01fa7";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-lemaker_bananapro-squashfs-sdcard.img.gz";
+              sha256 = "595f6674f6c607b01ecb8cea53fc6c6ffac0c33fa0ee19ef0d2ddc176752d788";
+              sha256_unsigned = "93813c828d518c0439d21c05f0ebf11079f064cfd61a9fc54c60e1dc452f25e8";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "lemaker,bananapro"
+          ];
+          titles = [
+            {
+              model = "Banana Pro";
+              vendor = "LeMaker";
+            }
+          ];
+        };
+        licheepi_licheepi-zero-dock = {
+          device_packages = [
+            "kmod-rtc-sunxi"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa7-licheepi_licheepi-zero-dock";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-licheepi_licheepi-zero-dock-ext4-sdcard.img.gz";
+              sha256 = "01b7f55685a078f3d6b995453f4282650017807b6131aa6b7e1d13ea51d5b7ae";
+              sha256_unsigned = "cbeadc645a05464d808a9725b2b0e5dc7d2c3f9b50bce15dbfc659a2b22e3955";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-licheepi_licheepi-zero-dock-squashfs-sdcard.img.gz";
+              sha256 = "32920d9ed260b3adbd761b8b7f43549ed920875c8510393d5b8c61b9bc664695";
+              sha256_unsigned = "79dc0bfc4c10282676768221f274b68b185ae978c2d8840adb2242c49eb0ab6a";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "licheepi,licheepi-zero-dock"
+          ];
+          titles = [
+            {
+              model = "Zero with Dock (V3s)";
+              vendor = "LicheePi";
+            }
+          ];
+        };
+        linksprite_pcduino3 = {
+          device_packages = [
+            "kmod-sun4i-emac"
+            "kmod-rtc-sunxi"
+            "kmod-ata-sunxi"
+            "kmod-rtl8xxxu"
+            "rtl8188eu-firmware"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa7-linksprite_pcduino3";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-linksprite_pcduino3-squashfs-sdcard.img.gz";
+              sha256 = "f00e16b60fd968e03d1906b69fcb08aef09c87b935652be206aca7cb7d56c1a7";
+              sha256_unsigned = "ecbb8eadfda93f8985edb7eb8cbc20e7f864c201dac1930a0fe60e16f10eb28e";
+              type = "sdcard";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-linksprite_pcduino3-ext4-sdcard.img.gz";
+              sha256 = "cad9393256406c3fd48ae2999cf3b58634a4e236d042d828ccd551bcb7bc2c75";
+              sha256_unsigned = "9378ae07585921fcff67df7a8ab6ec153f3447b297b35d81596bd972a2067d47";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "linksprite,pcduino3"
+          ];
+          titles = [
+            {
+              model = "pcDuino3";
+              vendor = "LinkSprite";
+            }
+          ];
+        };
+        linksprite_pcduino3-nano = {
+          device_packages = [
+            "kmod-rtc-sunxi"
+            "kmod-ata-sunxi"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa7-linksprite_pcduino3-nano";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-linksprite_pcduino3-nano-ext4-sdcard.img.gz";
+              sha256 = "a5ff8dd4f46d2f174f4aae82e8a3e1ab4b974fec98082a6a8bf908cdcc9f3329";
+              sha256_unsigned = "7e2d2a7436e661557db1163ddb7e54c7527863c629fdc2ea7c56dff379099da9";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-linksprite_pcduino3-nano-squashfs-sdcard.img.gz";
+              sha256 = "890efdc90f030b26e1bce02ebbbe2c10b3343604fb69ae05784a709b81e4cb99";
+              sha256_unsigned = "03324b191d90ee181fba377e1dc6e361aca790b8d1bd61c20695c0fc406538b0";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "linksprite,pcduino3-nano"
+          ];
+          titles = [
+            {
+              model = "pcDuino3 Nano";
+              vendor = "LinkSprite";
+            }
+          ];
+        };
+        mele_m9 = {
+          device_packages = [
+            "kmod-sun4i-emac"
+            "kmod-rtl8192cu"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa7-mele_m9";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-mele_m9-squashfs-sdcard.img.gz";
+              sha256 = "fcbdcdf763627118088027a87a2a30d0b96e125fd6ef1a2925206a2986a6fd31";
+              sha256_unsigned = "7f40245ec676856e41433b202f8e103664aed1c21b85e70ab90c7baa0b91749a";
+              type = "sdcard";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-mele_m9-ext4-sdcard.img.gz";
+              sha256 = "266d98e6d6ba9fd5e15b76d174ff22b5b3d148fc09a7a69c121222a720579ff8";
+              sha256_unsigned = "59af3539fbee34b4b5a8cbab2dee3e00d37b011768018989e916e92b6d87dbf2";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "mele,m9"
+          ];
+          titles = [
+            {
+              model = "M9";
+              vendor = "Mele";
+            }
+          ];
+        };
+        olimex_a20-olinuxino-lime = {
+          device_packages = [
+            "kmod-ata-sunxi"
+            "kmod-rtc-sunxi"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa7-olimex_a20-olinuxino-lime";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-olimex_a20-olinuxino-lime-ext4-sdcard.img.gz";
+              sha256 = "93f2cd6297f5506b73df159400f3ec8f67e260b53cfa1fe2abe741edce3ba6e0";
+              sha256_unsigned = "c0c030b22aff2fa7f2b585cef7cf99f492d672d408998e5944766852fda60852";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-olimex_a20-olinuxino-lime-squashfs-sdcard.img.gz";
+              sha256 = "094e3304127bb793d83b7b62aa49a509b3c3c1f806cd4434cc20d52638c9e20d";
+              sha256_unsigned = "eaba97baf56789839037c12b67d587d0df50d3794221d24b850b1d8c9a8affa3";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "olimex,a20-olinuxino-lime"
+          ];
+          titles = [
+            {
+              model = "A20-OLinuXino-LIME";
+              vendor = "Olimex";
+            }
+          ];
+        };
+        olimex_a20-olinuxino-lime2 = {
+          device_packages = [
+            "kmod-ata-sunxi"
+            "kmod-rtc-sunxi"
+            "kmod-usb-hid"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa7-olimex_a20-olinuxino-lime2";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-olimex_a20-olinuxino-lime2-squashfs-sdcard.img.gz";
+              sha256 = "32d583c421baf66a4aec97535144dda5874e7ec8667af36f988ba03271f390b9";
+              sha256_unsigned = "153b9fe1d8b164216825b8f231c7dee90300d67211968eb43e3f888dd4132fc8";
+              type = "sdcard";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-olimex_a20-olinuxino-lime2-ext4-sdcard.img.gz";
+              sha256 = "ffa20cf959bf2eb7ce983aed05181be345c78f7b0a55272f3b68747367153570";
+              sha256_unsigned = "702b53f18e45f30dd6420dc469fe6bb7810d9f7a54b2a287494a8a97d1a24507";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "olimex,a20-olinuxino-lime2"
+          ];
+          titles = [
+            {
+              model = "A20-OLinuXino-LIME2";
+              vendor = "Olimex";
+            }
+          ];
+        };
+        olimex_a20-olinuxino-lime2-emmc = {
+          device_packages = [
+            "kmod-ata-sunxi"
+            "kmod-rtc-sunxi"
+            "kmod-usb-hid"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa7-olimex_a20-olinuxino-lime2-emmc";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-olimex_a20-olinuxino-lime2-emmc-ext4-sdcard.img.gz";
+              sha256 = "a7bbdef827db36f79f146d1b04e22c21090835be74ff1142d9bb7799a429099f";
+              sha256_unsigned = "2f7f9f1175c4139028e2a99d47d8dfb59cc794aec976539ff8759ea5184058de";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-olimex_a20-olinuxino-lime2-emmc-squashfs-sdcard.img.gz";
+              sha256 = "142d1afc5a95ad80896084eaf252e2d912f14f8f3c699e1b97167c71fada006d";
+              sha256_unsigned = "fc56cdfd02228f7338dd6f66b579b8dede777132e8dcaff42fbafa030fe97c1d";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "olimex,a20-olinuxino-lime2-emmc"
+          ];
+          titles = [
+            {
+              model = "A20-OLinuXino-LIME2";
+              variant = "eMMC";
+              vendor = "Olimex";
+            }
+          ];
+        };
+        olimex_a20-olinuxino-micro = {
+          device_packages = [
+            "kmod-ata-sunxi"
+            "kmod-sun4i-emac"
+            "kmod-rtc-sunxi"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa7-olimex_a20-olinuxino-micro";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-olimex_a20-olinuxino-micro-ext4-sdcard.img.gz";
+              sha256 = "e2079e5897bf683b75e83f0a735f68a98e5b9c3e797d32a31be085df8239e659";
+              sha256_unsigned = "594ee9e722e97c049da290d94fb959fd1e72e4d602c678165ea0080cc561ce9f";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-olimex_a20-olinuxino-micro-squashfs-sdcard.img.gz";
+              sha256 = "367fdb4d2317d8c46dfd16086adf764b742f5893c806c0015b329427c1e6bc04";
+              sha256_unsigned = "266de7e692b82337a910b44aa4d7d24f82d20203a0be7ca61c4b6b383bba9325";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "olimex,a20-olinuxino-micro"
+          ];
+          titles = [
+            {
+              model = "A20-OLinuXino-MICRO";
+              vendor = "Olimex";
+            }
+          ];
+        };
+        sinovoip_bananapi-m2-berry = {
+          device_packages = [
+            "kmod-ata-sunxi"
+            "kmod-brcmfmac"
+            "cypress-firmware-43430-sdio"
+            "wpad-basic-openssl"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa7-sinovoip_bananapi-m2-berry";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-sinovoip_bananapi-m2-berry-ext4-sdcard.img.gz";
+              sha256 = "cda1d242507b2fc3e4c92017923dc947f5e183f08d27c0eb40844234940689e5";
+              sha256_unsigned = "52123362f1c75b039402e617fb36d7702cb6316efb298dea94668462148ffc67";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-sinovoip_bananapi-m2-berry-squashfs-sdcard.img.gz";
+              sha256 = "cce4d5faf15077b992b1a8e3f6230186564513957f44459c3eec4735a28cc04e";
+              sha256_unsigned = "216b679755c74f9a3f4378c7ad48c050938b4a1852be1a4d2bdbe4aa361510fe";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "lemaker,bananapi-m2-berry"
+          ];
+          titles = [
+            {
+              model = "Banana Pi M2 Berry";
+              vendor = "Sinovoip";
+            }
+          ];
+        };
+        sinovoip_bananapi-m2-plus = {
+          device_packages = [
+            "kmod-leds-gpio"
+            "kmod-brcmfmac"
+            "brcmfmac-firmware-43430a0-sdio"
+            "wpad-basic-openssl"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa7-sinovoip_bananapi-m2-plus";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-sinovoip_bananapi-m2-plus-squashfs-sdcard.img.gz";
+              sha256 = "8f553cdb6183a7580d7e56b1a5ade5d22a8a56452df46122286a82ca36816300";
+              sha256_unsigned = "161d15eedc56d6de73df5eed33b26aaaf911de53b44f4619585263d202d7ba37";
+              type = "sdcard";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-sinovoip_bananapi-m2-plus-ext4-sdcard.img.gz";
+              sha256 = "822947e1f3f78e9eab7ba1a255088493ae87e8411cc9d9dc0df27f456063ac36";
+              sha256_unsigned = "33f56811cbf0170239094ac150b6e001db710121bfcf998ebb7af737258a6813";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "sinovoip,bananapi-m2-plus"
+          ];
+          titles = [
+            {
+              model = "Banana Pi M2+";
+              vendor = "Sinovoip";
+            }
+          ];
+        };
+        sinovoip_bananapi-m2-ultra = {
+          device_packages = [
+            "kmod-ata-sunxi"
+            "kmod-brcmfmac"
+            "brcmfmac-firmware-43430a0-sdio"
+            "wpad-basic-openssl"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa7-sinovoip_bananapi-m2-ultra";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-sinovoip_bananapi-m2-ultra-squashfs-sdcard.img.gz";
+              sha256 = "d54ffd6cfdda1677cd4b8ac9be47d1fa725ed8c8528b25749820a179d4328654";
+              sha256_unsigned = "c6dbfca014c6786b675d7888ae417cce620058e1c6070cef045503a8478b94fc";
+              type = "sdcard";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-sinovoip_bananapi-m2-ultra-ext4-sdcard.img.gz";
+              sha256 = "428e65b355aa2c804d1334062ac4ec3bd6c199a082e9aa0968618e758c0e90a7";
+              sha256_unsigned = "b6b2ca687c50cdc943149c63ea857b752bf10f13b083d0c148a861655ed1b2a4";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "lemaker,bananapi-m2-ultra"
+          ];
+          titles = [
+            {
+              model = "Banana Pi M2 Ultra";
+              vendor = "Sinovoip";
+            }
+          ];
+        };
+        sinovoip_bananapi-m3 = {
+          device_packages = [
+            "kmod-rtc-sunxi"
+            "kmod-leds-gpio"
+            "kmod-rtc-ac100"
+            "kmod-brcmfmac"
+            "cypress-firmware-43430-sdio"
+            "wpad-basic-openssl"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa7-sinovoip_bananapi-m3";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-sinovoip_bananapi-m3-squashfs-sdcard.img.gz";
+              sha256 = "35f4a5962536e488aca186dd4a39383dfa0d25c4928fc7cadc09f719eff87043";
+              sha256_unsigned = "56ab2d928bfb10ad5c82f8edcb5f6ca4e4763124f7aba34487bcce7c02e2f375";
+              type = "sdcard";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-sinovoip_bananapi-m3-ext4-sdcard.img.gz";
+              sha256 = "fe6f81307cbb2ca4a2ae0f67688308ffb4360c3c6e7742b1643f9db10dd66ff1";
+              sha256_unsigned = "3e63116b91ba132dc5124659a892d769d3ca847ddbfb55aa1117eb804845516c";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "sinovoip,bananapi-m3"
+          ];
+          titles = [
+            {
+              model = "Banana Pi M3";
+              vendor = "Sinovoip";
+            }
+          ];
+        };
+        sinovoip_bananapi-p2-zero = {
+          device_packages = [
+            "kmod-leds-gpio"
+            "kmod-brcmfmac"
+            "cypress-firmware-43430-sdio"
+            "wpad-basic-mbedtls"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa7-sinovoip_bananapi-p2-zero";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-sinovoip_bananapi-p2-zero-ext4-sdcard.img.gz";
+              sha256 = "e0d47b1222662065d05c1ba0b6d6e5c9bd6df33dab04d2654e391e33c84304d2";
+              sha256_unsigned = "6306f0107ed7976da2c2a07cd2dd5854f953bc28bc87cc4a364a74aeda9b14c2";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-sinovoip_bananapi-p2-zero-squashfs-sdcard.img.gz";
+              sha256 = "4c2bcb3de8bcc4d8877e7c26ef420d8a8f567f78892c3aa10d0bd3275d5519cb";
+              sha256_unsigned = "10906aef41d621580ceabddc8042bd9d7ab91d1b804e5b670dd3debdb315b257";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "sinovoip,bananapi-p2-zero"
+          ];
+          titles = [
+            {
+              model = "Banana Pi P2 Zero";
+              vendor = "Sinovoip";
+            }
+          ];
+        };
+        xunlong_orangepi-2 = {
+          device_packages = [
+            "kmod-rtc-sunxi"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa7-xunlong_orangepi-2";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-xunlong_orangepi-2-ext4-sdcard.img.gz";
+              sha256 = "983b1fd18e52d1cab89a0bd093ac218727daee2a9fe39a5164e2aef41abd0e6a";
+              sha256_unsigned = "d7a7900c930022259d7e39ddffd268ce7cd522bd424819a2cfa751bb7c4d727a";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-xunlong_orangepi-2-squashfs-sdcard.img.gz";
+              sha256 = "ee128eecabe45079972ed52aefd8945e6017f1885f806dd8baa4f34cca7a5169";
+              sha256_unsigned = "c54d3e12e059161b50d90a9d8939ce500735207892f43a0f1268f092c421fc2c";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "xunlong,orangepi-2"
+          ];
+          titles = [
+            {
+              model = "Orange Pi 2";
+              vendor = "Xunlong";
+            }
+          ];
+        };
+        xunlong_orangepi-one = {
+          device_packages = [
+            "kmod-rtc-sunxi"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa7-xunlong_orangepi-one";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-xunlong_orangepi-one-ext4-sdcard.img.gz";
+              sha256 = "ddd9c5c13c4e68b70bd9e8375cb08ffc0b42fbc8062664e88b527b35efc52875";
+              sha256_unsigned = "155f34b27c6baf5c2b2163381b8341a4bea9b68e964bc5fe1dd4790ef9629d4b";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-xunlong_orangepi-one-squashfs-sdcard.img.gz";
+              sha256 = "29f68d57a07b15a27ed06a70ce75a4866cf192700767ee5005db99555f13e23e";
+              sha256_unsigned = "8ce2f421e77575d647df450b51083fb218a093d31b8539c18d5eacd6aa96f45d";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "xunlong,orangepi-one"
+          ];
+          titles = [
+            {
+              model = "Orange Pi One";
+              vendor = "Xunlong";
+            }
+          ];
+        };
+        xunlong_orangepi-pc = {
+          device_packages = [
+            "kmod-gpio-button-hotplug"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa7-xunlong_orangepi-pc";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-xunlong_orangepi-pc-squashfs-sdcard.img.gz";
+              sha256 = "722666f41bddc82b94d0ef30579111f9646e21f58736341bf44a4069cdb520ed";
+              sha256_unsigned = "b4807ff9a88a0fc7b73b8e4f5d8d9740c69c5f2867ea27291acc257a165d4c8e";
+              type = "sdcard";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-xunlong_orangepi-pc-ext4-sdcard.img.gz";
+              sha256 = "69a0ca2e539b9c86ae5932a57c5afdef5f61dc7196c7c0333aa7ba1933de8b0d";
+              sha256_unsigned = "e772d86e2f24c8750fffc863bd5f5d0937c88216b8de970050ab42019cf1309a";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "xunlong,orangepi-pc"
+          ];
+          titles = [
+            {
+              model = "Orange Pi PC";
+              vendor = "Xunlong";
+            }
+          ];
+        };
+        xunlong_orangepi-pc-plus = {
+          device_packages = [
+            "kmod-gpio-button-hotplug"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa7-xunlong_orangepi-pc-plus";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-xunlong_orangepi-pc-plus-squashfs-sdcard.img.gz";
+              sha256 = "e3e1ef029a9331f09a492c663fadee9a6ff531bf936bac9678ba3cd7b03da5bc";
+              sha256_unsigned = "f0f7f730e0c3538df360599cb626fe84f1b017844fb46dc62bfceca51bed58c4";
+              type = "sdcard";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-xunlong_orangepi-pc-plus-ext4-sdcard.img.gz";
+              sha256 = "af8b6b0f2ef0c1f31e93a8c4a5199511e057f9e2c5ce9f5e8624384294102b50";
+              sha256_unsigned = "4f77554176fee371d8c8dbffe6a4b8c11d8c60ff05c4e3724e44e9928c3de9e2";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "xunlong,orangepi-pc-plus"
+          ];
+          titles = [
+            {
+              model = "Orange Pi PC Plus";
+              vendor = "Xunlong";
+            }
+          ];
+        };
+        xunlong_orangepi-plus = {
+          device_packages = [
+            "kmod-rtc-sunxi"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa7-xunlong_orangepi-plus";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-xunlong_orangepi-plus-squashfs-sdcard.img.gz";
+              sha256 = "c22835ac4254dceee98249f82be8bf9fb1ec8da2ff2aff864ca4baa557f9f0a0";
+              sha256_unsigned = "bed4b51a4dfe5dd99462410251e9b1ab5bd3dd81bbab7176dfd67a43ddabb834";
+              type = "sdcard";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-xunlong_orangepi-plus-ext4-sdcard.img.gz";
+              sha256 = "b674e660f8f82d61e6c6ace4611cc3fe47efa89240720c6789b0af016ee2f317";
+              sha256_unsigned = "adfd2b9d38f7c85d934aeeab68a424d3feb546d0804bddbcc3c348231d886ecc";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "xunlong,orangepi-plus"
+          ];
+          titles = [
+            {
+              model = "Orange Pi Plus";
+              vendor = "Xunlong";
+            }
+          ];
+        };
+        xunlong_orangepi-r1 = {
+          device_packages = [
+            "kmod-usb-net-rtl8152"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa7-xunlong_orangepi-r1";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-xunlong_orangepi-r1-ext4-sdcard.img.gz";
+              sha256 = "9128bb0a55914336570bf5cd611668fddcff620c7fd2fefe962e66666679b1fc";
+              sha256_unsigned = "b3491b8cbb99f447859d8dc3b4b7e17bf64a4b7bc813a5c39c816cac87491e55";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-xunlong_orangepi-r1-squashfs-sdcard.img.gz";
+              sha256 = "44a694930012e7688bd4db8646a8f4bfd5d83e5f728131b6cfc25a3109f68af5";
+              sha256_unsigned = "cb6f226ce4c25028f7a0af2c8832420cf58423c3b9c7d8c1d1358d745cc6ce96";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "xunlong,orangepi-r1"
+          ];
+          titles = [
+            {
+              model = "Orange Pi R1";
+              vendor = "Xunlong";
+            }
+          ];
+        };
+        xunlong_orangepi-zero = {
+          device_packages = [
+            "kmod-rtc-sunxi"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa7-xunlong_orangepi-zero";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-xunlong_orangepi-zero-squashfs-sdcard.img.gz";
+              sha256 = "7f30bac6cbd5a30ee086d5c2af823ceb9d3cdecc7adbfcd92acd03f92743ace4";
+              sha256_unsigned = "db5fcc73a6fda200a6cf29efd86ff65f8ef2258fe98546727c80b8c18319b359";
+              type = "sdcard";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa7-xunlong_orangepi-zero-ext4-sdcard.img.gz";
+              sha256 = "4b2131a7ac7a0753d8b68969db608a5e97e96acd0fc75ec9e157d9518e27fb66";
+              sha256_unsigned = "394bc9d1f5d80b6ec407410f72020f156ad8a2686557f10d78ab43ae4e4a903b";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "xunlong,orangepi-zero"
+          ];
+          titles = [
+            {
+              model = "Orange Pi Zero";
+              vendor = "Xunlong";
+            }
+          ];
+        };
+      };
+      source_date_epoch = 1738744361;
+      target = "sunxi/cortexa7";
+      version_code = "r32824-6a73dae98c9c";
+      version_number = "24.10.0";
+    };
+    cortexa8 = {
+      arch_packages = "arm_cortex-a8_vfpv3";
+      default_packages = [
+        "autocore"
+        "automount"
+        "base-files"
+        "block-mount"
+        "ca-bundle"
+        "default-settings-chn"
+        "dnsmasq-full"
+        "dropbear"
+        "firewall4"
+        "fstools"
+        "kmod-nf-nathelper"
+        "kmod-nf-nathelper-extra"
+        "kmod-nft-offload"
+        "libc"
+        "libgcc"
+        "libustream-openssl"
+        "logd"
+        "luci-app-cpufreq"
+        "luci-app-package-manager"
+        "luci-compat"
+        "luci-lib-base"
+        "luci-lib-ipkg"
+        "luci-light"
+        "mkf2fs"
+        "mtd"
+        "netifd"
+        "nftables"
+        "odhcp6c"
+        "odhcpd-ipv6only"
+        "opkg"
+        "partx-utils"
+        "ppp"
+        "ppp-mod-pppoe"
+        "procd-ujail"
+        "uboot-envtools"
+        "uci"
+        "uclient-fetch"
+        "urandom-seed"
+        "urngd"
+      ];
+      linux_kernel = {
+        release = "1";
+        vermagic = "d38a61c990df1f6fe9a62fc0d586ce09";
+        version = "6.6.73";
+      };
+      metadata_version = 1;
+      profiles = {
+        cubietech_a10-cubieboard = {
+          device_packages = [
+            "kmod-ata-sunxi"
+            "kmod-sun4i-emac"
+            "kmod-rtc-sunxi"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa8-cubietech_a10-cubieboard";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa8-cubietech_a10-cubieboard-ext4-sdcard.img.gz";
+              sha256 = "a59768f6e64b4afe5ac4bb9bf27137b1076f449c60ba9e43478873328ee1ecf0";
+              sha256_unsigned = "7355bac632ed7865eb2f522850053e981676db44b425fe63a5c7a6e116f0a976";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa8-cubietech_a10-cubieboard-squashfs-sdcard.img.gz";
+              sha256 = "4c3d4f52a2795a9f9485732131ac7abce489935ce9c617e740285ac40d49bfac";
+              sha256_unsigned = "7ff8b53b9df7b16225789334a2cb69cd14b426e9966d536836d0e26f7b7913e7";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "cubietech,a10-cubieboard"
+          ];
+          titles = [
+            {
+              model = "Cubieboard";
+              vendor = "Cubietech";
+            }
+          ];
+        };
+        haoyu_a10-marsboard = {
+          device_packages = [
+            "kmod-ata-core"
+            "kmod-ata-sunxi"
+            "kmod-sun4i-emac"
+            "kmod-rtc-sunxi"
+            "kmod-sound-core"
+            "kmod-sound-soc-sunxi"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa8-haoyu_a10-marsboard";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa8-haoyu_a10-marsboard-ext4-sdcard.img.gz";
+              sha256 = "531a975e1087ccd75eec6e543d1f0c3fad0ea0f25322a5f28f82a0a6215cc932";
+              sha256_unsigned = "01c8bd617c97633b5bcf1a3160dc898d26729710267986742b5a4778916490f7";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa8-haoyu_a10-marsboard-squashfs-sdcard.img.gz";
+              sha256 = "f2e5c9aa5efab40251e0010459dd000cb8735dc3e206555e9cac5371b82b922c";
+              sha256_unsigned = "902a001cf6b582ea70d2959320879bd5c165007ce276721688bfaa3a0d0e3ec3";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "haoyu,a10-marsboard"
+            "marsboard,a10-marsboard"
+          ];
+          titles = [
+            {
+              model = "MarsBoard A10";
+              vendor = "HAOYU Electronics";
+            }
+          ];
+        };
+        linksprite_a10-pcduino = {
+          device_packages = [
+            "kmod-sun4i-emac"
+            "kmod-rtc-sunxi"
+            "kmod-rtl8192cu"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa8-linksprite_a10-pcduino";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa8-linksprite_a10-pcduino-squashfs-sdcard.img.gz";
+              sha256 = "a7ed6e793eb947331f514e0b542d19b0b401ac205734921a9305c142aedc0764";
+              sha256_unsigned = "0e72c86bf89a014a131c147ba049123532a38c59f6e61147ae6191d09a3be57b";
+              type = "sdcard";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa8-linksprite_a10-pcduino-ext4-sdcard.img.gz";
+              sha256 = "2afa173f51a49d8158a07bd8a614aa71e6c6b8d6e6d21a42b95eb6002f96ae70";
+              sha256_unsigned = "8aad0fc623b5e3ac4a7563f2aa4df8c1cf37d9b1718c7010fb131f70ec607e9e";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "linksprite,a10-pcduino"
+          ];
+          titles = [
+            {
+              model = "pcDuino";
+              vendor = "LinkSprite";
+            }
+          ];
+        };
+        olimex_a10-olinuxino-lime = {
+          device_packages = [
+            "kmod-ata-sunxi"
+            "kmod-sun4i-emac"
+            "kmod-rtc-sunxi"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa8-olimex_a10-olinuxino-lime";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa8-olimex_a10-olinuxino-lime-ext4-sdcard.img.gz";
+              sha256 = "6f437e9bf6fd6bfa4279c3c7173f0a082b6c6d82ee5f60891c537069b489d3df";
+              sha256_unsigned = "65476acbc5aec2d5381785f864da2bf31f3046f9929f8110b8ec97089e0f8993";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa8-olimex_a10-olinuxino-lime-squashfs-sdcard.img.gz";
+              sha256 = "0cf9a048597ec9b3f44bd6865aae308b3b1336a228fbf38ba46bc53f7432c7cc";
+              sha256_unsigned = "e102dd68c5ca43990f2c94b17f6e4b4e320eae4c958cbf6b9f6edff1fbb85163";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "olimex,a10-olinuxino-lime"
+          ];
+          titles = [
+            {
+              model = "A10-OLinuXino-LIME";
+              vendor = "Olimex";
+            }
+          ];
+        };
+        olimex_a13-olimex-som = {
+          device_packages = [
+            "kmod-rtl8192cu"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa8-olimex_a13-olimex-som";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa8-olimex_a13-olimex-som-squashfs-sdcard.img.gz";
+              sha256 = "ff649c7902a691afb6e58b9d7ff3a5a0cd79432c760c5a3fb06bd354bc6a2be2";
+              sha256_unsigned = "ea521f35feebd6586ce3a0c03918e9454fc35f224673aad36bfe854cf2dc541e";
+              type = "sdcard";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa8-olimex_a13-olimex-som-ext4-sdcard.img.gz";
+              sha256 = "677431431cbcc5b4361adfe7d1b4a91512efcd2bd909a2ef2fc72820c99de5ea";
+              sha256_unsigned = "1b9b38bfbdf796ad49304e05dcb0424a71f62719ec16ecff02a64a9b5cb81d15";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "olimex,a13-olinuxino"
+          ];
+          titles = [
+            {
+              model = "A13-SOM";
+              vendor = "Olimex";
+            }
+          ];
+        };
+        olimex_a13-olinuxino = {
+          device_packages = [
+            "kmod-rtl8192cu"
+          ];
+          image_prefix = "immortalwrt-24.10.0-sunxi-cortexa8-olimex_a13-olinuxino";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-sunxi-cortexa8-olimex_a13-olinuxino-ext4-sdcard.img.gz";
+              sha256 = "f9b4dd1d53283c68c58fe1dccbb7a90669bbcbac634d1a2db75077549e870c28";
+              sha256_unsigned = "f3d6c7efeb67f95041622759aec59ed4002f2a48efad8c0e451e458c58370557";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-sunxi-cortexa8-olimex_a13-olinuxino-squashfs-sdcard.img.gz";
+              sha256 = "fac60610e63ca96a8bb5d865eb17dab2b35df2ae400a065c9b4fa9390208757d";
+              sha256_unsigned = "16e1dedf1c3036e7cb841dde986620efe34c4a123cbefc91f17338dd5b7ea310";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "olimex,a13-olinuxino"
+          ];
+          titles = [
+            {
+              model = "A13-OLinuXino";
+              vendor = "Olimex";
+            }
+          ];
+        };
+      };
+      source_date_epoch = 1738744361;
+      target = "sunxi/cortexa8";
+      version_code = "r32824-6a73dae98c9c";
+      version_number = "24.10.0";
+    };
+  };
+  tegra = {
+    generic = {
+      arch_packages = "arm_cortex-a9_vfpv3-d16";
+      default_packages = [
+        "base-files"
+        "block-mount"
+        "ca-bundle"
+        "default-settings-chn"
+        "dnsmasq-full"
+        "dropbear"
+        "e2fsprogs"
+        "firewall4"
+        "fstools"
+        "kmod-nf-nathelper"
+        "kmod-nf-nathelper-extra"
+        "kmod-nft-offload"
+        "libc"
+        "libgcc"
+        "libustream-openssl"
+        "logd"
+        "luci-app-package-manager"
+        "luci-compat"
+        "luci-lib-base"
+        "luci-lib-ipkg"
+        "luci-light"
+        "mkf2fs"
+        "mtd"
+        "netifd"
+        "nftables"
+        "odhcp6c"
+        "odhcpd-ipv6only"
+        "opkg"
+        "partx-utils"
+        "ppp"
+        "ppp-mod-pppoe"
+        "procd-ujail"
+        "uci"
+        "uclient-fetch"
+        "urandom-seed"
+        "urngd"
+      ];
+      linux_kernel = {
+        release = "1";
+        vermagic = "d0c2d50416e7185db8341de916e8b64e";
+        version = "6.6.73";
+      };
+      metadata_version = 1;
+      profiles = {
+        compulab_trimslice = {
+          device_packages = [
+            "kmod-leds-gpio"
+            "kmod-r8169"
+            "kmod-rt2800-usb"
+            "kmod-rtc-em3027"
+            "kmod-usb-hid"
+            "kmod-usb-storage"
+            "wpad-basic-openssl"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-24.10.0-tegra-generic-compulab_trimslice";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-tegra-generic-compulab_trimslice-ext4-sdcard.img.gz";
+              sha256 = "8e636c100154cc3f9bb8e83fa50752e6146c10ce2ad826dfb70076a215355806";
+              sha256_unsigned = "addb82be0b67546cb2faa9279808d4b05fcab4441704aa50ff213029f96320fe";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-tegra-generic-compulab_trimslice-squashfs-sdcard.img.gz";
+              sha256 = "dd18e1d61b1156b189f95fd4d8a03a897f0f62ea1a2bfb4aa24e4c4cbeddc2d1";
+              sha256_unsigned = "918c0c8e824a5d8da55ef75ae97a5003537a33206ae0153ef22946fdf66e1df8";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "compulab,trimslice"
+          ];
+          titles = [
+            {
+              model = "TrimSlice";
+              vendor = "CompuLab";
+            }
+          ];
+        };
+      };
+      source_date_epoch = 1738744361;
+      target = "tegra/generic";
+      version_code = "r32824-6a73dae98c9c";
+      version_number = "24.10.0";
+    };
+  };
+  x86 = {
+    "64" = {
+      arch_packages = "x86_64";
+      default_packages = [
+        "autocore"
+        "automount"
+        "base-files"
+        "block-mount"
+        "ca-bundle"
+        "default-settings-chn"
+        "dnsmasq-full"
+        "dropbear"
+        "fdisk"
+        "firewall4"
+        "fstools"
+        "grub2-bios-setup"
+        "i915-firmware-dmc"
+        "kmod-8139cp"
+        "kmod-8139too"
+        "kmod-button-hotplug"
+        "kmod-e1000e"
+        "kmod-fs-f2fs"
+        "kmod-i40e"
+        "kmod-igb"
+        "kmod-igbvf"
+        "kmod-igc"
+        "kmod-ixgbe"
+        "kmod-ixgbevf"
+        "kmod-nf-nathelper"
+        "kmod-nf-nathelper-extra"
+        "kmod-nft-offload"
+        "kmod-pcnet32"
+        "kmod-r8101"
+        "kmod-r8125"
+        "kmod-r8126"
+        "kmod-r8168"
+        "kmod-tulip"
+        "kmod-usb-hid"
+        "kmod-usb-net"
+        "kmod-usb-net-asix"
+        "kmod-usb-net-asix-ax88179"
+        "kmod-usb-net-rtl8150"
+        "kmod-usb-net-rtl8152-vendor"
+        "kmod-vmxnet3"
+        "libc"
+        "libgcc"
+        "libustream-openssl"
+        "logd"
+        "luci-app-package-manager"
+        "luci-compat"
+        "luci-lib-base"
+        "luci-lib-ipkg"
+        "luci-light"
+        "mkf2fs"
+        "mtd"
+        "netifd"
+        "nftables"
+        "odhcp6c"
+        "odhcpd-ipv6only"
+        "opkg"
+        "partx-utils"
+        "ppp"
+        "ppp-mod-pppoe"
+        "procd-ujail"
+        "uci"
+        "uclient-fetch"
+        "urandom-seed"
+        "urngd"
+      ];
+      linux_kernel = {
+        release = "1";
+        vermagic = "e374625fa86cafa3cbc5e009d5855910";
+        version = "6.6.73";
+      };
+      metadata_version = 1;
+      profiles = {
+        generic = {
+          device_packages = [
+            "kmod-amazon-ena"
+            "kmod-amd-xgbe"
+            "kmod-bnx2"
+            "kmod-e1000"
+            "kmod-dwmac-intel"
+            "kmod-forcedeth"
+            "kmod-fs-vfat"
+            "kmod-tg3"
+            "kmod-drm-i915"
+          ];
+          image_prefix = "immortalwrt-24.10.0-x86-64-generic";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-64-generic-ext4-combined.vhdx";
+              sha256 = "f2998f59cbc510119d0686fdf659f8b971e6ac6952616ef898828a19800501f6";
+              sha256_unsigned = "f2998f59cbc510119d0686fdf659f8b971e6ac6952616ef898828a19800501f6";
+              type = "combined";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-64-generic-ext4-combined.vmdk";
+              sha256 = "7680beff2d1a4f40d97d9b1b879da977a39d186195b013f1cccbd961fd916dba";
+              sha256_unsigned = "7680beff2d1a4f40d97d9b1b879da977a39d186195b013f1cccbd961fd916dba";
+              type = "combined";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-64-generic-ext4-combined-efi.qcow2";
+              sha256 = "90c024ff4a7bf47d7511f6bd80a50d3525a8ba90adfdf026d9b10f4215143f76";
+              sha256_unsigned = "90c024ff4a7bf47d7511f6bd80a50d3525a8ba90adfdf026d9b10f4215143f76";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-64-generic-squashfs-combined-efi.qcow2";
+              sha256 = "79f645954092d0d638059c37b319379d67175dc823f4a19fefee14de50dd3d6f";
+              sha256_unsigned = "79f645954092d0d638059c37b319379d67175dc823f4a19fefee14de50dd3d6f";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-64-generic-squashfs-combined-efi.img.gz";
+              sha256 = "a9ff933ae37499f69ec69a34e337f3b008cce4426fa5e0576bf973f4a6777d6d";
+              sha256_unsigned = "f4f6a3ed2285d06a399aa628ef94488cb6a65c56d9900444662bdf4662e2496e";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-64-generic-ext4-combined-efi.img.gz";
+              sha256 = "563bfc1abb235ec70bdddc1922c3c2a0c8dc986feef0a89a50932b676a187417";
+              sha256_unsigned = "89fe3f9a4586f36571dfa2886e0f68cd705773b60da1f659f84695f0e4b2c5aa";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-64-generic-ext4-combined-efi.vhdx";
+              sha256 = "0c294d6d355672b2efd6d229388dfe16da1a456607e92873ce94593d4635decf";
+              sha256_unsigned = "0c294d6d355672b2efd6d229388dfe16da1a456607e92873ce94593d4635decf";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-64-generic-ext4-combined.qcow2";
+              sha256 = "2ac196eaaa07a78e9ce5104deddeb257f4290755ab689658d5b400b07a5c0922";
+              sha256_unsigned = "2ac196eaaa07a78e9ce5104deddeb257f4290755ab689658d5b400b07a5c0922";
+              type = "combined";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-64-generic-squashfs-rootfs.img.gz";
+              sha256 = "bc388ac351d58e0d8d73475d2d3c8cb40d130a348e8fba658397ef7efe8671cb";
+              sha256_unsigned = "bc388ac351d58e0d8d73475d2d3c8cb40d130a348e8fba658397ef7efe8671cb";
+              type = "rootfs";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-64-generic-ext4-rootfs.img.gz";
+              sha256 = "17f60a9c030c41556badcb818237df4d562e30154fae5d65a6de84c328d42643";
+              sha256_unsigned = "17f60a9c030c41556badcb818237df4d562e30154fae5d65a6de84c328d42643";
+              type = "rootfs";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-64-generic-squashfs-combined-efi.vdi";
+              sha256 = "0bb8c6db9c72e329ac6b6aa458708e0ef273b09b6bde057f7251cbaca580061e";
+              sha256_unsigned = "0bb8c6db9c72e329ac6b6aa458708e0ef273b09b6bde057f7251cbaca580061e";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-64-generic-squashfs-combined-efi.vmdk";
+              sha256 = "2e197bc82f7636dda258edb04f71d38c5f2bbc91d2e0baa8590bbb377e46b96a";
+              sha256_unsigned = "2e197bc82f7636dda258edb04f71d38c5f2bbc91d2e0baa8590bbb377e46b96a";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-64-generic-squashfs-combined.qcow2";
+              sha256 = "e76a84b7c592da134a609681a457cd0027d50de55ced0f041f90b180ee0891e0";
+              sha256_unsigned = "e76a84b7c592da134a609681a457cd0027d50de55ced0f041f90b180ee0891e0";
+              type = "combined";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-64-generic-squashfs-combined.vmdk";
+              sha256 = "4d9c1ffb7bd1d09a87f76575eb0209316a2f80002c6947b35513f8a112b70122";
+              sha256_unsigned = "4d9c1ffb7bd1d09a87f76575eb0209316a2f80002c6947b35513f8a112b70122";
+              type = "combined";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-64-generic-squashfs-combined-efi.vhdx";
+              sha256 = "6ed6416d145145c15657ffd405c9ea1e7bac484ab1c816181740bd37ec81675c";
+              sha256_unsigned = "6ed6416d145145c15657ffd405c9ea1e7bac484ab1c816181740bd37ec81675c";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-64-generic-squashfs-combined.vdi";
+              sha256 = "d19e3a6b8084b6dc4e3646cf98a614407ee270b3552b42cff5e03fe4e0814b4e";
+              sha256_unsigned = "d19e3a6b8084b6dc4e3646cf98a614407ee270b3552b42cff5e03fe4e0814b4e";
+              type = "combined";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-64-generic-ext4-combined-efi.vdi";
+              sha256 = "914a310b24750e1c87bec6897a381cb05f5ce5354306e338296517fe192144d6";
+              sha256_unsigned = "914a310b24750e1c87bec6897a381cb05f5ce5354306e338296517fe192144d6";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-64-generic-squashfs-combined.img.gz";
+              sha256 = "fc2ada12db78de68bd2d6c0e1780fe67e271806b058be3ed404189c4490919ec";
+              sha256_unsigned = "e1567138aaa8ad93859659328bf38d30b026330b1f7ca7a638533d367d6c0741";
+              type = "combined";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-64-generic-ext4-combined.img.gz";
+              sha256 = "51f088d4e52a3e2b5a58aa6d107e4d6cfb3eda595c42d677a32fcb5a2fd4bb3c";
+              sha256_unsigned = "2ed420a0e0ad95e20598791cf100a74c86a559dfd50829ded86750f93bb1dd53";
+              type = "combined";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-64-generic-ext4-combined.vdi";
+              sha256 = "b9a4a8f24ea2ad6265c8167ca983b49e67bb1423db864521603628a5ee253b82";
+              sha256_unsigned = "b9a4a8f24ea2ad6265c8167ca983b49e67bb1423db864521603628a5ee253b82";
+              type = "combined";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-64-generic-ext4-combined-efi.vmdk";
+              sha256 = "5cb16de23a2e29c5fd3a170106185dd7e66e4ef6b35682205920d0c786efde02";
+              sha256_unsigned = "5cb16de23a2e29c5fd3a170106185dd7e66e4ef6b35682205920d0c786efde02";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-64-generic-squashfs-combined.vhdx";
+              sha256 = "6a60ea0ca0de1db27fb01e07d7f559d7a492070fc03bdbc42a0f6c3e3307d563";
+              sha256_unsigned = "6a60ea0ca0de1db27fb01e07d7f559d7a492070fc03bdbc42a0f6c3e3307d563";
+              type = "combined";
+            }
+            {
+              name = "immortalwrt-24.10.0-x86-64-generic-image-efi.iso";
+              sha256 = "bf9974d1442e728ec356985c186e56c6d2fe1983c9f32a3c44891db1669a6b7c";
+              sha256_unsigned = "bf9974d1442e728ec356985c186e56c6d2fe1983c9f32a3c44891db1669a6b7c";
+              type = "image-efi.iso";
+            }
+            {
+              name = "immortalwrt-24.10.0-x86-64-generic-image.iso";
+              sha256 = "055d4bc34040b95dd6304b2bb3006bfe6e47a4e15309b91b937409173beb8e92";
+              sha256_unsigned = "055d4bc34040b95dd6304b2bb3006bfe6e47a4e15309b91b937409173beb8e92";
+              type = "image.iso";
+            }
+          ];
+          supported_devices = [ ];
+          titles = [
+            {
+              model = "x86/64";
+              vendor = "Generic";
+            }
+          ];
+        };
+      };
+      source_date_epoch = 1738744361;
+      target = "x86/64";
+      version_code = "r32824-6a73dae98c9c";
+      version_number = "24.10.0";
+    };
+    generic = {
+      arch_packages = "i386_pentium4";
+      default_packages = [
+        "autocore"
+        "automount"
+        "base-files"
+        "block-mount"
+        "ca-bundle"
+        "default-settings-chn"
+        "dnsmasq-full"
+        "dropbear"
+        "fdisk"
+        "firewall4"
+        "fstools"
+        "grub2-bios-setup"
+        "i915-firmware-dmc"
+        "kmod-8139cp"
+        "kmod-8139too"
+        "kmod-button-hotplug"
+        "kmod-e1000e"
+        "kmod-fs-f2fs"
+        "kmod-i40e"
+        "kmod-igb"
+        "kmod-igbvf"
+        "kmod-igc"
+        "kmod-ixgbe"
+        "kmod-ixgbevf"
+        "kmod-nf-nathelper"
+        "kmod-nf-nathelper-extra"
+        "kmod-nft-offload"
+        "kmod-pcnet32"
+        "kmod-r8101"
+        "kmod-r8125"
+        "kmod-r8126"
+        "kmod-r8168"
+        "kmod-tulip"
+        "kmod-usb-hid"
+        "kmod-usb-net"
+        "kmod-usb-net-asix"
+        "kmod-usb-net-asix-ax88179"
+        "kmod-usb-net-rtl8150"
+        "kmod-usb-net-rtl8152-vendor"
+        "kmod-vmxnet3"
+        "libc"
+        "libgcc"
+        "libustream-openssl"
+        "logd"
+        "luci-app-package-manager"
+        "luci-compat"
+        "luci-lib-base"
+        "luci-lib-ipkg"
+        "luci-light"
+        "mkf2fs"
+        "mtd"
+        "netifd"
+        "nftables"
+        "odhcp6c"
+        "odhcpd-ipv6only"
+        "opkg"
+        "partx-utils"
+        "ppp"
+        "ppp-mod-pppoe"
+        "procd-ujail"
+        "uci"
+        "uclient-fetch"
+        "urandom-seed"
+        "urngd"
+      ];
+      linux_kernel = {
+        release = "1";
+        vermagic = "1ea353d3f9384f0510a1792476350a07";
+        version = "6.6.73";
+      };
+      metadata_version = 1;
+      profiles = {
+        generic = {
+          device_packages = [
+            "kmod-3c59x"
+            "kmod-e100"
+            "kmod-e1000"
+            "kmod-natsemi"
+            "kmod-ne2k-pci"
+            "kmod-pcnet32"
+            "kmod-sis900"
+            "kmod-tg3"
+            "kmod-via-rhine"
+            "kmod-via-velocity"
+            "kmod-forcedeth"
+            "kmod-fs-vfat"
+            "kmod-drm-i915"
+          ];
+          image_prefix = "immortalwrt-24.10.0-x86-generic-generic";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-generic-generic-squashfs-combined-efi.vmdk";
+              sha256 = "048bf530b1550078fd3815c8624783e38048f23220e9d3902740d7c2f69edbb3";
+              sha256_unsigned = "048bf530b1550078fd3815c8624783e38048f23220e9d3902740d7c2f69edbb3";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-generic-generic-squashfs-combined.img.gz";
+              sha256 = "88813398ef6ab4336fb109cb44f17377149102e1031049ff9d6897493d3eb71a";
+              sha256_unsigned = "9a509e2ba81851490c160805b1b3bc7401cd206999739c02bbc07f3f87be20f0";
+              type = "combined";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-generic-generic-ext4-combined.vdi";
+              sha256 = "3f8fffae2eadadb7afcdde5db837d46bf3158896f656f3693cc79e625398af6b";
+              sha256_unsigned = "3f8fffae2eadadb7afcdde5db837d46bf3158896f656f3693cc79e625398af6b";
+              type = "combined";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-generic-generic-squashfs-combined.qcow2";
+              sha256 = "1b7d8a0acf19eb7dab1161dec08f18f81f734978e7bd62c16c14dac3e25dbd68";
+              sha256_unsigned = "1b7d8a0acf19eb7dab1161dec08f18f81f734978e7bd62c16c14dac3e25dbd68";
+              type = "combined";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-generic-generic-squashfs-combined-efi.img.gz";
+              sha256 = "c3b67efa4938fed4ea2f048739c866dd2a4f6cf10d27d87c9ef8674d04ddfc0d";
+              sha256_unsigned = "38ccc2cf24c12780c2f022fb3c1fa8c72017e3f200d7567e9c2e6163c7ba871c";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-generic-generic-ext4-combined-efi.vdi";
+              sha256 = "8df20fe69a1a6d8f283db25156c730aeff606a387f01961488c7f6f9a3afe822";
+              sha256_unsigned = "8df20fe69a1a6d8f283db25156c730aeff606a387f01961488c7f6f9a3afe822";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-generic-generic-squashfs-combined.vmdk";
+              sha256 = "835657d3e7ad383715b561e3cadb54c20ac7b248d854418773dc136c47e18567";
+              sha256_unsigned = "835657d3e7ad383715b561e3cadb54c20ac7b248d854418773dc136c47e18567";
+              type = "combined";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-generic-generic-squashfs-combined-efi.qcow2";
+              sha256 = "ef1a877a4dbab3a776b247e987d52e9daaa95d1cced48b394cb834d3723a125c";
+              sha256_unsigned = "ef1a877a4dbab3a776b247e987d52e9daaa95d1cced48b394cb834d3723a125c";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-generic-generic-squashfs-combined.vdi";
+              sha256 = "dc64d9230d4c0cc3a7b6f0e5fe25eb8b8e48d9be5d2234ec41b001cd38af7a97";
+              sha256_unsigned = "dc64d9230d4c0cc3a7b6f0e5fe25eb8b8e48d9be5d2234ec41b001cd38af7a97";
+              type = "combined";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-generic-generic-ext4-combined.img.gz";
+              sha256 = "e6a1e0927dff3d8ae29d455f110612cea00d19a0b7007080964c72c7dd40b983";
+              sha256_unsigned = "dc544849c28bbbec6c4b7066231332cd2d5b05da9ace83aadfe0f4b046229ff7";
+              type = "combined";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-generic-generic-squashfs-combined-efi.vhdx";
+              sha256 = "98f751e33064805a4164275fe552c096643e14d1bd505505ba2507616cf15283";
+              sha256_unsigned = "98f751e33064805a4164275fe552c096643e14d1bd505505ba2507616cf15283";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-generic-generic-ext4-combined-efi.qcow2";
+              sha256 = "5b8cdd842be1f11882d454d4c27a93f75b5c7556b0ff8a16730dccfb3ff9aeac";
+              sha256_unsigned = "5b8cdd842be1f11882d454d4c27a93f75b5c7556b0ff8a16730dccfb3ff9aeac";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-generic-generic-squashfs-combined.vhdx";
+              sha256 = "91ece3b639a3519fa0016dc38aac88e3c23e0edec8ff653f9d74eca86e12cb70";
+              sha256_unsigned = "91ece3b639a3519fa0016dc38aac88e3c23e0edec8ff653f9d74eca86e12cb70";
+              type = "combined";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-generic-generic-ext4-combined.vhdx";
+              sha256 = "8817a1fcaa68826ed1e7611a6f313174642536cdc23035212dd924a6d251f13e";
+              sha256_unsigned = "8817a1fcaa68826ed1e7611a6f313174642536cdc23035212dd924a6d251f13e";
+              type = "combined";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-generic-generic-squashfs-combined-efi.vdi";
+              sha256 = "d98f7db7937dff749077dacea82dd73089b9db5857213741e85d57c69cc07d28";
+              sha256_unsigned = "d98f7db7937dff749077dacea82dd73089b9db5857213741e85d57c69cc07d28";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-generic-generic-ext4-combined.vmdk";
+              sha256 = "8f616ab812280e455c0f4d53ad7dd44b5cf1452fb2120c30405ffa7b646ad898";
+              sha256_unsigned = "8f616ab812280e455c0f4d53ad7dd44b5cf1452fb2120c30405ffa7b646ad898";
+              type = "combined";
+            }
+            {
+              name = "immortalwrt-24.10.0-x86-generic-generic-image-efi.iso";
+              sha256 = "da133034edf15fb31ff6e8d94ba0a01678b92798b73f2e0dc3ba8cab258c48b0";
+              sha256_unsigned = "da133034edf15fb31ff6e8d94ba0a01678b92798b73f2e0dc3ba8cab258c48b0";
+              type = "image-efi.iso";
+            }
+            {
+              name = "immortalwrt-24.10.0-x86-generic-generic-image.iso";
+              sha256 = "df6e65bf11c50127690fbde7f9b757e9363d68e7bf40ce980d88b39862cca08b";
+              sha256_unsigned = "df6e65bf11c50127690fbde7f9b757e9363d68e7bf40ce980d88b39862cca08b";
+              type = "image.iso";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-generic-generic-squashfs-rootfs.img.gz";
+              sha256 = "2e0e7129f03bd9c4b11e1950e84920317009908a4cf89753f12b430855befe8b";
+              sha256_unsigned = "2e0e7129f03bd9c4b11e1950e84920317009908a4cf89753f12b430855befe8b";
+              type = "rootfs";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-generic-generic-ext4-rootfs.img.gz";
+              sha256 = "6e59e924b5dbe9ff317297a9a846ccc69f0d3f50478fb257da5b6a0165eac24b";
+              sha256_unsigned = "6e59e924b5dbe9ff317297a9a846ccc69f0d3f50478fb257da5b6a0165eac24b";
+              type = "rootfs";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-generic-generic-ext4-combined-efi.img.gz";
+              sha256 = "7935af365862700a96c939c8d7ab8cfeaa694aa88fbc28a07a3d7051b2d46bc3";
+              sha256_unsigned = "d3154e34fb955bb1073c461b8c47b9f09af6bb681ab6644e3949ed24758d1682";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-generic-generic-ext4-combined.qcow2";
+              sha256 = "3d5e83f7402bac1b8d0faba51cdc40eca297c49310ceadfa0ec844f25467539e";
+              sha256_unsigned = "3d5e83f7402bac1b8d0faba51cdc40eca297c49310ceadfa0ec844f25467539e";
+              type = "combined";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-generic-generic-ext4-combined-efi.vhdx";
+              sha256 = "45aa962d5c753697b2652bd32ebc2c3295aa47176d744b16fb7235e8268e325b";
+              sha256_unsigned = "45aa962d5c753697b2652bd32ebc2c3295aa47176d744b16fb7235e8268e325b";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-generic-generic-ext4-combined-efi.vmdk";
+              sha256 = "e7d35e8e02be3a20bbbc03f75979e8e0efcd38b09e24fd8292be5984d5212a42";
+              sha256_unsigned = "e7d35e8e02be3a20bbbc03f75979e8e0efcd38b09e24fd8292be5984d5212a42";
+              type = "combined-efi";
+            }
+          ];
+          supported_devices = [ ];
+          titles = [
+            {
+              model = "x86";
+              vendor = "Generic";
+            }
+          ];
+        };
+      };
+      source_date_epoch = 1738744361;
+      target = "x86/generic";
+      version_code = "r32824-6a73dae98c9c";
+      version_number = "24.10.0";
+    };
+    geode = {
+      arch_packages = "i386_pentium-mmx";
+      default_packages = [
+        "autocore"
+        "automount"
+        "base-files"
+        "block-mount"
+        "ca-bundle"
+        "default-settings-chn"
+        "dnsmasq-full"
+        "dropbear"
+        "fdisk"
+        "firewall4"
+        "fstools"
+        "grub2-bios-setup"
+        "i915-firmware-dmc"
+        "kmod-8139cp"
+        "kmod-8139too"
+        "kmod-button-hotplug"
+        "kmod-e1000e"
+        "kmod-fs-f2fs"
+        "kmod-i40e"
+        "kmod-igb"
+        "kmod-igbvf"
+        "kmod-igc"
+        "kmod-ixgbe"
+        "kmod-ixgbevf"
+        "kmod-nf-nathelper"
+        "kmod-nf-nathelper-extra"
+        "kmod-nft-offload"
+        "kmod-pcnet32"
+        "kmod-r8101"
+        "kmod-r8125"
+        "kmod-r8126"
+        "kmod-r8168"
+        "kmod-tulip"
+        "kmod-usb-hid"
+        "kmod-usb-net"
+        "kmod-usb-net-asix"
+        "kmod-usb-net-asix-ax88179"
+        "kmod-usb-net-rtl8150"
+        "kmod-usb-net-rtl8152-vendor"
+        "kmod-vmxnet3"
+        "libc"
+        "libgcc"
+        "libustream-openssl"
+        "logd"
+        "luci-app-package-manager"
+        "luci-compat"
+        "luci-lib-base"
+        "luci-lib-ipkg"
+        "luci-light"
+        "mkf2fs"
+        "mtd"
+        "netifd"
+        "nftables"
+        "odhcp6c"
+        "odhcpd-ipv6only"
+        "opkg"
+        "partx-utils"
+        "ppp"
+        "ppp-mod-pppoe"
+        "procd-ujail"
+        "uci"
+        "uclient-fetch"
+        "urandom-seed"
+        "urngd"
+      ];
+      linux_kernel = {
+        release = "1";
+        vermagic = "d913fc496e1ae174aff58d5d1df68056";
+        version = "6.6.73";
+      };
+      metadata_version = 1;
+      profiles = {
+        generic = {
+          device_packages = [
+            "kmod-crypto-cbc"
+            "kmod-crypto-ecb"
+            "kmod-crypto-hw-geode"
+            "kmod-ledtrig-gpio"
+          ];
+          image_prefix = "immortalwrt-24.10.0-x86-geode-generic";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-geode-generic-ext4-combined-efi.img.gz";
+              sha256 = "871968c20f45be80e96fe4df50f542ce8584e1e7c4eb8860f72df5f56d447eb7";
+              sha256_unsigned = "89c17395ab105f61ef72287963d4298029339f724bad9de53234a4a8ba48159b";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-geode-generic-squashfs-combined-efi.img.gz";
+              sha256 = "7fdb9d52cd26a9dc47c82bdcd38e446f7f1d292152080f53f0e4da654bea9759";
+              sha256_unsigned = "b2fec42aa9fdbc425d242cc10b456bbc9ec949de493d26564d62a63729f96d35";
+              type = "combined-efi";
+            }
+            {
+              name = "immortalwrt-24.10.0-x86-geode-generic-image.iso";
+              sha256 = "d4bb06246578ea3e6e5a9fad3a4336f0c0f67b1cdf5e0c33afb6e49218cecb3b";
+              sha256_unsigned = "d4bb06246578ea3e6e5a9fad3a4336f0c0f67b1cdf5e0c33afb6e49218cecb3b";
+              type = "image.iso";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-geode-generic-squashfs-combined.qcow2";
+              sha256 = "87908e66db7d84ddfe7db878c690e8441d0d2cae3151843d402e20eba1d2448a";
+              sha256_unsigned = "87908e66db7d84ddfe7db878c690e8441d0d2cae3151843d402e20eba1d2448a";
+              type = "combined";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-geode-generic-ext4-combined.vhdx";
+              sha256 = "1650e2ca555d419354df807b7fbd92d7e17e879b02362b8ade65aa452091b45b";
+              sha256_unsigned = "1650e2ca555d419354df807b7fbd92d7e17e879b02362b8ade65aa452091b45b";
+              type = "combined";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-geode-generic-squashfs-combined.vmdk";
+              sha256 = "ecd2f46f6c4109ecf06353d31bda635aa80db9ae435d01b610a6e756c3ff8512";
+              sha256_unsigned = "ecd2f46f6c4109ecf06353d31bda635aa80db9ae435d01b610a6e756c3ff8512";
+              type = "combined";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-geode-generic-ext4-combined.vdi";
+              sha256 = "cc74c19c4102249a37abfc1deba4b6f20067d5bc9f7d5a6a096b997655a7d14a";
+              sha256_unsigned = "cc74c19c4102249a37abfc1deba4b6f20067d5bc9f7d5a6a096b997655a7d14a";
+              type = "combined";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-geode-generic-ext4-combined-efi.vmdk";
+              sha256 = "323837bbfb5a98fe6908cbf81cd8474fea3c151fbd73c34fec4438e65b8fa174";
+              sha256_unsigned = "323837bbfb5a98fe6908cbf81cd8474fea3c151fbd73c34fec4438e65b8fa174";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-geode-generic-ext4-combined-efi.vdi";
+              sha256 = "2a532a006284ecfa376ce802bf0b419acdc8961077389ef668c84067bf8753f8";
+              sha256_unsigned = "2a532a006284ecfa376ce802bf0b419acdc8961077389ef668c84067bf8753f8";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-geode-generic-squashfs-combined.vdi";
+              sha256 = "d0475b4ee4dbbdaf6d6c16cb4a9183dd9d8a3ae41f9dce9731b52415d14a1081";
+              sha256_unsigned = "d0475b4ee4dbbdaf6d6c16cb4a9183dd9d8a3ae41f9dce9731b52415d14a1081";
+              type = "combined";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-geode-generic-squashfs-combined.img.gz";
+              sha256 = "f731f25505fb7ed6ac3aa71802a8a79a1602553b3df9f6d20e75d2325cfc8d20";
+              sha256_unsigned = "e9040b115a6af748d2f6272ac626bb7f22cb4257542b215ee6c174a568dbf563";
+              type = "combined";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-geode-generic-ext4-combined.img.gz";
+              sha256 = "e61c63a9d7d655035bbf0abceeb9fb05c5ec884a2225ec884587444abd3122bb";
+              sha256_unsigned = "2241af9b07329b42df6a2201c9dbf9934114e20bde0dcf86c28128686b9a8288";
+              type = "combined";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-geode-generic-ext4-combined-efi.qcow2";
+              sha256 = "39891497ea077a0c1dd527db65cb62e7dc78bb87dac31b320c0d9e4ed37c11de";
+              sha256_unsigned = "39891497ea077a0c1dd527db65cb62e7dc78bb87dac31b320c0d9e4ed37c11de";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-geode-generic-squashfs-combined.vhdx";
+              sha256 = "7a73f2dc79cbeaec2adc2f4afd182d2b4d70816f04067e8b26fe94b2d9da2336";
+              sha256_unsigned = "7a73f2dc79cbeaec2adc2f4afd182d2b4d70816f04067e8b26fe94b2d9da2336";
+              type = "combined";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-geode-generic-squashfs-combined-efi.vmdk";
+              sha256 = "a08d22d7e4c711d5d3f04fc9d8835399347df5ca110918a9d75066ea61d12b98";
+              sha256_unsigned = "a08d22d7e4c711d5d3f04fc9d8835399347df5ca110918a9d75066ea61d12b98";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-geode-generic-squashfs-combined-efi.vdi";
+              sha256 = "219764f033f79edf56422cd1d1adca93c42956772afbde6c76e373a5d056691b";
+              sha256_unsigned = "219764f033f79edf56422cd1d1adca93c42956772afbde6c76e373a5d056691b";
+              type = "combined-efi";
+            }
+            {
+              name = "immortalwrt-24.10.0-x86-geode-generic-image-efi.iso";
+              sha256 = "c02e5a4ebb7cf7e8449e31cb16ea6e024fa785b6879dfb188f5df4cb45348a9c";
+              sha256_unsigned = "c02e5a4ebb7cf7e8449e31cb16ea6e024fa785b6879dfb188f5df4cb45348a9c";
+              type = "image-efi.iso";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-geode-generic-ext4-combined.vmdk";
+              sha256 = "420ce68da7fc47158bf36ddde63b147a1612ad673dd68b41a77cbd2a8c74b81f";
+              sha256_unsigned = "420ce68da7fc47158bf36ddde63b147a1612ad673dd68b41a77cbd2a8c74b81f";
+              type = "combined";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-geode-generic-squashfs-combined-efi.vhdx";
+              sha256 = "cbe1dfaef6cb85cdbef54653ebbc3caa118922a3c321677b912677b9044b4915";
+              sha256_unsigned = "cbe1dfaef6cb85cdbef54653ebbc3caa118922a3c321677b912677b9044b4915";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-geode-generic-ext4-rootfs.img.gz";
+              sha256 = "17f89c3260bbc274bf26c9c3b884e0242ddf5a8be22f5fb3dd196fe24e5f7c97";
+              sha256_unsigned = "17f89c3260bbc274bf26c9c3b884e0242ddf5a8be22f5fb3dd196fe24e5f7c97";
+              type = "rootfs";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-geode-generic-ext4-combined-efi.vhdx";
+              sha256 = "5fce1b973ba7f4a1f4f6a3e4b0c4d26b4bcb7061c6047086c7f6638a22ec2cb4";
+              sha256_unsigned = "5fce1b973ba7f4a1f4f6a3e4b0c4d26b4bcb7061c6047086c7f6638a22ec2cb4";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-geode-generic-ext4-combined.qcow2";
+              sha256 = "f6ff5478f5fc51df0666f7830106f0bc5879ab1e3ee8c94293405268631d3ce4";
+              sha256_unsigned = "f6ff5478f5fc51df0666f7830106f0bc5879ab1e3ee8c94293405268631d3ce4";
+              type = "combined";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-geode-generic-squashfs-combined-efi.qcow2";
+              sha256 = "b164f1dde7a7cd8e6f6c5b80aee995a8ba69e83ad4e68b01771d480ba2d7a1c4";
+              sha256_unsigned = "b164f1dde7a7cd8e6f6c5b80aee995a8ba69e83ad4e68b01771d480ba2d7a1c4";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-geode-generic-squashfs-rootfs.img.gz";
+              sha256 = "ae4ff62c193ac35d4671025001bf8f4d7fe7fd15e44e8f7861e5e98a9da3f2dc";
+              sha256_unsigned = "ae4ff62c193ac35d4671025001bf8f4d7fe7fd15e44e8f7861e5e98a9da3f2dc";
+              type = "rootfs";
+            }
+          ];
+          supported_devices = [ ];
+          titles = [
+            {
+              model = "x86/Geode";
+              vendor = "Generic";
+            }
+          ];
+        };
+        geos = {
+          device_packages = [
+            "kmod-crypto-cbc"
+            "kmod-crypto-ecb"
+            "kmod-crypto-hw-geode"
+            "kmod-ledtrig-gpio"
+            "br2684ctl"
+            "flashrom"
+            "kmod-hwmon-lm90"
+            "kmod-mppe"
+            "kmod-pppoa"
+            "kmod-usb-ohci-pci"
+            "linux-atm"
+            "ppp-mod-pppoa"
+            "pppdump"
+            "pppstats"
+            "soloscli"
+            "tc"
+          ];
+          image_prefix = "immortalwrt-24.10.0-x86-geode-geos";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-geode-geos-squashfs-combined-efi.vdi";
+              sha256 = "5b8c371eb31cb65189851aaf6b0411797f8241b67d8a7d3fbbab06f96fc299d7";
+              sha256_unsigned = "5b8c371eb31cb65189851aaf6b0411797f8241b67d8a7d3fbbab06f96fc299d7";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-geode-geos-ext4-combined-efi.img.gz";
+              sha256 = "ba6b8ea6cccba164d254d15153c20e2eda0abb12e0d5ec2f907e9d3cd62e7d0e";
+              sha256_unsigned = "62f593c491ebd10c7f505a0d4bff3f988ee9b5e795a1fa78eba3b6b8eb314899";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-geode-geos-ext4-combined.qcow2";
+              sha256 = "128589663125f3c734d900da0a5227d29c2afd3d25a7316e9897114ac1de186f";
+              sha256_unsigned = "128589663125f3c734d900da0a5227d29c2afd3d25a7316e9897114ac1de186f";
+              type = "combined";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-geode-geos-squashfs-combined-efi.vmdk";
+              sha256 = "79fc0b7fae88fed251a5b92c1e24b950e1d6332122374813aa2934367afd11f4";
+              sha256_unsigned = "79fc0b7fae88fed251a5b92c1e24b950e1d6332122374813aa2934367afd11f4";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-geode-geos-squashfs-combined.qcow2";
+              sha256 = "f0493791ce5693914efe2f0fcc04ef5a5c6b270f8a947a87dfff473aa6decd54";
+              sha256_unsigned = "f0493791ce5693914efe2f0fcc04ef5a5c6b270f8a947a87dfff473aa6decd54";
+              type = "combined";
+            }
+            {
+              name = "immortalwrt-24.10.0-x86-geode-geos-image.iso";
+              sha256 = "8b808e0393cc7e6c8b81b725d678215bb8334f7a2cd2941e5b8138bb8a123c2b";
+              sha256_unsigned = "8b808e0393cc7e6c8b81b725d678215bb8334f7a2cd2941e5b8138bb8a123c2b";
+              type = "image.iso";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-geode-geos-squashfs-combined-efi.qcow2";
+              sha256 = "2fa64945bf3a0af8a6e1a5e6b029c051d182826630820f495ed0b789a6e34f73";
+              sha256_unsigned = "2fa64945bf3a0af8a6e1a5e6b029c051d182826630820f495ed0b789a6e34f73";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-geode-geos-ext4-combined.vhdx";
+              sha256 = "4dd138d55352367c61f0df02eafeba63bd6dc31b06a241139f5f3899d89b5ba0";
+              sha256_unsigned = "4dd138d55352367c61f0df02eafeba63bd6dc31b06a241139f5f3899d89b5ba0";
+              type = "combined";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-geode-geos-ext4-combined-efi.qcow2";
+              sha256 = "8f9dfa514c0f49d634063cabafe7e159f7a5c193163139d722a9cee666df85e5";
+              sha256_unsigned = "8f9dfa514c0f49d634063cabafe7e159f7a5c193163139d722a9cee666df85e5";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-geode-geos-ext4-rootfs.img.gz";
+              sha256 = "e3d1d7ef98afdddfd5a0f95daa461f565727e8c60a3fa75cdd8c2a3feed8a450";
+              sha256_unsigned = "e3d1d7ef98afdddfd5a0f95daa461f565727e8c60a3fa75cdd8c2a3feed8a450";
+              type = "rootfs";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-geode-geos-squashfs-combined.vmdk";
+              sha256 = "52c4a1819260314247bad40908c8a04fda1239fcd9d625b32666e2dc102c3bb1";
+              sha256_unsigned = "52c4a1819260314247bad40908c8a04fda1239fcd9d625b32666e2dc102c3bb1";
+              type = "combined";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-geode-geos-squashfs-combined.vhdx";
+              sha256 = "5c88ca5fabe61b01eec82dfeaf0731dab9e72c9595810f9433cf6218a49291e1";
+              sha256_unsigned = "5c88ca5fabe61b01eec82dfeaf0731dab9e72c9595810f9433cf6218a49291e1";
+              type = "combined";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-geode-geos-squashfs-combined.img.gz";
+              sha256 = "ff84e4b2c0f2887481730178d48cbbe5cbf304fdb471254cb058eb816b4f9526";
+              sha256_unsigned = "324b7e27697041f7ea7651f6cc935de4ab6cab493ac8d2183b6c4f86891b59ac";
+              type = "combined";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-geode-geos-ext4-combined.vdi";
+              sha256 = "e5af06d340b3c6a2d657fbaa711a40779763629cafea2f3a658e21b0094ba268";
+              sha256_unsigned = "e5af06d340b3c6a2d657fbaa711a40779763629cafea2f3a658e21b0094ba268";
+              type = "combined";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-geode-geos-ext4-combined-efi.vdi";
+              sha256 = "5092dc2e2ed3b3e7392256145217fe968f0183de31e84810ec6662926126074f";
+              sha256_unsigned = "5092dc2e2ed3b3e7392256145217fe968f0183de31e84810ec6662926126074f";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-geode-geos-squashfs-combined-efi.img.gz";
+              sha256 = "2c8686bf12658d8f2b4bf6137692d22ee3a9bb9c25838121c14df32bbf44c87f";
+              sha256_unsigned = "5c17bb64e8f14c5599f4b4263a422cef101004978d2fd7038a9e7ac3bdf02a83";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-geode-geos-squashfs-combined-efi.vhdx";
+              sha256 = "662123ddbdfae0342538f0c7889bbd2b22621c7d0ca6263d349686114eb45e50";
+              sha256_unsigned = "662123ddbdfae0342538f0c7889bbd2b22621c7d0ca6263d349686114eb45e50";
+              type = "combined-efi";
+            }
+            {
+              name = "immortalwrt-24.10.0-x86-geode-geos-image-efi.iso";
+              sha256 = "d185be02a2d68ae5480dd2c180b997bf7004e8e125ed382ecd15b1a772c53b35";
+              sha256_unsigned = "d185be02a2d68ae5480dd2c180b997bf7004e8e125ed382ecd15b1a772c53b35";
+              type = "image-efi.iso";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-geode-geos-ext4-combined-efi.vhdx";
+              sha256 = "160312f76de9622d07f000f2207f96d3a212c76cac5e20ab74552bf87a1d8b21";
+              sha256_unsigned = "160312f76de9622d07f000f2207f96d3a212c76cac5e20ab74552bf87a1d8b21";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-geode-geos-ext4-combined.img.gz";
+              sha256 = "63689690a6b5e3502b063f04cdcc15f7a476045416e80211820e589d5ae2da85";
+              sha256_unsigned = "9b9c183ad485977729eb0f8842653d5f88774d6ffabd0e86e4477e8bf806abbd";
+              type = "combined";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-geode-geos-squashfs-rootfs.img.gz";
+              sha256 = "6a1501b3107eb3cad17f9cce62d22381b798ea9cc27b655977314180bfcf48af";
+              sha256_unsigned = "6a1501b3107eb3cad17f9cce62d22381b798ea9cc27b655977314180bfcf48af";
+              type = "rootfs";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-geode-geos-ext4-combined.vmdk";
+              sha256 = "a2b0d51cc8d44c33cdaa8a49fa8acdabfbd7d548f40c496b937f0a8fc80b5b00";
+              sha256_unsigned = "a2b0d51cc8d44c33cdaa8a49fa8acdabfbd7d548f40c496b937f0a8fc80b5b00";
+              type = "combined";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-geode-geos-ext4-combined-efi.vmdk";
+              sha256 = "b593e7bd639029123ecaadfc102c19bff4f599aa9f01c774723d5ffbe1065699";
+              sha256_unsigned = "b593e7bd639029123ecaadfc102c19bff4f599aa9f01c774723d5ffbe1065699";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-geode-geos-squashfs-combined.vdi";
+              sha256 = "a76b5b6430c5fa4e52f327cbcaedd715e0ff2b867658628f76537815bf9b1438";
+              sha256_unsigned = "a76b5b6430c5fa4e52f327cbcaedd715e0ff2b867658628f76537815bf9b1438";
+              type = "combined";
+            }
+          ];
+          supported_devices = [ ];
+          titles = [
+            {
+              model = "Geos";
+              vendor = "Traverse Technologies";
+            }
+          ];
+        };
+      };
+      source_date_epoch = 1738744361;
+      target = "x86/geode";
+      version_code = "r32824-6a73dae98c9c";
+      version_number = "24.10.0";
+    };
+    legacy = {
+      arch_packages = "i386_pentium-mmx";
+      default_packages = [
+        "autocore"
+        "automount"
+        "base-files"
+        "block-mount"
+        "ca-bundle"
+        "default-settings-chn"
+        "dnsmasq-full"
+        "dropbear"
+        "fdisk"
+        "firewall4"
+        "fstools"
+        "grub2-bios-setup"
+        "i915-firmware-dmc"
+        "kmod-8139cp"
+        "kmod-8139too"
+        "kmod-button-hotplug"
+        "kmod-e1000e"
+        "kmod-fs-f2fs"
+        "kmod-i40e"
+        "kmod-igb"
+        "kmod-igbvf"
+        "kmod-igc"
+        "kmod-ixgbe"
+        "kmod-ixgbevf"
+        "kmod-nf-nathelper"
+        "kmod-nf-nathelper-extra"
+        "kmod-nft-offload"
+        "kmod-pcnet32"
+        "kmod-r8101"
+        "kmod-r8125"
+        "kmod-r8126"
+        "kmod-r8168"
+        "kmod-tulip"
+        "kmod-usb-hid"
+        "kmod-usb-net"
+        "kmod-usb-net-asix"
+        "kmod-usb-net-asix-ax88179"
+        "kmod-usb-net-rtl8150"
+        "kmod-usb-net-rtl8152-vendor"
+        "kmod-vmxnet3"
+        "libc"
+        "libgcc"
+        "libustream-openssl"
+        "logd"
+        "luci-app-package-manager"
+        "luci-compat"
+        "luci-lib-base"
+        "luci-lib-ipkg"
+        "luci-light"
+        "mkf2fs"
+        "mtd"
+        "netifd"
+        "nftables"
+        "odhcp6c"
+        "odhcpd-ipv6only"
+        "opkg"
+        "partx-utils"
+        "ppp"
+        "ppp-mod-pppoe"
+        "procd-ujail"
+        "uci"
+        "uclient-fetch"
+        "urandom-seed"
+        "urngd"
+      ];
+      linux_kernel = {
+        release = "1";
+        vermagic = "a3781d1b6a9fd3bf54edd715ae65af8d";
+        version = "6.6.73";
+      };
+      metadata_version = 1;
+      profiles = {
+        generic = {
+          device_packages = [
+            "kmod-3c59x"
+            "kmod-e100"
+            "kmod-e1000"
+            "kmod-natsemi"
+            "kmod-ne2k-pci"
+            "kmod-pcnet32"
+            "kmod-sis900"
+            "kmod-tg3"
+            "kmod-via-rhine"
+            "kmod-via-velocity"
+            "kmod-forcedeth"
+            "kmod-drm-i915"
+          ];
+          image_prefix = "immortalwrt-24.10.0-x86-legacy-generic";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-legacy-generic-squashfs-combined.img.gz";
+              sha256 = "31044272fc39d252d1a0719ae6b21c6763289c51b935cfe327072c08013ef936";
+              sha256_unsigned = "0fec352e217d5b98e4993be7742740894141e135d5257da6a022d9d61d2387bc";
+              type = "combined";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-legacy-generic-squashfs-combined.vdi";
+              sha256 = "b897df4044a0950d535e85fef0e1ab9f091cc970dcee640a1d07077b96426e35";
+              sha256_unsigned = "b897df4044a0950d535e85fef0e1ab9f091cc970dcee640a1d07077b96426e35";
+              type = "combined";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-legacy-generic-ext4-combined.img.gz";
+              sha256 = "d9488f2ee0e8770dce0226b8e5359c947bcde22b77a1572e554dd15b4d8f91cf";
+              sha256_unsigned = "1df597111384ad37e9da185ca0a828d0f508c4ed94c0bb81e6cb45a6229cbf35";
+              type = "combined";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-legacy-generic-squashfs-combined-efi.qcow2";
+              sha256 = "b859fe2fbbd6615387c10a61a73f91419128e1206c802df1508225ff41b3ab0d";
+              sha256_unsigned = "b859fe2fbbd6615387c10a61a73f91419128e1206c802df1508225ff41b3ab0d";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-legacy-generic-squashfs-combined-efi.vmdk";
+              sha256 = "b4bd264cdb001bd9ba27187895f6a2b18331f7bc8b1f211b27733088edeb8a10";
+              sha256_unsigned = "b4bd264cdb001bd9ba27187895f6a2b18331f7bc8b1f211b27733088edeb8a10";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-legacy-generic-squashfs-combined.vmdk";
+              sha256 = "d04ea1bbd11303c5e9cee71547ea4b0cdfada1de936893be4ce5f15bd0ad3999";
+              sha256_unsigned = "d04ea1bbd11303c5e9cee71547ea4b0cdfada1de936893be4ce5f15bd0ad3999";
+              type = "combined";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-legacy-generic-squashfs-combined-efi.vdi";
+              sha256 = "77a6af5f9227c567afa811dadb22a7c3c40c8d2a548ec84b59c209ac943cfa5e";
+              sha256_unsigned = "77a6af5f9227c567afa811dadb22a7c3c40c8d2a548ec84b59c209ac943cfa5e";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-legacy-generic-ext4-combined-efi.vdi";
+              sha256 = "ebfe713abb79c5d5828109b9c75885892b5325251fc477b36f2764216aabc9f5";
+              sha256_unsigned = "ebfe713abb79c5d5828109b9c75885892b5325251fc477b36f2764216aabc9f5";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-legacy-generic-ext4-combined.vmdk";
+              sha256 = "1f29ad3ac8d4bb4cf3f98ed4572adf0d53eeb5438f05a67006a56f510b8007a7";
+              sha256_unsigned = "1f29ad3ac8d4bb4cf3f98ed4572adf0d53eeb5438f05a67006a56f510b8007a7";
+              type = "combined";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-legacy-generic-ext4-combined.vhdx";
+              sha256 = "34b56c1afeb927f7165a17f2f26ce425ceb4c138451c0bd707bc620aa191ba0d";
+              sha256_unsigned = "34b56c1afeb927f7165a17f2f26ce425ceb4c138451c0bd707bc620aa191ba0d";
+              type = "combined";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-legacy-generic-squashfs-rootfs.img.gz";
+              sha256 = "7ccc6d6f76ac0218782a9c3926f37380c03d5e3461ddae0d03afc18af0b60d2d";
+              sha256_unsigned = "7ccc6d6f76ac0218782a9c3926f37380c03d5e3461ddae0d03afc18af0b60d2d";
+              type = "rootfs";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-legacy-generic-squashfs-combined.vhdx";
+              sha256 = "c3aed30fb6ea34dfc35bdfed7dd7376b43388c6627d42f7267b3e14cb100f8d4";
+              sha256_unsigned = "c3aed30fb6ea34dfc35bdfed7dd7376b43388c6627d42f7267b3e14cb100f8d4";
+              type = "combined";
+            }
+            {
+              name = "immortalwrt-24.10.0-x86-legacy-generic-image-efi.iso";
+              sha256 = "9ebe86a9618e227df2910b64772d947ad265e9edb82eefa212bcbc7d1925f421";
+              sha256_unsigned = "9ebe86a9618e227df2910b64772d947ad265e9edb82eefa212bcbc7d1925f421";
+              type = "image-efi.iso";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-legacy-generic-squashfs-combined-efi.vhdx";
+              sha256 = "216a7ad3938ef93911878868752759116217a09d0523cb0a6d4616ab688fc29a";
+              sha256_unsigned = "216a7ad3938ef93911878868752759116217a09d0523cb0a6d4616ab688fc29a";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-legacy-generic-ext4-combined-efi.vmdk";
+              sha256 = "de630f361ae131e8adb6c5568522fa397ff15633b65f8f8e64dc1ced0c9f0953";
+              sha256_unsigned = "de630f361ae131e8adb6c5568522fa397ff15633b65f8f8e64dc1ced0c9f0953";
+              type = "combined-efi";
+            }
+            {
+              name = "immortalwrt-24.10.0-x86-legacy-generic-image.iso";
+              sha256 = "84a9b32cf913e6d864fab35b94a21acb4a43f1ca96cc9215403d26ab94917a9b";
+              sha256_unsigned = "84a9b32cf913e6d864fab35b94a21acb4a43f1ca96cc9215403d26ab94917a9b";
+              type = "image.iso";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-legacy-generic-squashfs-combined.qcow2";
+              sha256 = "aea1fc67ffc229293435073004c60624e5cd740c0d3a44ce9f1b799282270385";
+              sha256_unsigned = "aea1fc67ffc229293435073004c60624e5cd740c0d3a44ce9f1b799282270385";
+              type = "combined";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-legacy-generic-ext4-combined-efi.qcow2";
+              sha256 = "853b58377a6d5435a87c10ff5b86501503daaab3f39b7605d414e31d3605c8f6";
+              sha256_unsigned = "853b58377a6d5435a87c10ff5b86501503daaab3f39b7605d414e31d3605c8f6";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-legacy-generic-ext4-rootfs.img.gz";
+              sha256 = "71bc10d6f6a2b64241c8a1993cd3a764e8400733ecbd4e0714c39c9402ea2bbf";
+              sha256_unsigned = "71bc10d6f6a2b64241c8a1993cd3a764e8400733ecbd4e0714c39c9402ea2bbf";
+              type = "rootfs";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-legacy-generic-ext4-combined.vdi";
+              sha256 = "130bdf587ee60c0048af95bc034a4d28bb861226b93a7bcb6cf79a3c9b9076f3";
+              sha256_unsigned = "130bdf587ee60c0048af95bc034a4d28bb861226b93a7bcb6cf79a3c9b9076f3";
+              type = "combined";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-legacy-generic-ext4-combined.qcow2";
+              sha256 = "4643fe6714210257464ed14524e6744c413600a46d9cfeeda31a3f0c174fb12c";
+              sha256_unsigned = "4643fe6714210257464ed14524e6744c413600a46d9cfeeda31a3f0c174fb12c";
+              type = "combined";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-legacy-generic-ext4-combined-efi.img.gz";
+              sha256 = "87928cb25cbd3f7aa5543b6fb1eb1f7cfbde1d34bc42dcb18ac9ae1c8afb71e3";
+              sha256_unsigned = "99d315e1f67628a17ae0051579f64c51dd4760c7c11ef3cd1ac9332edcf9e84c";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-x86-legacy-generic-squashfs-combined-efi.img.gz";
+              sha256 = "e7f0046535e8374a0b58505d9b815952ebba7ff80d3766ebdf81d41d21d3911f";
+              sha256_unsigned = "bf3f47cd89cf222f0d0e424ce9b1deeca66c179488d42fca5d5b6418a1cc5b47";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10.0-x86-legacy-generic-ext4-combined-efi.vhdx";
+              sha256 = "7dea69c2d7c66fb2ef72f67c5c156c469306e82b929a7872125e812058eec815";
+              sha256_unsigned = "7dea69c2d7c66fb2ef72f67c5c156c469306e82b929a7872125e812058eec815";
+              type = "combined-efi";
+            }
+          ];
+          supported_devices = [ ];
+          titles = [
+            {
+              model = "x86/legacy";
+              vendor = "Generic";
+            }
+          ];
+        };
+      };
+      source_date_epoch = 1738744361;
+      target = "x86/legacy";
+      version_code = "r32824-6a73dae98c9c";
+      version_number = "24.10.0";
+    };
+  };
+  zynq = {
+    generic = {
+      arch_packages = "arm_cortex-a9_neon";
+      default_packages = [
+        "base-files"
+        "block-mount"
+        "ca-bundle"
+        "default-settings-chn"
+        "dnsmasq-full"
+        "dropbear"
+        "e2fsprogs"
+        "firewall4"
+        "fstools"
+        "kmod-fs-msdos"
+        "kmod-nf-nathelper"
+        "kmod-nf-nathelper-extra"
+        "kmod-nft-offload"
+        "kmod-usb-storage"
+        "libc"
+        "libgcc"
+        "libustream-openssl"
+        "logd"
+        "luci-app-package-manager"
+        "luci-compat"
+        "luci-lib-base"
+        "luci-lib-ipkg"
+        "luci-light"
+        "mkf2fs"
+        "mtd"
+        "netifd"
+        "nftables"
+        "odhcp6c"
+        "odhcpd-ipv6only"
+        "opkg"
+        "ppp"
+        "ppp-mod-pppoe"
+        "procd-ujail"
+        "uboot-envtools"
+        "uci"
+        "uclient-fetch"
+        "urandom-seed"
+        "urngd"
+      ];
+      linux_kernel = {
+        release = "1";
+        vermagic = "71f20bcd94f6999014a90ed7e3fe5a77";
+        version = "6.6.73";
+      };
+      metadata_version = 1;
+      profiles = {
+        avnet_zynq-zed = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-24.10.0-zynq-generic-avnet_zynq-zed";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-zynq-generic-avnet_zynq-zed-squashfs-sdcard.img.gz";
+              sha256 = "e36f727728e4c1dfdbb2b996d55db98c50c03d1ca564c1cba68df5eb27367428";
+              sha256_unsigned = "e36f727728e4c1dfdbb2b996d55db98c50c03d1ca564c1cba68df5eb27367428";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "avnet,zynq-zed"
+          ];
+          titles = [
+            {
+              model = "ZedBoard";
+              vendor = "Avnet";
+            }
+          ];
+        };
+        digilent_zynq-zybo = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-24.10.0-zynq-generic-digilent_zynq-zybo";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-zynq-generic-digilent_zynq-zybo-squashfs-sdcard.img.gz";
+              sha256 = "e9f38465972a4f4aed21ad2562e2e2d97ee143a7abcd477f7759dbda7bee9f8b";
+              sha256_unsigned = "e9f38465972a4f4aed21ad2562e2e2d97ee143a7abcd477f7759dbda7bee9f8b";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "digilent,zynq-zybo"
+          ];
+          titles = [
+            {
+              model = "Zybo";
+              vendor = "Digilent";
+            }
+          ];
+        };
+        digilent_zynq-zybo-z7 = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-24.10.0-zynq-generic-digilent_zynq-zybo-z7";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-zynq-generic-digilent_zynq-zybo-z7-squashfs-sdcard.img.gz";
+              sha256 = "c45aec38d4c4a08e019cf46b2d7a879d38c2737e47e56531f96fd9d04e85a95f";
+              sha256_unsigned = "c45aec38d4c4a08e019cf46b2d7a879d38c2737e47e56531f96fd9d04e85a95f";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "digilent,zynq-zybo-z7"
+          ];
+          titles = [
+            {
+              model = "Zybo Z7";
+              vendor = "Digilent";
+            }
+          ];
+        };
+        xlnx_zynq-zc702 = {
+          device_packages = [
+            "kmod-can"
+            "kmod-can-xilinx-can"
+          ];
+          image_prefix = "immortalwrt-24.10.0-zynq-generic-xlnx_zynq-zc702";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.0-zynq-generic-xlnx_zynq-zc702-squashfs-sdcard.img.gz";
+              sha256 = "a00a77b3c56d0f1955159a994d3f3c4175615e02993d689b1fa1ee82111767f8";
+              sha256_unsigned = "a00a77b3c56d0f1955159a994d3f3c4175615e02993d689b1fa1ee82111767f8";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "xlnx,zynq-zc702"
+          ];
+          titles = [
+            {
+              model = "ZC702";
+              vendor = "Xilinx";
+            }
+          ];
+        };
+      };
+      source_date_epoch = 1738744361;
+      target = "zynq/generic";
+      version_code = "r32824-6a73dae98c9c";
+      version_number = "24.10.0";
+    };
+  };
 }
