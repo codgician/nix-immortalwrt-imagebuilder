@@ -44,8 +44,8 @@
   packages."aarch64_generic"."base".sha256 = "sha256-iXmbVq4GA+h71mveXOmsV38lXQehVKrUTUubCIO6WFE=";
   packages."aarch64_generic"."luci".sha256 = "sha256-7NLs0Pc+DPC9dFhY28cjsjKBv6BsLj1JJlqy8d2dIvE=";
   packages."aarch64_generic"."packages".sha256 = "sha256-dr5vDCAfGgDHj3IwZVBB3iiAyTdrQ+tpOBdd6ZoJ3BQ=";
-  packages."aarch64_generic"."routing".sha256 = "sha256-9T68aWCUHlSAD4nHelwbwRaAFjxFilU2vI51BknV7DU=";
-  packages."aarch64_generic"."telephony".sha256 = "sha256-Uj0b8h9F3vBS1KsCwM8o+zkdMho3bgy7g0P8eLuBd04=";
+  packages."aarch64_generic"."routing".sha256 = "sha256-6aO02WRLbRT6+2WvCB0wscKbv0N4Rdqwng3LcnWxGQ0=";
+  packages."aarch64_generic"."telephony".sha256 = "sha256-fzaqTxtLF205BsckvYGOrvIFvMtcBPPxdqqN6B0oU3Q=";
   targets."gemini"."generic".sha256 = "sha256-G+mK5qC6KXoHlbdmEcWcP88Xs6O3hXHbnMcTvdp+EjU=";
   kmods."gemini"."generic"."6.6.73-1-93de7fd64378909934ed749f21e74f48".sha256 = "sha256-Z58u2kVMnrOI1J6UcMiUNJ+t9RDIdLw5sgp21ghck6Q=";
   targets."gemini"."generic".packagesArch = "arm_fa526";
@@ -367,8 +367,8 @@
   kmods."bcm27xx"."bcm2708"."6.6.73-1-4358b2d1867bfbe14830b9d15e4ac967".sha256 = "sha256-V/P2pTerSxHrIvq2uk0vEIN2gO8nFn0Nov6F/6+uHXo=";
   targets."bcm27xx"."bcm2708".packagesArch = "arm_arm1176jzf-s_vfp";
   packages."arm_arm1176jzf-s_vfp"."base".sha256 = "sha256-WKNGWZuR6AohK+xeQiIQs21VS60r/utGjjQHH/Z1dC8=";
-  packages."arm_arm1176jzf-s_vfp"."luci".sha256 = "sha256-edqK3q/9d1QCIQr1h8TlDj2hwyYB8z6+txqNW+D2CY0=";
-  packages."arm_arm1176jzf-s_vfp"."packages".sha256 = "sha256-GJ7+MhL4ZXSw+SeRAlw0Nxx4NmEuNkRUFaHtXdKziOc=";
+  packages."arm_arm1176jzf-s_vfp"."luci".sha256 = "sha256-5eXXMOI6FVz2O27jtsbBBCxP4kFXNgG0q/9WplTNxtE=";
+  packages."arm_arm1176jzf-s_vfp"."packages".sha256 = "sha256-fLXotTUzWADqvUklFPEWovvSYMBE6QPbuBT9Xbb8+iM=";
   packages."arm_arm1176jzf-s_vfp"."routing".sha256 = "sha256-EFmIuboScvFOYNW8iXws2usHAC9OTLX0jvnRu1L68VY=";
   packages."arm_arm1176jzf-s_vfp"."telephony".sha256 = "sha256-F2raq9sLSLnoEcpeCx7U49JZPCGE/AOFZbGzxHVpGiE=";
   targets."bcm27xx"."bcm2711".sha256 = "sha256-Y3Zl5x8GKAOC9qQqZ8ITF+N+6j6UcL+pB9DBoO9mZqI=";
