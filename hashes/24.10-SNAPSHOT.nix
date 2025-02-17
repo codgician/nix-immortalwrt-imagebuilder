@@ -13,9 +13,9 @@
   targets."ipq806x"."generic".sha256 = "sha256-epXdczC9XHUxSddolq7DHXW8MJ5EfI0EeS/dqbrJHXY=";
   kmods."ipq806x"."generic"."6.6.69-1-c8449f9afc7af6ffa2685add6d4a5ec1".sha256 = "sha256-sb3MZDBymLJAE+zKAIyE7ncIyT6XstzNWfFKNQZk1tY=";
   targets."ipq806x"."generic".packagesArch = "arm_cortex-a15_neon-vfpv4";
-  packages."arm_cortex-a15_neon-vfpv4"."base".sha256 = "sha256-HjSYkC8uHXA9/GLBFkFmu7NdAHbk8JCYF4e8NX9f1iY=";
-  packages."arm_cortex-a15_neon-vfpv4"."luci".sha256 = "sha256-eHHDvVXdb0s4/uQqDeczD/hZZM4jInIc7p/vwvNY6wI=";
-  packages."arm_cortex-a15_neon-vfpv4"."packages".sha256 = "sha256-DKetTS8I+00FUtUulThp2pbWwMonKzTNh0kOmKOa98k=";
+  packages."arm_cortex-a15_neon-vfpv4"."base".sha256 = "sha256-LXqUjiP628UTK1X6MjdtGm2d9BSBzxoJblZxA9bZslA=";
+  packages."arm_cortex-a15_neon-vfpv4"."luci".sha256 = "sha256-KpuHHLc7THbKkPw0DEdpqK4cBBwNiWuJC8uyFCz+VC8=";
+  packages."arm_cortex-a15_neon-vfpv4"."packages".sha256 = "sha256-Mmqwd8mVUEJe9U3Z++D70Y1xQjZqeRv5swGTDDJ2Nwc=";
   packages."arm_cortex-a15_neon-vfpv4"."routing".sha256 = "sha256-23gPxPorJRnBCfDdPZi2VCRCp1ud4GdSQ0db4hm9j1k=";
   packages."arm_cortex-a15_neon-vfpv4"."telephony".sha256 = "sha256-1x/O3xKL80SNA3/NFJ4xHvZK2tQhwvtC3p7MxWuOCyE=";
   targets."ipq806x"."chromium".sha256 = "sha256-f59Ea6P/IVMyJufbtPrrLLZJxvxyvbtYkdoTPOh1JfE=";
@@ -358,8 +358,8 @@
   packages."aarch64_cortex-a76"."base".sha256 = "sha256-PLvXy7TkmdVrSZ2TksJK40EmDTOvRJ7zbiDKXFOwuQk=";
   packages."aarch64_cortex-a76"."luci".sha256 = "sha256-dGHsfw1W48FeAo326M22KGrbBSMoO/kYXF5F+8BNt9k=";
   packages."aarch64_cortex-a76"."packages".sha256 = "sha256-ORuQBG6eV46LmnLW2rHSRLp74SbAZm9hB3oSwUz8emk=";
-  packages."aarch64_cortex-a76"."routing".sha256 = "sha256-7Vws1Un/yJltHkI4TZz2lxiRWUrkfZpr6M/biXnodWU=";
-  packages."aarch64_cortex-a76"."telephony".sha256 = "sha256-esKCV7rI5TuXqhqTNflWfL4JpVHwHmIi08bLEGm5Whk=";
+  packages."aarch64_cortex-a76"."routing".sha256 = "sha256-8J/qXe+3/mx++Yk8SKWrxrpTlmPQNe5Rg+1ZtwlOzL4=";
+  packages."aarch64_cortex-a76"."telephony".sha256 = "sha256-UqIfpyCZMIgy7hwECt841cZ6NdIFg7Ai+FZU8Nt/6uk=";
   targets."bcm27xx"."bcm2709".sha256 = "sha256-qiT+lvDUGv9OaPSftwuPxEXTwnOEYyBokF0lG4Qm1s8=";
   kmods."bcm27xx"."bcm2709"."6.6.69-1-6a8b1aafff2986ee7ac7b0edb94df7df".sha256 = "sha256-lJyv8MfDG6wOMCEohkijcc5UxB0nmduWFps1W8OcgIc=";
   targets."bcm27xx"."bcm2709".packagesArch = "arm_cortex-a7_neon-vfpv4";
