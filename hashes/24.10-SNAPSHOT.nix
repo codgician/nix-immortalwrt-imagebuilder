@@ -114,8 +114,8 @@
   targets."ath79"."mikrotik".sha256 = "sha256-XDViDEGWzy/+UtOMr0QitpKNGp0AqNBK/rufyYTfZx4=";
   kmods."ath79"."mikrotik"."6.6.73-1-bf7ec5c1be2710509694c44d956f3cd1".sha256 = "sha256-2k+ds62Jh9yGnKdp0qGHNd+Fq4g2LqD5kTrfpBoNYkA=";
   targets."ath79"."mikrotik".packagesArch = "mips_24kc";
-  targets."ath79"."generic".sha256 = "sha256-S7ne2GOYuepgcFy4w0NZbKiSzLv0kwgF4cjj2Qgr47c=";
-  kmods."ath79"."generic"."6.6.73-1-12b4e798a674ab9b86e589008e35551d".sha256 = "sha256-UI03ZWp6SYJY1R1LhI4p4vPxSkqZs38kkdMI5ZddH5o=";
+  targets."ath79"."generic".sha256 = "sha256-XrN2LBaWn/fijeU+HtlXkqPdKUkAHLO3/45NX8Y0qJo=";
+  kmods."ath79"."generic"."6.6.79-1-12b4e798a674ab9b86e589008e35551d".sha256 = "sha256-g+cBLaoT5ulDOqw7U7MJHwYkls8TkAzetw1lSKp4LR8=";
   targets."ath79"."generic".packagesArch = "mips_24kc";
   targets."ath79"."nand".sha256 = "sha256-pCcSbIepX8Ct0Ty2Z6N2qgRjYMcqH4gJBznSfQMVFHI=";
   kmods."ath79"."nand"."6.6.73-1-6feb890e4616bbafb7f05110a7b8c1f0".sha256 = "sha256-Y15QsF9IPxjtLQ+YhQAUwMCtNq7bfA+8apXTAmoYdFI=";
