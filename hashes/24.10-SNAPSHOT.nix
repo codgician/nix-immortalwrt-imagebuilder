@@ -132,7 +132,7 @@
   kmods."rockchip"."armv8"."6.6.73-1-f03df7cf7b7424bf4377334a801e4b66".sha256 = "sha256-R6A1zZCMzYa4IP6vPthqd12UHaRebOu9K6MJwHo+iKE=";
   targets."rockchip"."armv8".packagesArch = "aarch64_generic";
   targets."pistachio"."generic".sha256 = "sha256-pe5DieE8RN/ZwYSdD8v8Yl3QYJxlEAcTmWN1kXK55uQ=";
-  kmods."pistachio"."generic"."6.6.79-1-75bd1c8ec80b2b6095e281786567207b".sha256 = "";
+  kmods."pistachio"."generic"."6.6.79-1-75bd1c8ec80b2b6095e281786567207b".sha256 = "sha256-X5SiBRMpgR73bW92PAHWzPo+3sc8CeSNBTdtZvPjOZI=";
   targets."pistachio"."generic".packagesArch = "mipsel_24kc_24kf";
   packages."mipsel_24kc_24kf"."base".sha256 = "sha256-xR9HuIsj1rx73S2MgMO2/eo+YQDr/OdDMCqRXdsWeOQ=";
   packages."mipsel_24kc_24kf"."luci".sha256 = "sha256-Cm7e7GK7PvcqsgM7eSLPXY0Dpzy/R1FG6u7dlVNTuZ0=";
