@@ -243,8 +243,8 @@
   targets."mvebu"."cortexa9".sha256 = "sha256-lbSquf+uOLiVavUphLZ11yLQsJBlpbMJ54GCIohp3n4=";
   kmods."mvebu"."cortexa9"."6.6.79-1-86962da8c6eeda36fde9664e12fe9320".sha256 = "sha256-h80gdMeEM8jK34D4Mx1wUIOVzilClHkJfNw0Jzn5VwA=";
   targets."mvebu"."cortexa9".packagesArch = "arm_cortex-a9_vfpv3-d16";
-  targets."qoriq"."generic".sha256 = "sha256-/QcvAbgFohsZmuREfJYjaGtSB36fKcnCi8p56dMMd7M=";
-  kmods."qoriq"."generic"."6.6.73-1-81a4b6148397a5fafa58b0c955005a2a".sha256 = "sha256-VM+kK4v4Xi2Wlx389v868EHYxkxno1smpzjKDtr3jos=";
+  targets."qoriq"."generic".sha256 = "sha256-46QlJYqMAc6yKtc0qJ9Fi2c5NGqW+jacX7bFT9e/wLQ=";
+  kmods."qoriq"."generic"."6.6.79-1-81a4b6148397a5fafa58b0c955005a2a".sha256 = "sha256-dN9erMhEh6KYEma7/87JV4Sk8yRP7xbc8nKQaRnA0KU=";
   targets."qoriq"."generic".packagesArch = "powerpc64_e5500";
   packages."powerpc64_e5500"."base".sha256 = "sha256-0i6gJuHxP9B0Ij92l/aF0GL67CA73SozO2VNq0+fxgU=";
   packages."powerpc64_e5500"."luci".sha256 = "sha256-b6vbeV2T81LWDJDeCIQ4Spj8fGjen/y+5OmZXT5WYTE=";
@@ -332,8 +332,8 @@
   targets."bmips"."bcm63268".sha256 = "sha256-qOjSK0WMz+6N+FQlJTk7Lg4H9P9x4NI5ou7mRPltMa4=";
   kmods."bmips"."bcm63268"."6.6.79-1-9f4288b310e9274b01f81c582cd90b5c".sha256 = "sha256-6ZNUuZciZ5g4uUTqRdPMgRpOS0V42JcOg0U3+8Jzjyg=";
   targets."bmips"."bcm63268".packagesArch = "mips_mips32";
-  targets."qualcommax"."ipq807x".sha256 = "sha256-4drCNIZ6fH2HIsyAPfkKXWu6cibqNG4VNkYk7ky4Mhs=";
-  kmods."qualcommax"."ipq807x"."6.6.73-1-bb712f019bdb04d96735e8ae75786e46".sha256 = "sha256-qEFcdwUSjcowNS00mtvQn+xqyg3xUdj7NPqoyeZ6SFU=";
+  targets."qualcommax"."ipq807x".sha256 = "sha256-qvYAUMq/EH2ME0idfqtwNvV0M9iLCkA0451rlvAGhaU=";
+  kmods."qualcommax"."ipq807x"."6.6.79-1-bb712f019bdb04d96735e8ae75786e46".sha256 = "sha256-ZtRI0W/1TtOQF+eI/3ZL6QSUnMOc/Ho2sLb3Bbu6pyQ=";
   targets."qualcommax"."ipq807x".packagesArch = "aarch64_cortex-a53";
   targets."octeon"."generic".sha256 = "sha256-zMHh5Q99gWyRP9hs/5AktShQhg5etLtuVPR3vdMcmKA=";
   kmods."octeon"."generic"."6.6.79-1-9913a39ee04710d9b1dd5647c45ef71e".sha256 = "sha256-HTwQItZxqNC+lZ5+uxaM4H9xfC/DIvkBj7iekHfbGuk=";
