@@ -129,7 +129,7 @@
   packages."loongarch64_generic"."routing".sha256 = "sha256-GpuE5Hc+afcuG0FA1HZ86gxhQXFlW7YnZxLL+8itBSQ=";
   packages."loongarch64_generic"."telephony".sha256 = "sha256-LkCxJP6+JD/liysz2CO6kQ6356BuagxMNmEYpouYghk=";
   targets."rockchip"."armv8".sha256 = "sha256-yJS8VVfnT7L5Mf0MRDpO4BoM2tVk/tgiiyAVVOZrmf4=";
-  kmods."rockchip"."armv8"."6.6.79-1-f03df7cf7b7424bf4377334a801e4b66".sha256 = "";
+  kmods."rockchip"."armv8"."6.6.79-1-f03df7cf7b7424bf4377334a801e4b66".sha256 = "sha256-hs0hN638u9sMMqFOoeiSUk1Ql1RhBdevWLzxQtN9LzQ=";
   targets."rockchip"."armv8".packagesArch = "aarch64_generic";
   targets."pistachio"."generic".sha256 = "sha256-pe5DieE8RN/ZwYSdD8v8Yl3QYJxlEAcTmWN1kXK55uQ=";
   kmods."pistachio"."generic"."6.6.79-1-75bd1c8ec80b2b6095e281786567207b".sha256 = "sha256-X5SiBRMpgR73bW92PAHWzPo+3sc8CeSNBTdtZvPjOZI=";
