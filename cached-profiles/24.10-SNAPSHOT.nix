@@ -65830,7 +65830,7 @@
       linux_kernel = {
         release = "1";
         vermagic = "a3781d1b6a9fd3bf54edd715ae65af8d";
-        version = "6.6.73";
+        version = "6.6.79";
       };
       metadata_version = 1;
       profiles = {
@@ -65849,173 +65849,173 @@
             "kmod-forcedeth"
             "kmod-drm-i915"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r32912-1618ba96be-x86-legacy-generic";
+          image_prefix = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-x86-legacy-generic";
           images = [
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-x86-legacy-generic-squashfs-combined-efi.vmdk";
-              sha256 = "7dcddfd1644818cef8b89588658a09d4a39604de2c4ec5dd3a771f7a4509c112";
-              sha256_unsigned = "7dcddfd1644818cef8b89588658a09d4a39604de2c4ec5dd3a771f7a4509c112";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-x86-legacy-generic-squashfs-combined.img.gz";
+              sha256 = "9fb3f13a4396609bbf01a04fc98ae64863db55bc89cfc9865e1b446e18294e49";
+              sha256_unsigned = "5838b01d814e13555fc48147124ab207d606aaea4a1983e6e477270f7e23c820";
+              type = "combined";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-x86-legacy-generic-ext4-combined-efi.vhdx";
+              sha256 = "bd6d0c99fc45fe11baa3b8d4c734e8b238c0c5c0a718335c3a19aba00e2870fe";
+              sha256_unsigned = "bd6d0c99fc45fe11baa3b8d4c734e8b238c0c5c0a718335c3a19aba00e2870fe";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-x86-legacy-generic-squashfs-combined-efi.vmdk";
+              sha256 = "40f710b1e093ac92dc7e2a56426799962b1c9f0981b54fbd31547a30915cc278";
+              sha256_unsigned = "40f710b1e093ac92dc7e2a56426799962b1c9f0981b54fbd31547a30915cc278";
               type = "combined-efi";
             }
             {
               filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-x86-legacy-generic-ext4-combined.vmdk";
-              sha256 = "517d78efa7fe52655a0b9773d744cbc62aabefeea3f4c90d421c961f179c6988";
-              sha256_unsigned = "517d78efa7fe52655a0b9773d744cbc62aabefeea3f4c90d421c961f179c6988";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-x86-legacy-generic-ext4-combined.img.gz";
+              sha256 = "5e6d73dcd357cbfcfe318b4bbaec673ace3fe0360849308af10273ff83c18723";
+              sha256_unsigned = "775a070eafb6ee538fa82a8b2f1bd293569863c0a58af12f7d017b99233cf347";
               type = "combined";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-x86-legacy-generic-squashfs-combined-efi.vdi";
-              sha256 = "5f31403308e929f86adab26c9e4a264deb89d4fc9859915e1e09077141ea9992";
-              sha256_unsigned = "5f31403308e929f86adab26c9e4a264deb89d4fc9859915e1e09077141ea9992";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-x86-legacy-generic-squashfs-combined.qcow2";
+              sha256 = "d349bb996148a744c6b106a114df89fede3fbe583591fa6f06a63504092e33ce";
+              sha256_unsigned = "d349bb996148a744c6b106a114df89fede3fbe583591fa6f06a63504092e33ce";
+              type = "combined";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-x86-legacy-generic-ext4-combined.vdi";
+              sha256 = "5bdcb114bc4ab9ab3adbbab59c491db021358fe682ca0c89da39891ebfdcaccf";
+              sha256_unsigned = "5bdcb114bc4ab9ab3adbbab59c491db021358fe682ca0c89da39891ebfdcaccf";
+              type = "combined";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-x86-legacy-generic-ext4-combined-efi.vdi";
+              sha256 = "fea301415bf85ae44d6de88d8ea1eb7a9aee1a5cd0d871fde6e1e240ec055d0b";
+              sha256_unsigned = "fea301415bf85ae44d6de88d8ea1eb7a9aee1a5cd0d871fde6e1e240ec055d0b";
               type = "combined-efi";
             }
             {
               filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-x86-legacy-generic-ext4-combined.img.gz";
-              sha256 = "fd1776c44faf245052e38925991b43e665491e87ee7509aa35739a344f9a114d";
-              sha256_unsigned = "ad7f379cb2d0f29741fa50ea4456f0fb25666a396b837a7e1a7358d80dc73e5a";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-x86-legacy-generic-ext4-combined.qcow2";
+              sha256 = "379ab4a053d6cbc4701bab811be9bb64eadbabc75c8ec96e51c3afb3ba6e8768";
+              sha256_unsigned = "379ab4a053d6cbc4701bab811be9bb64eadbabc75c8ec96e51c3afb3ba6e8768";
+              type = "combined";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-x86-legacy-generic-squashfs-combined-efi.vhdx";
+              sha256 = "87733af628260390eb2624ba0f07959e00b3f64438bd69805a3e43079aa25515";
+              sha256_unsigned = "87733af628260390eb2624ba0f07959e00b3f64438bd69805a3e43079aa25515";
+              type = "combined-efi";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-x86-legacy-generic-image-efi.iso";
+              sha256 = "cae9f11bff8da1189e6559dcf544304151c1ab4ef55f449c5bbee1cae7a2d7fd";
+              sha256_unsigned = "cae9f11bff8da1189e6559dcf544304151c1ab4ef55f449c5bbee1cae7a2d7fd";
+              type = "image-efi.iso";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-x86-legacy-generic-ext4-combined-efi.vmdk";
+              sha256 = "9ca35f7a55b31119da8ed4cf27031781009d2a70a4a8987db32ebe6925181aed";
+              sha256_unsigned = "9ca35f7a55b31119da8ed4cf27031781009d2a70a4a8987db32ebe6925181aed";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-x86-legacy-generic-squashfs-combined-efi.qcow2";
+              sha256 = "c31e89cdefd8dfa48809ffe31f068f6225d92f4842a94bef1ca6f368184da202";
+              sha256_unsigned = "c31e89cdefd8dfa48809ffe31f068f6225d92f4842a94bef1ca6f368184da202";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-x86-legacy-generic-ext4-combined.vhdx";
+              sha256 = "740548b20497abd480423208ad1f6174fccba6fb41c990fc89b0dce836ebdeed";
+              sha256_unsigned = "740548b20497abd480423208ad1f6174fccba6fb41c990fc89b0dce836ebdeed";
+              type = "combined";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-x86-legacy-generic-squashfs-combined-efi.img.gz";
+              sha256 = "45f40b0a2cf9c818ac60da78c66843bcc187def64ab888402860a54ef6c1a817";
+              sha256_unsigned = "e3c1ea68558cee0e074f556b981a59b3dbb17f2e48eb55ea223a4c1b956d22dd";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-x86-legacy-generic-ext4-combined.vmdk";
+              sha256 = "9ffc958e1ea03dbf7a78224d1711bb0099a1ae08c1d1b2436b9f76ce27411fc4";
+              sha256_unsigned = "9ffc958e1ea03dbf7a78224d1711bb0099a1ae08c1d1b2436b9f76ce27411fc4";
               type = "combined";
             }
             {
               filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-x86-legacy-generic-ext4-combined.vdi";
-              sha256 = "f20d551003638d9b4bc5a0e4a967c6e7d54c186282b73b900c7e58b1787372f9";
-              sha256_unsigned = "f20d551003638d9b4bc5a0e4a967c6e7d54c186282b73b900c7e58b1787372f9";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-x86-legacy-generic-ext4-combined-efi.img.gz";
+              sha256 = "91591274ac6af91a759c69fb2ae777708988bf3338f46c70224911f113b8df53";
+              sha256_unsigned = "d7bd89535c805b49ece69777cc43d8aa1c3ca0abbb303f0a75dde58e7209105a";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-x86-legacy-generic-ext4-rootfs.img.gz";
+              sha256 = "b6e6d7cad67d5f781a7de39e7c74bfe04cf2ca57dccb2ab0fcb454c22222b626";
+              sha256_unsigned = "b6e6d7cad67d5f781a7de39e7c74bfe04cf2ca57dccb2ab0fcb454c22222b626";
+              type = "rootfs";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-x86-legacy-generic-squashfs-combined.vhdx";
+              sha256 = "b131efb977a712430b1bc3023a3be472d65ebd70dc73694519fb527034594b62";
+              sha256_unsigned = "b131efb977a712430b1bc3023a3be472d65ebd70dc73694519fb527034594b62";
               type = "combined";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-x86-legacy-generic-image.iso";
-              sha256 = "bb96604ef61987f2f63f4d31e90c9ad278896370f1b3462bed735e36ecbc1e4b";
-              sha256_unsigned = "bb96604ef61987f2f63f4d31e90c9ad278896370f1b3462bed735e36ecbc1e4b";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-x86-legacy-generic-squashfs-combined-efi.vdi";
+              sha256 = "a0b7fbd967c298b0f2e7df7857b6d3694bf061d73e00a8c1d650fdf9fd186d5a";
+              sha256_unsigned = "a0b7fbd967c298b0f2e7df7857b6d3694bf061d73e00a8c1d650fdf9fd186d5a";
+              type = "combined-efi";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-x86-legacy-generic-ext4-combined-efi.qcow2";
+              sha256 = "60a861c0860bfb420caf1d2ff67e47d3e2260e6583c8216dc3d40e9c77afceb0";
+              sha256_unsigned = "60a861c0860bfb420caf1d2ff67e47d3e2260e6583c8216dc3d40e9c77afceb0";
+              type = "combined-efi";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-x86-legacy-generic-image.iso";
+              sha256 = "6fcf4a308c0ca10a5616f4e4fbf176b985667a1e9582f5b6e666186c6a41153e";
+              sha256_unsigned = "6fcf4a308c0ca10a5616f4e4fbf176b985667a1e9582f5b6e666186c6a41153e";
               type = "image.iso";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-x86-legacy-generic-squashfs-combined-efi.vhdx";
-              sha256 = "8a0f6b37095a30b5fca1f1d53d6468b6a43a4c6c329b3900058b9339f55bbc71";
-              sha256_unsigned = "8a0f6b37095a30b5fca1f1d53d6468b6a43a4c6c329b3900058b9339f55bbc71";
-              type = "combined-efi";
-            }
-            {
-              filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-x86-legacy-generic-ext4-combined.qcow2";
-              sha256 = "3c715d7cbe228a6beb3d9907bf0669abc9c21f3d244e0518831de965b0bca292";
-              sha256_unsigned = "3c715d7cbe228a6beb3d9907bf0669abc9c21f3d244e0518831de965b0bca292";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-x86-legacy-generic-squashfs-combined.vdi";
+              sha256 = "1f1720f6a4ea64c9f7ef3f6a8334660f68fa11dba0500b1a887495c7ef84cde4";
+              sha256_unsigned = "1f1720f6a4ea64c9f7ef3f6a8334660f68fa11dba0500b1a887495c7ef84cde4";
               type = "combined";
             }
             {
-              filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-x86-legacy-generic-ext4-rootfs.img.gz";
-              sha256 = "f80030c84b4ab33f48e9436ac357134fe99f4a056d22d8c43826d340615fb394";
-              sha256_unsigned = "f80030c84b4ab33f48e9436ac357134fe99f4a056d22d8c43826d340615fb394";
-              type = "rootfs";
-            }
-            {
-              filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-x86-legacy-generic-ext4-combined-efi.vdi";
-              sha256 = "a95334f8e2fadb035b6bfcbffed66e362f4f63e778403a68486e96f47bfd1e92";
-              sha256_unsigned = "a95334f8e2fadb035b6bfcbffed66e362f4f63e778403a68486e96f47bfd1e92";
-              type = "combined-efi";
-            }
-            {
-              filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-x86-legacy-generic-ext4-combined-efi.qcow2";
-              sha256 = "72a88690be45cc5ec6b98a93dbd14377d308c2df7b3252cd4e5e62c89ebf0378";
-              sha256_unsigned = "72a88690be45cc5ec6b98a93dbd14377d308c2df7b3252cd4e5e62c89ebf0378";
-              type = "combined-efi";
-            }
-            {
-              filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-x86-legacy-generic-ext4-combined-efi.vmdk";
-              sha256 = "90b0bbc2a3281418499f0198593edbbfe6a9184442f1a1701c7ed688218d513f";
-              sha256_unsigned = "90b0bbc2a3281418499f0198593edbbfe6a9184442f1a1701c7ed688218d513f";
-              type = "combined-efi";
-            }
-            {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-x86-legacy-generic-squashfs-combined-efi.img.gz";
-              sha256 = "bb7101095be1583064df728dc39d73ef3718f3f4a81db59c3c61bf9a3cae24a5";
-              sha256_unsigned = "84afe0620b238a792b6a3eb35ad383a36d19eb3b9c9969b814d0e2be8f2f35c0";
-              type = "combined-efi";
-            }
-            {
-              filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-x86-legacy-generic-ext4-combined.vhdx";
-              sha256 = "270c81e3517c783d2cb90a88892f4b8ed8d7cd2b1865a8e6dc2db9956d25cbf0";
-              sha256_unsigned = "270c81e3517c783d2cb90a88892f4b8ed8d7cd2b1865a8e6dc2db9956d25cbf0";
-              type = "combined";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-x86-legacy-generic-image-efi.iso";
-              sha256 = "4d26dcfd1ff4fbfc9a20dc4c586ce768af8d64db6d85fd92db0e13ac92263153";
-              sha256_unsigned = "4d26dcfd1ff4fbfc9a20dc4c586ce768af8d64db6d85fd92db0e13ac92263153";
-              type = "image-efi.iso";
-            }
-            {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-x86-legacy-generic-squashfs-rootfs.img.gz";
-              sha256 = "b1c7636908b925dc764738b78cbe050ab44f06ab9f6a519e016a4127ab0e3034";
-              sha256_unsigned = "b1c7636908b925dc764738b78cbe050ab44f06ab9f6a519e016a4127ab0e3034";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-x86-legacy-generic-squashfs-rootfs.img.gz";
+              sha256 = "df31bfe6e4190dd2fdf13b0122181e17432ffc2ba353dbb89f06ffd1ca794049";
+              sha256_unsigned = "df31bfe6e4190dd2fdf13b0122181e17432ffc2ba353dbb89f06ffd1ca794049";
               type = "rootfs";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-x86-legacy-generic-squashfs-combined.img.gz";
-              sha256 = "1b0a00a6931196abe735ead9e9ee31a3b8eca393c5fd043c2fb0fc1c8500ab91";
-              sha256_unsigned = "76ac9102b8ee9847aa5bf0112a565c58685a98198aabcead9684721e54fbb375";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-x86-legacy-generic-squashfs-combined.vmdk";
+              sha256 = "06f8325f709b3dd7f3ac43f353e9c4b7e5bf3347ad6b15d62aa1792798c2021b";
+              sha256_unsigned = "06f8325f709b3dd7f3ac43f353e9c4b7e5bf3347ad6b15d62aa1792798c2021b";
               type = "combined";
-            }
-            {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-x86-legacy-generic-squashfs-combined.vdi";
-              sha256 = "e5fb99399d5d3abf3a2195ed3c5b5b49816f16e0b3c3cf8095b1dcd134e29f77";
-              sha256_unsigned = "e5fb99399d5d3abf3a2195ed3c5b5b49816f16e0b3c3cf8095b1dcd134e29f77";
-              type = "combined";
-            }
-            {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-x86-legacy-generic-squashfs-combined.vmdk";
-              sha256 = "3976bbfad3c54d81234d358518b35c1f7365ace8bfdd335fc4b24d78917f6151";
-              sha256_unsigned = "3976bbfad3c54d81234d358518b35c1f7365ace8bfdd335fc4b24d78917f6151";
-              type = "combined";
-            }
-            {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-x86-legacy-generic-squashfs-combined-efi.qcow2";
-              sha256 = "14fc2575d54b9b74282b5f9219376d4e2141149fbcfc0caecdba4296b5faf6cd";
-              sha256_unsigned = "14fc2575d54b9b74282b5f9219376d4e2141149fbcfc0caecdba4296b5faf6cd";
-              type = "combined-efi";
-            }
-            {
-              filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-x86-legacy-generic-ext4-combined-efi.vhdx";
-              sha256 = "aef1a1befdecc125be2c2aedad37542b2fb3274358980b5df3d9bab96aa67aac";
-              sha256_unsigned = "aef1a1befdecc125be2c2aedad37542b2fb3274358980b5df3d9bab96aa67aac";
-              type = "combined-efi";
-            }
-            {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-x86-legacy-generic-squashfs-combined.qcow2";
-              sha256 = "f1eab3fa4f859a58fc207bd42b412a1c7cdd40e4ebe706f39906f1fa301162bb";
-              sha256_unsigned = "f1eab3fa4f859a58fc207bd42b412a1c7cdd40e4ebe706f39906f1fa301162bb";
-              type = "combined";
-            }
-            {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-x86-legacy-generic-squashfs-combined.vhdx";
-              sha256 = "18891d0eeb02468065dc3d2ce77a48dbf5766f52bf348f7c04becb32cad5ce5a";
-              sha256_unsigned = "18891d0eeb02468065dc3d2ce77a48dbf5766f52bf348f7c04becb32cad5ce5a";
-              type = "combined";
-            }
-            {
-              filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-x86-legacy-generic-ext4-combined-efi.img.gz";
-              sha256 = "a2546de36c1b90042f7c476698bc12c35b95a18bb90f441d22b5dc7027fd7f50";
-              sha256_unsigned = "5dbeed432024dbc70ea6fa8e1f68c1b1f66663ab044537df627c7e307cc63ae0";
-              type = "combined-efi";
             }
           ];
           supported_devices = [ ];
@@ -66027,9 +66027,9 @@
           ];
         };
       };
-      source_date_epoch = 1740304125;
+      source_date_epoch = 1740585226;
       target = "x86/legacy";
-      version_code = "r32912-1618ba96be";
+      version_code = "r32932-32ddb642ea";
       version_number = "24.10-SNAPSHOT";
     };
   };
@@ -66079,19 +66079,19 @@
       linux_kernel = {
         release = "1";
         vermagic = "71f20bcd94f6999014a90ed7e3fe5a77";
-        version = "6.6.73";
+        version = "6.6.79";
       };
       metadata_version = 1;
       profiles = {
         avnet_zynq-zed = {
           device_packages = [ ];
-          image_prefix = "immortalwrt-24.10-snapshot-r32912-1618ba96be-zynq-generic-avnet_zynq-zed";
+          image_prefix = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-zynq-generic-avnet_zynq-zed";
           images = [
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-zynq-generic-avnet_zynq-zed-squashfs-sdcard.img.gz";
-              sha256 = "8f7ea489568ba385a6e9fb5415f1ba0d3d9acdfcfc8eac6f1623e3b9105e2058";
-              sha256_unsigned = "8f7ea489568ba385a6e9fb5415f1ba0d3d9acdfcfc8eac6f1623e3b9105e2058";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-zynq-generic-avnet_zynq-zed-squashfs-sdcard.img.gz";
+              sha256 = "b50dda7400b5c6b777fe7d6bf13f4e730e16a5d5b103ae73d7e480db20707987";
+              sha256_unsigned = "b50dda7400b5c6b777fe7d6bf13f4e730e16a5d5b103ae73d7e480db20707987";
               type = "sdcard";
             }
           ];
@@ -66107,13 +66107,13 @@
         };
         digilent_zynq-zybo = {
           device_packages = [ ];
-          image_prefix = "immortalwrt-24.10-snapshot-r32912-1618ba96be-zynq-generic-digilent_zynq-zybo";
+          image_prefix = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-zynq-generic-digilent_zynq-zybo";
           images = [
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-zynq-generic-digilent_zynq-zybo-squashfs-sdcard.img.gz";
-              sha256 = "aa74f9a98cf4f31880a37715040d48fff81eba11740903ab02ac615962540354";
-              sha256_unsigned = "aa74f9a98cf4f31880a37715040d48fff81eba11740903ab02ac615962540354";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-zynq-generic-digilent_zynq-zybo-squashfs-sdcard.img.gz";
+              sha256 = "51a038bb0deecb996d7aa030ae9ac975c7b21dadc2db37448f18660baa429939";
+              sha256_unsigned = "51a038bb0deecb996d7aa030ae9ac975c7b21dadc2db37448f18660baa429939";
               type = "sdcard";
             }
           ];
@@ -66129,13 +66129,13 @@
         };
         digilent_zynq-zybo-z7 = {
           device_packages = [ ];
-          image_prefix = "immortalwrt-24.10-snapshot-r32912-1618ba96be-zynq-generic-digilent_zynq-zybo-z7";
+          image_prefix = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-zynq-generic-digilent_zynq-zybo-z7";
           images = [
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-zynq-generic-digilent_zynq-zybo-z7-squashfs-sdcard.img.gz";
-              sha256 = "cce20fbf3711c7a5f8e287c3f1b8f975f694a84036796e62fda81e871256e7f8";
-              sha256_unsigned = "cce20fbf3711c7a5f8e287c3f1b8f975f694a84036796e62fda81e871256e7f8";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-zynq-generic-digilent_zynq-zybo-z7-squashfs-sdcard.img.gz";
+              sha256 = "db72ab9cd412f18e8797235645ab3f6d8dfe5ef93d5138440a67a8e8c7a9e4b6";
+              sha256_unsigned = "db72ab9cd412f18e8797235645ab3f6d8dfe5ef93d5138440a67a8e8c7a9e4b6";
               type = "sdcard";
             }
           ];
@@ -66154,13 +66154,13 @@
             "kmod-can"
             "kmod-can-xilinx-can"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r32912-1618ba96be-zynq-generic-xlnx_zynq-zc702";
+          image_prefix = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-zynq-generic-xlnx_zynq-zc702";
           images = [
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-zynq-generic-xlnx_zynq-zc702-squashfs-sdcard.img.gz";
-              sha256 = "6ecc47b76534c941448868c91f2fc22a5cafa401c70e231c72a43084ccf0c559";
-              sha256_unsigned = "6ecc47b76534c941448868c91f2fc22a5cafa401c70e231c72a43084ccf0c559";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-zynq-generic-xlnx_zynq-zc702-squashfs-sdcard.img.gz";
+              sha256 = "2d84cdf56789b6bddf2826ba58638eaa013a6681e978e709f04e1a214d54ef42";
+              sha256_unsigned = "2d84cdf56789b6bddf2826ba58638eaa013a6681e978e709f04e1a214d54ef42";
               type = "sdcard";
             }
           ];
@@ -66175,9 +66175,9 @@
           ];
         };
       };
-      source_date_epoch = 1740304125;
+      source_date_epoch = 1740585226;
       target = "zynq/generic";
-      version_code = "r32912-1618ba96be";
+      version_code = "r32932-32ddb642ea";
       version_number = "24.10-SNAPSHOT";
     };
   };
