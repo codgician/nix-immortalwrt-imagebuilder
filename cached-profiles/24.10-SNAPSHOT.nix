@@ -62594,19 +62594,19 @@
       linux_kernel = {
         release = "1";
         vermagic = "5d6350119c07b12cb3a138090ca01e32";
-        version = "6.6.73";
+        version = "6.6.79";
       };
       metadata_version = 1;
       profiles = {
         sifive_unleashed = {
           device_packages = [ ];
-          image_prefix = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sifiveu-generic-sifive_unleashed";
+          image_prefix = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sifiveu-generic-sifive_unleashed";
           images = [
             {
               filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sifiveu-generic-sifive_unleashed-ext4-sdcard.img.gz";
-              sha256 = "334e4e241fdcd2c1a777e0df6339229886ce049b4cf7feb947ea876337086043";
-              sha256_unsigned = "a557718a49c9cca644dfa7659c3d63be72da7ee038ee070c813b8cab89ba3efb";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sifiveu-generic-sifive_unleashed-ext4-sdcard.img.gz";
+              sha256 = "5b0cdbb43a2f9b5088a3302981706f48568b75a8e9590bb5a8ab181351a872c7";
+              sha256_unsigned = "1067c6960ccd4888a752d2f7754b834854867c39a9cae5ba2e1302a5fba629d9";
               type = "sdcard";
             }
           ];
@@ -62625,13 +62625,13 @@
             "kmod-eeprom-at24"
             "kmod-hwmon-lm90"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sifiveu-generic-sifive_unmatched";
+          image_prefix = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sifiveu-generic-sifive_unmatched";
           images = [
             {
               filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sifiveu-generic-sifive_unmatched-ext4-sdcard.img.gz";
-              sha256 = "73f33de527992587b3e68018a30123a847a3c1e7bde88cfdecc786ffb74a8a16";
-              sha256_unsigned = "1cec079242a857527b83e3532edf848b352a2eee0266f1816521d218e3d661cf";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sifiveu-generic-sifive_unmatched-ext4-sdcard.img.gz";
+              sha256 = "4a5f02b03a7f9e3a53950ff1d24ceed7c93f5af685c3ed96186541fd581c362f";
+              sha256_unsigned = "65023ac6e45ef5bebde962c084a7f18bb478e4ac2f2b071be8629d44dfeefe3d";
               type = "sdcard";
             }
           ];
@@ -62646,9 +62646,9 @@
           ];
         };
       };
-      source_date_epoch = 1740304125;
+      source_date_epoch = 1740585226;
       target = "sifiveu/generic";
-      version_code = "r32912-1618ba96be";
+      version_code = "r32932-32ddb642ea";
       version_number = "24.10-SNAPSHOT";
     };
   };
@@ -62693,19 +62693,19 @@
       linux_kernel = {
         release = "1";
         vermagic = "47ec2f33cc0e84bf1753f70424751a27";
-        version = "6.6.73";
+        version = "6.6.79";
       };
       metadata_version = 1;
       profiles = {
         beaglev-starlight = {
           device_packages = [ ];
-          image_prefix = "immortalwrt-24.10-snapshot-r32912-1618ba96be-starfive-generic-beaglev-starlight";
+          image_prefix = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-starfive-generic-beaglev-starlight";
           images = [
             {
               filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-starfive-generic-beaglev-starlight-ext4-sdcard.img.gz";
-              sha256 = "b1426565cccf47f8bff61224ad2a3f1ccdbd21742de43485572dceec14141536";
-              sha256_unsigned = "f7732b6c6347ac633fee5f87d2ec7111d848bc6a935216398e726027808312e9";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-starfive-generic-beaglev-starlight-ext4-sdcard.img.gz";
+              sha256 = "0c5143d85bb59311cd0e05ca547a211a7a3bfac121944d9f9b37741245affa5a";
+              sha256_unsigned = "5e746d625f45fa0de3fc4efb3e793f865f1dbc643fd72836be3f0d2f64ad930d";
               type = "sdcard";
             }
           ];
@@ -62729,13 +62729,13 @@
             "kmod-usb-cdns3-starfive"
             "iwinfo"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r32912-1618ba96be-starfive-generic-visionfive-v1";
+          image_prefix = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-starfive-generic-visionfive-v1";
           images = [
             {
               filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-starfive-generic-visionfive-v1-ext4-sdcard.img.gz";
-              sha256 = "f6a64987e6ff747b89c69b490d0e401573b8f9f4c3dca0ac7ced71a073e3229d";
-              sha256_unsigned = "ed4522b200b93387afc81ef5ae92e58d34a9aee634188471ba3ef70056c6788c";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-starfive-generic-visionfive-v1-ext4-sdcard.img.gz";
+              sha256 = "519bccf457ed314339e9407f29e9f94490438d813ca9128567ec2d44f9b9f02f";
+              sha256_unsigned = "fd7f7e56b4252c16270d7c2646915d6fc8b344c5936838960e977c12be6ac73d";
               type = "sdcard";
             }
           ];
@@ -62756,13 +62756,13 @@
             "kmod-usb3"
             "kmod-usb-cdns3-starfive"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r32912-1618ba96be-starfive-generic-visionfive2-v1.2a";
+          image_prefix = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-starfive-generic-visionfive2-v1.2a";
           images = [
             {
               filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-starfive-generic-visionfive2-v1.2a-ext4-sdcard.img.gz";
-              sha256 = "98bd8c2aa90fd2a3be96d5e22296b3f8b6ff1019530be41983994e717f25bfab";
-              sha256_unsigned = "764a6ff7ec26f383b0c3783bf63fe254d9b691f30d4e3a786a5e1789829328a5";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-starfive-generic-visionfive2-v1.2a-ext4-sdcard.img.gz";
+              sha256 = "99836eeaa7d7841674739418e65a9fd5ac298e8b7121233952266c24984b1844";
+              sha256_unsigned = "b6727c3df778dbf2d30cebc5339ac156334d1328cfafec5c47223d9696853db7";
               type = "sdcard";
             }
           ];
@@ -62783,13 +62783,13 @@
             "kmod-usb3"
             "kmod-usb-cdns3-starfive"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r32912-1618ba96be-starfive-generic-visionfive2-v1.3b";
+          image_prefix = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-starfive-generic-visionfive2-v1.3b";
           images = [
             {
               filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-starfive-generic-visionfive2-v1.3b-ext4-sdcard.img.gz";
-              sha256 = "3bf4b87824f12a65b347312e35b2f9e78e27539ae8efc9d06cc661cbc3214e2e";
-              sha256_unsigned = "b3caa34f8ce7cbc1e8b6351a3ea176cd502463dfec8eb71b719ed4a1d90a3b7c";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-starfive-generic-visionfive2-v1.3b-ext4-sdcard.img.gz";
+              sha256 = "fb220b5eb923949b00ab7eab4ce0f075bdba1f79607563f647508f364ca32593";
+              sha256_unsigned = "871820d78e80810eada0bc5647265af2c428503a7caf651766c9f0b38ef6bf37";
               type = "sdcard";
             }
           ];
@@ -62804,9 +62804,9 @@
           ];
         };
       };
-      source_date_epoch = 1740304125;
+      source_date_epoch = 1740585226;
       target = "starfive/generic";
-      version_code = "r32912-1618ba96be";
+      version_code = "r32932-32ddb642ea";
       version_number = "24.10-SNAPSHOT";
     };
   };
@@ -62853,7 +62853,7 @@
       linux_kernel = {
         release = "1";
         vermagic = "03d817ea080eb1486105aa5597d4270a";
-        version = "6.6.73";
+        version = "6.6.79";
       };
       metadata_version = 1;
       profiles = {
@@ -62870,21 +62870,21 @@
             "-mtd"
             "iwinfo"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r32912-1618ba96be-stm32-stm32mp1-stm32mp135f-dk";
+          image_prefix = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-stm32-stm32mp1-stm32mp135f-dk";
           images = [
             {
               filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-stm32-stm32mp1-stm32mp135f-dk-ext4-factory.img.gz";
-              sha256 = "593a93057b6605298f4ae5ca32c57bab8b052b487fc513a5bfa7a21addb884dc";
-              sha256_unsigned = "593a93057b6605298f4ae5ca32c57bab8b052b487fc513a5bfa7a21addb884dc";
-              type = "factory";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-stm32-stm32mp1-stm32mp135f-dk-ext4-sysupgrade.img.gz";
+              sha256 = "91bc528cbe58fa5563df64b28f3fa887a24c41d25dfa8db814a04af59adfa9b0";
+              sha256_unsigned = "571de442e31668b485aa35a11408b97a603eb8e83db02eb1de2ecc58eeb73645";
+              type = "sysupgrade";
             }
             {
               filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-stm32-stm32mp1-stm32mp135f-dk-ext4-sysupgrade.img.gz";
-              sha256 = "0d49984c6c1e83dc4de8577d22ecc1eccd2c53a9588f6981c60d619bfc3af3f8";
-              sha256_unsigned = "9707f9f09f1ac502aa92ae1e119a581477b97feb1d27976fce4368886fbc4c6d";
-              type = "sysupgrade";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-stm32-stm32mp1-stm32mp135f-dk-ext4-factory.img.gz";
+              sha256 = "79f61516f7e39e9a4095d2ab675df7eadc48f59cd1e6119a587c028555d35e95";
+              sha256_unsigned = "79f61516f7e39e9a4095d2ab675df7eadc48f59cd1e6119a587c028555d35e95";
+              type = "factory";
             }
           ];
           supported_devices = [
@@ -62898,9 +62898,9 @@
           ];
         };
       };
-      source_date_epoch = 1740304125;
+      source_date_epoch = 1740585226;
       target = "stm32/stm32mp1";
-      version_code = "r32912-1618ba96be";
+      version_code = "r32932-32ddb642ea";
       version_number = "24.10-SNAPSHOT";
     };
   };
@@ -62951,26 +62951,26 @@
       linux_kernel = {
         release = "1";
         vermagic = "4bd2610f08cf71877c76be225e48a059";
-        version = "6.6.73";
+        version = "6.6.79";
       };
       metadata_version = 1;
       profiles = {
         friendlyarm_nanopi-neo-plus2 = {
           device_packages = [ ];
-          image_prefix = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-friendlyarm_nanopi-neo-plus2";
+          image_prefix = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-friendlyarm_nanopi-neo-plus2";
           images = [
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-friendlyarm_nanopi-neo-plus2-squashfs-sdcard.img.gz";
-              sha256 = "fc938e2656cbbe78731b657d5fca0e7f7e90519bb38cecf669a22939acaab2be";
-              sha256_unsigned = "66fd87d6315a3ef166cd0dede20af8550ed7fc77cc9e51d6783bf221b51a929e";
+              filesystem = "ext4";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-friendlyarm_nanopi-neo-plus2-ext4-sdcard.img.gz";
+              sha256 = "fffc486f1c3d9a851003b9dfb36d6f8e8d2c6c9adaaaeafc4dd7951bca1c017b";
+              sha256_unsigned = "4d98f15903f3cc59b8df20e858cf389fc524b0956e2f25b16798b024dfc628a8";
               type = "sdcard";
             }
             {
-              filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-friendlyarm_nanopi-neo-plus2-ext4-sdcard.img.gz";
-              sha256 = "0109631aeaaaaebd2d8bc7aae44ed1291c633c4fb81772a900518112c847c913";
-              sha256_unsigned = "ea350bb383729d1989db9ebab4dcb5040c3c709859382205cbbe761fcbeb7089";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-friendlyarm_nanopi-neo-plus2-squashfs-sdcard.img.gz";
+              sha256 = "805455d69ac892b124f9dbbcc2b8c88d3fc9022ba82e3fcde3d2903cc33ac292";
+              sha256_unsigned = "5b8539a536bacdb9aed862b6654abfeaba30b2a80010268816454ad1e0e91df7";
               type = "sdcard";
             }
           ];
@@ -62986,20 +62986,20 @@
         };
         friendlyarm_nanopi-neo2 = {
           device_packages = [ ];
-          image_prefix = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-friendlyarm_nanopi-neo2";
+          image_prefix = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-friendlyarm_nanopi-neo2";
           images = [
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-friendlyarm_nanopi-neo2-squashfs-sdcard.img.gz";
-              sha256 = "1262ccedb0fc9c338c04848dd44fd079e40dc2aac8b7718e1478543282b63139";
-              sha256_unsigned = "fe515018c11882c88c23e1d7adf5d722052d4886e0b036aa856e58842a24d868";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-friendlyarm_nanopi-neo2-squashfs-sdcard.img.gz";
+              sha256 = "546edb106c44fe0f5f80c8bd4b86abe7fad58c33955bb4c5c86d5f96dc15207f";
+              sha256_unsigned = "fee17055ed2824a29b9ee6a2575f58ee7fb9075c790ac24f8d53828e154cee66";
               type = "sdcard";
             }
             {
               filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-friendlyarm_nanopi-neo2-ext4-sdcard.img.gz";
-              sha256 = "383ff2af85fa8765220fcd9491a8766d2293bcfbfd4e9d8ca784bc951574b715";
-              sha256_unsigned = "02b218adc074cceb3bbebd84c13defa944df361ef63c5c99a7f47067fe96def4";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-friendlyarm_nanopi-neo2-ext4-sdcard.img.gz";
+              sha256 = "5b142c50e4e67493a4a3a12432fda84ac37d029cea549d303ef4a4c8a9259667";
+              sha256_unsigned = "137ef3c5a814bc27da74af1b968a951ed73c252d881a83a43f3aec26f4824e83";
               type = "sdcard";
             }
           ];
@@ -63018,20 +63018,20 @@
             "kmod-gpio-button-hotplug"
             "kmod-usb-net-rtl8152"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-friendlyarm_nanopi-r1s-h5";
+          image_prefix = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-friendlyarm_nanopi-r1s-h5";
           images = [
             {
-              filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-friendlyarm_nanopi-r1s-h5-ext4-sdcard.img.gz";
-              sha256 = "19eedd725aafb9cde077c830fb01bd295018ef637dd47f065f73da8175ff5d25";
-              sha256_unsigned = "577a4e31c39189e8b3025b8c5e1da92a6d8a24635348f76af6cdd0140bd66055";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-friendlyarm_nanopi-r1s-h5-squashfs-sdcard.img.gz";
+              sha256 = "9a43f6b9d2cb0127d461fcade7a4d53a8a6bc3bb43d541bc9c19ff6d06bd164a";
+              sha256_unsigned = "dea7003585f8b5e0fe4af85a47deb067d32696ae7a15999c951c3bf005f09846";
               type = "sdcard";
             }
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-friendlyarm_nanopi-r1s-h5-squashfs-sdcard.img.gz";
-              sha256 = "b3da50b42102e9ee88a21f2418a03d2b8e7da79a577de0c60376d41b0b544512";
-              sha256_unsigned = "16b4b7b9c17b3b4a258df488cb71c7fbc4072b6e29385aedb175a2face515075";
+              filesystem = "ext4";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-friendlyarm_nanopi-r1s-h5-ext4-sdcard.img.gz";
+              sha256 = "d42179d19182a2b2433980b7c24112a85a438d2219deac22713134105be351d9";
+              sha256_unsigned = "8c602b94c0399d352f9a4c56403992f1054f9dab48c4023130a16a968bf78fc1";
               type = "sdcard";
             }
           ];
@@ -63047,20 +63047,20 @@
         };
         libretech_all-h3-cc-h5 = {
           device_packages = [ ];
-          image_prefix = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-libretech_all-h3-cc-h5";
+          image_prefix = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-libretech_all-h3-cc-h5";
           images = [
             {
-              filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-libretech_all-h3-cc-h5-ext4-sdcard.img.gz";
-              sha256 = "eb0d9f5ccea17d68ae4250df0330c8b9c28857af002e06ebed1a947cab0bc2ec";
-              sha256_unsigned = "9ff886be577ef7456883e926cb318f177161ec5c79a612f92eda2898058e5eeb";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-libretech_all-h3-cc-h5-squashfs-sdcard.img.gz";
+              sha256 = "ca44d1284a4c9317ceedd14c89101d7f1a7c7362cbccee47dc8bc150ade830c9";
+              sha256_unsigned = "61e242a83894d6ba73353fccc71ab5d06311e2a13d2c317dd6c64e63409f1470";
               type = "sdcard";
             }
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-libretech_all-h3-cc-h5-squashfs-sdcard.img.gz";
-              sha256 = "8836535d3c7c4e6d1b1ecf75ed939412a517818d068155aa0293e776b7f9f5d6";
-              sha256_unsigned = "1545d15a07b7521cfa2ab9a507af1a8f4124b93d6b82735b6eb11b42efc0eb70";
+              filesystem = "ext4";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-libretech_all-h3-cc-h5-ext4-sdcard.img.gz";
+              sha256 = "f068eca2f7da85c542f0a5805c8ea1c4eb0045a002d0d591db14a0a1744aa76c";
+              sha256_unsigned = "2356415c6a6097299e208be15ed3adc18c6d5065eed7ca7e0d6eba65035360bc";
               type = "sdcard";
             }
           ];
@@ -63080,20 +63080,20 @@
             "kmod-rtl8723bs"
             "rtl8723bu-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-olimex_a64-olinuxino";
+          image_prefix = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-olimex_a64-olinuxino";
           images = [
             {
               filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-olimex_a64-olinuxino-ext4-sdcard.img.gz";
-              sha256 = "b6d68fdad7053edb7fed746eeebe00c234d5357e79fb83a6da37a2b132037b39";
-              sha256_unsigned = "16ed2ecab8a1209e7e2372f59842ad0cb68eccc72df7ea9967d3155d850bde2b";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-olimex_a64-olinuxino-ext4-sdcard.img.gz";
+              sha256 = "17d853ffdf7f6f440e0a5c2065c08258973d95dfc54eebf2d6620caf7832d969";
+              sha256_unsigned = "32eb29a3b53ffb47ba6deab2c21adc6a87bb481534b4aca5145518803befdbb4";
               type = "sdcard";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-olimex_a64-olinuxino-squashfs-sdcard.img.gz";
-              sha256 = "59af60dbff44f13bc0a660e26416a302eb29dae8432a8d7c49de351cdef52c93";
-              sha256_unsigned = "5a2bb16900e656db24cfbb6a5059b3fe3eefd9747cca94ebdbc0452b680bbb83";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-olimex_a64-olinuxino-squashfs-sdcard.img.gz";
+              sha256 = "14e5a1f039908c86184511570ca8f33e207587a4c8c0d5a31d208ae0b44b13cd";
+              sha256_unsigned = "2ee498a3751541829a37a65de2ffea28f6855409dd3bd64cd7d38cb8606eebb8";
               type = "sdcard";
             }
           ];
@@ -63112,20 +63112,20 @@
             "kmod-rtl8723bs"
             "rtl8723bu-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-olimex_a64-olinuxino-emmc";
+          image_prefix = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-olimex_a64-olinuxino-emmc";
           images = [
             {
               filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-olimex_a64-olinuxino-emmc-ext4-sdcard.img.gz";
-              sha256 = "d4946fc6a1fa9b6d6c111aaf12899eed0519ab6fb06c20fbb6290fd452f4b560";
-              sha256_unsigned = "e949c92759464ef4a77d0077cfa14de3734283659c3d6a3367438de4feca8538";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-olimex_a64-olinuxino-emmc-ext4-sdcard.img.gz";
+              sha256 = "11f857e7c47cce9aa1ecf8a077b94793aca49c24ca3a89028e04aae85c9d9a4f";
+              sha256_unsigned = "6e13be4848d0997a967ecaa8733ec21684a0651036c1ea18b1ea4cd3038962f9";
               type = "sdcard";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-olimex_a64-olinuxino-emmc-squashfs-sdcard.img.gz";
-              sha256 = "a8bea4711033b06514079c045ad1cfb0b83d2faeb21c51550dda911aefb4d3c1";
-              sha256_unsigned = "c6c6a26fa04c46b0a1287f94b64735c87489211977fba11d48ee8e25745a74c0";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-olimex_a64-olinuxino-emmc-squashfs-sdcard.img.gz";
+              sha256 = "dec8fcca8fd99987525d6034af42235b092baf05940edd9a98e3860181773532";
+              sha256_unsigned = "f46491089b9fa0c6f6174d97f71f601c4fd89e1a3c31c488b87778120a21362f";
               type = "sdcard";
             }
           ];
@@ -63145,20 +63145,20 @@
             "kmod-rtl8723bs"
             "rtl8723bu-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-pine64_pine64-plus";
+          image_prefix = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-pine64_pine64-plus";
           images = [
             {
               filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-pine64_pine64-plus-ext4-sdcard.img.gz";
-              sha256 = "d6db00b84f6c7a0e4049acbbf4fbb2c8a45b7efa09ee0c879d2afb705df84e2a";
-              sha256_unsigned = "d8e5185b68711742af8706fdd1f4f50adcc24a9c5b20bea5a67932e6e3436f40";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-pine64_pine64-plus-ext4-sdcard.img.gz";
+              sha256 = "96fe62fc4bbac96e3879767cf71f5124c171dcf6a0cdf0f09e559214e4465e20";
+              sha256_unsigned = "107881321568ffa438c169a98f5900f2ab661105f4ea7422c45c55fac8e88994";
               type = "sdcard";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-pine64_pine64-plus-squashfs-sdcard.img.gz";
-              sha256 = "3432641db5645d234a121ac50da47908cbcb0b948d6107d0016e5a672fa86be5";
-              sha256_unsigned = "8ce56b2148b036d16c02c9fa5fdf1ff030495821dcab797a75a813d0b3e9c922";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-pine64_pine64-plus-squashfs-sdcard.img.gz";
+              sha256 = "1a909e68d5f1240bde5118a8fe561e18695708ff70244c7d812e8f52dd5e29d5";
+              sha256_unsigned = "24983b9afffd0c84e1de7e9513b5d1e1f2a6ec6992b5a88560205242a3a9f221";
               type = "sdcard";
             }
           ];
@@ -63177,20 +63177,20 @@
             "kmod-rtl8723bs"
             "rtl8723bu-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-pine64_sopine-baseboard";
+          image_prefix = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-pine64_sopine-baseboard";
           images = [
             {
-              filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-pine64_sopine-baseboard-ext4-sdcard.img.gz";
-              sha256 = "ea19601072359a9bb48fc880bbfeda447ceaac9e7451c76d917a35c1a2774956";
-              sha256_unsigned = "2ef9a45a2607aa03d835a618b70cf8d0fa51e300c88d98fba8a8e4350739e4b1";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-pine64_sopine-baseboard-squashfs-sdcard.img.gz";
+              sha256 = "333d8980d5cce89249b3e3f1116cd8782a028b35f892e987d4e12141be9f8c5c";
+              sha256_unsigned = "013ffebc9174c7db17409eedc7a36187cd8dec554b39fa990857edbb6fc6799e";
               type = "sdcard";
             }
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-pine64_sopine-baseboard-squashfs-sdcard.img.gz";
-              sha256 = "792d5faabeb62a6163a0db2e6004c77a715d368d14dc8586d178079fcd562df9";
-              sha256_unsigned = "112c770d425e6a9b5182989dde1100d868a93626a84aef631ca9bfb17cd6a802";
+              filesystem = "ext4";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-pine64_sopine-baseboard-ext4-sdcard.img.gz";
+              sha256 = "5b505e8a1a6a4c20984a4ae9bf45c577bad67ad9f5923ad17592deeb9269659b";
+              sha256_unsigned = "12fffb61077337207ea50264f8d43deda223334541bcead28107224b42b5f21e";
               type = "sdcard";
             }
           ];
@@ -63206,20 +63206,20 @@
         };
         xunlong_orangepi-one-plus = {
           device_packages = [ ];
-          image_prefix = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-xunlong_orangepi-one-plus";
+          image_prefix = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-xunlong_orangepi-one-plus";
           images = [
             {
-              filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-xunlong_orangepi-one-plus-ext4-sdcard.img.gz";
-              sha256 = "9de021eab44f4108b35f62233e3f590ab6e39994402ec8d1115735043b03a56d";
-              sha256_unsigned = "e172fcd16021b483a39dd0cb1965e2ff5ef38c33b1d625dc21488b313668860a";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-xunlong_orangepi-one-plus-squashfs-sdcard.img.gz";
+              sha256 = "43b3e90571676c121f21708f3f5a5ec433485c2381f3eb853ba2d6c7deb627f9";
+              sha256_unsigned = "1312947617cb0f2ec3a8acaa4e1ec80e59339ba6282d8b57d83343bf1ac27a7c";
               type = "sdcard";
             }
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-xunlong_orangepi-one-plus-squashfs-sdcard.img.gz";
-              sha256 = "05cc1a0b61379a15f05ff1187795a8e8b325b90543ef6bffe3b2d9c7e51e234c";
-              sha256_unsigned = "b281ca3055d424dbfd4690dc971994821513828c08b965e7f05d4ba452687d9f";
+              filesystem = "ext4";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-xunlong_orangepi-one-plus-ext4-sdcard.img.gz";
+              sha256 = "45395dc2828f15883859c08fcca0dfcd12252109af5761c4388fcdb28eb4cb80";
+              sha256_unsigned = "67f9ccbae67bb7261166cfdd8c145672e6a04c4aec9da082f05f6a0c0cbd4454";
               type = "sdcard";
             }
           ];
@@ -63235,20 +63235,20 @@
         };
         xunlong_orangepi-pc2 = {
           device_packages = [ ];
-          image_prefix = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-xunlong_orangepi-pc2";
+          image_prefix = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-xunlong_orangepi-pc2";
           images = [
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-xunlong_orangepi-pc2-squashfs-sdcard.img.gz";
-              sha256 = "3312175a04a6a6a10023e764b397df47487a917a9f41bf817c79ea75da12567b";
-              sha256_unsigned = "23bc6f4462e5d0b7315e9d2351dcc5354020538f7ff4cfd51816d60b68a28560";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-xunlong_orangepi-pc2-squashfs-sdcard.img.gz";
+              sha256 = "7effc62d06e35a5e6940154099f7955e622a91ebf61637d52bcb1515624aa234";
+              sha256_unsigned = "8b1f8e61187f3b0c26f63dc0c66969652bf9f36fe173ea6d30df1a5f1109af6e";
               type = "sdcard";
             }
             {
               filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-xunlong_orangepi-pc2-ext4-sdcard.img.gz";
-              sha256 = "f059988621313cb98c06874b8b509e23d6c85409dbb612cb82ead87ec7fb3709";
-              sha256_unsigned = "9a096b18248b60e9f386c7d1b3516bb3629f6d15ea0d9410b55352ed2000c33d";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-xunlong_orangepi-pc2-ext4-sdcard.img.gz";
+              sha256 = "1f80e75e65bb31f8ca25b90dc7caa6639e6a8c6ecfbcb3f4f7ee62e05b1bc801";
+              sha256_unsigned = "ba10feea42f1cd0857acd8d6535b8800f24c2c8b2bf44b0abca59b3a5226b305";
               type = "sdcard";
             }
           ];
@@ -63264,20 +63264,20 @@
         };
         xunlong_orangepi-zero-plus = {
           device_packages = [ ];
-          image_prefix = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-xunlong_orangepi-zero-plus";
+          image_prefix = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-xunlong_orangepi-zero-plus";
           images = [
             {
               filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-xunlong_orangepi-zero-plus-ext4-sdcard.img.gz";
-              sha256 = "e8c0ca76f6823167488e492c599da22a7d4137074dae864f99a89841e096af44";
-              sha256_unsigned = "35866b36f8f74774137c18c903376d66c3768db0aef65f00e5286d9dfe881274";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-xunlong_orangepi-zero-plus-ext4-sdcard.img.gz";
+              sha256 = "93906aad31780b71f7692dc99a40e6b51690cfcb85f7abd90a8023cab44749d0";
+              sha256_unsigned = "b82caa61fc83291f4faf15a198c1ac2838fd5f4a044eb58f268ee683c1193674";
               type = "sdcard";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-xunlong_orangepi-zero-plus-squashfs-sdcard.img.gz";
-              sha256 = "f966599cebe0cdf0a433d9e8c6af14608a34089ce1c3a726376273451ab4f8de";
-              sha256_unsigned = "cc41fdc1ef0a9e143d2b0af66081e7e2bb1aa8dd51beb481faddb44f90951ad2";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-xunlong_orangepi-zero-plus-squashfs-sdcard.img.gz";
+              sha256 = "d3593bf5e0ef93626e3b3f1342a4194416b188c83eebc7edf4e42a460e3d0974";
+              sha256_unsigned = "1d1b096ec39d3f89b62755338e7d16634896ecbefe2fb6359bcc8908da22c5d3";
               type = "sdcard";
             }
           ];
@@ -63293,20 +63293,20 @@
         };
         xunlong_orangepi-zero2 = {
           device_packages = [ ];
-          image_prefix = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-xunlong_orangepi-zero2";
+          image_prefix = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-xunlong_orangepi-zero2";
           images = [
             {
               filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-xunlong_orangepi-zero2-ext4-sdcard.img.gz";
-              sha256 = "102ad720b550b33e3fbfb7d3f58f959990f90e04bcf8147656571703ae2e4c2b";
-              sha256_unsigned = "b561d10dae0ca163ea7101214933569d1d75c99b3795a9de6c1aa143ba911b69";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-xunlong_orangepi-zero2-ext4-sdcard.img.gz";
+              sha256 = "03967dd8b195e966555bbbbd0bc6ff25f71742a54ed081ae327e47d852f6d0cd";
+              sha256_unsigned = "8def71f99691b0c3310e9c48175918122341ac56dbf9598792567c034a48618f";
               type = "sdcard";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-xunlong_orangepi-zero2-squashfs-sdcard.img.gz";
-              sha256 = "628f4d8e08992388b2dfd7dd7a15f810d552fb76cccfacb9a97861c2a273930d";
-              sha256_unsigned = "562efeb4671962277646ed921c90627c24393dfcca6c30531191ec606d9fd2a7";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-xunlong_orangepi-zero2-squashfs-sdcard.img.gz";
+              sha256 = "17fdd5464370b28c70108b90cc276fc1c30c92476b6fa064c52c8ecd3616eabe";
+              sha256_unsigned = "35be8068dd3a96db8e1ca6fcde10b345c6b542c095bf9c493586a32e8d56aacd";
               type = "sdcard";
             }
           ];
@@ -63322,20 +63322,20 @@
         };
         xunlong_orangepi-zero3 = {
           device_packages = [ ];
-          image_prefix = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-xunlong_orangepi-zero3";
+          image_prefix = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-xunlong_orangepi-zero3";
           images = [
             {
               filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-xunlong_orangepi-zero3-ext4-sdcard.img.gz";
-              sha256 = "fe0d98ef70ab0be5ecf7d52f3f1ed916fd63d3a91a1cbff90dd7147387128f75";
-              sha256_unsigned = "3342277320f979df8968ef05961f2141911a369cfccdbce57faf126029e22bb9";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-xunlong_orangepi-zero3-ext4-sdcard.img.gz";
+              sha256 = "6f50fc6854ef63c881c4e1167a6d0bce65b876f04ef87b38d4cb9d89e61431a6";
+              sha256_unsigned = "825c1626bc7e482b3a544dace7372f8c8db62163cafc5bce937b16787cb98f5b";
               type = "sdcard";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r32912-1618ba96be-sunxi-cortexa53-xunlong_orangepi-zero3-squashfs-sdcard.img.gz";
-              sha256 = "d1bd2b626d5b893c74ea3529b59c42f218e9ae89d5200329186cd8270b380bad";
-              sha256_unsigned = "b81d78f6a59a8c0387cc82e434bf50cec9284e34ab87e9078587c09f88f13890";
+              name = "immortalwrt-24.10-snapshot-r32932-32ddb642ea-sunxi-cortexa53-xunlong_orangepi-zero3-squashfs-sdcard.img.gz";
+              sha256 = "290ce92edc1b55901af37ad93497215e321b2782edfd8398f3793fb27519a694";
+              sha256_unsigned = "4c902dbdc4206730d7cdcabb5246e21cae56925a5a3a503be876a8851e035e9c";
               type = "sdcard";
             }
           ];
@@ -63350,9 +63350,9 @@
           ];
         };
       };
-      source_date_epoch = 1740304125;
+      source_date_epoch = 1740585226;
       target = "sunxi/cortexa53";
-      version_code = "r32912-1618ba96be";
+      version_code = "r32932-32ddb642ea";
       version_number = "24.10-SNAPSHOT";
     };
     cortexa7 = {
