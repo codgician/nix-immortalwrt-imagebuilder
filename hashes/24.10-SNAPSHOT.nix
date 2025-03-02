@@ -62,8 +62,8 @@
   packages."arm_arm926ej-s"."packages".sha256 = "sha256-j0BbdZzc2J0Vttjk8Ps47mqN+uiGuS3ko0UqshtzO0Y=";
   packages."arm_arm926ej-s"."routing".sha256 = "sha256-qQ/flGvzJbEuOTUNaXrljABmbHzuXVe/IRIDuB3G8Qw=";
   packages."arm_arm926ej-s"."telephony".sha256 = "sha256-atq1xKrN/z3me/UYY9XWchcDc3mQ4p6xxcI5m76NK8c=";
-  targets."zynq"."generic".sha256 = "sha256-Meq3scUMl8p+ta4+Cgqz3VKCezgzju7YYN0nYKs57Us=";
-  kmods."zynq"."generic"."6.6.73-1-71f20bcd94f6999014a90ed7e3fe5a77".sha256 = "sha256-Fs+O8bZM8voGnA2Y83H3dwJEP3OUL2oHxgi8YmwGHj8=";
+  targets."zynq"."generic".sha256 = "sha256-H93i6dbewyqWMYEva04jRTiZAB9F4RWX1Yxl0fLFf9k=";
+  kmods."zynq"."generic"."6.6.79-1-71f20bcd94f6999014a90ed7e3fe5a77".sha256 = "sha256-uYwD0llVWXe91wAD+9EN8FIL+R1QsYSmmG1OFEKF8us=";
   targets."zynq"."generic".packagesArch = "arm_cortex-a9_neon";
   packages."arm_cortex-a9_neon"."base".sha256 = "sha256-acsLK5vW4Cq5uQCVMRUtIbBLUMMjQmqJl6ApC30r2n4=";
   packages."arm_cortex-a9_neon"."luci".sha256 = "sha256-YMrpgys4aXwqrBDBaJiwW3K+z436blAUygBGeAidcmA=";
@@ -153,8 +153,8 @@
   packages."arm_cortex-a9_vfpv3-d16"."packages".sha256 = "sha256-AycbdRuoj9j6OwTc3Kv3xZvrNBcUEc5J0lnH6D0VtF0=";
   packages."arm_cortex-a9_vfpv3-d16"."routing".sha256 = "sha256-417jK5rB6jq7KSMo2sCkVR3uLH8TfkC3NKk2D0tvAcg=";
   packages."arm_cortex-a9_vfpv3-d16"."telephony".sha256 = "sha256-RmHKn2RdqE/CeHKbq1j1gXH0mEhSjE99paEs7a7ozoI=";
-  targets."x86"."legacy".sha256 = "sha256-akSry3+w7K/2IGPRkabIsDZ2UQ+0Ow8sow68iHzIRgo=";
-  kmods."x86"."legacy"."6.6.73-1-a3781d1b6a9fd3bf54edd715ae65af8d".sha256 = "sha256-3kCx2z1G2WjVTRlnAM6e+oi/baj6bGfZ5uitzOjlnNU=";
+  targets."x86"."legacy".sha256 = "sha256-fKJUPzC8w/vFCoWaqLNhnLYI0i1D3Z4ZtAWbsPdfCNo=";
+  kmods."x86"."legacy"."6.6.79-1-a3781d1b6a9fd3bf54edd715ae65af8d".sha256 = "sha256-LVUFTyIfOKnpf/1s+HgR3kmBMGJ+zhy95dhcvZNiAls=";
   targets."x86"."legacy".packagesArch = "i386_pentium-mmx";
   packages."i386_pentium-mmx"."base".sha256 = "sha256-C09Z6Xs2Ol9O8prNXJlHi3kckdw+0x8wP7///l6g/BA=";
   packages."i386_pentium-mmx"."luci".sha256 = "sha256-5qphYCbEB3Fh0zasbN0MxhLfebbuuBjqfJ8bb7T1nNY=";
