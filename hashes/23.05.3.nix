@@ -120,7 +120,7 @@
   targets."armsr"."armv8".packagesArch = "aarch64_generic";
   targets."tegra"."generic".sha256 = "sha256-4FdiW5WxTXR/zKv8I/zEZ6DGyyWWkPOm4IXNarYvzSc=";
   targets."tegra"."generic".packagesArch = "arm_cortex-a9_vfpv3-d16";
-  packages."arm_cortex-a9_vfpv3-d16"."base".sha256 = "sha256-X/wGLCZN33g4sDh87O4le8cSV6PbKSadUyTYQh0Od60=";
+  packages."arm_cortex-a9_vfpv3-d16"."base".sha256 = "sha256-XfbeMgQRV/5SVtQqOywFGYi7okX/n/l45bJLGSMu52Y=";
   packages."arm_cortex-a9_vfpv3-d16"."luci".sha256 = "sha256-/kQDVL60rxiUoDVtlRZSPx4eFfNmk0GItQi9hSBP4WY=";
   packages."arm_cortex-a9_vfpv3-d16"."packages".sha256 = "sha256-DF41x89bqoO6rWrT8oUm8VHONOuqicu8ORSVEmjnxMA=";
   packages."arm_cortex-a9_vfpv3-d16"."routing".sha256 = "sha256-afSbtDXjvRkjjprE6bMHro+ZOiw19a8+kyGmOpQbZJQ=";
