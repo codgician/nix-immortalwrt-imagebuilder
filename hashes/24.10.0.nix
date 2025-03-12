@@ -164,9 +164,9 @@
   targets."x86"."64".sha256 = "sha256-P1rhhw914YnhWCgPu+/ueoZ87ojEYumvabGQGxCCYpQ=";
   kmods."x86"."64"."6.6.73-1-e374625fa86cafa3cbc5e009d5855910".sha256 = "sha256-VtzAufNcvr2SrLHo+zWDDoV12Ge4tMvq/9ztQC6Zzs4=";
   targets."x86"."64".packagesArch = "x86_64";
-  packages."x86_64"."base".sha256 = "sha256-zLBqndRW56LNfoGluIx5Nuy5WkfjrU6KrsYhYLOCPGQ=";
-  packages."x86_64"."luci".sha256 = "sha256-/SyZgbAPh3lDG8rMWnx44BkC/B1sPTSaX/DU9Onla7I=";
-  packages."x86_64"."packages".sha256 = "sha256-CbtIpcg0M/8QS7QbhT+rCZwgff9BHvjixtJ5NJunjgg=";
+  packages."x86_64"."base".sha256 = "sha256-Zxp3a+r6QH3vF51mvp3+Ra9kYU6+BSDrpVhzxaOpLI0=";
+  packages."x86_64"."luci".sha256 = "sha256-Sq0SKdU4s1ww3QBiA4Ju6IjtKpNwkm2z1dBVpzL39+A=";
+  packages."x86_64"."packages".sha256 = "sha256-V0Y3Dxv+YNP3nKULNCFi9e1cI112wYnZ5+GoSKMGuwE=";
   packages."x86_64"."routing".sha256 = "sha256-SZ9f7G9XrUblPkU3bUkHRxObl0roqBOa/hSkrxjBNCk=";
   packages."x86_64"."telephony".sha256 = "sha256-Hia1Sq7wLKk/IZGhkLlN+kU+mw32aOeEqx+JNQHMhn0=";
   targets."x86"."generic".sha256 = "sha256-qxUxdtJBhRjQCejml3EuAkYqwnT9gsOI0RO/1LVKxwA=";
@@ -248,9 +248,9 @@
   targets."qoriq"."generic".packagesArch = "powerpc64_e5500";
   packages."powerpc64_e5500"."base".sha256 = "sha256-dP8/1bI2FZbKMhEg2TwsQDKXBPX4lL8ll5vNZiObvfw=";
   packages."powerpc64_e5500"."luci".sha256 = "sha256-6Es9PnWNICB+SU9Dx/qCS1wCLwGMRx/VYr/FpzXZjz8=";
-  packages."powerpc64_e5500"."packages".sha256 = "sha256-rpx4np1s4K17IrwYAYztZIdRJQ1xgqlYZflxk+R9EHw=";
-  packages."powerpc64_e5500"."routing".sha256 = "sha256-OPt1DiBC4Qd8EexfZQ/gSRajueKldh9oI5FVogTClxM=";
-  packages."powerpc64_e5500"."telephony".sha256 = "sha256-23HNS4fyLukco9MB1yIkM7ssNTAUR3liC5P6TegJSRw=";
+  packages."powerpc64_e5500"."packages".sha256 = "sha256-z4erxdLztqy8/o+qnx7ZA91kDs/21cKzvHAUfWi4sa8=";
+  packages."powerpc64_e5500"."routing".sha256 = "sha256-Ik88eMXQT1BZphLFSxjK41CNyQAJqdKDrxYRmbZ/7Ag=";
+  packages."powerpc64_e5500"."telephony".sha256 = "sha256-VB7CUyrJuNUqUn7EUY3waJW613ToTkj2uLo+a/d3OFQ=";
   targets."sunxi"."cortexa7".sha256 = "sha256-DXUJhUE0dlXkRdwJLUeuo7UCmgpS2t+nAN45Rl2cHK4=";
   kmods."sunxi"."cortexa7"."6.6.73-1-5ca04f698c83135b557ec86184f67104".sha256 = "sha256-AC3bP11ty7JjWDldJK8XwXI3hI1/mjqL8SfhR2rlNiM=";
   targets."sunxi"."cortexa7".packagesArch = "arm_cortex-a7_neon-vfpv4";
