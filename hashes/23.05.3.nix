@@ -166,9 +166,9 @@
   packages."mipsel_74kc"."telephony".sha256 = "sha256-uEREUX3fp+jBR+PmWm6UaQuW8UldiyiHRoVQ0lRJc78=";
   targets."bcm63xx"."generic".sha256 = "sha256-Mo3EIFKMUrBfQlavG2pZ4bviw4rO14PUr0UGKaiBnTw=";
   targets."bcm63xx"."generic".packagesArch = "mips_mips32";
-  packages."mips_mips32"."base".sha256 = "sha256-mvQU0B6YEwwtsbaNqhX15mcNN4zdnab8uof6xQvouEs=";
-  packages."mips_mips32"."luci".sha256 = "sha256-AGRMn81QY2osPqTG69r7pyHE5lePXBhzs266Ge0ZTOo=";
-  packages."mips_mips32"."packages".sha256 = "sha256-38jzlmeF5l216+ROXgvrUN/KAHYcWmOqSDod56/xZrM=";
+  packages."mips_mips32"."base".sha256 = "sha256-rRgYjc+Ucjsf7TuAn/LaF0SXy1hc2ViOxy5dOroXMeI=";
+  packages."mips_mips32"."luci".sha256 = "sha256-YpovTITSQtIRaU/IskJUMfWikE98GIrHBRGR/UYIvM8=";
+  packages."mips_mips32"."packages".sha256 = "sha256-JPdc5Dl3+M5TQMV5M791fGnh5K2d2QTTucKbK1vnVRs=";
   packages."mips_mips32"."routing".sha256 = "sha256-b/ds1jYrxqemH+BZpZUKA9f5sWz7yWWWqaiMJ0h/WzY=";
   packages."mips_mips32"."telephony".sha256 = "sha256-hBYslasGg9k09bKFPHH1/CW4jJRMVw9xRmlW4bRf9ss=";
   targets."bcm63xx"."smp".sha256 = "sha256-7jNJSusN+j5R7vyr/wTGQne9hLm5sQEohIUD4qpV1MM=";
@@ -284,8 +284,8 @@
   packages."mips_4kec"."base".sha256 = "sha256-9M6zPMvRwrV5rKRKT/yLfIKikSqNnMGlpVg0HQYWIAI=";
   packages."mips_4kec"."luci".sha256 = "sha256-4FCxOWOHAjECzYO7D287GojBF/iswgKH+dQvqqUdtbs=";
   packages."mips_4kec"."packages".sha256 = "sha256-WKECcke0hOLoXTP62SKPdovOTHOHMC3vBvasMBgCzt8=";
-  packages."mips_4kec"."routing".sha256 = "sha256-dbZnITSMgO/4dN3gjTaFTzjQya5Xq6wZgg8xZuqrgzI=";
-  packages."mips_4kec"."telephony".sha256 = "sha256-x315O8cFL2cQWOFA/smunO9hJHAR5rwDi5k3P+mjmFg=";
+  packages."mips_4kec"."routing".sha256 = "sha256-Gol8XGbCJInq/4BQrimziokOy+dIbnxz3BUCiqdYxdE=";
+  packages."mips_4kec"."telephony".sha256 = "sha256-uhy2BVPZSSo50QTr8CvBf0XF+sV+RZkZuYGRBz9yrZg=";
   targets."realtek"."rtl930x".sha256 = "sha256-zY4G2/Ely+1pVMQWg27I9QIQlfMI39emesk1gTjx8Lc=";
   targets."realtek"."rtl930x".packagesArch = "mips_24kc";
   targets."realtek"."rtl839x".sha256 = "sha256-Fcl5DbpUFlzCyPL21myRrdDEFJMEQkU+FzBx5ERWUw4=";
