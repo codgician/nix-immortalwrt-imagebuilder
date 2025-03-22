@@ -24,9 +24,9 @@
   targets."ipq40xx"."mikrotik".sha256 = "sha256-El8N+pwzgQlf/+JDu6fauFGzEIGweoGNYiOk/wmQNRk=";
   kmods."ipq40xx"."mikrotik"."6.6.79-1-3583ba0dd6baf6903ff3c88aa70e0693".sha256 = "sha256-2cK93nG5NlKKS0Ky9O3IsMpuflsVuWtS23VMP5wzQmE=";
   targets."ipq40xx"."mikrotik".packagesArch = "arm_cortex-a7_neon-vfpv4";
-  packages."arm_cortex-a7_neon-vfpv4"."base".sha256 = "sha256-WMWv0sdxu4xUgS27vqfWVB2wJ8YXyxYk2MUj3DHSee8=";
-  packages."arm_cortex-a7_neon-vfpv4"."luci".sha256 = "sha256-k97YUA7LLlfbls8f4e+18NxSYLRri4gRB0NnwiwmYSk=";
-  packages."arm_cortex-a7_neon-vfpv4"."packages".sha256 = "sha256-LjU4mLiIzdHSmhqTyWY2LgSxwMnGSUb4yC4DECFWURY=";
+  packages."arm_cortex-a7_neon-vfpv4"."base".sha256 = "sha256-AJck6oQ/n4qYrZ1qlPcSa9KuTZQtGng/nyG3p6L6qHA=";
+  packages."arm_cortex-a7_neon-vfpv4"."luci".sha256 = "sha256-3aFi6JrAbIZxxYeQR5q3askmJL7YeJC1OEOl0p+kUDU=";
+  packages."arm_cortex-a7_neon-vfpv4"."packages".sha256 = "sha256-8fEZ9/NjY7Mh9kdnHsGD29fcR8hkk7Fk+NJr4AqvADI=";
   packages."arm_cortex-a7_neon-vfpv4"."routing".sha256 = "sha256-APVsykb9Alv/iUDfJzfSjxjCAUXnxfuuK/OAJWU5RcQ=";
   packages."arm_cortex-a7_neon-vfpv4"."telephony".sha256 = "sha256-enFhkH6ZgqcMRZn2rUdKaVoK2ODVHMNTu7hnxgDpV7o=";
   targets."ipq40xx"."generic".sha256 = "sha256-YpAYVONVS+4cmug6LZ7UU2P+XeGIryGZzJRtyoIY8N0=";
