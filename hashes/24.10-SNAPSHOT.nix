@@ -102,8 +102,8 @@
   packages."arm_cortex-a7"."packages".sha256 = "sha256-BT7vdeqOhcFz6x6i5U28H4DLazXBnVLs/Mw2wdlwfS8=";
   packages."arm_cortex-a7"."routing".sha256 = "sha256-NA00iP9G9teQLD6qKDy0uusF0+DzSXQFRzljyOGmbQ0=";
   packages."arm_cortex-a7"."telephony".sha256 = "sha256-pFoR5O3geqWXlb9IN6ZHhsHL3N5/HX5vCTOQwwm3J/0=";
-  targets."mediatek"."filogic".sha256 = "sha256-xerSe8rWC8QviLCzLBeqOzpAMlY4BcvPkoMXwFW6zIk=";
-  kmods."mediatek"."filogic"."6.6.79-1-c464cc026856b124f5bdb8c696b00554".sha256 = "sha256-N03065MySAdyx0gOCZIVRMaG99IrxpDB2hb5JRFGEDA=";
+  targets."mediatek"."filogic".sha256 = "sha256-7RIaMA+MlLTI+lqB62NnBIZsEB+I4IOju0Dfou9AUB8=";
+  kmods."mediatek"."filogic"."6.6.83-1-99e980e5bcb21e0a08a3e4b0071c7ce1".sha256 = "sha256-ckm3VgwJ5LzRBIxjWDlga0wlEZgutVUYXnfMms5Jzec=";
   targets."mediatek"."filogic".packagesArch = "aarch64_cortex-a53";
   targets."mediatek"."mt7623".sha256 = "sha256-5yEj1D0gxY7AJXuyD+N9Asyc+O853iIgBHto28+DN2c=";
   kmods."mediatek"."mt7623"."6.6.83-1-f61a80a135c1d79f4e665ccf7b557622".sha256 = "sha256-pOhfEBSYjQOriN3aNGYeU2QOGhUC8k0RTrky8QCSxyg=";
@@ -283,8 +283,8 @@
   targets."ramips"."rt305x".sha256 = "sha256-TzRXP7Yf2cVd+WA5ux6yX08krEoJzhlfW8CazGWEVhk=";
   kmods."ramips"."rt305x"."6.6.83-1-8342333032102528ec6c9e0b54267bd9".sha256 = "sha256-mEygaPWS96PHyIgD/oo8h7m2M81yF6raCE6CLQKIkBQ=";
   targets."ramips"."rt305x".packagesArch = "mipsel_24kc";
-  targets."ramips"."mt7621".sha256 = "sha256-nhUMoOhMMjp5Or6kx0Nm1Vs1blFuDuApjZ5Mqqh3YqY=";
-  kmods."ramips"."mt7621"."6.6.79-1-bb862acff14b3e53e1a47bb4219811fb".sha256 = "sha256-cBKPRkH9zADFbBku76H/0E6mvE/76SEFT5hz3xxTySU=";
+  targets."ramips"."mt7621".sha256 = "sha256-P+IEEFrnB3KanIV+J+ISY/kqEZepMefna897MH05txQ=";
+  kmods."ramips"."mt7621"."6.6.83-1-ab65c071936c0bfce0ca827b439bbbbb".sha256 = "sha256-By8nFpTuklYuccNAIGvAu0ZK/EMvOmlWuNri5eJVqSo=";
   targets."ramips"."mt7621".packagesArch = "mipsel_24kc";
   targets."starfive"."generic".sha256 = "sha256-lvxEPBjXWTRZlhUYxIYNW4tL9sm+yhb19R0bURWUAqg=";
   kmods."starfive"."generic"."6.6.83-1-99f421573a33101dacb1dd34587607b0".sha256 = "sha256-XaLYvuaLsveUxfLTsqPtBJhjMG3+k0mG54+/tR7nBTw=";
