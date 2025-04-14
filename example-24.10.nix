@@ -2,6 +2,7 @@
 , build ? import ./builder.nix
 }:
 build {
+  inherit pkgs;
   release = "24.10.2";
   target = "ath79";
   variant = "tiny";
