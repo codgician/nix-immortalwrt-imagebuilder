@@ -229,8 +229,8 @@
   targets."mpc85xx"."p1020".sha256 = "sha256-tbNAqUG8HkHLwhhV4RBDCFTmeKhZxFtPEeKcOhABF5I=";
   kmods."mpc85xx"."p1020"."6.6.93-1-d8c72b71b4189bf9078cf3dff9b7ddaa".sha256 = "sha256-CqoQ3XWqILlN6pC1EZ5fjB3gfY9BfDetxagZz1nZ+to=";
   targets."mpc85xx"."p1020".packagesArch = "powerpc_8548";
-  targets."mvebu"."cortexa53".sha256 = "sha256-CFwQvVhoAvwyGpp36xaiwWZuE4HnDOhlF7UHXPABhHc=";
-  kmods."mvebu"."cortexa53"."6.6.93-1-0f9a1d65890896876bb0635e51d9c24f".sha256 = "sha256-hPqFc/jgMhl8mZdJV0kGXSY89HIh00kUvbqT1ajCYfk=";
+  targets."mvebu"."cortexa53".sha256 = "sha256-vYTB6noqxotg+zGl6iHFDelWtvwtjv037mJKH8+OMLk=";
+  kmods."mvebu"."cortexa53"."6.6.94-1-0f9a1d65890896876bb0635e51d9c24f".sha256 = "sha256-dg3CQom1kdFbMVTUZHHzxK1/2PjvzBezXinMT1TabP4=";
   targets."mvebu"."cortexa53".packagesArch = "aarch64_cortex-a53";
   targets."mvebu"."cortexa72".sha256 = "sha256-56c5T30Iuqs3ZVVFVcOYtVQZpG9P8trv/hhUhOE7Duw=";
   kmods."mvebu"."cortexa72"."6.6.94-1-099753d845dab854505b6c793c687336".sha256 = "sha256-Njj2G9ZFVqCDYN0pQ7ZJZOEB5LWobArEHcOn2h4RORM=";
