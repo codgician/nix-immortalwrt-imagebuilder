@@ -2,10 +2,10 @@
 , build ? import ./builder.nix
 }:
 build {
-  release = "23.05.3";
+  release = "24.10.2";
   target = "ath79";
   variant = "tiny";
-  profile = "engenius_eap350-v1";
+  profile = "nec_wr9500n";
   packages = [
     "tcpdump"
     "vxlan" "kmod-vxlan"
