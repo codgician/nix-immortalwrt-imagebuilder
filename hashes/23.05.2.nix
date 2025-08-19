@@ -10,7 +10,7 @@
   targets."apm821xx"."nand".packagesArch = "powerpc_464fp";
   targets."ipq806x"."generic".sha256 = "sha256-gYFxop0Per7zfFeruff/1VPkME7mDI7BaujfD0ZYlT8=";
   targets."ipq806x"."generic".packagesArch = "arm_cortex-a15_neon-vfpv4";
-  packages."arm_cortex-a15_neon-vfpv4"."base".sha256 = "sha256-Krwsrvk5nuQvxu+R8N+GSKHdMmv41bMg92K1z/RcXUw=";
+  packages."arm_cortex-a15_neon-vfpv4"."base".sha256 = "sha256-2wkZvWTvOOV05uTxXttXHXpvM9s+6IhMpP4Lj4iPpAk=";
   packages."arm_cortex-a15_neon-vfpv4"."luci".sha256 = "sha256-3wnTMfpQjMJXXhUCp7iDjUz0RJn3KVyC/F8m8rWS3ns=";
   packages."arm_cortex-a15_neon-vfpv4"."packages".sha256 = "sha256-4hAaVSXctDMUBy0KsVFZcMLlVurWpVOYWjgnUC1RC30=";
   packages."arm_cortex-a15_neon-vfpv4"."routing".sha256 = "sha256-JGmSXWbtcZx7v8V2HHLej+rULygojvL1ZIoptJ58fQM=";
