@@ -227,6 +227,8 @@
   kmods."mpc85xx"."p1010"."6.6.73-1-44edc98920a6e8b1814ab1c3d43e10ba".sha256 = "sha256-0afPHbXVpfCz4l8i1j3GuhbgLzhFHYisMNeQVAiAfM4=";
   targets."mpc85xx"."p1010".packagesArch = "powerpc_8548";
   targets."mpc85xx"."p1020".sha256 = "sha256-fLpw41+I863blT29QFls/6Z4FQPJ3YIB55j8ShDxaR8=";
+  kmods."mpc85xx"."p1020"."6.6.73-1-90bc7ef84ae8ca9f88a6552d190cfc46".sha256 = "sha256-BPzUKUzDBoTy6YizZtkqFe+iAu5hPDKo9D86NBn9hqY=";
+  targets."mpc85xx"."p1020".packagesArch = "powerpc_8548";
   targets."mvebu"."cortexa53".sha256 = "sha256-mf/PHjVF1FyaMLeuavQqKYQvTrX5sB9/KzotzGo9RNU=";
   kmods."mvebu"."cortexa53"."6.6.73-1-f4da4bd938d095d008d2ee11e66adb71".sha256 = "sha256-bnu54jymJdk3J0g5h1QAdVZ/JgfEiwecPQAvj5oDgNo=";
   targets."mvebu"."cortexa53".packagesArch = "aarch64_cortex-a53";
