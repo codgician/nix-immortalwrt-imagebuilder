@@ -283,8 +283,8 @@
   targets."ramips"."rt305x".sha256 = "sha256-QynwTmcBlYqVAItwT4zxFglK6HCWlHS9Pv5kXmbhZ6I=";
   kmods."ramips"."rt305x"."6.6.103-1-70aa4707f3af25869ec0018735dac52d".sha256 = "sha256-MWhc/YRf+3HEWEANA2fEe6CsRdTyIZCfKgDiUaF3Ko4=";
   targets."ramips"."rt305x".packagesArch = "mipsel_24kc";
-  targets."ramips"."mt7621".sha256 = "sha256-Dc8DUmBirdlPqJyzqjL1Ss1huiebB2W9ouMyodcfoF4=";
-  kmods."ramips"."mt7621"."6.6.102-1-730c62a2d59c0c43f493ba6554a36be8".sha256 = "sha256-zas54+eO3vwBUhc0HrDX9Xey3DfAuBmpPBiJcU6rHls=";
+  targets."ramips"."mt7621".sha256 = "sha256-KMUdEcyr2eGBIEGH3mr59osoMqt9gN1cDTRORUQHbv8=";
+  kmods."ramips"."mt7621"."6.6.103-1-730c62a2d59c0c43f493ba6554a36be8".sha256 = "sha256-5AiKn8saOXK3yzBrQPTKLOEZb5DsKYV+WpQatQgYEBU=";
   targets."ramips"."mt7621".packagesArch = "mipsel_24kc";
   targets."starfive"."generic".sha256 = "sha256-FqkECGsdhxS0Y3rE1VaFlpqS/k2OeqWVfHm6fZPJrbo=";
   kmods."starfive"."generic"."6.6.103-1-bffa7191e979449fa0c39365be947a2f".sha256 = "sha256-Nt8EjCXfKwN9DVRdxgMl2GlEXtlndHMyEhzmyI9MqL8=";
