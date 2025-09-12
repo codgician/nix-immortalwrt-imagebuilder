@@ -31080,7 +31080,7 @@
       linux_kernel = {
         release = "1";
         vermagic = "3ca4b8cb2fcc3a2027e8496143a86cab";
-        version = "6.6.103";
+        version = "6.6.104";
       };
       metadata_version = 1;
       profiles = {
@@ -31090,32 +31090,32 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-abt_asr3000";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-abt_asr3000";
           images = [
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-abt_asr3000-preloader.bin";
-              sha256 = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
-              sha256_unsigned = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-abt_asr3000-preloader.bin";
+              sha256 = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
+              sha256_unsigned = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
               type = "preloader.bin";
             }
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-abt_asr3000-initramfs-recovery.itb";
-              sha256 = "ae216c941ca9757815df762320d744db909602d8762f2c9bde45c4bc8ad62be1";
-              sha256_unsigned = "ae216c941ca9757815df762320d744db909602d8762f2c9bde45c4bc8ad62be1";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-abt_asr3000-initramfs-recovery.itb";
+              sha256 = "fa6afc551a94bc0fc808ae6541fb4325367e237fa96b359d9f929dde7d310d01";
+              sha256_unsigned = "fa6afc551a94bc0fc808ae6541fb4325367e237fa96b359d9f929dde7d310d01";
               type = "kernel";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-abt_asr3000-squashfs-sysupgrade.itb";
-              sha256 = "a7f6df297c36e2daaa385326b16752a95056ec9d6e3eb885c818f35f9ec06325";
-              sha256_unsigned = "43b6e0aaf89b98717a724ee8a3a16eee3f37867f46b23a78831e5b15f5b1ff0c";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-abt_asr3000-squashfs-sysupgrade.itb";
+              sha256 = "9eed2caf808740954ede3ed52ab789809f17962df5779a2285914ffe90291e4c";
+              sha256_unsigned = "7b5c7b5149d11a84d9eb9635a3ee5619aafaf727681da66b70dc374268b166b2";
               type = "sysupgrade";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-abt_asr3000-bl31-uboot.fip";
-              sha256 = "7d7af566b348c6b250332dd4727e8dce5821f8f813637268e93d983e9c0abe8d";
-              sha256_unsigned = "7d7af566b348c6b250332dd4727e8dce5821f8f813637268e93d983e9c0abe8d";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-abt_asr3000-bl31-uboot.fip";
+              sha256 = "68ffef91d38d90ccd9c2bb0bcc5a020470f1a773f6b7ebdad9f5b0213adf268d";
+              sha256_unsigned = "68ffef91d38d90ccd9c2bb0bcc5a020470f1a773f6b7ebdad9f5b0213adf268d";
               type = "bl31-uboot.fip";
             }
           ];
@@ -31135,28 +31135,28 @@
             "kmod-mt7986-firmware"
             "mt7986-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-acelink_ew-7886cax";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-acelink_ew-7886cax";
           images = [
             {
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-acelink_ew-7886cax-initramfs-kernel.bin";
+              sha256 = "cfcdb66ae3017d2513e6e215295e9b62ed6a77701fbe66211f7bd2663116fae9";
+              sha256_unsigned = "cfcdb66ae3017d2513e6e215295e9b62ed6a77701fbe66211f7bd2663116fae9";
+              type = "kernel";
+            }
+            {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-acelink_ew-7886cax-squashfs-sysupgrade.bin";
-              sha256 = "0931b16c40b0aa4eb171d1049f3ad28998db0c60829d258fa81d1b7544145f2c";
-              sha256_unsigned = "74ba02c720cd8306d1076d1ab2b29c568d350779b813139893286739d97c39a8";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-acelink_ew-7886cax-squashfs-sysupgrade.bin";
+              sha256 = "b3e2277df229bd22eb4f6ef8d11d29e47e1bdff7e33ad083f227858e30933bc8";
+              sha256_unsigned = "1b38054b142f6ec6d6bb8594f983a5fa31a4f504ff538200a7d2ac05a597c2cb";
               type = "sysupgrade";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-acelink_ew-7886cax-squashfs-factory.bin";
-              sha256 = "729ca93f7691e88743658e010928abcfe6d52f52a6e51b8305ed4d2163ee6285";
-              sha256_unsigned = "729ca93f7691e88743658e010928abcfe6d52f52a6e51b8305ed4d2163ee6285";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-acelink_ew-7886cax-squashfs-factory.bin";
+              sha256 = "a7f72d43a6bc946e5b85ad3360bc04f6fe2b98973cbfb20832822ac780ee6efe";
+              sha256_unsigned = "a7f72d43a6bc946e5b85ad3360bc04f6fe2b98973cbfb20832822ac780ee6efe";
               type = "factory";
-            }
-            {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-acelink_ew-7886cax-initramfs-kernel.bin";
-              sha256 = "8bdf767c9b2f98628348d1585fcfc22e013ab934791ef45be654f7e2f65ce4a7";
-              sha256_unsigned = "8bdf767c9b2f98628348d1585fcfc22e013ab934791ef45be654f7e2f65ce4a7";
-              type = "kernel";
             }
           ];
           supported_devices = [
@@ -31180,21 +31180,21 @@
             "mkf2fs"
             "automount"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-acer_predator-w6";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-acer_predator-w6";
           images = [
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-acer_predator-w6-squashfs-sysupgrade.bin";
-              sha256 = "e109868f219f6845061652dc20adb5e1ea2d3d4dd4283f41ae14873f3259c31b";
-              sha256_unsigned = "b577cf3aac0c36b3ac5825a6c34c1069d177b8c5abc056267c487ff27e4eb980";
-              type = "sysupgrade";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-acer_predator-w6-initramfs-kernel.bin";
+              sha256 = "1f67ac8284adc032640daecb9d90d4868f10cc1d44cff031dd8d99550def9b6f";
+              sha256_unsigned = "1f67ac8284adc032640daecb9d90d4868f10cc1d44cff031dd8d99550def9b6f";
+              type = "kernel";
             }
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-acer_predator-w6-initramfs-kernel.bin";
-              sha256 = "cd0faad9ed96b01b47a72d0792b320d86f345c9bd5a343b2181bc1d03db652a1";
-              sha256_unsigned = "cd0faad9ed96b01b47a72d0792b320d86f345c9bd5a343b2181bc1d03db652a1";
-              type = "kernel";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-acer_predator-w6-squashfs-sysupgrade.bin";
+              sha256 = "7dba377334df12624ec49190addf9e67eeaf0fc2cf2c0a6023ec895db8345469";
+              sha256_unsigned = "318936e698d0d69239ebbb4abdbbac6728d8924953069073851af9b1dfbd7e2d";
+              type = "sysupgrade";
             }
           ];
           supported_devices = [
@@ -31218,21 +31218,21 @@
             "f2fsck"
             "mkf2fs"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-acer_predator-w6d";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-acer_predator-w6d";
           images = [
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-acer_predator-w6d-squashfs-sysupgrade.bin";
-              sha256 = "06d574abaf5c73df59117409ce9b63dc9c41e6b62ef58daf5f6b97349ebe7fd3";
-              sha256_unsigned = "e03d22effe2135c0f098b544e7b017ef0cfc63c03e9aed6f433234f0a095e13b";
-              type = "sysupgrade";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-acer_predator-w6d-initramfs-kernel.bin";
+              sha256 = "e33460b7851a149d7c907ecb7f801c9e4df1dab82056be82bf68af50bb587ed7";
+              sha256_unsigned = "e33460b7851a149d7c907ecb7f801c9e4df1dab82056be82bf68af50bb587ed7";
+              type = "kernel";
             }
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-acer_predator-w6d-initramfs-kernel.bin";
-              sha256 = "8a828f22c48a5097d75b3e348448e19f1d45cc0d44f83919ae01dbf8d038062c";
-              sha256_unsigned = "8a828f22c48a5097d75b3e348448e19f1d45cc0d44f83919ae01dbf8d038062c";
-              type = "kernel";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-acer_predator-w6d-squashfs-sysupgrade.bin";
+              sha256 = "c549e4d6f71b099a10d487bfb118dedfc496c8ef137c7dc54b5d74958c736f91";
+              sha256_unsigned = "010f4ab4e1867a0335430ea7f045725a2dce4063edff4a872233a252264e3942";
+              type = "sysupgrade";
             }
           ];
           supported_devices = [
@@ -31256,20 +31256,20 @@
             "f2fsck"
             "mkf2fs"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-acer_vero-w6m";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-acer_vero-w6m";
           images = [
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-acer_vero-w6m-initramfs-kernel.bin";
-              sha256 = "9dcf2a7cfed4eaefff8c3a4d49127c72fc65d373428594b11bc3a9cf4dcaf130";
-              sha256_unsigned = "9dcf2a7cfed4eaefff8c3a4d49127c72fc65d373428594b11bc3a9cf4dcaf130";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-acer_vero-w6m-initramfs-kernel.bin";
+              sha256 = "a1a91c2615e9b20a4170e05444a049defedad20e152c971b3ea6aa9f71265f40";
+              sha256_unsigned = "a1a91c2615e9b20a4170e05444a049defedad20e152c971b3ea6aa9f71265f40";
               type = "kernel";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-acer_vero-w6m-squashfs-sysupgrade.bin";
-              sha256 = "6616ef8ff2373059add841181d59eb343aa14ab21819ebaeeacf1a89be63c26c";
-              sha256_unsigned = "13968678d5510ff926a00775728025b4b3cd6e0c0cfc4ff23d03be38eeb04fa8";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-acer_vero-w6m-squashfs-sysupgrade.bin";
+              sha256 = "e613eb25046684df4ad8cb458f516349e9496146839ba3e6a34756ea9eb4d796";
+              sha256_unsigned = "9670a5df9d041e5bf2aeb28853ff3c457a29a87c04054d083fc23cd1aa96465c";
               type = "sysupgrade";
             }
           ];
@@ -31291,38 +31291,38 @@
             "mkf2fs"
             "kmod-mt7996-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-arcadyan_mozart";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-arcadyan_mozart";
           images = [
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-arcadyan_mozart-emmc-bl31-uboot.fip";
-              sha256 = "703c55583e6542c550113c48dd2dbe5d3d67ea4f5b7af37e0f6e638d575e50c6";
-              sha256_unsigned = "703c55583e6542c550113c48dd2dbe5d3d67ea4f5b7af37e0f6e638d575e50c6";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-arcadyan_mozart-emmc-bl31-uboot.fip";
+              sha256 = "6f777eda1e98a26a666f08085ed00bf04e35a405cd9a73c6f9bdb9b56facc19d";
+              sha256_unsigned = "6f777eda1e98a26a666f08085ed00bf04e35a405cd9a73c6f9bdb9b56facc19d";
               type = "emmc-bl31-uboot.fip";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-arcadyan_mozart-emmc-preloader.bin";
-              sha256 = "40bc3fa196a901bcbcdf02032fe6a827b08ac4037537cb16bd3b07d082d51417";
-              sha256_unsigned = "40bc3fa196a901bcbcdf02032fe6a827b08ac4037537cb16bd3b07d082d51417";
-              type = "emmc-preloader.bin";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-arcadyan_mozart-emmc-gpt.bin";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-arcadyan_mozart-emmc-gpt.bin";
               sha256 = "34db7c5e7c70b6f4e82427a63dabec0098894c91eedf0c98f3013d911cc30545";
               sha256_unsigned = "34db7c5e7c70b6f4e82427a63dabec0098894c91eedf0c98f3013d911cc30545";
               type = "emmc-gpt.bin";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-arcadyan_mozart-squashfs-sysupgrade.itb";
-              sha256 = "7d84dbe8da8e606fbf0a33e0698db96e0f5fb06cb1adc6b56c262fc63c30c261";
-              sha256_unsigned = "0a6154f49a5a2614677284e14c084ab5f013b330cca2a6a6a0134ce18ad8a861";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-arcadyan_mozart-squashfs-sysupgrade.itb";
+              sha256 = "5736ec4b664f6241727f2b973c916da5f986e479c09441fc6b956259908b9a8f";
+              sha256_unsigned = "98fae4d6152d935b75c342048c233c631e66053d4310ba63771ce431c756a9ff";
               type = "sysupgrade";
             }
             {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-arcadyan_mozart-emmc-preloader.bin";
+              sha256 = "278ef67bb999ce4ffae653ea5920049aae2a4b89eb7d2e56c23b6f8f4d4c7c33";
+              sha256_unsigned = "278ef67bb999ce4ffae653ea5920049aae2a4b89eb7d2e56c23b6f8f4d4c7c33";
+              type = "emmc-preloader.bin";
+            }
+            {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-arcadyan_mozart-initramfs.itb";
-              sha256 = "71a9252191c1273184f5decec98e133e10b47d31e7163b2da84bd90d671204f5";
-              sha256_unsigned = "71a9252191c1273184f5decec98e133e10b47d31e7163b2da84bd90d671204f5";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-arcadyan_mozart-initramfs.itb";
+              sha256 = "20730e440b21a893cfd9fe13c2bf1ce7951a5ac78704d5a1def0540fc5ea469d";
+              sha256_unsigned = "20730e440b21a893cfd9fe13c2bf1ce7951a5ac78704d5a1def0540fc5ea469d";
               type = "kernel";
             }
           ];
@@ -31343,21 +31343,21 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-asus_rt-ax52";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-asus_rt-ax52";
           images = [
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-asus_rt-ax52-initramfs-kernel.bin";
-              sha256 = "fb34d48fe0b0664755d8aef022fcbada929b45fb2db57b30ce6ac6d3994cb438";
-              sha256_unsigned = "fb34d48fe0b0664755d8aef022fcbada929b45fb2db57b30ce6ac6d3994cb438";
-              type = "kernel";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-asus_rt-ax52-squashfs-sysupgrade.bin";
+              sha256 = "da4a63e0bac030596d7a8f5aec9034992a2045007cab6108b696b63af2ab1420";
+              sha256_unsigned = "7fa783e7f29cdc79ed9b3ea678b719bf1cb6082f4b8924567a79d8f49f9039c4";
+              type = "sysupgrade";
             }
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-asus_rt-ax52-squashfs-sysupgrade.bin";
-              sha256 = "53a604f80b512a34ebf7f0a7b4acd6116a7f10ab740a691e3664e455b5559d9a";
-              sha256_unsigned = "cf3680cf6cfd0ff10a671b9d3352c718a6e94b035e5c42c81338e64d817f2b78";
-              type = "sysupgrade";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-asus_rt-ax52-initramfs-kernel.bin";
+              sha256 = "7ae2aef58aafe4a367e0f3dfda2dc4357192a4e9f8699c549c1ef84c452efa09";
+              sha256_unsigned = "7ae2aef58aafe4a367e0f3dfda2dc4357192a4e9f8699c549c1ef84c452efa09";
+              type = "kernel";
             }
           ];
           supported_devices = [
@@ -31378,21 +31378,21 @@
             "mt7986-wo-firmware"
             "automount"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-asus_rt-ax59u";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-asus_rt-ax59u";
           images = [
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-asus_rt-ax59u-squashfs-sysupgrade.bin";
-              sha256 = "1c84df7fdfc73047acc9cd89665ea0cc69ea5a879cca8799a9b815280acae3f4";
-              sha256_unsigned = "402537d073719fdbe461ede0858dfc3df629be76ee38fb3f60689639bd161ace";
-              type = "sysupgrade";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-asus_rt-ax59u-initramfs-kernel.bin";
+              sha256 = "b584eca33a83191e1c7f082f5f78d6adca52a0aea756304f1f30e06f13db7e15";
+              sha256_unsigned = "b584eca33a83191e1c7f082f5f78d6adca52a0aea756304f1f30e06f13db7e15";
+              type = "kernel";
             }
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-asus_rt-ax59u-initramfs-kernel.bin";
-              sha256 = "fb856e0e6a0d3e9a304ba3b5b087953e452c13710ce887b898f1982aa65e3e28";
-              sha256_unsigned = "fb856e0e6a0d3e9a304ba3b5b087953e452c13710ce887b898f1982aa65e3e28";
-              type = "kernel";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-asus_rt-ax59u-squashfs-sysupgrade.bin";
+              sha256 = "12ab137188c03d058cd0b9fea8dd3e7a6da15f73ce6b712ca20e093d65581d1a";
+              sha256_unsigned = "612ee3111e1aef24c9e576ccbed010cc131f842528bd17b28dff6b677952a614";
+              type = "sysupgrade";
             }
           ];
           supported_devices = [
@@ -31413,20 +31413,20 @@
             "mt7986-wo-firmware"
             "automount"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-asus_tuf-ax4200";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-asus_tuf-ax4200";
           images = [
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-asus_tuf-ax4200-initramfs-kernel.bin";
-              sha256 = "6650fbc903ddfb9eaf6181da6ad42f4991911de833206c7890ad62f114fbef0c";
-              sha256_unsigned = "6650fbc903ddfb9eaf6181da6ad42f4991911de833206c7890ad62f114fbef0c";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-asus_tuf-ax4200-initramfs-kernel.bin";
+              sha256 = "9801d827fe1adcbba9f5c8c11a3e9205991ec6c2dafe0b07b1c640625cfad14d";
+              sha256_unsigned = "9801d827fe1adcbba9f5c8c11a3e9205991ec6c2dafe0b07b1c640625cfad14d";
               type = "kernel";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-asus_tuf-ax4200-squashfs-sysupgrade.bin";
-              sha256 = "ae8e2dc22f4ca54b5176a886efb7dec33ea3d6616c19255bb3d2fd8995de0fed";
-              sha256_unsigned = "601d18cbafd3a47c0b283d71ad3aa190cc1bde8339887dc5d447a7fce85c66cb";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-asus_tuf-ax4200-squashfs-sysupgrade.bin";
+              sha256 = "764c54303f4d1a4470b4aca400927084ce9ceddaba0b329caf02177b9137e17c";
+              sha256_unsigned = "36dcca175a7b1fc644d43366b34430d82381612af6df9e6bc1539a4871bfdd0d";
               type = "sysupgrade";
             }
           ];
@@ -31448,20 +31448,20 @@
             "mt7986-wo-firmware"
             "automount"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-asus_tuf-ax6000";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-asus_tuf-ax6000";
           images = [
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-asus_tuf-ax6000-squashfs-sysupgrade.bin";
-              sha256 = "c792348b757d6b912b4de09c30b6f09f71a9e4f54fc7fdfbb6e59c7b0a0d6512";
-              sha256_unsigned = "a0b30792f4455e6cd40b7335cce4596a79d145be3fa74b00215bceb48c797876";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-asus_tuf-ax6000-squashfs-sysupgrade.bin";
+              sha256 = "4285fef6ebcc0cf365bd05a075de8493828b155622ef70a764e405cec5238950";
+              sha256_unsigned = "f001fc8ad953badbe9d51a1de5aa40e101ba5c5f1948e3dfef0d9c0511c1f679";
               type = "sysupgrade";
             }
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-asus_tuf-ax6000-initramfs-kernel.bin";
-              sha256 = "5fb74fdafa0d147230d62c7b0569b88efea67878ef6afdeb31a2e8672ad40831";
-              sha256_unsigned = "5fb74fdafa0d147230d62c7b0569b88efea67878ef6afdeb31a2e8672ad40831";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-asus_tuf-ax6000-initramfs-kernel.bin";
+              sha256 = "3d706b8bb63bff59f813feaf62f5ad96e1aa786e7952b1b2343def45d85342bd";
+              sha256_unsigned = "3d706b8bb63bff59f813feaf62f5ad96e1aa786e7952b1b2343def45d85342bd";
               type = "kernel";
             }
           ];
@@ -31488,63 +31488,63 @@
             "mt7986-wo-firmware"
             "automount"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r3";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r3";
           images = [
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r3-nor-bl31-uboot.fip";
-              sha256 = "7f728a1aae20c9d2072b7124a81f239fc789e4600a73442d057a1a2e33440faa";
-              sha256_unsigned = "7f728a1aae20c9d2072b7124a81f239fc789e4600a73442d057a1a2e33440faa";
-              type = "nor-bl31-uboot.fip";
-            }
-            {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r3-initramfs-recovery.itb";
-              sha256 = "ddda58c2b813dd93aa70ff7a1807626eb06fcd7b3d57d4cc62eb1840300098aa";
-              sha256_unsigned = "ddda58c2b813dd93aa70ff7a1807626eb06fcd7b3d57d4cc62eb1840300098aa";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r3-initramfs-recovery.itb";
+              sha256 = "18a74358889c275340445a5336d589cdea04a4e8337de42cc5767025afbd9b80";
+              sha256_unsigned = "18a74358889c275340445a5336d589cdea04a4e8337de42cc5767025afbd9b80";
               type = "kernel";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r3-emmc-preloader.bin";
-              sha256 = "5220b5ed1b495f99c24b0e51e9c6d1ff253d7cb3df89b959c2fc37960fed0ea9";
-              sha256_unsigned = "5220b5ed1b495f99c24b0e51e9c6d1ff253d7cb3df89b959c2fc37960fed0ea9";
-              type = "emmc-preloader.bin";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r3-nor-preloader.bin";
+              sha256 = "bbd9146bcf62670f3dff06331d1c686ae020438bec4df1e93ffa4bb941d54dee";
+              sha256_unsigned = "bbd9146bcf62670f3dff06331d1c686ae020438bec4df1e93ffa4bb941d54dee";
+              type = "nor-preloader.bin";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r3-emmc-bl31-uboot.fip";
-              sha256 = "ef4ab46efc5dbcfed4931a2c11b353563fce87db646c1087245990776fd36e32";
-              sha256_unsigned = "ef4ab46efc5dbcfed4931a2c11b353563fce87db646c1087245990776fd36e32";
-              type = "emmc-bl31-uboot.fip";
-            }
-            {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r3-squashfs-sysupgrade.itb";
-              sha256 = "7f75ac13a564bf00a96dcf3ad295cfd9f45c9e3339820bf08903de3d2d8f8e60";
-              sha256_unsigned = "0430647eadb720315b7941bea477eaa3835c14ee663a9d0e2dcc33c90d70d69c";
-              type = "sysupgrade";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r3-sdcard.img.gz";
-              sha256 = "66c935eebb17155e610733b7db37c8deab4afdb6d9ba3b26dd4c040584d0ab1a";
-              sha256_unsigned = "66c935eebb17155e610733b7db37c8deab4afdb6d9ba3b26dd4c040584d0ab1a";
-              type = "sdcard.img.gz";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r3-snand-bl31-uboot.fip";
-              sha256 = "1f5643549379648cf7df8b175f8e13f8c711f36ea911d34e3293119076b76fc7";
-              sha256_unsigned = "1f5643549379648cf7df8b175f8e13f8c711f36ea911d34e3293119076b76fc7";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r3-snand-bl31-uboot.fip";
+              sha256 = "eaad8f50e98bf9d51126579e5b5c45ec507b8be45cc4ca6a984ecb3c23cc85f4";
+              sha256_unsigned = "eaad8f50e98bf9d51126579e5b5c45ec507b8be45cc4ca6a984ecb3c23cc85f4";
               type = "snand-bl31-uboot.fip";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r3-snand-preloader.bin";
-              sha256 = "7fe5d2cd2ec4c4f14b4f7f455d28333b97b953b373397fade13d23412f9db26b";
-              sha256_unsigned = "7fe5d2cd2ec4c4f14b4f7f455d28333b97b953b373397fade13d23412f9db26b";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r3-nor-bl31-uboot.fip";
+              sha256 = "c5efafe7f254416705450302fdb35312500e89b54f7b5fa991fc787ffd36ce7e";
+              sha256_unsigned = "c5efafe7f254416705450302fdb35312500e89b54f7b5fa991fc787ffd36ce7e";
+              type = "nor-bl31-uboot.fip";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r3-emmc-bl31-uboot.fip";
+              sha256 = "f08b57c3af76c054ce1d2dfabca5661f570083c36bed9254bcdea8982c23744c";
+              sha256_unsigned = "f08b57c3af76c054ce1d2dfabca5661f570083c36bed9254bcdea8982c23744c";
+              type = "emmc-bl31-uboot.fip";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r3-emmc-preloader.bin";
+              sha256 = "52184f4a9789f60c8700670e3ba6a240caa1da83aa1522300ab978fcd67afd49";
+              sha256_unsigned = "52184f4a9789f60c8700670e3ba6a240caa1da83aa1522300ab978fcd67afd49";
+              type = "emmc-preloader.bin";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r3-squashfs-sysupgrade.itb";
+              sha256 = "cc049155b196fbbd1b2b93aa248a950281139f408bed559872095e749c1f780f";
+              sha256_unsigned = "97aae5704cbbefd11f8b27731e4a2314df28f442f3d6d500aaf13362e4d1fa66";
+              type = "sysupgrade";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r3-snand-preloader.bin";
+              sha256 = "29bbe421b0d400d3fe01e0cbe7e36dce18b7384d7a0021da3ec062224c27ef18";
+              sha256_unsigned = "29bbe421b0d400d3fe01e0cbe7e36dce18b7384d7a0021da3ec062224c27ef18";
               type = "snand-preloader.bin";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r3-nor-preloader.bin";
-              sha256 = "23d3796d9c2bceeab0047429420cc723303521a1f99f7c69585d66c450b79062";
-              sha256_unsigned = "23d3796d9c2bceeab0047429420cc723303521a1f99f7c69585d66c450b79062";
-              type = "nor-preloader.bin";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r3-sdcard.img.gz";
+              sha256 = "8e532b17a2d34a883b0057656171465cc4edad822148824bf1198313f87d7842";
+              sha256_unsigned = "8e532b17a2d34a883b0057656171465cc4edad822148824bf1198313f87d7842";
+              type = "sdcard.img.gz";
             }
           ];
           supported_devices = [
@@ -31569,57 +31569,57 @@
             "mt7986-wo-firmware"
             "automount"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r3-mini";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r3-mini";
           images = [
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r3-mini-snand-bl31-uboot.fip";
-              sha256 = "3e2665d7263c21afbae0076f5278357a24a68db3f2af5c26c784f67f78a7d8ab";
-              sha256_unsigned = "3e2665d7263c21afbae0076f5278357a24a68db3f2af5c26c784f67f78a7d8ab";
-              type = "snand-bl31-uboot.fip";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r3-mini-emmc-preloader.bin";
+              sha256 = "52184f4a9789f60c8700670e3ba6a240caa1da83aa1522300ab978fcd67afd49";
+              sha256_unsigned = "52184f4a9789f60c8700670e3ba6a240caa1da83aa1522300ab978fcd67afd49";
+              type = "emmc-preloader.bin";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r3-mini-snand-preloader.bin";
-              sha256 = "7fe5d2cd2ec4c4f14b4f7f455d28333b97b953b373397fade13d23412f9db26b";
-              sha256_unsigned = "7fe5d2cd2ec4c4f14b4f7f455d28333b97b953b373397fade13d23412f9db26b";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r3-mini-snand-preloader.bin";
+              sha256 = "29bbe421b0d400d3fe01e0cbe7e36dce18b7384d7a0021da3ec062224c27ef18";
+              sha256_unsigned = "29bbe421b0d400d3fe01e0cbe7e36dce18b7384d7a0021da3ec062224c27ef18";
               type = "snand-preloader.bin";
             }
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r3-mini-initramfs-recovery.itb";
-              sha256 = "ed58f1ee049ba81b0c40034b6b0c72a9715cea08a788f3388aa44ec1192e59e7";
-              sha256_unsigned = "ed58f1ee049ba81b0c40034b6b0c72a9715cea08a788f3388aa44ec1192e59e7";
-              type = "kernel";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r3-mini-snand-factory.bin";
+              sha256 = "8518596ffa627e1c1f10a02b3286cedbac74f5bed6129aa9cb18e4aa62554278";
+              sha256_unsigned = "8518596ffa627e1c1f10a02b3286cedbac74f5bed6129aa9cb18e4aa62554278";
+              type = "snand-factory.bin";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r3-mini-emmc-gpt.bin";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r3-mini-emmc-gpt.bin";
               sha256 = "34db7c5e7c70b6f4e82427a63dabec0098894c91eedf0c98f3013d911cc30545";
               sha256_unsigned = "34db7c5e7c70b6f4e82427a63dabec0098894c91eedf0c98f3013d911cc30545";
               type = "emmc-gpt.bin";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r3-mini-squashfs-sysupgrade.itb";
-              sha256 = "1b656a67656c9d05a002d8fd73d4567e367c8f20bd4b297205c62fcd04c0be34";
-              sha256_unsigned = "2762bac84de9b82325ecbf99b4fd6e6c608af97f8f7e3495ab8fdbfd5dbfb26a";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r3-mini-squashfs-sysupgrade.itb";
+              sha256 = "c407dd0c3aea72847cce4095feed86493d4c5c356c1c20e9565bbff9b4afa6b1";
+              sha256_unsigned = "c091d6f55ea1a5e7f00552486f2a131e444b907b522cd98f964996d70d6fcff5";
               type = "sysupgrade";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r3-mini-snand-factory.bin";
-              sha256 = "9d064ff4bc3a2508a0d2ca866f20a128de6981befc732011d872258989f83de0";
-              sha256_unsigned = "9d064ff4bc3a2508a0d2ca866f20a128de6981befc732011d872258989f83de0";
-              type = "snand-factory.bin";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r3-mini-initramfs-recovery.itb";
+              sha256 = "59d322be183d00e6d5509c17209d62b92450f15b2974b3ecba0df802b0872f17";
+              sha256_unsigned = "59d322be183d00e6d5509c17209d62b92450f15b2974b3ecba0df802b0872f17";
+              type = "kernel";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r3-mini-emmc-bl31-uboot.fip";
-              sha256 = "677769c6cad1baca54aee5658e741d0d9d88fe0e683f12175bdbcb4feeb319e5";
-              sha256_unsigned = "677769c6cad1baca54aee5658e741d0d9d88fe0e683f12175bdbcb4feeb319e5";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r3-mini-snand-bl31-uboot.fip";
+              sha256 = "f3e4960fc5a1834565b8a2b618460c96923e1eed7f02250d35bc3230ca87ebf1";
+              sha256_unsigned = "f3e4960fc5a1834565b8a2b618460c96923e1eed7f02250d35bc3230ca87ebf1";
+              type = "snand-bl31-uboot.fip";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r3-mini-emmc-bl31-uboot.fip";
+              sha256 = "3a9912f97dafd877735d1e339e6b97c38c692bbe6e3dc0bd6965e861647f56cd";
+              sha256_unsigned = "3a9912f97dafd877735d1e339e6b97c38c692bbe6e3dc0bd6965e861647f56cd";
               type = "emmc-bl31-uboot.fip";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r3-mini-emmc-preloader.bin";
-              sha256 = "5220b5ed1b495f99c24b0e51e9c6d1ff253d7cb3df89b959c2fc37960fed0ea9";
-              sha256_unsigned = "5220b5ed1b495f99c24b0e51e9c6d1ff253d7cb3df89b959c2fc37960fed0ea9";
-              type = "emmc-preloader.bin";
             }
           ];
           supported_devices = [
@@ -31647,51 +31647,51 @@
             "mkf2fs"
             "mt7988-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r4";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r4";
           images = [
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r4-snand-preloader.bin";
-              sha256 = "ec7df5fb2c9f18c08f9300e722bcb2bcf4fc9da283dc6005f1d7af0b8e3227cc";
-              sha256_unsigned = "ec7df5fb2c9f18c08f9300e722bcb2bcf4fc9da283dc6005f1d7af0b8e3227cc";
-              type = "snand-preloader.bin";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r4-sdcard.img.gz";
+              sha256 = "d4a1230c37ac438fdcc186a0b0f5f7bdf93a9993d0a5945bbe56593100c61567";
+              sha256_unsigned = "d4a1230c37ac438fdcc186a0b0f5f7bdf93a9993d0a5945bbe56593100c61567";
+              type = "sdcard.img.gz";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r4-emmc-preloader.bin";
-              sha256 = "40bc3fa196a901bcbcdf02032fe6a827b08ac4037537cb16bd3b07d082d51417";
-              sha256_unsigned = "40bc3fa196a901bcbcdf02032fe6a827b08ac4037537cb16bd3b07d082d51417";
-              type = "emmc-preloader.bin";
-            }
-            {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r4-squashfs-sysupgrade.itb";
-              sha256 = "8c51baa9a9776d4829eb2037c3d7ccd77ecf1617cd9288672f145a601a498594";
-              sha256_unsigned = "09d0245e606069e34f1a207d4059ac44e9b24b55fa79d03e2fe520da5126917e";
-              type = "sysupgrade";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r4-emmc-bl31-uboot.fip";
-              sha256 = "2facb954c89f3c113af73d76d454d891835867ec8b1a1606191cfa5a9c59b224";
-              sha256_unsigned = "2facb954c89f3c113af73d76d454d891835867ec8b1a1606191cfa5a9c59b224";
-              type = "emmc-bl31-uboot.fip";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r4-snand-bl31-uboot.fip";
-              sha256 = "b73af5fd93101aa58d2356245a22303faa148c4e9b83517d614943f5e8a36be0";
-              sha256_unsigned = "b73af5fd93101aa58d2356245a22303faa148c4e9b83517d614943f5e8a36be0";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r4-snand-bl31-uboot.fip";
+              sha256 = "9686b27827167480b014789d78189328c9fbd36b737b545b59f147557e96ddce";
+              sha256_unsigned = "9686b27827167480b014789d78189328c9fbd36b737b545b59f147557e96ddce";
               type = "snand-bl31-uboot.fip";
             }
             {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r4-snand-preloader.bin";
+              sha256 = "a9dfa92d28b18de1494885f6c8076ba24f3c2b40108540c70ced038e6883b6dc";
+              sha256_unsigned = "a9dfa92d28b18de1494885f6c8076ba24f3c2b40108540c70ced038e6883b6dc";
+              type = "snand-preloader.bin";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r4-emmc-bl31-uboot.fip";
+              sha256 = "f1bc0de8246f9a5e26699603d03c1a0d76966c7c030dd114b17b545c2c317c8b";
+              sha256_unsigned = "f1bc0de8246f9a5e26699603d03c1a0d76966c7c030dd114b17b545c2c317c8b";
+              type = "emmc-bl31-uboot.fip";
+            }
+            {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r4-initramfs-recovery.itb";
-              sha256 = "9cd09a1b22c463c7dbd77c0d1b57d5aeb50e163dcea90ace87011b922dde8928";
-              sha256_unsigned = "9cd09a1b22c463c7dbd77c0d1b57d5aeb50e163dcea90ace87011b922dde8928";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r4-initramfs-recovery.itb";
+              sha256 = "ece016b89c6b14b4b38a4d1a82e2eceda91c70dfa7e581a4aae8bde66f97eeea";
+              sha256_unsigned = "ece016b89c6b14b4b38a4d1a82e2eceda91c70dfa7e581a4aae8bde66f97eeea";
               type = "kernel";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r4-sdcard.img.gz";
-              sha256 = "686dc07bd15e1d8d044b398b2f8ee901f25371104e5b52ca23fb4f57b35405a6";
-              sha256_unsigned = "686dc07bd15e1d8d044b398b2f8ee901f25371104e5b52ca23fb4f57b35405a6";
-              type = "sdcard.img.gz";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r4-squashfs-sysupgrade.itb";
+              sha256 = "a9bf92e0d66042473798bc83deecae9642efca164ac748d1aa65cd2220ae18e1";
+              sha256_unsigned = "579ff1d76276a31a72a7a64401be810f1e02a9834f907df3a1ea845dc01b0d92";
+              type = "sysupgrade";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r4-emmc-preloader.bin";
+              sha256 = "278ef67bb999ce4ffae653ea5920049aae2a4b89eb7d2e56c23b6f8f4d4c7c33";
+              sha256_unsigned = "278ef67bb999ce4ffae653ea5920049aae2a4b89eb7d2e56c23b6f8f4d4c7c33";
+              type = "emmc-preloader.bin";
             }
           ];
           supported_devices = [
@@ -31720,50 +31720,50 @@
             "mt7988-wo-firmware"
             "mt7988-2p5g-phy-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r4-poe";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r4-poe";
           images = [
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r4-poe-sdcard.img.gz";
-              sha256 = "7f917d5941983123f2deae21b019b1627a255041424e5a64d30c656fbf75aefc";
-              sha256_unsigned = "7f917d5941983123f2deae21b019b1627a255041424e5a64d30c656fbf75aefc";
-              type = "sdcard.img.gz";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r4-poe-emmc-preloader.bin";
-              sha256 = "40bc3fa196a901bcbcdf02032fe6a827b08ac4037537cb16bd3b07d082d51417";
-              sha256_unsigned = "40bc3fa196a901bcbcdf02032fe6a827b08ac4037537cb16bd3b07d082d51417";
-              type = "emmc-preloader.bin";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r4-poe-emmc-bl31-uboot.fip";
-              sha256 = "4bece69ee2cc06b6dc738029f61f511c48c2b05c8365912d7e540df2b94f6be7";
-              sha256_unsigned = "4bece69ee2cc06b6dc738029f61f511c48c2b05c8365912d7e540df2b94f6be7";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r4-poe-emmc-bl31-uboot.fip";
+              sha256 = "8b3cb91c1721e864dc4247460147408f6c170e4634b1f7dba7d456b8185b2d18";
+              sha256_unsigned = "8b3cb91c1721e864dc4247460147408f6c170e4634b1f7dba7d456b8185b2d18";
               type = "emmc-bl31-uboot.fip";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r4-poe-snand-preloader.bin";
-              sha256 = "ec7df5fb2c9f18c08f9300e722bcb2bcf4fc9da283dc6005f1d7af0b8e3227cc";
-              sha256_unsigned = "ec7df5fb2c9f18c08f9300e722bcb2bcf4fc9da283dc6005f1d7af0b8e3227cc";
-              type = "snand-preloader.bin";
-            }
-            {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r4-poe-squashfs-sysupgrade.itb";
-              sha256 = "81034085a070667ed9810c60e16e3827ec7ce7ca47d9727dfeaa81fa2016d3c1";
-              sha256_unsigned = "1d86b9392c343b01727a9b70e01cd1889c7a2de6a28da3ed5c2db8a74e5181cc";
-              type = "sysupgrade";
-            }
-            {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r4-poe-initramfs-recovery.itb";
-              sha256 = "dc89fbb3d1ca1f145fec40c68ca803e2a581fd9676c0010c78950702c22f9981";
-              sha256_unsigned = "dc89fbb3d1ca1f145fec40c68ca803e2a581fd9676c0010c78950702c22f9981";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r4-poe-initramfs-recovery.itb";
+              sha256 = "1e09fe87c425cebc2e29693f6f0cdc88addffffe4c0a6dc1732e798289259739";
+              sha256_unsigned = "1e09fe87c425cebc2e29693f6f0cdc88addffffe4c0a6dc1732e798289259739";
               type = "kernel";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-bananapi_bpi-r4-poe-snand-bl31-uboot.fip";
-              sha256 = "7af82bca65af3611d934398d8b075b863e241b456b558638e063a25dcc02a1fe";
-              sha256_unsigned = "7af82bca65af3611d934398d8b075b863e241b456b558638e063a25dcc02a1fe";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r4-poe-squashfs-sysupgrade.itb";
+              sha256 = "be007d616b49c9683a365ea5955c467bf82f0c3174f2956563a82c8f20e4420e";
+              sha256_unsigned = "4181f3e2b8c7d7484ab351c3e51873d77e38fbeb5300830360499fd066bcc64e";
+              type = "sysupgrade";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r4-poe-emmc-preloader.bin";
+              sha256 = "278ef67bb999ce4ffae653ea5920049aae2a4b89eb7d2e56c23b6f8f4d4c7c33";
+              sha256_unsigned = "278ef67bb999ce4ffae653ea5920049aae2a4b89eb7d2e56c23b6f8f4d4c7c33";
+              type = "emmc-preloader.bin";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r4-poe-sdcard.img.gz";
+              sha256 = "4c4008b5d9bcc7021ff90834034d42eb78fb60f819c6c2ccfb291367d405a111";
+              sha256_unsigned = "4c4008b5d9bcc7021ff90834034d42eb78fb60f819c6c2ccfb291367d405a111";
+              type = "sdcard.img.gz";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r4-poe-snand-preloader.bin";
+              sha256 = "a9dfa92d28b18de1494885f6c8076ba24f3c2b40108540c70ced038e6883b6dc";
+              sha256_unsigned = "a9dfa92d28b18de1494885f6c8076ba24f3c2b40108540c70ced038e6883b6dc";
+              type = "snand-preloader.bin";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-bananapi_bpi-r4-poe-snand-bl31-uboot.fip";
+              sha256 = "9d3c2399613769fb4f222792ac9de5d8d6d1c6045116b61eacbbe581c925c27c";
+              sha256_unsigned = "9d3c2399613769fb4f222792ac9de5d8d6d1c6045116b61eacbbe581c925c27c";
               type = "snand-bl31-uboot.fip";
             }
           ];
@@ -31783,28 +31783,28 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cetron_ct3003";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cetron_ct3003";
           images = [
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cetron_ct3003-initramfs-kernel.bin";
-              sha256 = "2ecd94deb90fcf155e41f819b81d015470e98530abf801f16cd8bd75856d7f4e";
-              sha256_unsigned = "2ecd94deb90fcf155e41f819b81d015470e98530abf801f16cd8bd75856d7f4e";
-              type = "kernel";
-            }
-            {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cetron_ct3003-squashfs-factory.bin";
-              sha256 = "8518e502b83f825ff8466ee006dfb0a5525dccdf65f08060d1ecdb42a9ab9c6f";
-              sha256_unsigned = "45fc447373bb34f46aa4c9f9e678df3c076cccfd9d7087b303d4e4fc3a4e857f";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cetron_ct3003-squashfs-factory.bin";
+              sha256 = "825764a884ec53ebdd319b040d639252164e9925d3af205a70383ddbe0f1271b";
+              sha256_unsigned = "c565dee74d70f0f9068576584517b98a9b094b1d44f8263e0b60606c6642962b";
               type = "factory";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cetron_ct3003-squashfs-sysupgrade.bin";
-              sha256 = "fc9feb0e152fe9adb7a0e40d5532662cbad3fc325014e4014097f06d8a5c216a";
-              sha256_unsigned = "45fc447373bb34f46aa4c9f9e678df3c076cccfd9d7087b303d4e4fc3a4e857f";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cetron_ct3003-squashfs-sysupgrade.bin";
+              sha256 = "fff44592d00b7df6a7bafb5a4ac7b3779c5fa3db3e29118ea00fa2ea3c36be7e";
+              sha256_unsigned = "c565dee74d70f0f9068576584517b98a9b094b1d44f8263e0b60606c6642962b";
               type = "sysupgrade";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cetron_ct3003-initramfs-kernel.bin";
+              sha256 = "92363e1ddcf43dfa74465143153edc6843bded72b85d476ea9080b53e2bf2ce9";
+              sha256_unsigned = "92363e1ddcf43dfa74465143153edc6843bded72b85d476ea9080b53e2bf2ce9";
+              type = "kernel";
             }
           ];
           supported_devices = [
@@ -31826,33 +31826,33 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cetron_ct3003-ubootmod";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cetron_ct3003-ubootmod";
           images = [
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cetron_ct3003-ubootmod-squashfs-sysupgrade.itb";
-              sha256 = "12e4dd545927f8a98288e6145ae108162fad6a9c3f2d61fa33d70e552be0675f";
-              sha256_unsigned = "ec693061879c870f096213a912eb41ee111f51386041032e1bdfd2322a855afa";
-              type = "sysupgrade";
-            }
-            {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cetron_ct3003-ubootmod-initramfs-recovery.itb";
-              sha256 = "b1f86a6ae4a6a38ed37abae0e8cfe3de30c73ed67c4e08ac508c5ae6db5b6468";
-              sha256_unsigned = "b1f86a6ae4a6a38ed37abae0e8cfe3de30c73ed67c4e08ac508c5ae6db5b6468";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cetron_ct3003-ubootmod-initramfs-recovery.itb";
+              sha256 = "aa8457809445724f865ece5c8703f2d21be5aeb3ca61490dc465cc5347d530a5";
+              sha256_unsigned = "aa8457809445724f865ece5c8703f2d21be5aeb3ca61490dc465cc5347d530a5";
               type = "kernel";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cetron_ct3003-ubootmod-bl31-uboot.fip";
-              sha256 = "dc8a3d5713b1d8787967563919b9855570c9746bd2317ed076b588660507e3e4";
-              sha256_unsigned = "dc8a3d5713b1d8787967563919b9855570c9746bd2317ed076b588660507e3e4";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cetron_ct3003-ubootmod-preloader.bin";
+              sha256 = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
+              sha256_unsigned = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
+              type = "preloader.bin";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cetron_ct3003-ubootmod-bl31-uboot.fip";
+              sha256 = "b209c2ac148f54b15d8e272ca4562c78485657aba1f7f687124f0455238232d2";
+              sha256_unsigned = "b209c2ac148f54b15d8e272ca4562c78485657aba1f7f687124f0455238232d2";
               type = "bl31-uboot.fip";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cetron_ct3003-ubootmod-preloader.bin";
-              sha256 = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
-              sha256_unsigned = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
-              type = "preloader.bin";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cetron_ct3003-ubootmod-squashfs-sysupgrade.itb";
+              sha256 = "02d4e6c3217a904800658a015b8af79b3ff877e08ef21558668aca468ed1276c";
+              sha256_unsigned = "ab6b3d8bbb7e934129e7dcb85432e73beba0bb7e9a4c59f99ba165d870e64169";
+              type = "sysupgrade";
             }
           ];
           supported_devices = [
@@ -31872,27 +31872,27 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cmcc_a10-stock";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cmcc_a10-stock";
           images = [
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cmcc_a10-stock-squashfs-sysupgrade.bin";
-              sha256 = "2afe58cd925d9e522da8f7442ca2b48d37170b07587e1401f503e5f0c28ce36f";
-              sha256_unsigned = "eb230d9eafb5f288bad07daaef45e2f42ee18080b6852e373518f331ad68a2f9";
-              type = "sysupgrade";
-            }
-            {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cmcc_a10-stock-initramfs-kernel.bin";
-              sha256 = "847c7e19f356f00571b151c87d820cf8f13aa7c73663116d005471272e605f17";
-              sha256_unsigned = "847c7e19f356f00571b151c87d820cf8f13aa7c73663116d005471272e605f17";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cmcc_a10-stock-initramfs-kernel.bin";
+              sha256 = "73a1ea93a64c3d69e05cbc14edb37a0abc220269d2b227efc8b25bad13beede7";
+              sha256_unsigned = "73a1ea93a64c3d69e05cbc14edb37a0abc220269d2b227efc8b25bad13beede7";
               type = "kernel";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cmcc_a10-stock-squashfs-factory.bin";
-              sha256 = "0a2256bc8ea31cdbe0fe93afb5d65ca324234be73da0874da252b539768d26df";
-              sha256_unsigned = "0a2256bc8ea31cdbe0fe93afb5d65ca324234be73da0874da252b539768d26df";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cmcc_a10-stock-squashfs-sysupgrade.bin";
+              sha256 = "1c1ba43a4b5c60f2d1339e66e518f6a2d7ce84d8ff0090a15e537cbeaeaeca3b";
+              sha256_unsigned = "5b0a6b23c541db70e3e97f31f3a675c3d92b64eb9aad03df80a9ce8ce759a0a3";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cmcc_a10-stock-squashfs-factory.bin";
+              sha256 = "b8404e2232161a438e453880f71a6136883b3a8962000ce865d59cc5021ef8ce";
+              sha256_unsigned = "b8404e2232161a438e453880f71a6136883b3a8962000ce865d59cc5021ef8ce";
               type = "factory";
             }
           ];
@@ -31924,32 +31924,32 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cmcc_a10-ubootmod";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cmcc_a10-ubootmod";
           images = [
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cmcc_a10-ubootmod-initramfs-recovery.itb";
-              sha256 = "3035bee1c6435de4b1f73ac1531c18b4eed17b54bc3db92570649f4ee7ee76ee";
-              sha256_unsigned = "3035bee1c6435de4b1f73ac1531c18b4eed17b54bc3db92570649f4ee7ee76ee";
-              type = "kernel";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cmcc_a10-ubootmod-bl31-uboot.fip";
-              sha256 = "ef9b312ad624b1311f9cac006b771eb7db0ca6e88558e317edd04a7422def6a3";
-              sha256_unsigned = "ef9b312ad624b1311f9cac006b771eb7db0ca6e88558e317edd04a7422def6a3";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cmcc_a10-ubootmod-bl31-uboot.fip";
+              sha256 = "27f0fc6b20a25c8cc4c52bb7028e69f8431c0ca24c26ce49e0c220b49c6b2cb5";
+              sha256_unsigned = "27f0fc6b20a25c8cc4c52bb7028e69f8431c0ca24c26ce49e0c220b49c6b2cb5";
               type = "bl31-uboot.fip";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cmcc_a10-ubootmod-preloader.bin";
-              sha256 = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
-              sha256_unsigned = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cmcc_a10-ubootmod-initramfs-recovery.itb";
+              sha256 = "e683482028af092ac114072852fabb373d847004612e6ae9b6f4990238b8f5a6";
+              sha256_unsigned = "e683482028af092ac114072852fabb373d847004612e6ae9b6f4990238b8f5a6";
+              type = "kernel";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cmcc_a10-ubootmod-preloader.bin";
+              sha256 = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
+              sha256_unsigned = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
               type = "preloader.bin";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cmcc_a10-ubootmod-squashfs-sysupgrade.itb";
-              sha256 = "2984d672e7dd3bedd37537b92e7b04279bd3bbdab45b62d21944ce2e9662ee6f";
-              sha256_unsigned = "79d597311630da4bd4de07362b25709f40f98a7858b568e28bc90c229f0e3481";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cmcc_a10-ubootmod-squashfs-sysupgrade.itb";
+              sha256 = "75eb271b1a821a792ffc47e08f0d5c59478823d1ea44c7f921543932bc941d58";
+              sha256_unsigned = "04e6d7178cd0e7e6063775a1a024b7b958ce6945656580466ffee324fea26d2a";
               type = "sysupgrade";
             }
           ];
@@ -31985,51 +31985,51 @@
             "f2fsck"
             "mkf2fs"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cmcc_rax3000m";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cmcc_rax3000m";
           images = [
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cmcc_rax3000m-initramfs-recovery.itb";
-              sha256 = "16ffacbf6750ee0cc35b25f9a0c974260e3e3f842d2dcc029c8ff5eec0d2466e";
-              sha256_unsigned = "16ffacbf6750ee0cc35b25f9a0c974260e3e3f842d2dcc029c8ff5eec0d2466e";
-              type = "kernel";
-            }
-            {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cmcc_rax3000m-squashfs-sysupgrade.itb";
-              sha256 = "e5f6558baab081a64e858bc91b595ac883538c5ebaf26c855908a7296425be3e";
-              sha256_unsigned = "8d8d66027495384c43d15153e3c86a9abe895707661fe8feb1601c213772e149";
-              type = "sysupgrade";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cmcc_rax3000m-nand-preloader.bin";
-              sha256 = "d6bf2e3b45e2b1c2321dfd6616812a791866fc71c1f19e4f10a191a94d3a598d";
-              sha256_unsigned = "d6bf2e3b45e2b1c2321dfd6616812a791866fc71c1f19e4f10a191a94d3a598d";
-              type = "nand-preloader.bin";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cmcc_rax3000m-emmc-preloader.bin";
-              sha256 = "b3189d3820232edbcb342539bfd84fdef7d6fe7995d81e8b0b0f596044a34cf6";
-              sha256_unsigned = "b3189d3820232edbcb342539bfd84fdef7d6fe7995d81e8b0b0f596044a34cf6";
-              type = "emmc-preloader.bin";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cmcc_rax3000m-emmc-bl31-uboot.fip";
-              sha256 = "4bc75466ac74998e8ef62bf60d1f3c113929d2264475f069d130c12d6b5b2d8c";
-              sha256_unsigned = "4bc75466ac74998e8ef62bf60d1f3c113929d2264475f069d130c12d6b5b2d8c";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cmcc_rax3000m-emmc-bl31-uboot.fip";
+              sha256 = "4b322a55c1cee03486407ce4be6904e6c1aa2f5881fc2b0bf332e26c3dae0aef";
+              sha256_unsigned = "4b322a55c1cee03486407ce4be6904e6c1aa2f5881fc2b0bf332e26c3dae0aef";
               type = "emmc-bl31-uboot.fip";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cmcc_rax3000m-nand-bl31-uboot.fip";
-              sha256 = "e1a559e694ee81dd7428382fe115917b82f9956a27f8b5fd8a233683c532cfc7";
-              sha256_unsigned = "e1a559e694ee81dd7428382fe115917b82f9956a27f8b5fd8a233683c532cfc7";
-              type = "nand-bl31-uboot.fip";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cmcc_rax3000m-nand-preloader.bin";
+              sha256 = "01b804ddb357c059b93a3c5f9a4a787692d3cda338913e44ca0faeab6d5b2119";
+              sha256_unsigned = "01b804ddb357c059b93a3c5f9a4a787692d3cda338913e44ca0faeab6d5b2119";
+              type = "nand-preloader.bin";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cmcc_rax3000m-emmc-gpt.bin";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cmcc_rax3000m-emmc-gpt.bin";
               sha256 = "34db7c5e7c70b6f4e82427a63dabec0098894c91eedf0c98f3013d911cc30545";
               sha256_unsigned = "34db7c5e7c70b6f4e82427a63dabec0098894c91eedf0c98f3013d911cc30545";
               type = "emmc-gpt.bin";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cmcc_rax3000m-nand-bl31-uboot.fip";
+              sha256 = "af9ca3063c1ae5fa4d0490045b0c7c0446aa40561d5238cde0258852918f2504";
+              sha256_unsigned = "af9ca3063c1ae5fa4d0490045b0c7c0446aa40561d5238cde0258852918f2504";
+              type = "nand-bl31-uboot.fip";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cmcc_rax3000m-squashfs-sysupgrade.itb";
+              sha256 = "a3eb95d514bf075d323d32896c865c8d4c3036cf2687e1591cc34dc5d738cae9";
+              sha256_unsigned = "d50bda88c5c02dd2cbc3f5291f9ae8cb8471d25357d7fe6c6641261f897f21bb";
+              type = "sysupgrade";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cmcc_rax3000m-emmc-preloader.bin";
+              sha256 = "61a4aa0b2ac3b8bcdcb34fe31023e4e17b6a2ba6ba26fb4d897ce6690344caa4";
+              sha256_unsigned = "61a4aa0b2ac3b8bcdcb34fe31023e4e17b6a2ba6ba26fb4d897ce6690344caa4";
+              type = "emmc-preloader.bin";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cmcc_rax3000m-initramfs-recovery.itb";
+              sha256 = "cf3307c237e9ce80cae17fc5f24c56af98ed6ca88e79230e8bddbc2d331d6441";
+              sha256_unsigned = "cf3307c237e9ce80cae17fc5f24c56af98ed6ca88e79230e8bddbc2d331d6441";
+              type = "kernel";
             }
           ];
           supported_devices = [
@@ -32052,75 +32052,75 @@
             "f2fsck"
             "mkf2fs"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cmcc_rax3000me";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cmcc_rax3000me";
           images = [
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cmcc_rax3000me-nand-ddr3-preloader.bin";
-              sha256 = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
-              sha256_unsigned = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cmcc_rax3000me-nand-ddr3-preloader.bin";
+              sha256 = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
+              sha256_unsigned = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
               type = "nand-ddr3-preloader.bin";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cmcc_rax3000me-emmc-ddr4-bl31-uboot.fip";
-              sha256 = "e23748fbb7006bca5ea82b498aafa973d2f4e34c1fcfe85781c508d349d68733";
-              sha256_unsigned = "e23748fbb7006bca5ea82b498aafa973d2f4e34c1fcfe85781c508d349d68733";
-              type = "emmc-ddr4-bl31-uboot.fip";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cmcc_rax3000me-emmc-ddr4-preloader.bin";
+              sha256 = "61a4aa0b2ac3b8bcdcb34fe31023e4e17b6a2ba6ba26fb4d897ce6690344caa4";
+              sha256_unsigned = "61a4aa0b2ac3b8bcdcb34fe31023e4e17b6a2ba6ba26fb4d897ce6690344caa4";
+              type = "emmc-ddr4-preloader.bin";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cmcc_rax3000me-emmc-gpt.bin";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cmcc_rax3000me-emmc-gpt.bin";
               sha256 = "34db7c5e7c70b6f4e82427a63dabec0098894c91eedf0c98f3013d911cc30545";
               sha256_unsigned = "34db7c5e7c70b6f4e82427a63dabec0098894c91eedf0c98f3013d911cc30545";
               type = "emmc-gpt.bin";
             }
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cmcc_rax3000me-initramfs-recovery.itb";
-              sha256 = "5a46e782c34a302064d42d9bca98226e5154bd985bd5b939046e9bc6c6ac9189";
-              sha256_unsigned = "5a46e782c34a302064d42d9bca98226e5154bd985bd5b939046e9bc6c6ac9189";
-              type = "kernel";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cmcc_rax3000me-emmc-ddr3-bl31-uboot.fip";
-              sha256 = "054df2cb92dc4024089a37299e3490e8f7382c2ce64c80641edde0d2fb622f14";
-              sha256_unsigned = "054df2cb92dc4024089a37299e3490e8f7382c2ce64c80641edde0d2fb622f14";
-              type = "emmc-ddr3-bl31-uboot.fip";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cmcc_rax3000me-nand-ddr4-bl31-uboot.fip";
-              sha256 = "525aa06d6d408404bfc242b07b7875d84bc71925266d8772196bf3bc17bd088b";
-              sha256_unsigned = "525aa06d6d408404bfc242b07b7875d84bc71925266d8772196bf3bc17bd088b";
-              type = "nand-ddr4-bl31-uboot.fip";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cmcc_rax3000me-nand-ddr3-bl31-uboot.fip";
-              sha256 = "fb90dd3d73139cb4aea9be8acb2a06d3c8d30e0f3da4b60a25be42e12370632e";
-              sha256_unsigned = "fb90dd3d73139cb4aea9be8acb2a06d3c8d30e0f3da4b60a25be42e12370632e";
-              type = "nand-ddr3-bl31-uboot.fip";
-            }
-            {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cmcc_rax3000me-squashfs-sysupgrade.itb";
-              sha256 = "310641e06e26fda8851036152c767ca3ebe0a449db7d812e4014a4eacfb23c0b";
-              sha256_unsigned = "6db062142c8ac322241f0a43496807add28f0229dade05d4f4ffb69d2ce9442c";
-              type = "sysupgrade";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cmcc_rax3000me-nand-ddr4-preloader.bin";
-              sha256 = "d6bf2e3b45e2b1c2321dfd6616812a791866fc71c1f19e4f10a191a94d3a598d";
-              sha256_unsigned = "d6bf2e3b45e2b1c2321dfd6616812a791866fc71c1f19e4f10a191a94d3a598d";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cmcc_rax3000me-nand-ddr4-preloader.bin";
+              sha256 = "01b804ddb357c059b93a3c5f9a4a787692d3cda338913e44ca0faeab6d5b2119";
+              sha256_unsigned = "01b804ddb357c059b93a3c5f9a4a787692d3cda338913e44ca0faeab6d5b2119";
               type = "nand-ddr4-preloader.bin";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cmcc_rax3000me-emmc-ddr3-preloader.bin";
-              sha256 = "1481516334d6d99306da4c1f040f1517dbc38a87c04d0f4f844491097b084b1f";
-              sha256_unsigned = "1481516334d6d99306da4c1f040f1517dbc38a87c04d0f4f844491097b084b1f";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cmcc_rax3000me-nand-ddr3-bl31-uboot.fip";
+              sha256 = "4dd28af48cd13fc13ca2a47e06c0bdc3fa8efe020d371e2e84cd5fef5ee76dff";
+              sha256_unsigned = "4dd28af48cd13fc13ca2a47e06c0bdc3fa8efe020d371e2e84cd5fef5ee76dff";
+              type = "nand-ddr3-bl31-uboot.fip";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cmcc_rax3000me-emmc-ddr4-bl31-uboot.fip";
+              sha256 = "2d4ac157cd4d0c996395a6a68d423302b4f6c3ec4a533b56c1ca4c3b400b9ad9";
+              sha256_unsigned = "2d4ac157cd4d0c996395a6a68d423302b4f6c3ec4a533b56c1ca4c3b400b9ad9";
+              type = "emmc-ddr4-bl31-uboot.fip";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cmcc_rax3000me-nand-ddr4-bl31-uboot.fip";
+              sha256 = "ec0299fae3702c3b18c865c8a71c56fa3186f815b46916ae7c0f76340f7f641a";
+              sha256_unsigned = "ec0299fae3702c3b18c865c8a71c56fa3186f815b46916ae7c0f76340f7f641a";
+              type = "nand-ddr4-bl31-uboot.fip";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cmcc_rax3000me-emmc-ddr3-bl31-uboot.fip";
+              sha256 = "063b404e8d9e3712e6bf0e3545d93f4d2c18ac89e5becc21fc460a827e894c88";
+              sha256_unsigned = "063b404e8d9e3712e6bf0e3545d93f4d2c18ac89e5becc21fc460a827e894c88";
+              type = "emmc-ddr3-bl31-uboot.fip";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cmcc_rax3000me-emmc-ddr3-preloader.bin";
+              sha256 = "db4d81185b4f446f8d6eed01582256c8e9cff4bf644545cc2d4b1a5812d34caf";
+              sha256_unsigned = "db4d81185b4f446f8d6eed01582256c8e9cff4bf644545cc2d4b1a5812d34caf";
               type = "emmc-ddr3-preloader.bin";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cmcc_rax3000me-emmc-ddr4-preloader.bin";
-              sha256 = "b3189d3820232edbcb342539bfd84fdef7d6fe7995d81e8b0b0f596044a34cf6";
-              sha256_unsigned = "b3189d3820232edbcb342539bfd84fdef7d6fe7995d81e8b0b0f596044a34cf6";
-              type = "emmc-ddr4-preloader.bin";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cmcc_rax3000me-squashfs-sysupgrade.itb";
+              sha256 = "9c49bfadd894f72889a46a5e58a8dd56732e197199cd17c018224cfc1bcb6828";
+              sha256_unsigned = "871760bdbf2c580f962895cc91271abc04cefb7226fd26b5b2917afca42833ee";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cmcc_rax3000me-initramfs-recovery.itb";
+              sha256 = "752195eb4a0fe29b34e276faffa4b3ea03496d4b7fafcebff330d92ed2820b2c";
+              sha256_unsigned = "752195eb4a0fe29b34e276faffa4b3ea03496d4b7fafcebff330d92ed2820b2c";
+              type = "kernel";
             }
           ];
           supported_devices = [
@@ -32139,27 +32139,27 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-comfast_cf-e393ax";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-comfast_cf-e393ax";
           images = [
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-comfast_cf-e393ax-squashfs-factory.bin";
-              sha256 = "5653ded2f607b1ad5fc497a5c1bbbd773d8a371a12228a3b501e1109869a1d36";
-              sha256_unsigned = "5653ded2f607b1ad5fc497a5c1bbbd773d8a371a12228a3b501e1109869a1d36";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-comfast_cf-e393ax-squashfs-factory.bin";
+              sha256 = "93e58e07beb7d040e17f195a71648435ed6ce409aee8c44631a4bb4f0a743fcc";
+              sha256_unsigned = "93e58e07beb7d040e17f195a71648435ed6ce409aee8c44631a4bb4f0a743fcc";
               type = "factory";
             }
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-comfast_cf-e393ax-initramfs-kernel.bin";
-              sha256 = "e4fb82d18bd16907578dee028b70598e65856ab7453746a37d6aaf2825fa623d";
-              sha256_unsigned = "e4fb82d18bd16907578dee028b70598e65856ab7453746a37d6aaf2825fa623d";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-comfast_cf-e393ax-initramfs-kernel.bin";
+              sha256 = "01554da87d7aab3d25727fa0ec9f26ddac94b4a06393c06bea1c04c71412e6de";
+              sha256_unsigned = "01554da87d7aab3d25727fa0ec9f26ddac94b4a06393c06bea1c04c71412e6de";
               type = "kernel";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-comfast_cf-e393ax-squashfs-sysupgrade.bin";
-              sha256 = "c9d310acc87d28416796e6858eb74bfbcb33de3b6242fa45778e21536f1fc9c2";
-              sha256_unsigned = "9009b0ca081d5180bf67181073cc33dfcc90a6ecd7b52c8686cbc3c1e6741d53";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-comfast_cf-e393ax-squashfs-sysupgrade.bin";
+              sha256 = "787d0f06c6b4ed42694ca41d085cd7fa6ee15dfeedfe39909f636d45cf96fa05";
+              sha256_unsigned = "268cbe95a204803c6191ad47f5857e6851253152c975a616a4e9245457b9ca0a";
               type = "sysupgrade";
             }
           ];
@@ -32185,20 +32185,20 @@
             "kmod-usb3"
             "automount"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-confiabits_mt7981";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-confiabits_mt7981";
           images = [
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-confiabits_mt7981-initramfs-kernel.bin";
-              sha256 = "401864f03dc5ea45df0d7b8eb5385dd511475094f82d073ec362f884d2ed9e68";
-              sha256_unsigned = "401864f03dc5ea45df0d7b8eb5385dd511475094f82d073ec362f884d2ed9e68";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-confiabits_mt7981-initramfs-kernel.bin";
+              sha256 = "57b178b7456ac469730861593ad30dce38649ac0ef5d5024c94bad3a84dc757c";
+              sha256_unsigned = "57b178b7456ac469730861593ad30dce38649ac0ef5d5024c94bad3a84dc757c";
               type = "kernel";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-confiabits_mt7981-squashfs-sysupgrade.bin";
-              sha256 = "008d6e54614937fcf044ad8eaaab4960a23d4c33e9689842235c18e8c84feabc";
-              sha256_unsigned = "a59a07ae9425eab1641b1a6d1ab29ac7727f2e3f6bf97230aaa0ff541feeee12";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-confiabits_mt7981-squashfs-sysupgrade.bin";
+              sha256 = "b60a83e5f35c179644bc5b9693277fea8eaa98afc3af336092070f6075c3d9d5";
+              sha256_unsigned = "fe5c6e1bf81a066ddddaf3e32707dba9c9913812fc75fc562aea4aae5cdb7cc9";
               type = "sysupgrade";
             }
           ];
@@ -32219,20 +32219,20 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_ap3000-v1";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_ap3000-v1";
           images = [
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_ap3000-v1-initramfs-kernel.bin";
-              sha256 = "a6c610993c27d5869633a6aae53a41e92a44b8e52cb823a82dc44e787515bf11";
-              sha256_unsigned = "a6c610993c27d5869633a6aae53a41e92a44b8e52cb823a82dc44e787515bf11";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_ap3000-v1-initramfs-kernel.bin";
+              sha256 = "e7f780b93ed2c22dcd2f1ed891a284c8a55d8aecd3d494509999f173c0a4d46e";
+              sha256_unsigned = "e7f780b93ed2c22dcd2f1ed891a284c8a55d8aecd3d494509999f173c0a4d46e";
               type = "kernel";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_ap3000-v1-squashfs-sysupgrade.bin";
-              sha256 = "156b7bf02a9e64b6a02825b86b4475aab79c01ef04c754228d1efae5a55b6664";
-              sha256_unsigned = "e96b79e18173817845a621ad09c223242651e124f7d1727468563dbfc40b04d3";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_ap3000-v1-squashfs-sysupgrade.bin";
+              sha256 = "46273930eeed0701ef710543a3de3c5a1aa17181b078dcd298c56eab19dcce92";
+              sha256_unsigned = "5d7a58a917b5dd9cfd6d8f8a422dd045ee86b493b660bb35d6552abaafbf0519";
               type = "sysupgrade";
             }
           ];
@@ -32254,21 +32254,21 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_ap3000outdoor-v1";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_ap3000outdoor-v1";
           images = [
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_ap3000outdoor-v1-squashfs-sysupgrade.bin";
-              sha256 = "59aff8b2690462a3cb3ee9d35f4f0821882e9932273356c55ba9c7f1f9373f72";
-              sha256_unsigned = "bda28ead72f8d55e413f899bae80c44f4b702ece7102758507d5df667d7195f1";
-              type = "sysupgrade";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_ap3000outdoor-v1-initramfs-kernel.bin";
+              sha256 = "d860aa23854a5d75838f64f01352f978995312fef4a277e15bc680ccba425a5a";
+              sha256_unsigned = "d860aa23854a5d75838f64f01352f978995312fef4a277e15bc680ccba425a5a";
+              type = "kernel";
             }
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_ap3000outdoor-v1-initramfs-kernel.bin";
-              sha256 = "ca1cf0135acdce4d45f268fd5d52349bd5a28f82c49fa9b5cf20ad08b8dde6c2";
-              sha256_unsigned = "ca1cf0135acdce4d45f268fd5d52349bd5a28f82c49fa9b5cf20ad08b8dde6c2";
-              type = "kernel";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_ap3000outdoor-v1-squashfs-sysupgrade.bin";
+              sha256 = "c98fdd2bd425ae15eca6372eed6af198cd350c0abbbb237c4f596adbe151ab8c";
+              sha256_unsigned = "5ee1307d18f4668f4ed53f1a2266ac14ca772f584b0315b6b881dfbeb9c4cd47";
+              type = "sysupgrade";
             }
           ];
           supported_devices = [
@@ -32289,21 +32289,21 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_m3000-v1";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_m3000-v1";
           images = [
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_m3000-v1-squashfs-sysupgrade.bin";
-              sha256 = "8e4349d984312ffecd48e84ffcdaebb2ed962d7b3b796857f3edbbb986696ed3";
-              sha256_unsigned = "b0a7ac9dce5a6151e1a487b1ee677ab6f97b04f58bda0be70e9ebb82ffed184d";
-              type = "sysupgrade";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_m3000-v1-initramfs-kernel.bin";
+              sha256 = "63c873ae74516f8d8f7f0e142f4a1c7aef9f8495b5095fe5ed4fbca800f098ee";
+              sha256_unsigned = "63c873ae74516f8d8f7f0e142f4a1c7aef9f8495b5095fe5ed4fbca800f098ee";
+              type = "kernel";
             }
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_m3000-v1-initramfs-kernel.bin";
-              sha256 = "402edb39619660a25593e81143a36e1ae1a45e2c6f13da5da93b9631fb09593f";
-              sha256_unsigned = "402edb39619660a25593e81143a36e1ae1a45e2c6f13da5da93b9631fb09593f";
-              type = "kernel";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_m3000-v1-squashfs-sysupgrade.bin";
+              sha256 = "7c0c3531f6fe2bbd047fcdcaf96d4237568900edefe2e1eb890ba8fd371e5523";
+              sha256_unsigned = "934156313f1a0c6b4f7696be0c7a5d3957b4b1b266386f9c331904d3ed7614dd";
+              type = "sysupgrade";
             }
           ];
           supported_devices = [
@@ -32324,21 +32324,21 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_re3000-v1";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_re3000-v1";
           images = [
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_re3000-v1-initramfs-kernel.bin";
-              sha256 = "c241a1c93ef1b49c170d43298b32423a8a4d8c1219fdff5156d25463030235c0";
-              sha256_unsigned = "c241a1c93ef1b49c170d43298b32423a8a4d8c1219fdff5156d25463030235c0";
-              type = "kernel";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_re3000-v1-squashfs-sysupgrade.bin";
+              sha256 = "667001fc109e6abc1036a9b0700cc1d2bb3a02de758bf5bee1bd1a118aa5bf25";
+              sha256_unsigned = "a7ec100e14a7318d719947513a72296605a574c5ec83d59977f853c7285bc1d6";
+              type = "sysupgrade";
             }
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_re3000-v1-squashfs-sysupgrade.bin";
-              sha256 = "8bcce55c0236c125ce9e57f75f4509144d37bdefa4a83a83eb1aa1095b62dfd0";
-              sha256_unsigned = "3894b3d1cabc1ee2f5e711c08936a085fd2af1a31db0c4171c398d82f8509589";
-              type = "sysupgrade";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_re3000-v1-initramfs-kernel.bin";
+              sha256 = "02933159f5076b8fd9a3a7c1a2a7c3caa6ff40269ba6f53e54eaf3e478fc2dee";
+              sha256_unsigned = "02933159f5076b8fd9a3a7c1a2a7c3caa6ff40269ba6f53e54eaf3e478fc2dee";
+              type = "kernel";
             }
           ];
           supported_devices = [
@@ -32361,20 +32361,20 @@
             "mt7981-wo-firmware"
             "automount"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_tr3000-256mb-v1";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_tr3000-256mb-v1";
           images = [
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_tr3000-256mb-v1-initramfs-kernel.bin";
-              sha256 = "1cd483c87ad9765d7287ea9018df29f22858f57bcd4599b8e46609d634aa71aa";
-              sha256_unsigned = "1cd483c87ad9765d7287ea9018df29f22858f57bcd4599b8e46609d634aa71aa";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_tr3000-256mb-v1-initramfs-kernel.bin";
+              sha256 = "84b570bd70a611cb4afde3a2378b71d90979a80e9f8cb8f4ff8de8f8cb9914ee";
+              sha256_unsigned = "84b570bd70a611cb4afde3a2378b71d90979a80e9f8cb8f4ff8de8f8cb9914ee";
               type = "kernel";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_tr3000-256mb-v1-squashfs-sysupgrade.bin";
-              sha256 = "61b6ad7301bd2343e951dab2eb24cccfe7820979a485f0201b3d7430f65fa753";
-              sha256_unsigned = "6cbeca95b2ca1ccbf90c9bfcb4407faa038a4a28d6f006c880674bc018f60b69";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_tr3000-256mb-v1-squashfs-sysupgrade.bin";
+              sha256 = "9ea45fa1695089864ec08e90915cfa6602ad4afc9c731ee1e14bb8939e0fa6a0";
+              sha256_unsigned = "ca99938c93ab6e0d62a97be966dffd0fbd5af0bb9a96bf2861d5c997fb5aa206";
               type = "sysupgrade";
             }
           ];
@@ -32398,20 +32398,20 @@
             "mt7981-wo-firmware"
             "automount"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_tr3000-v1";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_tr3000-v1";
           images = [
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_tr3000-v1-squashfs-sysupgrade.bin";
-              sha256 = "90231df85ae2eb97d1c9286d88dc874bd514d5ab18bfecf1b4bb6bcd4adba9c6";
-              sha256_unsigned = "f39a6cd509fdb6d8d2cedec4259fe2c16a7316582eab80fbee76bff94fdab4d4";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_tr3000-v1-squashfs-sysupgrade.bin";
+              sha256 = "9d3065bbb4bee3fa4537a587e8fd2907cc0e1d1462d4c0b4f2028e63d05f5dfb";
+              sha256_unsigned = "8b999df7b85a89170fb705309126657f6705bde634a665c0ba2d81c88b3b6996";
               type = "sysupgrade";
             }
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_tr3000-v1-initramfs-kernel.bin";
-              sha256 = "77e18ddf5b24009ec6d2a10c9eb53e1030841a50e78295949ff30d52647dd2c5";
-              sha256_unsigned = "77e18ddf5b24009ec6d2a10c9eb53e1030841a50e78295949ff30d52647dd2c5";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_tr3000-v1-initramfs-kernel.bin";
+              sha256 = "8e1a8e3bb751bb1a974b3401a7d099fed754ca7def28537528ce6dc7cf59d9dc";
+              sha256_unsigned = "8e1a8e3bb751bb1a974b3401a7d099fed754ca7def28537528ce6dc7cf59d9dc";
               type = "kernel";
             }
           ];
@@ -32435,33 +32435,33 @@
             "mt7981-wo-firmware"
             "automount"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_tr3000-v1-ubootmod";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_tr3000-v1-ubootmod";
           images = [
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_tr3000-v1-ubootmod-preloader.bin";
-              sha256 = "ebe3cff4e63b7842343a31032ea02d34e9f8b44ac8f42ec0f740942054819c22";
-              sha256_unsigned = "ebe3cff4e63b7842343a31032ea02d34e9f8b44ac8f42ec0f740942054819c22";
-              type = "preloader.bin";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_tr3000-v1-ubootmod-bl31-uboot.fip";
-              sha256 = "a5a7bd86e9b39915874d78eee4ebd65f28c736e41f4382fee4d142778249eec6";
-              sha256_unsigned = "a5a7bd86e9b39915874d78eee4ebd65f28c736e41f4382fee4d142778249eec6";
-              type = "bl31-uboot.fip";
-            }
-            {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_tr3000-v1-ubootmod-initramfs-recovery.itb";
-              sha256 = "a429ed264549a87cf23e58345b790f9c15734e973227d7d4c2e546b67efe8e44";
-              sha256_unsigned = "a429ed264549a87cf23e58345b790f9c15734e973227d7d4c2e546b67efe8e44";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_tr3000-v1-ubootmod-initramfs-recovery.itb";
+              sha256 = "5db4665d155fc1dc7935719129f202109563fee9be762806eb39acb46651b9dc";
+              sha256_unsigned = "5db4665d155fc1dc7935719129f202109563fee9be762806eb39acb46651b9dc";
               type = "kernel";
             }
             {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_tr3000-v1-ubootmod-bl31-uboot.fip";
+              sha256 = "e7f96c6771921d580bce8b213e66f63916a5e692e6dbc51a885d174883dd928e";
+              sha256_unsigned = "e7f96c6771921d580bce8b213e66f63916a5e692e6dbc51a885d174883dd928e";
+              type = "bl31-uboot.fip";
+            }
+            {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_tr3000-v1-ubootmod-squashfs-sysupgrade.itb";
-              sha256 = "49450af469112308597cbbb56cb828e68c5ed45362bb41b8788ed4531ead29cb";
-              sha256_unsigned = "2cb4cd4fa45e9c91a5e9881e7837a4192eba5d791a8c3782f5d16cba1aee8af9";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_tr3000-v1-ubootmod-squashfs-sysupgrade.itb";
+              sha256 = "0375aa3202128a7cea23c455c49f8b0aa6fecb39d144ed9233b7370196b3839e";
+              sha256_unsigned = "a60cb29e0098091e990b4393299a6133317906e99dc6c2fdeeaeb3d09b332b70";
               type = "sysupgrade";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_tr3000-v1-ubootmod-preloader.bin";
+              sha256 = "16b37e28aa467c56ada1c82ee7701dca343f5ba7e3f5d6a1be53ab253e35839e";
+              sha256_unsigned = "16b37e28aa467c56ada1c82ee7701dca343f5ba7e3f5d6a1be53ab253e35839e";
+              type = "preloader.bin";
             }
           ];
           supported_devices = [
@@ -32481,21 +32481,21 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_wr3000-v1";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_wr3000-v1";
           images = [
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_wr3000-v1-initramfs-kernel.bin";
-              sha256 = "2db0d6725c477aec105f8372d6d13a23d13a2efd1ce9f66f5cec442166478408";
-              sha256_unsigned = "2db0d6725c477aec105f8372d6d13a23d13a2efd1ce9f66f5cec442166478408";
-              type = "kernel";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_wr3000-v1-squashfs-sysupgrade.bin";
+              sha256 = "2cbd9b9d2b6c342ccefca8cec1bffe5346f497cb71ce7dc64ccf80e08e856eb6";
+              sha256_unsigned = "b1009cf5f0da41b336569d1eed03c742dab90a4adf0c79ae47c6d6bf535fa4fe";
+              type = "sysupgrade";
             }
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_wr3000-v1-squashfs-sysupgrade.bin";
-              sha256 = "98d5b77e657dd6ff0c32749e465c61458d41d7b40f90aa68415f1086c4c65b43";
-              sha256_unsigned = "8b9d42b971ce294f05ebb4253af403452095d72de32a16ed5f1f55f6d429a994";
-              type = "sysupgrade";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_wr3000-v1-initramfs-kernel.bin";
+              sha256 = "45c46db0ce417571108bf3a2428b1e69b1585533329537a8d8ec93682358d17c";
+              sha256_unsigned = "45c46db0ce417571108bf3a2428b1e69b1585533329537a8d8ec93682358d17c";
+              type = "kernel";
             }
           ];
           supported_devices = [
@@ -32516,20 +32516,20 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_wr3000e-v1";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_wr3000e-v1";
           images = [
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_wr3000e-v1-initramfs-kernel.bin";
-              sha256 = "368d31bb5743dcca716ecddb0c629180aa2eafcccae34efb9af3303a0ee8eaaf";
-              sha256_unsigned = "368d31bb5743dcca716ecddb0c629180aa2eafcccae34efb9af3303a0ee8eaaf";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_wr3000e-v1-initramfs-kernel.bin";
+              sha256 = "a892839ac45427c5ddcce4b3ca661f9a2e09dabe97e0be51f32a6275c898ac3b";
+              sha256_unsigned = "a892839ac45427c5ddcce4b3ca661f9a2e09dabe97e0be51f32a6275c898ac3b";
               type = "kernel";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_wr3000e-v1-squashfs-sysupgrade.bin";
-              sha256 = "271f16887c5624f771b141faf94d540aa642bba9c98701e16859f0632312c678";
-              sha256_unsigned = "d88f043d9cb3c23d821ce823bf8e34ce9591349fd283de5b23109ee198dab4f9";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_wr3000e-v1-squashfs-sysupgrade.bin";
+              sha256 = "4409a7b81f78fcc990e895fb6844fc1d13fa0cd6af5e1ce418344a87b25ccd70";
+              sha256_unsigned = "b755fb89d5a02754659ecb4c023c06740d025eeaec2adc661af0646ce70d24a6";
               type = "sysupgrade";
             }
           ];
@@ -32551,21 +32551,21 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_wr3000h-v1";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_wr3000h-v1";
           images = [
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_wr3000h-v1-initramfs-kernel.bin";
-              sha256 = "dcdb0692e6320b8d2967456a374c662a349f3b5c77fe508e8d8c4b7e4a91b378";
-              sha256_unsigned = "dcdb0692e6320b8d2967456a374c662a349f3b5c77fe508e8d8c4b7e4a91b378";
-              type = "kernel";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_wr3000h-v1-squashfs-sysupgrade.bin";
+              sha256 = "085e43bdb836fefd318dc952df39a7640275225e4111b5939e6aa65d45bc6df1";
+              sha256_unsigned = "ca07ba7f0293fb36efb49669d595e1a397ff000c5d8f771da943d1865b5989f4";
+              type = "sysupgrade";
             }
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_wr3000h-v1-squashfs-sysupgrade.bin";
-              sha256 = "c755ab6b3fabcbf81572938c951eb53da3ffd11f66be340da5fead7eafcf7f5e";
-              sha256_unsigned = "1ed48177ceb5acd29a7095a8dc1d7991f1cb80fa0058d59f86f2e24e4f70fd6a";
-              type = "sysupgrade";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_wr3000h-v1-initramfs-kernel.bin";
+              sha256 = "5c9f96781f5a0371a4ec416fd7052974b272cbe0d6b37d0e928213eeb0aa5459";
+              sha256_unsigned = "5c9f96781f5a0371a4ec416fd7052974b272cbe0d6b37d0e928213eeb0aa5459";
+              type = "kernel";
             }
           ];
           supported_devices = [
@@ -32586,21 +32586,21 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_wr3000s-v1";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_wr3000s-v1";
           images = [
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_wr3000s-v1-initramfs-kernel.bin";
-              sha256 = "65b39ad43720a2b0d63580f363060a98a5a50bb9debf965d19fb8840547ee321";
-              sha256_unsigned = "65b39ad43720a2b0d63580f363060a98a5a50bb9debf965d19fb8840547ee321";
-              type = "kernel";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_wr3000s-v1-squashfs-sysupgrade.bin";
+              sha256 = "037964a3601e99353ccbfc7e68be3f9f9b16673b69dd6abe37b37f01d3604ba7";
+              sha256_unsigned = "6dbe10cdc3a237266175fc4be8e920c3f2af0e6884ba69bacf2900feab9c6882";
+              type = "sysupgrade";
             }
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-cudy_wr3000s-v1-squashfs-sysupgrade.bin";
-              sha256 = "090766098bcd9de8dc10c4c58687b540cf4c45412cc77cb0ec0751cfb3e26046";
-              sha256_unsigned = "264e3be64e71b34633985b37f9b07d79f743ca559c2e6d8dff31bd279752d1a7";
-              type = "sysupgrade";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-cudy_wr3000s-v1-initramfs-kernel.bin";
+              sha256 = "6345fc3103d3afbb0348ba61afb0edd24c5bf3ac6edb1aa486471b32de5e2215";
+              sha256_unsigned = "6345fc3103d3afbb0348ba61afb0edd24c5bf3ac6edb1aa486471b32de5e2215";
+              type = "kernel";
             }
           ];
           supported_devices = [
@@ -32622,28 +32622,28 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-dlink_aquila-pro-ai-m30-a1";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-dlink_aquila-pro-ai-m30-a1";
           images = [
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-dlink_aquila-pro-ai-m30-a1-initramfs-kernel.bin";
-              sha256 = "5d7d509a3c17d8dfcd2f536fd69dd353fbbc23e628046fb4dc20f112d7e9fcf7";
-              sha256_unsigned = "5d7d509a3c17d8dfcd2f536fd69dd353fbbc23e628046fb4dc20f112d7e9fcf7";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-dlink_aquila-pro-ai-m30-a1-initramfs-kernel.bin";
+              sha256 = "7c3a29cbb2cc75fdc8c56e49be12555bce8f1b2594a3fd936d6819bd54192ff3";
+              sha256_unsigned = "7c3a29cbb2cc75fdc8c56e49be12555bce8f1b2594a3fd936d6819bd54192ff3";
               type = "kernel";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-dlink_aquila-pro-ai-m30-a1-squashfs-sysupgrade.bin";
-              sha256 = "3f14831c6be5f300c837895188f25352c0820e6a61814820989e3a524b6e3127";
-              sha256_unsigned = "04eb4522901d5b3a23eab12844abd238409347afefbd7a9936e1e00abb2970c9";
-              type = "sysupgrade";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-dlink_aquila-pro-ai-m30-a1-squashfs-recovery.bin";
+              sha256 = "1ed59ce2c8e56c31d05e20b1a1b50a100b87b40b07efdfe235755692305a10ee";
+              sha256_unsigned = "1ed59ce2c8e56c31d05e20b1a1b50a100b87b40b07efdfe235755692305a10ee";
+              type = "recovery";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-dlink_aquila-pro-ai-m30-a1-squashfs-recovery.bin";
-              sha256 = "9cc09597edced70cf9fde73bad61f054d96688ea1a125fd3aaf051d784a41626";
-              sha256_unsigned = "9cc09597edced70cf9fde73bad61f054d96688ea1a125fd3aaf051d784a41626";
-              type = "recovery";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-dlink_aquila-pro-ai-m30-a1-squashfs-sysupgrade.bin";
+              sha256 = "64acea3f9d9d1845803f75eb1252eb0ce04e59e47eb2b23696e70ee23ac08348";
+              sha256_unsigned = "f178af91ed3ca8510df70170e2928d57d4f51c6142020b608328b6a62164c75e";
+              type = "sysupgrade";
             }
           ];
           supported_devices = [
@@ -32664,27 +32664,27 @@
             "kmod-mt7986-firmware"
             "mt7986-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-dlink_aquila-pro-ai-m60-a1";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-dlink_aquila-pro-ai-m60-a1";
           images = [
             {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-dlink_aquila-pro-ai-m60-a1-squashfs-sysupgrade.bin";
+              sha256 = "dfa2547b36ec6a559fb4018b7267c42ecde06f1e8f261198c72db5dc28a31728";
+              sha256_unsigned = "21418c19e7b6a8eb66465f23619bb04d1a1466ac05732717e9305c88035950f7";
+              type = "sysupgrade";
+            }
+            {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-dlink_aquila-pro-ai-m60-a1-initramfs-kernel.bin";
-              sha256 = "47994788dfd9f7ce91e96d4e3d30aee5ecbb5191b3a1e747d7f32589008195af";
-              sha256_unsigned = "47994788dfd9f7ce91e96d4e3d30aee5ecbb5191b3a1e747d7f32589008195af";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-dlink_aquila-pro-ai-m60-a1-initramfs-kernel.bin";
+              sha256 = "7f6aaf852086feff16c6bcca4811faa2685455bf6644832215a05d6aef769feb";
+              sha256_unsigned = "7f6aaf852086feff16c6bcca4811faa2685455bf6644832215a05d6aef769feb";
               type = "kernel";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-dlink_aquila-pro-ai-m60-a1-squashfs-sysupgrade.bin";
-              sha256 = "378a5942ca5b41fb56a25a72ec997abb6048d2e7ff19520a5d218034469b8285";
-              sha256_unsigned = "185f4d0320357d704694dc2dc8852dddb4e24e0175bd931d42d2ddde73dac237";
-              type = "sysupgrade";
-            }
-            {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-dlink_aquila-pro-ai-m60-a1-squashfs-recovery.bin";
-              sha256 = "c09a36f84061c435f89713f82b07ac4fe6a307ad21e33f5417f05c9385ad089f";
-              sha256_unsigned = "c09a36f84061c435f89713f82b07ac4fe6a307ad21e33f5417f05c9385ad089f";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-dlink_aquila-pro-ai-m60-a1-squashfs-recovery.bin";
+              sha256 = "b3900384c779fac78390c655d24e881cf38a1585ef6423c0e2cc6fd50403178a";
+              sha256_unsigned = "b3900384c779fac78390c655d24e881cf38a1585ef6423c0e2cc6fd50403178a";
               type = "recovery";
             }
           ];
@@ -32705,27 +32705,27 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-edgecore_eap111";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-edgecore_eap111";
           images = [
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-edgecore_eap111-squashfs-sysupgrade.bin";
-              sha256 = "d47e834e06a0ca2cd7ba6f5e3b26ae3ae83c657ee6b8cf269bdf9430eccc7826";
-              sha256_unsigned = "1ddfd4b2cf0aa1c28331447aae33e21e9a486905d2cfa20f2aa97c206c746368";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-edgecore_eap111-squashfs-sysupgrade.bin";
+              sha256 = "b69b729e61944dfb68cc7fba4164b90493a7f133caacbc61e8e4ccb6831943da";
+              sha256_unsigned = "1bf05eea0b1866363b2ace5ff820f779ff20c724714c53d21e6fdf2da57b5d71";
               type = "sysupgrade";
             }
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-edgecore_eap111-initramfs-kernel.bin";
-              sha256 = "1239a87ec7fa6b229a58992200d0afdccbb32766ae8756eafe69be3cd5047d1e";
-              sha256_unsigned = "1239a87ec7fa6b229a58992200d0afdccbb32766ae8756eafe69be3cd5047d1e";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-edgecore_eap111-initramfs-kernel.bin";
+              sha256 = "0c550f418c539888de2bc06601c86b01f5bad3feab74c7f5c21275b2b9faea52";
+              sha256_unsigned = "0c550f418c539888de2bc06601c86b01f5bad3feab74c7f5c21275b2b9faea52";
               type = "kernel";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-edgecore_eap111-squashfs-factory.bin";
-              sha256 = "7259de007c9f3365c8439799d2daafe4ff96ea89c8ca69cdd8918465a4686108";
-              sha256_unsigned = "7259de007c9f3365c8439799d2daafe4ff96ea89c8ca69cdd8918465a4686108";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-edgecore_eap111-squashfs-factory.bin";
+              sha256 = "8d43b25b00ee5f4c8a0898ab5101563407524ecfc2b7b8cf8a24b595627f0f4d";
+              sha256_unsigned = "8d43b25b00ee5f4c8a0898ab5101563407524ecfc2b7b8cf8a24b595627f0f4d";
               type = "factory";
             }
           ];
@@ -32751,32 +32751,32 @@
             "-kmod-phy-aquantia"
             "automount"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-gatonetworks_gdsp";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-gatonetworks_gdsp";
           images = [
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-gatonetworks_gdsp-bl31-uboot.fip";
-              sha256 = "04be11c76a891c575f75812a278aa654a3a98df951a55049a3258901cf0310e0";
-              sha256_unsigned = "04be11c76a891c575f75812a278aa654a3a98df951a55049a3258901cf0310e0";
-              type = "bl31-uboot.fip";
-            }
-            {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-gatonetworks_gdsp-initramfs-kernel.bin";
-              sha256 = "41cce1a6b040ea12b348db2fed0bc1146b10c30ace11bb06f036e6c0276e66e8";
-              sha256_unsigned = "41cce1a6b040ea12b348db2fed0bc1146b10c30ace11bb06f036e6c0276e66e8";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-gatonetworks_gdsp-initramfs-kernel.bin";
+              sha256 = "9610b920ea92f0a812160231814595065bce28751549696810939b0562a5163a";
+              sha256_unsigned = "9610b920ea92f0a812160231814595065bce28751549696810939b0562a5163a";
               type = "kernel";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-gatonetworks_gdsp-squashfs-sysupgrade.itb";
-              sha256 = "1f61548716acb2ef7699b2f7faf9d9ec6987102e9eeee516d9d0968e39f32fd9";
-              sha256_unsigned = "9877bf56b0c3b9772d48091dc03feaff60ad0588be70c88edc86c047ce04e59c";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-gatonetworks_gdsp-squashfs-sysupgrade.itb";
+              sha256 = "8a13c3cc20547575e25b86a497e8dba74a2cb29ecbc74c2848225ee0d4604e93";
+              sha256_unsigned = "9621173e37e2c31e1ddb6608d97c0f9a4341a84058b94d598f3ff8965057c13c";
               type = "sysupgrade";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-gatonetworks_gdsp-preloader.bin";
-              sha256 = "230381e91e9e8afbf4cf44df2aa7942d249fccd58ab9685a82597baad99cbd45";
-              sha256_unsigned = "230381e91e9e8afbf4cf44df2aa7942d249fccd58ab9685a82597baad99cbd45";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-gatonetworks_gdsp-bl31-uboot.fip";
+              sha256 = "d39e39a4b8701068d9ad35e55ef005a483c5398faca868a158c65bc402524c8c";
+              sha256_unsigned = "d39e39a4b8701068d9ad35e55ef005a483c5398faca868a158c65bc402524c8c";
+              type = "bl31-uboot.fip";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-gatonetworks_gdsp-preloader.bin";
+              sha256 = "0f5f6ae50320544fd1bab72fccdbd7fa41a463c2140fd67d8d24017dca7929df";
+              sha256_unsigned = "0f5f6ae50320544fd1bab72fccdbd7fa41a463c2140fd67d8d24017dca7929df";
               type = "preloader.bin";
             }
           ];
@@ -32799,20 +32799,20 @@
             "kmod-usb3"
             "automount"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-glinet_gl-mt2500";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-glinet_gl-mt2500";
           images = [
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-glinet_gl-mt2500-initramfs-kernel.bin";
-              sha256 = "7e33bfad884f28faff981a1edb370d874dd438ca5b74c4778d51c32cb0fcf8d1";
-              sha256_unsigned = "7e33bfad884f28faff981a1edb370d874dd438ca5b74c4778d51c32cb0fcf8d1";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-glinet_gl-mt2500-initramfs-kernel.bin";
+              sha256 = "7ef7bc8fb374617545c9ffe958d40fede8cc3e7fa50116fd278d6ab902e920ef";
+              sha256_unsigned = "7ef7bc8fb374617545c9ffe958d40fede8cc3e7fa50116fd278d6ab902e920ef";
               type = "kernel";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-glinet_gl-mt2500-squashfs-sysupgrade.bin";
-              sha256 = "58b5be8209b6c4d0ec996b7822dcffb45cea3c673b80563a495638439497a76c";
-              sha256_unsigned = "13fc7fceb84db734f53594fe9e9b832cf109b0ece703752a66b2c1f65de66e68";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-glinet_gl-mt2500-squashfs-sysupgrade.bin";
+              sha256 = "bdfaa3b9a5878f1368fbb21b4e43f3ed3b08a8d79f08bfd2cbaf7e029e4b9d4d";
+              sha256_unsigned = "d81787ccd7876a01582b4a3836f004db8d1a02aa5aff4c0b0f8782602512b23d";
               type = "sysupgrade";
             }
           ];
@@ -32840,20 +32840,20 @@
             "airoha-en8811h-firmware"
             "automount"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-glinet_gl-mt2500-airoha";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-glinet_gl-mt2500-airoha";
           images = [
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-glinet_gl-mt2500-airoha-squashfs-sysupgrade.bin";
-              sha256 = "173e84857c81f6219b03719e4617d3f64845f90b79ae550eccf5907a179b8eb8";
-              sha256_unsigned = "c1f3d31cfa817fc052e9c6e2411a92f40d9b6b72275aea585ff0e504cb11d1f7";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-glinet_gl-mt2500-airoha-squashfs-sysupgrade.bin";
+              sha256 = "5b6bad9701d7ffba323df1e868394b60292302c4afe85b4d1c27b0cb97e29126";
+              sha256_unsigned = "8583f05d7ce2a496d1ecf73a890f6267ddeb9f0be8807938acb0713251e04aed";
               type = "sysupgrade";
             }
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-glinet_gl-mt2500-airoha-initramfs-kernel.bin";
-              sha256 = "3b3e018a99246acc3f56cd1a3ccc7c1da5ec7a09a783d5ded1908c215fb26f48";
-              sha256_unsigned = "3b3e018a99246acc3f56cd1a3ccc7c1da5ec7a09a783d5ded1908c215fb26f48";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-glinet_gl-mt2500-airoha-initramfs-kernel.bin";
+              sha256 = "67fccc7ab1ddc6315ed668c9d4202e603228d67c0960beb3d30d565796bb7ca7";
+              sha256_unsigned = "67fccc7ab1ddc6315ed668c9d4202e603228d67c0960beb3d30d565796bb7ca7";
               type = "kernel";
             }
           ];
@@ -32879,20 +32879,20 @@
             "kmod-usb3"
             "automount"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-glinet_gl-mt3000";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-glinet_gl-mt3000";
           images = [
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-glinet_gl-mt3000-initramfs-kernel.bin";
-              sha256 = "a8778173b6cc177cb135b58b45560d31b4d0c01802d24f3ebda15dda5b22a626";
-              sha256_unsigned = "a8778173b6cc177cb135b58b45560d31b4d0c01802d24f3ebda15dda5b22a626";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-glinet_gl-mt3000-initramfs-kernel.bin";
+              sha256 = "b4140c3250a5650301cde21ad22ae5c5701e61fd7009eeaa1770279117514631";
+              sha256_unsigned = "b4140c3250a5650301cde21ad22ae5c5701e61fd7009eeaa1770279117514631";
               type = "kernel";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-glinet_gl-mt3000-squashfs-sysupgrade.bin";
-              sha256 = "f5bb6015c6584393d3f4c6e93fef078cc8e25a8d530b469580f1f487226f1a97";
-              sha256_unsigned = "b7e95544eb2e77163e2e7af3efdc91d334b651fd12ffc17b436d1a1ac96febef";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-glinet_gl-mt3000-squashfs-sysupgrade.bin";
+              sha256 = "638d8f5a1f4ef8d9b84967ad18206698686b1150c79d2dbd01deccdda1c1395d";
+              sha256_unsigned = "d1f13d979f18f377a74e4aade2c8b01c2e00ea696bb58173bf8682d19388c662";
               type = "sysupgrade";
             }
           ];
@@ -32917,40 +32917,40 @@
             "f2fsck"
             "mkf2fs"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-glinet_gl-mt6000";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-glinet_gl-mt6000";
           images = [
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-glinet_gl-mt6000-preloader.bin";
-              sha256 = "5220b5ed1b495f99c24b0e51e9c6d1ff253d7cb3df89b959c2fc37960fed0ea9";
-              sha256_unsigned = "5220b5ed1b495f99c24b0e51e9c6d1ff253d7cb3df89b959c2fc37960fed0ea9";
-              type = "preloader.bin";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-glinet_gl-mt6000-bl31-uboot.fip";
+              sha256 = "33a715182dcc6a6cae0f7fc129988b2154f8d7a1cb474ff5599ceb187d9bc0bf";
+              sha256_unsigned = "33a715182dcc6a6cae0f7fc129988b2154f8d7a1cb474ff5599ceb187d9bc0bf";
+              type = "bl31-uboot.fip";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-glinet_gl-mt6000-squashfs-factory.bin";
-              sha256 = "4d774ebd576992b3836f24a6ef082ede5f071ccec6c4cff87b32a95ca30c6272";
-              sha256_unsigned = "4d774ebd576992b3836f24a6ef082ede5f071ccec6c4cff87b32a95ca30c6272";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-glinet_gl-mt6000-squashfs-factory.bin";
+              sha256 = "1a6c9ab631f02df3d737215fa4ebdf4d5d40edd42be8e668875f1753566e7c69";
+              sha256_unsigned = "1a6c9ab631f02df3d737215fa4ebdf4d5d40edd42be8e668875f1753566e7c69";
               type = "factory";
             }
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-glinet_gl-mt6000-initramfs-kernel.bin";
-              sha256 = "d1980506da9d75673cfbf1cb5201e56372fa40f1d70f9801e929115269923bcd";
-              sha256_unsigned = "d1980506da9d75673cfbf1cb5201e56372fa40f1d70f9801e929115269923bcd";
-              type = "kernel";
-            }
-            {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-glinet_gl-mt6000-squashfs-sysupgrade.bin";
-              sha256 = "a1b013e28a70160a6e84883986c8c50adadbeb206dc587167aac9b057302b87d";
-              sha256_unsigned = "7417083cbd9629a63fd4bea3c6e1faa586eb5c0ac76a493898718bc07f5d44e4";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-glinet_gl-mt6000-squashfs-sysupgrade.bin";
+              sha256 = "0bab8c37b0f212fd4d9d2827fd2c2ed8c7119ab456273de24c245cef57d69b07";
+              sha256_unsigned = "a185e2f203f563ef46bb8d4daa55cfb113946ac45f40c8d759127049208a6c06";
               type = "sysupgrade";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-glinet_gl-mt6000-bl31-uboot.fip";
-              sha256 = "9103c43d6982e021eb51d242da7c8095db8dce43399416d00c2fa253247f3743";
-              sha256_unsigned = "9103c43d6982e021eb51d242da7c8095db8dce43399416d00c2fa253247f3743";
-              type = "bl31-uboot.fip";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-glinet_gl-mt6000-initramfs-kernel.bin";
+              sha256 = "618e3a467d38d1bb3c997bbc49db50210eaf5974dbd70af22df5925293bb81c3";
+              sha256_unsigned = "618e3a467d38d1bb3c997bbc49db50210eaf5974dbd70af22df5925293bb81c3";
+              type = "kernel";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-glinet_gl-mt6000-preloader.bin";
+              sha256 = "52184f4a9789f60c8700670e3ba6a240caa1da83aa1522300ab978fcd67afd49";
+              sha256_unsigned = "52184f4a9789f60c8700670e3ba6a240caa1da83aa1522300ab978fcd67afd49";
+              type = "preloader.bin";
             }
           ];
           supported_devices = [
@@ -32978,40 +32978,40 @@
             "uqmi"
             "automount"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-glinet_gl-x3000";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-glinet_gl-x3000";
           images = [
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-glinet_gl-x3000-preloader.bin";
-              sha256 = "b3189d3820232edbcb342539bfd84fdef7d6fe7995d81e8b0b0f596044a34cf6";
-              sha256_unsigned = "b3189d3820232edbcb342539bfd84fdef7d6fe7995d81e8b0b0f596044a34cf6";
-              type = "preloader.bin";
-            }
-            {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-glinet_gl-x3000-squashfs-sysupgrade.bin";
-              sha256 = "9edee0bc29fcf3e181f8a31dfa8c1fb9c9133cb562871ac6475891859a38aaa7";
-              sha256_unsigned = "f106721761b638f46793b0af07bdfe8632a8de559865ed830f88de3030f251c5";
-              type = "sysupgrade";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-glinet_gl-x3000-squashfs-factory.bin";
+              sha256 = "88e18e911eba77896afa33d3998c9561480c61da0877f149b48e0c0b9e264b21";
+              sha256_unsigned = "88e18e911eba77896afa33d3998c9561480c61da0877f149b48e0c0b9e264b21";
+              type = "factory";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-glinet_gl-x3000-bl31-uboot.fip";
-              sha256 = "6fea2a382faf380986e21f98552f9ead86ad40d6f124dc97a0798a7e89d64c52";
-              sha256_unsigned = "6fea2a382faf380986e21f98552f9ead86ad40d6f124dc97a0798a7e89d64c52";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-glinet_gl-x3000-bl31-uboot.fip";
+              sha256 = "97e37a8730121b93f882e188cda6d1de8026426696d95e52e61f6611ededbfbc";
+              sha256_unsigned = "97e37a8730121b93f882e188cda6d1de8026426696d95e52e61f6611ededbfbc";
               type = "bl31-uboot.fip";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-glinet_gl-x3000-squashfs-factory.bin";
-              sha256 = "41d6b10e8d4d19d887cda00544a2b805d31a0a584a93e02ae3d1a9eed83b8f52";
-              sha256_unsigned = "41d6b10e8d4d19d887cda00544a2b805d31a0a584a93e02ae3d1a9eed83b8f52";
-              type = "factory";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-glinet_gl-x3000-squashfs-sysupgrade.bin";
+              sha256 = "e6074389e1b7ca6a4863a595ecacd4ec957dc5f962e93967049188b5bc95a7c2";
+              sha256_unsigned = "4ad7eab3075d0f70caed2ff934fcdd59596036a02ff4848e5b815a82e14aac63";
+              type = "sysupgrade";
             }
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-glinet_gl-x3000-initramfs-kernel.bin";
-              sha256 = "744ef5591c1772d8343bdbc507009bb45f815eb2f37d02c4ccf2e82f9ee6eb87";
-              sha256_unsigned = "744ef5591c1772d8343bdbc507009bb45f815eb2f37d02c4ccf2e82f9ee6eb87";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-glinet_gl-x3000-initramfs-kernel.bin";
+              sha256 = "8c3b913d1e1303ccd1a2ede45f26f69be0639197f44f67f12df97a8d7131a5fa";
+              sha256_unsigned = "8c3b913d1e1303ccd1a2ede45f26f69be0639197f44f67f12df97a8d7131a5fa";
               type = "kernel";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-glinet_gl-x3000-preloader.bin";
+              sha256 = "61a4aa0b2ac3b8bcdcb34fe31023e4e17b6a2ba6ba26fb4d897ce6690344caa4";
+              sha256_unsigned = "61a4aa0b2ac3b8bcdcb34fe31023e4e17b6a2ba6ba26fb4d897ce6690344caa4";
+              type = "preloader.bin";
             }
           ];
           supported_devices = [
@@ -33039,39 +33039,39 @@
             "uqmi"
             "automount"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-glinet_gl-xe3000";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-glinet_gl-xe3000";
           images = [
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-glinet_gl-xe3000-preloader.bin";
-              sha256 = "b3189d3820232edbcb342539bfd84fdef7d6fe7995d81e8b0b0f596044a34cf6";
-              sha256_unsigned = "b3189d3820232edbcb342539bfd84fdef7d6fe7995d81e8b0b0f596044a34cf6";
-              type = "preloader.bin";
-            }
-            {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-glinet_gl-xe3000-squashfs-sysupgrade.bin";
-              sha256 = "2069c47e965d39d195a1974702dbb76fd05262dd892ce13925e535f29d060f54";
-              sha256_unsigned = "58c48c298942a336505c34cc48f643278a4e7514255d2cc6869ce17b140eed43";
-              type = "sysupgrade";
-            }
-            {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-glinet_gl-xe3000-initramfs-kernel.bin";
-              sha256 = "0df421170b76d73b37955a2449c06a2654ec1457b6f4991cbcabfcd2b7454b5e";
-              sha256_unsigned = "0df421170b76d73b37955a2449c06a2654ec1457b6f4991cbcabfcd2b7454b5e";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-glinet_gl-xe3000-initramfs-kernel.bin";
+              sha256 = "a7b65a1e34f9b22677bbc1b738bb92db31592fdafc7963d800f1c1b21a86e9cf";
+              sha256_unsigned = "a7b65a1e34f9b22677bbc1b738bb92db31592fdafc7963d800f1c1b21a86e9cf";
               type = "kernel";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-glinet_gl-xe3000-squashfs-factory.bin";
-              sha256 = "91b49fedad499dd06fbe515643e38e139da8b2bfc4835de83bd12cb0acccb4db";
-              sha256_unsigned = "91b49fedad499dd06fbe515643e38e139da8b2bfc4835de83bd12cb0acccb4db";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-glinet_gl-xe3000-squashfs-factory.bin";
+              sha256 = "df513bdfcc696fc59e204dde6f373acea0834b34df02310ce9efd87f346cfb14";
+              sha256_unsigned = "df513bdfcc696fc59e204dde6f373acea0834b34df02310ce9efd87f346cfb14";
               type = "factory";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-glinet_gl-xe3000-bl31-uboot.fip";
-              sha256 = "6fea2a382faf380986e21f98552f9ead86ad40d6f124dc97a0798a7e89d64c52";
-              sha256_unsigned = "6fea2a382faf380986e21f98552f9ead86ad40d6f124dc97a0798a7e89d64c52";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-glinet_gl-xe3000-preloader.bin";
+              sha256 = "61a4aa0b2ac3b8bcdcb34fe31023e4e17b6a2ba6ba26fb4d897ce6690344caa4";
+              sha256_unsigned = "61a4aa0b2ac3b8bcdcb34fe31023e4e17b6a2ba6ba26fb4d897ce6690344caa4";
+              type = "preloader.bin";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-glinet_gl-xe3000-squashfs-sysupgrade.bin";
+              sha256 = "aa9c9f34a3b562d8bec2ebd7b71d8839e2cf959d6998baa1652b5fa3eaeb4b79";
+              sha256_unsigned = "59e4d699bbeb42e87fb559015a1e985c805613a00ea20e3cabbc4eb9bdf2f29a";
+              type = "sysupgrade";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-glinet_gl-xe3000-bl31-uboot.fip";
+              sha256 = "97e37a8730121b93f882e188cda6d1de8026426696d95e52e61f6611ededbfbc";
+              sha256_unsigned = "97e37a8730121b93f882e188cda6d1de8026426696d95e52e61f6611ededbfbc";
               type = "bl31-uboot.fip";
             }
           ];
@@ -33091,33 +33091,33 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-h3c_magic-nx30-pro";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-h3c_magic-nx30-pro";
           images = [
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-h3c_magic-nx30-pro-initramfs-recovery.itb";
-              sha256 = "c570c6238754d7a06c53d7eaad32e5e89c1a6b7d46807691f153c8a5efd18fb5";
-              sha256_unsigned = "c570c6238754d7a06c53d7eaad32e5e89c1a6b7d46807691f153c8a5efd18fb5";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-h3c_magic-nx30-pro-initramfs-recovery.itb";
+              sha256 = "f6e49c0366d369188e61b2c232039c799f55514f31c503909b1bc23b108022b6";
+              sha256_unsigned = "f6e49c0366d369188e61b2c232039c799f55514f31c503909b1bc23b108022b6";
               type = "kernel";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-h3c_magic-nx30-pro-preloader.bin";
-              sha256 = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
-              sha256_unsigned = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
-              type = "preloader.bin";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-h3c_magic-nx30-pro-bl31-uboot.fip";
+              sha256 = "ec52911b4ea59361fe3dbeff6f47366b1904ac8f0cca2cdbee43da0a7f932a85";
+              sha256_unsigned = "ec52911b4ea59361fe3dbeff6f47366b1904ac8f0cca2cdbee43da0a7f932a85";
+              type = "bl31-uboot.fip";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-h3c_magic-nx30-pro-squashfs-sysupgrade.itb";
-              sha256 = "b871e09c7086e05f46d41c3ed2bea52cde0bd3d14f98a7584674d3752d51095d";
-              sha256_unsigned = "57842f86f73d04a1c0bcc53e81e7c58f76538e18b9cbc20772eb348e5d83bcfa";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-h3c_magic-nx30-pro-squashfs-sysupgrade.itb";
+              sha256 = "e655af5a0b5107bf6754ad54d32516e8afdc3689028669186ce8c18cb6bb5d0d";
+              sha256_unsigned = "f5f5415b6ec7f7bab21586a25d2c29b0e273b40aeacfa913decc807226d95c9b";
               type = "sysupgrade";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-h3c_magic-nx30-pro-bl31-uboot.fip";
-              sha256 = "3a53afcd61fd62b5dfee163133f5ef739a2e369b03ef90a1315963f572342746";
-              sha256_unsigned = "3a53afcd61fd62b5dfee163133f5ef739a2e369b03ef90a1315963f572342746";
-              type = "bl31-uboot.fip";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-h3c_magic-nx30-pro-preloader.bin";
+              sha256 = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
+              sha256_unsigned = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
+              type = "preloader.bin";
             }
           ];
           supported_devices = [
@@ -33137,28 +33137,28 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-h3c_magic-nx30-pro-nmbm";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-h3c_magic-nx30-pro-nmbm";
           images = [
             {
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-h3c_magic-nx30-pro-nmbm-initramfs-kernel.bin";
+              sha256 = "d8815793fdd8f80df7fe0b9034738fdc58229f899032f6ea15315aaa2b7f033e";
+              sha256_unsigned = "d8815793fdd8f80df7fe0b9034738fdc58229f899032f6ea15315aaa2b7f033e";
+              type = "kernel";
+            }
+            {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-h3c_magic-nx30-pro-nmbm-squashfs-sysupgrade.bin";
-              sha256 = "e7fa617427ad25bf0a1dae89472c6622a8ea826ad29b99aea126b9ed57b7e0f4";
-              sha256_unsigned = "544ae5a9c90846cc6a21b6a926d08a857ad3b831276d105565be1b4e28ba78fb";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-h3c_magic-nx30-pro-nmbm-squashfs-sysupgrade.bin";
+              sha256 = "8244295394a2e052fdbcb9fa6e418aead5e4341428e788472032cd95319f9090";
+              sha256_unsigned = "65960682eb13d87e4500f16ea15c875877d2caab93ccffcce91d1ed067a6034d";
               type = "sysupgrade";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-h3c_magic-nx30-pro-nmbm-squashfs-factory.bin";
-              sha256 = "b599fa4977ef2a374a2365579e7997f0de0437c19adaba2e94d86e6705d8ef73";
-              sha256_unsigned = "b599fa4977ef2a374a2365579e7997f0de0437c19adaba2e94d86e6705d8ef73";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-h3c_magic-nx30-pro-nmbm-squashfs-factory.bin";
+              sha256 = "c24993c228ffedd96b88f789c1904c61b68eb80a31dafebf1eeaa4f13c133a2e";
+              sha256_unsigned = "c24993c228ffedd96b88f789c1904c61b68eb80a31dafebf1eeaa4f13c133a2e";
               type = "factory";
-            }
-            {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-h3c_magic-nx30-pro-nmbm-initramfs-kernel.bin";
-              sha256 = "f59f81c51b11ba928c27ff847a81096346a3e1b22775f8b56c9540859c81a980";
-              sha256_unsigned = "f59f81c51b11ba928c27ff847a81096346a3e1b22775f8b56c9540859c81a980";
-              type = "kernel";
             }
           ];
           supported_devices = [
@@ -33186,20 +33186,20 @@
             "mkf2fs"
             "uqmi"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-huasifei_wh3000-emmc";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-huasifei_wh3000-emmc";
           images = [
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-huasifei_wh3000-emmc-initramfs-kernel.bin";
-              sha256 = "83edb88b5936155d0591ce1f221abdb4e00283865eecab58179e478d3dfd5552";
-              sha256_unsigned = "83edb88b5936155d0591ce1f221abdb4e00283865eecab58179e478d3dfd5552";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-huasifei_wh3000-emmc-initramfs-kernel.bin";
+              sha256 = "f9282dcbf662bc686274e88becaa455bca0890fd3da6a995ee7d0891d4b4dbae";
+              sha256_unsigned = "f9282dcbf662bc686274e88becaa455bca0890fd3da6a995ee7d0891d4b4dbae";
               type = "kernel";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-huasifei_wh3000-emmc-squashfs-sysupgrade.bin";
-              sha256 = "734ab50675fe2313783fd83b47ccdfcd4f05be94c1dca0727952af0c1d3ab9b6";
-              sha256_unsigned = "7ce564ec780e0b0815acb4c6f71dbb89166258ee74ae7d8dcb486b9d1a84b1ff";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-huasifei_wh3000-emmc-squashfs-sysupgrade.bin";
+              sha256 = "01ac4da7eee8599a97178a12f514908715946c51c23e6232c5ded9d56715961e";
+              sha256_unsigned = "f09514fd5d40d4780a014f0ac89aa6543ed2517b24c0700dae8a534e6a7554b8";
               type = "sysupgrade";
             }
           ];
@@ -33219,6 +33219,7 @@
         };
         huasifei_wh3000-pro = {
           device_packages = [
+            "kmod-mt7915e"
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
             "kmod-hwmon-pwmfan"
@@ -33226,20 +33227,20 @@
             "f2fsck"
             "mkf2fs"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-huasifei_wh3000-pro";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-huasifei_wh3000-pro";
           images = [
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-huasifei_wh3000-pro-initramfs-kernel.bin";
-              sha256 = "d9ef2be997c0d338ec5fdf36df731b01db2f81c6c9b79916883d435f47e378b8";
-              sha256_unsigned = "d9ef2be997c0d338ec5fdf36df731b01db2f81c6c9b79916883d435f47e378b8";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-huasifei_wh3000-pro-initramfs-kernel.bin";
+              sha256 = "09577383891de95a77937f7748a2876116c23c2ec2612df092a43f6a80c98415";
+              sha256_unsigned = "09577383891de95a77937f7748a2876116c23c2ec2612df092a43f6a80c98415";
               type = "kernel";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-huasifei_wh3000-pro-squashfs-sysupgrade.bin";
-              sha256 = "bf34fb1338764fca8ae3a61966399d960fa12ac48a5df772d6f88eed90d25994";
-              sha256_unsigned = "e42a460c733dcbec63e7541005abf0bd973bc966810b253ce3e710584235a493";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-huasifei_wh3000-pro-squashfs-sysupgrade.bin";
+              sha256 = "e749f7f6484e9a465a9270186e70624750ebb158b1762a7756e224eeb8900180";
+              sha256_unsigned = "921ad69645400114d4522795198a1ea41204023a35ae57025c6855bfc29869c3";
               type = "sysupgrade";
             }
           ];
@@ -33259,32 +33260,32 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-imou_lc-hx3001";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-imou_lc-hx3001";
           images = [
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-imou_lc-hx3001-preloader.bin";
-              sha256 = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
-              sha256_unsigned = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
-              type = "preloader.bin";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-imou_lc-hx3001-bl31-uboot.fip";
-              sha256 = "85130b410255034d3e36eeebb58fadf8a0ff83f787bef29426891121bdd425a6";
-              sha256_unsigned = "85130b410255034d3e36eeebb58fadf8a0ff83f787bef29426891121bdd425a6";
-              type = "bl31-uboot.fip";
-            }
-            {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-imou_lc-hx3001-squashfs-sysupgrade.itb";
-              sha256 = "e8994107231534a655a854629c8c512c7fc3e6b143ea5bd22074c1f54b5976a1";
-              sha256_unsigned = "95366d1102343c74262060291829524652a17cd6206845e8b92ce6365d46eada";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-imou_lc-hx3001-squashfs-sysupgrade.itb";
+              sha256 = "2a35f21abc34e567087e150ed893a12b51000f0b31f3c64a2f235f200d00add9";
+              sha256_unsigned = "c6172c46ee4105da30607d60f696e57e331748f0cff47aa15ae53ad44d06f704";
               type = "sysupgrade";
             }
             {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-imou_lc-hx3001-preloader.bin";
+              sha256 = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
+              sha256_unsigned = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
+              type = "preloader.bin";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-imou_lc-hx3001-bl31-uboot.fip";
+              sha256 = "65ea0aa93dade05dda135188dc4de3b377dc67d4f245408374b9aebb37407b3c";
+              sha256_unsigned = "65ea0aa93dade05dda135188dc4de3b377dc67d4f245408374b9aebb37407b3c";
+              type = "bl31-uboot.fip";
+            }
+            {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-imou_lc-hx3001-initramfs-recovery.itb";
-              sha256 = "818285af2069f61bcce4813979ac31a88a29a93acaccfae72d7ab18998c61ecd";
-              sha256_unsigned = "818285af2069f61bcce4813979ac31a88a29a93acaccfae72d7ab18998c61ecd";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-imou_lc-hx3001-initramfs-recovery.itb";
+              sha256 = "f4af9e7092c78a168281614881cf34cc103beed2b1a464e864dbb843d5460233";
+              sha256_unsigned = "f4af9e7092c78a168281614881cf34cc103beed2b1a464e864dbb843d5460233";
               type = "kernel";
             }
           ];
@@ -33298,33 +33299,74 @@
             }
           ];
         };
+        iptime_ax3000q = {
+          device_packages = [
+            "kmod-mt7915e"
+            "kmod-mt7981-firmware"
+            "mt7981-wo-firmware"
+          ];
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-iptime_ax3000q";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-iptime_ax3000q-squashfs-factory.bin";
+              sha256 = "28e2ed5469c2de245fa72795c4d5949f3b9e5b50f629cd5265930e288179d449";
+              sha256_unsigned = "610a86a86b74ad5440a36202e8de55991c42cf49766c9e0149f217cf0194b4e1";
+              type = "factory";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-iptime_ax3000q-squashfs-sysupgrade.bin";
+              sha256 = "abf16ebf86eeaa82653ba35fef4dfad8b4e8707af91f90340e9217306241be9d";
+              sha256_unsigned = "610a86a86b74ad5440a36202e8de55991c42cf49766c9e0149f217cf0194b4e1";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-iptime_ax3000q-initramfs-kernel.bin";
+              sha256 = "8192da3144e391e0fc9dec4426386a49d7152160888b3bf3b45c092f28c41726";
+              sha256_unsigned = "8192da3144e391e0fc9dec4426386a49d7152160888b3bf3b45c092f28c41726";
+              type = "kernel";
+            }
+          ];
+          supported_devices = [
+            "iptime,ax3000q"
+            "mediatek,mt7981-spim-snand-rfb"
+          ];
+          titles = [
+            {
+              model = "AX3000Q";
+              vendor = "ipTIME";
+            }
+          ];
+        };
         iptime_ax3000sm = {
           device_packages = [
             "kmod-mt7915e"
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-iptime_ax3000sm";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-iptime_ax3000sm";
           images = [
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-iptime_ax3000sm-squashfs-sysupgrade.bin";
-              sha256 = "f15660fa10762f98a9d0aa9a66a5fc1ce8a113a37ecfb5aaf4db4300d16a3684";
-              sha256_unsigned = "ee073dc086f8bf2c047aa9ae4b09838289bda40c1745fd3c456d1b7113be0769";
-              type = "sysupgrade";
-            }
-            {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-iptime_ax3000sm-initramfs-kernel.bin";
-              sha256 = "529869c7859ccd77e0fe9322d0e1a17b307fb6780c0e037bdbc9d4362a29bd45";
-              sha256_unsigned = "529869c7859ccd77e0fe9322d0e1a17b307fb6780c0e037bdbc9d4362a29bd45";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-iptime_ax3000sm-initramfs-kernel.bin";
+              sha256 = "b74dd5226b5e4c7ed7e9492c9c6ae746e5b00f340fe0df04bad44086d8be4f1d";
+              sha256_unsigned = "b74dd5226b5e4c7ed7e9492c9c6ae746e5b00f340fe0df04bad44086d8be4f1d";
               type = "kernel";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-iptime_ax3000sm-squashfs-factory.bin";
-              sha256 = "93399db83d04b1d9f3785b31842aeffbe51f70edb41106c5b84a43e236704be2";
-              sha256_unsigned = "ee073dc086f8bf2c047aa9ae4b09838289bda40c1745fd3c456d1b7113be0769";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-iptime_ax3000sm-squashfs-sysupgrade.bin";
+              sha256 = "666ac8d055c16e7f255f07788d6078a4e007582c63be481b4da758d79f1fbfe6";
+              sha256_unsigned = "49c2174a6c0a3efdc65e292015c3e34fdfbed5c07cb7dae4600f05d019bad629";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-iptime_ax3000sm-squashfs-factory.bin";
+              sha256 = "d1452602b35a0031e9e703948b9f7b18184681854b796efd05537abe69df445e";
+              sha256_unsigned = "49c2174a6c0a3efdc65e292015c3e34fdfbed5c07cb7dae4600f05d019bad629";
               type = "factory";
             }
           ];
@@ -33345,32 +33387,32 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-jcg_q30-pro";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-jcg_q30-pro";
           images = [
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-jcg_q30-pro-initramfs-recovery.itb";
-              sha256 = "852908571ddd06ab1c36f919b8c3258da5554e6c7f02e3baad5632c9d7a48d5c";
-              sha256_unsigned = "852908571ddd06ab1c36f919b8c3258da5554e6c7f02e3baad5632c9d7a48d5c";
-              type = "kernel";
-            }
-            {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-jcg_q30-pro-squashfs-sysupgrade.itb";
-              sha256 = "0cb942288b50a6f07b1d1627b1a261f3a2d3db2808a5b675ee7b09b3883f5996";
-              sha256_unsigned = "6b8988716ef8a2b02051e1d397dfdd8ad7399327c09caa9d7ebf2c174a251a63";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-jcg_q30-pro-squashfs-sysupgrade.itb";
+              sha256 = "a171c97190ae0599247b910fbc7e37afe79f0c4bd682818652758f6e4ff759f5";
+              sha256_unsigned = "5bcf7c733245662cee16fbf9b1b73b14c867427b42f9c840e5004173eb54de1a";
               type = "sysupgrade";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-jcg_q30-pro-bl31-uboot.fip";
-              sha256 = "00e0406134df70cb9dd2300ebf32b06c364a98d06eeef92be579e7d73d486fc5";
-              sha256_unsigned = "00e0406134df70cb9dd2300ebf32b06c364a98d06eeef92be579e7d73d486fc5";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-jcg_q30-pro-bl31-uboot.fip";
+              sha256 = "a9bed70efee306ef3ad2c018b4d2b295d59410006127dbf75237f0b7dafe1a02";
+              sha256_unsigned = "a9bed70efee306ef3ad2c018b4d2b295d59410006127dbf75237f0b7dafe1a02";
               type = "bl31-uboot.fip";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-jcg_q30-pro-preloader.bin";
-              sha256 = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
-              sha256_unsigned = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-jcg_q30-pro-initramfs-recovery.itb";
+              sha256 = "e94cb992c674f341c5b5c80acc43e69f0a4b912e31b5b16ead336e2f4618ca91";
+              sha256_unsigned = "e94cb992c674f341c5b5c80acc43e69f0a4b912e31b5b16ead336e2f4618ca91";
+              type = "kernel";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-jcg_q30-pro-preloader.bin";
+              sha256 = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
+              sha256_unsigned = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
               type = "preloader.bin";
             }
           ];
@@ -33402,39 +33444,39 @@
             "f2fsck"
             "mkf2fs"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-jdcloud_re-cp-03";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-jdcloud_re-cp-03";
           images = [
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-jdcloud_re-cp-03-gpt.bin";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-jdcloud_re-cp-03-preloader.bin";
+              sha256 = "52184f4a9789f60c8700670e3ba6a240caa1da83aa1522300ab978fcd67afd49";
+              sha256_unsigned = "52184f4a9789f60c8700670e3ba6a240caa1da83aa1522300ab978fcd67afd49";
+              type = "preloader.bin";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-jdcloud_re-cp-03-bl31-uboot.fip";
+              sha256 = "920127eab729bba22c688a3e362a3b78cbf4d23038ca2b76555c64d8a437773d";
+              sha256_unsigned = "920127eab729bba22c688a3e362a3b78cbf4d23038ca2b76555c64d8a437773d";
+              type = "bl31-uboot.fip";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-jdcloud_re-cp-03-squashfs-sysupgrade.itb";
+              sha256 = "2fd511d8dc64b1b9ef0aa5d492ca6474143e8e9933201aac32e202cea3721272";
+              sha256_unsigned = "0edae3d96603324dec2e6da80bbe428c3d1aceb6bb2900a524e97f3abbc975bb";
+              type = "sysupgrade";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-jdcloud_re-cp-03-gpt.bin";
               sha256 = "34db7c5e7c70b6f4e82427a63dabec0098894c91eedf0c98f3013d911cc30545";
               sha256_unsigned = "34db7c5e7c70b6f4e82427a63dabec0098894c91eedf0c98f3013d911cc30545";
               type = "gpt.bin";
             }
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-jdcloud_re-cp-03-squashfs-sysupgrade.itb";
-              sha256 = "c45a1ecc5b39b33cb742eb8e9e9f824565b52460e83a4aa1162826a36139dd89";
-              sha256_unsigned = "50c248f788d2d90a611c3e2325f4df85b8ce2bd9552e85b45125d4f90eec57b2";
-              type = "sysupgrade";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-jdcloud_re-cp-03-bl31-uboot.fip";
-              sha256 = "f92d74d83a8d6f8a6b578bd5477ec9400e644f64392aecf24b5f409f23ff4d82";
-              sha256_unsigned = "f92d74d83a8d6f8a6b578bd5477ec9400e644f64392aecf24b5f409f23ff4d82";
-              type = "bl31-uboot.fip";
-            }
-            {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-jdcloud_re-cp-03-initramfs-recovery.itb";
-              sha256 = "d7500ee5295ae27de3f11cb62d44db99d6feb962930c2eea6b52af836dce4c85";
-              sha256_unsigned = "d7500ee5295ae27de3f11cb62d44db99d6feb962930c2eea6b52af836dce4c85";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-jdcloud_re-cp-03-initramfs-recovery.itb";
+              sha256 = "82fb09a0be61c869cd82784780d4c679676a61de74c8965958d22f2864b1f476";
+              sha256_unsigned = "82fb09a0be61c869cd82784780d4c679676a61de74c8965958d22f2864b1f476";
               type = "kernel";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-jdcloud_re-cp-03-preloader.bin";
-              sha256 = "5220b5ed1b495f99c24b0e51e9c6d1ff253d7cb3df89b959c2fc37960fed0ea9";
-              sha256_unsigned = "5220b5ed1b495f99c24b0e51e9c6d1ff253d7cb3df89b959c2fc37960fed0ea9";
-              type = "preloader.bin";
             }
           ];
           supported_devices = [
@@ -33454,28 +33496,28 @@
             "mt7981-wo-firmware"
             "kmod-usb3"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-keenetic_kn-3811";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-keenetic_kn-3811";
           images = [
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-keenetic_kn-3811-initramfs-kernel.bin";
-              sha256 = "4d5532395bcf1aaf5619e2e27a51e4ee9349e8f4108b366fc55d7bcbca1de9e4";
-              sha256_unsigned = "4d5532395bcf1aaf5619e2e27a51e4ee9349e8f4108b366fc55d7bcbca1de9e4";
-              type = "kernel";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-keenetic_kn-3811-squashfs-factory.bin";
+              sha256 = "a8afd5691db7af434e605b2a5116d0b8923096b87f1158dcf61c6a1179e4135f";
+              sha256_unsigned = "a8afd5691db7af434e605b2a5116d0b8923096b87f1158dcf61c6a1179e4135f";
+              type = "factory";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-keenetic_kn-3811-squashfs-sysupgrade.bin";
-              sha256 = "af0b0a6867f41ddbd0dcd330d91d8476a2fb89fbe57d6daa668684afb0bd186c";
-              sha256_unsigned = "187f5e2c9f94b520b014a57b0ef6a14a51521c356f472f95fe174495cb9bc24e";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-keenetic_kn-3811-squashfs-sysupgrade.bin";
+              sha256 = "a554186a915a55f79cf5e709345ce8d3919a88100475a3ce1e36cd2763d16727";
+              sha256_unsigned = "4e91e15d45a75cfa42dcc085ffb017c4146cc26655fcceed0d7870140b72cae8";
               type = "sysupgrade";
             }
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-keenetic_kn-3811-squashfs-factory.bin";
-              sha256 = "29c3a140fe8bd38050d72b5011f153fd8def7e13aa4bbaca00fb7ac3332b5d0e";
-              sha256_unsigned = "29c3a140fe8bd38050d72b5011f153fd8def7e13aa4bbaca00fb7ac3332b5d0e";
-              type = "factory";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-keenetic_kn-3811-initramfs-kernel.bin";
+              sha256 = "8c43d14ad445566858d34def3e59511e38665a6f2825506553f37e5ef9d2e39b";
+              sha256_unsigned = "8c43d14ad445566858d34def3e59511e38665a6f2825506553f37e5ef9d2e39b";
+              type = "kernel";
             }
           ];
           supported_devices = [
@@ -33495,28 +33537,28 @@
             "mt7981-wo-firmware"
             "kmod-phy-airoha-en8811h"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-keenetic_kn-3911";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-keenetic_kn-3911";
           images = [
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-keenetic_kn-3911-squashfs-sysupgrade.bin";
-              sha256 = "65b87ecade6a19140e56db5a091aea139a0690aa5d2eb6929338bea7bb086c1b";
-              sha256_unsigned = "88b62f0fdcc6ac24039b57f080db399c62551698a577ea6b38ee3fef69397242";
-              type = "sysupgrade";
-            }
-            {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-keenetic_kn-3911-squashfs-factory.bin";
-              sha256 = "c2d7aa5ddd189c70a0f8d3cf09141a6c6e5ead2790eea9c6804f84b3b5f7168a";
-              sha256_unsigned = "c2d7aa5ddd189c70a0f8d3cf09141a6c6e5ead2790eea9c6804f84b3b5f7168a";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-keenetic_kn-3911-squashfs-factory.bin";
+              sha256 = "753830e405ebfe1eeb6b701aee77ac43c028ab5f64f9819c297f716c259be4e0";
+              sha256_unsigned = "753830e405ebfe1eeb6b701aee77ac43c028ab5f64f9819c297f716c259be4e0";
               type = "factory";
             }
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-keenetic_kn-3911-initramfs-kernel.bin";
-              sha256 = "6a3e23b3d4a796f56569a8bcf98e5cf52a638eb9fc1271989c5a6909874c0865";
-              sha256_unsigned = "6a3e23b3d4a796f56569a8bcf98e5cf52a638eb9fc1271989c5a6909874c0865";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-keenetic_kn-3911-initramfs-kernel.bin";
+              sha256 = "f616040b2b55ddb980bc51d3590f147bcd856c94648356e5a8423feaafefc690";
+              sha256_unsigned = "f616040b2b55ddb980bc51d3590f147bcd856c94648356e5a8423feaafefc690";
               type = "kernel";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-keenetic_kn-3911-squashfs-sysupgrade.bin";
+              sha256 = "61be7d23617e86bba7ac227003dc0e2c3895a0e895538c6749272501129d7176";
+              sha256_unsigned = "668b412e9a1483b7c96fd7a45461aff31433b211522c2a92301d24ddc0278075";
+              type = "sysupgrade";
             }
           ];
           supported_devices = [
@@ -33535,63 +33577,63 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-konka_komi-a31";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-konka_komi-a31";
           images = [
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-konka_komi-a31-nor-bl31-uboot.fip";
-              sha256 = "1ecbdce6605af68a6aabca5df5af964bf8180d42d91cda4c1a0e5ccde185f6ba";
-              sha256_unsigned = "1ecbdce6605af68a6aabca5df5af964bf8180d42d91cda4c1a0e5ccde185f6ba";
-              type = "nor-bl31-uboot.fip";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-konka_komi-a31-preloader.bin";
-              sha256 = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
-              sha256_unsigned = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
-              type = "preloader.bin";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-konka_komi-a31-emmc-bl31-uboot.fip";
-              sha256 = "e8c986c410d28e1d1344682fa3d52d1e791ee0641a1d6895f076a1709ae39a4e";
-              sha256_unsigned = "e8c986c410d28e1d1344682fa3d52d1e791ee0641a1d6895f076a1709ae39a4e";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-konka_komi-a31-emmc-bl31-uboot.fip";
+              sha256 = "686292692c59989e47dab29e29843e8732233f74d180664b1bd2a9a354f75e2a";
+              sha256_unsigned = "686292692c59989e47dab29e29843e8732233f74d180664b1bd2a9a354f75e2a";
               type = "emmc-bl31-uboot.fip";
             }
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-konka_komi-a31-squashfs-sysupgrade.itb";
-              sha256 = "9f4b398fd97c84c8c6cbeadfc173cda38c7a7310125e1ad74a6e955a5afdeea7";
-              sha256_unsigned = "41c2362b5dea42934a418e196d62a71852c71258826f401a095e33df4f5c06ce";
-              type = "sysupgrade";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-konka_komi-a31-nor-bl31-uboot.fip";
+              sha256 = "d21e3e81129141670c42ee97f127a7a878f779ef0ec1081e7952f449ca861133";
+              sha256_unsigned = "d21e3e81129141670c42ee97f127a7a878f779ef0ec1081e7952f449ca861133";
+              type = "nor-bl31-uboot.fip";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-konka_komi-a31-bl31-uboot.fip";
+              sha256 = "afc01d149a2ec9308f2de7b18b39c4744873293c311929842038e1a18605e312";
+              sha256_unsigned = "afc01d149a2ec9308f2de7b18b39c4744873293c311929842038e1a18605e312";
+              type = "bl31-uboot.fip";
             }
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-konka_komi-a31-initramfs-recovery.itb";
-              sha256 = "22e91edb3dad1b293b383a0e43887e9c7e2b77adb3cb8274f14150d4c9eb3a15";
-              sha256_unsigned = "22e91edb3dad1b293b383a0e43887e9c7e2b77adb3cb8274f14150d4c9eb3a15";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-konka_komi-a31-initramfs-recovery.itb";
+              sha256 = "9483e840ce92fca76d455c3ebe47ac4a519f989cbd6ec12b67a102b9818ec521";
+              sha256_unsigned = "9483e840ce92fca76d455c3ebe47ac4a519f989cbd6ec12b67a102b9818ec521";
               type = "kernel";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-konka_komi-a31-emmc-gpt.bin";
-              sha256 = "34db7c5e7c70b6f4e82427a63dabec0098894c91eedf0c98f3013d911cc30545";
-              sha256_unsigned = "34db7c5e7c70b6f4e82427a63dabec0098894c91eedf0c98f3013d911cc30545";
-              type = "emmc-gpt.bin";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-konka_komi-a31-nor-preloader.bin";
-              sha256 = "230381e91e9e8afbf4cf44df2aa7942d249fccd58ab9685a82597baad99cbd45";
-              sha256_unsigned = "230381e91e9e8afbf4cf44df2aa7942d249fccd58ab9685a82597baad99cbd45";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-konka_komi-a31-nor-preloader.bin";
+              sha256 = "0f5f6ae50320544fd1bab72fccdbd7fa41a463c2140fd67d8d24017dca7929df";
+              sha256_unsigned = "0f5f6ae50320544fd1bab72fccdbd7fa41a463c2140fd67d8d24017dca7929df";
               type = "nor-preloader.bin";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-konka_komi-a31-emmc-preloader.bin";
-              sha256 = "1481516334d6d99306da4c1f040f1517dbc38a87c04d0f4f844491097b084b1f";
-              sha256_unsigned = "1481516334d6d99306da4c1f040f1517dbc38a87c04d0f4f844491097b084b1f";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-konka_komi-a31-squashfs-sysupgrade.itb";
+              sha256 = "c897c8d511055058b2ec94c18b8c934569ee8bf38d0972a58cd2df19c0dd9675";
+              sha256_unsigned = "0685b55d564f3547117a933ee393263649c9b5c2e03b01d22b333059786b8152";
+              type = "sysupgrade";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-konka_komi-a31-emmc-preloader.bin";
+              sha256 = "db4d81185b4f446f8d6eed01582256c8e9cff4bf644545cc2d4b1a5812d34caf";
+              sha256_unsigned = "db4d81185b4f446f8d6eed01582256c8e9cff4bf644545cc2d4b1a5812d34caf";
               type = "emmc-preloader.bin";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-konka_komi-a31-bl31-uboot.fip";
-              sha256 = "d73dc901618987d81aef5dff38d894489821453e402ab2f019f60675a905d10f";
-              sha256_unsigned = "d73dc901618987d81aef5dff38d894489821453e402ab2f019f60675a905d10f";
-              type = "bl31-uboot.fip";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-konka_komi-a31-preloader.bin";
+              sha256 = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
+              sha256_unsigned = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
+              type = "preloader.bin";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-konka_komi-a31-emmc-gpt.bin";
+              sha256 = "34db7c5e7c70b6f4e82427a63dabec0098894c91eedf0c98f3013d911cc30545";
+              sha256_unsigned = "34db7c5e7c70b6f4e82427a63dabec0098894c91eedf0c98f3013d911cc30545";
+              type = "emmc-gpt.bin";
             }
           ];
           supported_devices = [
@@ -33618,28 +33660,28 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-livinet_zr-3020";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-livinet_zr-3020";
           images = [
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-livinet_zr-3020-initramfs-kernel.bin";
-              sha256 = "bba76964cfcb16e536975fd93b49b6cf43f586b931f124a711c4dccd62907fdb";
-              sha256_unsigned = "bba76964cfcb16e536975fd93b49b6cf43f586b931f124a711c4dccd62907fdb";
-              type = "kernel";
-            }
-            {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-livinet_zr-3020-squashfs-factory.bin";
-              sha256 = "7348cb67810343aa72004d2df923d19e07f5f062e3501677b94f35f51ae32016";
-              sha256_unsigned = "7348cb67810343aa72004d2df923d19e07f5f062e3501677b94f35f51ae32016";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-livinet_zr-3020-squashfs-factory.bin";
+              sha256 = "2d8bb232fa9546e14a03173a36eae54a9c19fe2fd7398268b2a8b0bc6f475c0c";
+              sha256_unsigned = "2d8bb232fa9546e14a03173a36eae54a9c19fe2fd7398268b2a8b0bc6f475c0c";
               type = "factory";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-livinet_zr-3020-squashfs-sysupgrade.bin";
-              sha256 = "17b0392791c78a2328d05d80e5111ca916fe5ada24b370f7e5d4456f70419825";
-              sha256_unsigned = "0c770a54a58adc1d1eeb409ed1b1d0b5e4a9f61d98ef4504fa60da574639e3bd";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-livinet_zr-3020-squashfs-sysupgrade.bin";
+              sha256 = "d71b1159e426af30955fc7c9568dc4b3d309f949176f941d333b6d684dc298e4";
+              sha256_unsigned = "8d843ea47cf0c4005166671512572889a4eb06561d278d2f440ccc297ce21dc4";
               type = "sysupgrade";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-livinet_zr-3020-initramfs-kernel.bin";
+              sha256 = "7e16367abda1cbdc990e03eb5a3940dfab908e9c6557dc770f745111639a0f87";
+              sha256_unsigned = "7e16367abda1cbdc990e03eb5a3940dfab908e9c6557dc770f745111639a0f87";
+              type = "kernel";
             }
           ];
           supported_devices = [
@@ -33660,33 +33702,33 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-livinet_zr-3020-ubootmod";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-livinet_zr-3020-ubootmod";
           images = [
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-livinet_zr-3020-ubootmod-preloader.bin";
-              sha256 = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
-              sha256_unsigned = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-livinet_zr-3020-ubootmod-preloader.bin";
+              sha256 = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
+              sha256_unsigned = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
               type = "preloader.bin";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-livinet_zr-3020-ubootmod-bl31-uboot.fip";
-              sha256 = "9b915150239b957697a74e7ea7740238afb57d8155829cfa009a37829b631fcb";
-              sha256_unsigned = "9b915150239b957697a74e7ea7740238afb57d8155829cfa009a37829b631fcb";
-              type = "bl31-uboot.fip";
-            }
-            {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-livinet_zr-3020-ubootmod-initramfs-recovery.itb";
-              sha256 = "24c90be8d80db859e0ce36fe86fd849feee41eb4206d7ae388fea44389f796f7";
-              sha256_unsigned = "24c90be8d80db859e0ce36fe86fd849feee41eb4206d7ae388fea44389f796f7";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-livinet_zr-3020-ubootmod-initramfs-recovery.itb";
+              sha256 = "3d17c34e1ecd73c4847efdf5181d689b079db2408268cd57feb590012e6d4423";
+              sha256_unsigned = "3d17c34e1ecd73c4847efdf5181d689b079db2408268cd57feb590012e6d4423";
               type = "kernel";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-livinet_zr-3020-ubootmod-squashfs-sysupgrade.itb";
-              sha256 = "9fd210b473f1eee2675ab1610a6cbb5925add07d238a7885402270097a08942b";
-              sha256_unsigned = "781260eda6995680b6a581c39a90b78470c3031012bc0ecfab3494c596549c77";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-livinet_zr-3020-ubootmod-squashfs-sysupgrade.itb";
+              sha256 = "e5d11b12c4ecac1ec0133751e2fb9ea575eac4fe793b03e10562760aaef18c20";
+              sha256_unsigned = "a96b245db38e4a6d52d2511fbf86e99898c3457e0246dea37dd1685554214f04";
               type = "sysupgrade";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-livinet_zr-3020-ubootmod-bl31-uboot.fip";
+              sha256 = "43110953bd746a2e743f5769ea68951baf627520247453ebcf13d417eaa3840e";
+              sha256_unsigned = "43110953bd746a2e743f5769ea68951baf627520247453ebcf13d417eaa3840e";
+              type = "bl31-uboot.fip";
             }
           ];
           supported_devices = [
@@ -33710,75 +33752,75 @@
             "mkf2fs"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mediatek_mt7981-rfb";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mediatek_mt7981-rfb";
           images = [
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mediatek_mt7981-rfb-initramfs.itb";
-              sha256 = "c16a144c0e5ccf0e317b928b18ebd144073bd8060d7dcd8f0ad89c3c850c6622";
-              sha256_unsigned = "c16a144c0e5ccf0e317b928b18ebd144073bd8060d7dcd8f0ad89c3c850c6622";
-              type = "kernel";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mediatek_mt7981-rfb-nor-preloader.bin";
-              sha256 = "230381e91e9e8afbf4cf44df2aa7942d249fccd58ab9685a82597baad99cbd45";
-              sha256_unsigned = "230381e91e9e8afbf4cf44df2aa7942d249fccd58ab9685a82597baad99cbd45";
-              type = "nor-preloader.bin";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mediatek_mt7981-rfb-emmc-preloader.bin";
-              sha256 = "1481516334d6d99306da4c1f040f1517dbc38a87c04d0f4f844491097b084b1f";
-              sha256_unsigned = "1481516334d6d99306da4c1f040f1517dbc38a87c04d0f4f844491097b084b1f";
-              type = "emmc-preloader.bin";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mediatek_mt7981-rfb-snfi-nand-preloader.bin";
-              sha256 = "4506c1924a96ec23cc826f37a275245dfa76560fdef24d48addd6e820ba4bd0a";
-              sha256_unsigned = "4506c1924a96ec23cc826f37a275245dfa76560fdef24d48addd6e820ba4bd0a";
-              type = "snfi-nand-preloader.bin";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mediatek_mt7981-rfb-nor-bl31-uboot.fip";
-              sha256 = "ad3112848257e63b43692dec43b92f96832dc01b358e2c2821cbcfa75dd7dfbe";
-              sha256_unsigned = "ad3112848257e63b43692dec43b92f96832dc01b358e2c2821cbcfa75dd7dfbe";
-              type = "nor-bl31-uboot.fip";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mediatek_mt7981-rfb-spim-nand-preloader.bin";
-              sha256 = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
-              sha256_unsigned = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mediatek_mt7981-rfb-spim-nand-preloader.bin";
+              sha256 = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
+              sha256_unsigned = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
               type = "spim-nand-preloader.bin";
             }
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mediatek_mt7981-rfb-squashfs-sysupgrade.itb";
-              sha256 = "824524e874e18b63901d6500201e718e38314c18752f6f23b635b2a56b0de490";
-              sha256_unsigned = "1e63841c7bc131bed1a5b8632da91931c726a7c035e7e61960fa0d86b2a4a020";
-              type = "sysupgrade";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mediatek_mt7981-rfb-nor-preloader.bin";
+              sha256 = "0f5f6ae50320544fd1bab72fccdbd7fa41a463c2140fd67d8d24017dca7929df";
+              sha256_unsigned = "0f5f6ae50320544fd1bab72fccdbd7fa41a463c2140fd67d8d24017dca7929df";
+              type = "nor-preloader.bin";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mediatek_mt7981-rfb-snfi-nand-bl31-uboot.fip";
-              sha256 = "a05d1e0676534d494a48e7b88a07dbfe3074fda0967677561d8d8aeacc06f9f3";
-              sha256_unsigned = "a05d1e0676534d494a48e7b88a07dbfe3074fda0967677561d8d8aeacc06f9f3";
-              type = "snfi-nand-bl31-uboot.fip";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mediatek_mt7981-rfb-snfi-nand-preloader.bin";
+              sha256 = "9e8bccdc27737440ae904b38bc3cb1d9e31fb22780e2520be64b0e50eb6febb4";
+              sha256_unsigned = "9e8bccdc27737440ae904b38bc3cb1d9e31fb22780e2520be64b0e50eb6febb4";
+              type = "snfi-nand-preloader.bin";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mediatek_mt7981-rfb-emmc-bl31-uboot.fip";
-              sha256 = "ad3112848257e63b43692dec43b92f96832dc01b358e2c2821cbcfa75dd7dfbe";
-              sha256_unsigned = "ad3112848257e63b43692dec43b92f96832dc01b358e2c2821cbcfa75dd7dfbe";
-              type = "emmc-bl31-uboot.fip";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mediatek_mt7981-rfb-spim-nand-bl31-uboot.fip";
-              sha256 = "a22acf1db6db9d23d92235b0e48e6e09754f69f8beb2a0c22dcbcd4bc24ad1e9";
-              sha256_unsigned = "a22acf1db6db9d23d92235b0e48e6e09754f69f8beb2a0c22dcbcd4bc24ad1e9";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mediatek_mt7981-rfb-spim-nand-bl31-uboot.fip";
+              sha256 = "54a4ce42bc4e7612d14ddbe6ea72e28c74fb28899238b98079b3c7ffdcaf3c4a";
+              sha256_unsigned = "54a4ce42bc4e7612d14ddbe6ea72e28c74fb28899238b98079b3c7ffdcaf3c4a";
               type = "spim-nand-bl31-uboot.fip";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mediatek_mt7981-rfb-sdcard.img.gz";
-              sha256 = "709a8ff0fba0bd5b1703a4c8bbf7542adb84a4036af16ff70b617382cf3673af";
-              sha256_unsigned = "709a8ff0fba0bd5b1703a4c8bbf7542adb84a4036af16ff70b617382cf3673af";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mediatek_mt7981-rfb-snfi-nand-bl31-uboot.fip";
+              sha256 = "a8575060113b8dcd53ee76288f0ee8239cd67111db0e82a3974d5a1f7e481361";
+              sha256_unsigned = "a8575060113b8dcd53ee76288f0ee8239cd67111db0e82a3974d5a1f7e481361";
+              type = "snfi-nand-bl31-uboot.fip";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mediatek_mt7981-rfb-nor-bl31-uboot.fip";
+              sha256 = "9901f6cb0339c1135521ed06681fe0e98242e22a4f64b0bde84d9fdd8bcf9bbe";
+              sha256_unsigned = "9901f6cb0339c1135521ed06681fe0e98242e22a4f64b0bde84d9fdd8bcf9bbe";
+              type = "nor-bl31-uboot.fip";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mediatek_mt7981-rfb-initramfs.itb";
+              sha256 = "17418512e3f379988555671e44ff3c3906644bcb19de29ec661933c5d1655873";
+              sha256_unsigned = "17418512e3f379988555671e44ff3c3906644bcb19de29ec661933c5d1655873";
+              type = "kernel";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mediatek_mt7981-rfb-emmc-bl31-uboot.fip";
+              sha256 = "9901f6cb0339c1135521ed06681fe0e98242e22a4f64b0bde84d9fdd8bcf9bbe";
+              sha256_unsigned = "9901f6cb0339c1135521ed06681fe0e98242e22a4f64b0bde84d9fdd8bcf9bbe";
+              type = "emmc-bl31-uboot.fip";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mediatek_mt7981-rfb-sdcard.img.gz";
+              sha256 = "6374a84b65af1a0e74ca6c88015b0dd16a997407ffcb7ce3f047d3e2988cb30a";
+              sha256_unsigned = "6374a84b65af1a0e74ca6c88015b0dd16a997407ffcb7ce3f047d3e2988cb30a";
               type = "sdcard.img.gz";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mediatek_mt7981-rfb-squashfs-sysupgrade.itb";
+              sha256 = "b4fcf723dcb6dab15cdab747d9751b3c1444038c2445c6641d6e2f9617fd329e";
+              sha256_unsigned = "3c230c303cf47109c6a0f36c352be88a8447c517c7a232f7aa5d086b70a39f42";
+              type = "sysupgrade";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mediatek_mt7981-rfb-emmc-preloader.bin";
+              sha256 = "db4d81185b4f446f8d6eed01582256c8e9cff4bf644545cc2d4b1a5812d34caf";
+              sha256_unsigned = "db4d81185b4f446f8d6eed01582256c8e9cff4bf644545cc2d4b1a5812d34caf";
+              type = "emmc-preloader.bin";
             }
           ];
           supported_devices = [
@@ -33797,28 +33839,28 @@
             "kmod-mt7986-firmware"
             "mt7986-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mediatek_mt7986a-rfb-nand";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mediatek_mt7986a-rfb-nand";
           images = [
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mediatek_mt7986a-rfb-nand-initramfs-kernel.bin";
-              sha256 = "e18575d3b0d7f0156fe5e398925c481bfeef1efd2c0d4a193169a3f399ee99a2";
-              sha256_unsigned = "e18575d3b0d7f0156fe5e398925c481bfeef1efd2c0d4a193169a3f399ee99a2";
-              type = "kernel";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mediatek_mt7986a-rfb-nand-squashfs-sysupgrade.bin";
+              sha256 = "5f953b849bf38268675cacaa048ea9aee2725aced8671d8d1f6206a0cbbb9beb";
+              sha256_unsigned = "3a51d9822bb735c72a19741d41abe2c1aa72fb94743695fcdd524a264bb014e5";
+              type = "sysupgrade";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mediatek_mt7986a-rfb-nand-squashfs-factory.bin";
-              sha256 = "9ab173fbe70e00d70c6cc028343b28a941e482759a8e4ee9fa76d1c51b7caeea";
-              sha256_unsigned = "9ab173fbe70e00d70c6cc028343b28a941e482759a8e4ee9fa76d1c51b7caeea";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mediatek_mt7986a-rfb-nand-squashfs-factory.bin";
+              sha256 = "7668a8ebd01fec38ce98f7d069fb6935ccda662c520c0966ccb0580faf2101bd";
+              sha256_unsigned = "7668a8ebd01fec38ce98f7d069fb6935ccda662c520c0966ccb0580faf2101bd";
               type = "factory";
             }
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mediatek_mt7986a-rfb-nand-squashfs-sysupgrade.bin";
-              sha256 = "c7d763c027a3d2a579beb8578ad0124d18134754bba3b1ca2d399a2cab3a112f";
-              sha256_unsigned = "7ee59fbb32d7e87f4df26844988adc51789156732702bfbd2126e5af53f95a5b";
-              type = "sysupgrade";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mediatek_mt7986a-rfb-nand-initramfs-kernel.bin";
+              sha256 = "0c57d9b0c697448a0ba1a63833d01044306506ae89d08d7bc287a9d5cfda66d9";
+              sha256_unsigned = "0c57d9b0c697448a0ba1a63833d01044306506ae89d08d7bc287a9d5cfda66d9";
+              type = "kernel";
             }
           ];
           supported_devices = [
@@ -33837,28 +33879,28 @@
             "kmod-mt7986-firmware"
             "mt7986-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mediatek_mt7986b-rfb";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mediatek_mt7986b-rfb";
           images = [
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mediatek_mt7986b-rfb-squashfs-sysupgrade.bin";
-              sha256 = "5457effdb2c66c395f5b2d816ccea013abe69ce8739ac65d5031e0e7fd6c98fe";
-              sha256_unsigned = "5c9a1cc57ffc5401a1373cf1cb1fb7bfb43669b556fee0d9de50d928f09ee54a";
-              type = "sysupgrade";
-            }
-            {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mediatek_mt7986b-rfb-initramfs-kernel.bin";
-              sha256 = "209388beaa34539ac4515aa5e0ec561532addde25fc5373fc123f10797281718";
-              sha256_unsigned = "209388beaa34539ac4515aa5e0ec561532addde25fc5373fc123f10797281718";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mediatek_mt7986b-rfb-initramfs-kernel.bin";
+              sha256 = "082d5b8dcb51c2b15c21a6cbf1039738f5153949dfd71b12629df8bc6f8dc4f9";
+              sha256_unsigned = "082d5b8dcb51c2b15c21a6cbf1039738f5153949dfd71b12629df8bc6f8dc4f9";
               type = "kernel";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mediatek_mt7986b-rfb-squashfs-factory.bin";
-              sha256 = "11a54386a0f8d275984a543f1da297a6407eaca79fbcdc767dd439529bd4f9c7";
-              sha256_unsigned = "11a54386a0f8d275984a543f1da297a6407eaca79fbcdc767dd439529bd4f9c7";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mediatek_mt7986b-rfb-squashfs-factory.bin";
+              sha256 = "a551aca310292a422ed0eb26ac188925096a79fdad2a44986ab13624ffece16b";
+              sha256_unsigned = "a551aca310292a422ed0eb26ac188925096a79fdad2a44986ab13624ffece16b";
               type = "factory";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mediatek_mt7986b-rfb-squashfs-sysupgrade.bin";
+              sha256 = "056abe77e69360b378de28a1af64ce2f85ce56c6590cc79537feb1658d31cee7";
+              sha256_unsigned = "a04a1a99f61c9dfba719d269d23ee1203dc1ecfb3489bb548b955f949533c3bc";
+              type = "sysupgrade";
             }
           ];
           supported_devices = [
@@ -33876,69 +33918,69 @@
             "mt7988-2p5g-phy-firmware"
             "kmod-sfp"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mediatek_mt7988a-rfb";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mediatek_mt7988a-rfb";
           images = [
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mediatek_mt7988a-rfb-initramfs.itb";
-              sha256 = "7850098800a4c8ef64cd993bf0ef484e327b38501b8792df9fb77fac32cc4fd3";
-              sha256_unsigned = "7850098800a4c8ef64cd993bf0ef484e327b38501b8792df9fb77fac32cc4fd3";
-              type = "kernel";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mediatek_mt7988a-rfb-nor-bl31-uboot.fip";
-              sha256 = "bd77f23fd35367000cc7e3b7cffe0148eb374b8c853432ec2fcfcc8894a7ce81";
-              sha256_unsigned = "bd77f23fd35367000cc7e3b7cffe0148eb374b8c853432ec2fcfcc8894a7ce81";
-              type = "nor-bl31-uboot.fip";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mediatek_mt7988a-rfb-snand-bl31-uboot.fip";
-              sha256 = "71bacf2d15801a4ba5ef2027186ac28948c889dfb890e091f8b8b30de64bf3aa";
-              sha256_unsigned = "71bacf2d15801a4ba5ef2027186ac28948c889dfb890e091f8b8b30de64bf3aa";
-              type = "snand-bl31-uboot.fip";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mediatek_mt7988a-rfb-nor-preloader.bin";
-              sha256 = "1c774580c71985d4f00c5cbd11b0afaba6d583024431c4a10ebbb5405b097f3d";
-              sha256_unsigned = "1c774580c71985d4f00c5cbd11b0afaba6d583024431c4a10ebbb5405b097f3d";
-              type = "nor-preloader.bin";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mediatek_mt7988a-rfb-sdcard.img.gz";
-              sha256 = "1c4465f8911ed5d116f4cc9793c402e2877cdfa7c1d193bc53ec68613538f5b0";
-              sha256_unsigned = "1c4465f8911ed5d116f4cc9793c402e2877cdfa7c1d193bc53ec68613538f5b0";
-              type = "sdcard.img.gz";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mediatek_mt7988a-rfb-snand-preloader.bin";
-              sha256 = "ec7df5fb2c9f18c08f9300e722bcb2bcf4fc9da283dc6005f1d7af0b8e3227cc";
-              sha256_unsigned = "ec7df5fb2c9f18c08f9300e722bcb2bcf4fc9da283dc6005f1d7af0b8e3227cc";
-              type = "snand-preloader.bin";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mediatek_mt7988a-rfb-emmc-bl31-uboot.fip";
-              sha256 = "0126b6f965d6b20311dadb19aebe4ef3d33c35f106e78c73675484eee7061f6a";
-              sha256_unsigned = "0126b6f965d6b20311dadb19aebe4ef3d33c35f106e78c73675484eee7061f6a";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mediatek_mt7988a-rfb-emmc-bl31-uboot.fip";
+              sha256 = "c31a1eaa82f93dc28bc62fa651b841f7bd3d12ea6a5e11e908c6a5c0f9a4eeb2";
+              sha256_unsigned = "c31a1eaa82f93dc28bc62fa651b841f7bd3d12ea6a5e11e908c6a5c0f9a4eeb2";
               type = "emmc-bl31-uboot.fip";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mediatek_mt7988a-rfb-emmc-gpt.bin";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mediatek_mt7988a-rfb-nor-preloader.bin";
+              sha256 = "03020c245276517a183c908461c969d78d726a3b8e4feac36ffc71aa1f3b741f";
+              sha256_unsigned = "03020c245276517a183c908461c969d78d726a3b8e4feac36ffc71aa1f3b741f";
+              type = "nor-preloader.bin";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mediatek_mt7988a-rfb-initramfs.itb";
+              sha256 = "b2c905e3889a48dc0074a43246a5a8849fef52a5cb790615963cc517b821cc21";
+              sha256_unsigned = "b2c905e3889a48dc0074a43246a5a8849fef52a5cb790615963cc517b821cc21";
+              type = "kernel";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mediatek_mt7988a-rfb-nor-bl31-uboot.fip";
+              sha256 = "e46c8d0fa37b182ef9c2a686756ab13f238de4dc537dc8b421a7ed32eeba13ea";
+              sha256_unsigned = "e46c8d0fa37b182ef9c2a686756ab13f238de4dc537dc8b421a7ed32eeba13ea";
+              type = "nor-bl31-uboot.fip";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mediatek_mt7988a-rfb-snand-preloader.bin";
+              sha256 = "a9dfa92d28b18de1494885f6c8076ba24f3c2b40108540c70ced038e6883b6dc";
+              sha256_unsigned = "a9dfa92d28b18de1494885f6c8076ba24f3c2b40108540c70ced038e6883b6dc";
+              type = "snand-preloader.bin";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mediatek_mt7988a-rfb-emmc-preloader.bin";
+              sha256 = "278ef67bb999ce4ffae653ea5920049aae2a4b89eb7d2e56c23b6f8f4d4c7c33";
+              sha256_unsigned = "278ef67bb999ce4ffae653ea5920049aae2a4b89eb7d2e56c23b6f8f4d4c7c33";
+              type = "emmc-preloader.bin";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mediatek_mt7988a-rfb-sdcard.img.gz";
+              sha256 = "e967409db619c5a4000da0bf27d56be147fe29942624b5c1d3d2f59505af8fc2";
+              sha256_unsigned = "e967409db619c5a4000da0bf27d56be147fe29942624b5c1d3d2f59505af8fc2";
+              type = "sdcard.img.gz";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mediatek_mt7988a-rfb-snand-bl31-uboot.fip";
+              sha256 = "c5809d271d532c723f863c68167424fa6dbc3873fd1ad0105c57835934b658b2";
+              sha256_unsigned = "c5809d271d532c723f863c68167424fa6dbc3873fd1ad0105c57835934b658b2";
+              type = "snand-bl31-uboot.fip";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mediatek_mt7988a-rfb-emmc-gpt.bin";
               sha256 = "34db7c5e7c70b6f4e82427a63dabec0098894c91eedf0c98f3013d911cc30545";
               sha256_unsigned = "34db7c5e7c70b6f4e82427a63dabec0098894c91eedf0c98f3013d911cc30545";
               type = "emmc-gpt.bin";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mediatek_mt7988a-rfb-squashfs-sysupgrade.itb";
-              sha256 = "2ed5fc59c1e0812b5a4aedda98879348765048589f62d237f8567191a8687355";
-              sha256_unsigned = "fd3b05a53c4e0425102d9fccc68825f8429e26dc248611276dcda72f3ba7551b";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mediatek_mt7988a-rfb-squashfs-sysupgrade.itb";
+              sha256 = "439eb6f5d356962aaa1c6f808b5fabe0ad8212fd9a991dd3ec07fa6749199815";
+              sha256_unsigned = "9c3c3c27639c619489a3e3e56b3eb1e4862a5aaceb27179f137fd821bea57558";
               type = "sysupgrade";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mediatek_mt7988a-rfb-emmc-preloader.bin";
-              sha256 = "40bc3fa196a901bcbcdf02032fe6a827b08ac4037537cb16bd3b07d082d51417";
-              sha256_unsigned = "40bc3fa196a901bcbcdf02032fe6a827b08ac4037537cb16bd3b07d082d51417";
-              type = "emmc-preloader.bin";
             }
           ];
           supported_devices = [
@@ -33957,21 +33999,21 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mercusys_mr80x-v3";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mercusys_mr80x-v3";
           images = [
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mercusys_mr80x-v3-squashfs-sysupgrade.bin";
-              sha256 = "275f7abf71850732f47da7eb4a2bb2d78e7b51065dd4c9b8967182bff9d18541";
-              sha256_unsigned = "f87ecfbd23bf8f7bdada5c00b07321fb03a4d8f53388a6e978a902017024be28";
-              type = "sysupgrade";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mercusys_mr80x-v3-initramfs-kernel.bin";
+              sha256 = "6b178fc1c2149c862b08ceea96f1a4f72024f47cc7c20659c31816d29f95779c";
+              sha256_unsigned = "6b178fc1c2149c862b08ceea96f1a4f72024f47cc7c20659c31816d29f95779c";
+              type = "kernel";
             }
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mercusys_mr80x-v3-initramfs-kernel.bin";
-              sha256 = "0c6cbf45ff59b3941e5d178e9ed7111731a8e2d696d4e1ee2380f28388ca2c11";
-              sha256_unsigned = "0c6cbf45ff59b3941e5d178e9ed7111731a8e2d696d4e1ee2380f28388ca2c11";
-              type = "kernel";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mercusys_mr80x-v3-squashfs-sysupgrade.bin";
+              sha256 = "d7556fad82afc99b7522b67914a373b3183d830586bb6e577c551d1e9f75c568";
+              sha256_unsigned = "75e8b7b8a572f9d23ced67f011525c832eefea4d65afedbbb7e9fcc53f3381c4";
+              type = "sysupgrade";
             }
           ];
           supported_devices = [
@@ -33991,21 +34033,21 @@
             "kmod-mt7986-firmware"
             "mt7986-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mercusys_mr90x-v1";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mercusys_mr90x-v1";
           images = [
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mercusys_mr90x-v1-squashfs-sysupgrade.bin";
-              sha256 = "46579c27905cd1dd7b3656dc78afabd2403553fabb071dc29bcf32a4cbbed13c";
-              sha256_unsigned = "8e5d54d2c7e256e03001c1f5dd5c5ebaae320e3fb49d18cdbf8a3f77c386bace";
-              type = "sysupgrade";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mercusys_mr90x-v1-initramfs-kernel.bin";
+              sha256 = "7122ca3783647067f8c3f6cf51f5bea6802d45345ad6cb4678b80984c88f41bc";
+              sha256_unsigned = "7122ca3783647067f8c3f6cf51f5bea6802d45345ad6cb4678b80984c88f41bc";
+              type = "kernel";
             }
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mercusys_mr90x-v1-initramfs-kernel.bin";
-              sha256 = "57ce9c86a2dae88ff5ef34fdb3984950fb2dc0b249b59cd22fbbf7acf70a8a79";
-              sha256_unsigned = "57ce9c86a2dae88ff5ef34fdb3984950fb2dc0b249b59cd22fbbf7acf70a8a79";
-              type = "kernel";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mercusys_mr90x-v1-squashfs-sysupgrade.bin";
+              sha256 = "975a5746c6f8ced30e5fb3bbb8ad3747707a74af3dc24412574621fa133db70f";
+              sha256_unsigned = "a7b30088cfb4dc24a5b8285c14fb43bc5cfc2da1f7f71b273f638c8853bbe638";
+              type = "sysupgrade";
             }
           ];
           supported_devices = [
@@ -34024,33 +34066,33 @@
             "kmod-mt7986-firmware"
             "mt7986-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mercusys_mr90x-v1-ubi";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mercusys_mr90x-v1-ubi";
           images = [
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mercusys_mr90x-v1-ubi-bl31-uboot.fip";
-              sha256 = "2ca5b43d4895676b0fb119d7a45ab43dce72331c73eea3a8575be689b42195a3";
-              sha256_unsigned = "2ca5b43d4895676b0fb119d7a45ab43dce72331c73eea3a8575be689b42195a3";
-              type = "bl31-uboot.fip";
-            }
-            {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mercusys_mr90x-v1-ubi-initramfs-recovery.itb";
-              sha256 = "29141790752f2318254b2cb6a2252fc63ba9bfa3272ea256668b5f6ff86b5bd5";
-              sha256_unsigned = "29141790752f2318254b2cb6a2252fc63ba9bfa3272ea256668b5f6ff86b5bd5";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mercusys_mr90x-v1-ubi-initramfs-recovery.itb";
+              sha256 = "be63de9ebe0bcfbb3321ac1a5aec0445a854880b266edf2d9a71d204cfac184a";
+              sha256_unsigned = "be63de9ebe0bcfbb3321ac1a5aec0445a854880b266edf2d9a71d204cfac184a";
               type = "kernel";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mercusys_mr90x-v1-ubi-preloader.bin";
-              sha256 = "824e459ef73a44ab10073a36505ab9ef925adc7a18a747a1d84e5cfb2a68e1e4";
-              sha256_unsigned = "824e459ef73a44ab10073a36505ab9ef925adc7a18a747a1d84e5cfb2a68e1e4";
-              type = "preloader.bin";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mercusys_mr90x-v1-ubi-squashfs-sysupgrade.itb";
+              sha256 = "1a527b72170d9acc0d075e1c7599f8528d8f2e6f64d20ff4a0ae22764f83d375";
+              sha256_unsigned = "e496dfb2f81891d743fd68b36c20d0c1135eff52c79d74485e13721180f85606";
+              type = "sysupgrade";
             }
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-mercusys_mr90x-v1-ubi-squashfs-sysupgrade.itb";
-              sha256 = "ef40f6ce7d6d9a4c996a7241a74e945054bfeb803e3966680effac925e282563";
-              sha256_unsigned = "99f2e81c4d2a781d6fc0345a77d183bdc0dbcc0f333b019be6dde784bec6ba90";
-              type = "sysupgrade";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mercusys_mr90x-v1-ubi-bl31-uboot.fip";
+              sha256 = "55e96eda8b413007c8ae071aa248c84ef2874cd612644fadee63e2eb838743c0";
+              sha256_unsigned = "55e96eda8b413007c8ae071aa248c84ef2874cd612644fadee63e2eb838743c0";
+              type = "bl31-uboot.fip";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-mercusys_mr90x-v1-ubi-preloader.bin";
+              sha256 = "db7480677efe34887b1614631b03b2d0fdd0f8b8d695f7fb1f440ff1a6fa4a6e";
+              sha256_unsigned = "db7480677efe34887b1614631b03b2d0fdd0f8b8d695f7fb1f440ff1a6fa4a6e";
+              type = "preloader.bin";
             }
           ];
           supported_devices = [
@@ -34069,33 +34111,33 @@
             "kmod-mt7986-firmware"
             "mt7986-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-netcore_n60";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-netcore_n60";
           images = [
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-netcore_n60-squashfs-sysupgrade.itb";
-              sha256 = "d19c0ae47f93e83ddc1083ef4f405776b75344bdc2deed89d2ee569dbd1353ff";
-              sha256_unsigned = "1ea247af9306598624b090c813d5b5a04accf40a6204126f37aa864a6c5598cd";
-              type = "sysupgrade";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-netcore_n60-preloader.bin";
-              sha256 = "4cafaf9575b158734ab06593a63ec2ee8a0553c56c9baddc071849dcd0699403";
-              sha256_unsigned = "4cafaf9575b158734ab06593a63ec2ee8a0553c56c9baddc071849dcd0699403";
-              type = "preloader.bin";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-netcore_n60-bl31-uboot.fip";
-              sha256 = "07317b247b485433cee762c122f0053cc8e253a4f9be0e06e5316bf0671dc61b";
-              sha256_unsigned = "07317b247b485433cee762c122f0053cc8e253a4f9be0e06e5316bf0671dc61b";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-netcore_n60-bl31-uboot.fip";
+              sha256 = "ac0f7496bbe33dfbeb9b586902c88f398bbe72a19dec2d102728c4cceac3e861";
+              sha256_unsigned = "ac0f7496bbe33dfbeb9b586902c88f398bbe72a19dec2d102728c4cceac3e861";
               type = "bl31-uboot.fip";
             }
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-netcore_n60-initramfs-recovery.itb";
-              sha256 = "08f59b8d3c70ea49a073d3fd84d050c901388cf695b5e66da42afcc289ee5d17";
-              sha256_unsigned = "08f59b8d3c70ea49a073d3fd84d050c901388cf695b5e66da42afcc289ee5d17";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-netcore_n60-initramfs-recovery.itb";
+              sha256 = "018ede797b2720462a92d5ecf82fcb3de3bb1220b9cd47e384c14214fea591d8";
+              sha256_unsigned = "018ede797b2720462a92d5ecf82fcb3de3bb1220b9cd47e384c14214fea591d8";
               type = "kernel";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-netcore_n60-preloader.bin";
+              sha256 = "1169fb188870fdc43ed247a58148a09c8302af2b2d767d21e7cd517b05ce6842";
+              sha256_unsigned = "1169fb188870fdc43ed247a58148a09c8302af2b2d767d21e7cd517b05ce6842";
+              type = "preloader.bin";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-netcore_n60-squashfs-sysupgrade.itb";
+              sha256 = "ef9b661996d02dd7e0ef5fe479c7211864d9378d7b908ec8d98d2088c278eeea";
+              sha256_unsigned = "66cb3f9db8e4aa174261d53a11f1000baf2559f2c769cc043beb50c120dc5242";
+              type = "sysupgrade";
             }
           ];
           supported_devices = [
@@ -34116,33 +34158,33 @@
             "kmod-usb3"
             "automount"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-netcore_n60-pro";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-netcore_n60-pro";
           images = [
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-netcore_n60-pro-preloader.bin";
-              sha256 = "0fc739b0b431083b868eb1d9c3abc74406a5ec50ba70e275621b47e0013adc76";
-              sha256_unsigned = "0fc739b0b431083b868eb1d9c3abc74406a5ec50ba70e275621b47e0013adc76";
-              type = "preloader.bin";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-netcore_n60-pro-initramfs-recovery.itb";
+              sha256 = "f7fb78f1e512bbe51a947bca430b01b1d7034852d45ccaa0a2578ecc4b061124";
+              sha256_unsigned = "f7fb78f1e512bbe51a947bca430b01b1d7034852d45ccaa0a2578ecc4b061124";
+              type = "kernel";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-netcore_n60-pro-squashfs-sysupgrade.itb";
-              sha256 = "5c9416e611194dac41f84fcf76b9828451e00188021890876b194f8e85f23a39";
-              sha256_unsigned = "7966b31acc22bb9c88da5d56f6bec36fd7fcc1ea318a282c25de5ccf69b387e9";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-netcore_n60-pro-squashfs-sysupgrade.itb";
+              sha256 = "c42de5bf6c2f3eb2372835a1d74690e59ff2bc0f7a74d0464f5e96a567ab9f61";
+              sha256_unsigned = "44dc14aff9ec600c597066efec14efdacdf0023a884bba7c6f209d0ddb5a4402";
               type = "sysupgrade";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-netcore_n60-pro-bl31-uboot.fip";
-              sha256 = "d37192fba12e63c76885e4e219917b258107aa10537bec4dd723d9a72ddf44c4";
-              sha256_unsigned = "d37192fba12e63c76885e4e219917b258107aa10537bec4dd723d9a72ddf44c4";
-              type = "bl31-uboot.fip";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-netcore_n60-pro-preloader.bin";
+              sha256 = "b532f27df59faa44db67315486bcb2e407eb0863c36deed496490ded61b39d18";
+              sha256_unsigned = "b532f27df59faa44db67315486bcb2e407eb0863c36deed496490ded61b39d18";
+              type = "preloader.bin";
             }
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-netcore_n60-pro-initramfs-recovery.itb";
-              sha256 = "cd0c2ce194113fca0181f35c73aeb0bc935499e25491c6687959112cad9dfd1a";
-              sha256_unsigned = "cd0c2ce194113fca0181f35c73aeb0bc935499e25491c6687959112cad9dfd1a";
-              type = "kernel";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-netcore_n60-pro-bl31-uboot.fip";
+              sha256 = "cc88730cde45bacfdf2c5e515b41ed973fdf3563300ffb65815e7a310d9cb6b6";
+              sha256_unsigned = "cc88730cde45bacfdf2c5e515b41ed973fdf3563300ffb65815e7a310d9cb6b6";
+              type = "bl31-uboot.fip";
             }
           ];
           supported_devices = [
@@ -34161,27 +34203,27 @@
             "kmod-mt7986-firmware"
             "mt7986-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-netgear_wax220";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-netgear_wax220";
           images = [
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-netgear_wax220-squashfs-sysupgrade.bin";
-              sha256 = "868b2db51b256cbbbc0bac87601ca7fe4219a3fae285f68461ea10403bb01af6";
-              sha256_unsigned = "b8b91014390398b5f643e9820c0dc7e534c9ef3aaf48ccbc99d3169135a11982";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-netgear_wax220-squashfs-sysupgrade.bin";
+              sha256 = "b58e32cbb6925fe935501abd2c74c29c2f6bda72e5c9c4f3c342a19351bbaf01";
+              sha256_unsigned = "d28c61f4b14325e8680af2c2deacdd7126d7494b283de3b08c847e50903f46c4";
               type = "sysupgrade";
             }
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-netgear_wax220-initramfs-recovery.itb";
-              sha256 = "9c8fa616151656cba48d9c3e5698bf94ad8adf9dac582fe83d49acd305308e9f";
-              sha256_unsigned = "9c8fa616151656cba48d9c3e5698bf94ad8adf9dac582fe83d49acd305308e9f";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-netgear_wax220-initramfs-recovery.itb";
+              sha256 = "9c97569c5d15e1dec90f03ead83583cf2f2f484f8c33f2ac734b9def87df4846";
+              sha256_unsigned = "9c97569c5d15e1dec90f03ead83583cf2f2f484f8c33f2ac734b9def87df4846";
               type = "kernel";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-netgear_wax220-squashfs-factory.img";
-              sha256 = "2ee294cbc42dc55cd07e77c4eed8ad1a35e0c750509d0d8ad517dfb84936431f";
-              sha256_unsigned = "2ee294cbc42dc55cd07e77c4eed8ad1a35e0c750509d0d8ad517dfb84936431f";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-netgear_wax220-squashfs-factory.img";
+              sha256 = "8cba48844c840afa4957620a0314c05865e456dcacae2b8d49fa93cfbaf7db78";
+              sha256_unsigned = "8cba48844c840afa4957620a0314c05865e456dcacae2b8d49fa93cfbaf7db78";
               type = "factory";
             }
           ];
@@ -34201,33 +34243,33 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-netis_nx31";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-netis_nx31";
           images = [
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-netis_nx31-preloader.bin";
-              sha256 = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
-              sha256_unsigned = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
-              type = "preloader.bin";
-            }
-            {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-netis_nx31-squashfs-sysupgrade.itb";
-              sha256 = "5d1fc56439afd5e2c6464eff7fc38c00d8ca488553936e03ee401d68aca4882b";
-              sha256_unsigned = "cb72fce979a55f9bf4a812108e65d9badfa5c5f2cf624532173416822e113994";
-              type = "sysupgrade";
-            }
-            {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-netis_nx31-initramfs-recovery.itb";
-              sha256 = "fa20b7e0e43641627dc02a572743d20cb0ba3a09c8c4f2c28c14d383db8823da";
-              sha256_unsigned = "fa20b7e0e43641627dc02a572743d20cb0ba3a09c8c4f2c28c14d383db8823da";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-netis_nx31-initramfs-recovery.itb";
+              sha256 = "ee8308e961e1e2298e5ab8bf5b2fe9027af9d18ce58cf63fb328d527d026eb63";
+              sha256_unsigned = "ee8308e961e1e2298e5ab8bf5b2fe9027af9d18ce58cf63fb328d527d026eb63";
               type = "kernel";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-netis_nx31-bl31-uboot.fip";
-              sha256 = "67ffa67977d5265d0f9e2c6784f28b77905b6951f956f4f024713669d3ef55bf";
-              sha256_unsigned = "67ffa67977d5265d0f9e2c6784f28b77905b6951f956f4f024713669d3ef55bf";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-netis_nx31-squashfs-sysupgrade.itb";
+              sha256 = "72c3930b99fefd8843bac6ec156eac3b3b20a969bfbd3bcaee1b457e4d855953";
+              sha256_unsigned = "6df7c922ec961c43ee2df53f7c873f89443c91260fb9a055fd846a95f5464eba";
+              type = "sysupgrade";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-netis_nx31-bl31-uboot.fip";
+              sha256 = "fb12cbe74ccc115b8fea9301dafedce826cb0b62182dd9135b876f8d31c9ab26";
+              sha256_unsigned = "fb12cbe74ccc115b8fea9301dafedce826cb0b62182dd9135b876f8d31c9ab26";
               type = "bl31-uboot.fip";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-netis_nx31-preloader.bin";
+              sha256 = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
+              sha256_unsigned = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
+              type = "preloader.bin";
             }
           ];
           supported_devices = [
@@ -34246,33 +34288,33 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-nokia_ea0326gmp";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-nokia_ea0326gmp";
           images = [
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-nokia_ea0326gmp-initramfs-recovery.itb";
-              sha256 = "7dd331b06f667a2962b57e993e7a9afcb3a72df2ced855288446e6c4173495db";
-              sha256_unsigned = "7dd331b06f667a2962b57e993e7a9afcb3a72df2ced855288446e6c4173495db";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-nokia_ea0326gmp-initramfs-recovery.itb";
+              sha256 = "0c0495adbf5da3dbff12793346fa60617b49f8079fd53209bed5f5034bbf93a5";
+              sha256_unsigned = "0c0495adbf5da3dbff12793346fa60617b49f8079fd53209bed5f5034bbf93a5";
               type = "kernel";
             }
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-nokia_ea0326gmp-squashfs-sysupgrade.itb";
-              sha256 = "6fddaba8b6c3c92dca6ceeec07ac5488fa22d93826757ac49eac1ec2f6673a0d";
-              sha256_unsigned = "ab764a63901a78fbcc5b843c7c873ea5649fc5f92788a1719d38d53dde69e43a";
-              type = "sysupgrade";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-nokia_ea0326gmp-preloader.bin";
-              sha256 = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
-              sha256_unsigned = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-nokia_ea0326gmp-preloader.bin";
+              sha256 = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
+              sha256_unsigned = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
               type = "preloader.bin";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-nokia_ea0326gmp-bl31-uboot.fip";
-              sha256 = "d86201a4b011e18c514974328d180f9b162f705258a792346f5779c29c5e560d";
-              sha256_unsigned = "d86201a4b011e18c514974328d180f9b162f705258a792346f5779c29c5e560d";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-nokia_ea0326gmp-bl31-uboot.fip";
+              sha256 = "fd0d81c3860f5f36cc5693d6c646be82f560efa4b0b5b2298d9d8d6242f602af";
+              sha256_unsigned = "fd0d81c3860f5f36cc5693d6c646be82f560efa4b0b5b2298d9d8d6242f602af";
               type = "bl31-uboot.fip";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-nokia_ea0326gmp-squashfs-sysupgrade.itb";
+              sha256 = "c4a786166c7d23bc681757d00268785eb4b60a124105b9fa0dab09e05f912311";
+              sha256_unsigned = "321cdb8486398584646030766595dc2f3735eedb2e717c571de41a1d1ec0ae1c";
+              type = "sysupgrade";
             }
           ];
           supported_devices = [
@@ -34301,28 +34343,28 @@
             "automount"
             "uqmi"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-openembed_som7981";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-openembed_som7981";
           images = [
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-openembed_som7981-squashfs-sysupgrade.bin";
-              sha256 = "e790c45c2ba02aa062eee79a818fc5b6c892fab5520f347d5f3d45e07313d859";
-              sha256_unsigned = "123fe7a02fedf6edbab8249f6bd287eb1031d769be85c0f97f1b8397b7136287";
-              type = "sysupgrade";
-            }
-            {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-openembed_som7981-squashfs-factory.bin";
-              sha256 = "c5d354b39318dd2ec2298575f41e0af7ca9d87552892066d89859ff29b665289";
-              sha256_unsigned = "c5d354b39318dd2ec2298575f41e0af7ca9d87552892066d89859ff29b665289";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-openembed_som7981-squashfs-factory.bin";
+              sha256 = "c6df2bf88ecb517152bc19c4d837b5b5ad0ccd99e78c0706bfa883112079bbbb";
+              sha256_unsigned = "c6df2bf88ecb517152bc19c4d837b5b5ad0ccd99e78c0706bfa883112079bbbb";
               type = "factory";
             }
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-openembed_som7981-initramfs-kernel.bin";
-              sha256 = "1aa839ea2b55a2ee17ac1c5dee7d96c6cd55bf0aaad5ebf30e930ce8ee99d70d";
-              sha256_unsigned = "1aa839ea2b55a2ee17ac1c5dee7d96c6cd55bf0aaad5ebf30e930ce8ee99d70d";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-openembed_som7981-initramfs-kernel.bin";
+              sha256 = "d999eb38c7f0d0ca4b5bddd1bee8613a17e13e1dd0e65cff65e67cc9edadd8cf";
+              sha256_unsigned = "d999eb38c7f0d0ca4b5bddd1bee8613a17e13e1dd0e65cff65e67cc9edadd8cf";
               type = "kernel";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-openembed_som7981-squashfs-sysupgrade.bin";
+              sha256 = "750255f0b3f7aa198e88c1845bd6af1fdc52a9264e0f301b5260bf08362e1d91";
+              sha256_unsigned = "83183a81256c344d604e5d411812d6132b46138a65deb4126536a615180cc829";
+              type = "sysupgrade";
             }
           ];
           supported_devices = [
@@ -34343,21 +34385,21 @@
             "kmod-usb3"
             "automount"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-openfi_6c";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-openfi_6c";
           images = [
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-openfi_6c-initramfs-kernel.bin";
-              sha256 = "c9700fc29d47def4341ab2489af10ef7bfb645e4875e7183dfe93705098cb254";
-              sha256_unsigned = "c9700fc29d47def4341ab2489af10ef7bfb645e4875e7183dfe93705098cb254";
-              type = "kernel";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-openfi_6c-squashfs-sysupgrade.bin";
+              sha256 = "bfadd0ddb55e88c577bea6c2b344ec260ba3498ab5b215e36b7ab723513292c5";
+              sha256_unsigned = "59bf4dce622ea28e81730e966fc9be222fc6e0b39e0013ba4b792c47628066d9";
+              type = "sysupgrade";
             }
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-openfi_6c-squashfs-sysupgrade.bin";
-              sha256 = "e740c19d91acd886eb8bbde93818e20fc600a31f023304b6bbf310edb6a0797f";
-              sha256_unsigned = "da563d73cc25daa0d44d1590da754c32fd1057b1a0f8acfc7d3ccad60d2fda5e";
-              type = "sysupgrade";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-openfi_6c-initramfs-kernel.bin";
+              sha256 = "cec33d9d7f583d1710f5e6fbc1e2196896f5e9f80ee7e549189867a0973ecde9";
+              sha256_unsigned = "cec33d9d7f583d1710f5e6fbc1e2196896f5e9f80ee7e549189867a0973ecde9";
+              type = "kernel";
             }
           ];
           supported_devices = [
@@ -34380,63 +34422,63 @@
             "kmod-nvme"
             "kmod-phy-airoha-en8811h"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-openwrt_one";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-openwrt_one";
           images = [
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-openwrt_one-snand-preloader.bin";
-              sha256 = "9c90969325f120226099e251a0cdadb9449331458ecbb38dc378304aac33fe43";
-              sha256_unsigned = "9c90969325f120226099e251a0cdadb9449331458ecbb38dc378304aac33fe43";
-              type = "snand-preloader.bin";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-openwrt_one-snand-bl31-uboot.fip";
-              sha256 = "f066e020b099ff2fb313c00a8ad01c13809a8537c442d9e2180934075e2cefcc";
-              sha256_unsigned = "f066e020b099ff2fb313c00a8ad01c13809a8537c442d9e2180934075e2cefcc";
-              type = "snand-bl31-uboot.fip";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-openwrt_one-snand-factory.bin";
-              sha256 = "62bca3c1b131301c869b775149ec4d53cd19ad59fd364fac5b1ee36856fd1b00";
-              sha256_unsigned = "62bca3c1b131301c869b775149ec4d53cd19ad59fd364fac5b1ee36856fd1b00";
-              type = "snand-factory.bin";
-            }
-            {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-openwrt_one-initramfs.itb";
-              sha256 = "5b34a0f513f75dd765fc2651bc25a916c2df31a889a786de4cfd5167c272d1a2";
-              sha256_unsigned = "5b34a0f513f75dd765fc2651bc25a916c2df31a889a786de4cfd5167c272d1a2";
-              type = "kernel";
-            }
-            {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-openwrt_one-squashfs-sysupgrade.itb";
-              sha256 = "6d44d1d291bc786c73df042e10f8f2b54065fb5d7c0141c7594854b32c674b78";
-              sha256_unsigned = "69772bb64e6205759a1f5af67851449e34afa870df6d12b78353c564cf5a0d7b";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-openwrt_one-squashfs-sysupgrade.itb";
+              sha256 = "8215f15ae10b354f1bbe40cd44dc1010eae84d99e2bfc5f2ffc1088b425df595";
+              sha256_unsigned = "ac538a34c2800c6c74a440fb207b7bbda8ee22648920c8dc6c0c4b00d6be0b4e";
               type = "sysupgrade";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-openwrt_one-nor-factory.bin";
-              sha256 = "94119843dfa4f23ea9ba7d4431cac2b693ad0b7dd916061827d2e6c4ba746026";
-              sha256_unsigned = "94119843dfa4f23ea9ba7d4431cac2b693ad0b7dd916061827d2e6c4ba746026";
-              type = "nor-factory.bin";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-openwrt_one-factory.ubi";
-              sha256 = "3f9661c6b0d2f55bd0309d3be75ee48a953dad7135489dea955c692e5f2bc8c4";
-              sha256_unsigned = "3f9661c6b0d2f55bd0309d3be75ee48a953dad7135489dea955c692e5f2bc8c4";
-              type = "factory.ubi";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-openwrt_one-nor-bl31-uboot.fip";
-              sha256 = "f08c2e24b4c79552a5572673468d7b1ee52898f94d6f095ca244eba952c0e6a2";
-              sha256_unsigned = "f08c2e24b4c79552a5572673468d7b1ee52898f94d6f095ca244eba952c0e6a2";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-openwrt_one-nor-bl31-uboot.fip";
+              sha256 = "e76ca752a806e3a697f185e74a62761b971a510ab9afe0d923ec9061cfd74abd";
+              sha256_unsigned = "e76ca752a806e3a697f185e74a62761b971a510ab9afe0d923ec9061cfd74abd";
               type = "nor-bl31-uboot.fip";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-openwrt_one-nor-preloader.bin";
-              sha256 = "348482cee9897c5c8e3c666b7689ef606d7eba43eca7b3d29b9a98b52ae0efc5";
-              sha256_unsigned = "348482cee9897c5c8e3c666b7689ef606d7eba43eca7b3d29b9a98b52ae0efc5";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-openwrt_one-snand-factory.bin";
+              sha256 = "69fe5b4b2796e91dc9e0d1f91ed74ca7688f3d1eda00584e9daf551b8455e098";
+              sha256_unsigned = "69fe5b4b2796e91dc9e0d1f91ed74ca7688f3d1eda00584e9daf551b8455e098";
+              type = "snand-factory.bin";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-openwrt_one-snand-bl31-uboot.fip";
+              sha256 = "4871deaf459adc8e19479e800839f715202d97c1376031ea92377ca709331fb2";
+              sha256_unsigned = "4871deaf459adc8e19479e800839f715202d97c1376031ea92377ca709331fb2";
+              type = "snand-bl31-uboot.fip";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-openwrt_one-snand-preloader.bin";
+              sha256 = "9456232006fe9802844bf8c12ea27bbd9e937fe9b0e7249464b49d2cfc984677";
+              sha256_unsigned = "9456232006fe9802844bf8c12ea27bbd9e937fe9b0e7249464b49d2cfc984677";
+              type = "snand-preloader.bin";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-openwrt_one-initramfs.itb";
+              sha256 = "43c52a2b1409a6f6fc0091c7f0cb0b8270088ae48f7214cbeb898b7b6b7ea64b";
+              sha256_unsigned = "43c52a2b1409a6f6fc0091c7f0cb0b8270088ae48f7214cbeb898b7b6b7ea64b";
+              type = "kernel";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-openwrt_one-nor-factory.bin";
+              sha256 = "01335834d5b202bd7948ffaab5a3ec6fd44d2c4a4a53dd779c3b8b5031433ec7";
+              sha256_unsigned = "01335834d5b202bd7948ffaab5a3ec6fd44d2c4a4a53dd779c3b8b5031433ec7";
+              type = "nor-factory.bin";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-openwrt_one-nor-preloader.bin";
+              sha256 = "50b5c601706ecc877c16dea4a31c0cb5b9157735392d7de06ec7e93e0b90a82b";
+              sha256_unsigned = "50b5c601706ecc877c16dea4a31c0cb5b9157735392d7de06ec7e93e0b90a82b";
               type = "nor-preloader.bin";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-openwrt_one-factory.ubi";
+              sha256 = "ed8ce929497de89802cfd0958bfe7639ff9603e1c00c96f064609edeb9319341";
+              sha256_unsigned = "ed8ce929497de89802cfd0958bfe7639ff9603e1c00c96f064609edeb9319341";
+              type = "factory.ubi";
             }
           ];
           supported_devices = [
@@ -34455,33 +34497,33 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-qihoo_360t7";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-qihoo_360t7";
           images = [
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-qihoo_360t7-initramfs-recovery.itb";
-              sha256 = "cefe59fb14ff2a9045915e9f3be128383f3ff553d89e349bfe2606e651f02e0a";
-              sha256_unsigned = "cefe59fb14ff2a9045915e9f3be128383f3ff553d89e349bfe2606e651f02e0a";
-              type = "kernel";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-qihoo_360t7-bl31-uboot.fip";
-              sha256 = "171640c40b217f1fe1cfc3cdf11e19afb24a3ed85c1aed6faa0713252c49ac91";
-              sha256_unsigned = "171640c40b217f1fe1cfc3cdf11e19afb24a3ed85c1aed6faa0713252c49ac91";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-qihoo_360t7-bl31-uboot.fip";
+              sha256 = "f7c799c3f5fce961429e02e510bfc54185213c61f651b5a7e0f1b257384f7111";
+              sha256_unsigned = "f7c799c3f5fce961429e02e510bfc54185213c61f651b5a7e0f1b257384f7111";
               type = "bl31-uboot.fip";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-qihoo_360t7-preloader.bin";
-              sha256 = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
-              sha256_unsigned = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
-              type = "preloader.bin";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-qihoo_360t7-squashfs-sysupgrade.itb";
+              sha256 = "f5bc16eef1d1275f6196e4efa19e445d4e66ebe092301ba965ebcaa00695ec0a";
+              sha256_unsigned = "75e80d5432784cfd27d9054fbc594cbb8e73218295039934285030ebc6caaf11";
+              type = "sysupgrade";
             }
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-qihoo_360t7-squashfs-sysupgrade.itb";
-              sha256 = "69e35996982e13f6c44b6d25a8d195e467c7e852b694fd28d70b41e2829bd693";
-              sha256_unsigned = "ca315935cd6879f332b31883161104122e4310b8742c4232f602ad10a14e33a8";
-              type = "sysupgrade";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-qihoo_360t7-initramfs-recovery.itb";
+              sha256 = "c059c9ec31f77c48130730ed68909ab938e19568c7bbfc470d9db639a473b505";
+              sha256_unsigned = "c059c9ec31f77c48130730ed68909ab938e19568c7bbfc470d9db639a473b505";
+              type = "kernel";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-qihoo_360t7-preloader.bin";
+              sha256 = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
+              sha256_unsigned = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
+              type = "preloader.bin";
             }
           ];
           supported_devices = [
@@ -34502,21 +34544,21 @@
             "kmod-usb3"
             "automount"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-routerich_ax3000";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-routerich_ax3000";
           images = [
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-routerich_ax3000-squashfs-sysupgrade.bin";
-              sha256 = "d77133d759eb0993c55c82de9dfcad609e5f95ce4a6841e3903772fa05423b8b";
-              sha256_unsigned = "228827d8b56c7b496cef3a06dcc45077cd54a90190bd45bd2aa94df18c52d754";
-              type = "sysupgrade";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-routerich_ax3000-initramfs-kernel.bin";
+              sha256 = "b3d4461e85b38bb846092809095d02e622dc2dda0b40e03b52624fe14df7a52b";
+              sha256_unsigned = "b3d4461e85b38bb846092809095d02e622dc2dda0b40e03b52624fe14df7a52b";
+              type = "kernel";
             }
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-routerich_ax3000-initramfs-kernel.bin";
-              sha256 = "bc00619ea58956f5f375dde553e04e31ca4725da4675a946f5f425119d927cd0";
-              sha256_unsigned = "bc00619ea58956f5f375dde553e04e31ca4725da4675a946f5f425119d927cd0";
-              type = "kernel";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-routerich_ax3000-squashfs-sysupgrade.bin";
+              sha256 = "e40070da32641e03532a35523eff26226ff441cddfe57608605b587fc7f9e383";
+              sha256_unsigned = "0761d1943fa28b6a7da8606538c7a527574d087859c2aa2b8f329b969a49f5f5";
+              type = "sysupgrade";
             }
           ];
           supported_devices = [
@@ -34537,33 +34579,33 @@
             "kmod-usb3"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-routerich_ax3000-ubootmod";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-routerich_ax3000-ubootmod";
           images = [
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-routerich_ax3000-ubootmod-preloader.bin";
-              sha256 = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
-              sha256_unsigned = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
-              type = "preloader.bin";
-            }
-            {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-routerich_ax3000-ubootmod-squashfs-sysupgrade.itb";
-              sha256 = "0527108d7b39f49cf3e4d9e444defc8f7754d16105f49c999c9106bc98e11b21";
-              sha256_unsigned = "2ae4720036f0617229bb92f4f1a4db65cf23064d2d8daf7fbb622d81bb963467";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-routerich_ax3000-ubootmod-squashfs-sysupgrade.itb";
+              sha256 = "c58b92b3d2a8ef98e88c8d6695ecf7855b5aae76f573d1646bf84f170eb804ec";
+              sha256_unsigned = "1d66daf692446b6a0a4824352bd1330dc3a389dc6f5ec1ad7ac9148543a32b4a";
               type = "sysupgrade";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-routerich_ax3000-ubootmod-bl31-uboot.fip";
-              sha256 = "d910996b25f60bdcf24460d0f66252bfff723a7d2d7d11d78b7029e04e0bab3d";
-              sha256_unsigned = "d910996b25f60bdcf24460d0f66252bfff723a7d2d7d11d78b7029e04e0bab3d";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-routerich_ax3000-ubootmod-initramfs-recovery.itb";
+              sha256 = "d613e200cb7e4634f1d9addbc5c1a8b1a3165365192f994bc786eeecd40cc91b";
+              sha256_unsigned = "d613e200cb7e4634f1d9addbc5c1a8b1a3165365192f994bc786eeecd40cc91b";
+              type = "kernel";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-routerich_ax3000-ubootmod-bl31-uboot.fip";
+              sha256 = "ddac7ce40b69e79876ba90f306519758884a8ebe01f8d1d6b856041b9bee9c28";
+              sha256_unsigned = "ddac7ce40b69e79876ba90f306519758884a8ebe01f8d1d6b856041b9bee9c28";
               type = "bl31-uboot.fip";
             }
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-routerich_ax3000-ubootmod-initramfs-recovery.itb";
-              sha256 = "2145b32991017f818e02e0a79943a79747ba072fcd55d0a5dbdca6b5e171d13e";
-              sha256_unsigned = "2145b32991017f818e02e0a79943a79747ba072fcd55d0a5dbdca6b5e171d13e";
-              type = "kernel";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-routerich_ax3000-ubootmod-preloader.bin";
+              sha256 = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
+              sha256_unsigned = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
+              type = "preloader.bin";
             }
           ];
           supported_devices = [
@@ -34583,21 +34625,21 @@
             "kmod-usb3"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-routerich_ax3000-v1";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-routerich_ax3000-v1";
           images = [
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-routerich_ax3000-v1-initramfs-kernel.bin";
-              sha256 = "61a436990aace7d7e15f265d975c54ea56a1262665f640fc59f6d759454195fa";
-              sha256_unsigned = "61a436990aace7d7e15f265d975c54ea56a1262665f640fc59f6d759454195fa";
-              type = "kernel";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-routerich_ax3000-v1-squashfs-sysupgrade.bin";
+              sha256 = "4f6addda8b2d3aced966ec17347482397ab75ab59c2423b38b69eea26d1c25af";
+              sha256_unsigned = "69ad5362ee9b3a5ccb8b98de29563bddbf4ec729ada4f7e242ecd62f4ffbeb33";
+              type = "sysupgrade";
             }
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-routerich_ax3000-v1-squashfs-sysupgrade.bin";
-              sha256 = "111782df08c2e7f6c5bd833628d69cc61d360c7f79331585cf7355d882f9a504";
-              sha256_unsigned = "87d0fdbdd6dc2d184412bfb0ce7d22a3ea6b911455fafa4842d91dc3677a3ded";
-              type = "sysupgrade";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-routerich_ax3000-v1-initramfs-kernel.bin";
+              sha256 = "47467328fbb5f326ee07e099146fe8f9d9d6bbcbbbd0d157ff971e8073b79b39";
+              sha256_unsigned = "47467328fbb5f326ee07e099146fe8f9d9d6bbcbbbd0d157ff971e8073b79b39";
+              type = "kernel";
             }
           ];
           supported_devices = [
@@ -34618,21 +34660,21 @@
             "kmod-mt7986-firmware"
             "mt7986-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-ruijie_rg-x60-pro";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-ruijie_rg-x60-pro";
           images = [
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-ruijie_rg-x60-pro-squashfs-sysupgrade.bin";
-              sha256 = "1ab5d9d151360cf96c51a70099471df21f6a70a2b4440a6e894c248932a2c688";
-              sha256_unsigned = "aceb95c6d287673e77bf9710ee80abf9cde31d897f064715e9dd2620ffdadee9";
-              type = "sysupgrade";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-ruijie_rg-x60-pro-initramfs-kernel.bin";
+              sha256 = "9227e60345e218b8bbbf236d0fc281c2166939fd2f09b42c47695cb46820be72";
+              sha256_unsigned = "9227e60345e218b8bbbf236d0fc281c2166939fd2f09b42c47695cb46820be72";
+              type = "kernel";
             }
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-ruijie_rg-x60-pro-initramfs-kernel.bin";
-              sha256 = "5fe8f5f8c100163df99d836f5ec86f984e66e176c934ab3ecd8c363f2676fee2";
-              sha256_unsigned = "5fe8f5f8c100163df99d836f5ec86f984e66e176c934ab3ecd8c363f2676fee2";
-              type = "kernel";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-ruijie_rg-x60-pro-squashfs-sysupgrade.bin";
+              sha256 = "2f415ced1d2580e22cc38138ce4e42e2d8ea79e826bbbb552d2e0ddc7a9dd591";
+              sha256_unsigned = "c4bb6a41b80ffe0818a28eb6b6acedcf96285d090491bc016506562990a5bfa9";
+              type = "sysupgrade";
             }
           ];
           supported_devices = [
@@ -34655,21 +34697,21 @@
             "kmod-mt7986-firmware"
             "mt7986-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-smartrg_sdg-8612";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-smartrg_sdg-8612";
           images = [
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-smartrg_sdg-8612-initramfs-kernel.bin";
-              sha256 = "bfa8c51d6972ba5dd58d897f382fe133513732204df5812a13408e681e446143";
-              sha256_unsigned = "bfa8c51d6972ba5dd58d897f382fe133513732204df5812a13408e681e446143";
-              type = "kernel";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-smartrg_sdg-8612-squashfs-sysupgrade.bin";
+              sha256 = "b61f36ade6c398f93782246747338168bd2dcd16c63cae43126a7e196f0fbab1";
+              sha256_unsigned = "8a5bdab64b45e8ffd8deab5670846451e175bf22c7fdee53ff17e8f49578fb32";
+              type = "sysupgrade";
             }
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-smartrg_sdg-8612-squashfs-sysupgrade.bin";
-              sha256 = "855ae6216137c19124cec9f998e74a83c21f3c9b09e2bbe12e6f5fc9a4a64920";
-              sha256_unsigned = "16cf8b81acad617449c56638252e2fca3617e01c576b460bb0e80e64c6045f34";
-              type = "sysupgrade";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-smartrg_sdg-8612-initramfs-kernel.bin";
+              sha256 = "82b467d357ef74b2adf9ce7cdba29102786f8f3f4e0ee3af44440d09c438b710";
+              sha256_unsigned = "82b467d357ef74b2adf9ce7cdba29102786f8f3f4e0ee3af44440d09c438b710";
+              type = "kernel";
             }
           ];
           supported_devices = [
@@ -34692,21 +34734,21 @@
             "kmod-mt7986-firmware"
             "mt7986-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-smartrg_sdg-8614";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-smartrg_sdg-8614";
           images = [
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-smartrg_sdg-8614-initramfs-kernel.bin";
-              sha256 = "30e6badd02101270d469d0e78605b1628c490a737057b316f6dea0dc223b69ac";
-              sha256_unsigned = "30e6badd02101270d469d0e78605b1628c490a737057b316f6dea0dc223b69ac";
-              type = "kernel";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-smartrg_sdg-8614-squashfs-sysupgrade.bin";
+              sha256 = "c60045f4251d33dfd0e4c54e685752aa572a0774c7036e1339a10300e526e90d";
+              sha256_unsigned = "9a98f3cbf0b735e200ccb1a367f2fe102c3c00c948b07b4b40c3b17a70650949";
+              type = "sysupgrade";
             }
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-smartrg_sdg-8614-squashfs-sysupgrade.bin";
-              sha256 = "3055c66f5f48aa5eceef7e7db9e3a57effdee3dc836cc8713fb75b5cd4e9b152";
-              sha256_unsigned = "fd7f04d3b8837e3cf70f201ca86be694cca6d19d9b74a5998bfac92b6d01bf94";
-              type = "sysupgrade";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-smartrg_sdg-8614-initramfs-kernel.bin";
+              sha256 = "cc8c642aa79d74a5cba15af229f889b672bc2f57a54ff95253fb66e0430bd9e0";
+              sha256_unsigned = "cc8c642aa79d74a5cba15af229f889b672bc2f57a54ff95253fb66e0430bd9e0";
+              type = "kernel";
             }
           ];
           supported_devices = [
@@ -34730,20 +34772,20 @@
             "kmod-mt7986-firmware"
             "mt7986-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-smartrg_sdg-8622";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-smartrg_sdg-8622";
           images = [
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-smartrg_sdg-8622-squashfs-sysupgrade.bin";
-              sha256 = "d94fc0bd1e72e8a72d1b3ed97336c53de11b9d42d08770c17e10fda1bd56bc62";
-              sha256_unsigned = "92ebfcf3db2308e138cd767311a3dbdda8d751beb463f07902b83832704fd2be";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-smartrg_sdg-8622-squashfs-sysupgrade.bin";
+              sha256 = "2519469c22f1d5b6116bf6e7d2a5a590d20595d3c3c8ecd8952ef1012dee5486";
+              sha256_unsigned = "949886f95cdf2ead7ee4a8ee175536271330fa3c464ac4269bad61d60e5ecc44";
               type = "sysupgrade";
             }
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-smartrg_sdg-8622-initramfs-kernel.bin";
-              sha256 = "cac3546b19dc5205e5d8d8e9c7af021871aedd13d1139b1c68b2aa80a771d012";
-              sha256_unsigned = "cac3546b19dc5205e5d8d8e9c7af021871aedd13d1139b1c68b2aa80a771d012";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-smartrg_sdg-8622-initramfs-kernel.bin";
+              sha256 = "395bf7068394b6d7f700aec82b87ee0da1f8eae04488286fb3904caf1915282f";
+              sha256_unsigned = "395bf7068394b6d7f700aec82b87ee0da1f8eae04488286fb3904caf1915282f";
               type = "kernel";
             }
           ];
@@ -34768,21 +34810,21 @@
             "kmod-mt7986-firmware"
             "mt7986-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-smartrg_sdg-8632";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-smartrg_sdg-8632";
           images = [
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-smartrg_sdg-8632-squashfs-sysupgrade.bin";
-              sha256 = "f2be19aa8c4972bb41f22d0cf5be4ae09800bf583320f70895d04c97d49d54f7";
-              sha256_unsigned = "de5dcda62a4c8a730b49ec155585c1b0e9fa876c1aa64d44f9dd03e80f3ebbfe";
-              type = "sysupgrade";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-smartrg_sdg-8632-initramfs-kernel.bin";
+              sha256 = "7754dfe2b0f39020c026f388b486c40891f6561c6ba0c4728f3c89e9ad256811";
+              sha256_unsigned = "7754dfe2b0f39020c026f388b486c40891f6561c6ba0c4728f3c89e9ad256811";
+              type = "kernel";
             }
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-smartrg_sdg-8632-initramfs-kernel.bin";
-              sha256 = "17e6e8b40b709c9260bd05939d571868f0391240fbe9893a765488842d92122e";
-              sha256_unsigned = "17e6e8b40b709c9260bd05939d571868f0391240fbe9893a765488842d92122e";
-              type = "kernel";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-smartrg_sdg-8632-squashfs-sysupgrade.bin";
+              sha256 = "e13b93064240aed2881874111facff15bcb1e94be587e1f78c6eeab925246b40";
+              sha256_unsigned = "f3e7bdbe67d429fe2c7a78ac467d868e4c717f8c65a0a712f9a83c4dc35d3ca2";
+              type = "sysupgrade";
             }
           ];
           supported_devices = [
@@ -34806,21 +34848,21 @@
             "kmod-usb3"
             "mt7988-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-smartrg_sdg-8733";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-smartrg_sdg-8733";
           images = [
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-smartrg_sdg-8733-squashfs-sysupgrade.bin";
-              sha256 = "ffacd76f5b5cbbdc14f073b4c61d01b639ccd7aaed8aeb9016f0a095e0c634a0";
-              sha256_unsigned = "4f029e88f3a6554fadbd91caa3f5932019b2d30dc43d3550f5d526e2c8c08d7c";
-              type = "sysupgrade";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-smartrg_sdg-8733-initramfs-kernel.bin";
+              sha256 = "1042f6ae634b1247d9f46b73c28843f4c3c7542840924d2a71f67f8fef533406";
+              sha256_unsigned = "1042f6ae634b1247d9f46b73c28843f4c3c7542840924d2a71f67f8fef533406";
+              type = "kernel";
             }
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-smartrg_sdg-8733-initramfs-kernel.bin";
-              sha256 = "a99dbb14e101cca948a6bd40feef46d0a788678a5c06f832bf0d61aafdbdeca4";
-              sha256_unsigned = "a99dbb14e101cca948a6bd40feef46d0a788678a5c06f832bf0d61aafdbdeca4";
-              type = "kernel";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-smartrg_sdg-8733-squashfs-sysupgrade.bin";
+              sha256 = "b95bc91be985ff827de078f3422aa268e837cedfe77c0e962bde776cf4c3290e";
+              sha256_unsigned = "49f28a754101d490ba8bfbc3ac6aed8e650cc93a1077db2979b7d5bddaa5d98c";
+              type = "sysupgrade";
             }
           ];
           supported_devices = [
@@ -34844,21 +34886,21 @@
             "kmod-phy-aquantia"
             "mt7988-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-smartrg_sdg-8733a";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-smartrg_sdg-8733a";
           images = [
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-smartrg_sdg-8733a-initramfs-kernel.bin";
-              sha256 = "43bb2b635bb05f0ca10394ef894d8ebf2beefe446b7259677bdf067871f27cdc";
-              sha256_unsigned = "43bb2b635bb05f0ca10394ef894d8ebf2beefe446b7259677bdf067871f27cdc";
-              type = "kernel";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-smartrg_sdg-8733a-squashfs-sysupgrade.bin";
+              sha256 = "373b994de610b17f93f92c8e83e73330de2533a6c36760b8997188bc1fe71176";
+              sha256_unsigned = "120664dd6d7db61311ae774ddd0b56a819190db2d4aae031ad7686d1fffe3929";
+              type = "sysupgrade";
             }
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-smartrg_sdg-8733a-squashfs-sysupgrade.bin";
-              sha256 = "805cdcc3083f157af11f8de5bcad445c07494f16707784f8cea4b19cecfbff7d";
-              sha256_unsigned = "bdefa7947cf4862a33a30e33460cd7f3c836e7813b0528aaac28e3dcd34d7ceb";
-              type = "sysupgrade";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-smartrg_sdg-8733a-initramfs-kernel.bin";
+              sha256 = "f817f0c30ac7aa0c694041ef9b91f2153ad710218eb0d6a2e98e049426bd993b";
+              sha256_unsigned = "f817f0c30ac7aa0c694041ef9b91f2153ad710218eb0d6a2e98e049426bd993b";
+              type = "kernel";
             }
           ];
           supported_devices = [
@@ -34883,21 +34925,21 @@
             "kmod-usb3"
             "mt7988-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-smartrg_sdg-8734";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-smartrg_sdg-8734";
           images = [
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-smartrg_sdg-8734-squashfs-sysupgrade.bin";
-              sha256 = "0ea1706e99aa2f61ddd5b9693d7171e2a9193a4810f4a6836c145f1b0fc995a5";
-              sha256_unsigned = "1c9aba28c62fc95879e2d46ea81ffc0e6569dd26d75ead93bdee21a38b6b4e79";
-              type = "sysupgrade";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-smartrg_sdg-8734-initramfs-kernel.bin";
+              sha256 = "e6cae6394add754bb621c9da76929a1f8d836347ceef32a5a8675651823b8407";
+              sha256_unsigned = "e6cae6394add754bb621c9da76929a1f8d836347ceef32a5a8675651823b8407";
+              type = "kernel";
             }
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-smartrg_sdg-8734-initramfs-kernel.bin";
-              sha256 = "f923dfed058d977b8535f033a9782417b8771a855ea8c3d132e14f28800cd893";
-              sha256_unsigned = "f923dfed058d977b8535f033a9782417b8771a855ea8c3d132e14f28800cd893";
-              type = "kernel";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-smartrg_sdg-8734-squashfs-sysupgrade.bin";
+              sha256 = "3926728c8e4ce59afd9d976d4bf421729e508081b28faa1af43b75be189c4539";
+              sha256_unsigned = "525199605695cae2e6c7111677dd6cf32ee7a1ef8187565d36cff6b2dc019096";
+              type = "sysupgrade";
             }
           ];
           supported_devices = [
@@ -34919,21 +34961,21 @@
             "mt7986-wo-firmware"
             "automount"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_archer-ax80-v1";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_archer-ax80-v1";
           images = [
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_archer-ax80-v1-initramfs-kernel.bin";
-              sha256 = "840db01f7f26424c8758d54d1da41cfaf523efa77f8752756b685dd76d87fd66";
-              sha256_unsigned = "840db01f7f26424c8758d54d1da41cfaf523efa77f8752756b685dd76d87fd66";
-              type = "kernel";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_archer-ax80-v1-squashfs-sysupgrade.bin";
+              sha256 = "b83d37777df2fe2eea4e00a0b053e51a999a9b6073d78c2a268cb4e65f7efe57";
+              sha256_unsigned = "866e35c25ac31c39539d69fa9a783ac9c53f0f49c4a2a2769160d43d490579d1";
+              type = "sysupgrade";
             }
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_archer-ax80-v1-squashfs-sysupgrade.bin";
-              sha256 = "8b56edbc1100e14752bf54aac77973f51b664843562b3c8026cb90532898d98d";
-              sha256_unsigned = "f7493cc4dc680788e3ad8c3e8a062fb939da9dde264c22b7e0a3009a0d60d7a6";
-              type = "sysupgrade";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_archer-ax80-v1-initramfs-kernel.bin";
+              sha256 = "40d8ebea78d79dc2b5851dd6f463fe2be2c16901fc3cdd1139aa339c15042102";
+              sha256_unsigned = "40d8ebea78d79dc2b5851dd6f463fe2be2c16901fc3cdd1139aa339c15042102";
+              type = "kernel";
             }
           ];
           supported_devices = [
@@ -34952,20 +34994,20 @@
             "kmod-mt7986-firmware"
             "mt7986-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_re6000xd";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_re6000xd";
           images = [
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_re6000xd-initramfs-kernel.bin";
-              sha256 = "062cd551dc125e92746a575d6f5945319a6b814a243c40ebd7a1d3050139b759";
-              sha256_unsigned = "062cd551dc125e92746a575d6f5945319a6b814a243c40ebd7a1d3050139b759";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_re6000xd-initramfs-kernel.bin";
+              sha256 = "ec90b330919b7873eb2321664bb43a4941d09f43d5114e687580d55629af6a33";
+              sha256_unsigned = "ec90b330919b7873eb2321664bb43a4941d09f43d5114e687580d55629af6a33";
               type = "kernel";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_re6000xd-squashfs-sysupgrade.bin";
-              sha256 = "ec07af14f36e57c0af2fc0882830ed292c53093bfb1d177fd4a30476f0d358e3";
-              sha256_unsigned = "ebb7c615ad8f01a81be05bfabd23957d988d5f054cb56bb0e274b1dac991bd91";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_re6000xd-squashfs-sysupgrade.bin";
+              sha256 = "f0575db5202ca8fdf14f3139d59bf38003db7d11d7c472595cb79ac375255eb0";
+              sha256_unsigned = "fe1f6df1faaceeb418525956f58e698d438088c29709b024b1e42e5fdaafe86a";
               type = "sysupgrade";
             }
           ];
@@ -34985,33 +35027,33 @@
             "kmod-mt7992-firmware"
             "mt7988-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-7dr7230-v1";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-7dr7230-v1";
           images = [
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-7dr7230-v1-preloader.bin";
-              sha256 = "b8ec4b5746230f223abf9260d8516bb5218238fb25ff6892a49e0024a8b2bb5a";
-              sha256_unsigned = "b8ec4b5746230f223abf9260d8516bb5218238fb25ff6892a49e0024a8b2bb5a";
-              type = "preloader.bin";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-7dr7230-v1-bl31-uboot.fip";
+              sha256 = "34f9cf2490f38f36ee03b5ecd86f58d20c7b71b06be5ac9985890c2cab27c92d";
+              sha256_unsigned = "34f9cf2490f38f36ee03b5ecd86f58d20c7b71b06be5ac9985890c2cab27c92d";
+              type = "bl31-uboot.fip";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-7dr7230-v1-squashfs-sysupgrade.itb";
-              sha256 = "e2fa40d88092bcabffa437e6e3ea03e031d0b759bb9f95293d4b9b49747d621e";
-              sha256_unsigned = "f5d98bfa3a5a94e0c1b3026c0e739c50d3be517e9864e0e1615a1fd54f332be3";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-7dr7230-v1-squashfs-sysupgrade.itb";
+              sha256 = "af0029e83deeac4873d23de6b7c33a8fa93610911a7e1280bb59ee768dea5e9a";
+              sha256_unsigned = "2f83a9eeabcbee070767380b81183e297a78790938c84b43ab487993dcd21f91";
               type = "sysupgrade";
             }
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-7dr7230-v1-initramfs-recovery.itb";
-              sha256 = "23125ca4157c08c93b80be25990df774cae7a6c65826bee18dfa96de64fd1865";
-              sha256_unsigned = "23125ca4157c08c93b80be25990df774cae7a6c65826bee18dfa96de64fd1865";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-7dr7230-v1-initramfs-recovery.itb";
+              sha256 = "7f0920550f4bcdaba0eb02ee7f3365a1b48d99a8c7d6b6a58a11512bf4bd2fe6";
+              sha256_unsigned = "7f0920550f4bcdaba0eb02ee7f3365a1b48d99a8c7d6b6a58a11512bf4bd2fe6";
               type = "kernel";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-7dr7230-v1-bl31-uboot.fip";
-              sha256 = "001b93cedb20a1af68bd3bb75865f31c97649e0d7b75d977a77e694e4f4a2d2b";
-              sha256_unsigned = "001b93cedb20a1af68bd3bb75865f31c97649e0d7b75d977a77e694e4f4a2d2b";
-              type = "bl31-uboot.fip";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-7dr7230-v1-preloader.bin";
+              sha256 = "3d266c046d3261870fa87b0ef952c1531743969dfdc754b30db34c5f3e4e88cf";
+              sha256_unsigned = "3d266c046d3261870fa87b0ef952c1531743969dfdc754b30db34c5f3e4e88cf";
+              type = "preloader.bin";
             }
           ];
           supported_devices = [
@@ -35031,32 +35073,32 @@
             "kmod-mt7992-firmware"
             "mt7988-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-7dr7230-v2";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-7dr7230-v2";
           images = [
             {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-7dr7230-v2-bl31-uboot.fip";
+              sha256 = "48e0d9fafcfc53866fc9a0d07b6027e97f3847d2cb56e83e94816e5d7272b091";
+              sha256_unsigned = "48e0d9fafcfc53866fc9a0d07b6027e97f3847d2cb56e83e94816e5d7272b091";
+              type = "bl31-uboot.fip";
+            }
+            {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-7dr7230-v2-squashfs-sysupgrade.itb";
-              sha256 = "d58e1c503de1b2eb25b293c42497c2ca74c6e463ec1020e37bd8d316a357bcf4";
-              sha256_unsigned = "8d4c9d80ba5161a90db4d0e5accfe6e4f561a63c07d418c65d4356f8eeb48801";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-7dr7230-v2-squashfs-sysupgrade.itb";
+              sha256 = "d76a64464fe2866615f11cf8a766f3abd2e2b8bba4ccd5890e54f2e5bf90d741";
+              sha256_unsigned = "2ab690959ef5870f241c02bea98dc0e3c36d7f6601270b625753f3a759d1987b";
               type = "sysupgrade";
             }
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-7dr7230-v2-initramfs-recovery.itb";
-              sha256 = "e6e1126395f38833bce41d4f8986a4ea5f8e27feeaf1b2a0070fa8afb1952988";
-              sha256_unsigned = "e6e1126395f38833bce41d4f8986a4ea5f8e27feeaf1b2a0070fa8afb1952988";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-7dr7230-v2-initramfs-recovery.itb";
+              sha256 = "f81ba1590136b4ae95e26af9a8c782ed3cc31d291a72f108afcd7bd66bf4ef38";
+              sha256_unsigned = "f81ba1590136b4ae95e26af9a8c782ed3cc31d291a72f108afcd7bd66bf4ef38";
               type = "kernel";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-7dr7230-v2-bl31-uboot.fip";
-              sha256 = "6637ca97603c9bda8f25438ee3427c107cd5b873d609b809678bdf41768d1db1";
-              sha256_unsigned = "6637ca97603c9bda8f25438ee3427c107cd5b873d609b809678bdf41768d1db1";
-              type = "bl31-uboot.fip";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-7dr7230-v2-preloader.bin";
-              sha256 = "68ad7011d1ed646033227db59c08119af10b5eb73c122576548d0ca2abe5f78f";
-              sha256_unsigned = "68ad7011d1ed646033227db59c08119af10b5eb73c122576548d0ca2abe5f78f";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-7dr7230-v2-preloader.bin";
+              sha256 = "4071435b5cb905751593a574ad5c506cc79384f2105cac85c94a50df5f062565";
+              sha256_unsigned = "4071435b5cb905751593a574ad5c506cc79384f2105cac85c94a50df5f062565";
               type = "preloader.bin";
             }
           ];
@@ -35079,33 +35121,33 @@
             "kmod-phy-airoha-en8811h"
             "airoha-en8811h-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-7dr7250-v1";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-7dr7250-v1";
           images = [
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-7dr7250-v1-squashfs-sysupgrade.itb";
-              sha256 = "c41e776430e65d4cd9f1ff126db8d09a0aa6f5e553b3496bfaf7091560d15b82";
-              sha256_unsigned = "5e41472bb109308dbc480bc55009f5986ba7963fb925b0fe87c84dfaacf2537a";
-              type = "sysupgrade";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-7dr7250-v1-bl31-uboot.fip";
-              sha256 = "fb9287ee855d2f304dd25a3f233fc03dbee2380160ee1a195d77a3387f3c95c3";
-              sha256_unsigned = "fb9287ee855d2f304dd25a3f233fc03dbee2380160ee1a195d77a3387f3c95c3";
-              type = "bl31-uboot.fip";
-            }
-            {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-7dr7250-v1-initramfs-recovery.itb";
-              sha256 = "232979aeae45ee471ec586f3901b76a0aefaa7c839bfdde5620a83cc7bd3640f";
-              sha256_unsigned = "232979aeae45ee471ec586f3901b76a0aefaa7c839bfdde5620a83cc7bd3640f";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-7dr7250-v1-initramfs-recovery.itb";
+              sha256 = "26183c6af278bb606ec6fcd8ef21f6b233fa1331730d3bab6d2ca3c6389b8807";
+              sha256_unsigned = "26183c6af278bb606ec6fcd8ef21f6b233fa1331730d3bab6d2ca3c6389b8807";
               type = "kernel";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-7dr7250-v1-preloader.bin";
-              sha256 = "b8ec4b5746230f223abf9260d8516bb5218238fb25ff6892a49e0024a8b2bb5a";
-              sha256_unsigned = "b8ec4b5746230f223abf9260d8516bb5218238fb25ff6892a49e0024a8b2bb5a";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-7dr7250-v1-preloader.bin";
+              sha256 = "3d266c046d3261870fa87b0ef952c1531743969dfdc754b30db34c5f3e4e88cf";
+              sha256_unsigned = "3d266c046d3261870fa87b0ef952c1531743969dfdc754b30db34c5f3e4e88cf";
               type = "preloader.bin";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-7dr7250-v1-bl31-uboot.fip";
+              sha256 = "735b03f2fbdd47644cf572b0279f474b79c5a9047fba8988e27fd364fbbf15c6";
+              sha256_unsigned = "735b03f2fbdd47644cf572b0279f474b79c5a9047fba8988e27fd364fbbf15c6";
+              type = "bl31-uboot.fip";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-7dr7250-v1-squashfs-sysupgrade.itb";
+              sha256 = "71157e9d73fc27469a58c23457f9ab5678da8a93aeefcacd7b6655584c9c6dab";
+              sha256_unsigned = "673ec66e9c87096f867f56ac6cd4a8b78e59ee36ac58bfe5a197bdfe35052f9a";
+              type = "sysupgrade";
             }
           ];
           supported_devices = [
@@ -35127,33 +35169,33 @@
             "mt7986-wo-firmware"
             "automount"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-xdr4288";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-xdr4288";
           images = [
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-xdr4288-initramfs-recovery.itb";
-              sha256 = "ba9c81eb434db1524473c3d6ab67f8ca7c12286b44f678bf0df2a79c76756ac4";
-              sha256_unsigned = "ba9c81eb434db1524473c3d6ab67f8ca7c12286b44f678bf0df2a79c76756ac4";
-              type = "kernel";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-xdr4288-bl31-uboot.fip";
+              sha256 = "c7fbe583aaec72f70efef245f17519e46ff5fd38f3f0638a88a8b70b82a11951";
+              sha256_unsigned = "c7fbe583aaec72f70efef245f17519e46ff5fd38f3f0638a88a8b70b82a11951";
+              type = "bl31-uboot.fip";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-xdr4288-preloader.bin";
-              sha256 = "4cafaf9575b158734ab06593a63ec2ee8a0553c56c9baddc071849dcd0699403";
-              sha256_unsigned = "4cafaf9575b158734ab06593a63ec2ee8a0553c56c9baddc071849dcd0699403";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-xdr4288-preloader.bin";
+              sha256 = "1169fb188870fdc43ed247a58148a09c8302af2b2d767d21e7cd517b05ce6842";
+              sha256_unsigned = "1169fb188870fdc43ed247a58148a09c8302af2b2d767d21e7cd517b05ce6842";
               type = "preloader.bin";
             }
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-xdr4288-squashfs-sysupgrade.itb";
-              sha256 = "8cb2ad6033ef54fca7470c83c3f5d9e2e0a60f8c0820aef06c9e8d0e26df7b53";
-              sha256_unsigned = "ec4903a2ac9459e52e213a041ebf658f2a7540b279cba674c7669fd9ab658baa";
-              type = "sysupgrade";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-xdr4288-initramfs-recovery.itb";
+              sha256 = "49c4eafc111f14d74a4a531d4f0ba4af446bd2c1ded6d18be126cebe4f6aefa4";
+              sha256_unsigned = "49c4eafc111f14d74a4a531d4f0ba4af446bd2c1ded6d18be126cebe4f6aefa4";
+              type = "kernel";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-xdr4288-bl31-uboot.fip";
-              sha256 = "a924064c79919bf25d897a282e484775392d57c63cd37f5de910222a7e6fe868";
-              sha256_unsigned = "a924064c79919bf25d897a282e484775392d57c63cd37f5de910222a7e6fe868";
-              type = "bl31-uboot.fip";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-xdr4288-squashfs-sysupgrade.itb";
+              sha256 = "0ed59b7cf7e16efebfa585cea9fa4cbdb25e115e7e3800f6a01628910b4449fb";
+              sha256_unsigned = "6c0a4e545db22a0320fe4b12b9757195d805825e0945255090acfcd0f005f7a6";
+              type = "sysupgrade";
             }
           ];
           supported_devices = [
@@ -35174,33 +35216,33 @@
             "mt7986-wo-firmware"
             "automount"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-xdr6086";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-xdr6086";
           images = [
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-xdr6086-bl31-uboot.fip";
-              sha256 = "65628f79bf460f3eaa790ad88ba68e2be837cd7c50d043ab876e538fe628ea57";
-              sha256_unsigned = "65628f79bf460f3eaa790ad88ba68e2be837cd7c50d043ab876e538fe628ea57";
-              type = "bl31-uboot.fip";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-xdr6086-preloader.bin";
-              sha256 = "4cafaf9575b158734ab06593a63ec2ee8a0553c56c9baddc071849dcd0699403";
-              sha256_unsigned = "4cafaf9575b158734ab06593a63ec2ee8a0553c56c9baddc071849dcd0699403";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-xdr6086-preloader.bin";
+              sha256 = "1169fb188870fdc43ed247a58148a09c8302af2b2d767d21e7cd517b05ce6842";
+              sha256_unsigned = "1169fb188870fdc43ed247a58148a09c8302af2b2d767d21e7cd517b05ce6842";
               type = "preloader.bin";
             }
             {
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-xdr6086-initramfs-recovery.itb";
+              sha256 = "518f6d14204ce8940232d13ae89dadef823a465276c440f9a5e369ddd0bd9f05";
+              sha256_unsigned = "518f6d14204ce8940232d13ae89dadef823a465276c440f9a5e369ddd0bd9f05";
+              type = "kernel";
+            }
+            {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-xdr6086-squashfs-sysupgrade.itb";
-              sha256 = "9e7607baae140cffd50146933219a5b90b8324083ee2988a612a153c4b81ac16";
-              sha256_unsigned = "398dbbbf96ed54fb9a2e45b6349554dab5060cc9a48183f389d38d98cd9b56bf";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-xdr6086-squashfs-sysupgrade.itb";
+              sha256 = "07b653a5b4116d87a21acaf1b4a27095e1cebfddfda0e2343d001957a7b2ad76";
+              sha256_unsigned = "37203254560f8b6dc31347486ad020f37617265a36ba34acd9528ecdd058cc51";
               type = "sysupgrade";
             }
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-xdr6086-initramfs-recovery.itb";
-              sha256 = "86956e2d072fb6fbfc3145d8e6dec27302bfbf3d8d5b4a0d61d3f44d4e7c9283";
-              sha256_unsigned = "86956e2d072fb6fbfc3145d8e6dec27302bfbf3d8d5b4a0d61d3f44d4e7c9283";
-              type = "kernel";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-xdr6086-bl31-uboot.fip";
+              sha256 = "eb38854f20127641013fdc5691f7b466c43544d7a07aac06fd7d1729d3613367";
+              sha256_unsigned = "eb38854f20127641013fdc5691f7b466c43544d7a07aac06fd7d1729d3613367";
+              type = "bl31-uboot.fip";
             }
           ];
           supported_devices = [
@@ -35221,33 +35263,33 @@
             "mt7986-wo-firmware"
             "automount"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-xdr6088";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-xdr6088";
           images = [
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-xdr6088-bl31-uboot.fip";
-              sha256 = "ff21c174d191e9c7c43f7c258fa779d1de93ac318ce813578c8928badf27356d";
-              sha256_unsigned = "ff21c174d191e9c7c43f7c258fa779d1de93ac318ce813578c8928badf27356d";
-              type = "bl31-uboot.fip";
-            }
-            {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-xdr6088-squashfs-sysupgrade.itb";
-              sha256 = "08be45d803baad88d70268ac4c65ff0bdc8e3d64bce52ac159d9f99ddf3043f4";
-              sha256_unsigned = "b7589968db6a2a6c80935daa913883acc110f2153182877ca67cd6a3c532457a";
-              type = "sysupgrade";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-xdr6088-preloader.bin";
-              sha256 = "4cafaf9575b158734ab06593a63ec2ee8a0553c56c9baddc071849dcd0699403";
-              sha256_unsigned = "4cafaf9575b158734ab06593a63ec2ee8a0553c56c9baddc071849dcd0699403";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-xdr6088-preloader.bin";
+              sha256 = "1169fb188870fdc43ed247a58148a09c8302af2b2d767d21e7cd517b05ce6842";
+              sha256_unsigned = "1169fb188870fdc43ed247a58148a09c8302af2b2d767d21e7cd517b05ce6842";
               type = "preloader.bin";
             }
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-xdr6088-initramfs-recovery.itb";
-              sha256 = "ea7b8b1028c1389e8fd28acde6aee44b007ed1357b6f440d579092182902b8c1";
-              sha256_unsigned = "ea7b8b1028c1389e8fd28acde6aee44b007ed1357b6f440d579092182902b8c1";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-xdr6088-initramfs-recovery.itb";
+              sha256 = "8c10747fa0d7b20dd9a080db92797257f3b858bbe45911738c8a83715ba3b1e3";
+              sha256_unsigned = "8c10747fa0d7b20dd9a080db92797257f3b858bbe45911738c8a83715ba3b1e3";
               type = "kernel";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-xdr6088-bl31-uboot.fip";
+              sha256 = "5f27729562620e91bdcea3494e4b77616cebaf0e6cd52a974db45e18f93506fe";
+              sha256_unsigned = "5f27729562620e91bdcea3494e4b77616cebaf0e6cd52a974db45e18f93506fe";
+              type = "bl31-uboot.fip";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-xdr6088-squashfs-sysupgrade.itb";
+              sha256 = "26beb0b66e077bce397df5d9acad39ab8079614658eca16b3004ed713e473011";
+              sha256_unsigned = "f71a7ac8f78b95a346baf583bfc24754a93228eace023dea7966da17677b546e";
+              type = "sysupgrade";
             }
           ];
           supported_devices = [
@@ -35269,33 +35311,33 @@
             "automount"
             "kmod-mt7915-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-xtr8488";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-xtr8488";
           images = [
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-xtr8488-bl31-uboot.fip";
-              sha256 = "5fb326906546697eeb5078cf568ab721235e6f193c3a2df67ccd5310fddc3137";
-              sha256_unsigned = "5fb326906546697eeb5078cf568ab721235e6f193c3a2df67ccd5310fddc3137";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-xtr8488-bl31-uboot.fip";
+              sha256 = "0b00f088d9630632643c1b23825002e3e5b95bc8016cb33f2130f2764b567d90";
+              sha256_unsigned = "0b00f088d9630632643c1b23825002e3e5b95bc8016cb33f2130f2764b567d90";
               type = "bl31-uboot.fip";
             }
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-xtr8488-squashfs-sysupgrade.itb";
-              sha256 = "01c31687344f7a2184aac468c7e009b0819c20465b3462ffcd02dfd422760da2";
-              sha256_unsigned = "84081867423777472558015eed31ee01cb7746aeda67534c153ce4b708384996";
-              type = "sysupgrade";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-xtr8488-preloader.bin";
-              sha256 = "0fc739b0b431083b868eb1d9c3abc74406a5ec50ba70e275621b47e0013adc76";
-              sha256_unsigned = "0fc739b0b431083b868eb1d9c3abc74406a5ec50ba70e275621b47e0013adc76";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-xtr8488-preloader.bin";
+              sha256 = "b532f27df59faa44db67315486bcb2e407eb0863c36deed496490ded61b39d18";
+              sha256_unsigned = "b532f27df59faa44db67315486bcb2e407eb0863c36deed496490ded61b39d18";
               type = "preloader.bin";
             }
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-tplink_tl-xtr8488-initramfs-recovery.itb";
-              sha256 = "78b57b39103ea7fddfd4e386d5a2d137c20017ca31329803d56bcb2c13a3a6c0";
-              sha256_unsigned = "78b57b39103ea7fddfd4e386d5a2d137c20017ca31329803d56bcb2c13a3a6c0";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-xtr8488-initramfs-recovery.itb";
+              sha256 = "21fc025be8bef82b7b4e7f5e3ed48b3e43811dac734b5022f5afc6a78d886499";
+              sha256_unsigned = "21fc025be8bef82b7b4e7f5e3ed48b3e43811dac734b5022f5afc6a78d886499";
               type = "kernel";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-tplink_tl-xtr8488-squashfs-sysupgrade.itb";
+              sha256 = "d1843715ed1814381fe7cda38207745871e639ed454681b2f9db3c3e2cfbd439";
+              sha256_unsigned = "d5e40ea01cffc4ae49424aa166b345ed39d1f3434d8cd24c0ae445c9366f29ba";
+              type = "sysupgrade";
             }
           ];
           supported_devices = [
@@ -35319,20 +35361,20 @@
             "fdisk"
             "partx-utils"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-ubnt_unifi-6-plus";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-ubnt_unifi-6-plus";
           images = [
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-ubnt_unifi-6-plus-initramfs-kernel.bin";
-              sha256 = "668775707d5b6ab341bd4907cc00bc69fbd1e1b8690fd0e3f1c55bd12080b494";
-              sha256_unsigned = "668775707d5b6ab341bd4907cc00bc69fbd1e1b8690fd0e3f1c55bd12080b494";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-ubnt_unifi-6-plus-initramfs-kernel.bin";
+              sha256 = "6984fa5fdaa343e4d287b4b565da7891b9a92f37e50f19bf8da700dcc93eec95";
+              sha256_unsigned = "6984fa5fdaa343e4d287b4b565da7891b9a92f37e50f19bf8da700dcc93eec95";
               type = "kernel";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-ubnt_unifi-6-plus-squashfs-sysupgrade.bin";
-              sha256 = "0dca8d2c21ba24d020d63447fed49d6aa545857ea56c6111c09723fd8b7c26f6";
-              sha256_unsigned = "14b2dd39358fe9d2435c76ba8a8d8dcd7cf12899b5c7e39d62f303c97196df69";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-ubnt_unifi-6-plus-squashfs-sysupgrade.bin";
+              sha256 = "e88e354398b7e0a95ddb60a8b1c366048c8aba14cc9527860b2383b21462d3a3";
+              sha256_unsigned = "d70b9bc1d33fc45f5a85d90064e10b779e2a337163e5886caf5a091345889cd4";
               type = "sysupgrade";
             }
           ];
@@ -35358,20 +35400,20 @@
             "partx-utils"
             "automount"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-unielec_u7981-01-emmc";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-unielec_u7981-01-emmc";
           images = [
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-unielec_u7981-01-emmc-squashfs-sysupgrade.bin";
-              sha256 = "eb376cbea6ef39a81f4c2ff80d656d4bdcfb91bfa4c87a0efc4611bf5cb2de3a";
-              sha256_unsigned = "81c79352edf4df60ede78b6b26705ae568f6e361a555a77ab33b50eb7ec665da";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-unielec_u7981-01-emmc-squashfs-sysupgrade.bin";
+              sha256 = "63d73185f0f8ef2770a2ce538e4879a03428272308a7c2d2fcd425a249517b75";
+              sha256_unsigned = "c9807dac00cdf11bf094c6b4c0f429cac4f67145ee56dbb699e2996ed6d05c5c";
               type = "sysupgrade";
             }
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-unielec_u7981-01-emmc-initramfs-kernel.bin";
-              sha256 = "3fde6df28754a9cf98b2e6d532dd45ef1229c5e03007157f8da9580cfc2b5e08";
-              sha256_unsigned = "3fde6df28754a9cf98b2e6d532dd45ef1229c5e03007157f8da9580cfc2b5e08";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-unielec_u7981-01-emmc-initramfs-kernel.bin";
+              sha256 = "b8ffbecb669990297ba68bd47ca6fd4f900dd4e4326ac39c246b715d3a907215";
+              sha256_unsigned = "b8ffbecb669990297ba68bd47ca6fd4f900dd4e4326ac39c246b715d3a907215";
               type = "kernel";
             }
           ];
@@ -35398,20 +35440,20 @@
             "partx-utils"
             "automount"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-unielec_u7981-01-nand";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-unielec_u7981-01-nand";
           images = [
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-unielec_u7981-01-nand-initramfs-kernel.bin";
-              sha256 = "5d6d41d9e4a634034a2edb479870c9274e012d9569fd47b338ebedca1066e741";
-              sha256_unsigned = "5d6d41d9e4a634034a2edb479870c9274e012d9569fd47b338ebedca1066e741";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-unielec_u7981-01-nand-initramfs-kernel.bin";
+              sha256 = "dc5b74510115c68a1aa1c3feb5e7fe3895b8e017dec528258c1d9e331a38241a";
+              sha256_unsigned = "dc5b74510115c68a1aa1c3feb5e7fe3895b8e017dec528258c1d9e331a38241a";
               type = "kernel";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-unielec_u7981-01-nand-squashfs-sysupgrade.bin";
-              sha256 = "b724b3ba0c2357d2d997157096d83ffff295f370d2154e73321df3df9b3fedff";
-              sha256_unsigned = "b8c17685a405d2be311a982b6664bfbcfe1b2364993abf1da532904e5693b425";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-unielec_u7981-01-nand-squashfs-sysupgrade.bin";
+              sha256 = "5b46d5c96d60f25e88159ba42a0df9d32a2301a7f18a926ae3d2983593ca300a";
+              sha256_unsigned = "1af774a7822ca0d278abab121800e7b849fdd81b3fd134ad9efa0010bc2b808a";
               type = "sysupgrade";
             }
           ];
@@ -35432,21 +35474,21 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-wavlink_wl-wn573hx3";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-wavlink_wl-wn573hx3";
           images = [
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-wavlink_wl-wn573hx3-squashfs-WN573HX3-sysupgrade.bin";
-              sha256 = "5fffe776a0e4a8bce5fde466881f081d621dd3579220e2ea9ec1a8f26fe3064f";
-              sha256_unsigned = "1a5f6a3786fac79f920aaf63741a17b156849b5692edc61696e7aa972437d881";
-              type = "WN573HX3-sysupgrade";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-wavlink_wl-wn573hx3-initramfs-kernel.bin";
+              sha256 = "f5e07555a1cd493c65b8280f50a56931b1aaeb7b9431a0d4f408e1eb91e835e1";
+              sha256_unsigned = "f5e07555a1cd493c65b8280f50a56931b1aaeb7b9431a0d4f408e1eb91e835e1";
+              type = "kernel";
             }
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-wavlink_wl-wn573hx3-initramfs-kernel.bin";
-              sha256 = "49a7aa546149615df8b3c35a02a536cc4668f2fbf2121a821c8e50dd3e9bf421";
-              sha256_unsigned = "49a7aa546149615df8b3c35a02a536cc4668f2fbf2121a821c8e50dd3e9bf421";
-              type = "kernel";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-wavlink_wl-wn573hx3-squashfs-WN573HX3-sysupgrade.bin";
+              sha256 = "43809ca0a5bcc38474dce6e005873194ce50ccae1b9f4902517bea6106d6b0e5";
+              sha256_unsigned = "8ca29d50f2704dc515357e49e06ed71762824a73bc53eea228ced2c9aa8f5bbe";
+              type = "WN573HX3-sysupgrade";
             }
           ];
           supported_devices = [
@@ -35470,20 +35512,20 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-wavlink_wl-wn586x3";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-wavlink_wl-wn586x3";
           images = [
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-wavlink_wl-wn586x3-initramfs-kernel.bin";
-              sha256 = "f3439a7f7eb706330a60e2f1302ebc5204e8360daf8800bb04f53e275113a711";
-              sha256_unsigned = "f3439a7f7eb706330a60e2f1302ebc5204e8360daf8800bb04f53e275113a711";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-wavlink_wl-wn586x3-initramfs-kernel.bin";
+              sha256 = "6abfcce5c5a249d3a370460438645cde9a5069af26ee0122d543c8783938873e";
+              sha256_unsigned = "6abfcce5c5a249d3a370460438645cde9a5069af26ee0122d543c8783938873e";
               type = "kernel";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-wavlink_wl-wn586x3-squashfs-sysupgrade.bin";
-              sha256 = "19e5612a9244f53cc9aa525446c59a8fe39f7d58bc08efff603a5d9584943805";
-              sha256_unsigned = "9194666e62d26f960c40aba0f89770869c04871ebda8298a3ce80fb6f74b7c82";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-wavlink_wl-wn586x3-squashfs-sysupgrade.bin";
+              sha256 = "0eaadd56708e4df8350607308f34101dd47af883a01ef00421d3e2215245aec0";
+              sha256_unsigned = "63c742c6ad21013387284f7987f9122f70e16c9549828437943c96082fc2dcd1";
               type = "sysupgrade";
             }
           ];
@@ -35503,27 +35545,27 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-xiaomi_mi-router-ax3000t";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-xiaomi_mi-router-ax3000t";
           images = [
             {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-xiaomi_mi-router-ax3000t-initramfs-factory.ubi";
+              sha256 = "a3e95e3e325ce27df696a9b7f0eb9475f2857d56c9288c9edd1c8bb994df958a";
+              sha256_unsigned = "a3e95e3e325ce27df696a9b7f0eb9475f2857d56c9288c9edd1c8bb994df958a";
+              type = "initramfs-factory.ubi";
+            }
+            {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-xiaomi_mi-router-ax3000t-squashfs-sysupgrade.bin";
-              sha256 = "79974e0787b1d1c7849dc7a3d76667739d0a875082d0e9caa8bee9141bc7572f";
-              sha256_unsigned = "bfe2a4b85f77acb427c66c3537ddc65cb4301138e3f6097b3d92c164a67a070c";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-xiaomi_mi-router-ax3000t-squashfs-sysupgrade.bin";
+              sha256 = "bdf8c23d3d1f959ac20c667459bcbdb9cc3d02388e3526be7d0895c7de01ec80";
+              sha256_unsigned = "45c88ed7598bc954deb9e69883fe844047757435e04cd9c44b4864b9ff7c358f";
               type = "sysupgrade";
             }
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-xiaomi_mi-router-ax3000t-initramfs-kernel.bin";
-              sha256 = "3fc0bc8eaf67c77a9bebf9603b321ff63f3c1f1ac2a74949c81ef2072d21409e";
-              sha256_unsigned = "3fc0bc8eaf67c77a9bebf9603b321ff63f3c1f1ac2a74949c81ef2072d21409e";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-xiaomi_mi-router-ax3000t-initramfs-kernel.bin";
+              sha256 = "1b784cc68b4141314f9a1d2c18b852dc02afaaa5bf8ad713be9a6f86eaf6f054";
+              sha256_unsigned = "1b784cc68b4141314f9a1d2c18b852dc02afaaa5bf8ad713be9a6f86eaf6f054";
               type = "kernel";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-xiaomi_mi-router-ax3000t-initramfs-factory.ubi";
-              sha256 = "e18801d93fd4216ce8b61efdcbb4c731849833021d57d7ffeb264616c06a409e";
-              sha256_unsigned = "e18801d93fd4216ce8b61efdcbb4c731849833021d57d7ffeb264616c06a409e";
-              type = "initramfs-factory.ubi";
             }
           ];
           supported_devices = [
@@ -35543,39 +35585,39 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-xiaomi_mi-router-ax3000t-ubootmod";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-xiaomi_mi-router-ax3000t-ubootmod";
           images = [
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-xiaomi_mi-router-ax3000t-ubootmod-bl31-uboot.fip";
-              sha256 = "777c4db0a44b0354ca7e5f5df03e484d7ad80b9cb5bd694925297ea0c00e2c36";
-              sha256_unsigned = "777c4db0a44b0354ca7e5f5df03e484d7ad80b9cb5bd694925297ea0c00e2c36";
-              type = "bl31-uboot.fip";
-            }
-            {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-xiaomi_mi-router-ax3000t-ubootmod-initramfs-recovery.itb";
-              sha256 = "a3997c7f65f2cfe4d543a0679f4a4ec8836749731dac4f18db0bafe7d78aa86f";
-              sha256_unsigned = "a3997c7f65f2cfe4d543a0679f4a4ec8836749731dac4f18db0bafe7d78aa86f";
-              type = "kernel";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-xiaomi_mi-router-ax3000t-ubootmod-initramfs-factory.ubi";
-              sha256 = "c83220fe374f071b9ed2f5cb7e7e6f15d94e09e33ae3444f46d4636e76848a84";
-              sha256_unsigned = "c83220fe374f071b9ed2f5cb7e7e6f15d94e09e33ae3444f46d4636e76848a84";
-              type = "initramfs-factory.ubi";
-            }
-            {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-xiaomi_mi-router-ax3000t-ubootmod-squashfs-sysupgrade.itb";
-              sha256 = "4d18935c4d75203a5ce8cd790422e51339e0796ad33baa824d061953af62504d";
-              sha256_unsigned = "ac5d46ea6300f423c1a720e4a49338fbcea99f9b6800b89d7a4b77f0d98edb3b";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-xiaomi_mi-router-ax3000t-ubootmod-squashfs-sysupgrade.itb";
+              sha256 = "936cc2c453c4ae3e1bfe2c4fff7781474ec372e819be1cba76c0034350553957";
+              sha256_unsigned = "b0af3c6d6953020f3c93256e6505e6427a7b52c1530afe6bbca9017215b7038a";
               type = "sysupgrade";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-xiaomi_mi-router-ax3000t-ubootmod-preloader.bin";
-              sha256 = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
-              sha256_unsigned = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-xiaomi_mi-router-ax3000t-ubootmod-initramfs-factory.ubi";
+              sha256 = "dda2ea3fea974226c73ce5f976cf42fb4a88c710c4569d6557e1777fa8dcf8df";
+              sha256_unsigned = "dda2ea3fea974226c73ce5f976cf42fb4a88c710c4569d6557e1777fa8dcf8df";
+              type = "initramfs-factory.ubi";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-xiaomi_mi-router-ax3000t-ubootmod-initramfs-recovery.itb";
+              sha256 = "65dfe78a7bf9e9056ad9b290ecc33b127ac0c247cdf3b23d5bd6568fa92b4b31";
+              sha256_unsigned = "65dfe78a7bf9e9056ad9b290ecc33b127ac0c247cdf3b23d5bd6568fa92b4b31";
+              type = "kernel";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-xiaomi_mi-router-ax3000t-ubootmod-preloader.bin";
+              sha256 = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
+              sha256_unsigned = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
               type = "preloader.bin";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-xiaomi_mi-router-ax3000t-ubootmod-bl31-uboot.fip";
+              sha256 = "e63b9e54cd486eceeb19542891015b73a7506bca49ffa3856c6169f6b0dd4562";
+              sha256_unsigned = "e63b9e54cd486eceeb19542891015b73a7506bca49ffa3856c6169f6b0dd4562";
+              type = "bl31-uboot.fip";
             }
           ];
           supported_devices = [
@@ -35595,27 +35637,27 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-xiaomi_mi-router-wr30u-stock";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-xiaomi_mi-router-wr30u-stock";
           images = [
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-xiaomi_mi-router-wr30u-stock-squashfs-sysupgrade.bin";
-              sha256 = "1a2f8e8b8085fccb1cf0f1cbb9392cf7c06be8c828ee0dafbd663e3dc63ee954";
-              sha256_unsigned = "a6e89a032d614588ec7c064d8b53cd16976a1028ae7f678c7f445e72670372c0";
-              type = "sysupgrade";
-            }
-            {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-xiaomi_mi-router-wr30u-stock-initramfs-kernel.bin";
-              sha256 = "662d40e96d7bd2816845db2aaccf6371230e6000286bf4fddcc511ae145ce6cc";
-              sha256_unsigned = "662d40e96d7bd2816845db2aaccf6371230e6000286bf4fddcc511ae145ce6cc";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-xiaomi_mi-router-wr30u-stock-initramfs-kernel.bin";
+              sha256 = "e1bd9d8067832b54f9e752be230ee94f8dd1221cff091e204b6b779a6e287fe5";
+              sha256_unsigned = "e1bd9d8067832b54f9e752be230ee94f8dd1221cff091e204b6b779a6e287fe5";
               type = "kernel";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-xiaomi_mi-router-wr30u-stock-initramfs-factory.ubi";
-              sha256 = "2706d46b56a5ba33a003f376b4e6506b09ba0cae28d9fb4bc5d30251c19e9dfa";
-              sha256_unsigned = "2706d46b56a5ba33a003f376b4e6506b09ba0cae28d9fb4bc5d30251c19e9dfa";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-xiaomi_mi-router-wr30u-stock-initramfs-factory.ubi";
+              sha256 = "1104f07c64b602b4a6598fa60531ed5ba636baf04b11bdbc83f4e4ea3c8e69f0";
+              sha256_unsigned = "1104f07c64b602b4a6598fa60531ed5ba636baf04b11bdbc83f4e4ea3c8e69f0";
               type = "initramfs-factory.ubi";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-xiaomi_mi-router-wr30u-stock-squashfs-sysupgrade.bin";
+              sha256 = "4f80319e4d111940a9081827172017e784cf08c81f9ff44a0ff3084638eb52bb";
+              sha256_unsigned = "5fb96879bfba97ca51bc1012dc22d0c579b8bd43108b4344c1d6433408868b1e";
+              type = "sysupgrade";
             }
           ];
           supported_devices = [
@@ -35635,39 +35677,39 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-xiaomi_mi-router-wr30u-ubootmod";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-xiaomi_mi-router-wr30u-ubootmod";
           images = [
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-xiaomi_mi-router-wr30u-ubootmod-initramfs-factory.ubi";
-              sha256 = "9b6e047d5bb5b5d7afd291d1cbb63d281837df2e7e1031c8bfe34af0800a403d";
-              sha256_unsigned = "9b6e047d5bb5b5d7afd291d1cbb63d281837df2e7e1031c8bfe34af0800a403d";
-              type = "initramfs-factory.ubi";
-            }
-            {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-xiaomi_mi-router-wr30u-ubootmod-squashfs-sysupgrade.itb";
-              sha256 = "a7aefd0ac3b0f9e7dff10bd3767fb769863ce556c36171999f4405c6875c51e8";
-              sha256_unsigned = "a23396e41e82b75dca5da5aaf15e739bc8c51af8926e5673eee8583787e7a745";
-              type = "sysupgrade";
-            }
-            {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-xiaomi_mi-router-wr30u-ubootmod-initramfs-recovery.itb";
-              sha256 = "103ccd1672369c50610ba5d89b5b4234f76cab15eab5ff3423da88047009957e";
-              sha256_unsigned = "103ccd1672369c50610ba5d89b5b4234f76cab15eab5ff3423da88047009957e";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-xiaomi_mi-router-wr30u-ubootmod-initramfs-recovery.itb";
+              sha256 = "11d78bda5c32b1e57b669421da487edd9511f09e62e8e795c2c58ae9f177c973";
+              sha256_unsigned = "11d78bda5c32b1e57b669421da487edd9511f09e62e8e795c2c58ae9f177c973";
               type = "kernel";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-xiaomi_mi-router-wr30u-ubootmod-preloader.bin";
-              sha256 = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
-              sha256_unsigned = "a749a792c981547e7baeb80c79bb344e3668e07b37b8c0ac23261f575e588fb4";
-              type = "preloader.bin";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-xiaomi_mi-router-wr30u-ubootmod-squashfs-sysupgrade.itb";
+              sha256 = "725a9449f853d38d22cfc5ac53adfde1d399899dcc3b084d5cda24479026a0c9";
+              sha256_unsigned = "fbb1af4f6724f67f04d5a24d8a302d22618e92bd49de870ae4afa7c35a06a2df";
+              type = "sysupgrade";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-xiaomi_mi-router-wr30u-ubootmod-bl31-uboot.fip";
-              sha256 = "4f217fc91218a58328346bf89deace0679f776f2b6043600db230ea038780314";
-              sha256_unsigned = "4f217fc91218a58328346bf89deace0679f776f2b6043600db230ea038780314";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-xiaomi_mi-router-wr30u-ubootmod-bl31-uboot.fip";
+              sha256 = "8073c8baaad158a8e26b6b386a6d622dacb197f7b672556a966d8a249752f9bb";
+              sha256_unsigned = "8073c8baaad158a8e26b6b386a6d622dacb197f7b672556a966d8a249752f9bb";
               type = "bl31-uboot.fip";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-xiaomi_mi-router-wr30u-ubootmod-initramfs-factory.ubi";
+              sha256 = "aa832613f7dd235bb082485fd11b19db6392db1c227f420c3578af79d5ce0d42";
+              sha256_unsigned = "aa832613f7dd235bb082485fd11b19db6392db1c227f420c3578af79d5ce0d42";
+              type = "initramfs-factory.ubi";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-xiaomi_mi-router-wr30u-ubootmod-preloader.bin";
+              sha256 = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
+              sha256_unsigned = "6a0ef8986e2d35d75aa3230f91c856120a68d90184e2d2af9fcffe869c059ce3";
+              type = "preloader.bin";
             }
           ];
           supported_devices = [
@@ -35688,26 +35730,26 @@
             "kmod-mt7986-firmware"
             "mt7986-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-xiaomi_redmi-router-ax6000-stock";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-xiaomi_redmi-router-ax6000-stock";
           images = [
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-xiaomi_redmi-router-ax6000-stock-squashfs-sysupgrade.bin";
-              sha256 = "a1a1356123f037e784857b109bfa88c1d66735ec2fb47e7a8270e13b5daf4740";
-              sha256_unsigned = "647c85080caff3e27ef6cd3cf8f1b9ebd9b2a68764523b5d18a8ce8c323a247d";
-              type = "sysupgrade";
-            }
-            {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-xiaomi_redmi-router-ax6000-stock-initramfs-kernel.bin";
-              sha256 = "00793256d8d3ae705dc14eaf208dee2107feac5cedd0a8086da74f12e9a0c228";
-              sha256_unsigned = "00793256d8d3ae705dc14eaf208dee2107feac5cedd0a8086da74f12e9a0c228";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-xiaomi_redmi-router-ax6000-stock-initramfs-kernel.bin";
+              sha256 = "e3022905c0122c197890243cf903700032d5693cae29d77eff8bd731c8d403ad";
+              sha256_unsigned = "e3022905c0122c197890243cf903700032d5693cae29d77eff8bd731c8d403ad";
               type = "kernel";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-xiaomi_redmi-router-ax6000-stock-initramfs-factory.ubi";
-              sha256 = "7dbba6020d861899d93badc74db850758967b0ad01f92cb4bb8f8f402ec560db";
-              sha256_unsigned = "7dbba6020d861899d93badc74db850758967b0ad01f92cb4bb8f8f402ec560db";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-xiaomi_redmi-router-ax6000-stock-squashfs-sysupgrade.bin";
+              sha256 = "b6d3991b39c14a70f6b5b88a3ee1bd9393e3025e0a2b815bbcf9476229c8a7e3";
+              sha256_unsigned = "57ffded15937713addc402a436c27750e6d377d4bd1070d3e11d2f21d26c3312";
+              type = "sysupgrade";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-xiaomi_redmi-router-ax6000-stock-initramfs-factory.ubi";
+              sha256 = "267763b084d2f0ec2860531696b7303d1f3666e720259bad7091e493a8bda791";
+              sha256_unsigned = "267763b084d2f0ec2860531696b7303d1f3666e720259bad7091e493a8bda791";
               type = "initramfs-factory.ubi";
             }
           ];
@@ -35729,39 +35771,39 @@
             "kmod-mt7986-firmware"
             "mt7986-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-xiaomi_redmi-router-ax6000-ubootmod";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-xiaomi_redmi-router-ax6000-ubootmod";
           images = [
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-xiaomi_redmi-router-ax6000-ubootmod-squashfs-sysupgrade.itb";
-              sha256 = "1488d5bd4ada21f4d615632f19ebf33161b50302e2e2a13b6daa2a5fbc24416d";
-              sha256_unsigned = "565b84ee5ac00266da5043aa1796d440c80889e90a8d49d72d181d697b01924e";
-              type = "sysupgrade";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-xiaomi_redmi-router-ax6000-ubootmod-initramfs-factory.ubi";
+              sha256 = "d7ead46852b25daaee2d5d130749d9bb64e867a2099f0a3ccee1ffd7bcfcc884";
+              sha256_unsigned = "d7ead46852b25daaee2d5d130749d9bb64e867a2099f0a3ccee1ffd7bcfcc884";
+              type = "initramfs-factory.ubi";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-xiaomi_redmi-router-ax6000-ubootmod-preloader.bin";
-              sha256 = "0fc739b0b431083b868eb1d9c3abc74406a5ec50ba70e275621b47e0013adc76";
-              sha256_unsigned = "0fc739b0b431083b868eb1d9c3abc74406a5ec50ba70e275621b47e0013adc76";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-xiaomi_redmi-router-ax6000-ubootmod-preloader.bin";
+              sha256 = "b532f27df59faa44db67315486bcb2e407eb0863c36deed496490ded61b39d18";
+              sha256_unsigned = "b532f27df59faa44db67315486bcb2e407eb0863c36deed496490ded61b39d18";
               type = "preloader.bin";
             }
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-xiaomi_redmi-router-ax6000-ubootmod-initramfs-recovery.itb";
-              sha256 = "5e9b94960992be2491c4c3926fcc738b6716303e3524309b99438feb54f8ef68";
-              sha256_unsigned = "5e9b94960992be2491c4c3926fcc738b6716303e3524309b99438feb54f8ef68";
-              type = "kernel";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-xiaomi_redmi-router-ax6000-ubootmod-bl31-uboot.fip";
-              sha256 = "3a97a792656223931e0384a1f09cf7f2b18960805c068c386c11dd3072ed12e1";
-              sha256_unsigned = "3a97a792656223931e0384a1f09cf7f2b18960805c068c386c11dd3072ed12e1";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-xiaomi_redmi-router-ax6000-ubootmod-bl31-uboot.fip";
+              sha256 = "10f1e0ca56fdf26308cab1256ff817e2dac4f7642911f959a5ef95e131798183";
+              sha256_unsigned = "10f1e0ca56fdf26308cab1256ff817e2dac4f7642911f959a5ef95e131798183";
               type = "bl31-uboot.fip";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-xiaomi_redmi-router-ax6000-ubootmod-initramfs-factory.ubi";
-              sha256 = "e959f33bafbfb8f8a27d17f39ee759b75e984cdc14d2956eaf22e8eb692b49c4";
-              sha256_unsigned = "e959f33bafbfb8f8a27d17f39ee759b75e984cdc14d2956eaf22e8eb692b49c4";
-              type = "initramfs-factory.ubi";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-xiaomi_redmi-router-ax6000-ubootmod-initramfs-recovery.itb";
+              sha256 = "e83248332df923212a20541002fd33006800462c869f1ef3cd6ac762a60984d1";
+              sha256_unsigned = "e83248332df923212a20541002fd33006800462c869f1ef3cd6ac762a60984d1";
+              type = "kernel";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-xiaomi_redmi-router-ax6000-ubootmod-squashfs-sysupgrade.itb";
+              sha256 = "de739292ecb10606c0413dcb7af4dd4819f1323e752066017055579cada98de0";
+              sha256_unsigned = "4f7a2b04a086551ec343b71e3003503bbd81efab913a9cb98d36d790f3347904";
+              type = "sysupgrade";
             }
           ];
           supported_devices = [
@@ -35781,21 +35823,21 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-yuncore_ax835";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-yuncore_ax835";
           images = [
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-yuncore_ax835-initramfs-kernel.bin";
-              sha256 = "33a6ca8121b9d7dc83d4e8cbae23af8a8355b4727202ef54c8cb0a8506e10ee4";
-              sha256_unsigned = "33a6ca8121b9d7dc83d4e8cbae23af8a8355b4727202ef54c8cb0a8506e10ee4";
-              type = "kernel";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-yuncore_ax835-squashfs-sysupgrade.bin";
+              sha256 = "c7c2348577f820b9d54fd67b9f52eca5a92c1a99b8f1090d2c615ad9fabd6e4b";
+              sha256_unsigned = "ff8af916fc57b8df01f3f2c22a8334404679222d405a28fc18038813c320da11";
+              type = "sysupgrade";
             }
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-yuncore_ax835-squashfs-sysupgrade.bin";
-              sha256 = "9d9bd643dd66c6584c4d3b691496c3f0f72e1b65c441958bcf60451a87ad78b6";
-              sha256_unsigned = "2421b853b887e8559157441b2344362bae7040652434d34b89c3b593110b36c2";
-              type = "sysupgrade";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-yuncore_ax835-initramfs-kernel.bin";
+              sha256 = "d76459b331e5f3c7031fba313b1943fa86142bf8d3bd9fb600ab1b88559b6eb5";
+              sha256_unsigned = "d76459b331e5f3c7031fba313b1943fa86142bf8d3bd9fb600ab1b88559b6eb5";
+              type = "kernel";
             }
           ];
           supported_devices = [
@@ -35819,28 +35861,28 @@
             "kmod-usb-serial-option"
             "automount"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-zbtlink_zbt-z8102ax";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-zbtlink_zbt-z8102ax";
           images = [
             {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-zbtlink_zbt-z8102ax-squashfs-sysupgrade.bin";
+              sha256 = "e64d6251f8706112ed6f631c2dd4806f923d19020d1feab0101f6d1147641fcb";
+              sha256_unsigned = "0d7c118fbb6df2e64d7bb0543dacd6e3cf31d5c4f2ff1d384cd904b2f300e875";
+              type = "sysupgrade";
+            }
+            {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-zbtlink_zbt-z8102ax-initramfs-kernel.bin";
-              sha256 = "4b9f1b6a9beca253889633a83b86a861c8640d4f92983e509137269c031f3fd4";
-              sha256_unsigned = "4b9f1b6a9beca253889633a83b86a861c8640d4f92983e509137269c031f3fd4";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-zbtlink_zbt-z8102ax-initramfs-kernel.bin";
+              sha256 = "179d0f821a172df5ef0979e80de6b6539a17cde0f59d45a6528a7125181552b8";
+              sha256_unsigned = "179d0f821a172df5ef0979e80de6b6539a17cde0f59d45a6528a7125181552b8";
               type = "kernel";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-zbtlink_zbt-z8102ax-squashfs-factory.bin";
-              sha256 = "f1eb83619995348f47d1be23710d62b870dd6fc381b13cf26fe65f764d7f2bc9";
-              sha256_unsigned = "f1eb83619995348f47d1be23710d62b870dd6fc381b13cf26fe65f764d7f2bc9";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-zbtlink_zbt-z8102ax-squashfs-factory.bin";
+              sha256 = "075fc3fffd64667e81b1430d7d4ab62b421b8f18644fb891242ae8f8ba625ef7";
+              sha256_unsigned = "075fc3fffd64667e81b1430d7d4ab62b421b8f18644fb891242ae8f8ba625ef7";
               type = "factory";
-            }
-            {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-zbtlink_zbt-z8102ax-squashfs-sysupgrade.bin";
-              sha256 = "76cb986fff60cd98d0e8946bd073518a790c76935b4a8858745a20d203c87a94";
-              sha256_unsigned = "5376121476afc60d88a36603d48ab52a6ba8ccb6e6aee448a2eb8105bce1554b";
-              type = "sysupgrade";
             }
           ];
           supported_devices = [
@@ -35862,28 +35904,28 @@
             "kmod-usb-net-qmi-wwan"
             "kmod-usb-serial-option"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-zbtlink_zbt-z8102ax-v2";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-zbtlink_zbt-z8102ax-v2";
           images = [
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-zbtlink_zbt-z8102ax-v2-squashfs-factory.bin";
-              sha256 = "7ca3ee5563917d1e4c53ea22f461d949f5670d1fa822f61addf585bb8155209d";
-              sha256_unsigned = "7ca3ee5563917d1e4c53ea22f461d949f5670d1fa822f61addf585bb8155209d";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-zbtlink_zbt-z8102ax-v2-squashfs-factory.bin";
+              sha256 = "9e8c8c341ab81604ef41fdd829fc18533a451677f47f27d025088b599cbfffc9";
+              sha256_unsigned = "9e8c8c341ab81604ef41fdd829fc18533a451677f47f27d025088b599cbfffc9";
               type = "factory";
             }
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-zbtlink_zbt-z8102ax-v2-initramfs-kernel.bin";
-              sha256 = "e7a6a3ab8c86036b71194bb8028cb24bf311ca1829547838eb72126e9fb2d287";
-              sha256_unsigned = "e7a6a3ab8c86036b71194bb8028cb24bf311ca1829547838eb72126e9fb2d287";
-              type = "kernel";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-zbtlink_zbt-z8102ax-v2-squashfs-sysupgrade.bin";
+              sha256 = "2cc8d19ee9bdf8d4ed41adea2a993f2c90924cb8d739586b1bb8b8ed9cf6b0fd";
+              sha256_unsigned = "4c5a44c8060171c47b4645e5ed17f17ad55aec66220f695e8e0d2b774dd6633e";
+              type = "sysupgrade";
             }
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-zbtlink_zbt-z8102ax-v2-squashfs-sysupgrade.bin";
-              sha256 = "34401cbce1491bdc39786d40553eb7329f90866f3f8ce6b22b8b130cdbf641b5";
-              sha256_unsigned = "f894f34a1289a32903de59e738e48f4c6ab17d693f0989fb61b6644b03f399bb";
-              type = "sysupgrade";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-zbtlink_zbt-z8102ax-v2-initramfs-kernel.bin";
+              sha256 = "cf4081e7d110cc73c6dba4e2733044a6f6d15498927d93ba9385d9ecf5e35f4d";
+              sha256_unsigned = "cf4081e7d110cc73c6dba4e2733044a6f6d15498927d93ba9385d9ecf5e35f4d";
+              type = "kernel";
             }
           ];
           supported_devices = [
@@ -35902,27 +35944,27 @@
             "kmod-mt7981-firmware"
             "mt7981-wo-firmware"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-zbtlink_zbt-z8103ax";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-zbtlink_zbt-z8103ax";
           images = [
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-zbtlink_zbt-z8103ax-initramfs-kernel.bin";
-              sha256 = "484c428bc721b66db41d4be26c58ec83c446f844b9911089ec4d6fefb632d7fd";
-              sha256_unsigned = "484c428bc721b66db41d4be26c58ec83c446f844b9911089ec4d6fefb632d7fd";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-zbtlink_zbt-z8103ax-initramfs-kernel.bin";
+              sha256 = "243b9fa3682e1bfefc59fc0ec47adba617828f9cb9001d5b9c8d74ba6ace64e5";
+              sha256_unsigned = "243b9fa3682e1bfefc59fc0ec47adba617828f9cb9001d5b9c8d74ba6ace64e5";
               type = "kernel";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-zbtlink_zbt-z8103ax-squashfs-sysupgrade.bin";
-              sha256 = "f3f30bdb9118a146eb0de289041073c66f6bfca9a99e001f404659ff5d45c6e4";
-              sha256_unsigned = "e01a0e8f0bda497f5d608a6bdd515098684102e6e9c4d7f8cde60337a1762bd1";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-zbtlink_zbt-z8103ax-squashfs-sysupgrade.bin";
+              sha256 = "591849d4b0411beb4bf1d101d072adc2ce22a91216e00be7a275e289683f7cb0";
+              sha256_unsigned = "3ae6b11cfffba7bb2546e23d2c3be1bf0c62587c03e6597aa40dec4ee89879b8";
               type = "sysupgrade";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-zbtlink_zbt-z8103ax-squashfs-factory.bin";
-              sha256 = "dfdd6076921344a55c9e6cdb2e1e7a290c5703ca847a30f771eb39d259477712";
-              sha256_unsigned = "dfdd6076921344a55c9e6cdb2e1e7a290c5703ca847a30f771eb39d259477712";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-zbtlink_zbt-z8103ax-squashfs-factory.bin";
+              sha256 = "e1d2c26a21a5c5a32ab686c73cb1f27e09bfa401d86774bc83a834fbd41e2cc4";
+              sha256_unsigned = "e1d2c26a21a5c5a32ab686c73cb1f27e09bfa401d86774bc83a834fbd41e2cc4";
               type = "factory";
             }
           ];
@@ -35944,28 +35986,28 @@
             "kmod-usb3"
             "automount"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-zyxel_ex5601-t0-stock";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-zyxel_ex5601-t0-stock";
           images = [
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-zyxel_ex5601-t0-stock-initramfs-kernel.bin";
-              sha256 = "dcc6db600812f348f0df3b8e509b381a42630b12595942cf3cd167cb585ed0f5";
-              sha256_unsigned = "dcc6db600812f348f0df3b8e509b381a42630b12595942cf3cd167cb585ed0f5";
-              type = "kernel";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-zyxel_ex5601-t0-stock-squashfs-sysupgrade.bin";
+              sha256 = "aeef3c74e50404c5fc5f0f0932e2f76b1642ea28ed1ef9c456ac71ba5b33133a";
+              sha256_unsigned = "9e2e8d01068e24a7e23e336003dfa97bdb0cf050927c56a3d7ae912cd9e68888";
+              type = "sysupgrade";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-zyxel_ex5601-t0-stock-squashfs-factory.bin";
-              sha256 = "fa4186d825e6cd789b61787cd99fb22a96d16f13c433c79eb1c0e2b7323bba21";
-              sha256_unsigned = "fa4186d825e6cd789b61787cd99fb22a96d16f13c433c79eb1c0e2b7323bba21";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-zyxel_ex5601-t0-stock-squashfs-factory.bin";
+              sha256 = "01a26888e07ee6e3f10154858d6dba8dcf4bd2dcfb53fa7be19dd5c4342b4816";
+              sha256_unsigned = "01a26888e07ee6e3f10154858d6dba8dcf4bd2dcfb53fa7be19dd5c4342b4816";
               type = "factory";
             }
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-zyxel_ex5601-t0-stock-squashfs-sysupgrade.bin";
-              sha256 = "694cb332bc926e011c662ba6b1920090680d5187bf58ce590521055ad966800d";
-              sha256_unsigned = "0df50404dccc1a45f325a92a1925bb271cc7f5a793241b9ece252b2afb5feb39";
-              type = "sysupgrade";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-zyxel_ex5601-t0-stock-initramfs-kernel.bin";
+              sha256 = "5c66d3fe0941d5c21abef11fb3d24f9c0dea40244929f6882823d008edd8ed00";
+              sha256_unsigned = "5c66d3fe0941d5c21abef11fb3d24f9c0dea40244929f6882823d008edd8ed00";
+              type = "kernel";
             }
           ];
           supported_devices = [
@@ -35995,38 +36037,38 @@
             "kmod-usb3"
             "automount"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-zyxel_ex5601-t0-ubootmod";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-zyxel_ex5601-t0-ubootmod";
           images = [
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-zyxel_ex5601-t0-ubootmod-bl31-uboot.fip";
-              sha256 = "c285a6a2976d5d375e4109b9daddfa80d3350ebddb42de7f773ce85c2614809f";
-              sha256_unsigned = "c285a6a2976d5d375e4109b9daddfa80d3350ebddb42de7f773ce85c2614809f";
-              type = "bl31-uboot.fip";
-            }
-            {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-zyxel_ex5601-t0-ubootmod-squashfs-sysupgrade.itb";
-              sha256 = "d8c7ec69796bfcb16f47a517017c6d448cbaa32ed336180884fa963f3ebc8280";
-              sha256_unsigned = "0dbe4e1e07543bc4e7424f2232560f1e666a79120c4d8f1b7f791dee1efc256a";
-              type = "sysupgrade";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-zyxel_ex5601-t0-ubootmod-initramfs-factory.ubi";
-              sha256 = "b54fd48feaeefd1799a5d8079f2bdd3694c3f612eb9b1270f6556b02cd9f53cd";
-              sha256_unsigned = "b54fd48feaeefd1799a5d8079f2bdd3694c3f612eb9b1270f6556b02cd9f53cd";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-zyxel_ex5601-t0-ubootmod-initramfs-factory.ubi";
+              sha256 = "0715d9f7d381f816d671ac9dccb1ff5b9641c25129e698a18a6c31dd436e83fa";
+              sha256_unsigned = "0715d9f7d381f816d671ac9dccb1ff5b9641c25129e698a18a6c31dd436e83fa";
               type = "initramfs-factory.ubi";
             }
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-zyxel_ex5601-t0-ubootmod-initramfs-recovery.itb";
-              sha256 = "655522bc88a679518c2582babd42c6c27b32bacabe6f7f6029b6a53eab491f44";
-              sha256_unsigned = "655522bc88a679518c2582babd42c6c27b32bacabe6f7f6029b6a53eab491f44";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-zyxel_ex5601-t0-ubootmod-initramfs-recovery.itb";
+              sha256 = "0a00add976cfcf32464ccd2ba7c166a6249cd5ff5b93a1d5631f712e9e060729";
+              sha256_unsigned = "0a00add976cfcf32464ccd2ba7c166a6249cd5ff5b93a1d5631f712e9e060729";
               type = "kernel";
             }
             {
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-zyxel_ex5601-t0-ubootmod-preloader.bin";
-              sha256 = "a0b356e07ed1e7084a3fc460b3fbe8a6624fe5c01baa6f9a612e52662ac51fb1";
-              sha256_unsigned = "a0b356e07ed1e7084a3fc460b3fbe8a6624fe5c01baa6f9a612e52662ac51fb1";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-zyxel_ex5601-t0-ubootmod-bl31-uboot.fip";
+              sha256 = "0697761695a284ef37daeed2f96c7ad1cdbb3624bffc1f62bbbcd42abf465788";
+              sha256_unsigned = "0697761695a284ef37daeed2f96c7ad1cdbb3624bffc1f62bbbcd42abf465788";
+              type = "bl31-uboot.fip";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-zyxel_ex5601-t0-ubootmod-squashfs-sysupgrade.itb";
+              sha256 = "a03f6d4dbd6a5407b15a77bb2a35a9841291dd7c0700f856772611d92d7608c1";
+              sha256_unsigned = "0ef59a544be5240a4f9e67afcba466ad2bf3f03a50e515727bddae1ad7765291";
+              type = "sysupgrade";
+            }
+            {
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-zyxel_ex5601-t0-ubootmod-preloader.bin";
+              sha256 = "3fa72cddde718e9b901f9a238882072901e6ff7feaebf3553dc701b4bb70bac2";
+              sha256_unsigned = "3fa72cddde718e9b901f9a238882072901e6ff7feaebf3553dc701b4bb70bac2";
               type = "preloader.bin";
             }
           ];
@@ -36059,20 +36101,20 @@
             "mt7986-wo-firmware"
             "automount"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-zyxel_ex5700-telenor";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-zyxel_ex5700-telenor";
           images = [
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-zyxel_ex5700-telenor-squashfs-sysupgrade.bin";
-              sha256 = "840e29e602d4b9c69fdb6430c3aa1e8dcc3436009e014df6bd234a1cbef11dc3";
-              sha256_unsigned = "f99fc440a7a0809664d0fa2ed73767a36e5c8c2989e57bcf23058e54950d3169";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-zyxel_ex5700-telenor-squashfs-sysupgrade.bin";
+              sha256 = "1690c1ba787d7fc6198a4937902320dcdc39987e2707df57ea7a95abb0f16652";
+              sha256_unsigned = "2805d9adc1ac0692f63e9b72fcdc365728c1c8882be615c31e5c21e720b5bb15";
               type = "sysupgrade";
             }
             {
               filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-zyxel_ex5700-telenor-initramfs-kernel.bin";
-              sha256 = "8c0771c935cb13bf27321f55c6f60b9aa7dd6daf0e15d8db4db2ddd14d1a4c2f";
-              sha256_unsigned = "8c0771c935cb13bf27321f55c6f60b9aa7dd6daf0e15d8db4db2ddd14d1a4c2f";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-zyxel_ex5700-telenor-initramfs-kernel.bin";
+              sha256 = "2b9bee57154760d23e39314a68dcc38f3ee0abad59353ad0c3f438c84a6e1277";
+              sha256_unsigned = "2b9bee57154760d23e39314a68dcc38f3ee0abad59353ad0c3f438c84a6e1277";
               type = "kernel";
             }
           ];
@@ -36093,28 +36135,28 @@
             "mt7981-wo-firmware"
             "zyxel-bootconfig"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-zyxel_nwa50ax-pro";
+          image_prefix = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-zyxel_nwa50ax-pro";
           images = [
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-zyxel_nwa50ax-pro-squashfs-sysupgrade.bin";
-              sha256 = "8a9d2544fb301b448cdb7976b018735b05d8d9aa5deb44f328d2f33e8990cb10";
-              sha256_unsigned = "eda2061d34d346972d6859be4d69a407a2ceb812603f1c81b60ced891b35fb2a";
-              type = "sysupgrade";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-zyxel_nwa50ax-pro-initramfs-kernel.bin";
+              sha256 = "b773dbb0c333a80e27639279d4350b2ad47b5978df48f023ad384875efb2bd94";
+              sha256_unsigned = "b773dbb0c333a80e27639279d4350b2ad47b5978df48f023ad384875efb2bd94";
+              type = "kernel";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-zyxel_nwa50ax-pro-squashfs-factory.bin";
-              sha256 = "079709accee1144b00a264da394cc3507cd3b1586d3675e714f4d5791bb08b1e";
-              sha256_unsigned = "079709accee1144b00a264da394cc3507cd3b1586d3675e714f4d5791bb08b1e";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-zyxel_nwa50ax-pro-squashfs-factory.bin";
+              sha256 = "ee3d266c7b59f4dc628e303e082384a400978344154313cee65457517ab8c4bc";
+              sha256_unsigned = "ee3d266c7b59f4dc628e303e082384a400978344154313cee65457517ab8c4bc";
               type = "factory";
             }
             {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33409-28761de5de-mediatek-filogic-zyxel_nwa50ax-pro-initramfs-kernel.bin";
-              sha256 = "c42e0412c0150c4c1135117c759721be107172ccaf0f1dc3bb5cb190882e16f4";
-              sha256_unsigned = "c42e0412c0150c4c1135117c759721be107172ccaf0f1dc3bb5cb190882e16f4";
-              type = "kernel";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33426-dbfba8d80b-mediatek-filogic-zyxel_nwa50ax-pro-squashfs-sysupgrade.bin";
+              sha256 = "e0f651062567c7c2eae3a04b59b8fc6088b971cc6afb00a16be5d85e1c4bba0f";
+              sha256_unsigned = "96212481bc208d823c8a6d98af3de5b0806e10d4f3a0b0ef6e7ddd485c12da5e";
+              type = "sysupgrade";
             }
           ];
           supported_devices = [
@@ -36128,9 +36170,9 @@
           ];
         };
       };
-      source_date_epoch = 1757171279;
+      source_date_epoch = 1757486189;
       target = "mediatek/filogic";
-      version_code = "r33409-28761de5de";
+      version_code = "r33426-dbfba8d80b";
       version_number = "24.10-SNAPSHOT";
     };
     mt7622 = {
