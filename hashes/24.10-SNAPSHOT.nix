@@ -102,8 +102,8 @@
   packages."arm_cortex-a7"."packages".sha256 = "sha256-3A4Pf52odQiE19+Te3whurCVymAgXS8sithBuOSqqfo=";
   packages."arm_cortex-a7"."routing".sha256 = "sha256-1pWtkSSbMNfGE86D3y8DqVjXwH+J3NlYzTpnfNUEvLI=";
   packages."arm_cortex-a7"."telephony".sha256 = "sha256-F09o3t+ND7Y57EunEiFCex7z4wW2I1W/t0YC2PVsue0=";
-  targets."mediatek"."filogic".sha256 = "sha256-Pd8IkNOtP0wjxYkluPTJOzsdswLqhJwulqf17DiMz+I=";
-  kmods."mediatek"."filogic"."6.6.103-1-3ca4b8cb2fcc3a2027e8496143a86cab".sha256 = "sha256-LaVNTXgx7hVeGcnZBi64p7+lfmKertxXisCfXn0JvC4=";
+  targets."mediatek"."filogic".sha256 = "sha256-8l5tIpp052uQPyM+FB8MSyuCmIT5/sbZ/jGU6mLSCoA=";
+  kmods."mediatek"."filogic"."6.6.104-1-3ca4b8cb2fcc3a2027e8496143a86cab".sha256 = "sha256-dDDl1uNGsgW6hl/yEdWjfekIPsEpVgkPiqUGL210sGA=";
   targets."mediatek"."filogic".packagesArch = "aarch64_cortex-a53";
   targets."mediatek"."mt7623".sha256 = "sha256-Pol2AVUzSdS6eaz4o5f20eJvODOWL/iZfVhWiATP6Lg=";
   kmods."mediatek"."mt7623"."6.6.104-1-cbb5c12c6bf458a411836f7c630c1738".sha256 = "sha256-leyX9yuCvMOiRm7+xwRifcbg1g4ho3Gs1DifI5wtjHA=";
