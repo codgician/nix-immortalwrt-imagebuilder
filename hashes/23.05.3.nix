@@ -172,7 +172,6 @@
   packages."mips_mips32"."routing".sha256 = "sha256-k9Lua0uR1D9DrljqQA+9/tII8XsBgJ4h/xbN3nye1gs=";
   packages."mips_mips32"."telephony".sha256 = "sha256-gJRtpXPeTpOk2xKAewz10m1NlE8FZjoKAlUSmOLt66I=";
   targets."bcm63xx"."smp".sha256 = "sha256-7jNJSusN+j5R7vyr/wTGQne9hLm5sQEohIUD4qpV1MM=";
-  targets."bcm63xx"."smp".packagesArch = "mips_mips32";
   targets."kirkwood"."generic".sha256 = "sha256-aCv+b+bGLL0yrsHuNgoblZcB8nBasgJD1lTZY2/g/aQ=";
   targets."kirkwood"."generic".packagesArch = "arm_xscale";
   packages."arm_xscale"."base".sha256 = "sha256-SZHLtwC0KcaQePrfyhC0IK1EEGsWX1fNhQDUtu1+Bzs=";

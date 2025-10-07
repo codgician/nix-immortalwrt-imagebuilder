@@ -188,7 +188,6 @@
   packages."powerpc_8548"."routing".sha256 = "sha256-c8ZEmI2M1E3dQ0cSUC4Y51oaSJP5s5cf4KrJ4Bq4wgc=";
   packages."powerpc_8548"."telephony".sha256 = "sha256-wN0X74ZqAHpV9a3Z6UYiphpnRHC6lSpxWWfK/n+QvWs=";
   targets."mpc85xx"."p1010".sha256 = "sha256-FW9+4yk/4DUbA6ZqJRvFSTNterMndBgKZjXrIQNxNso=";
-  targets."mpc85xx"."p1010".packagesArch = "powerpc_8548";
   targets."mpc85xx"."p1020".sha256 = "sha256-1/zVix4pS/2qzIktWPlJviGMQS6oPc8aDZg3QPELCaI=";
   targets."mpc85xx"."p1020".packagesArch = "powerpc_8548";
   targets."mvebu"."cortexa53".sha256 = "sha256-xwPmuCpyUDy1IKnC67WtSAcgEgy9VHFvbJBYA8SDNu8=";

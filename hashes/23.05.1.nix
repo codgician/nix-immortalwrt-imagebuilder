@@ -210,7 +210,7 @@
   targets."sunxi"."cortexa8".packagesArch = "arm_cortex-a8_vfpv3";
   packages."arm_cortex-a8_vfpv3"."base".sha256 = "sha256-n/djSUvfGReolzuABM0lZO0nIXcvh7VFokmDAz4YMks=";
   packages."arm_cortex-a8_vfpv3"."luci".sha256 = "sha256-dVB7QoBohvpFkMx5sgvZA5ZbmvGMi9aPv6GuXYNq2w4=";
-  packages."arm_cortex-a8_vfpv3"."packages".sha256 = "sha256-F1M75cPFoEIRr3E6GzCDqFKV91EY8r5RPW5kfemQyJ0=";
+  packages."arm_cortex-a8_vfpv3"."packages".sha256 = "";
   packages."arm_cortex-a8_vfpv3"."routing".sha256 = "sha256-IOutj7IgxD//wg6Fi1mQGcbApq7pBO2ie/bwwhYkJfw=";
   packages."arm_cortex-a8_vfpv3"."telephony".sha256 = "sha256-fwdXUbInShSpz1u5ObcXS9HWszF6b4pwcrWXgl/1rps=";
   targets."ramips"."rt288x".sha256 = "sha256-rz1OfJa33bGZGWgBvxrmCfDJfB3mP156opYrryKWRZo=";
