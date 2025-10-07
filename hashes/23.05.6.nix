@@ -202,6 +202,8 @@
   packages."aarch64_cortex-a72"."telephony".sha256 = "sha256-vSycePgWn+SntlCdcGtdFOUPm0BOJSUqK7SnGbACOqM=";
   targets."mvebu"."cortexa9".sha256 = "sha256-9IAWGb2B29A9t42H68xMfzzHjfyTW6F0zVyoeF1AIq4=";
   targets."mvebu"."cortexa9".packagesArch = "arm_cortex-a9_vfpv3-d16";
+  targets."sunxi"."cortexa7".sha256 = "sha256-l0wzFVS6SH2yPqp/iMlM0N0ZqUM+RVPp7yU7oLSlNIQ=";
+  targets."sunxi"."cortexa7".packagesArch = "arm_cortex-a7_neon-vfpv4";
   targets."sunxi"."cortexa53".sha256 = "sha256-p8XWb0KNI5dxf6U3FVnn4I0PjlwQcM2+pPKqQHaEH9I=";
   targets."sunxi"."cortexa53".packagesArch = "aarch64_cortex-a53";
   targets."sunxi"."cortexa8".sha256 = "sha256-vPngHyRnhEy+jRYBhfy4c8/hq0AO5lbey7y33XU7zZw=";
