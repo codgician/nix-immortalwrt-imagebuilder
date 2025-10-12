@@ -192,6 +192,7 @@
   packages."arc_arc700"."routing".sha256 = "sha256-siq9CcTUVJLSyEMOsxqgwL7t7FYXp9KO3JgP04sN4wA=";
   packages."arc_arc700"."telephony".sha256 = "sha256-kA1I2zq3sTXwRrV52mu3ommpxCIB6Rx3DSV24vlys+4=";
   targets."mvebu"."cortexa53".sha256 = "sha256-o7B9FOsdnO2bMxvgeB+e4l/Ue6wvtY8CLbfN2rI8ogs=";
+  targets."mvebu"."cortexa53".packagesArch = "aarch64_cortex-a53";
   targets."mvebu"."cortexa72".sha256 = "sha256-xanUrs1ckDnhPU59Nq+jcmDyBkm2Fq93F9YdZ+puC+w=";
   targets."mvebu"."cortexa72".packagesArch = "aarch64_cortex-a72";
   packages."aarch64_cortex-a72"."base".sha256 = "sha256-wlvy4yAXyqZ0nfbBgLwlbEKtYCiK+UYgMMW5KubpSpU=";
