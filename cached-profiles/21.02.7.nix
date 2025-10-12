@@ -26638,6 +26638,351 @@
     };
   };
   mvebu = {
+    cortexa53 = {
+      arch_packages = "aarch64_cortex-a53";
+      default_packages = [
+        "autocore-arm"
+        "base-files"
+        "block-mount"
+        "busybox"
+        "ca-bundle"
+        "default-settings-chn"
+        "dnsmasq-full"
+        "dropbear"
+        "e2fsprogs"
+        "ethtool"
+        "firewall"
+        "fstools"
+        "iptables"
+        "ipv6helper"
+        "kmod-gpio-button-hotplug"
+        "kmod-ipt-raw"
+        "kmod-nf-nathelper"
+        "kmod-nf-nathelper-extra"
+        "libc"
+        "libgcc"
+        "libustream-openssl"
+        "logd"
+        "luci"
+        "luci-app-filetransfer"
+        "luci-app-turboacc"
+        "luci-compat"
+        "luci-lib-base"
+        "luci-lib-fs"
+        "luci-lib-ipkg"
+        "mkf2fs"
+        "mtd"
+        "netifd"
+        "opkg"
+        "partx-utils"
+        "ppp"
+        "ppp-mod-pppoe"
+        "procd"
+        "uboot-envtools"
+        "uci"
+        "uclient-fetch"
+        "urandom-seed"
+        "urngd"
+      ];
+      metadata_version = 1;
+      profiles = {
+        glinet_gl-mv1000 = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-21.02.7-mvebu-cortexa53-glinet_gl-mv1000";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-21.02.7-mvebu-cortexa53-glinet_gl-mv1000-ext4-sdcard.img.gz";
+              sha256 = "cd9933bcaa7c1e7548fd15366998c2813171f7710fd783950857eda9e7a4eddf";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.7-mvebu-cortexa53-glinet_gl-mv1000-squashfs-sdcard.img.gz";
+              sha256 = "48123892db100f5ba121f7a9468ce844a9b38fd54d3ee014555e752ceb47e585";
+              type = "sdcard";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.7-mvebu-cortexa53-glinet_gl-mv1000-initramfs-kernel.bin";
+              sha256 = "b8fdc52f1b0081c04af376489ee661e8d3f138c2321c3484db3dd3c4337652ef";
+              type = "kernel";
+            }
+          ];
+          supported_devices = [
+            "glinet,gl-mv1000"
+          ];
+          titles = [
+            {
+              model = "GL-MV1000";
+              vendor = "GL.iNet";
+            }
+          ];
+        };
+        globalscale_espressobin = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-21.02.7-mvebu-cortexa53-globalscale_espressobin";
+          images = [
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.7-mvebu-cortexa53-globalscale_espressobin-initramfs-kernel.bin";
+              sha256 = "b8fdc52f1b0081c04af376489ee661e8d3f138c2321c3484db3dd3c4337652ef";
+              type = "kernel";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-21.02.7-mvebu-cortexa53-globalscale_espressobin-ext4-sdcard.img.gz";
+              sha256 = "59ada3d38348dedf33fc374775b5299dc59eb5f0f8fd41972680eb95ff7207b1";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.7-mvebu-cortexa53-globalscale_espressobin-squashfs-sdcard.img.gz";
+              sha256 = "a8af2cf7ba3985010216504b1bbe3e7e88dde1fa1cb662156ac0289919f777b6";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "globalscale,espressobin"
+          ];
+          titles = [
+            {
+              model = "ESPRESSObin";
+              variant = "Non-eMMC";
+              vendor = "Marvell";
+            }
+            {
+              model = "Armada 3700 Community Board";
+              variant = "Non-eMMC";
+              vendor = "Marvell";
+            }
+          ];
+        };
+        globalscale_espressobin-emmc = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-21.02.7-mvebu-cortexa53-globalscale_espressobin-emmc";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-21.02.7-mvebu-cortexa53-globalscale_espressobin-emmc-ext4-sdcard.img.gz";
+              sha256 = "282620911775bcb46cb364115b5b241023a8fea438119af0fd9cc43e7da6e697";
+              type = "sdcard";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.7-mvebu-cortexa53-globalscale_espressobin-emmc-initramfs-kernel.bin";
+              sha256 = "b8fdc52f1b0081c04af376489ee661e8d3f138c2321c3484db3dd3c4337652ef";
+              type = "kernel";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.7-mvebu-cortexa53-globalscale_espressobin-emmc-squashfs-sdcard.img.gz";
+              sha256 = "ff641b5b5ccdc3a63c472df45f813dac5c432484d11f16edf5c3ede2cd4b9b08";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "globalscale,espressobin-emmc"
+          ];
+          titles = [
+            {
+              model = "ESPRESSObin";
+              variant = "eMMC";
+              vendor = "Marvell";
+            }
+            {
+              model = "Armada 3700 Community Board";
+              variant = "eMMC";
+              vendor = "Marvell";
+            }
+          ];
+        };
+        globalscale_espressobin-ultra = {
+          device_packages = [
+            "kmod-i2c-pxa"
+            "kmod-rtc-pcf8563"
+          ];
+          image_prefix = "immortalwrt-21.02.7-mvebu-cortexa53-globalscale_espressobin-ultra";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-21.02.7-mvebu-cortexa53-globalscale_espressobin-ultra-ext4-sdcard.img.gz";
+              sha256 = "7a088c84d9bb97a3f502c256bf99dab57a051839513ebf9de1a5235e4de24ed2";
+              type = "sdcard";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.7-mvebu-cortexa53-globalscale_espressobin-ultra-initramfs-kernel.bin";
+              sha256 = "b8fdc52f1b0081c04af376489ee661e8d3f138c2321c3484db3dd3c4337652ef";
+              type = "kernel";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.7-mvebu-cortexa53-globalscale_espressobin-ultra-squashfs-sdcard.img.gz";
+              sha256 = "7cccf6b831a40656dfda2248010bee277b0df51c9333158e9e97eb9825bd3b2e";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "globalscale,espressobin-ultra"
+          ];
+          titles = [
+            {
+              model = "ESPRESSObin";
+              variant = "Ultra";
+              vendor = "Marvell";
+            }
+          ];
+        };
+        globalscale_espressobin-v7 = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-21.02.7-mvebu-cortexa53-globalscale_espressobin-v7";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.7-mvebu-cortexa53-globalscale_espressobin-v7-squashfs-sdcard.img.gz";
+              sha256 = "21bcb485fb2b8ac61ace86392558fb546e0995ae55f2a738ee48167188deedbd";
+              type = "sdcard";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.7-mvebu-cortexa53-globalscale_espressobin-v7-initramfs-kernel.bin";
+              sha256 = "b8fdc52f1b0081c04af376489ee661e8d3f138c2321c3484db3dd3c4337652ef";
+              type = "kernel";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-21.02.7-mvebu-cortexa53-globalscale_espressobin-v7-ext4-sdcard.img.gz";
+              sha256 = "eaca8c16ad2fb1d42ce612058ca2132d11f3056e514023c3658637f17e12d39b";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "globalscale,espressobin-v7"
+          ];
+          titles = [
+            {
+              model = "ESPRESSObin";
+              variant = "V7 Non-eMMC";
+              vendor = "Marvell";
+            }
+            {
+              model = "Armada 3700 Community Board";
+              variant = "V7 Non-eMMC";
+              vendor = "Marvell";
+            }
+          ];
+        };
+        globalscale_espressobin-v7-emmc = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-21.02.7-mvebu-cortexa53-globalscale_espressobin-v7-emmc";
+          images = [
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.7-mvebu-cortexa53-globalscale_espressobin-v7-emmc-initramfs-kernel.bin";
+              sha256 = "b8fdc52f1b0081c04af376489ee661e8d3f138c2321c3484db3dd3c4337652ef";
+              type = "kernel";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-21.02.7-mvebu-cortexa53-globalscale_espressobin-v7-emmc-ext4-sdcard.img.gz";
+              sha256 = "9d57bdef7efac7709fff49411fba00d8c00bf620cbb15be4c0b8aa091985f5d8";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.7-mvebu-cortexa53-globalscale_espressobin-v7-emmc-squashfs-sdcard.img.gz";
+              sha256 = "a4430d41e1054329c7f91f3dfac626c90c20528938b585d14f091cd2cec14886";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "globalscale,espressobin-v7-emmc"
+          ];
+          titles = [
+            {
+              model = "ESPRESSObin";
+              variant = "V7 eMMC";
+              vendor = "Marvell";
+            }
+            {
+              model = "Armada 3700 Community Board";
+              variant = "V7 eMMC";
+              vendor = "Marvell";
+            }
+          ];
+        };
+        marvell_armada-3720-db = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-21.02.7-mvebu-cortexa53-marvell_armada-3720-db";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-21.02.7-mvebu-cortexa53-marvell_armada-3720-db-ext4-sdcard.img.gz";
+              sha256 = "ecb900d4619caf6efcb3f2935f176fceb4c2b1f9516aa101b1a8ebebd504c838";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.7-mvebu-cortexa53-marvell_armada-3720-db-squashfs-sdcard.img.gz";
+              sha256 = "b642ab49d4c3e3ac50e6cb38bcdb2232c6abae76202ce27413433cff881a78d9";
+              type = "sdcard";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.7-mvebu-cortexa53-marvell_armada-3720-db-initramfs-kernel.bin";
+              sha256 = "b8fdc52f1b0081c04af376489ee661e8d3f138c2321c3484db3dd3c4337652ef";
+              type = "kernel";
+            }
+          ];
+          supported_devices = [
+            "marvell,armada-3720-db"
+          ];
+          titles = [
+            {
+              model = "Armada 3720 Development Board (DB-88F3720-DDR3)";
+              vendor = "Marvell";
+            }
+          ];
+        };
+        methode_udpu = {
+          device_packages = [
+            "f2fs-tools"
+            "fdisk"
+            "kmod-i2c-pxa"
+            "kmod-hwmon-lm75"
+          ];
+          image_prefix = "immortalwrt-21.02.7-mvebu-cortexa53-methode_udpu";
+          images = [
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.7-mvebu-cortexa53-methode_udpu-initramfs.itb";
+              sha256 = "e084e41a98292cac9d11842901e6343a2480ef51be4839ef2683f1e8fe7b56fd";
+              type = "kernel";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-21.02.7-mvebu-cortexa53-methode_udpu-firmware.tgz";
+              sha256 = "466baf0fd57fa137ac92e415a637f6a932c9c517471eb59ed97c2ded55189e9c";
+              type = "firmware";
+            }
+          ];
+          supported_devices = [
+            "methode,udpu"
+          ];
+          titles = [
+            {
+              model = "micro-DPU (uDPU)";
+              vendor = "Methode";
+            }
+          ];
+        };
+      };
+      source_date_epoch = "1693809628";
+      target = "mvebu/cortexa53";
+      version_code = "r20074-a8bbadefaf";
+      version_number = "21.02.7";
+    };
     cortexa72 = {
       arch_packages = "aarch64_cortex-a72";
       default_packages = [
