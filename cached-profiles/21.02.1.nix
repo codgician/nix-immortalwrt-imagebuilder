@@ -12374,6 +12374,134 @@
       version_code = "r19441+1-f8624db86c";
       version_number = "21.02.1";
     };
+    bcm2709 = {
+      arch_packages = "arm_cortex-a7_neon-vfpv4";
+      default_packages = [
+        "autocore-arm"
+        "base-files"
+        "bcm27xx-gpu-fw"
+        "block-mount"
+        "busybox"
+        "ca-bundle"
+        "default-settings-chn"
+        "dnsmasq-full"
+        "dropbear"
+        "e2fsprogs"
+        "firewall"
+        "fstools"
+        "iptables"
+        "kmod-fs-vfat"
+        "kmod-ipt-raw"
+        "kmod-nf-nathelper"
+        "kmod-nf-nathelper-extra"
+        "kmod-nls-cp437"
+        "kmod-nls-iso8859-1"
+        "kmod-sound-arm-bcm2835"
+        "kmod-sound-core"
+        "kmod-usb-hid"
+        "libc"
+        "libgcc"
+        "libustream-openssl"
+        "logd"
+        "luci"
+        "luci-app-cpufreq"
+        "luci-app-filetransfer"
+        "luci-app-turboacc"
+        "luci-compat"
+        "luci-lib-base"
+        "luci-lib-fs"
+        "luci-lib-ipkg"
+        "mkf2fs"
+        "mtd"
+        "netifd"
+        "opkg"
+        "partx-utils"
+        "ppp"
+        "ppp-mod-pppoe"
+        "procd"
+        "uci"
+        "uclient-fetch"
+        "urandom-seed"
+      ];
+      metadata_version = 1;
+      profiles = {
+        rpi-2 = {
+          device_packages = [
+            "cypress-firmware-43430-sdio"
+            "cypress-nvram-43430-sdio-rpi-3b"
+            "cypress-firmware-43455-sdio"
+            "cypress-nvram-43455-sdio-rpi-3b-plus"
+            "cypress-nvram-43455-sdio-rpi-4b"
+            "kmod-brcmfmac"
+            "wpad-basic-openssl"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-21.02.1-bcm27xx-bcm2709-rpi-2";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-21.02.1-bcm27xx-bcm2709-rpi-2-ext4-sysupgrade.img.gz";
+              sha256 = "edd9e294a0b13877bfb6bc543d5fd4cc0dccc6515454054090c91ac0d441df41";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.1-bcm27xx-bcm2709-rpi-2-squashfs-sysupgrade.img.gz";
+              sha256 = "122a8ed02d955be7c1308d2a5cba25c47f42fdce79891e865ce213c66fae3f22";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.1-bcm27xx-bcm2709-rpi-2-squashfs-factory.img.gz";
+              sha256 = "033a65a029b980fe610ed781f96dce74c35007a4ca6ce0870d4c8cccd182d33f";
+              type = "factory";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-21.02.1-bcm27xx-bcm2709-rpi-2-ext4-factory.img.gz";
+              sha256 = "5873f1c2e9db0adc5886db27301477c9ae1faa12f311b2cf8c9cd269ca72463e";
+              type = "factory";
+            }
+          ];
+          supported_devices = [
+            "rpi-2-b"
+            "rpi-3-b"
+            "rpi-3-b-plus"
+            "rpi-cm"
+            "raspberrypi,2-model-b"
+            "raspberrypi,2-model-b-rev2"
+            "raspberrypi,3-model-b"
+            "raspberrypi,3-model-b-plus"
+            "raspberrypi,3-compute-module"
+            "raspberrypi,compute-module-3"
+            "raspberrypi,400"
+            "raspberrypi,4-compute-module"
+            "raspberrypi,4-model-b"
+          ];
+          titles = [
+            {
+              model = "2B/2B 1.2";
+              variant = "(32bit)";
+              vendor = "Raspberry Pi";
+            }
+            {
+              model = "3B/3B+/3CM";
+              variant = "(32bit)";
+              vendor = "Raspberry Pi";
+            }
+            {
+              model = "4B/400/4CM";
+              variant = "(32bit)";
+              vendor = "Raspberry Pi";
+            }
+          ];
+        };
+      };
+      source_date_epoch = "1657334765";
+      target = "bcm27xx/bcm2709";
+      version_code = "r19441+1-f8624db86c";
+      version_number = "21.02.1";
+    };
     bcm2710 = {
       arch_packages = "aarch64_cortex-a53";
       default_packages = [

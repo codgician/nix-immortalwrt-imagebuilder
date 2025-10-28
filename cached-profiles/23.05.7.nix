@@ -16133,6 +16133,135 @@
       version_code = "r28359-1db8d96e4866";
       version_number = "23.05.7";
     };
+    bcm2710 = {
+      arch_packages = "aarch64_cortex-a53";
+      default_packages = [
+        "autocore"
+        "automount"
+        "base-files"
+        "bcm27xx-gpu-fw"
+        "block-mount"
+        "busybox"
+        "ca-bundle"
+        "default-settings-chn"
+        "dnsmasq-full"
+        "dropbear"
+        "firewall4"
+        "fstools"
+        "kmod-fs-vfat"
+        "kmod-nf-nathelper"
+        "kmod-nf-nathelper-extra"
+        "kmod-nft-offload"
+        "kmod-nls-cp437"
+        "kmod-nls-iso8859-1"
+        "kmod-sound-arm-bcm2835"
+        "kmod-sound-core"
+        "kmod-usb-hid"
+        "libc"
+        "libgcc"
+        "libustream-openssl"
+        "logd"
+        "luci"
+        "luci-app-cpufreq"
+        "luci-app-opkg"
+        "luci-compat"
+        "luci-lib-base"
+        "luci-lib-ipkg"
+        "mkf2fs"
+        "mtd"
+        "netifd"
+        "nftables"
+        "odhcp6c"
+        "odhcpd-ipv6only"
+        "opkg"
+        "partx-utils"
+        "ppp"
+        "ppp-mod-pppoe"
+        "procd"
+        "procd-seccomp"
+        "procd-ujail"
+        "uci"
+        "uclient-fetch"
+        "urandom-seed"
+      ];
+      linux_kernel = {
+        release = "1";
+        vermagic = "8d790f4b81cbe377a52f4e03d0431d5e";
+        version = "5.15.195";
+      };
+      metadata_version = 1;
+      profiles = {
+        rpi-3 = {
+          device_packages = [
+            "cypress-firmware-43430-sdio"
+            "brcmfmac-nvram-43430-sdio"
+            "cypress-firmware-43455-sdio"
+            "brcmfmac-nvram-43455-sdio"
+            "kmod-brcmfmac"
+            "wpad-openssl"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-23.05.7-bcm27xx-bcm2710-rpi-3";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-23.05.7-bcm27xx-bcm2710-rpi-3-squashfs-sysupgrade.img.gz";
+              sha256 = "2a2ae0f6c2684c337f185f968ad1fc3a141026dd2500ff1cbdf1e4bf935266d6";
+              sha256_unsigned = "a9d2a576cd8b88069b1874ec81ad7186981e7b1b7fa8e14ad4c1336dbf7d6d44";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-23.05.7-bcm27xx-bcm2710-rpi-3-ext4-factory.img.gz";
+              sha256 = "41345ffb7a464347f2310380d2d4d01e3f5f1c714ec5b2b8516f369e304280a5";
+              sha256_unsigned = "41345ffb7a464347f2310380d2d4d01e3f5f1c714ec5b2b8516f369e304280a5";
+              type = "factory";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-23.05.7-bcm27xx-bcm2710-rpi-3-ext4-sysupgrade.img.gz";
+              sha256 = "6a4cde680f93e113f1f46cfb06010ed3c894f647195d1b8a04fcf1d6ba50c4b9";
+              sha256_unsigned = "6996e5adff4b1f276a6123d9e881908ea2b0ddbd631036c29631bf555b9186d8";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-23.05.7-bcm27xx-bcm2710-rpi-3-squashfs-factory.img.gz";
+              sha256 = "76f262704bbb608e826e5a24621b16bd046a87790e52df938b6ee82211380b56";
+              sha256_unsigned = "76f262704bbb608e826e5a24621b16bd046a87790e52df938b6ee82211380b56";
+              type = "factory";
+            }
+          ];
+          supported_devices = [
+            "rpi-3-b"
+            "rpi-3-b-plus"
+            "rpi-zero-2"
+            "raspberrypi,2-model-b-rev2"
+            "raspberrypi,3-model-b"
+            "raspberrypi,3-model-b-plus"
+            "raspberrypi,3-compute-module"
+            "raspberrypi,compute-module-3"
+            "raspberrypi,model-zero-2"
+          ];
+          titles = [
+            {
+              model = "3B/3B+/CM3";
+              variant = "(64bit)";
+              vendor = "Raspberry Pi";
+            }
+            {
+              model = "2B-1.2";
+              variant = "(64bit)";
+              vendor = "Raspberry Pi";
+            }
+          ];
+        };
+      };
+      source_date_epoch = 1761205511;
+      target = "bcm27xx/bcm2710";
+      version_code = "r28356-8348b09c4e9c";
+      version_number = "23.05.7";
+    };
     bcm2711 = {
       arch_packages = "aarch64_cortex-a72";
       default_packages = [
