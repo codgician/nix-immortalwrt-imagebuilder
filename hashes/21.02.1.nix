@@ -253,6 +253,8 @@
   targets."omap"."generic".packagesArch = "arm_cortex-a8_vfpv3";
   targets."bcm27xx"."bcm2710".sha256 = "sha256-FTcRRdx6kBQnQwBuGpBZJurDl7EfrFjlH6egIuccHpA=";
   targets."bcm27xx"."bcm2710".packagesArch = "aarch64_cortex-a53";
+  targets."bcm27xx"."bcm2709".sha256 = "sha256-dsVc1Aq1drhQPmJs0jil3Nt3dDLwoEBQswaGQucLnU4=";
+  targets."bcm27xx"."bcm2709".packagesArch = "arm_cortex-a7_neon-vfpv4";
   targets."bcm27xx"."bcm2708".sha256 = "sha256-GoLGnx9hUytUCp6f/b4Md9u9ajtEkdCi7+0c6ewK2Zg=";
   targets."bcm27xx"."bcm2708".packagesArch = "arm_arm1176jzf-s_vfp";
   packages."arm_arm1176jzf-s_vfp"."base".sha256 = "sha256-cqwnI27kk53rT6OiPVMpMGGakxqLcyjhPv5qxZeyJuc=";
