@@ -250,7 +250,6 @@
   targets."imx6"."generic".sha256 = "sha256-cLDb95L+qiGzOY7MWpiF4c2pW+DnVfqLcGJmlXyqsh4=";
   targets."imx6"."generic".packagesArch = "arm_cortex-a9_neon";
   targets."omap"."generic".sha256 = "sha256-fW9IgQhKgQEsEs/A+vC/9Gz9uz8Kmx/0NjonsDofYjI=";
-  targets."omap"."generic".packagesArch = "arm_cortex-a8_vfpv3";
   targets."bcm27xx"."bcm2710".sha256 = "sha256-wl8jsFiFfkTxFxK/q4AD2tBilBWD+9f/0pyohPDhWJw=";
   targets."bcm27xx"."bcm2710".packagesArch = "aarch64_cortex-a53";
   targets."bcm27xx"."bcm2709".sha256 = "sha256-1vysU5UYo33cUMKcRXyJKff2lOBTRhj0AiVXbipByo0=";

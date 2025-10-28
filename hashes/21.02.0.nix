@@ -252,7 +252,6 @@
   targets."omap"."generic".sha256 = "sha256-cJI2Gq4h2zIKbPm7y++RooglFt2P8A4/oqy478FvjQs=";
   targets."omap"."generic".packagesArch = "arm_cortex-a8_vfpv3";
   targets."bcm27xx"."bcm2710".sha256 = "sha256-1/BbrphkuFOne72LDjLZzPdHTLPm/+UEJcUN4v6zvzU=";
-  targets."bcm27xx"."bcm2710".packagesArch = "aarch64_cortex-a53";
   targets."bcm27xx"."bcm2709".sha256 = "sha256-IYW23vsDRfbtkJ54qTLucrnYyHtlZUPVTcQS6Ib4DHE=";
   targets."bcm27xx"."bcm2709".packagesArch = "arm_cortex-a7_neon-vfpv4";
   targets."bcm27xx"."bcm2708".sha256 = "sha256-L22qw+gOGRpVJ6gdcgwKxr5V/cGJLca7PtpzZvQsDh8=";

@@ -244,7 +244,6 @@
   targets."bmips"."bcm6368".sha256 = "sha256-fHAsM+xZhNqKHLksc71d5zFwvq7XYojjnhcUtwsoRgo=";
   targets."bmips"."bcm6368".packagesArch = "mips_mips32";
   targets."bmips"."bcm6362".sha256 = "sha256-qAzrA3qoIuow/b9FGJEC2CSlzzFZOoUZilrJbD+Z3x8=";
-  targets."bmips"."bcm6362".packagesArch = "mips_mips32";
   targets."bmips"."bcm6328".sha256 = "sha256-Ym6aO7gWcJ59rmhePnMNqwwqCAtFXcgagWfTGSu0/Oc=";
   targets."bmips"."bcm6328".packagesArch = "mips_mips32";
   targets."bmips"."bcm63268".sha256 = "sha256-fyPb9wT+GmKIBXFpkkslFN3jY9wfWZt2PiYmUVt2rb4=";

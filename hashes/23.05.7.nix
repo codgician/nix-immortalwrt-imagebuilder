@@ -258,8 +258,6 @@
   packages."mips64_octeonplus"."telephony".sha256 = "sha256-EQj978uDJGdKZy9K0JNSyetaH4wWefnhuYwKb51RZbo=";
   targets."bcm4908"."generic".sha256 = "sha256-f1T3BGX2jq44zJ8G7Cpb6FOGxE08BSxIRwPj5ZRCHQA=";
   targets."bcm4908"."generic".packagesArch = "aarch64_cortex-a53";
-  targets."bcm27xx"."bcm2710".sha256 = "sha256-3XjK5cBwTgLZpM7F4v8YHHQsFxySayo9Mve3NEbq13w=";
-  targets."bcm27xx"."bcm2710".packagesArch = "aarch64_cortex-a53";
   targets."bcm27xx"."bcm2709".sha256 = "sha256-m0xJaIq3Kjo4E6RzUdwjrAPHyrCoizQQOTxXRdgHNR0=";
   targets."bcm27xx"."bcm2709".packagesArch = "arm_cortex-a7_neon-vfpv4";
   targets."bcm27xx"."bcm2708".sha256 = "sha256-PdllysMF1tBnFoIIMHEehDgrgbwPGjy6C1bSIXOIRoE=";
