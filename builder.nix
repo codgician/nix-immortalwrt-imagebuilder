@@ -187,7 +187,7 @@ pkgs.stdenv.mkDerivation ({
     '';
 
   postBuild = ''
-    bin_files=(build_dir/target-*/linux-*/tmp/openwrt-*.*)
+    bin_files=(build_dir/target-*/linux-*/tmp/immortalwrt-*.*)
     if [[ ! -f ''${bin_files[0]} ]]; then
       echo "No squashfs or bin file produced at all, see above for errors, aborting"
       exit 5
@@ -214,7 +214,7 @@ pkgs.stdenv.mkDerivation ({
 
   postInstall = ''
     shopt -s nullglob
-    files=($out/openwrt-*-squashfs-sysupgrade.*)
+    files=($out/immortalwrt-*-squashfs-sysupgrade.*)
     if ! (( ''${#files[@]} )); then
       echo "Build produced no bin file, see above for details"
       exit 2;
