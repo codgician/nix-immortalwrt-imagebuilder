@@ -214,7 +214,7 @@ pkgs.stdenv.mkDerivation ({
 
   postInstall = ''
     shopt -s nullglob
-    files=($out/immortalwrt-*-squashfs-sysupgrade.*)
+    files=($out/immortalwrt-*-squashfs-*.*)
     if ! (( ''${#files[@]} )); then
       echo "Build produced no bin file, see above for details"
       exit 2;
