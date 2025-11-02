@@ -182,7 +182,7 @@
   packages."arm_xscale"."telephony".sha256 = "sha256-IX0xzo2Vl5OvGtVlShc0V+JbmxEHutF2jkBNuwG5Yl4=";
   targets."mpc85xx"."p2020".sha256 = "sha256-/7NWHwxaqJexEFAsQWVJW5M/pfkSUzmq0pA3NRV0H/E=";
   targets."mpc85xx"."p2020".packagesArch = "powerpc_8548";
-  packages."powerpc_8548"."base".sha256 = "";
+  packages."powerpc_8548"."base".sha256 = "sha256-pFPfuhpkwpofMMN7WgmxAUR+wh0kzHU1pa4PYTZV//g=";
   packages."powerpc_8548"."luci".sha256 = "sha256-zf9l51+OMYmxZZG99Lhf8boafZwK5wmcOu5lCdrgtSQ=";
   packages."powerpc_8548"."packages".sha256 = "sha256-6Oj5xdjLoi/GbnYoZ+jw0gD4kprm2qKfuMaja88n5ds=";
   packages."powerpc_8548"."routing".sha256 = "sha256-oO4WzHSHjrSIl1IxXpaz0e683+1PYlRhNDWt5QBXDU4=";
