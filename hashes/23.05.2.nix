@@ -213,6 +213,7 @@
   packages."arm_cortex-a8_vfpv3"."packages".sha256 = "sha256-EuCsRhyQEdFWm4ODYADLxMoaIwntAC2Ue7LtWfbyYss=";
   packages."arm_cortex-a8_vfpv3"."routing".sha256 = "sha256-gWcvteiM3/DFUVkQUGeO+swL1gOQQECIADMK+v0I3gg=";
   packages."arm_cortex-a8_vfpv3"."telephony".sha256 = "sha256-SJ64+kXhF95AoBg1Z3cwIDXhAUHkoOcTKgJ2rdU6M/w=";
+  targets."ramips"."rt288x".sha256 = "sha256-mej2peQJdBcWdeYet8mBq8qu5jGeFjUJIY+RA3aAk6U=";
   targets."ramips"."mt7620".sha256 = "sha256-1wCC+Idf7MXfac6GOfsR9zKSt3VqNegx7AAAjVPHxU8=";
   targets."ramips"."mt7620".packagesArch = "mipsel_24kc";
   packages."mipsel_24kc"."base".sha256 = "sha256-FP1VZO63TznkEtukUQRDz+2gKxJvslCopLfskgICbSg=";

@@ -232,7 +232,7 @@
   targets."ramips"."mt7621".packagesArch = "mipsel_24kc";
   targets."bcm53xx"."generic".sha256 = "sha256-SzVJND/EVLfF+G5fKVlwmS3qP4l5/y87VNDUuvzuuQ8=";
   targets."bcm53xx"."generic".packagesArch = "arm_cortex-a9";
-  packages."arm_cortex-a9"."base".sha256 = "";
+  packages."arm_cortex-a9"."base".sha256 = "sha256-ZCVoVpcZsQJ6qM8awzOQu3uzsLPpJHXrTLqyzM4B8XM=";
   packages."arm_cortex-a9"."luci".sha256 = "sha256-gmA6RKWCnGRdweaEspYPQJlnNJ8skWRq6HtvGN+rJ7E=";
   packages."arm_cortex-a9"."packages".sha256 = "sha256-gIeQEwGBXWDeSDHfjo1KmMRibXWI1EOH/rWgyWqTzLQ=";
   packages."arm_cortex-a9"."routing".sha256 = "sha256-H30Vn4plGDMPEdAcs06WNAOQ0pVJ5OlGB+74KxqklJc=";
