@@ -216,7 +216,7 @@
   packages."arm_xscale"."routing".sha256 = "sha256-0SKPweRfGMU5pfUvG0OVGzXdqZe17DEklSQ2VFY/x/c=";
   packages."arm_xscale"."telephony".sha256 = "sha256-3Q/TAB+LeONnizi6anq3H6VqfYEcMzN3N6jg7+TFyVM=";
   targets."mpc85xx"."p2020".sha256 = "sha256-W0LEtoKzeqt1L58XPpgGWMR6KsxScKRr/JvdMAK+w9E=";
-  kmods."mpc85xx"."p2020"."6.6.93-1-4a810eb44572ee317a5301cad2bb8428".sha256 = "sha256-e5DguUuylbFBLr6rpk3gbJLo51y1itkPm0DG+kOwK20=";
+  kmods."mpc85xx"."p2020"."6.6.93-1-4a810eb44572ee317a5301cad2bb8428".sha256 = "";
   targets."mpc85xx"."p2020".packagesArch = "powerpc_8548";
   packages."powerpc_8548"."base".sha256 = "sha256-YJbvWWCEwEB7hLF0i4f+5il/qaJ1UFPlno4iU9XjfKQ=";
   packages."powerpc_8548"."luci".sha256 = "sha256-exFPQXiy1ST0iIe6PPkQw7rG3l/ji4HdrkT+GMBRu9k=";

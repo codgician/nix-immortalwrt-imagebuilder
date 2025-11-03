@@ -234,7 +234,7 @@
   packages."arm_cortex-a9"."base".sha256 = "sha256-WBi2QFS82DkB7NQydxDQ3l/33JIZtoHQvSZkR4ILuFE=";
   packages."arm_cortex-a9"."luci".sha256 = "sha256-zmAOOdFRffwJSyeL49yyBKJZi80h/LBWIgCOf04OZ3U=";
   packages."arm_cortex-a9"."packages".sha256 = "sha256-4aah2Cu6ttaZIvN4XwQVfZtQnn+lA3877drFffYZlm4=";
-  packages."arm_cortex-a9"."routing".sha256 = "sha256-0srVCwXRUBL8BygcU3bGmEjEmMCRMOat6VtxB9xN6sU=";
+  packages."arm_cortex-a9"."routing".sha256 = "";
   packages."arm_cortex-a9"."telephony".sha256 = "sha256-qkr2aUuLfKcJ/G3HISvXdUYZvQgvxEcvNYCtM2A6RRY=";
   targets."malta"."be".sha256 = "sha256-bJk5Eyq6bARpmDzrUJ5pIk9ZB7UEp0FCZfJLyplidsM=";
   targets."bmips"."bcm6358".sha256 = "sha256-KGqA8Q9EGPnTIbBHFK9QCYUCDo3XHda8KMTG7ebagHg=";
