@@ -28106,6 +28106,195 @@
     };
   };
   mxs = { };
+  octeon = {
+    generic = {
+      arch_packages = "mips64_octeonplus";
+      default_packages = [
+        "base-files"
+        "block-mount"
+        "busybox"
+        "ca-bundle"
+        "default-settings-chn"
+        "dnsmasq-full"
+        "dropbear"
+        "e2fsprogs"
+        "firewall"
+        "fstools"
+        "iptables"
+        "kmod-ipt-raw"
+        "kmod-nf-nathelper"
+        "kmod-nf-nathelper-extra"
+        "libc"
+        "libgcc"
+        "libustream-openssl"
+        "logd"
+        "luci"
+        "luci-app-filetransfer"
+        "luci-app-turboacc"
+        "luci-compat"
+        "luci-lib-base"
+        "luci-lib-fs"
+        "luci-lib-ipkg"
+        "mkf2fs"
+        "mtd"
+        "netifd"
+        "opkg"
+        "ppp"
+        "ppp-mod-pppoe"
+        "procd"
+        "uci"
+        "uclient-fetch"
+        "urandom-seed"
+        "urngd"
+      ];
+      metadata_version = 1;
+      profiles = {
+        generic = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-21.02.3-octeon-generic";
+          images = [
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.3-octeon-generic-initramfs-kernel.bin";
+              sha256 = "5ed73d69b1df965d006a486abcaa0ab0b2702d924c5b635c97a15660f3b8c2ba";
+              type = "kernel";
+            }
+          ];
+          supported_devices = [
+            "generic"
+          ];
+          titles = [
+            {
+              model = "Octeon";
+              vendor = "Generic";
+            }
+          ];
+        };
+        itus_shield-router = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-21.02.3-octeon-itus_shield-router";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.3-octeon-itus_shield-router-squashfs-sysupgrade.tar";
+              sha256 = "89cdbff1f223ba8195b8ef421589adf6a385fe18e073ee52757f1f9f91b015bd";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.3-octeon-itus_shield-router-initramfs-kernel.bin";
+              sha256 = "eb65818c3b2ceb46eafdcbafbb4c1709b1957daef1d0bc4100ceb5e14f1e4b68";
+              type = "kernel";
+            }
+          ];
+          supported_devices = [
+            "itus,shield-router"
+          ];
+          titles = [
+            {
+              model = "Shield Router";
+              vendor = "Itus Networks";
+            }
+          ];
+        };
+        ubnt_edgerouter = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-21.02.3-octeon-ubnt_edgerouter";
+          images = [
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.3-octeon-ubnt_edgerouter-initramfs-kernel.bin";
+              sha256 = "a5bafa686b77f3ac38aa9830b0291bdca2fcf1d289112da5db668833574cd9bf";
+              type = "kernel";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.3-octeon-ubnt_edgerouter-squashfs-sysupgrade.tar";
+              sha256 = "0493bcf614ad0dcec15bc823c4b7f88ebfbea7659601c948e71f978cb39d6b4e";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "ubnt,edgerouter"
+            "er"
+          ];
+          titles = [
+            {
+              model = "EdgeRouter";
+              vendor = "Ubiquiti";
+            }
+          ];
+        };
+        ubnt_edgerouter-4 = {
+          device_packages = [
+            "kmod-gpio-button-hotplug"
+            "kmod-leds-gpio"
+            "kmod-of-mdio"
+            "kmod-sfp"
+            "kmod-usb3"
+            "kmod-usb-dwc3"
+            "kmod-usb-storage-uas"
+          ];
+          image_prefix = "immortalwrt-21.02.3-octeon-ubnt_edgerouter-4";
+          images = [
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.3-octeon-ubnt_edgerouter-4-initramfs-kernel.bin";
+              sha256 = "c9ec482eb2a0bf9bccd17ade5ea5341eecf6b652b2fbc2a43925358a5ed195de";
+              type = "kernel";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.3-octeon-ubnt_edgerouter-4-squashfs-sysupgrade.tar";
+              sha256 = "a2355cb4a1bce086b258887c436f7efd04c38fc4fafe6ff482c06668bfc8116c";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "ubnt,edgerouter-4"
+          ];
+          titles = [
+            {
+              model = "EdgeRouter 4";
+              vendor = "Ubiquiti";
+            }
+          ];
+        };
+        ubnt_edgerouter-lite = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-21.02.3-octeon-ubnt_edgerouter-lite";
+          images = [
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.3-octeon-ubnt_edgerouter-lite-initramfs-kernel.bin";
+              sha256 = "5003ad012d011ba11231224d58569f93f17b871215bc5ef84990c8bded746da5";
+              type = "kernel";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.3-octeon-ubnt_edgerouter-lite-squashfs-sysupgrade.tar";
+              sha256 = "33d361155d161b4251be99d19727886d39d8442360fe81aa01ba827c40f70031";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "ubnt,edgerouter-lite"
+            "erlite"
+          ];
+          titles = [
+            {
+              model = "EdgeRouter Lite";
+              vendor = "Ubiquiti";
+            }
+          ];
+        };
+      };
+      source_date_epoch = "1665895881";
+      target = "octeon/generic";
+      version_code = "r19616-49aba5fcac";
+      version_number = "21.02.3";
+    };
+  };
   octeontx = { };
   omap = {
     generic = {
