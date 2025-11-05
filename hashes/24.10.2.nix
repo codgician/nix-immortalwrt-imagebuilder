@@ -208,6 +208,13 @@
   packages."armeb_xscale"."routing".sha256 = "sha256-TSfrFTdxFxRJJC8u4mruy4VsrVmfoDj5dAgdlue9siQ=";
   packages."armeb_xscale"."telephony".sha256 = "sha256-0zNfxwSjHEs6jrDdlh/YstB4D1LqdNXLaR2zt+Hko8g=";
   targets."kirkwood"."generic".sha256 = "sha256-hA7FiJwN/35qLNtXvl/GlUtEW0Hn85VopbcIoNt2iHM=";
+  kmods."kirkwood"."generic"."6.6.93-1-47543fd8168c01db5e26f15de22d7ff9".sha256 = "sha256-lzPxYeIdwnBTM9jOIkaxxIt8+lfYXPnw5EBbx/Het0A=";
+  targets."kirkwood"."generic".packagesArch = "arm_xscale";
+  packages."arm_xscale"."base".sha256 = "sha256-odXVr13m28mWOwgAMaClfEx587tvgQ9rWI/RK8y2CpY=";
+  packages."arm_xscale"."luci".sha256 = "sha256-tYlZuNTYpRhLfAF7gHwAClfODJ7yiGsWJWcp1/A14Tk=";
+  packages."arm_xscale"."packages".sha256 = "sha256-lyhgOc+mrRdxL0LhCzlrbDkvayASVWyIJxucNlP0S9c=";
+  packages."arm_xscale"."routing".sha256 = "sha256-0SKPweRfGMU5pfUvG0OVGzXdqZe17DEklSQ2VFY/x/c=";
+  packages."arm_xscale"."telephony".sha256 = "sha256-3Q/TAB+LeONnizi6anq3H6VqfYEcMzN3N6jg7+TFyVM=";
   targets."mpc85xx"."p2020".sha256 = "sha256-W0LEtoKzeqt1L58XPpgGWMR6KsxScKRr/JvdMAK+w9E=";
   kmods."mpc85xx"."p2020"."6.6.93-1-4a810eb44572ee317a5301cad2bb8428".sha256 = "sha256-e5DguUuylbFBLr6rpk3gbJLo51y1itkPm0DG+kOwK20=";
   targets."mpc85xx"."p2020".packagesArch = "powerpc_8548";

@@ -222,6 +222,7 @@
   packages."mipsel_24kc"."routing".sha256 = "sha256-ebvIAf+P8lD3YoXApK5qWYg6ON+jdlehi+6QdhRMxKA=";
   packages."mipsel_24kc"."telephony".sha256 = "sha256-SzyMSOweWPaEVD9AvCYGU9/n+VsntDktrJMZQhkJ9nM=";
   targets."ramips"."mt76x8".sha256 = "sha256-J6+rpag7I2e2Hk5gDuto7eF096FMYAK8/DQl7UiXAa8=";
+  targets."ramips"."mt76x8".packagesArch = "mipsel_24kc";
   targets."ramips"."rt3883".sha256 = "sha256-PzuXSJv0SrLADfNZ9XbvDGd4g7n0YDlC3pEJRlMLQq0=";
   targets."ramips"."rt3883".packagesArch = "mipsel_74kc";
   targets."ramips"."rt305x".sha256 = "sha256-kPwcPAp1ugERITcwJxUYMmttIdrOiNWH3j+pDJyAYnQ=";

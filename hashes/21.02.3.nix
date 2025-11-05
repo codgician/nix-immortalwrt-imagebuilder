@@ -201,6 +201,7 @@
   packages."aarch64_cortex-a72"."routing".sha256 = "sha256-KWXnU4KX4mgex50H7xXOLK4w85xNE4FdpmMUfAMV4yk=";
   packages."aarch64_cortex-a72"."telephony".sha256 = "sha256-y/cqZHMscIpvJnIUvCcoswkHJFyBZg3x6n9Rb5fAUdw=";
   targets."mvebu"."cortexa9".sha256 = "sha256-OeTSaejGpGiEF2ujFsIv/Z94K8n/SVXw7fFsVHHAFRc=";
+  targets."mvebu"."cortexa9".packagesArch = "arm_cortex-a9_vfpv3-d16";
   targets."sunxi"."cortexa7".sha256 = "sha256-N+RwIJePcjyIKy9MbSi3PScC2hpw+0uOGn8rK2E5hDI=";
   targets."sunxi"."cortexa7".packagesArch = "arm_cortex-a7_neon-vfpv4";
   targets."sunxi"."cortexa53".sha256 = "sha256-IY/Wm1b5RglZxghjjzGIQVlClxbT1ocoB4uj5mLAU/U=";
