@@ -214,7 +214,7 @@
   packages."arm_xscale"."luci".sha256 = "sha256-tYlZuNTYpRhLfAF7gHwAClfODJ7yiGsWJWcp1/A14Tk=";
   packages."arm_xscale"."packages".sha256 = "sha256-lyhgOc+mrRdxL0LhCzlrbDkvayASVWyIJxucNlP0S9c=";
   packages."arm_xscale"."routing".sha256 = "sha256-0SKPweRfGMU5pfUvG0OVGzXdqZe17DEklSQ2VFY/x/c=";
-  packages."arm_xscale"."telephony".sha256 = "sha256-3Q/TAB+LeONnizi6anq3H6VqfYEcMzN3N6jg7+TFyVM=";
+  packages."arm_xscale"."telephony".sha256 = "";
   targets."mpc85xx"."p2020".sha256 = "sha256-/mQ5TQFnOD12MKfHfxD/3G2+X41liHe5Rvr6HecXVws=";
   kmods."mpc85xx"."p2020"."6.6.114-1-5883f85921aa2219fcea038da1293dc7".sha256 = "sha256-yk61CtiRfHi3PCcARjbYiTZqMoML0WjcCfq1YZxwBlA=";
   targets."mpc85xx"."p2020".packagesArch = "powerpc_8548";

@@ -213,7 +213,7 @@
   packages."arm_xscale"."base".sha256 = "sha256-odXVr13m28mWOwgAMaClfEx587tvgQ9rWI/RK8y2CpY=";
   packages."arm_xscale"."luci".sha256 = "sha256-tYlZuNTYpRhLfAF7gHwAClfODJ7yiGsWJWcp1/A14Tk=";
   packages."arm_xscale"."packages".sha256 = "sha256-lyhgOc+mrRdxL0LhCzlrbDkvayASVWyIJxucNlP0S9c=";
-  packages."arm_xscale"."routing".sha256 = "sha256-0SKPweRfGMU5pfUvG0OVGzXdqZe17DEklSQ2VFY/x/c=";
+  packages."arm_xscale"."routing".sha256 = "";
   packages."arm_xscale"."telephony".sha256 = "sha256-3Q/TAB+LeONnizi6anq3H6VqfYEcMzN3N6jg7+TFyVM=";
   targets."mpc85xx"."p2020".sha256 = "sha256-5CmP6lAMe3niazMhtKyX69qaWOvJ0Zloy6f1+nQiy3o=";
   kmods."mpc85xx"."p2020"."6.6.73-1-af14059d4f46c26509b62ba361fa838b".sha256 = "sha256-xaESQKtH2VXgnUGjK+gv3ChABvZDf/uVMKVsHuE2KKc=";
