@@ -204,8 +204,6 @@
   targets."mvebu"."cortexa9".packagesArch = "arm_cortex-a9_vfpv3-d16";
   targets."sunxi"."cortexa7".sha256 = "sha256-IoqUz5ZPt/EbApxSO/LyTU0wAw5B/29YWf0yf68TnYs=";
   targets."sunxi"."cortexa7".packagesArch = "arm_cortex-a7_neon-vfpv4";
-  targets."sunxi"."cortexa53".sha256 = "sha256-oaiRmphLwRADog3L2WNjbOIvS7n1FaeaQb6dizlQBdU=";
-  targets."sunxi"."cortexa53".packagesArch = "aarch64_cortex-a53";
   targets."sunxi"."cortexa8".sha256 = "sha256-OmOF8UzUf70tFlSXOqhBAuwqgTfUpwoiR7YF2kRnY2k=";
   targets."sunxi"."cortexa8".packagesArch = "arm_cortex-a8_vfpv3";
   packages."arm_cortex-a8_vfpv3"."base".sha256 = "sha256-GlE2TTurtqX1fSmEJy0yJPDfQ4bMJ5oewAHzaeQSLXg=";

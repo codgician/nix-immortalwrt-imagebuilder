@@ -195,7 +195,7 @@
   targets."mvebu"."cortexa53".packagesArch = "aarch64_cortex-a53";
   targets."mvebu"."cortexa72".sha256 = "sha256-HHMVFG80PIH5sFvRIBN34gmHjqvyGPUpfBkdahSQp6E=";
   targets."mvebu"."cortexa72".packagesArch = "aarch64_cortex-a72";
-  packages."aarch64_cortex-a72"."base".sha256 = "sha256-wlvy4yAXyqZ0nfbBgLwlbEKtYCiK+UYgMMW5KubpSpU=";
+  packages."aarch64_cortex-a72"."base".sha256 = "";
   packages."aarch64_cortex-a72"."luci".sha256 = "sha256-Q7uG4g9WB0ZbmX9I181GFhIAIAAScHkQkw9Xaib6794=";
   packages."aarch64_cortex-a72"."packages".sha256 = "sha256-xzmGBXVHsC+y7/XIJWlmroDyHv2mWktRyuDmHCSahVg=";
   packages."aarch64_cortex-a72"."routing".sha256 = "sha256-KWXnU4KX4mgex50H7xXOLK4w85xNE4FdpmMUfAMV4yk=";
