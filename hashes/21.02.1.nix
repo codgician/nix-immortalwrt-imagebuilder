@@ -175,7 +175,7 @@
   packages."arm_xscale"."telephony".sha256 = "sha256-yfKL+9Ozth18H165d5AWrq2SLat1jeoal7aPL0oPB8s=";
   targets."mpc85xx"."p2020".sha256 = "sha256-eAMDYPLVTEyhnMXlaTUw7IilnLzWq8zmrvk06ahdXN0=";
   targets."mpc85xx"."p2020".packagesArch = "powerpc_8540";
-  packages."powerpc_8540"."base".sha256 = "";
+  packages."powerpc_8540"."base".sha256 = "sha256-/rnjWGZa75+rU77RoREklWah2HpR8M2g2lPwHiZfonQ=";
   packages."powerpc_8540"."luci".sha256 = "sha256-DCWrDYqyJsMqKIumd//qZ2IfgzZGhDK5n99b3BYSJ4Q=";
   packages."powerpc_8540"."packages".sha256 = "sha256-scCGdSM8/AQtEykVveFK+md0XFS7vqtJ/d8hatew2Oo=";
   packages."powerpc_8540"."routing".sha256 = "sha256-5QAv0wdcnhibNTyN+o/4KMHJPvj8bn44BAczZWWZQhU=";
