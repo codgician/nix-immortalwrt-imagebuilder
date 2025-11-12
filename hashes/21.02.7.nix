@@ -172,7 +172,7 @@
   packages."arm_xscale"."luci".sha256 = "sha256-3SPAzme/oodX9WL003pFvSHm71jnAa0Asazgyq0lmJ8=";
   packages."arm_xscale"."packages".sha256 = "sha256-RvfZbMtqfrOTHf6qcSEZtVy2ZFO0wsfUm/N8BqHP6Rw=";
   packages."arm_xscale"."routing".sha256 = "sha256-j70q1mDNCIXGu3LvNGQik8pi5LlgflOK5zq1JWCxcqY=";
-  packages."arm_xscale"."telephony".sha256 = "sha256-yfKL+9Ozth18H165d5AWrq2SLat1jeoal7aPL0oPB8s=";
+  packages."arm_xscale"."telephony".sha256 = "";
   targets."mpc85xx"."p2020".sha256 = "sha256-06l5ehqcJ8BLKMpJ28iUmq2JdwCeVj4i5xWKX6u3z2Y=";
   targets."mpc85xx"."p2020".packagesArch = "powerpc_8540";
   packages."powerpc_8540"."base".sha256 = "sha256-/rnjWGZa75+rU77RoREklWah2HpR8M2g2lPwHiZfonQ=";
