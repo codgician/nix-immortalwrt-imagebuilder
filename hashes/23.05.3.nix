@@ -170,7 +170,7 @@
   packages."mips_mips32"."luci".sha256 = "sha256-kmjLxvM82hyDgcKr2OeEsQkrBz3JQwQ+IjBKWPTh5b8=";
   packages."mips_mips32"."packages".sha256 = "sha256-nu19/lG19Xc9L1yYchfmrGCf8fb933l8aBuaBSuQuuo=";
   packages."mips_mips32"."routing".sha256 = "sha256-tq0rse7pT65HjPdFKx9mrDfuW/DdBozFJLOaJiz5pOs=";
-  packages."mips_mips32"."telephony".sha256 = "";
+  packages."mips_mips32"."telephony".sha256 = "sha256-fbLeW8Mq8P838U+nneQHMkF+5ApYQRZbC7Aot6ZONE4=";
   targets."bcm63xx"."smp".sha256 = "sha256-7jNJSusN+j5R7vyr/wTGQne9hLm5sQEohIUD4qpV1MM=";
   targets."bcm63xx"."smp".packagesArch = "mips_mips32";
   targets."kirkwood"."generic".sha256 = "sha256-aCv+b+bGLL0yrsHuNgoblZcB8nBasgJD1lTZY2/g/aQ=";

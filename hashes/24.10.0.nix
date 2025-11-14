@@ -167,7 +167,7 @@
   packages."x86_64"."base".sha256 = "sha256-6qs75pDUH5fYra0IvCWVhmQhPpOoeVvQzRE+jqgFZBA=";
   packages."x86_64"."luci".sha256 = "sha256-+Z+cOrcUTz0wrnNy+GnTKc21JvrMSwyRVCAvSpOv+Gk=";
   packages."x86_64"."packages".sha256 = "sha256-qytzuiHPebk3MNLJ9YFXea07jNLrrlomXBSWIh4k0/Q=";
-  packages."x86_64"."routing".sha256 = "";
+  packages."x86_64"."routing".sha256 = "sha256-UnVYJQMzgL7gQbA1NVwTtx6MAE3/WNoKbaSnZvTLcKk=";
   packages."x86_64"."telephony".sha256 = "sha256-sOLf9oykthbZoUq5XQmzOQvJHv9BlXInLz4QD+hBnRk=";
   targets."x86"."generic".sha256 = "sha256-qxUxdtJBhRjQCejml3EuAkYqwnT9gsOI0RO/1LVKxwA=";
   kmods."x86"."generic"."6.6.73-1-1ea353d3f9384f0510a1792476350a07".sha256 = "sha256-cXHEmRuUwbtEsOKWYnVpkKvt7PIIUggk8MZhaSSo2B8=";

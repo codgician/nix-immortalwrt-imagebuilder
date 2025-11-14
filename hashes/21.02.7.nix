@@ -144,6 +144,8 @@
   packages."i386_pentium4"."packages".sha256 = "sha256-nGLoqaaF6eDvOW8bQSc6+xqFBqQwlRbGcSIB7UBx3rM=";
   packages."i386_pentium4"."routing".sha256 = "sha256-R7RfXZT+LyWMORZY2NeWa8NhGBlEYVwOMUJtEmxhXhM=";
   packages."i386_pentium4"."telephony".sha256 = "sha256-2qnILZztnEkpdQkZGR8JB0glqNvix9fyPAqWa0xI0Kw=";
+  targets."x86"."geode".sha256 = "sha256-lCbyp1EYaol8aXUkN3ABQZfOBUSEaoW6+KOb9AsE+FE=";
+  targets."x86"."geode".packagesArch = "i386_pentium-mmx";
   targets."bcm47xx"."legacy".sha256 = "sha256-75L86wMoXNRcm8zRqOVMmr6FcIxlcTG3k4Q/nHd3uSk=";
   targets."bcm47xx"."legacy".packagesArch = "mipsel_mips32";
   packages."mipsel_mips32"."base".sha256 = "sha256-SMCUc9pXCI7EaqGlSMjKzThKDPdUpSdfCm8c7tsQzkI=";

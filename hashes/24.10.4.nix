@@ -174,7 +174,7 @@
   targets."x86"."generic".packagesArch = "i386_pentium4";
   packages."i386_pentium4"."base".sha256 = "sha256-GDHrHq7TCATu/zp9IdpTJh9jCV6FRT36wLQli6Zg77I=";
   packages."i386_pentium4"."luci".sha256 = "sha256-j4YXjWWfNLaGjbDDLA4VXfcKK/LHheDc/O1QI4lo74U=";
-  packages."i386_pentium4"."packages".sha256 = "";
+  packages."i386_pentium4"."packages".sha256 = "sha256-ikYChz+AiLhd0UT5f5/TgITrHD1s5PxJK9E2fgK3foc=";
   packages."i386_pentium4"."routing".sha256 = "sha256-AtPUBjuDVl5J6lwsivZBcBB/OC0M0qzPs/TjuXStK3Y=";
   packages."i386_pentium4"."telephony".sha256 = "sha256-9Rr/66FjehFVdPMULaYcbsQLevOar32U45XLKpn3brE=";
   targets."x86"."geode".sha256 = "sha256-HCO//3cXfuSW6wwlPZ/XQ3u8FChyy2gnvhvalpKBe+s=";
