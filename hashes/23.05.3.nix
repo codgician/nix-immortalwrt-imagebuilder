@@ -170,7 +170,7 @@
   packages."mips_mips32"."luci".sha256 = "sha256-kmjLxvM82hyDgcKr2OeEsQkrBz3JQwQ+IjBKWPTh5b8=";
   packages."mips_mips32"."packages".sha256 = "sha256-nu19/lG19Xc9L1yYchfmrGCf8fb933l8aBuaBSuQuuo=";
   packages."mips_mips32"."routing".sha256 = "sha256-tq0rse7pT65HjPdFKx9mrDfuW/DdBozFJLOaJiz5pOs=";
-  packages."mips_mips32"."telephony".sha256 = "sha256-fbLeW8Mq8P838U+nneQHMkF+5ApYQRZbC7Aot6ZONE4=";
+  packages."mips_mips32"."telephony".sha256 = "";
   targets."bcm63xx"."smp".sha256 = "sha256-7jNJSusN+j5R7vyr/wTGQne9hLm5sQEohIUD4qpV1MM=";
   targets."bcm63xx"."smp".packagesArch = "mips_mips32";
   targets."kirkwood"."generic".sha256 = "sha256-aCv+b+bGLL0yrsHuNgoblZcB8nBasgJD1lTZY2/g/aQ=";
@@ -184,7 +184,7 @@
   targets."mpc85xx"."p2020".packagesArch = "powerpc_8548";
   packages."powerpc_8548"."base".sha256 = "sha256-pFPfuhpkwpofMMN7WgmxAUR+wh0kzHU1pa4PYTZV//g=";
   packages."powerpc_8548"."luci".sha256 = "sha256-zf9l51+OMYmxZZG99Lhf8boafZwK5wmcOu5lCdrgtSQ=";
-  packages."powerpc_8548"."packages".sha256 = "";
+  packages."powerpc_8548"."packages".sha256 = "sha256-6Oj5xdjLoi/GbnYoZ+jw0gD4kprm2qKfuMaja88n5ds=";
   packages."powerpc_8548"."routing".sha256 = "sha256-oO4WzHSHjrSIl1IxXpaz0e683+1PYlRhNDWt5QBXDU4=";
   packages."powerpc_8548"."telephony".sha256 = "sha256-5zY+3GjYWarjgUQ4A5Nt9c6kF9GbdUaNDLTnxMtzymM=";
   targets."mpc85xx"."p1010".sha256 = "sha256-K6QDyJhHoUwKWqcq1AYYnQgGGzWU7K66dMI2DY5NjZE=";
