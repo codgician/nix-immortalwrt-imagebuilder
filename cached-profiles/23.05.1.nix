@@ -34724,6 +34724,370 @@
       version_code = "r27304-31bc47589e";
       version_number = "23.05.1";
     };
+    cortexa72 = {
+      arch_packages = "aarch64_cortex-a72";
+      default_packages = [
+        "autocore"
+        "base-files"
+        "block-mount"
+        "busybox"
+        "ca-bundle"
+        "default-settings-chn"
+        "dnsmasq-full"
+        "dropbear"
+        "e2fsprogs"
+        "ethtool"
+        "firewall4"
+        "fstools"
+        "ipv6helper"
+        "kmod-gpio-button-hotplug"
+        "kmod-nf-nathelper"
+        "kmod-nf-nathelper-extra"
+        "kmod-nft-offload"
+        "libc"
+        "libgcc"
+        "libustream-openssl"
+        "logd"
+        "luci"
+        "luci-app-opkg"
+        "luci-compat"
+        "luci-lib-base"
+        "luci-lib-fs"
+        "luci-lib-ipkg"
+        "mkf2fs"
+        "mtd"
+        "netifd"
+        "nftables"
+        "opkg"
+        "partx-utils"
+        "ppp"
+        "ppp-mod-pppoe"
+        "procd"
+        "procd-seccomp"
+        "procd-ujail"
+        "uboot-envtools"
+        "uci"
+        "uclient-fetch"
+        "urandom-seed"
+        "urngd"
+      ];
+      metadata_version = 1;
+      profiles = {
+        globalscale_mochabin = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-23.05.1-mvebu-cortexa72-globalscale_mochabin";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-23.05.1-mvebu-cortexa72-globalscale_mochabin-ext4-sdcard.img.gz";
+              sha256 = "7e6511c77ee68e750a900fef79ac7421ff3a7930322de55a7022d2b33d440154";
+              sha256_unsigned = "bff7e4c1bcf4e676a3bfccd0f416d81eae1caf8a76ee00926888f8c60a93e8ab";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-23.05.1-mvebu-cortexa72-globalscale_mochabin-squashfs-sdcard.img.gz";
+              sha256 = "ec49e23a6439a73157baf70f260df119de4a6b892f9a3592a5a6073cf2989350";
+              sha256_unsigned = "45027b22682b1be037cbd9e6a015cf521684204ef213f7ccb0661c4d190e349d";
+              type = "sdcard";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-23.05.1-mvebu-cortexa72-globalscale_mochabin-initramfs-kernel.bin";
+              sha256 = "2cbab4a2602fbcb379c0f83a18707b5907767a60d5f14edf5c92001d204d5022";
+              sha256_unsigned = "2cbab4a2602fbcb379c0f83a18707b5907767a60d5f14edf5c92001d204d5022";
+              type = "kernel";
+            }
+          ];
+          supported_devices = [
+            "globalscale,mochabin"
+          ];
+          titles = [
+            {
+              model = "MOCHAbin";
+              vendor = "Globalscale";
+            }
+          ];
+        };
+        iei_puzzle-m901 = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-23.05.1-mvebu-cortexa72-iei_puzzle-m901";
+          images = [
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-23.05.1-mvebu-cortexa72-iei_puzzle-m901-initramfs-kernel.bin";
+              sha256 = "2cbab4a2602fbcb379c0f83a18707b5907767a60d5f14edf5c92001d204d5022";
+              sha256_unsigned = "2cbab4a2602fbcb379c0f83a18707b5907767a60d5f14edf5c92001d204d5022";
+              type = "kernel";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-23.05.1-mvebu-cortexa72-iei_puzzle-m901-squashfs-sdcard.img.gz";
+              sha256 = "bdac072509df5252ef471b0ce505a842d8199a75ad6467611843f9af75c24af6";
+              sha256_unsigned = "b41bbe5e3223a7b6d91bce34096891c8aba310bdbc68f360c5b55eefb34ee0b0";
+              type = "sdcard";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-23.05.1-mvebu-cortexa72-iei_puzzle-m901-ext4-sdcard.img.gz";
+              sha256 = "bc14ca05141235ee5eefbe8e0caab9e639318035fe59563485fcb4c4b387b873";
+              sha256_unsigned = "e9b4d76583f15ce2af0d6a649ca38578ada93113a661f359bbdc61545df1bb9b";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "iei,puzzle-m901"
+          ];
+          titles = [
+            {
+              model = "Puzzle-M901";
+              vendor = "iEi";
+            }
+          ];
+        };
+        iei_puzzle-m902 = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-23.05.1-mvebu-cortexa72-iei_puzzle-m902";
+          images = [
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-23.05.1-mvebu-cortexa72-iei_puzzle-m902-ext4-sdcard.img.gz";
+              sha256 = "0a6d1c66774571a13f85e41db97b2dcbbb090eaa981d5bfaf1abada3b7c93ac4";
+              sha256_unsigned = "670f02457b6a384d867b33eb1b4228ab512976fd801d83e11faccdc3badaf033";
+              type = "sdcard";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-23.05.1-mvebu-cortexa72-iei_puzzle-m902-initramfs-kernel.bin";
+              sha256 = "2cbab4a2602fbcb379c0f83a18707b5907767a60d5f14edf5c92001d204d5022";
+              sha256_unsigned = "2cbab4a2602fbcb379c0f83a18707b5907767a60d5f14edf5c92001d204d5022";
+              type = "kernel";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-23.05.1-mvebu-cortexa72-iei_puzzle-m902-squashfs-sdcard.img.gz";
+              sha256 = "834ec74dd2c5988c5fef97e36fc7953a999debe0a3b8765261694a2d0cfb88bd";
+              sha256_unsigned = "04f5a6aae83654a654e99874397a5937ed800ad961409a2d0f37f616ba29f63d";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "iei,puzzle-m902"
+          ];
+          titles = [
+            {
+              model = "Puzzle-M902";
+              vendor = "iEi";
+            }
+          ];
+        };
+        marvell_armada7040-db = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-23.05.1-mvebu-cortexa72-marvell_armada7040-db";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-23.05.1-mvebu-cortexa72-marvell_armada7040-db-squashfs-sdcard.img.gz";
+              sha256 = "540256e132a2058a807060e66dad6cb8d28f08a03681ec5b7a167c452e70c6cb";
+              sha256_unsigned = "5c716b2571e7bacbce1064620d61c19bb7d79833e78f3cc0a8f92751daa2091b";
+              type = "sdcard";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-23.05.1-mvebu-cortexa72-marvell_armada7040-db-initramfs-kernel.bin";
+              sha256 = "2cbab4a2602fbcb379c0f83a18707b5907767a60d5f14edf5c92001d204d5022";
+              sha256_unsigned = "2cbab4a2602fbcb379c0f83a18707b5907767a60d5f14edf5c92001d204d5022";
+              type = "kernel";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-23.05.1-mvebu-cortexa72-marvell_armada7040-db-ext4-sdcard.img.gz";
+              sha256 = "0e4573368bb435e3b49ebd9dff48ef3ed44fdd428699a969b8e2e5213f48cf8c";
+              sha256_unsigned = "81358e7d53b98cb1f06e9eb3dce7a987c54d40de7fc7570851736d26db5b18b3";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "marvell,armada7040-db"
+          ];
+          titles = [
+            {
+              model = "Armada 7040 Development Board";
+              vendor = "Marvell";
+            }
+          ];
+        };
+        marvell_armada8040-db = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-23.05.1-mvebu-cortexa72-marvell_armada8040-db";
+          images = [
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-23.05.1-mvebu-cortexa72-marvell_armada8040-db-initramfs-kernel.bin";
+              sha256 = "2cbab4a2602fbcb379c0f83a18707b5907767a60d5f14edf5c92001d204d5022";
+              sha256_unsigned = "2cbab4a2602fbcb379c0f83a18707b5907767a60d5f14edf5c92001d204d5022";
+              type = "kernel";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-23.05.1-mvebu-cortexa72-marvell_armada8040-db-ext4-sdcard.img.gz";
+              sha256 = "650285d122d1a7cb362e4d93e7d661492d215f9cd8677a1d4dcc5e156ff09b46";
+              sha256_unsigned = "f9d58e887afc4d25bad4a9a8a148ed64cfb815ffde94cf43fcf8d12b9ed098b0";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-23.05.1-mvebu-cortexa72-marvell_armada8040-db-squashfs-sdcard.img.gz";
+              sha256 = "fcd52be7057ced965e4cf1b23d506040b3689a7bc20c098bf11c35a9966c63e6";
+              sha256_unsigned = "39582277d264752aeb3494d5562393694bd5078cf5fdcb68aed72bcdfc4d6835";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "marvell,armada8040-db"
+          ];
+          titles = [
+            {
+              model = "Armada 8040 Development Board";
+              vendor = "Marvell";
+            }
+          ];
+        };
+        marvell_clearfog-gt-8k = {
+          device_packages = [
+            "kmod-i2c-mux-pca954x"
+            "kmod-crypto-hw-safexcel"
+          ];
+          image_prefix = "immortalwrt-23.05.1-mvebu-cortexa72-marvell_clearfog-gt-8k";
+          images = [
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-23.05.1-mvebu-cortexa72-marvell_clearfog-gt-8k-initramfs-kernel.bin";
+              sha256 = "2cbab4a2602fbcb379c0f83a18707b5907767a60d5f14edf5c92001d204d5022";
+              sha256_unsigned = "2cbab4a2602fbcb379c0f83a18707b5907767a60d5f14edf5c92001d204d5022";
+              type = "kernel";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-23.05.1-mvebu-cortexa72-marvell_clearfog-gt-8k-ext4-sdcard.img.gz";
+              sha256 = "aee22d2f4947647c802952ca7c2b9ffe23a231339d5677c5e77c3ace9650ba31";
+              sha256_unsigned = "4025022c7d15f84565b925eb89bb941bbc9153b08f45fde6790bd8e8f2a7632d";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-23.05.1-mvebu-cortexa72-marvell_clearfog-gt-8k-squashfs-sdcard.img.gz";
+              sha256 = "6714eda224e2d65730ba2e93b15402d276a27e0ef89295721e61d4fa0bf779e8";
+              sha256_unsigned = "768de83507c54f806e00c2b9be2e25250990d7f243cfb93ade20f04753b1317c";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "marvell,armada8040-clearfog-gt-8k"
+          ];
+          titles = [
+            {
+              model = "Clearfog";
+              variant = "GT-8K";
+              vendor = "SolidRun";
+            }
+          ];
+        };
+        marvell_macchiatobin-doubleshot = {
+          device_packages = [
+            "kmod-i2c-mux-pca954x"
+          ];
+          image_prefix = "immortalwrt-23.05.1-mvebu-cortexa72-marvell_macchiatobin-doubleshot";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-23.05.1-mvebu-cortexa72-marvell_macchiatobin-doubleshot-squashfs-sdcard.img.gz";
+              sha256 = "fc60d18dfa3ac9556d8d789d705106b7077364ed50b2cac00bca3c37f95a5161";
+              sha256_unsigned = "acc0ee2fe8684dab2713bbab734d788eb2fdcc71889a69342e4c137fa705c41e";
+              type = "sdcard";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-23.05.1-mvebu-cortexa72-marvell_macchiatobin-doubleshot-ext4-sdcard.img.gz";
+              sha256 = "efe6c7c15b9393a41704c8d11057f95d61a3a72aa86da97e1f59fb26f6538f4f";
+              sha256_unsigned = "cb36d6a47b264fed7e4ea69c67c6212ab79bc15b8709fa889ea74e012aeae3b3";
+              type = "sdcard";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-23.05.1-mvebu-cortexa72-marvell_macchiatobin-doubleshot-initramfs-kernel.bin";
+              sha256 = "2cbab4a2602fbcb379c0f83a18707b5907767a60d5f14edf5c92001d204d5022";
+              sha256_unsigned = "2cbab4a2602fbcb379c0f83a18707b5907767a60d5f14edf5c92001d204d5022";
+              type = "kernel";
+            }
+          ];
+          supported_devices = [
+            "marvell,armada8040-mcbin-doubleshot"
+            "marvell,armada8040-mcbin"
+          ];
+          titles = [
+            {
+              model = "MACCHIATObin";
+              variant = "Double Shot";
+              vendor = "SolidRun";
+            }
+            {
+              model = "Armada 8040 Community Board";
+              variant = "Double Shot";
+              vendor = "SolidRun";
+            }
+          ];
+        };
+        marvell_macchiatobin-singleshot = {
+          device_packages = [
+            "kmod-i2c-mux-pca954x"
+          ];
+          image_prefix = "immortalwrt-23.05.1-mvebu-cortexa72-marvell_macchiatobin-singleshot";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-23.05.1-mvebu-cortexa72-marvell_macchiatobin-singleshot-squashfs-sdcard.img.gz";
+              sha256 = "d3011a457bdc86a1d078ff9f390b1008dec94bcfd943618a4fa3e82012485d7d";
+              sha256_unsigned = "a48dbf2edcec99d0628d36ec9ff5dd02bb93ff97d511512eebd36f28f19b36e0";
+              type = "sdcard";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-23.05.1-mvebu-cortexa72-marvell_macchiatobin-singleshot-ext4-sdcard.img.gz";
+              sha256 = "4f2b28f9e97901377cb117b0e714094f983887756e1c5462acf5da832da13186";
+              sha256_unsigned = "6d8c3bff0f17425813f14916c0f4cfee040ffaff57bb6ab372da6aded62aab16";
+              type = "sdcard";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-23.05.1-mvebu-cortexa72-marvell_macchiatobin-singleshot-initramfs-kernel.bin";
+              sha256 = "2cbab4a2602fbcb379c0f83a18707b5907767a60d5f14edf5c92001d204d5022";
+              sha256_unsigned = "2cbab4a2602fbcb379c0f83a18707b5907767a60d5f14edf5c92001d204d5022";
+              type = "kernel";
+            }
+          ];
+          supported_devices = [
+            "marvell,armada8040-mcbin-singleshot"
+          ];
+          titles = [
+            {
+              model = "MACCHIATObin";
+              variant = "Single Shot";
+              vendor = "SolidRun";
+            }
+            {
+              model = "Armada 8040 Community Board";
+              variant = "Single Shot";
+              vendor = "SolidRun";
+            }
+          ];
+        };
+      };
+      source_date_epoch = 1700413369;
+      target = "mvebu/cortexa72";
+      version_code = "r27304-31bc47589e";
+      version_number = "23.05.1";
+    };
     cortexa9 = {
       arch_packages = "arm_cortex-a9_vfpv3-d16";
       default_packages = [

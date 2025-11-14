@@ -26441,6 +26441,159 @@
       version_code = "r19441+1-f8624db86c";
       version_number = "21.02.1";
     };
+    p1020 = {
+      arch_packages = "powerpc_8540";
+      default_packages = [
+        "base-files"
+        "block-mount"
+        "busybox"
+        "ca-bundle"
+        "default-settings-chn"
+        "dnsmasq-full"
+        "dropbear"
+        "firewall"
+        "fstools"
+        "iptables"
+        "kmod-ath9k"
+        "kmod-button-hotplug"
+        "kmod-input-core"
+        "kmod-input-gpio-keys"
+        "kmod-ipt-raw"
+        "kmod-leds-gpio"
+        "kmod-nf-nathelper"
+        "kmod-nf-nathelper-extra"
+        "kmod-usb2"
+        "libc"
+        "libgcc"
+        "libustream-openssl"
+        "logd"
+        "luci"
+        "luci-app-cpufreq"
+        "luci-app-filetransfer"
+        "luci-app-turboacc"
+        "luci-compat"
+        "luci-lib-base"
+        "luci-lib-fs"
+        "luci-lib-ipkg"
+        "mtd"
+        "netifd"
+        "opkg"
+        "ppp"
+        "ppp-mod-pppoe"
+        "procd"
+        "swconfig"
+        "uci"
+        "uclient-fetch"
+        "urandom-seed"
+        "urngd"
+        "wpad-basic-openssl"
+      ];
+      metadata_version = 1;
+      profiles = {
+        aerohive_hiveap-330 = {
+          device_packages = [
+            "kmod-tpm-i2c-atmel"
+          ];
+          image_prefix = "immortalwrt-21.02.1-mpc85xx-p1020-aerohive_hiveap-330";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.1-mpc85xx-p1020-aerohive_hiveap-330-squashfs-fdt.bin";
+              sha256 = "65c6edce3077727395753574f92dbf4bd8dda8142b0459200000b714189aaac1";
+              type = "fdt";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.1-mpc85xx-p1020-aerohive_hiveap-330-squashfs-sysupgrade.bin";
+              sha256 = "f2e5a9db48730cd377435a9c85ef5eaa43beeb0f9bed958ceb445216d123b8c9";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.1-mpc85xx-p1020-aerohive_hiveap-330-initramfs-kernel.bin";
+              sha256 = "914f5d0c226808eb06b81ab8e1205fdaed441e2a5c16f1a0136cc463e66ca92e";
+              type = "kernel";
+            }
+          ];
+          supported_devices = [
+            "aerohive,hiveap-330"
+          ];
+          titles = [
+            {
+              model = "HiveAP-330";
+              vendor = "Aerohive";
+            }
+          ];
+        };
+        enterasys_ws-ap3710i = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-21.02.1-mpc85xx-p1020-enterasys_ws-ap3710i";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.1-mpc85xx-p1020-enterasys_ws-ap3710i-squashfs-sysupgrade.bin";
+              sha256 = "e9c9443036ee8dc3bd86014e98a47cb521e8f34f9bf5edcfb312b253373d00c1";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.1-mpc85xx-p1020-enterasys_ws-ap3710i-initramfs-kernel.bin";
+              sha256 = "3954c21efa9828a32224f37484f1acc8e0102d47ec88ad08c43fab7d53903033";
+              type = "kernel";
+            }
+          ];
+          supported_devices = [
+            "enterasys,ws-ap3710i"
+          ];
+          titles = [
+            {
+              model = "WS-AP3710i";
+              vendor = "Enterasys";
+            }
+          ];
+        };
+        ocedo_panda = {
+          device_packages = [
+            "kmod-rtc-ds1307"
+            "uboot-envtools"
+          ];
+          image_prefix = "immortalwrt-21.02.1-mpc85xx-p1020-ocedo_panda";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.1-mpc85xx-p1020-ocedo_panda-squashfs-sysupgrade.bin";
+              sha256 = "4841d4dd5dad539e5142c845d3847d8e5d973784fe5c5e4e30f40d405ba2e86c";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.1-mpc85xx-p1020-ocedo_panda-squashfs-fdt.bin";
+              sha256 = "e31ead96b076b205707a55a6b96abc809ec7349408e1088dcaeed031c9ec45df";
+              type = "fdt";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.1-mpc85xx-p1020-ocedo_panda-initramfs-kernel.bin";
+              sha256 = "224f0bf716d10498e50971fca74016b992827c9c37b3062fa429d496a8479095";
+              type = "kernel";
+            }
+          ];
+          supported_devices = [
+            "ocedo,panda"
+          ];
+          titles = [
+            {
+              model = "Panda";
+              vendor = "OCEDO";
+            }
+          ];
+        };
+      };
+      source_date_epoch = "1657334765";
+      target = "mpc85xx/p1020";
+      version_code = "r19441+1-f8624db86c";
+      version_number = "21.02.1";
+    };
     p2020 = {
       arch_packages = "powerpc_8540";
       default_packages = [
