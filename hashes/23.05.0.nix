@@ -197,7 +197,7 @@
   targets."mvebu"."cortexa72".packagesArch = "aarch64_cortex-a72";
   packages."aarch64_cortex-a72"."base".sha256 = "sha256-0bo92GRp9BEbR5YFuK6sTFA1mbOFT+uCWofnJRNxrpE=";
   packages."aarch64_cortex-a72"."luci".sha256 = "sha256-IP0NTp+z9rGR7uNAXHqDCasSHxkWSUK0+v/vObbUINo=";
-  packages."aarch64_cortex-a72"."packages".sha256 = "sha256-FnFj+SEsKztnfPMk9hg6XQStVlFTPPXCb9o7AFiTvl4=";
+  packages."aarch64_cortex-a72"."packages".sha256 = "";
   packages."aarch64_cortex-a72"."routing".sha256 = "sha256-E1pgS6kqlR6Ux710t++1Ecd2WTbRNZ43veAYRTKp9tI=";
   packages."aarch64_cortex-a72"."telephony".sha256 = "sha256-P/+Pq5jNxcLDQDmM5Sg3rD/3o2swI80hmxvanmR0kik=";
   targets."mvebu"."cortexa9".sha256 = "sha256-dWW+vcXMKSUn+7reykKED5PemyNVwkOSElPzL59VXNs=";

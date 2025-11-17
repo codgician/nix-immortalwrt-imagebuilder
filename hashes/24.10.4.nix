@@ -189,8 +189,6 @@
   packages."mipsel_mips32"."routing".sha256 = "sha256-1cD1WOFpyRmhFakMUqTNvwqRHPLaeGkJqk1Kcfxfw3c=";
   packages."mipsel_mips32"."telephony".sha256 = "sha256-1WC/BL/4gmvFr8aTaQaptWvNeZCvB1qVazeBN/J8zvc=";
   targets."bcm47xx"."generic".sha256 = "sha256-0i9VyWvw9duPeM1dETtvvzccJMp5mE71vs55KCE3isg=";
-  kmods."bcm47xx"."generic"."6.6.110-1-1ae4a4b8229bc31d1e61796e663953e9".sha256 = "sha256-8Q6ttBOAK5pj3cmEcFe8Bt2IVvHOX5UDZfZJZActfDk=";
-  targets."bcm47xx"."generic".packagesArch = "mipsel_mips32";
   targets."bcm47xx"."mips74k".sha256 = "sha256-0baPgsoh+Tc+nsXGi0vlUn7STrpR9yJA3YEgKD51E84=";
   kmods."bcm47xx"."mips74k"."6.6.110-1-76773dad26cf1c1184f3fcb79cc43570".sha256 = "sha256-XIlFgQbw2JEZe3z0+am9O4Hxl2xz+6p+QG63ggL+CEI=";
   targets."bcm47xx"."mips74k".packagesArch = "mipsel_74kc";
