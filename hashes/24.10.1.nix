@@ -76,8 +76,8 @@
   packages."mips_24kc"."base".sha256 = "sha256-9DpTl20hC6Orn9oLrRJdGdajGKWkpSGssodhChyOCCU=";
   packages."mips_24kc"."luci".sha256 = "sha256-79DTaMwEvfnpGseLzCvBQ7rM2yo6Y015iDD9zoC7Bt8=";
   packages."mips_24kc"."packages".sha256 = "sha256-zhqUvnIQs4Nke/1Ya4fyDdGwMMNBFmxsDKngZn+WndA=";
-  packages."mips_24kc"."routing".sha256 = "sha256-gvfYjUCvQ078rjlNvt4+MTi1YU1r4pyM37+kos4XQZM=";
-  packages."mips_24kc"."telephony".sha256 = "sha256-F5QSeb7vW8HTVXOTS9Efi4GkHETL8n6tQTea97YiZyA=";
+  packages."mips_24kc"."routing".sha256 = "sha256-GMr0n5f/Y317lyBQGU/GZK9HG0abYEfUNT00QULjzeg=";
+  packages."mips_24kc"."telephony".sha256 = "sha256-tp77BEHjYuZCwPTosFwdHCQ9jT5SHMP4A/x3sCTrb1E=";
   targets."lantiq"."ase".sha256 = "sha256-TSR19G/sMwdSteXD9BfD74KkTkfrln9tvmY45ywg+Jc=";
   targets."lantiq"."xway".sha256 = "sha256-i2EDQOKtgHg4F16VxgIGkApmqB1SLVFHafTTKd1sFZc=";
   kmods."lantiq"."xway"."6.6.86-1-6a9bd7e4e147620970fb05d0c1b690da".sha256 = "sha256-JHCnqLuPcmjR2yGq3wF+DPapH8yco53pSYfgsNSCBdU=";
@@ -218,11 +218,11 @@
   targets."mpc85xx"."p2020".sha256 = "sha256-NsZC03Y0ratm8zmjDblvaNz3YgBFQ9+5PRwHCTFiZsQ=";
   kmods."mpc85xx"."p2020"."6.6.86-1-159e59443203c0f901adbbb8165922cf".sha256 = "sha256-xr4vuXhBczDwEGnXgr+y8tHv3HlAp5p1zK/OBAm+Zd4=";
   targets."mpc85xx"."p2020".packagesArch = "powerpc_8548";
-  packages."powerpc_8548"."base".sha256 = "sha256-OW0qF4jB7pEaU4A9v6QQTaWf9Bd/BkdHKRbzzsufRLQ=";
-  packages."powerpc_8548"."luci".sha256 = "sha256-ZfqD0b7is2cjAsBRKip1/HWKDDpbjomoXNmgkRc5+ZI=";
-  packages."powerpc_8548"."packages".sha256 = "sha256-Zj92clkneyT6O4o4XDF60AoBEu1AQThcYYrouic0GIk=";
-  packages."powerpc_8548"."routing".sha256 = "sha256-DACG2WrAN6/o9BNEfJ+vNRWE2vXSIg4g4zjZQejl2p0=";
-  packages."powerpc_8548"."telephony".sha256 = "sha256-rfmMS9kRXnSUYJRiBahqyk7xCCTlby7XthExthM7FRs=";
+  packages."powerpc_8548"."base".sha256 = "sha256-Y8h1LXSTtehjNI59N42jgnbJCCsDmMUsIt62pgbRm/8=";
+  packages."powerpc_8548"."luci".sha256 = "sha256-qECz6WEE2Y3ud1u/w9ZQnItBTELvkEen1BViP6Ltaws=";
+  packages."powerpc_8548"."packages".sha256 = "sha256-bv2On7WPekQLVYI/f92s8+HDZUTkSvDjpjr2ls2BlBI=";
+  packages."powerpc_8548"."routing".sha256 = "sha256-zHz9k7qZCZRhy7zW/ZPOgzbAwLJXFBeIeqBTWOXRyug=";
+  packages."powerpc_8548"."telephony".sha256 = "sha256-jMlnrRemlFKzisREBunXcyzurELjuiq3bQYI1i/kGM8=";
   targets."mpc85xx"."p1010".sha256 = "sha256-LNAzwpSqkoLPRoV/sDD0I9dmAP46/cVWbnR3hz5UMH0=";
   kmods."mpc85xx"."p1010"."6.6.86-1-f05e4c38395b686b01c86a8ecffa7168".sha256 = "sha256-vgmuVxzsZ2NSeZtV8+zj5PlMF8BNAp6KG5Ako2pyhEM=";
   targets."mpc85xx"."p1010".packagesArch = "powerpc_8548";
