@@ -17920,6 +17920,127 @@
       version_code = "r33617-8f02d6d999";
       version_number = "24.10-SNAPSHOT";
     };
+    legacy = {
+      arch_packages = "mipsel_mips32";
+      default_packages = [
+        "base-files"
+        "block-mount"
+        "ca-bundle"
+        "default-settings-chn"
+        "dnsmasq-full"
+        "dropbear"
+        "firewall4"
+        "fstools"
+        "kmod-gpio-button-hotplug"
+        "kmod-leds-gpio"
+        "kmod-nf-nathelper"
+        "kmod-nf-nathelper-extra"
+        "kmod-nft-offload"
+        "libc"
+        "libgcc"
+        "libustream-openssl"
+        "logd"
+        "luci-app-package-manager"
+        "luci-compat"
+        "luci-lib-base"
+        "luci-lib-ipkg"
+        "luci-light"
+        "mtd"
+        "netifd"
+        "nftables"
+        "nvram"
+        "odhcp6c"
+        "odhcpd-ipv6only"
+        "opkg"
+        "otrx"
+        "ppp"
+        "ppp-mod-pppoe"
+        "swconfig"
+        "uci"
+        "uclient-fetch"
+        "urandom-seed"
+        "urngd"
+        "wpad-basic-openssl"
+      ];
+      linux_kernel = {
+        release = "1";
+        vermagic = "d7e8047a1d72f345f88f8f49597b4dca";
+        version = "6.6.114";
+      };
+      metadata_version = 1;
+      profiles = {
+        dlink_dwl-3150 = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-bcm47xx-legacy-dlink_dwl-3150";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-bcm47xx-legacy-dlink_dwl-3150-squashfs.bin";
+              sha256 = "0cb4fdf76bf19d8f279255a3a46b90ef71f04ecbc8633da3b8749897c9f77c9e";
+              sha256_unsigned = "0cb4fdf76bf19d8f279255a3a46b90ef71f04ecbc8633da3b8749897c9f77c9e";
+              type = "bin";
+            }
+          ];
+          supported_devices = [
+            "dlink,dwl-3150"
+          ];
+          titles = [
+            {
+              model = "DWL-3150";
+              vendor = "D-Link";
+            }
+          ];
+        };
+        standard = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-bcm47xx-legacy-standard";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-bcm47xx-legacy-standard-squashfs.trx";
+              sha256 = "3fa3a469464751a1998ef2fa024d046288e433d64475c544d95b00cf1a0a1d3d";
+              sha256_unsigned = "3fa3a469464751a1998ef2fa024d046288e433d64475c544d95b00cf1a0a1d3d";
+              type = "trx";
+            }
+          ];
+          supported_devices = [
+            "standard"
+          ];
+          titles = [
+            {
+              model = "Image with LZMA loader and LZMA compressed kernel";
+              vendor = "Generic";
+            }
+          ];
+        };
+        standard-noloader-gz = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-bcm47xx-legacy-standard-noloader-gz";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-bcm47xx-legacy-standard-noloader-gz-squashfs.trx";
+              sha256 = "cee5c2ef7b6d6458237baf6083649c1d10dee498a3ef071e39195148790f0277";
+              sha256_unsigned = "cee5c2ef7b6d6458237baf6083649c1d10dee498a3ef071e39195148790f0277";
+              type = "trx";
+            }
+          ];
+          supported_devices = [
+            "standard-noloader-gz"
+          ];
+          titles = [
+            {
+              model = "Image with gzipped kernel";
+              vendor = "Generic";
+            }
+          ];
+        };
+      };
+      source_date_epoch = 1762095178;
+      target = "bcm47xx/legacy";
+      version_code = "r33617-8f02d6d999";
+      version_number = "24.10-SNAPSHOT";
+    };
     mips74k = {
       arch_packages = "mipsel_74kc";
       default_packages = [
