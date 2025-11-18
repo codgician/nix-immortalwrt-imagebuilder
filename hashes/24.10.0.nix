@@ -181,7 +181,7 @@
   kmods."x86"."geode"."6.6.73-1-d913fc496e1ae174aff58d5d1df68056".sha256 = "sha256-hLGa+tMat4YCbOXfrmMXnoyIESxyFDZ0tJHuDhavI3c=";
   targets."x86"."geode".packagesArch = "i386_pentium-mmx";
   targets."bcm47xx"."legacy".sha256 = "sha256-kRWkjD4Vf0MICUrksBr0crsYXGSEbvPahO0X+cE5vOs=";
-  kmods."bcm47xx"."legacy"."6.6.73-1-d19055388e2499fdfaf7b040658aacfd".sha256 = "sha256-686motlLoVEkvz3Y1gqbCbqnouY7kndiYCd+oOZBM98=";
+  kmods."bcm47xx"."legacy"."6.6.73-1-d19055388e2499fdfaf7b040658aacfd".sha256 = "";
   targets."bcm47xx"."legacy".packagesArch = "mipsel_mips32";
   packages."mipsel_mips32"."base".sha256 = "sha256-Y4/ZcDSSsX7mkTlZG2BCvWrYgYkMP6CgZKy/HUiPNY0=";
   packages."mipsel_mips32"."luci".sha256 = "sha256-ncs2ZXb8GXMa1yPOnOY9VJhDPB3JlLewMmd4aqHdWas=";
