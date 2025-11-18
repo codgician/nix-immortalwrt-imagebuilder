@@ -199,7 +199,7 @@
   packages."aarch64_cortex-a72"."luci".sha256 = "sha256-Q7uG4g9WB0ZbmX9I181GFhIAIAAScHkQkw9Xaib6794=";
   packages."aarch64_cortex-a72"."packages".sha256 = "sha256-xzmGBXVHsC+y7/XIJWlmroDyHv2mWktRyuDmHCSahVg=";
   packages."aarch64_cortex-a72"."routing".sha256 = "sha256-KWXnU4KX4mgex50H7xXOLK4w85xNE4FdpmMUfAMV4yk=";
-  packages."aarch64_cortex-a72"."telephony".sha256 = "";
+  packages."aarch64_cortex-a72"."telephony".sha256 = "sha256-y/cqZHMscIpvJnIUvCcoswkHJFyBZg3x6n9Rb5fAUdw=";
   targets."mvebu"."cortexa9".sha256 = "sha256-qAi0lbzQqoY4BGiBATEweiWti/QhZW22Sx3AFGGiodA=";
   targets."mvebu"."cortexa9".packagesArch = "arm_cortex-a9_vfpv3-d16";
   targets."sunxi"."cortexa7".sha256 = "sha256-f6uXZERcDGFhL4mO7TxgsHAcaZ2aDKkkK1B3fUfHgNE=";
