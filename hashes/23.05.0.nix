@@ -28,8 +28,6 @@
   targets."ipq40xx"."generic".packagesArch = "arm_cortex-a7_neon-vfpv4";
   targets."ipq40xx"."chromium".sha256 = "sha256-tXYELvBjEPXJ7p9Oz2FyQ1cTih4OgcOzV2lHP9Tx/aI=";
   targets."ipq40xx"."chromium".packagesArch = "arm_cortex-a7_neon-vfpv4";
-  targets."layerscape"."armv7".sha256 = "sha256-OPyKsD1o3qJqZbAY6yM64Ep4wNaky7tIkomD5BqwmCM=";
-  targets."layerscape"."armv7".packagesArch = "arm_cortex-a7_neon-vfpv4";
   targets."layerscape"."armv8_64b".sha256 = "sha256-dGE51Cwsuabkkav0IrJ4y97HuArLSr31BR9SMI6FCyg=";
   targets."layerscape"."armv8_64b".packagesArch = "aarch64_generic";
   packages."aarch64_generic"."base".sha256 = "sha256-/Tmr3r6mVvjprhkTZEOkW8GUnXjpyNgXJ0unNn6euCY=";

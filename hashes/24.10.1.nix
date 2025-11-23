@@ -44,7 +44,7 @@
   packages."aarch64_generic"."base".sha256 = "sha256-+X2/w1WawA65cByaI/YBS8KHoAXWXkvANmbv8gfIuro=";
   packages."aarch64_generic"."luci".sha256 = "sha256-SQ41Uc9pIGYm2eKfhGvhIwIUCUL33Xa6ItY/MJysI/s=";
   packages."aarch64_generic"."packages".sha256 = "sha256-Ryg/2NWn4mIWKUOx1rMu/tXkMtCVrzTD9B9cnpeuRjQ=";
-  packages."aarch64_generic"."routing".sha256 = "sha256-gWdZmwuXKDR2KQRBoiI7pN7HJCQV9TtsEDaJjSVU5N0=";
+  packages."aarch64_generic"."routing".sha256 = "";
   packages."aarch64_generic"."telephony".sha256 = "sha256-ns1MCGjGO3Er/fEQIm8Fyy15qoxnmWvZBSpaQHRcsNM=";
   targets."gemini"."generic".sha256 = "sha256-L4NJqqq3R5vUk2TorbaBOy5PBRdPEbwfpgu328X1jkQ=";
   kmods."gemini"."generic"."6.6.86-1-ee46bf11064a2c4709cd5eb196f2aa56".sha256 = "sha256-teFh8E9yGnHIf9nUpHAYkfIvwX30AF40/UzJpoZtl0M=";

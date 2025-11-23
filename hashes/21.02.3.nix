@@ -38,7 +38,7 @@
   targets."octeontx"."generic".sha256 = "sha256-YBimxEfokd7UZSe55ijiw+qq9oGDw8J24owQIe0kln8=";
   targets."gemini"."generic".sha256 = "sha256-MiPtD9K7THhbVM2v7kEQzg2t4Ak/yYv7CeL0ibp5zvk=";
   targets."gemini"."generic".packagesArch = "arm_fa526";
-  packages."arm_fa526"."base".sha256 = "sha256-TA66kQ2DWOZEnKaiiXkoU9lLYp90SlxtBebaMv/QLCE=";
+  packages."arm_fa526"."base".sha256 = "";
   packages."arm_fa526"."luci".sha256 = "sha256-NsvLO4puBX4M5qEFHsrMRLZ2OedJs7Y3L2t/Ysn8V+Q=";
   packages."arm_fa526"."packages".sha256 = "sha256-5KneXrr5iSWthYc8FZgjCQP86hdHL+igbmWR8tgcKX4=";
   packages."arm_fa526"."routing".sha256 = "sha256-UZELC+LymlAbN0ZwkxulC3Y8AcdBXf7NBfch0v9soPE=";

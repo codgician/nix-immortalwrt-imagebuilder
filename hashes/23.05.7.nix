@@ -44,7 +44,6 @@
   packages."aarch64_cortex-a53"."packages".sha256 = "sha256-gI6I9pwQL6+y6oWxjvRUb+uCJSfd8svcY/bOSYJA0Uc=";
   packages."aarch64_cortex-a53"."routing".sha256 = "sha256-q1b9MOPIM7bTntZunZVt1Iz3DYnkKTBigRnY1KgI/gM=";
   packages."aarch64_cortex-a53"."telephony".sha256 = "sha256-4jnlv5AC2cIGS8IUqF8jjHnpzkPPSSgM2s8hisi5d5c=";
-  targets."octeontx"."generic".sha256 = "sha256-GVhnGXr3Yv+hZ/k8CwUon4Qvuo2l5oE07bi1oQllRCw=";
   targets."gemini"."generic".sha256 = "sha256-j/cb7BzJC0hvRoLJa6pW4hY9UlY5JCmeqol9LHr9PTc=";
   targets."gemini"."generic".packagesArch = "arm_fa526";
   packages."arm_fa526"."base".sha256 = "sha256-ZEU7LJhi1gD5MjD6gczLjv9GwZlUGAH40X5xHPTGTD0=";

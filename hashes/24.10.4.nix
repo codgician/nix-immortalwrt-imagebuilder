@@ -41,7 +41,7 @@
   targets."layerscape"."armv8_64b".sha256 = "sha256-hBi7DKUXiQqjWeNdr+4RmFvbs1PkXJHsalbrLEWMOZU=";
   kmods."layerscape"."armv8_64b"."6.6.110-1-d5e2f305bc805771156297dddbf3b9a6".sha256 = "sha256-bD1rEzYdlaV48BqlLK4Hjz6U9u5GHCviEtv1lSQx4Cc=";
   targets."layerscape"."armv8_64b".packagesArch = "aarch64_generic";
-  packages."aarch64_generic"."base".sha256 = "sha256-+X2/w1WawA65cByaI/YBS8KHoAXWXkvANmbv8gfIuro=";
+  packages."aarch64_generic"."base".sha256 = "";
   packages."aarch64_generic"."luci".sha256 = "sha256-SQ41Uc9pIGYm2eKfhGvhIwIUCUL33Xa6ItY/MJysI/s=";
   packages."aarch64_generic"."packages".sha256 = "sha256-Ryg/2NWn4mIWKUOx1rMu/tXkMtCVrzTD9B9cnpeuRjQ=";
   packages."aarch64_generic"."routing".sha256 = "sha256-gWdZmwuXKDR2KQRBoiI7pN7HJCQV9TtsEDaJjSVU5N0=";
