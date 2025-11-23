@@ -38982,7 +38982,6 @@
       version_number = "23.05.7";
     };
   };
-  octeontx = { };
   oxnas = {
     ox820 = {
       arch_packages = "arm_mpcore";
