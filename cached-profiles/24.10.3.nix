@@ -22331,6 +22331,113 @@
     };
   };
   ipq40xx = {
+    chromium = {
+      arch_packages = "arm_cortex-a7_neon-vfpv4";
+      default_packages = [
+        "ath10k-board-qca4019"
+        "ath10k-firmware-qca4019-ct"
+        "autocore"
+        "automount"
+        "base-files"
+        "block-mount"
+        "ca-bundle"
+        "default-settings-chn"
+        "dnsmasq-full"
+        "dropbear"
+        "firewall4"
+        "fstools"
+        "kmod-ath10k-ct"
+        "kmod-gpio-button-hotplug"
+        "kmod-leds-gpio"
+        "kmod-nf-nathelper"
+        "kmod-nf-nathelper-extra"
+        "kmod-nft-offload"
+        "kmod-usb-dwc3"
+        "kmod-usb-dwc3-qcom"
+        "kmod-usb3"
+        "libc"
+        "libgcc"
+        "libustream-openssl"
+        "logd"
+        "luci-app-cpufreq"
+        "luci-app-package-manager"
+        "luci-compat"
+        "luci-lib-base"
+        "luci-lib-ipkg"
+        "luci-light"
+        "mtd"
+        "netifd"
+        "nftables"
+        "odhcp6c"
+        "odhcpd-ipv6only"
+        "opkg"
+        "ppp"
+        "ppp-mod-pppoe"
+        "procd-ujail"
+        "uboot-envtools"
+        "uci"
+        "uclient-fetch"
+        "urandom-seed"
+        "urngd"
+        "wpad-openssl"
+      ];
+      linux_kernel = {
+        release = "1";
+        vermagic = "8104809f850a45ab24c966a2eecff605";
+        version = "6.6.104";
+      };
+      metadata_version = 1;
+      profiles = {
+        google_wifi = {
+          device_packages = [
+            "partx-utils"
+            "mkf2fs"
+            "e2fsprogs"
+            "kmod-fs-ext4"
+            "kmod-fs-f2fs"
+            "kmod-google-firmware"
+            "kmod-ramoops"
+          ];
+          image_prefix = "immortalwrt-24.10.3-ipq40xx-chromium-google_wifi";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.3-ipq40xx-chromium-google_wifi-squashfs-sysupgrade.bin";
+              sha256 = "dba2c36955d4b6d64d4f040cb12c8747500bf43bdba53f12688b646bfb4c4558";
+              sha256_unsigned = "ac22cb43e187bd2c23b44ad5ec76415fe8e15216ddc9a167892e3601e00d892c";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10.3-ipq40xx-chromium-google_wifi-squashfs-factory.bin";
+              sha256 = "c14a534def5eb94c8ae3348450450bf10fd3dbbf56143f5a3c3285935ec68e63";
+              sha256_unsigned = "c14a534def5eb94c8ae3348450450bf10fd3dbbf56143f5a3c3285935ec68e63";
+              type = "factory";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10.3-ipq40xx-chromium-google_wifi-initramfs-fit-zImage.itb.vboot";
+              sha256 = "80f882007eae10a93d9c3c58e97e838aea423a09e15d74175c855736e58c1e57";
+              sha256_unsigned = "80f882007eae10a93d9c3c58e97e838aea423a09e15d74175c855736e58c1e57";
+              type = "kernel";
+            }
+          ];
+          supported_devices = [
+            "google,wifi"
+          ];
+          titles = [
+            {
+              model = "WiFi (Gale)";
+              vendor = "Google";
+            }
+          ];
+        };
+      };
+      source_date_epoch = 1758465927;
+      target = "ipq40xx/chromium";
+      version_code = "r33451-5531f6bc76a3";
+      version_number = "24.10.3";
+    };
     generic = {
       arch_packages = "arm_cortex-a7_neon-vfpv4";
       default_packages = [

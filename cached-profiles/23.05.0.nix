@@ -29987,6 +29987,150 @@
     };
   };
   layerscape = {
+    armv7 = {
+      arch_packages = "arm_cortex-a7_neon-vfpv4";
+      default_packages = [
+        "base-files"
+        "block-mount"
+        "busybox"
+        "ca-bundle"
+        "default-settings-chn"
+        "dnsmasq-full"
+        "dropbear"
+        "e2fsprogs"
+        "firewall4"
+        "fstools"
+        "ipv6helper"
+        "kmod-nf-nathelper"
+        "kmod-nf-nathelper-extra"
+        "kmod-nft-offload"
+        "kmod-usb-dwc3"
+        "kmod-usb-storage"
+        "kmod-usb3"
+        "libc"
+        "libgcc"
+        "libustream-openssl"
+        "logd"
+        "luci"
+        "luci-app-opkg"
+        "luci-compat"
+        "luci-lib-base"
+        "luci-lib-fs"
+        "luci-lib-ipkg"
+        "mkf2fs"
+        "mtd"
+        "netifd"
+        "nftables"
+        "opkg"
+        "partx-utils"
+        "ppp"
+        "ppp-mod-pppoe"
+        "procd"
+        "procd-seccomp"
+        "procd-ujail"
+        "uci"
+        "uclient-fetch"
+        "urandom-seed"
+        "urngd"
+      ];
+      metadata_version = 1;
+      profiles = {
+        fsl_ls1021a-iot-sdboot = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-23.05.0-layerscape-armv7-fsl_ls1021a-iot-sdboot";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-23.05.0-layerscape-armv7-fsl_ls1021a-iot-sdboot-squashfs-sysupgrade.bin";
+              sha256 = "f7833bd95af49e6a888783a2d2bdfd1c27c7f864c3279ac38e59f46f6a99ff1f";
+              sha256_unsigned = "7ba37efe8ad5c776261b4cdfc43b7c4cc172dcaad7dcf67033b22b2d9d492627";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-23.05.0-layerscape-armv7-fsl_ls1021a-iot-sdboot-squashfs-sdcard.img.gz";
+              sha256 = "c79f53d8260e5cf823cb03b49f29fff19c5057a3a8ced0b570b1e0f0a88f99cd";
+              sha256_unsigned = "c79f53d8260e5cf823cb03b49f29fff19c5057a3a8ced0b570b1e0f0a88f99cd";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [ ];
+          titles = [
+            {
+              model = "LS1021A-IoT";
+              variant = "SD Card Boot";
+              vendor = "NXP";
+            }
+          ];
+        };
+        fsl_ls1021a-twr = {
+          device_packages = [
+            "layerscape-rcw"
+          ];
+          image_prefix = "immortalwrt-23.05.0-layerscape-armv7-fsl_ls1021a-twr";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-23.05.0-layerscape-armv7-fsl_ls1021a-twr-squashfs-sysupgrade.bin";
+              sha256 = "2836e1531be4152243452dbe3416d95174a7c200a45fafcfbdf77153abe555ea";
+              sha256_unsigned = "8528e214aa76ec1d3af15138901d428d0669665472c5d3ea58c7a9b26dbeaaf6";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-23.05.0-layerscape-armv7-fsl_ls1021a-twr-squashfs-firmware.bin";
+              sha256 = "248587fcd24a28de9f0463ead7a380dad14135be62e49417851c7e044a1d5290";
+              sha256_unsigned = "248587fcd24a28de9f0463ead7a380dad14135be62e49417851c7e044a1d5290";
+              type = "firmware";
+            }
+          ];
+          supported_devices = [
+            "fsl,ls1021a-twr"
+          ];
+          titles = [
+            {
+              model = "TWR-LS1021A";
+              variant = "Default";
+              vendor = "NXP";
+            }
+          ];
+        };
+        fsl_ls1021a-twr-sdboot = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-23.05.0-layerscape-armv7-fsl_ls1021a-twr-sdboot";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-23.05.0-layerscape-armv7-fsl_ls1021a-twr-sdboot-squashfs-sysupgrade.bin";
+              sha256 = "af03c4226bc0b109fbe2a053b2aa7dcbb8909d39974072084214f273ed14292b";
+              sha256_unsigned = "b2c72d5792b4f3454e959894d2f9a010de8050e57e682dc9552d5171cddc2099";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-23.05.0-layerscape-armv7-fsl_ls1021a-twr-sdboot-squashfs-sdcard.img.gz";
+              sha256 = "eb3916f6350bead7d95676f668776f476609265154783186ac23ccbfb4cf821f";
+              sha256_unsigned = "eb3916f6350bead7d95676f668776f476609265154783186ac23ccbfb4cf821f";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "fsl,ls1021a-twr-sdboot"
+          ];
+          titles = [
+            {
+              model = "TWR-LS1021A";
+              variant = "SD Card Boot";
+              vendor = "NXP";
+            }
+          ];
+        };
+      };
+      source_date_epoch = 1699850417;
+      target = "layerscape/armv7";
+      version_code = "r27285-695bf40a48";
+      version_number = "23.05.0";
+    };
     armv8_64b = {
       arch_packages = "aarch64_generic";
       default_packages = [

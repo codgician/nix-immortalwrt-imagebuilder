@@ -30276,6 +30276,633 @@
       version_code = "r33617-8f02d6d999";
       version_number = "24.10-SNAPSHOT";
     };
+    armv8_64b = {
+      arch_packages = "aarch64_generic";
+      default_packages = [
+        "base-files"
+        "block-mount"
+        "ca-bundle"
+        "default-settings-chn"
+        "dnsmasq-full"
+        "dropbear"
+        "e2fsprogs"
+        "firewall4"
+        "fstools"
+        "kmod-nf-nathelper"
+        "kmod-nf-nathelper-extra"
+        "kmod-nft-offload"
+        "kmod-usb-dwc3"
+        "kmod-usb-storage"
+        "kmod-usb3"
+        "libc"
+        "libgcc"
+        "libustream-openssl"
+        "logd"
+        "luci-app-package-manager"
+        "luci-compat"
+        "luci-lib-base"
+        "luci-lib-ipkg"
+        "luci-light"
+        "mkf2fs"
+        "mtd"
+        "netifd"
+        "nftables"
+        "odhcp6c"
+        "odhcpd-ipv6only"
+        "opkg"
+        "partx-utils"
+        "ppp"
+        "ppp-mod-pppoe"
+        "procd-ujail"
+        "uci"
+        "uclient-fetch"
+        "urandom-seed"
+        "urngd"
+      ];
+      linux_kernel = {
+        release = "1";
+        vermagic = "d5e2f305bc805771156297dddbf3b9a6";
+        version = "6.6.114";
+      };
+      metadata_version = 1;
+      profiles = {
+        fsl_ls1012a-frdm = {
+          device_packages = [
+            "layerscape-ppfe"
+            "kmod-ppfe"
+          ];
+          image_prefix = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1012a-frdm";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1012a-frdm-squashfs-firmware.bin";
+              sha256 = "bfa24014e6bbe2da18220614ebf3b6b8f53d2976d66e83403198c326f7ae644a";
+              sha256_unsigned = "bfa24014e6bbe2da18220614ebf3b6b8f53d2976d66e83403198c326f7ae644a";
+              type = "firmware";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1012a-frdm-squashfs-sysupgrade.bin";
+              sha256 = "18454f50139801259c6b863746772aa5d3e96b36857b06507cf9d1a9a339bf6f";
+              sha256_unsigned = "98c4e90ac85eacfd927b6c4baae2a70194dc81fa3d5f833da29bafe2f7e58734";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "fsl,ls1012a-frdm"
+          ];
+          titles = [
+            {
+              model = "FRDM-LS1012A";
+              vendor = "NXP";
+            }
+          ];
+        };
+        fsl_ls1012a-frwy-sdboot = {
+          device_packages = [
+            "layerscape-ppfe"
+            "kmod-ppfe"
+          ];
+          image_prefix = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1012a-frwy-sdboot";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1012a-frwy-sdboot-squashfs-sdcard.img.gz";
+              sha256 = "597415eb4e9b92cce6d750c839bd3d8ef21d400952863e19bc9ca9e589ba58ae";
+              sha256_unsigned = "597415eb4e9b92cce6d750c839bd3d8ef21d400952863e19bc9ca9e589ba58ae";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1012a-frwy-sdboot-squashfs-firmware.bin";
+              sha256 = "4da54bcb2a2b051eaa3d2d50ff045f6a1d27ac6a1762e5fc363b5f0a2896068e";
+              sha256_unsigned = "4da54bcb2a2b051eaa3d2d50ff045f6a1d27ac6a1762e5fc363b5f0a2896068e";
+              type = "firmware";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1012a-frwy-sdboot-squashfs-sysupgrade.bin";
+              sha256 = "716a0a95a945b8c1e0cad10b91c7cf8442d5fbe896982251ef55692a9a346ff2";
+              sha256_unsigned = "311a5ff7cb8c63b6b24a70ec633a0df76748bbc4acc4f36236da850b49fd70dd";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "fsl,ls1012a-frwy-sdboot"
+          ];
+          titles = [
+            {
+              model = "FRWY-LS1012A";
+              vendor = "NXP";
+            }
+          ];
+        };
+        fsl_ls1012a-rdb = {
+          device_packages = [
+            "layerscape-ppfe"
+            "kmod-hwmon-ina2xx"
+            "kmod-iio-fxas21002c-i2c"
+            "kmod-iio-fxos8700-i2c"
+            "kmod-ppfe"
+          ];
+          image_prefix = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1012a-rdb";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1012a-rdb-squashfs-firmware.bin";
+              sha256 = "313152b0dc9824e57c06b1b265041c7c2a4c3a91c41da519477d200140cce558";
+              sha256_unsigned = "313152b0dc9824e57c06b1b265041c7c2a4c3a91c41da519477d200140cce558";
+              type = "firmware";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1012a-rdb-squashfs-sysupgrade.bin";
+              sha256 = "3864036ef2a61c1a1fe96a4437fa571edb3486d1be41cd0a64080f20c82887b6";
+              sha256_unsigned = "53ccee16eb6cb0af6678f380b92334ea26f3fd76658ad516efac516aa9ec5b89";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "fsl,ls1012a-rdb"
+          ];
+          titles = [
+            {
+              model = "LS1012A-RDB";
+              vendor = "NXP";
+            }
+          ];
+        };
+        fsl_ls1028a-rdb = {
+          device_packages = [
+            "kmod-hwmon-ina2xx"
+            "kmod-hwmon-lm90"
+            "kmod-rtc-pcf2127"
+          ];
+          image_prefix = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1028a-rdb";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1028a-rdb-squashfs-sysupgrade.bin";
+              sha256 = "7ca37c958b430f94cdfcc4ba0f7206548211fddc4cfd43488839dc78c97716d1";
+              sha256_unsigned = "3537caeb731753b9b0607009b46a35b49a5c597e29f86f5593b7bbabda6817cd";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1028a-rdb-squashfs-firmware.bin";
+              sha256 = "0789fdee66b4ee6d6044add25ce5f05276677a931ec3f85335ee2102df9ffc3b";
+              sha256_unsigned = "0789fdee66b4ee6d6044add25ce5f05276677a931ec3f85335ee2102df9ffc3b";
+              type = "firmware";
+            }
+          ];
+          supported_devices = [
+            "fsl,ls1028a-rdb"
+          ];
+          titles = [
+            {
+              model = "LS1028A-RDB";
+              variant = "Default";
+              vendor = "NXP";
+            }
+          ];
+        };
+        fsl_ls1028a-rdb-sdboot = {
+          device_packages = [
+            "kmod-hwmon-ina2xx"
+            "kmod-hwmon-lm90"
+            "kmod-rtc-pcf2127"
+          ];
+          image_prefix = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1028a-rdb-sdboot";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1028a-rdb-sdboot-squashfs-sysupgrade.bin";
+              sha256 = "8977aa7142fc56ada1560fc76681d2f8bedd1e15046988a5bcd6c4e75fac4713";
+              sha256_unsigned = "09780a6e5a48e454758d92960d6509216cdc72d308b0eca96da4df9ffe57f508";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1028a-rdb-sdboot-squashfs-sdcard.img.gz";
+              sha256 = "e20dbe24ad5aa657b9c8748e6cb49d9b60fd7fc1fb936c048e14e3e2e139a10f";
+              sha256_unsigned = "e20dbe24ad5aa657b9c8748e6cb49d9b60fd7fc1fb936c048e14e3e2e139a10f";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "fsl,ls1028a-rdb-sdboot"
+          ];
+          titles = [
+            {
+              model = "LS1028A-RDB";
+              variant = "SD Card Boot";
+              vendor = "NXP";
+            }
+          ];
+        };
+        fsl_ls1043a-rdb = {
+          device_packages = [
+            "kmod-ahci-qoriq"
+            "kmod-hwmon-ina2xx"
+            "kmod-hwmon-lm90"
+          ];
+          image_prefix = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1043a-rdb";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1043a-rdb-squashfs-firmware.bin";
+              sha256 = "660943306a15135922888242c10298360c9125604ff4332166c1ccdabf30b8a5";
+              sha256_unsigned = "660943306a15135922888242c10298360c9125604ff4332166c1ccdabf30b8a5";
+              type = "firmware";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1043a-rdb-squashfs-sysupgrade.bin";
+              sha256 = "cf9f901ed659b1a9982e5a2fd725706d61c5b3819e4abe0dbc10110a69eaac52";
+              sha256_unsigned = "d2ca8c276b74e804b861d339720238a5448fa9f3b5c4f269bf1527fd7a5c58e2";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "fsl,ls1043a-rdb"
+          ];
+          titles = [
+            {
+              model = "LS1043A-RDB";
+              variant = "Default";
+              vendor = "NXP";
+            }
+          ];
+        };
+        fsl_ls1043a-rdb-sdboot = {
+          device_packages = [
+            "kmod-ahci-qoriq"
+            "kmod-hwmon-ina2xx"
+            "kmod-hwmon-lm90"
+          ];
+          image_prefix = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1043a-rdb-sdboot";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1043a-rdb-sdboot-squashfs-sdcard.img.gz";
+              sha256 = "b42a33508db04a221469e032099be4dc558c963ed1d95e9ede5f822f144117b0";
+              sha256_unsigned = "b42a33508db04a221469e032099be4dc558c963ed1d95e9ede5f822f144117b0";
+              type = "sdcard";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1043a-rdb-sdboot-squashfs-sysupgrade.bin";
+              sha256 = "01a129a40f906c7c3438d4ba44dd9161b2fe520372b2e5a31eda90b49614598d";
+              sha256_unsigned = "3c2975aa8ee4b86aa2fc84d64f14ddca8c3001ba6ee1a345d0ed6e607bf0d6e5";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "fsl,ls1043a-rdb-sdboot"
+          ];
+          titles = [
+            {
+              model = "LS1043A-RDB";
+              variant = "SD Card Boot";
+              vendor = "NXP";
+            }
+          ];
+        };
+        fsl_ls1046a-frwy = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1046a-frwy";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1046a-frwy-squashfs-firmware.bin";
+              sha256 = "78fb07be33a2e4029582aa90c5fddb0ac94d26cc8d9b029a8790aa5c68f2e1e6";
+              sha256_unsigned = "78fb07be33a2e4029582aa90c5fddb0ac94d26cc8d9b029a8790aa5c68f2e1e6";
+              type = "firmware";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1046a-frwy-squashfs-sysupgrade.bin";
+              sha256 = "bb941f0254ff83041ebdd60915fe802f088de22223b74d95ce26f3c1cd65eefd";
+              sha256_unsigned = "67124e6118d896921ea8035900ff1d1faa31c41ec0fac0ccd42f58ae3dd28f40";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "fsl,ls1046a-frwy"
+          ];
+          titles = [
+            {
+              model = "FRWY-LS1046A";
+              variant = "Default";
+              vendor = "NXP";
+            }
+          ];
+        };
+        fsl_ls1046a-frwy-sdboot = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1046a-frwy-sdboot";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1046a-frwy-sdboot-squashfs-sysupgrade.bin";
+              sha256 = "8ccd01dcaf983ccdb459c6a2accc075717ce22d8dfe150c46ba06e8997bc81f2";
+              sha256_unsigned = "edb85ba6c7e95befdf5ca5fdb1eca9ff73b0fc09528312da1fca96a00de010f4";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1046a-frwy-sdboot-squashfs-sdcard.img.gz";
+              sha256 = "20905cdf95f1b9a4b488bf28e65fcaca434a86fab2852b019e32db5201035514";
+              sha256_unsigned = "20905cdf95f1b9a4b488bf28e65fcaca434a86fab2852b019e32db5201035514";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "fsl,ls1046a-frwy-sdboot"
+          ];
+          titles = [
+            {
+              model = "FRWY-LS1046A";
+              variant = "SD Card Boot";
+              vendor = "NXP";
+            }
+          ];
+        };
+        fsl_ls1046a-rdb = {
+          device_packages = [
+            "kmod-ahci-qoriq"
+            "kmod-hwmon-ina2xx"
+            "kmod-hwmon-lm90"
+          ];
+          image_prefix = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1046a-rdb";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1046a-rdb-squashfs-sysupgrade.bin";
+              sha256 = "fc7fddc30de9b805e25611d34fe6475c7d524f16500a849f20abe20e202a9cdf";
+              sha256_unsigned = "13ed71090863bfb7afce287e30bf086f5bd4dfcd294df868149666b5afea19f2";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1046a-rdb-squashfs-firmware.bin";
+              sha256 = "1ac9e44a9cfe97e83b75d22e408f151e2edbd27b92f83271ce11d26a59544d76";
+              sha256_unsigned = "1ac9e44a9cfe97e83b75d22e408f151e2edbd27b92f83271ce11d26a59544d76";
+              type = "firmware";
+            }
+          ];
+          supported_devices = [
+            "fsl,ls1046a-rdb"
+          ];
+          titles = [
+            {
+              model = "LS1046A-RDB";
+              variant = "Default";
+              vendor = "NXP";
+            }
+          ];
+        };
+        fsl_ls1046a-rdb-sdboot = {
+          device_packages = [
+            "kmod-ahci-qoriq"
+            "kmod-hwmon-ina2xx"
+            "kmod-hwmon-lm90"
+          ];
+          image_prefix = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1046a-rdb-sdboot";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1046a-rdb-sdboot-squashfs-sysupgrade.bin";
+              sha256 = "c2d02190e38034ed48822ca7f647dff180feb32a7fa4c67c9ae5f55792d7800a";
+              sha256_unsigned = "a9ae371b2089c1542a9f517cef6f3fabcbd5774f845101d1f7ebf7e16b669be2";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1046a-rdb-sdboot-squashfs-sdcard.img.gz";
+              sha256 = "b12a0fde14ce2519ada1ac7d034565413ecfff6f51ea14c740343475231a87ac";
+              sha256_unsigned = "b12a0fde14ce2519ada1ac7d034565413ecfff6f51ea14c740343475231a87ac";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "fsl,ls1046a-rdb-sdboot"
+          ];
+          titles = [
+            {
+              model = "LS1046A-RDB";
+              variant = "SD Card Boot";
+              vendor = "NXP";
+            }
+          ];
+        };
+        fsl_ls1088a-rdb = {
+          device_packages = [
+            "restool"
+            "kmod-ahci-qoriq"
+            "kmod-hwmon-ina2xx"
+            "kmod-hwmon-lm90"
+          ];
+          image_prefix = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1088a-rdb";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1088a-rdb-squashfs-firmware.bin";
+              sha256 = "5fe4ac5f49353359c662d39b1fc62e44f05be550be5cdfafb80e897038212408";
+              sha256_unsigned = "5fe4ac5f49353359c662d39b1fc62e44f05be550be5cdfafb80e897038212408";
+              type = "firmware";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1088a-rdb-squashfs-sysupgrade.bin";
+              sha256 = "4f61053ec9894f588787f8942f63b9b30b7863fdc9605d2fc5b0b2841980b162";
+              sha256_unsigned = "d854fc44780e3265a54318af35ef9ed26c194e9d7cf0eebfe880395c4d091115";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "fsl,ls1088a-rdb"
+          ];
+          titles = [
+            {
+              model = "LS1088A-RDB";
+              variant = "Default";
+              vendor = "NXP";
+            }
+          ];
+        };
+        fsl_ls1088a-rdb-sdboot = {
+          device_packages = [
+            "restool"
+            "kmod-ahci-qoriq"
+            "kmod-hwmon-ina2xx"
+            "kmod-hwmon-lm90"
+          ];
+          image_prefix = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1088a-rdb-sdboot";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1088a-rdb-sdboot-squashfs-sysupgrade.bin";
+              sha256 = "345bf6ec6d20b9402a069c0a96e337956876a6b2b313d4bf0c384555bae18bd0";
+              sha256_unsigned = "db9bf931cfcb26630b4f2d49170a2dd4084e7062484ff8096fb5706883c5fc31";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls1088a-rdb-sdboot-squashfs-sdcard.img.gz";
+              sha256 = "b04dd68af5f072872c55f56d842755e26711fdc9e41d36d48af53e8ee64ecc6f";
+              sha256_unsigned = "b04dd68af5f072872c55f56d842755e26711fdc9e41d36d48af53e8ee64ecc6f";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "fsl,ls1088a-rdb-sdboot"
+          ];
+          titles = [
+            {
+              model = "LS1088A-RDB";
+              variant = "SD Card Boot";
+              vendor = "NXP";
+            }
+          ];
+        };
+        fsl_ls2088a-rdb = {
+          device_packages = [
+            "restool"
+            "kmod-ahci-qoriq"
+          ];
+          image_prefix = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls2088a-rdb";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls2088a-rdb-squashfs-sysupgrade.bin";
+              sha256 = "a6b0079a231948d1af799bd57129ee0273f81aef090663e03efc2407efef5be6";
+              sha256_unsigned = "593f4737b8a019adbdc02e8ba023d1ceb55336a79704e473e6a61d517bcc11fc";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_ls2088a-rdb-squashfs-firmware.bin";
+              sha256 = "5272940a2224e7d2024d0adca9bb0e3a10fb2908fc6725972a475cd89c00e866";
+              sha256_unsigned = "5272940a2224e7d2024d0adca9bb0e3a10fb2908fc6725972a475cd89c00e866";
+              type = "firmware";
+            }
+          ];
+          supported_devices = [
+            "fsl,ls2088a-rdb"
+          ];
+          titles = [
+            {
+              model = "LS2088ARDB";
+              vendor = "NXP";
+            }
+          ];
+        };
+        fsl_lx2160a-rdb = {
+          device_packages = [
+            "restool"
+          ];
+          image_prefix = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_lx2160a-rdb";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_lx2160a-rdb-squashfs-firmware.bin";
+              sha256 = "3b8907ce2e0424735c2ed067bc8d9925ffc6906d023fc1211a0f4d20c0d8561c";
+              sha256_unsigned = "3b8907ce2e0424735c2ed067bc8d9925ffc6906d023fc1211a0f4d20c0d8561c";
+              type = "firmware";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_lx2160a-rdb-squashfs-sysupgrade.bin";
+              sha256 = "f7586cdb4a2503b57b599e01c9fbc46db8f66d7800b50c8ce2d77a4283f4db4e";
+              sha256_unsigned = "e39a18da6f25424f1f3fcd88c7c5ac45df1e4ebb6eb8356a8d398dd1adbf3d44";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "fsl,lx2160a-rdb"
+          ];
+          titles = [
+            {
+              model = "LX2160A-RDB";
+              variant = "Rev2.0 silicon";
+              vendor = "NXP";
+            }
+          ];
+        };
+        fsl_lx2160a-rdb-sdboot = {
+          device_packages = [
+            "restool"
+          ];
+          image_prefix = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_lx2160a-rdb-sdboot";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_lx2160a-rdb-sdboot-squashfs-sysupgrade.bin";
+              sha256 = "cbf03fd9200a55c7bf8d6ad7d23c3d1679587a56625f5ff198a88c5c1c93ad10";
+              sha256_unsigned = "02137af281be50cf1c54b883c0f0a5a3d193c1aeeb625aad8eb6a6bea2c3ea8e";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-fsl_lx2160a-rdb-sdboot-squashfs-sdcard.img.gz";
+              sha256 = "3bfa08c2a763bc50bb20973efa4ce76206da334a1c1aec52e98d7e014568f379";
+              sha256_unsigned = "3bfa08c2a763bc50bb20973efa4ce76206da334a1c1aec52e98d7e014568f379";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "fsl,lx2160a-rdb-sdboot"
+          ];
+          titles = [
+            {
+              model = "LX2160A-RDB";
+              variant = "Rev2.0 silicon SD Card Boot";
+              vendor = "NXP";
+            }
+          ];
+        };
+        ten64-mtd = {
+          device_packages = [
+            "uboot-envtools"
+            "kmod-rtc-rx8025"
+            "kmod-sfp"
+            "kmod-i2c-mux-pca954x"
+            "restool"
+          ];
+          image_prefix = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-traverse_ten64_mtd";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-traverse_ten64_mtd-squashfs-sysupgrade.bin";
+              sha256 = "f360adc275ded6036aa0942df3b8fa670e5a307ef1c708c1357f463a888655db";
+              sha256_unsigned = "651bee0af9cb942f32c67251ac9aa6f3ee367de80495850c7fad06d7f5a8f7c9";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-layerscape-armv8_64b-traverse_ten64_mtd-squashfs-nand.ubi";
+              sha256 = "4eb5a628c12c5217bb24fd0bc808bdfd6b8c601dbb4344b9a4a23d009e7c7afe";
+              sha256_unsigned = "4eb5a628c12c5217bb24fd0bc808bdfd6b8c601dbb4344b9a4a23d009e7c7afe";
+              type = "nand";
+            }
+          ];
+          supported_devices = [
+            "traverse,ten64"
+          ];
+          titles = [
+            {
+              model = "Ten64 (NAND boot)";
+              vendor = "Traverse";
+            }
+          ];
+        };
+      };
+      source_date_epoch = 1762095178;
+      target = "layerscape/armv8_64b";
+      version_code = "r33617-8f02d6d999";
+      version_number = "24.10-SNAPSHOT";
+    };
   };
   loongarch64 = {
     generic = {
