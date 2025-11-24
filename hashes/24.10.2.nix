@@ -45,7 +45,7 @@
   packages."aarch64_generic"."luci".sha256 = "sha256-SQ41Uc9pIGYm2eKfhGvhIwIUCUL33Xa6ItY/MJysI/s=";
   packages."aarch64_generic"."packages".sha256 = "sha256-Ryg/2NWn4mIWKUOx1rMu/tXkMtCVrzTD9B9cnpeuRjQ=";
   packages."aarch64_generic"."routing".sha256 = "sha256-gWdZmwuXKDR2KQRBoiI7pN7HJCQV9TtsEDaJjSVU5N0=";
-  packages."aarch64_generic"."telephony".sha256 = "";
+  packages."aarch64_generic"."telephony".sha256 = "sha256-ns1MCGjGO3Er/fEQIm8Fyy15qoxnmWvZBSpaQHRcsNM=";
   targets."gemini"."generic".sha256 = "sha256-XDOJZI4R/tiHzteRHWNIGFC4wdeVfeTdcqTmeCevLvA=";
   kmods."gemini"."generic"."6.6.93-1-943caeae7a8ee43b58d78a22a1db71d3".sha256 = "sha256-66kLhlMT0bO+9wgqrYKjclYdWAk8E2a9TjATxZjBSfA=";
   targets."gemini"."generic".packagesArch = "arm_fa526";

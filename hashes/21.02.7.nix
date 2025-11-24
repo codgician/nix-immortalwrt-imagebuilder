@@ -24,6 +24,7 @@
   packages."arm_cortex-a7_neon-vfpv4"."telephony".sha256 = "sha256-04N9PBLKmdgWl1tb5+8vaixcLuG2Cnj7EEk1m0k3PLk=";
   targets."ipq40xx"."generic".sha256 = "sha256-94V/YRd+26nVf27djoRTK4+b62SHKCJ50mYf47qUcKc=";
   targets."ipq40xx"."generic".packagesArch = "arm_cortex-a7_neon-vfpv4";
+  targets."armvirt"."64".sha256 = "sha256-/EzlGdW9rga5aWOIXvuUazmg+QaOBo+NMEwN5lwuqXM=";
   targets."armvirt"."32".sha256 = "sha256-LRSEeB4N3ihkEbxNpvTZI6qbo+J5umqpuKCWyKIJ3b0=";
   targets."layerscape"."armv7".sha256 = "sha256-UWEmj8x7Dd8j0kdUUwkInrKy6G53W5NrsU9LY8FBiVI=";
   targets."layerscape"."armv7".packagesArch = "arm_cortex-a7_neon-vfpv4";

@@ -25,6 +25,7 @@
   targets."ipq40xx"."generic".sha256 = "sha256-y8B/G/NRQnvKnuGHeAqh+5np0kCMKAoe8paJqxRNDX0=";
   targets."ipq40xx"."generic".packagesArch = "arm_cortex-a7_neon-vfpv4";
   targets."armvirt"."64".sha256 = "sha256-0/7SbsbQYXR3Jyr8jP8dNDYuLoecIM67HC3p6QE/99g=";
+  targets."armvirt"."32".sha256 = "sha256-7UnMAiMA11V8pLDpK0GRMQvj52lJXef2n2aUn1A3Jp4=";
   targets."layerscape"."armv7".sha256 = "sha256-tkURZarCmYl10j9paBvvJB2UO3UWfVHc0QeuPNy1UyY=";
   targets."layerscape"."armv7".packagesArch = "arm_cortex-a7_neon-vfpv4";
   targets."layerscape"."armv8_64b".sha256 = "sha256-A9fGav3sVAmvMkkPSERIaY4zlMicBQjsQ9v0WtNthrg=";

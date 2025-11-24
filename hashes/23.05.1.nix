@@ -35,7 +35,7 @@
   packages."aarch64_generic"."base".sha256 = "sha256-/Tmr3r6mVvjprhkTZEOkW8GUnXjpyNgXJ0unNn6euCY=";
   packages."aarch64_generic"."luci".sha256 = "sha256-FxYHH2+jj+Ys5XY1gsG5GMB90hdkbz9xUP50e4jOhz4=";
   packages."aarch64_generic"."packages".sha256 = "sha256-5jqFklRRQwCDWa8FY2Q0/FWKuBgxT7oPZwjCtgbnDtk=";
-  packages."aarch64_generic"."routing".sha256 = "";
+  packages."aarch64_generic"."routing".sha256 = "sha256-mAWkoQCbZ1o16amQ57JbrPKqq6gWoXWargmpzr2uqs0=";
   packages."aarch64_generic"."telephony".sha256 = "sha256-VuZTZhLqcDQZznH2qcq9l1+k4LDD+xBEtc4QKRMP7os=";
   targets."ipq807x"."generic".sha256 = "sha256-hI6oOmkpZMcEQpC0U6EWen9Qldkw7SZaBLjfmxzhZKE=";
   targets."ipq807x"."generic".packagesArch = "aarch64_cortex-a53";

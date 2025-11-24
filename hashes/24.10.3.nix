@@ -32,6 +32,9 @@
   targets."ipq40xx"."generic".sha256 = "sha256-Dbtb4Dn5x05uNtxsQxtr7gDwM6x9m/noTwxqS1n6FKs=";
   kmods."ipq40xx"."generic"."6.6.104-1-57fb19177311f373484a24aff6ee2d19".sha256 = "sha256-1w5QE66XvQj91SMZDq7ws091onArW/mCgh/ZpM3cGQc=";
   targets."ipq40xx"."generic".packagesArch = "arm_cortex-a7_neon-vfpv4";
+  targets."ipq40xx"."chromium".sha256 = "sha256-SYPpxn+YbNlmHx+RV9Ph8GLIKXLtffwT1k0qYh5O3Sw=";
+  kmods."ipq40xx"."chromium"."6.6.104-1-8104809f850a45ab24c966a2eecff605".sha256 = "sha256-eTdRv6BJuxjEvtGYhwf0KixsoKecWdmUpjJPDrfjKHA=";
+  targets."ipq40xx"."chromium".packagesArch = "arm_cortex-a7_neon-vfpv4";
   targets."layerscape"."armv7".sha256 = "sha256-zMP41BFiDyGA1CPFdE6kgbcG7rpROqe1cUKnqgg/+wg=";
   kmods."layerscape"."armv7"."6.6.104-1-0b84416b2dd9c03a7618f38b55b2a5bf".sha256 = "sha256-SqJD/6kfjEu9SAWuBM6Efo8KR7DjU4xoj35eA4FBjCM=";
   targets."layerscape"."armv7".packagesArch = "arm_cortex-a7_neon-vfpv4";
