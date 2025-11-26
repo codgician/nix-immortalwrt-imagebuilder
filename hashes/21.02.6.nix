@@ -185,6 +185,12 @@
   targets."mpc85xx"."p1020".sha256 = "sha256-M9dsN2gvCzt416W1Y07NGbeCl1RMFi5Hss+J+4D+ySQ=";
   targets."mpc85xx"."p1020".packagesArch = "powerpc_8540";
   targets."arc770"."generic".sha256 = "sha256-W0AYeCXLT1m+PRDgrUQBgSEGRrIcjNPKN6RA6cnKPe8=";
+  targets."arc770"."generic".packagesArch = "arc_arc700";
+  packages."arc_arc700"."base".sha256 = "sha256-ndx302j7UiV1TWNxufJcywefFvWH6ruygb623l0BC6g=";
+  packages."arc_arc700"."luci".sha256 = "sha256-IhzZOC/nVbRC6JeXh6zOQmDcOZBkH2wex6Zce3rPm9g=";
+  packages."arc_arc700"."packages".sha256 = "sha256-ZgQ8c/IPZgV0djzX9zy353+03z8gQg0MVql08aZBVtQ=";
+  packages."arc_arc700"."routing".sha256 = "sha256-siq9CcTUVJLSyEMOsxqgwL7t7FYXp9KO3JgP04sN4wA=";
+  packages."arc_arc700"."telephony".sha256 = "sha256-kA1I2zq3sTXwRrV52mu3ommpxCIB6Rx3DSV24vlys+4=";
   targets."mvebu"."cortexa53".sha256 = "sha256-ULxW3WzvqoiCCg8z6kwKqERpPkZzQZECd+ds8ocR4hM=";
   targets."mvebu"."cortexa53".packagesArch = "aarch64_cortex-a53";
   targets."mvebu"."cortexa72".sha256 = "sha256-1p+CzV7wJGERHBvrDZTLC4SJPK7rOCOf3WbzC+3CaO4=";
