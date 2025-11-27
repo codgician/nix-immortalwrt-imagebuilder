@@ -186,7 +186,7 @@
   targets."mpc85xx"."p1020".packagesArch = "powerpc_8540";
   targets."arc770"."generic-glibc".sha256 = "sha256-eLUdDCKbGNEpUL2jEV3aXzvZcVmOXVOBYzcNgWqUxME=";
   targets."arc770"."generic-glibc".packagesArch = "arc_arc700";
-  packages."arc_arc700"."base".sha256 = "sha256-ndx302j7UiV1TWNxufJcywefFvWH6ruygb623l0BC6g=";
+  packages."arc_arc700"."base".sha256 = "";
   packages."arc_arc700"."luci".sha256 = "sha256-IhzZOC/nVbRC6JeXh6zOQmDcOZBkH2wex6Zce3rPm9g=";
   packages."arc_arc700"."packages".sha256 = "sha256-ZgQ8c/IPZgV0djzX9zy353+03z8gQg0MVql08aZBVtQ=";
   packages."arc_arc700"."routing".sha256 = "sha256-siq9CcTUVJLSyEMOsxqgwL7t7FYXp9KO3JgP04sN4wA=";
