@@ -158,7 +158,7 @@
   targets."x86"."legacy".packagesArch = "i386_pentium-mmx";
   packages."i386_pentium-mmx"."base".sha256 = "sha256-pLE5jaWZ0bEtZlObk57xalZsCioO1uSGsGsMz90y6ZY=";
   packages."i386_pentium-mmx"."luci".sha256 = "sha256-x8pkWTNPvoODxFWTKmoJozrZ/4AUSoRbHksEfyipMtc=";
-  packages."i386_pentium-mmx"."packages".sha256 = "";
+  packages."i386_pentium-mmx"."packages".sha256 = "sha256-oBphhOxYUaoTfjdK8jjV5qvjYP6IBYeFQgaEuYWp/kE=";
   packages."i386_pentium-mmx"."routing".sha256 = "sha256-OG+IdxT2zXkOlDaUZsL7s3sqD6ZeREVtQidX1/un5zY=";
   packages."i386_pentium-mmx"."telephony".sha256 = "sha256-3ppZ1agWXGPfz9P7O1nz4JUJt9mFYc4/CmZIyr+TO08=";
   targets."x86"."64".sha256 = "sha256-M9cGIo63B+KkYOh64VRbtArclAuyIqe14uXJEESYYtg=";

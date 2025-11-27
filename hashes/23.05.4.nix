@@ -158,6 +158,12 @@
   targets."bcm47xx"."generic".sha256 = "sha256-61UYmpFeAkFCABtsuu1i+0X8lYQw8sTpD31sfsU3r98=";
   targets."bcm47xx"."generic".packagesArch = "mipsel_mips32";
   targets."bcm47xx"."mips74k".sha256 = "sha256-7O6DlzqSGc8aVACxFmA9kUTiU98OvqHJC8dELYZk2RA=";
+  targets."bcm47xx"."mips74k".packagesArch = "mipsel_74kc";
+  packages."mipsel_74kc"."base".sha256 = "sha256-55RObALt6aTsDHyXezvbsn5ZRJh0c3dyjSi7gcfiLvg=";
+  packages."mipsel_74kc"."luci".sha256 = "sha256-3JN6xgcHrxKRD8aog+3gxa9zSmRiTdmNSEVx2zu6/nk=";
+  packages."mipsel_74kc"."packages".sha256 = "sha256-9sjkShmPW55FtX8k1lif7ccSNcQzH7XekFhzCvmB1II=";
+  packages."mipsel_74kc"."routing".sha256 = "sha256-/o2X73x6JE40dqSwarsUmNoRp10hpc23QvIxrdBnUqc=";
+  packages."mipsel_74kc"."telephony".sha256 = "sha256-Y1ICSch4U1FeN0lwC+lcMg6k/3+J26Hhi7eyrpWaidY=";
   targets."bcm63xx"."generic".sha256 = "sha256-NjxhKCu6voTTov76oaS3b5D9EBM2B86CCQ6SvWq2v/I=";
   targets."bcm63xx"."generic".packagesArch = "mips_mips32";
   packages."mips_mips32"."base".sha256 = "sha256-FuNX8UGIKhREBNJy6ZwZYuLWGjZMdHSmhcUka9w2UE0=";
@@ -219,11 +225,6 @@
   targets."ramips"."mt76x8".packagesArch = "mipsel_24kc";
   targets."ramips"."rt3883".sha256 = "sha256-SEQD4AxsTaEGatq5EzxROS3sM1Ty2zMJtwtrIKXlIKc=";
   targets."ramips"."rt3883".packagesArch = "mipsel_74kc";
-  packages."mipsel_74kc"."base".sha256 = "sha256-55RObALt6aTsDHyXezvbsn5ZRJh0c3dyjSi7gcfiLvg=";
-  packages."mipsel_74kc"."luci".sha256 = "sha256-3JN6xgcHrxKRD8aog+3gxa9zSmRiTdmNSEVx2zu6/nk=";
-  packages."mipsel_74kc"."packages".sha256 = "sha256-9sjkShmPW55FtX8k1lif7ccSNcQzH7XekFhzCvmB1II=";
-  packages."mipsel_74kc"."routing".sha256 = "sha256-/o2X73x6JE40dqSwarsUmNoRp10hpc23QvIxrdBnUqc=";
-  packages."mipsel_74kc"."telephony".sha256 = "sha256-Y1ICSch4U1FeN0lwC+lcMg6k/3+J26Hhi7eyrpWaidY=";
   targets."ramips"."rt305x".sha256 = "sha256-01wfQ9ys1tBqN2Lc3oKk8S851oW8WHSJuXQe0elFaqs=";
   targets."ramips"."rt305x".packagesArch = "mipsel_24kc";
   targets."ramips"."mt7621".sha256 = "sha256-lj6h3U9eiok9XvTDBcvyrHYS/0VOXxuqkG5CJESPgck=";

@@ -154,6 +154,13 @@
   packages."arm_cortex-a9_vfpv3-d16"."routing".sha256 = "sha256-KIeH5zx4Me5oS88224nGctUNs+/y+tXcgtjC0g8a2pc=";
   packages."arm_cortex-a9_vfpv3-d16"."telephony".sha256 = "sha256-wJ8ojQRNxifiJeOZQircZnmRcOd/vtFNG/rHdP0Qtq4=";
   targets."x86"."legacy".sha256 = "sha256-3qrK8ri/nWDjqk91KPO6Sg7aox4Wrd3ALiq7fKr9mtA=";
+  kmods."x86"."legacy"."6.6.114-1-2ec3015f1f03fa1440d0e5681c1f9a00".sha256 = "sha256-5zU36y/sy5QWyj9C87wVJZ105WkrBmRQukvDoEHCt4U=";
+  targets."x86"."legacy".packagesArch = "i386_pentium-mmx";
+  packages."i386_pentium-mmx"."base".sha256 = "sha256-pLE5jaWZ0bEtZlObk57xalZsCioO1uSGsGsMz90y6ZY=";
+  packages."i386_pentium-mmx"."luci".sha256 = "sha256-x8pkWTNPvoODxFWTKmoJozrZ/4AUSoRbHksEfyipMtc=";
+  packages."i386_pentium-mmx"."packages".sha256 = "sha256-oBphhOxYUaoTfjdK8jjV5qvjYP6IBYeFQgaEuYWp/kE=";
+  packages."i386_pentium-mmx"."routing".sha256 = "sha256-OG+IdxT2zXkOlDaUZsL7s3sqD6ZeREVtQidX1/un5zY=";
+  packages."i386_pentium-mmx"."telephony".sha256 = "sha256-3ppZ1agWXGPfz9P7O1nz4JUJt9mFYc4/CmZIyr+TO08=";
   targets."x86"."64".sha256 = "sha256-rRbGKsgzczOPs7z/u7pg7Wfya8lueqdVJjSToaJif+0=";
   kmods."x86"."64"."6.6.114-1-f8c5d7fde74fa4fedf4370775255c515".sha256 = "sha256-lFqhFRnIgp77wRwcNHC8luC8cwHHXUkxLqbEbUSICEo=";
   targets."x86"."64".packagesArch = "x86_64";
@@ -173,11 +180,6 @@
   targets."x86"."geode".sha256 = "sha256-pV3EgfqLqKTS5N8mlT5iq/nL8QGFtGQ+fjWYQRygAYs=";
   kmods."x86"."geode"."6.6.114-1-a7829f4c7bf046ecd10eb1ffe77fc091".sha256 = "sha256-cbqT5JErnIwRGfo9dViy4EssZ35FFQ+GBIYTj8tQ+e4=";
   targets."x86"."geode".packagesArch = "i386_pentium-mmx";
-  packages."i386_pentium-mmx"."base".sha256 = "sha256-pLE5jaWZ0bEtZlObk57xalZsCioO1uSGsGsMz90y6ZY=";
-  packages."i386_pentium-mmx"."luci".sha256 = "sha256-x8pkWTNPvoODxFWTKmoJozrZ/4AUSoRbHksEfyipMtc=";
-  packages."i386_pentium-mmx"."packages".sha256 = "sha256-oBphhOxYUaoTfjdK8jjV5qvjYP6IBYeFQgaEuYWp/kE=";
-  packages."i386_pentium-mmx"."routing".sha256 = "sha256-OG+IdxT2zXkOlDaUZsL7s3sqD6ZeREVtQidX1/un5zY=";
-  packages."i386_pentium-mmx"."telephony".sha256 = "sha256-3ppZ1agWXGPfz9P7O1nz4JUJt9mFYc4/CmZIyr+TO08=";
   targets."bcm47xx"."legacy".sha256 = "sha256-q7uJ5azVgEGkIpf7u6LVVOAwUe0IqNWDa3/uEZ+dXbk=";
   kmods."bcm47xx"."legacy"."6.6.114-1-d7e8047a1d72f345f88f8f49597b4dca".sha256 = "sha256-LPdd24DUoA0vNEwo1AZ75x5pFRsZa+dBf9jA9+gWf60=";
   targets."bcm47xx"."legacy".packagesArch = "mipsel_mips32";
