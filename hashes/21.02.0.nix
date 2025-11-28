@@ -183,7 +183,6 @@
   targets."mpc85xx"."p1010".sha256 = "sha256-24a13hWdWp4u97MzXPrvXJfUywWBhpHmbypIjGeiGHY=";
   targets."mpc85xx"."p1010".packagesArch = "powerpc_8540";
   targets."mpc85xx"."p1020".sha256 = "sha256-1CJTQNsUtvkrdUZe6u3/VNdIYyf3kahUaSyQshLmfMo=";
-  targets."mpc85xx"."p1020".packagesArch = "powerpc_8540";
   targets."arc770"."generic-glibc".sha256 = "sha256-ls4Xv5GtoUAkXkNL67XQnsaW/LFZF1optj9hw8iaXqY=";
   targets."arc770"."generic-glibc".packagesArch = "arc_arc700";
   packages."arc_arc700"."base".sha256 = "sha256-ndx302j7UiV1TWNxufJcywefFvWH6ruygb623l0BC6g=";
