@@ -168,7 +168,7 @@
   packages."x86_64"."luci".sha256 = "sha256-B/VY3wRIjbEKyef7rlVJn1JIODqBioi7/Y8ZfQR9GeQ=";
   packages."x86_64"."packages".sha256 = "sha256-vmCFJB1LRTsPX6P0Ie8+Ysbzdra93tROdPTW6U8OUK8=";
   packages."x86_64"."routing".sha256 = "sha256-Se+wS4OefoTyicvBF2i4DiJmR6YF2jniQ4eHWHRcb3E=";
-  packages."x86_64"."telephony".sha256 = "";
+  packages."x86_64"."telephony".sha256 = "sha256-bLhWIyx9WXZPTdrp9noWf0RxWpdfF/ds0DVT+GgZ/ug=";
   targets."x86"."generic".sha256 = "sha256-COR+m1OlSjj7LxVLewDUJVmXY0m5hTtgcxA5JnIUqIs=";
   kmods."x86"."generic"."6.6.104-1-c2705f32519631421628b703864bf0aa".sha256 = "sha256-LRwDeGcr/AzTuvIcdVYMhMrCRKtk6TyNex3RyXwGNvI=";
   targets."x86"."generic".packagesArch = "i386_pentium4";
