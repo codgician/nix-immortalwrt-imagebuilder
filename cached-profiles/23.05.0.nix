@@ -34222,6 +34222,97 @@
       version_code = "r27285-695bf40a48";
       version_number = "23.05.0";
     };
+    p2020 = {
+      arch_packages = "powerpc_8548";
+      default_packages = [
+        "base-files"
+        "block-mount"
+        "busybox"
+        "ca-bundle"
+        "default-settings-chn"
+        "dnsmasq-full"
+        "dropbear"
+        "firewall4"
+        "fstools"
+        "ipv6helper"
+        "kmod-ath9k"
+        "kmod-button-hotplug"
+        "kmod-input-core"
+        "kmod-input-gpio-keys"
+        "kmod-leds-gpio"
+        "kmod-nf-nathelper"
+        "kmod-nf-nathelper-extra"
+        "kmod-nft-offload"
+        "kmod-usb2"
+        "libc"
+        "libgcc"
+        "libustream-openssl"
+        "logd"
+        "luci"
+        "luci-app-opkg"
+        "luci-compat"
+        "luci-lib-base"
+        "luci-lib-fs"
+        "luci-lib-ipkg"
+        "mtd"
+        "netifd"
+        "nftables"
+        "opkg"
+        "ppp"
+        "ppp-mod-pppoe"
+        "procd"
+        "procd-seccomp"
+        "procd-ujail"
+        "swconfig"
+        "uboot-envtools"
+        "uci"
+        "uclient-fetch"
+        "urandom-seed"
+        "urngd"
+        "wpad-basic-openssl"
+      ];
+      metadata_version = 1;
+      profiles = {
+        freescale_p2020rdb = {
+          device_packages = [
+            "kmod-hwmon-lm90"
+            "kmod-rtc-ds1307"
+            "kmod-gpio-pca953x"
+            "kmod-eeprom-at24"
+          ];
+          image_prefix = "immortalwrt-23.05.0-mpc85xx-p2020-freescale_p2020rdb";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-23.05.0-mpc85xx-p2020-freescale_p2020rdb-squashfs-sysupgrade.bin";
+              sha256 = "6aed597781712db411fbb23a81e2f58b1dde80e28689c570954c20922e27b5c6";
+              sha256_unsigned = "29512d230a150560ef435354708abdf67382ea8ec681cdd65300c020a47dac59";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-23.05.0-mpc85xx-p2020-freescale_p2020rdb-initramfs-kernel.bin";
+              sha256 = "48b5971538c6fbc3e8ba505a2d0d9c7432fc10a9be5583c9ff83b25f653f650b";
+              sha256_unsigned = "48b5971538c6fbc3e8ba505a2d0d9c7432fc10a9be5583c9ff83b25f653f650b";
+              type = "kernel";
+            }
+          ];
+          supported_devices = [
+            "fsl,P2020RDB"
+          ];
+          titles = [
+            {
+              model = "P2020RDB";
+              vendor = "Freescale";
+            }
+          ];
+        };
+      };
+      source_date_epoch = 1699850417;
+      target = "mpc85xx/p2020";
+      version_code = "r27285-695bf40a48";
+      version_number = "23.05.0";
+    };
   };
   mvebu = {
     cortexa53 = {

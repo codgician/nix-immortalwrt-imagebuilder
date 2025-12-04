@@ -27178,6 +27178,752 @@
       version_code = "r19892-a6dce2ceb7";
       version_number = "21.02.4";
     };
+    cortexa9 = {
+      arch_packages = "arm_cortex-a9_vfpv3-d16";
+      default_packages = [
+        "autocore-arm"
+        "base-files"
+        "block-mount"
+        "busybox"
+        "ca-bundle"
+        "default-settings-chn"
+        "dnsmasq-full"
+        "dropbear"
+        "firewall"
+        "fstools"
+        "iptables"
+        "ipv6helper"
+        "kmod-gpio-button-hotplug"
+        "kmod-ipt-raw"
+        "kmod-nf-nathelper"
+        "kmod-nf-nathelper-extra"
+        "libc"
+        "libgcc"
+        "libustream-openssl"
+        "logd"
+        "luci"
+        "luci-app-filetransfer"
+        "luci-app-turboacc"
+        "luci-compat"
+        "luci-lib-base"
+        "luci-lib-fs"
+        "luci-lib-ipkg"
+        "mtd"
+        "netifd"
+        "opkg"
+        "ppp"
+        "ppp-mod-pppoe"
+        "procd"
+        "uboot-envtools"
+        "uci"
+        "uclient-fetch"
+        "urandom-seed"
+        "urngd"
+      ];
+      metadata_version = 1;
+      profiles = {
+        buffalo_ls421de = {
+          device_packages = [
+            "kmod-rtc-rs5c372a"
+            "kmod-hwmon-gpiofan"
+            "kmod-hwmon-drivetemp"
+            "kmod-usb3"
+            "kmod-linkstation-poweroff"
+            "kmod-md-raid0"
+            "kmod-md-raid1"
+            "kmod-md-mod"
+            "kmod-fs-xfs"
+            "mkf2fs"
+            "e2fsprogs"
+            "partx-utils"
+          ];
+          image_prefix = "immortalwrt-21.02.4-mvebu-cortexa9-buffalo_ls421de";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-buffalo_ls421de-squashfs-sysupgrade.bin";
+              sha256 = "55230ff85c21915e1eb61be64bcf255419fe1fb73722996ae3034349208d7957";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-buffalo_ls421de-initramfs-kernel.bin";
+              sha256 = "7b4af43af102e58ab33576d53dcd33e26f94c438c213cf1816d13e14b1666a98";
+              type = "kernel";
+            }
+          ];
+          supported_devices = [
+            "buffalo,ls421de"
+          ];
+          titles = [
+            {
+              model = "LinkStation LS421DE";
+              vendor = "Buffalo";
+            }
+          ];
+        };
+        cznic_turris-omnia = {
+          device_packages = [
+            "mkf2fs"
+            "e2fsprogs"
+            "kmod-fs-vfat"
+            "kmod-nls-cp437"
+            "kmod-nls-iso8859-1"
+            "wpad-openssl"
+            "kmod-ath9k"
+            "kmod-ath10k-ct"
+            "ath10k-firmware-qca988x-ct"
+            "partx-utils"
+            "kmod-i2c-mux-pca954x"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-21.02.4-mvebu-cortexa9-cznic_turris-omnia";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-cznic_turris-omnia-sysupgrade.img.gz";
+              sha256 = "7a468d1db6507ed11018503b262cc975ab45fc0d985be4a4a505734eaf0d929c";
+              type = "immortalwrt-21";
+            }
+            {
+              filesystem = "squashfs";
+              name = "omnia-medkit-immortalwrt-21.02.4-mvebu-cortexa9-cznic_turris-omnia-initramfs.tar.gz";
+              sha256 = "3ccf6a87492191f927e20052da13a9322a2c5e083c2697f2698a71385fbf2637";
+              type = "omnia-medkit-immortalwrt-21";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-cznic_turris-omnia-initramfs-kernel.bin";
+              sha256 = "3d826c26576b0e0a3d79e1e737a35fee46bd786b28add2cf4de0e14dba3e9116";
+              type = "kernel";
+            }
+          ];
+          supported_devices = [
+            "cznic,turris-omnia"
+            "armada-385-turris-omnia"
+          ];
+          titles = [
+            {
+              model = "Turris Omnia";
+              vendor = "CZ.NIC";
+            }
+          ];
+        };
+        globalscale_mirabox = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-21.02.4-mvebu-cortexa9-globalscale_mirabox";
+          images = [
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-globalscale_mirabox-initramfs-kernel.bin";
+              sha256 = "d2203b6b800221027890fa50e992a7887d671593c67efb23a73609932208f18f";
+              type = "kernel";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-globalscale_mirabox-squashfs-sysupgrade.bin";
+              sha256 = "f77776d2fd5ce7d4d26600ef17b8122721475dabad67fd3bc8d8cba8336e9f03";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "globalscale,mirabox"
+            "mirabox"
+          ];
+          titles = [
+            {
+              model = "Mirabox";
+              vendor = "Globalscale";
+            }
+          ];
+        };
+        kobol_helios4 = {
+          device_packages = [
+            "mkf2fs"
+            "e2fsprogs"
+            "partx-utils"
+          ];
+          image_prefix = "immortalwrt-21.02.4-mvebu-cortexa9-kobol_helios4";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-kobol_helios4-squashfs-sdcard.img.gz";
+              sha256 = "63942cf85462f5238542730030af750f2838cdc15b93a939a391430e59fb669c";
+              type = "sdcard";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-kobol_helios4-initramfs-kernel.bin";
+              sha256 = "2f51d46c5ba3581767230b1610c0d3dfa79d50da4c3408c85af3240ddbbe60ea";
+              type = "kernel";
+            }
+          ];
+          supported_devices = [
+            "kobol,helios4"
+          ];
+          titles = [
+            {
+              model = "Helios4";
+              vendor = "Kobol";
+            }
+          ];
+        };
+        linksys_wrt1200ac = {
+          device_packages = [
+            "kmod-mwlwifi"
+            "wpad-openssl"
+            "mwlwifi-firmware-88w8864"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-21.02.4-mvebu-cortexa9-linksys_wrt1200ac";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-linksys_wrt1200ac-squashfs-sysupgrade.bin";
+              sha256 = "ddf33383b63306d9601ea7fe0dc50512cd92ad3ab43c5ce492f033e8e2e938c9";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-linksys_wrt1200ac-squashfs-factory.img";
+              sha256 = "140e412e074f7d956399e3926b4cb3d79f8762bc67b8a830a17b4fe231344f1f";
+              type = "factory";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-linksys_wrt1200ac-initramfs-kernel.bin";
+              sha256 = "81aced426027023d50b0acd90f187a31f988ad3982984f88f9b5ccae941bede1";
+              type = "kernel";
+            }
+          ];
+          supported_devices = [
+            "linksys,wrt1200ac"
+            "armada-385-linksys-caiman"
+            "linksys,caiman"
+          ];
+          titles = [
+            {
+              model = "WRT1200AC";
+              vendor = "Linksys";
+            }
+            {
+              model = "Caiman";
+              vendor = "Linksys";
+            }
+          ];
+        };
+        linksys_wrt1900ac-v1 = {
+          device_packages = [
+            "kmod-mwlwifi"
+            "wpad-openssl"
+            "mwlwifi-firmware-88w8864"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-21.02.4-mvebu-cortexa9-linksys_wrt1900ac-v1";
+          images = [
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-linksys_wrt1900ac-v1-initramfs-kernel.bin";
+              sha256 = "c42eccf331f532026969063ee6a1ed46a5ce07a2c1a46ba8161d6c0dd6d7ce07";
+              type = "kernel";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-linksys_wrt1900ac-v1-squashfs-factory.img";
+              sha256 = "1bec6c91bf8c519f9ab66165b1ae8c6d3e2a70ec76d9c3851b798a70133ef093";
+              type = "factory";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-linksys_wrt1900ac-v1-squashfs-sysupgrade.bin";
+              sha256 = "f0ad7f7ebd41fd1006b94a73c474c6e57efc14925cb7e18557c491a4349d95ce";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "linksys,wrt1900ac-v1"
+            "armada-xp-linksys-mamba"
+            "linksys,mamba"
+          ];
+          titles = [
+            {
+              model = "WRT1900AC";
+              variant = "v1";
+              vendor = "Linksys";
+            }
+            {
+              model = "Mamba";
+              vendor = "Linksys";
+            }
+          ];
+        };
+        linksys_wrt1900ac-v2 = {
+          device_packages = [
+            "kmod-mwlwifi"
+            "wpad-openssl"
+            "mwlwifi-firmware-88w8864"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-21.02.4-mvebu-cortexa9-linksys_wrt1900ac-v2";
+          images = [
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-linksys_wrt1900ac-v2-initramfs-kernel.bin";
+              sha256 = "be2da4f6696aa9c8e8e77deb32d190553711be6f825826782bb58f9f76d14503";
+              type = "kernel";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-linksys_wrt1900ac-v2-squashfs-factory.img";
+              sha256 = "ee92d9e6f8ae57ac69b5480c8438751ac0d0732e50f566a8e160b152e6b01fa8";
+              type = "factory";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-linksys_wrt1900ac-v2-squashfs-sysupgrade.bin";
+              sha256 = "829ab1059d1befa6f2f0aa062e34100cb88f2d3bf837ed5414968660d44ab079";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "linksys,wrt1900ac-v2"
+            "armada-385-linksys-cobra"
+            "linksys,cobra"
+          ];
+          titles = [
+            {
+              model = "WRT1900AC";
+              variant = "v2";
+              vendor = "Linksys";
+            }
+            {
+              model = "Cobra";
+              vendor = "Linksys";
+            }
+          ];
+        };
+        linksys_wrt1900acs = {
+          device_packages = [
+            "kmod-mwlwifi"
+            "wpad-openssl"
+            "mwlwifi-firmware-88w8864"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-21.02.4-mvebu-cortexa9-linksys_wrt1900acs";
+          images = [
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-linksys_wrt1900acs-initramfs-kernel.bin";
+              sha256 = "ce1a3872a1da5d4b6b389ff8315025cda6bc4e777d7dc6f90a8681cfb9c4f7d1";
+              type = "kernel";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-linksys_wrt1900acs-squashfs-sysupgrade.bin";
+              sha256 = "6cb054bc64989aadde95193651ef4a2845ae8ffe3071145cbdfba46dd8430824";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-linksys_wrt1900acs-squashfs-factory.img";
+              sha256 = "4a72d556f0dc51edd840c578bec27cda10a0b86e34fb222d6ef5f5f8a3a731c9";
+              type = "factory";
+            }
+          ];
+          supported_devices = [
+            "linksys,wrt1900acs"
+            "armada-385-linksys-shelby"
+            "linksys,shelby"
+          ];
+          titles = [
+            {
+              model = "WRT1900ACS";
+              variant = "v1";
+              vendor = "Linksys";
+            }
+            {
+              model = "WRT1900ACS";
+              variant = "v2";
+              vendor = "Linksys";
+            }
+            {
+              model = "Shelby";
+              vendor = "Linksys";
+            }
+          ];
+        };
+        linksys_wrt3200acm = {
+          device_packages = [
+            "kmod-mwlwifi"
+            "wpad-openssl"
+            "kmod-btmrvl"
+            "kmod-mwifiex-sdio"
+            "mwlwifi-firmware-88w8964"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-21.02.4-mvebu-cortexa9-linksys_wrt3200acm";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-linksys_wrt3200acm-squashfs-sysupgrade.bin";
+              sha256 = "562aa27a4f3e9f5c0d9c86696f9361316e29a106ba2cb7b6f098f975215816ee";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-linksys_wrt3200acm-initramfs-kernel.bin";
+              sha256 = "59a6c091197eb8264620c93fba7567042bd93dfc6f8e220bb6a5e44b153fefb3";
+              type = "kernel";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-linksys_wrt3200acm-squashfs-factory.img";
+              sha256 = "c05abbaa478edc355fa9f4963ad08bcc24a7a9b4c722690cb800dfaf75dc0eb6";
+              type = "factory";
+            }
+          ];
+          supported_devices = [
+            "linksys,wrt3200acm"
+            "armada-385-linksys-rango"
+            "linksys,rango"
+          ];
+          titles = [
+            {
+              model = "WRT3200ACM";
+              vendor = "Linksys";
+            }
+            {
+              model = "Rango";
+              vendor = "Linksys";
+            }
+          ];
+        };
+        linksys_wrt32x = {
+          device_packages = [
+            "kmod-mwlwifi"
+            "wpad-openssl"
+            "kmod-btmrvl"
+            "kmod-mwifiex-sdio"
+            "mwlwifi-firmware-88w8964"
+            "iwinfo"
+          ];
+          image_prefix = "immortalwrt-21.02.4-mvebu-cortexa9-linksys_wrt32x";
+          images = [
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-linksys_wrt32x-initramfs-kernel.bin";
+              sha256 = "ab0c68d0efdef9ff19abf8f6f07cd1b6b77d2b4eb7bdbcdd36d4bc6c01a87b61";
+              type = "kernel";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-linksys_wrt32x-squashfs-factory.img";
+              sha256 = "3afcc7a6f5903f08d51894ef60e58588b985363ac86488ed18f36390bcb1652d";
+              type = "factory";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-linksys_wrt32x-squashfs-sysupgrade.bin";
+              sha256 = "aeb40c683d6c9f8ad995883bd261ab1ec36c5a60925ffb0a4cfb310ed17620c7";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "linksys,wrt32x"
+            "armada-385-linksys-venom"
+            "linksys,venom"
+          ];
+          titles = [
+            {
+              model = "WRT32X";
+              vendor = "Linksys";
+            }
+            {
+              model = "Venom";
+              vendor = "Linksys";
+            }
+          ];
+        };
+        marvell_a370-db = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-21.02.4-mvebu-cortexa9-marvell_a370-db";
+          images = [
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-marvell_a370-db-initramfs-kernel.bin";
+              sha256 = "fd8dc4488f9198d9d52c96e652894c53035b2713abc334f637dc2a0c29861351";
+              type = "kernel";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-marvell_a370-db-squashfs-sysupgrade.bin";
+              sha256 = "769673a554406a30fd2eb2ed0808873df255343b1b5837b35daf15e546268565";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "marvell,a370-db"
+            "armada-370-db"
+          ];
+          titles = [
+            {
+              model = "Armada 370 Development Board (DB-88F6710-BP-DDR3)";
+              vendor = "Marvell";
+            }
+          ];
+        };
+        marvell_a370-rd = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-21.02.4-mvebu-cortexa9-marvell_a370-rd";
+          images = [
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-marvell_a370-rd-initramfs-kernel.bin";
+              sha256 = "7656e6d56c40884016326afb5288ca09b5d9cdf8292271d74779243b7c77a7de";
+              type = "kernel";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-marvell_a370-rd-squashfs-sysupgrade.bin";
+              sha256 = "36a7ac2d5f1afc2b455c5c23f46b5956ed31834c273e1aff9d61090ddb8ad729";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "marvell,a370-rd"
+            "armada-370-rd"
+          ];
+          titles = [
+            {
+              model = "Armada 370 RD (RD-88F6710-A1)";
+              vendor = "Marvell";
+            }
+          ];
+        };
+        marvell_a385-db-ap = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-21.02.4-mvebu-cortexa9-marvell_a385-db-ap";
+          images = [
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-marvell_a385-db-ap-initramfs-kernel.bin";
+              sha256 = "60daab9e361316f06ec5590a7f23f252714a90831db1a29b4cbff45e8cb83ec5";
+              type = "kernel";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-marvell_a385-db-ap-squashfs-sysupgrade.bin";
+              sha256 = "cb8260b51e7e45094f195e450e3c0064cde1fc066a5c8313b12d24481a1a7d8b";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-marvell_a385-db-ap-squashfs-factory.img";
+              sha256 = "1fcf91be84ea6cbc1ceaf3f149fb244752be77278f25ad86b7c7238d3f33815a";
+              type = "factory";
+            }
+          ];
+          supported_devices = [
+            "marvell,a385-db-ap"
+            "armada-385-db-ap"
+          ];
+          titles = [
+            {
+              model = "Armada 385 Development Board AP (DB-88F6820-AP)";
+              vendor = "Marvell";
+            }
+          ];
+        };
+        marvell_a388-rd = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-21.02.4-mvebu-cortexa9-marvell_a388-rd";
+          images = [
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-marvell_a388-rd-initramfs-kernel.bin";
+              sha256 = "794dd5f6df1a31f1577e2cf35b7b1579bc942b06d24fafe9b2afaea581a64e37";
+              type = "kernel";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-marvell_a388-rd-squashfs-firmware.bin";
+              sha256 = "dc4efc023e0e08bc4991d7b54aaf3da11c838ab8b2d856475166aa7f23babd70";
+              type = "firmware";
+            }
+          ];
+          supported_devices = [
+            "armada-388-rd"
+            "marvell,a385-rd"
+          ];
+          titles = [
+            {
+              model = "Armada 388 RD (RD-88F6820-AP)";
+              vendor = "Marvell";
+            }
+          ];
+        };
+        marvell_axp-db = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-21.02.4-mvebu-cortexa9-marvell_axp-db";
+          images = [
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-marvell_axp-db-initramfs-kernel.bin";
+              sha256 = "7e6e269b119dff66dfc38e0ccee12689a599fb5cc03b50930c7916b66abfc39e";
+              type = "kernel";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-marvell_axp-db-squashfs-sysupgrade.bin";
+              sha256 = "d80144b69c9a9036fd3d535de877f9e08407b5119c9525bf08a458095b0baa41";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "marvell,axp-db"
+            "armada-xp-db"
+          ];
+          titles = [
+            {
+              model = "Armada XP Development Board (DB-78460-BP)";
+              vendor = "Marvell";
+            }
+          ];
+        };
+        marvell_axp-gp = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-21.02.4-mvebu-cortexa9-marvell_axp-gp";
+          images = [
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-marvell_axp-gp-initramfs-kernel.bin";
+              sha256 = "a4db6420ff4b28185e8d8c23f136e5abc1b45b999c63e56ff5e40b58df162fac";
+              type = "kernel";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-marvell_axp-gp-squashfs-sysupgrade.bin";
+              sha256 = "18e8c36aba5bb389dbf7e4234f75450104eb662b4b35b54d388c781eee3198e7";
+              type = "sysupgrade";
+            }
+          ];
+          supported_devices = [
+            "marvell,axp-gp"
+            "armada-xp-gp"
+          ];
+          titles = [
+            {
+              model = "Armada Armada XP GP (DB-MV784MP-GP)";
+              vendor = "Marvell";
+            }
+          ];
+        };
+        plathome_openblocks-ax3-4 = {
+          device_packages = [ ];
+          image_prefix = "immortalwrt-21.02.4-mvebu-cortexa9-plathome_openblocks-ax3-4";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-plathome_openblocks-ax3-4-squashfs-factory.img";
+              sha256 = "2393caf5a0f36925e14471dae2dc455343c4ca96d6e4b2bef58cb00f7021e15c";
+              type = "factory";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-plathome_openblocks-ax3-4-squashfs-sysupgrade.bin";
+              sha256 = "be987622f8e233f232867bef93c199bc012994864b0d4ca6d8a392fe223f2aa6";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-plathome_openblocks-ax3-4-initramfs-kernel.bin";
+              sha256 = "0abd0d7c08f688c10627de19ab63e040dd4c16ac59db2839f3e003b06f3a781f";
+              type = "kernel";
+            }
+          ];
+          supported_devices = [
+            "plathome,openblocks-ax3-4"
+            "openblocks-ax3-4"
+          ];
+          titles = [
+            {
+              model = "OpenBlocks AX3";
+              variant = "4 ports";
+              vendor = "Plat'Home";
+            }
+          ];
+        };
+        solidrun_clearfog-base-a1 = {
+          device_packages = [
+            "mkf2fs"
+            "e2fsprogs"
+            "partx-utils"
+          ];
+          image_prefix = "immortalwrt-21.02.4-mvebu-cortexa9-solidrun_clearfog-base-a1";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-solidrun_clearfog-base-a1-squashfs-sdcard.img.gz";
+              sha256 = "71f9048b7971731cb04a6606393fb7821faeaa76739ac02d1b5dad061ff33e94";
+              type = "sdcard";
+            }
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-solidrun_clearfog-base-a1-initramfs-kernel.bin";
+              sha256 = "2f51d46c5ba3581767230b1610c0d3dfa79d50da4c3408c85af3240ddbbe60ea";
+              type = "kernel";
+            }
+          ];
+          supported_devices = [
+            "solidrun,clearfog-base-a1"
+            "armada-388-clearfog-base"
+          ];
+          titles = [
+            {
+              model = "ClearFog Base";
+              vendor = "SolidRun";
+            }
+          ];
+        };
+        solidrun_clearfog-pro-a1 = {
+          device_packages = [
+            "mkf2fs"
+            "e2fsprogs"
+            "partx-utils"
+          ];
+          image_prefix = "immortalwrt-21.02.4-mvebu-cortexa9-solidrun_clearfog-pro-a1";
+          images = [
+            {
+              filesystem = "initramfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-solidrun_clearfog-pro-a1-initramfs-kernel.bin";
+              sha256 = "2f51d46c5ba3581767230b1610c0d3dfa79d50da4c3408c85af3240ddbbe60ea";
+              type = "kernel";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-21.02.4-mvebu-cortexa9-solidrun_clearfog-pro-a1-squashfs-sdcard.img.gz";
+              sha256 = "2652bbc72132347296a55b704f2c916cb3dbd5e10d3b5cdbb510f018c5f69fd7";
+              type = "sdcard";
+            }
+          ];
+          supported_devices = [
+            "solidrun,clearfog-pro-a1"
+            "armada-388-clearfog"
+            "armada-388-clearfog-pro"
+          ];
+          titles = [
+            {
+              model = "ClearFog Pro";
+              vendor = "SolidRun";
+            }
+          ];
+        };
+      };
+      source_date_epoch = "1676324041";
+      target = "mvebu/cortexa9";
+      version_code = "r19892-a6dce2ceb7";
+      version_number = "21.02.4";
+    };
   };
   mxs = { };
   octeon = {
