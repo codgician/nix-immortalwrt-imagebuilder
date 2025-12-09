@@ -322,7 +322,7 @@
       linux_kernel = {
         release = "1";
         vermagic = "2812ba52f0551d2373d42692cd2f225c";
-        version = "6.6.114";
+        version = "6.6.118";
       };
       metadata_version = 1;
       profiles = {
@@ -336,47 +336,47 @@
             "wpad-openssl"
             "iwinfo"
           ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-apm821xx-sata-wd_mybooklive";
+          image_prefix = "immortalwrt-24.10-snapshot-r33721-bb287fd576-apm821xx-sata-wd_mybooklive";
           images = [
             {
-              filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-apm821xx-sata-wd_mybooklive-ext4-factory.img.gz";
-              sha256 = "3a5ff64fac5d4de354bff6667bedab4f3ed2d50c016f526a909f326a2197f1e5";
-              sha256_unsigned = "3a5ff64fac5d4de354bff6667bedab4f3ed2d50c016f526a909f326a2197f1e5";
-              type = "factory";
-            }
-            {
-              filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-apm821xx-sata-wd_mybooklive-ext4-sysupgrade.img.gz";
-              sha256 = "743463b1fa0bbd81a6b5949023c93e4142e19284b31e03cd04cd8b20b7f64dc9";
-              sha256_unsigned = "f84d0bb4802a08be1b0d1c40d844017f5991842594f96f9db701ad014d7fffa8";
-              type = "sysupgrade";
-            }
-            {
-              filesystem = "initramfs";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-apm821xx-sata-wd_mybooklive-initramfs-kernel.bin";
-              sha256 = "183d65bff0e9866f008c6f1fac31d6c93c44a9fc4c9d70ae24fbb29f2528d2b0";
-              sha256_unsigned = "183d65bff0e9866f008c6f1fac31d6c93c44a9fc4c9d70ae24fbb29f2528d2b0";
-              type = "kernel";
-            }
-            {
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-apm821xx-sata-wd_mybooklive-apollo3g.dtb";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-apm821xx-sata-wd_mybooklive-apollo3g.dtb";
               sha256 = "8d8fbe80392732e15d8d7439cead6b71b9f3fac9a8248ad5e02cf35869b2ad19";
               sha256_unsigned = "8d8fbe80392732e15d8d7439cead6b71b9f3fac9a8248ad5e02cf35869b2ad19";
               type = "apollo3g.dtb";
             }
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-apm821xx-sata-wd_mybooklive-squashfs-factory.img.gz";
-              sha256 = "f20e1985ce7ee6da59ba0966e4bf4da83dba515fc9ee51b00c537071b2a6b7ee";
-              sha256_unsigned = "f20e1985ce7ee6da59ba0966e4bf4da83dba515fc9ee51b00c537071b2a6b7ee";
-              type = "factory";
+              filesystem = "initramfs";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-apm821xx-sata-wd_mybooklive-initramfs-kernel.bin";
+              sha256 = "0b0d35d4f302b3e8bbb913d3bd0f2ec40892ee8f664db1f47fa6c8d5795a29b6";
+              sha256_unsigned = "0b0d35d4f302b3e8bbb913d3bd0f2ec40892ee8f664db1f47fa6c8d5795a29b6";
+              type = "kernel";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-apm821xx-sata-wd_mybooklive-squashfs-sysupgrade.img.gz";
-              sha256 = "f2878fd3443b1cc162434f72527cb0d64a9c87037498e44d795fc0fe017ac741";
-              sha256_unsigned = "d319f9df7802aadb988619844af974d7385f9fb19088dca1e538d42e4a2acf78";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-apm821xx-sata-wd_mybooklive-squashfs-factory.img.gz";
+              sha256 = "c2bc7c3a5da81cb6a50c365f041cc4367daa576a26e695701b4c6c71450b76b9";
+              sha256_unsigned = "c2bc7c3a5da81cb6a50c365f041cc4367daa576a26e695701b4c6c71450b76b9";
+              type = "factory";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-apm821xx-sata-wd_mybooklive-ext4-factory.img.gz";
+              sha256 = "c6adf2e368a4237583303e2879df446e8c1607953da00abaf48473a6a3963ad1";
+              sha256_unsigned = "c6adf2e368a4237583303e2879df446e8c1607953da00abaf48473a6a3963ad1";
+              type = "factory";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-apm821xx-sata-wd_mybooklive-ext4-sysupgrade.img.gz";
+              sha256 = "eee5842a43156b5be70bc2945ec45b04225850c43d3609a49c4a1ab55b24cfc3";
+              sha256_unsigned = "000813d306578e3bfb7e2defa5ba345a0dcfb61757c8c7367b8128ea3a17b993";
+              type = "sysupgrade";
+            }
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-apm821xx-sata-wd_mybooklive-squashfs-sysupgrade.img.gz";
+              sha256 = "d2b11901bfb69183a9117434386ecd8ed73f57a4c00b573bc76adc5c679a10da";
+              sha256_unsigned = "07d049a004dccf3f98d9db7a3775243ee54d426f7cb4602adc9167f07323e26a";
               type = "sysupgrade";
             }
           ];
@@ -397,9 +397,9 @@
           ];
         };
       };
-      source_date_epoch = 1762095178;
+      source_date_epoch = 1765073231;
       target = "apm821xx/sata";
-      version_code = "r33617-8f02d6d999";
+      version_code = "r33721-bb287fd576";
       version_number = "24.10-SNAPSHOT";
     };
   };
@@ -1544,40 +1544,40 @@
       linux_kernel = {
         release = "1";
         vermagic = "f85125d494cc0c61568a39d067e3a6b4";
-        version = "6.6.114";
+        version = "6.6.118";
       };
       metadata_version = 1;
       profiles = {
         microchip_sama5d2-icp = {
           device_packages = [ ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d2-icp";
+          image_prefix = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d2-icp";
           images = [
             {
+              filesystem = "ubifs";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d2-icp-ubifs-root.ubi";
+              sha256 = "976cc8f872a1567de41cc424778f6d739ac499f1946d980695e4398b212fa652";
+              sha256_unsigned = "976cc8f872a1567de41cc424778f6d739ac499f1946d980695e4398b212fa652";
+              type = "root";
+            }
+            {
               filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d2-icp-ext4-sdcard.img.gz";
-              sha256 = "284bc4dd087d9577f632a507f31b41e3c3e9e50861ad791b3014ef86864e2f68";
-              sha256_unsigned = "284bc4dd087d9577f632a507f31b41e3c3e9e50861ad791b3014ef86864e2f68";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d2-icp-ext4-sdcard.img.gz";
+              sha256 = "71fff428310e498265b16a1b4606723b014418a5231ae9f806aa0fe58c76cb2d";
+              sha256_unsigned = "71fff428310e498265b16a1b4606723b014418a5231ae9f806aa0fe58c76cb2d";
               type = "sdcard";
             }
             {
               filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d2-icp-ext4-root.ubi";
-              sha256 = "c8eabf572d398150d7f92b2e1ccf21b59d39a88abc755bb80159f1b97a43dca2";
-              sha256_unsigned = "c8eabf572d398150d7f92b2e1ccf21b59d39a88abc755bb80159f1b97a43dca2";
-              type = "root";
-            }
-            {
-              filesystem = "ubifs";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d2-icp-ubifs-root.ubi";
-              sha256 = "ed32788cb938b96b8909270e64392c4ebb2f7e0284a96260dcbead546d1be0b7";
-              sha256_unsigned = "ed32788cb938b96b8909270e64392c4ebb2f7e0284a96260dcbead546d1be0b7";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d2-icp-ext4-root.ubi";
+              sha256 = "147a42dc302ff957e70e43effcf1942beb49535e0acd7dc077ac5ceb8b5fdf71";
+              sha256_unsigned = "147a42dc302ff957e70e43effcf1942beb49535e0acd7dc077ac5ceb8b5fdf71";
               type = "root";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d2-icp-squashfs-root.ubi";
-              sha256 = "c90b5e75fbf083e3c231ce37b3688389a42063d0c7c739c4cd788c3b91e38ae6";
-              sha256_unsigned = "c90b5e75fbf083e3c231ce37b3688389a42063d0c7c739c4cd788c3b91e38ae6";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d2-icp-squashfs-root.ubi";
+              sha256 = "c9b1cddd4343aa05ff4f91b36d136f27a47742b4b4c3a66d73fa2845704bb110";
+              sha256_unsigned = "c9b1cddd4343aa05ff4f91b36d136f27a47742b4b4c3a66d73fa2845704bb110";
               type = "root";
             }
           ];
@@ -1593,35 +1593,35 @@
         };
         microchip_sama5d2-ptc-ek = {
           device_packages = [ ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d2-ptc-ek";
+          image_prefix = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d2-ptc-ek";
           images = [
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d2-ptc-ek-squashfs-root.ubi";
-              sha256 = "c90b5e75fbf083e3c231ce37b3688389a42063d0c7c739c4cd788c3b91e38ae6";
-              sha256_unsigned = "c90b5e75fbf083e3c231ce37b3688389a42063d0c7c739c4cd788c3b91e38ae6";
+              filesystem = "ext4";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d2-ptc-ek-ext4-root.ubi";
+              sha256 = "147a42dc302ff957e70e43effcf1942beb49535e0acd7dc077ac5ceb8b5fdf71";
+              sha256_unsigned = "147a42dc302ff957e70e43effcf1942beb49535e0acd7dc077ac5ceb8b5fdf71";
               type = "root";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d2-ptc-ek-ext4-sdcard.img.gz";
+              sha256 = "50bfd977ead1a3904b05de5ce170e64eeaa341d3705172b95fe1aa7f467f3149";
+              sha256_unsigned = "50bfd977ead1a3904b05de5ce170e64eeaa341d3705172b95fe1aa7f467f3149";
+              type = "sdcard";
             }
             {
               filesystem = "ubifs";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d2-ptc-ek-ubifs-root.ubi";
-              sha256 = "ed32788cb938b96b8909270e64392c4ebb2f7e0284a96260dcbead546d1be0b7";
-              sha256_unsigned = "ed32788cb938b96b8909270e64392c4ebb2f7e0284a96260dcbead546d1be0b7";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d2-ptc-ek-ubifs-root.ubi";
+              sha256 = "976cc8f872a1567de41cc424778f6d739ac499f1946d980695e4398b212fa652";
+              sha256_unsigned = "976cc8f872a1567de41cc424778f6d739ac499f1946d980695e4398b212fa652";
               type = "root";
             }
             {
-              filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d2-ptc-ek-ext4-root.ubi";
-              sha256 = "c8eabf572d398150d7f92b2e1ccf21b59d39a88abc755bb80159f1b97a43dca2";
-              sha256_unsigned = "c8eabf572d398150d7f92b2e1ccf21b59d39a88abc755bb80159f1b97a43dca2";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d2-ptc-ek-squashfs-root.ubi";
+              sha256 = "c9b1cddd4343aa05ff4f91b36d136f27a47742b4b4c3a66d73fa2845704bb110";
+              sha256_unsigned = "c9b1cddd4343aa05ff4f91b36d136f27a47742b4b4c3a66d73fa2845704bb110";
               type = "root";
-            }
-            {
-              filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d2-ptc-ek-ext4-sdcard.img.gz";
-              sha256 = "ea2ed1a9f4be98c574231f56374826b7c6f4d055a38280cc4337d649573f8f78";
-              sha256_unsigned = "ea2ed1a9f4be98c574231f56374826b7c6f4d055a38280cc4337d649573f8f78";
-              type = "sdcard";
             }
           ];
           supported_devices = [
@@ -1636,35 +1636,35 @@
         };
         microchip_sama5d2-xplained = {
           device_packages = [ ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d2-xplained";
+          image_prefix = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d2-xplained";
           images = [
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d2-xplained-squashfs-root.ubi";
-              sha256 = "c90b5e75fbf083e3c231ce37b3688389a42063d0c7c739c4cd788c3b91e38ae6";
-              sha256_unsigned = "c90b5e75fbf083e3c231ce37b3688389a42063d0c7c739c4cd788c3b91e38ae6";
-              type = "root";
-            }
-            {
-              filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d2-xplained-ext4-sdcard.img.gz";
-              sha256 = "64280d0e2abacde5f340f5d474f09a67265b12931ca423c9d42adef9e49d8857";
-              sha256_unsigned = "64280d0e2abacde5f340f5d474f09a67265b12931ca423c9d42adef9e49d8857";
-              type = "sdcard";
-            }
-            {
-              filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d2-xplained-ext4-root.ubi";
-              sha256 = "c8eabf572d398150d7f92b2e1ccf21b59d39a88abc755bb80159f1b97a43dca2";
-              sha256_unsigned = "c8eabf572d398150d7f92b2e1ccf21b59d39a88abc755bb80159f1b97a43dca2";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d2-xplained-squashfs-root.ubi";
+              sha256 = "c9b1cddd4343aa05ff4f91b36d136f27a47742b4b4c3a66d73fa2845704bb110";
+              sha256_unsigned = "c9b1cddd4343aa05ff4f91b36d136f27a47742b4b4c3a66d73fa2845704bb110";
               type = "root";
             }
             {
               filesystem = "ubifs";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d2-xplained-ubifs-root.ubi";
-              sha256 = "ed32788cb938b96b8909270e64392c4ebb2f7e0284a96260dcbead546d1be0b7";
-              sha256_unsigned = "ed32788cb938b96b8909270e64392c4ebb2f7e0284a96260dcbead546d1be0b7";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d2-xplained-ubifs-root.ubi";
+              sha256 = "976cc8f872a1567de41cc424778f6d739ac499f1946d980695e4398b212fa652";
+              sha256_unsigned = "976cc8f872a1567de41cc424778f6d739ac499f1946d980695e4398b212fa652";
               type = "root";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d2-xplained-ext4-root.ubi";
+              sha256 = "147a42dc302ff957e70e43effcf1942beb49535e0acd7dc077ac5ceb8b5fdf71";
+              sha256_unsigned = "147a42dc302ff957e70e43effcf1942beb49535e0acd7dc077ac5ceb8b5fdf71";
+              type = "root";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d2-xplained-ext4-sdcard.img.gz";
+              sha256 = "1dcc9d28a4198558589fc87d15b1d52fb9c6778fc0aa0a853129d17e59eefd0d";
+              sha256_unsigned = "1dcc9d28a4198558589fc87d15b1d52fb9c6778fc0aa0a853129d17e59eefd0d";
+              type = "sdcard";
             }
           ];
           supported_devices = [
@@ -1679,34 +1679,34 @@
         };
         microchip_sama5d27-som1-ek = {
           device_packages = [ ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d27-som1-ek";
+          image_prefix = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d27-som1-ek";
           images = [
             {
               filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d27-som1-ek-ext4-sdcard.img.gz";
-              sha256 = "705350e7d18aa7368c3ee6027a34cd687bdd3886417c388b75142e541e17edca";
-              sha256_unsigned = "705350e7d18aa7368c3ee6027a34cd687bdd3886417c388b75142e541e17edca";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d27-som1-ek-ext4-sdcard.img.gz";
+              sha256 = "a349b8ee1707a3ac9a6b66a1364282f5eefac069e1c758bec754c4fc9d570e06";
+              sha256_unsigned = "a349b8ee1707a3ac9a6b66a1364282f5eefac069e1c758bec754c4fc9d570e06";
               type = "sdcard";
             }
             {
               filesystem = "ubifs";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d27-som1-ek-ubifs-root.ubi";
-              sha256 = "ed32788cb938b96b8909270e64392c4ebb2f7e0284a96260dcbead546d1be0b7";
-              sha256_unsigned = "ed32788cb938b96b8909270e64392c4ebb2f7e0284a96260dcbead546d1be0b7";
-              type = "root";
-            }
-            {
-              filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d27-som1-ek-ext4-root.ubi";
-              sha256 = "c8eabf572d398150d7f92b2e1ccf21b59d39a88abc755bb80159f1b97a43dca2";
-              sha256_unsigned = "c8eabf572d398150d7f92b2e1ccf21b59d39a88abc755bb80159f1b97a43dca2";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d27-som1-ek-ubifs-root.ubi";
+              sha256 = "976cc8f872a1567de41cc424778f6d739ac499f1946d980695e4398b212fa652";
+              sha256_unsigned = "976cc8f872a1567de41cc424778f6d739ac499f1946d980695e4398b212fa652";
               type = "root";
             }
             {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d27-som1-ek-squashfs-root.ubi";
-              sha256 = "c90b5e75fbf083e3c231ce37b3688389a42063d0c7c739c4cd788c3b91e38ae6";
-              sha256_unsigned = "c90b5e75fbf083e3c231ce37b3688389a42063d0c7c739c4cd788c3b91e38ae6";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d27-som1-ek-squashfs-root.ubi";
+              sha256 = "c9b1cddd4343aa05ff4f91b36d136f27a47742b4b4c3a66d73fa2845704bb110";
+              sha256_unsigned = "c9b1cddd4343aa05ff4f91b36d136f27a47742b4b4c3a66d73fa2845704bb110";
+              type = "root";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d27-som1-ek-ext4-root.ubi";
+              sha256 = "147a42dc302ff957e70e43effcf1942beb49535e0acd7dc077ac5ceb8b5fdf71";
+              sha256_unsigned = "147a42dc302ff957e70e43effcf1942beb49535e0acd7dc077ac5ceb8b5fdf71";
               type = "root";
             }
           ];
@@ -1722,35 +1722,35 @@
         };
         microchip_sama5d27-wlsom1-ek = {
           device_packages = [ ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d27-wlsom1-ek";
+          image_prefix = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d27-wlsom1-ek";
           images = [
             {
-              filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d27-wlsom1-ek-ext4-sdcard.img.gz";
-              sha256 = "99f98a1c340786861c3e645e1d4eab6914aa13469f9c2be8631d4de8b53256ab";
-              sha256_unsigned = "99f98a1c340786861c3e645e1d4eab6914aa13469f9c2be8631d4de8b53256ab";
-              type = "sdcard";
-            }
-            {
-              filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d27-wlsom1-ek-ext4-root.ubi";
-              sha256 = "c8eabf572d398150d7f92b2e1ccf21b59d39a88abc755bb80159f1b97a43dca2";
-              sha256_unsigned = "c8eabf572d398150d7f92b2e1ccf21b59d39a88abc755bb80159f1b97a43dca2";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d27-wlsom1-ek-squashfs-root.ubi";
+              sha256 = "c9b1cddd4343aa05ff4f91b36d136f27a47742b4b4c3a66d73fa2845704bb110";
+              sha256_unsigned = "c9b1cddd4343aa05ff4f91b36d136f27a47742b4b4c3a66d73fa2845704bb110";
               type = "root";
             }
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d27-wlsom1-ek-squashfs-root.ubi";
-              sha256 = "c90b5e75fbf083e3c231ce37b3688389a42063d0c7c739c4cd788c3b91e38ae6";
-              sha256_unsigned = "c90b5e75fbf083e3c231ce37b3688389a42063d0c7c739c4cd788c3b91e38ae6";
+              filesystem = "ext4";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d27-wlsom1-ek-ext4-root.ubi";
+              sha256 = "147a42dc302ff957e70e43effcf1942beb49535e0acd7dc077ac5ceb8b5fdf71";
+              sha256_unsigned = "147a42dc302ff957e70e43effcf1942beb49535e0acd7dc077ac5ceb8b5fdf71";
               type = "root";
             }
             {
               filesystem = "ubifs";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d27-wlsom1-ek-ubifs-root.ubi";
-              sha256 = "ed32788cb938b96b8909270e64392c4ebb2f7e0284a96260dcbead546d1be0b7";
-              sha256_unsigned = "ed32788cb938b96b8909270e64392c4ebb2f7e0284a96260dcbead546d1be0b7";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d27-wlsom1-ek-ubifs-root.ubi";
+              sha256 = "976cc8f872a1567de41cc424778f6d739ac499f1946d980695e4398b212fa652";
+              sha256_unsigned = "976cc8f872a1567de41cc424778f6d739ac499f1946d980695e4398b212fa652";
               type = "root";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d27-wlsom1-ek-ext4-sdcard.img.gz";
+              sha256 = "13bebdf15afd8e054cdfdf53ffdab794b92b4e5026344475d95a92b71f2ab1d4";
+              sha256_unsigned = "13bebdf15afd8e054cdfdf53ffdab794b92b4e5026344475d95a92b71f2ab1d4";
+              type = "sdcard";
             }
           ];
           supported_devices = [
@@ -1765,35 +1765,35 @@
         };
         microchip_sama5d3-xplained = {
           device_packages = [ ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d3-xplained";
+          image_prefix = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d3-xplained";
           images = [
             {
-              filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d3-xplained-squashfs-root.ubi";
-              sha256 = "c90b5e75fbf083e3c231ce37b3688389a42063d0c7c739c4cd788c3b91e38ae6";
-              sha256_unsigned = "c90b5e75fbf083e3c231ce37b3688389a42063d0c7c739c4cd788c3b91e38ae6";
+              filesystem = "ext4";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d3-xplained-ext4-root.ubi";
+              sha256 = "147a42dc302ff957e70e43effcf1942beb49535e0acd7dc077ac5ceb8b5fdf71";
+              sha256_unsigned = "147a42dc302ff957e70e43effcf1942beb49535e0acd7dc077ac5ceb8b5fdf71";
               type = "root";
             }
             {
-              filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d3-xplained-ext4-sdcard.img.gz";
-              sha256 = "8f774c90269219f1f2015ec03fdf0ed2b8c460ee6b9949e943bb0269d8498ccf";
-              sha256_unsigned = "8f774c90269219f1f2015ec03fdf0ed2b8c460ee6b9949e943bb0269d8498ccf";
-              type = "sdcard";
+              filesystem = "squashfs";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d3-xplained-squashfs-root.ubi";
+              sha256 = "c9b1cddd4343aa05ff4f91b36d136f27a47742b4b4c3a66d73fa2845704bb110";
+              sha256_unsigned = "c9b1cddd4343aa05ff4f91b36d136f27a47742b4b4c3a66d73fa2845704bb110";
+              type = "root";
             }
             {
               filesystem = "ubifs";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d3-xplained-ubifs-root.ubi";
-              sha256 = "ed32788cb938b96b8909270e64392c4ebb2f7e0284a96260dcbead546d1be0b7";
-              sha256_unsigned = "ed32788cb938b96b8909270e64392c4ebb2f7e0284a96260dcbead546d1be0b7";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d3-xplained-ubifs-root.ubi";
+              sha256 = "976cc8f872a1567de41cc424778f6d739ac499f1946d980695e4398b212fa652";
+              sha256_unsigned = "976cc8f872a1567de41cc424778f6d739ac499f1946d980695e4398b212fa652";
               type = "root";
             }
             {
               filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d3-xplained-ext4-root.ubi";
-              sha256 = "c8eabf572d398150d7f92b2e1ccf21b59d39a88abc755bb80159f1b97a43dca2";
-              sha256_unsigned = "c8eabf572d398150d7f92b2e1ccf21b59d39a88abc755bb80159f1b97a43dca2";
-              type = "root";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d3-xplained-ext4-sdcard.img.gz";
+              sha256 = "6224b79e55ea10e55e2eeb93e6665ced772041c46ebaeef8ed9bf4298a477e5a";
+              sha256_unsigned = "6224b79e55ea10e55e2eeb93e6665ced772041c46ebaeef8ed9bf4298a477e5a";
+              type = "sdcard";
             }
           ];
           supported_devices = [
@@ -1808,34 +1808,34 @@
         };
         microchip_sama5d4-xplained = {
           device_packages = [ ];
-          image_prefix = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d4-xplained";
+          image_prefix = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d4-xplained";
           images = [
             {
-              filesystem = "ubifs";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d4-xplained-ubifs-root.ubi";
-              sha256 = "7641091b944f8b9b4c2a5b6c9446584d4b618f8331e050583902033b363e0923";
-              sha256_unsigned = "7641091b944f8b9b4c2a5b6c9446584d4b618f8331e050583902033b363e0923";
-              type = "root";
-            }
-            {
               filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d4-xplained-ext4-root.ubi";
-              sha256 = "b75a7a1440442445928033e8fadfdba8c271b7fe495ee2300ae56877a32b68fd";
-              sha256_unsigned = "b75a7a1440442445928033e8fadfdba8c271b7fe495ee2300ae56877a32b68fd";
-              type = "root";
-            }
-            {
-              filesystem = "ext4";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d4-xplained-ext4-sdcard.img.gz";
-              sha256 = "30c33b9637df2ece868aec791ae11fb12a57440f51f89cfe21032b98eaa76323";
-              sha256_unsigned = "30c33b9637df2ece868aec791ae11fb12a57440f51f89cfe21032b98eaa76323";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d4-xplained-ext4-sdcard.img.gz";
+              sha256 = "58352b4b59abf3a73d68bfa1e2b58ce6cc086c8359d553b537337c27bf280320";
+              sha256_unsigned = "58352b4b59abf3a73d68bfa1e2b58ce6cc086c8359d553b537337c27bf280320";
               type = "sdcard";
             }
             {
+              filesystem = "ubifs";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d4-xplained-ubifs-root.ubi";
+              sha256 = "1db538e051a5b071a313e70a542c457fdb723ed7226fe1214abe95a4753e28ce";
+              sha256_unsigned = "1db538e051a5b071a313e70a542c457fdb723ed7226fe1214abe95a4753e28ce";
+              type = "root";
+            }
+            {
+              filesystem = "ext4";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d4-xplained-ext4-root.ubi";
+              sha256 = "f85be54185c7ffb68c7af6076e66d4b78c4bda5f81c5420dce820f3841abec32";
+              sha256_unsigned = "f85be54185c7ffb68c7af6076e66d4b78c4bda5f81c5420dce820f3841abec32";
+              type = "root";
+            }
+            {
               filesystem = "squashfs";
-              name = "immortalwrt-24.10-snapshot-r33617-8f02d6d999-at91-sama5-microchip_sama5d4-xplained-squashfs-root.ubi";
-              sha256 = "31122b189acf5ad09b3b2f1be571de273028f7e208c44706b7055e376f703c35";
-              sha256_unsigned = "31122b189acf5ad09b3b2f1be571de273028f7e208c44706b7055e376f703c35";
+              name = "immortalwrt-24.10-snapshot-r33721-bb287fd576-at91-sama5-microchip_sama5d4-xplained-squashfs-root.ubi";
+              sha256 = "4f5c5012b560bb9f24109556764d365f3502807a90def6ac3506b738a96bfead";
+              sha256_unsigned = "4f5c5012b560bb9f24109556764d365f3502807a90def6ac3506b738a96bfead";
               type = "root";
             }
           ];
@@ -1850,9 +1850,9 @@
           ];
         };
       };
-      source_date_epoch = 1762095178;
+      source_date_epoch = 1765073231;
       target = "at91/sama5";
-      version_code = "r33617-8f02d6d999";
+      version_code = "r33721-bb287fd576";
       version_number = "24.10-SNAPSHOT";
     };
     sama7 = {
