@@ -194,12 +194,6 @@
   targets."mvebu"."cortexa53".sha256 = "sha256-MOoiwH5GSyDijstgJNli7B4wJaPbsXcVuPWBrR3SHEE=";
   targets."mvebu"."cortexa53".packagesArch = "aarch64_cortex-a53";
   targets."mvebu"."cortexa72".sha256 = "sha256-aUafUKRwZXFq+XXMpoQGpSVEctQJbX8YNg1ZjE2QS8Y=";
-  targets."mvebu"."cortexa72".packagesArch = "aarch64_cortex-a72";
-  packages."aarch64_cortex-a72"."base".sha256 = "sha256-0bo92GRp9BEbR5YFuK6sTFA1mbOFT+uCWofnJRNxrpE=";
-  packages."aarch64_cortex-a72"."luci".sha256 = "sha256-IP0NTp+z9rGR7uNAXHqDCasSHxkWSUK0+v/vObbUINo=";
-  packages."aarch64_cortex-a72"."packages".sha256 = "sha256-FnFj+SEsKztnfPMk9hg6XQStVlFTPPXCb9o7AFiTvl4=";
-  packages."aarch64_cortex-a72"."routing".sha256 = "sha256-E1pgS6kqlR6Ux710t++1Ecd2WTbRNZ43veAYRTKp9tI=";
-  packages."aarch64_cortex-a72"."telephony".sha256 = "sha256-P/+Pq5jNxcLDQDmM5Sg3rD/3o2swI80hmxvanmR0kik=";
   targets."mvebu"."cortexa9".sha256 = "sha256-ECK608iXbLWA9b7d6WoonmUMpdgbIs9Y9GdXvS5R2sk=";
   targets."mvebu"."cortexa9".packagesArch = "arm_cortex-a9_vfpv3-d16";
   targets."sunxi"."cortexa7".sha256 = "sha256-nUoyhXiCouiJJ5VuynnI7dh/Z4wunkGTAOl9IkqyI6s=";
@@ -271,6 +265,11 @@
   packages."arm_arm1176jzf-s_vfp"."telephony".sha256 = "sha256-NRRiwqcTAVZuJxVabnx9G/2pJNCqNxO1xNa30+FB07g=";
   targets."bcm27xx"."bcm2711".sha256 = "sha256-MiMAUDjjJhlV/6XG1Twza2LFGmL3U9fs8yGtCS/U3S8=";
   targets."bcm27xx"."bcm2711".packagesArch = "aarch64_cortex-a72";
+  packages."aarch64_cortex-a72"."base".sha256 = "sha256-0bo92GRp9BEbR5YFuK6sTFA1mbOFT+uCWofnJRNxrpE=";
+  packages."aarch64_cortex-a72"."luci".sha256 = "sha256-IP0NTp+z9rGR7uNAXHqDCasSHxkWSUK0+v/vObbUINo=";
+  packages."aarch64_cortex-a72"."packages".sha256 = "sha256-FnFj+SEsKztnfPMk9hg6XQStVlFTPPXCb9o7AFiTvl4=";
+  packages."aarch64_cortex-a72"."routing".sha256 = "sha256-E1pgS6kqlR6Ux710t++1Ecd2WTbRNZ43veAYRTKp9tI=";
+  packages."aarch64_cortex-a72"."telephony".sha256 = "sha256-P/+Pq5jNxcLDQDmM5Sg3rD/3o2swI80hmxvanmR0kik=";
   targets."sifiveu"."generic".sha256 = "sha256-zNwm3TsvI6OlnymkyKHyReM05sgY+mrCWtAwfw3L/Rc=";
   targets."sifiveu"."generic".packagesArch = "riscv64_riscv64";
   packages."riscv64_riscv64"."base".sha256 = "sha256-SnLFMXaxvJFz3nV6SZiyZNkDva51RZV3Dm66aBaIggU=";
