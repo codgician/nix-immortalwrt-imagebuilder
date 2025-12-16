@@ -194,6 +194,12 @@
   targets."mvebu"."cortexa53".sha256 = "sha256-3iAOiiJvU8DqV9cvX5MzG6QRZraKlXp5KYtGnGXhlM4=";
   targets."mvebu"."cortexa53".packagesArch = "aarch64_cortex-a53";
   targets."mvebu"."cortexa72".sha256 = "sha256-Kn9UAkqlvhA0UtFbNIZ2rA5zD6hfwAyGxZNk2nvI1wI=";
+  targets."mvebu"."cortexa72".packagesArch = "aarch64_cortex-a72";
+  packages."aarch64_cortex-a72"."base".sha256 = "sha256-wlvy4yAXyqZ0nfbBgLwlbEKtYCiK+UYgMMW5KubpSpU=";
+  packages."aarch64_cortex-a72"."luci".sha256 = "sha256-Q7uG4g9WB0ZbmX9I181GFhIAIAAScHkQkw9Xaib6794=";
+  packages."aarch64_cortex-a72"."packages".sha256 = "sha256-xzmGBXVHsC+y7/XIJWlmroDyHv2mWktRyuDmHCSahVg=";
+  packages."aarch64_cortex-a72"."routing".sha256 = "sha256-KWXnU4KX4mgex50H7xXOLK4w85xNE4FdpmMUfAMV4yk=";
+  packages."aarch64_cortex-a72"."telephony".sha256 = "sha256-y/cqZHMscIpvJnIUvCcoswkHJFyBZg3x6n9Rb5fAUdw=";
   targets."mvebu"."cortexa9".sha256 = "sha256-Pfrp4rEf0cimj3G/ztG3Fp+olvMk/hHf2S7XboOaOcg=";
   targets."mvebu"."cortexa9".packagesArch = "arm_cortex-a9_vfpv3-d16";
   targets."sunxi"."cortexa7".sha256 = "sha256-kJxOkdLzR31blmawaFbyML8AXnnr4QnFIwd5DNSTrLA=";
@@ -258,11 +264,6 @@
   packages."arm_arm1176jzf-s_vfp"."telephony".sha256 = "sha256-6q/1dAB8KuY9766TEopSF5HjDySUwOHJb2AoGXKczV0=";
   targets."bcm27xx"."bcm2711".sha256 = "sha256-pguo4Gg+mUiIpETyX51YIWTvfk4n1p+87/5Bu0UviFQ=";
   targets."bcm27xx"."bcm2711".packagesArch = "aarch64_cortex-a72";
-  packages."aarch64_cortex-a72"."base".sha256 = "sha256-wlvy4yAXyqZ0nfbBgLwlbEKtYCiK+UYgMMW5KubpSpU=";
-  packages."aarch64_cortex-a72"."luci".sha256 = "sha256-Q7uG4g9WB0ZbmX9I181GFhIAIAAScHkQkw9Xaib6794=";
-  packages."aarch64_cortex-a72"."packages".sha256 = "sha256-xzmGBXVHsC+y7/XIJWlmroDyHv2mWktRyuDmHCSahVg=";
-  packages."aarch64_cortex-a72"."routing".sha256 = "sha256-KWXnU4KX4mgex50H7xXOLK4w85xNE4FdpmMUfAMV4yk=";
-  packages."aarch64_cortex-a72"."telephony".sha256 = "sha256-y/cqZHMscIpvJnIUvCcoswkHJFyBZg3x6n9Rb5fAUdw=";
   targets."realtek"."generic".sha256 = "sha256-CYys1Bq4Q3v2fqiJ9IzAtSaBu/XsZaXRdB4KKJAGOL0=";
   targets."realtek"."generic".packagesArch = "mips_4kec";
   packages."mips_4kec"."base".sha256 = "sha256-dkcs7S7u7oKK+b2tj0ylZVvgCmdi2osnEfnEJ/VrBD0=";
