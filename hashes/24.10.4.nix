@@ -194,7 +194,7 @@
   targets."bcm47xx"."mips74k".sha256 = "sha256-0baPgsoh+Tc+nsXGi0vlUn7STrpR9yJA3YEgKD51E84=";
   kmods."bcm47xx"."mips74k"."6.6.110-1-76773dad26cf1c1184f3fcb79cc43570".sha256 = "sha256-XIlFgQbw2JEZe3z0+am9O4Hxl2xz+6p+QG63ggL+CEI=";
   targets."bcm47xx"."mips74k".packagesArch = "mipsel_74kc";
-  packages."mipsel_74kc"."base".sha256 = "";
+  packages."mipsel_74kc"."base".sha256 = "sha256-NEUFcsEwnxBJOPLCWRJSB8JXPFZkVnPKvX5kJrCgyFY=";
   packages."mipsel_74kc"."luci".sha256 = "sha256-Ju4vg3UDh2hVNDXkH8VMSUIx4tPEaK/pyvKbfgZpMdE=";
   packages."mipsel_74kc"."packages".sha256 = "sha256-hm0Jom8iz+9Fxo092SaaLeARRyjzTv8RaGLQj/IV7ZA=";
   packages."mipsel_74kc"."routing".sha256 = "sha256-7MJ5JrvNSoai/Lcq5TE3X0y3vm53cw+lUkpi4LYxobM=";

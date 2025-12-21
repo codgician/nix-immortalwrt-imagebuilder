@@ -202,7 +202,7 @@
   targets."ixp4xx"."generic".sha256 = "sha256-l8TqCTszWfTnW5Ylcq+wcIo15G3yR5uFeEGOxtyn4yk=";
   kmods."ixp4xx"."generic"."6.6.93-1-411f506ca007fe46f31d30063f8a6493".sha256 = "sha256-/TbHsfdhj3oHMPssuE7FhIR0v/icpUL0orkJWHND6f4=";
   targets."ixp4xx"."generic".packagesArch = "armeb_xscale";
-  packages."armeb_xscale"."base".sha256 = "";
+  packages."armeb_xscale"."base".sha256 = "sha256-7JwbCzTV2RXnhzv4G9GH03DtrGOnHOWuFDNGrjz+rNg=";
   packages."armeb_xscale"."luci".sha256 = "sha256-bLiILZ5V3RC8qF3LQWlVtIRUJoM1nbSWWbAfoWtwkZY=";
   packages."armeb_xscale"."packages".sha256 = "sha256-lMhg7XC4aoW5bYOAPJO+/4PcfICX76MU1l7mtABfwdA=";
   packages."armeb_xscale"."routing".sha256 = "sha256-V8dJE8hqI2mvGZf39KvR07muisK79CZwFLupidsoUVU=";
