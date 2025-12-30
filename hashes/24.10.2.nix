@@ -156,7 +156,7 @@
   targets."x86"."legacy".sha256 = "sha256-Wi+f+iL+NS/C4DR0PaMDEYfBa+a0uZan9k97JDHt+L8=";
   kmods."x86"."legacy"."6.6.93-1-0c0cff89fc9aa037705d9cdf9e86d633".sha256 = "sha256-AQHHr9fAAZ7xGjIQTFT4Erl/pgo5URvzYyZ9NoFIQCE=";
   targets."x86"."legacy".packagesArch = "i386_pentium-mmx";
-  packages."i386_pentium-mmx"."base".sha256 = "sha256-/xY4xuHZhNOfhvLEDRyIFiW9Uj+RDUTS5yPgt/6Iht8=";
+  packages."i386_pentium-mmx"."base".sha256 = "";
   packages."i386_pentium-mmx"."luci".sha256 = "sha256-4VkQum5gtU4k2u7yN6N2Ai6yZTgEacoeju396kt/giA=";
   packages."i386_pentium-mmx"."packages".sha256 = "sha256-aI36RGMAMZV0JJjqH/zynWlxh5RsBOCcHPhBkqH76xM=";
   packages."i386_pentium-mmx"."routing".sha256 = "sha256-vOgOHnyCcYfkOIdjS//U5spYatdDGjGPIbQhqvOjQB4=";

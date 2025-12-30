@@ -162,10 +162,7 @@
   packages."mipsel_74kc"."packages".sha256 = "sha256-BqCkLmO85Sn1rSEfvofvB2BttIr7cR4hIx9BmLLfeKY=";
   packages."mipsel_74kc"."routing".sha256 = "sha256-iZtMarlRxslQcqdXsNITOvC7IwecQKvKKDLoWHmknKM=";
   packages."mipsel_74kc"."telephony".sha256 = "sha256-+pTHHo7/Z+tntlD8S9G3Bf+phxcDaTX+AZ4cCK5LcUg=";
-  targets."bcm63xx"."generic".sha256 = "sha256-H0EJChyBHzs570WGZ2v7EJkyRFU1E4MW/zFU5t1WzTk=";
-  targets."bcm63xx"."generic".packagesArch = "mips_mips32";
   targets."bcm63xx"."smp".sha256 = "sha256-r9G6b540K74sUbgs9WaFqiY2z0QBHLGYFNWReKxWaxU=";
-  targets."bcm63xx"."smp".packagesArch = "mips_mips32";
   targets."kirkwood"."generic".sha256 = "sha256-9IFAGY4USzHqPEA8Rfn1ytGtbT/xW5RqSt3KCDJXpO4=";
   targets."kirkwood"."generic".packagesArch = "arm_xscale";
   packages."arm_xscale"."base".sha256 = "sha256-dfL2O4t3ysDwHVTpnRD2EMx7OTR6UUuLqQ5/YtlP6qU=";

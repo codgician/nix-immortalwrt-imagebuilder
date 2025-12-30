@@ -160,7 +160,7 @@
   packages."i386_pentium-mmx"."luci".sha256 = "sha256-4VkQum5gtU4k2u7yN6N2Ai6yZTgEacoeju396kt/giA=";
   packages."i386_pentium-mmx"."packages".sha256 = "sha256-aI36RGMAMZV0JJjqH/zynWlxh5RsBOCcHPhBkqH76xM=";
   packages."i386_pentium-mmx"."routing".sha256 = "sha256-vOgOHnyCcYfkOIdjS//U5spYatdDGjGPIbQhqvOjQB4=";
-  packages."i386_pentium-mmx"."telephony".sha256 = "sha256-Gg/lJEJoet7L/VQNUPpBhXFZ8ZY1AgKytRO5WpA2VjA=";
+  packages."i386_pentium-mmx"."telephony".sha256 = "";
   targets."x86"."64".sha256 = "sha256-+A46wWqcZeSppEFdD66XAkWtpeadjYjNctrc5DRB/zo=";
   kmods."x86"."64"."6.6.119-1-f8c5d7fde74fa4fedf4370775255c515".sha256 = "sha256-Bs6VsGR4mr/66VhFQRv/BBIQYHY2NE6Oa9i2yVr1TOg=";
   targets."x86"."64".packagesArch = "x86_64";
