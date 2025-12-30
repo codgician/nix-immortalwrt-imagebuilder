@@ -128,8 +128,8 @@
   packages."loongarch64_generic"."packages".sha256 = "sha256-e5B0n+1diKlegeWYvHCxd7oSA9BU7tEAKwqy+DCjD28=";
   packages."loongarch64_generic"."routing".sha256 = "sha256-FCHCFQPMpWXVTbcBFAkWmbvTkrDxRPZAUeyC/ucqPJw=";
   packages."loongarch64_generic"."telephony".sha256 = "sha256-JG8LCWwXmGxkv7Fv1NQvAsWWZ/mwKgstZ0lSKj0wzVc=";
-  targets."rockchip"."armv8".sha256 = "sha256-M/S7reQxXEoUz9QGb/Sb2rHhpu4GcPxUT1/ErULzir8=";
-  kmods."rockchip"."armv8"."6.6.118-1-23375d261da0c0e9da36857794905cf7".sha256 = "sha256-lXnBqxtJA+FDalYycbQZ2GDA/KpQsQpI0HQvk6T6g3c=";
+  targets."rockchip"."armv8".sha256 = "sha256-yuDTZ359tDbFDMUTTP63ZdA48nHVSKOcQm1ucP4/rA8=";
+  kmods."rockchip"."armv8"."6.6.119-1-23375d261da0c0e9da36857794905cf7".sha256 = "sha256-leI0crmbEYREQylboCl6GBGBSnD2dcUNqsw5wXqJyRU=";
   targets."rockchip"."armv8".packagesArch = "aarch64_generic";
   targets."pistachio"."generic".sha256 = "sha256-paN10aCIu5w4ZmiYp/kdJlruokW0XPTCgnFbM7Vh/Xs=";
   kmods."pistachio"."generic"."6.6.119-1-b36433a4d8d51ceee985c2fdb42fd624".sha256 = "sha256-hflJ+xXnpn0771k+/CmVZWcFesceHcj0oi6ea1kZTA4=";
