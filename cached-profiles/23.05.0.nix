@@ -16204,6 +16204,170 @@
     };
   };
   bcm47xx = {
+    generic = {
+      arch_packages = "mipsel_mips32";
+      default_packages = [
+        "base-files"
+        "block-mount"
+        "busybox"
+        "ca-bundle"
+        "default-settings-chn"
+        "dnsmasq-full"
+        "dropbear"
+        "firewall4"
+        "fstools"
+        "ipv6helper"
+        "kmod-gpio-button-hotplug"
+        "kmod-leds-gpio"
+        "kmod-nf-nathelper"
+        "kmod-nf-nathelper-extra"
+        "kmod-nft-offload"
+        "libc"
+        "libgcc"
+        "libustream-openssl"
+        "logd"
+        "luci"
+        "luci-app-opkg"
+        "luci-compat"
+        "luci-lib-base"
+        "luci-lib-fs"
+        "luci-lib-ipkg"
+        "mtd"
+        "netifd"
+        "nftables"
+        "nvram"
+        "opkg"
+        "otrx"
+        "ppp"
+        "ppp-mod-pppoe"
+        "procd"
+        "procd-seccomp"
+        "procd-ujail"
+        "swconfig"
+        "uci"
+        "uclient-fetch"
+        "urandom-seed"
+        "urngd"
+        "wpad-basic-openssl"
+      ];
+      metadata_version = 1;
+      profiles = {
+        linksys_e3000-v1 = {
+          device_packages = [
+            "kmod-bgmac"
+            "kmod-b43"
+            "kmod-usb-ohci"
+            "kmod-usb2"
+          ];
+          image_prefix = "immortalwrt-23.05.0-bcm47xx-generic-linksys_e3000-v1";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-23.05.0-bcm47xx-generic-linksys_e3000-v1-squashfs.bin";
+              sha256 = "d579e50b99aa347b3338e1b9befac5c08a3c04285fd31fd40ebcc9de59fcff0d";
+              sha256_unsigned = "d579e50b99aa347b3338e1b9befac5c08a3c04285fd31fd40ebcc9de59fcff0d";
+              type = "bin";
+            }
+          ];
+          supported_devices = [
+            "linksys,e3000-v1"
+          ];
+          titles = [
+            {
+              model = "E3000";
+              variant = "v1";
+              vendor = "Linksys";
+            }
+          ];
+        };
+        linksys_wrt610n-v1 = {
+          device_packages = [
+            "kmod-tg3"
+            "kmod-b43"
+            "kmod-usb-ohci"
+            "kmod-usb2"
+          ];
+          image_prefix = "immortalwrt-23.05.0-bcm47xx-generic-linksys_wrt610n-v1";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-23.05.0-bcm47xx-generic-linksys_wrt610n-v1-squashfs.bin";
+              sha256 = "c207ef699d701a0f0b0cd78a04839576b4d3663532e41776d0047e13ff4723f1";
+              sha256_unsigned = "c207ef699d701a0f0b0cd78a04839576b4d3663532e41776d0047e13ff4723f1";
+              type = "bin";
+            }
+          ];
+          supported_devices = [
+            "linksys,wrt610n-v1"
+          ];
+          titles = [
+            {
+              model = "WRT610N";
+              variant = "v1";
+              vendor = "Linksys";
+            }
+          ];
+        };
+        linksys_wrt610n-v2 = {
+          device_packages = [
+            "kmod-bgmac"
+            "kmod-b43"
+            "kmod-usb-ohci"
+            "kmod-usb2"
+          ];
+          image_prefix = "immortalwrt-23.05.0-bcm47xx-generic-linksys_wrt610n-v2";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-23.05.0-bcm47xx-generic-linksys_wrt610n-v2-squashfs.bin";
+              sha256 = "df2f0b9d173913168696c2b813b58565898d9d4d1fe39576445511010fa15b21";
+              sha256_unsigned = "df2f0b9d173913168696c2b813b58565898d9d4d1fe39576445511010fa15b21";
+              type = "bin";
+            }
+          ];
+          supported_devices = [
+            "linksys,wrt610n-v2"
+          ];
+          titles = [
+            {
+              model = "WRT610N";
+              variant = "v2";
+              vendor = "Linksys";
+            }
+          ];
+        };
+        standard = {
+          device_packages = [
+            "kmod-b44"
+            "kmod-bgmac"
+            "kmod-tg3"
+          ];
+          image_prefix = "immortalwrt-23.05.0-bcm47xx-generic-standard";
+          images = [
+            {
+              filesystem = "squashfs";
+              name = "immortalwrt-23.05.0-bcm47xx-generic-standard-squashfs.trx";
+              sha256 = "de1a1a1d6c4b6f58254956cdf42beb2b9ba744068af2134fdc50f5ef684ade8a";
+              sha256_unsigned = "de1a1a1d6c4b6f58254956cdf42beb2b9ba744068af2134fdc50f5ef684ade8a";
+              type = "trx";
+            }
+          ];
+          supported_devices = [
+            "standard"
+          ];
+          titles = [
+            {
+              model = "Image with LZMA loader and LZMA compressed kernel";
+              vendor = "Generic";
+            }
+          ];
+        };
+      };
+      source_date_epoch = 1699850417;
+      target = "bcm47xx/generic";
+      version_code = "r27285-695bf40a48";
+      version_number = "23.05.0";
+    };
     legacy = {
       arch_packages = "mipsel_mips32";
       default_packages = [
