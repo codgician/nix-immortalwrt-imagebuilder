@@ -165,6 +165,7 @@
   targets."bcm63xx"."generic".sha256 = "sha256-E+xeHyAs3wkMASDrQBZz4Gg4Qs+yGEjJ/L/yUCK4584=";
   targets."bcm63xx"."generic".packagesArch = "mips_mips32";
   targets."bcm63xx"."smp".sha256 = "sha256-bHMf/MRYCoHlykhTDfT1spfSl5ZNmZU7vT5OY+Xx7ZA=";
+  targets."bcm63xx"."smp".packagesArch = "mips_mips32";
   targets."kirkwood"."generic".sha256 = "sha256-derlKquTs78oSYXPo+3j0lBSro5nPKeIJTzb4jAYrlk=";
   targets."kirkwood"."generic".packagesArch = "arm_xscale";
   packages."arm_xscale"."base".sha256 = "sha256-dfL2O4t3ysDwHVTpnRD2EMx7OTR6UUuLqQ5/YtlP6qU=";

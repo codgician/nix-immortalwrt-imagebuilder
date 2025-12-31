@@ -149,7 +149,7 @@
   kmods."tegra"."generic"."6.6.110-1-1695c8bae96e3c1383b2c776b6f12bb8".sha256 = "sha256-ZWjutBhBXbqelo0PhmE03sVQQD05M/y8tZ9/wGgg2hM=";
   targets."tegra"."generic".packagesArch = "arm_cortex-a9_vfpv3-d16";
   packages."arm_cortex-a9_vfpv3-d16"."base".sha256 = "sha256-TVrl42qpej+hkt/v5X4rjUdin3HMHVF3xtLPBxiS4Gc=";
-  packages."arm_cortex-a9_vfpv3-d16"."luci".sha256 = "";
+  packages."arm_cortex-a9_vfpv3-d16"."luci".sha256 = "sha256-N06qvzYTXdvy7K4rZHd+W7S4IGKYTCfmnMi1HSzP6qU=";
   packages."arm_cortex-a9_vfpv3-d16"."packages".sha256 = "sha256-Kx/ojk5Vn9HiBSPSrN2tKOI+YRdYxPoHqSKNqbOYPMk=";
   packages."arm_cortex-a9_vfpv3-d16"."routing".sha256 = "sha256-wN6JHOi3XUlns/KBZoMCCiaGQjuyDZ8P3VxwGWJuRVE=";
   packages."arm_cortex-a9_vfpv3-d16"."telephony".sha256 = "sha256-Y1DLkIyIZAzzpO0r4UxIpUF4N/YxQYzSvvCLwd5Xmsc=";

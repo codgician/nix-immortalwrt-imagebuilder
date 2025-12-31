@@ -158,6 +158,12 @@
   targets."bcm47xx"."generic".sha256 = "sha256-fvHc6XtoTlr0xnzGf3hsSlgYsIZDmHWMMtv7k/gVmT0=";
   targets."bcm47xx"."generic".packagesArch = "mipsel_mips32";
   targets."bcm47xx"."mips74k".sha256 = "sha256-JAdKDr3NcxxdzsRG4qCNscFqQMqVV1ua9Lct/eaT6to=";
+  targets."bcm47xx"."mips74k".packagesArch = "mipsel_74kc";
+  packages."mipsel_74kc"."base".sha256 = "sha256-55RObALt6aTsDHyXezvbsn5ZRJh0c3dyjSi7gcfiLvg=";
+  packages."mipsel_74kc"."luci".sha256 = "sha256-3JN6xgcHrxKRD8aog+3gxa9zSmRiTdmNSEVx2zu6/nk=";
+  packages."mipsel_74kc"."packages".sha256 = "sha256-9sjkShmPW55FtX8k1lif7ccSNcQzH7XekFhzCvmB1II=";
+  packages."mipsel_74kc"."routing".sha256 = "sha256-/o2X73x6JE40dqSwarsUmNoRp10hpc23QvIxrdBnUqc=";
+  packages."mipsel_74kc"."telephony".sha256 = "sha256-Y1ICSch4U1FeN0lwC+lcMg6k/3+J26Hhi7eyrpWaidY=";
   targets."bcm63xx"."generic".sha256 = "sha256-tD9RyVupRkUoSr0V/xVs6/QiT8sJcqvbvZcap2uxr6E=";
   targets."bcm63xx"."generic".packagesArch = "mips_mips32";
   packages."mips_mips32"."base".sha256 = "sha256-FuNX8UGIKhREBNJy6ZwZYuLWGjZMdHSmhcUka9w2UE0=";
@@ -219,11 +225,6 @@
   targets."ramips"."mt76x8".packagesArch = "mipsel_24kc";
   targets."ramips"."rt3883".sha256 = "sha256-27Hq0Kz9Z3d+tNtJK4bvE75chPUxCfXuUoA2vo+aYx0=";
   targets."ramips"."rt3883".packagesArch = "mipsel_74kc";
-  packages."mipsel_74kc"."base".sha256 = "sha256-55RObALt6aTsDHyXezvbsn5ZRJh0c3dyjSi7gcfiLvg=";
-  packages."mipsel_74kc"."luci".sha256 = "sha256-3JN6xgcHrxKRD8aog+3gxa9zSmRiTdmNSEVx2zu6/nk=";
-  packages."mipsel_74kc"."packages".sha256 = "sha256-9sjkShmPW55FtX8k1lif7ccSNcQzH7XekFhzCvmB1II=";
-  packages."mipsel_74kc"."routing".sha256 = "sha256-/o2X73x6JE40dqSwarsUmNoRp10hpc23QvIxrdBnUqc=";
-  packages."mipsel_74kc"."telephony".sha256 = "sha256-Y1ICSch4U1FeN0lwC+lcMg6k/3+J26Hhi7eyrpWaidY=";
   targets."ramips"."rt305x".sha256 = "sha256-rmfraZ461EtAW5k6w0NQTH/njD3y3csGNhsJhrPl/TE=";
   targets."ramips"."rt305x".packagesArch = "mipsel_24kc";
   targets."ramips"."mt7621".sha256 = "sha256-u2UZ6eMT2X/GjyBSv5FaOBD+WWqs30iCYjY9S4IaD2M=";

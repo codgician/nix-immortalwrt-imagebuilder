@@ -166,7 +166,7 @@
   packages."mipsel_74kc"."telephony".sha256 = "sha256-Y1ICSch4U1FeN0lwC+lcMg6k/3+J26Hhi7eyrpWaidY=";
   targets."bcm63xx"."generic".sha256 = "sha256-NjxhKCu6voTTov76oaS3b5D9EBM2B86CCQ6SvWq2v/I=";
   targets."bcm63xx"."generic".packagesArch = "mips_mips32";
-  packages."mips_mips32"."base".sha256 = "";
+  packages."mips_mips32"."base".sha256 = "sha256-FuNX8UGIKhREBNJy6ZwZYuLWGjZMdHSmhcUka9w2UE0=";
   packages."mips_mips32"."luci".sha256 = "sha256-kmjLxvM82hyDgcKr2OeEsQkrBz3JQwQ+IjBKWPTh5b8=";
   packages."mips_mips32"."packages".sha256 = "sha256-nu19/lG19Xc9L1yYchfmrGCf8fb933l8aBuaBSuQuuo=";
   packages."mips_mips32"."routing".sha256 = "sha256-tq0rse7pT65HjPdFKx9mrDfuW/DdBozFJLOaJiz5pOs=";
