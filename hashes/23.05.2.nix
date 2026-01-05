@@ -192,7 +192,6 @@
   targets."mpc85xx"."p1020".sha256 = "sha256-o0uVfdoxnElVYfn1oMLiNU5yG175TryMxyUGTFXR1TI=";
   targets."mpc85xx"."p1020".packagesArch = "powerpc_8548";
   targets."mvebu"."cortexa53".sha256 = "sha256-MOoiwH5GSyDijstgJNli7B4wJaPbsXcVuPWBrR3SHEE=";
-  targets."mvebu"."cortexa53".packagesArch = "aarch64_cortex-a53";
   targets."mvebu"."cortexa72".sha256 = "sha256-aUafUKRwZXFq+XXMpoQGpSVEctQJbX8YNg1ZjE2QS8Y=";
   targets."mvebu"."cortexa72".packagesArch = "aarch64_cortex-a72";
   packages."aarch64_cortex-a72"."base".sha256 = "sha256-0bo92GRp9BEbR5YFuK6sTFA1mbOFT+uCWofnJRNxrpE=";
