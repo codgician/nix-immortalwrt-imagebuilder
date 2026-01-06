@@ -238,6 +238,7 @@
   packages."arm_cortex-a9"."telephony".sha256 = "sha256-qkr2aUuLfKcJ/G3HISvXdUYZvQgvxEcvNYCtM2A6RRY=";
   targets."malta"."be".sha256 = "sha256-vQGRAuHbNQR1U9lLnV+mLtlcIxOrd7WCa8G6p3PrFjU=";
   targets."bmips"."bcm6358".sha256 = "sha256-jl0Xcb3+Zc704/ydgcl95EQ8n+i5H6BP0sO6jBi8K5s=";
+  targets."bmips"."bcm6358".packagesArch = "mips_mips32";
   targets."bmips"."bcm6318".sha256 = "sha256-0pFpWILfL5NcNucoai8QpPsiQTHVNMsLQ3MAvL9dy70=";
   targets."bmips"."bcm6318".packagesArch = "mips_mips32";
   targets."bmips"."bcm6368".sha256 = "sha256-yhazTmLKP9+fsj394senzEjS8ludAFaX78CnK6N7mbQ=";

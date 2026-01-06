@@ -226,6 +226,7 @@
   targets."ramips"."rt3883".sha256 = "sha256-byIdb/MHI9lMHCNK9xHa7gft1afaUwTCFXUEQ1UuiRc=";
   targets."ramips"."rt3883".packagesArch = "mipsel_74kc";
   targets."ramips"."rt305x".sha256 = "sha256-DJMIKmuRCa5ts5ULZC9fC6DqVRvEKh9QQXYjPtsGwdk=";
+  targets."ramips"."rt305x".packagesArch = "mipsel_24kc";
   targets."ramips"."mt7621".sha256 = "sha256-cet0GHOTCVZAwfgNc9vsb4aw0Mn3Qa6nKkOIoAFXgks=";
   targets."ramips"."mt7621".packagesArch = "mipsel_24kc";
   targets."bcm53xx"."generic".sha256 = "sha256-I3+22YSKkYD2R2F6k3b3zLluGglmOPgavVFrikGp/XQ=";
