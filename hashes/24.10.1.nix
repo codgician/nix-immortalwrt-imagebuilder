@@ -196,7 +196,7 @@
   targets."bcm47xx"."mips74k".packagesArch = "mipsel_74kc";
   packages."mipsel_74kc"."base".sha256 = "sha256-nxIdJ1l4dAZwQkCCccIRmJ4FK9dqudb4Eg++py6uPr8=";
   packages."mipsel_74kc"."luci".sha256 = "sha256-8GgcgF/jM049CdieRbFK5vv6nAj0pDVmdDkRInxV/jM=";
-  packages."mipsel_74kc"."packages".sha256 = "sha256-YRURk7HBQVKpibmsaLTPDfuB5gao+ooczQGTzafNF0c=";
+  packages."mipsel_74kc"."packages".sha256 = "";
   packages."mipsel_74kc"."routing".sha256 = "sha256-g/jaN5+o1/68OVR9gKAl8xFqcrCIxY44DoJFLIPxt/k=";
   packages."mipsel_74kc"."telephony".sha256 = "sha256-2PRpHLEHW5J3fU+M/4wnS2Sl8D9akhpxDt39KUw7zw8=";
   targets."ixp4xx"."generic".sha256 = "sha256-gaQ/sPgY/k6LA2ck22yVdVSEoe2XNu4oI8NdaoimEZE=";

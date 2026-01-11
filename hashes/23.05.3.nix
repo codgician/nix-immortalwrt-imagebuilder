@@ -189,10 +189,6 @@
   packages."powerpc_8548"."telephony".sha256 = "sha256-5zY+3GjYWarjgUQ4A5Nt9c6kF9GbdUaNDLTnxMtzymM=";
   targets."mpc85xx"."p1010".sha256 = "sha256-K6QDyJhHoUwKWqcq1AYYnQgGGzWU7K66dMI2DY5NjZE=";
   targets."mpc85xx"."p1010".packagesArch = "powerpc_8548";
-  targets."mpc85xx"."p1020".sha256 = "sha256-ZireuXeUYkOWgOl0Cu+/CTTgCoVXYNL/4vs7UG6cn2Q=";
-  targets."mpc85xx"."p1020".packagesArch = "powerpc_8548";
-  targets."mvebu"."cortexa53".sha256 = "sha256-u0B2uclSCkVpA5CIeQQ02d6VbrbjrSu0SzTS/MYuPyQ=";
-  targets."mvebu"."cortexa53".packagesArch = "aarch64_cortex-a53";
   targets."mvebu"."cortexa72".sha256 = "sha256-VGbHQ2bxeYfLoKRZFTWaKVvqw2UusLvbcseuBFQrKuw=";
   targets."mvebu"."cortexa72".packagesArch = "aarch64_cortex-a72";
   packages."aarch64_cortex-a72"."base".sha256 = "sha256-0bo92GRp9BEbR5YFuK6sTFA1mbOFT+uCWofnJRNxrpE=";

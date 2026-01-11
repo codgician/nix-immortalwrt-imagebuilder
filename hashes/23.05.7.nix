@@ -78,6 +78,7 @@
   targets."lantiq"."xway".packagesArch = "mips_24kc";
   targets."lantiq"."xway_legacy".sha256 = "sha256-aktFqIA+AV+dUNfKqIdUng5V0vwiTqJ16Tjux/ly7YA=";
   targets."mediatek"."mt7622".sha256 = "sha256-qHavKjHuCruxkoMVTlj9+cO5ER6vBERdmtdyBPSBWuA=";
+  targets."mediatek"."mt7622".packagesArch = "aarch64_cortex-a53";
   targets."mediatek"."mt7629".sha256 = "sha256-/RzC9l20TAxk1PNdYRyqcLtYhpMRPRKlReE7gBsAxV8=";
   targets."mediatek"."mt7629".packagesArch = "arm_cortex-a7";
   packages."arm_cortex-a7"."base".sha256 = "sha256-Sjlb2gl/lMZ33LWWKRrsstPioUxvZ51xMzNStIx6SnY=";

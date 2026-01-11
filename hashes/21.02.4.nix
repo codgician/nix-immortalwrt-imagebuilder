@@ -220,8 +220,6 @@
   packages."mipsel_24kc"."packages".sha256 = "sha256-e8Yt4dmKg7+q2WlFEzUSFzt11TvfrfMqCppNksGlOTc=";
   packages."mipsel_24kc"."routing".sha256 = "sha256-wC5JZQnMB6LYl5byEGSAcj1+0a6B2VUfQ+1uNXdYivY=";
   packages."mipsel_24kc"."telephony".sha256 = "sha256-G/mRqXlmZiC1fEbucdPnkq5vy2p7Mf4upOkp70hwzPs=";
-  targets."ramips"."mt7620".sha256 = "sha256-FhdzZNtzqxGlko7tvxCxmboKjEITp/YTKAixuOvDFko=";
-  targets."ramips"."mt7620".packagesArch = "mipsel_24kc";
   targets."ramips"."mt76x8".sha256 = "sha256-vzsM2aviAVakc+hP0xdHnyZt4CCBOxPwulKJF0V2mOM=";
   targets."ramips"."mt76x8".packagesArch = "mipsel_24kc";
   targets."ramips"."rt3883".sha256 = "sha256-jnTXJpbhIZsIWjWWpXkvtO26q+sK+degRKp/RWlIF8Q=";

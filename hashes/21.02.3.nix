@@ -19,7 +19,7 @@
   targets."ipq40xx"."mikrotik".packagesArch = "arm_cortex-a7_neon-vfpv4";
   packages."arm_cortex-a7_neon-vfpv4"."base".sha256 = "sha256-Oeit2HLpcKSG3Fm+5AI7YMGnbnwXv4rgxHHKSj5psFU=";
   packages."arm_cortex-a7_neon-vfpv4"."luci".sha256 = "sha256-qXZ82cvLsU/VwsH+AwD+LrRrB/VtPbRO8HFmDa2uqpg=";
-  packages."arm_cortex-a7_neon-vfpv4"."packages".sha256 = "";
+  packages."arm_cortex-a7_neon-vfpv4"."packages".sha256 = "sha256-DS7DuWlMzUou1rpTfYgtHtAs5nM6SlA3q+Lbe6GuC3I=";
   packages."arm_cortex-a7_neon-vfpv4"."routing".sha256 = "sha256-tCdkL1AixcfyJZ9VyVJeqPX6mIW0Jb4L3VNSj9YkcEA=";
   packages."arm_cortex-a7_neon-vfpv4"."telephony".sha256 = "sha256-04N9PBLKmdgWl1tb5+8vaixcLuG2Cnj7EEk1m0k3PLk=";
   targets."ipq40xx"."generic".sha256 = "sha256-Htwg2j2HzxxtJpRkayiSTpGc4aXAfqXuGuHFIDttnhQ=";
