@@ -6,7 +6,7 @@
   packages."powerpc_464fp"."luci".sha256 = "sha256-tWhj35W9jV1juikwLVbXgunFEYpbddnjvI3fQaC6ZHo=";
   packages."powerpc_464fp"."packages".sha256 = "sha256-0y/KvIo8sP1WhI4KWYJ49bZl+lds0/8ZlEF4DQEDGPI=";
   packages."powerpc_464fp"."routing".sha256 = "sha256-vCl23NF7CkRubF98iKMfZS3w16DRYKhHbgsvb5RkSRo=";
-  packages."powerpc_464fp"."telephony".sha256 = "";
+  packages."powerpc_464fp"."telephony".sha256 = "sha256-MBwtq12EuJQAGshWLmwplC3a16io4f/gr8dgi/bCRMQ=";
   targets."apm821xx"."nand".sha256 = "sha256-ylyPi0buxMDojuMXkKnavdXrfkCziv6zSG3ZNnWPwz4=";
   kmods."apm821xx"."nand"."6.6.104-1-620d58839af87f1a4a5cb3feab641cc4".sha256 = "sha256-H+gS8q2+ezfvd8obV+3hkcgvyS5Zf4v3DrNmkxi4bqQ=";
   targets."apm821xx"."nand".packagesArch = "powerpc_464fp";
