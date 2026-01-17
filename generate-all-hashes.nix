@@ -10,7 +10,7 @@ pkgs.writeShellApplication {
   ];
 
   text = ''
-    VERSIONS=$(curl -s https://downloads.immortalwrt.org/.versions.json)
+    VERSIONS=$(curl -s https://immortalwrt.kyarucloud.moe/.versions.json)
     readarray -t RELEASES < <(jq -r '.versions_list[]' <<< "''${VERSIONS}")
     RELEASES+=("24.10-SNAPSHOT")
 

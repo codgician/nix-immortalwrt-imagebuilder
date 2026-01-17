@@ -13,7 +13,7 @@ pkgs.writeShellApplication {
     RELEASE="''${1:-${import ./latest-release.nix}}"
     FEEDS="base luci packages routing telephony"
 
-    UPSTREAM_URL=https://downloads.immortalwrt.org
+    UPSTREAM_URL=https://immortalwrt.kyarucloud.moe
     RELEASE_URL="''${UPSTREAM_URL}/releases/''${RELEASE}"
 
     if [ "''${RELEASE}" == "snapshot" ]; then

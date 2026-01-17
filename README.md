@@ -103,7 +103,7 @@ in
 
 ## Refreshing hashes
 
-**downloads.immortalwrt.org** appears to be never at rest. That's why we
+**immortalwrt.kyarucloud.moe** appears to be never at rest. That's why we
 update the [hashes subdirectory](./hashes/) daily with [a Github
 action.](https://github.com/codgician/nix-immortalwrt-imagebuilder/actions/workflows/update-hashes.yml)
 

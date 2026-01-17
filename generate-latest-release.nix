@@ -7,6 +7,6 @@ pkgs.writeShellApplication {
   ];
 
   text = ''
-    curl -s https://downloads.immortalwrt.org/.versions.json | jq -c '.stable_version' > latest-release.nix
+    curl -s https://immortalwrt.kyarucloud.moe/.versions.json | jq -c '.stable_version' > latest-release.nix
   '';
 }

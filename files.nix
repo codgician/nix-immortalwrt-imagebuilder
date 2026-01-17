@@ -89,7 +89,7 @@ let
           variantFiles
       ) {} parsedRaw;
 
-  baseUrl = "https://downloads.immortalwrt.org";
+  baseUrl = "https://immortalwrt.kyarucloud.moe";
   releaseUrl = if release == "snapshot" then "${baseUrl}/snapshots" else "${baseUrl}/releases/${release}";
   targetVariantUrl = "${releaseUrl}/targets/${target}/${variant}";
 
