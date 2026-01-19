@@ -13,6 +13,7 @@ pkgs.writeShellApplication {
     VERSIONS=$(curl -s https://immortalwrt.kyarucloud.moe/.versions.json)
     readarray -t RELEASES < <(jq -r '.versions_list[]' <<< "''${VERSIONS}")
     RELEASES+=("24.10-SNAPSHOT")
+    RELEASES+=("25.12-SNAPSHOT")
 
     for RELEASE in "''${RELEASES[@]}"; do
       echo "# Fetching hashes for OpenWrt ''${RELEASE}"
