@@ -223,7 +223,7 @@
   targets."pistachio"."generic".packagesArch = "mipsel_24kc_24kf";
   packages."mipsel_24kc_24kf"."base".sha256 = "sha256-Q6S9xdQbMStuG60Qqla7NoEx+Ys2rcBmTDmuTkUjkwg=";
   packages."mipsel_24kc_24kf"."luci".sha256 = "sha256-7cbtJH99qARCoPBahKm7jaF5r4IzGWdoZs8kLRr2y5w=";
-  packages."mipsel_24kc_24kf"."packages".sha256 = "";
+  packages."mipsel_24kc_24kf"."packages".sha256 = "sha256-LL0CSS9D+Qr+7VNJL2Q7uM+PF/r0p7z0zCeRciusbPg=";
   packages."mipsel_24kc_24kf"."routing".sha256 = "sha256-7p1rtg4PlIgb6YXpMHudxxsrUNc4mR1S0Zpf5t90JM0=";
   packages."mipsel_24kc_24kf"."telephony".sha256 = "sha256-6Y+FdrXQBXuGkAG38qYfRL/+LTH0y4XZXwqRkfktZ2A=";
   targets."ramips"."mt7620".sha256 = "sha256-PFQlM1077yveA3fCP43LV2bu9opidtSeQhXxiPtiV44=";
