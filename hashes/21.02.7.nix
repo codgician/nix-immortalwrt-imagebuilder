@@ -70,7 +70,7 @@
   targets."bcm27xx"."bcm2708".sha256 = "sha256-e8AVAsxWGNSZSkbbcoL40isHbduL5OGDBPjYKfZgBgU=";
   targets."bcm27xx"."bcm2708".packagesArch = "arm_arm1176jzf-s_vfp";
   packages."arm_arm1176jzf-s_vfp"."base".sha256 = "sha256-cqwnI27kk53rT6OiPVMpMGGakxqLcyjhPv5qxZeyJuc=";
-  packages."arm_arm1176jzf-s_vfp"."luci".sha256 = "sha256-Z6CMcGblNa5+ZYijJoe6fKydeaWJxBDBUMjZQBCm0LM=";
+  packages."arm_arm1176jzf-s_vfp"."luci".sha256 = "";
   packages."arm_arm1176jzf-s_vfp"."packages".sha256 = "sha256-ZCjgXvmYKrd9Dxvty5ADGnTb3DvYpGndWo/VPk6XAOQ=";
   packages."arm_arm1176jzf-s_vfp"."routing".sha256 = "sha256-XVNDdhzJLF3lO7rIHUgALf/A0cJkGXcwwgZljinm9pY=";
   packages."arm_arm1176jzf-s_vfp"."telephony".sha256 = "sha256-6q/1dAB8KuY9766TEopSF5HjDySUwOHJb2AoGXKczV0=";
