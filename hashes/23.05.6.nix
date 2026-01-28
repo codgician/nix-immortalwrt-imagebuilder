@@ -50,10 +50,6 @@
   targets."ath79"."nand".packagesArch = "mips_24kc";
   targets."ath79"."mikrotik".sha256 = "sha256-7bvuSocIoXK6yVlJT77H9o0gZ1clYO7n+xLybN3n0eA=";
   targets."ath79"."mikrotik".packagesArch = "mips_24kc";
-  targets."bcm63xx"."smp".sha256 = "sha256-ZBRWzrEMfhy+n4aIVIfHijGqi/9A9flz1M3ZcrGS8IM=";
-  targets."bcm63xx"."smp".packagesArch = "mips_mips32";
-  targets."bcm63xx"."generic".sha256 = "sha256-snRHErWGc1WXszUNYMD/2Ij66bAtxdP39JOKW8iPP74=";
-  targets."bcm63xx"."generic".packagesArch = "mips_mips32";
   targets."bcm4908"."generic".sha256 = "sha256-t9zDCX36uU4zO10nKDtiZYsR169+fEIDr4m4RIv02SU=";
   targets."bcm4908"."generic".packagesArch = "aarch64_cortex-a53";
   packages."aarch64_cortex-a53"."base".sha256 = "sha256-3nuwyjFSvVVLgXl/omCy1BfOEFChRydaznaqI8ums0w=";
