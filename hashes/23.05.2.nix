@@ -294,7 +294,7 @@
   targets."x86"."geode".packagesArch = "i386_pentium-mmx";
   targets."x86"."64".sha256 = "sha256-OXNbMhnpSflr2iHJKpQ1Wlx7z2n6mJLLsT7glBPMWHM=";
   targets."x86"."64".packagesArch = "x86_64";
-  packages."x86_64"."base".sha256 = "sha256-+jrsRwG9TnyBwp5rehxCFT2zssEpatMxnFqDpMT60vk=";
+  packages."x86_64"."base".sha256 = "";
   packages."x86_64"."luci".sha256 = "sha256-ZAcXbPZvPjtVtdI77i2Z8Nr35ubOxTGCnstaCUVzv0o=";
   packages."x86_64"."packages".sha256 = "sha256-CGNdjZYs+CxHaspV1SRoPlqie9mrCVk3cpvdxqSKS7Q=";
   packages."x86_64"."routing".sha256 = "sha256-V5IHCQ6TxAo6nSnMZGgN1thKnIb9xq6sikpgTYe+onQ=";

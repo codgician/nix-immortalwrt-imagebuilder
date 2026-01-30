@@ -394,8 +394,6 @@
   packages."powerpc64_e5500"."routing".sha256 = "sha256-HRG5CbacQfIfm37ceAaHZ7QY7FDiVo/RBTKSbUN5Jgw=";
   packages."powerpc64_e5500"."telephony".sha256 = "sha256-IInDkxC0+fARwT4SXVpJAXqgh6vDt4930j4LHTXBk7A=";
   targets."bcm4908"."generic".sha256 = "sha256-ukUXR1IMKWI8WxbsZjKiLth/g7Z/fdcVf6r9RO6mp3g=";
-  kmods."bcm4908"."generic"."6.6.110-1-2b4c551556c27c1566d15aa6da26d032".sha256 = "sha256-NmIGr3VYiAsOQTGJyJitZ1O6k/WnuZLYXt1Bagd3n/8=";
-  targets."bcm4908"."generic".packagesArch = "aarch64_cortex-a53";
   targets."starfive"."generic".sha256 = "sha256-NiqI+oKgRbuokeFlMiHuy7y0USuH9DK9gsCgbsHZhAs=";
   kmods."starfive"."generic"."6.6.110-1-5c9cbc5d46a40c4c54266ccf8d455650".sha256 = "sha256-1GQKOdibOrsXBXEcwMJGPDiJZiZqMzY1+kIczLyyOBI=";
   targets."starfive"."generic".packagesArch = "riscv64_riscv64";
