@@ -30,12 +30,6 @@
   packages."aarch64_cortex-a72"."routing".sha256 = "sha256-E1pgS6kqlR6Ux710t++1Ecd2WTbRNZ43veAYRTKp9tI=";
   packages."aarch64_cortex-a72"."telephony".sha256 = "sha256-P/+Pq5jNxcLDQDmM5Sg3rD/3o2swI80hmxvanmR0kik=";
   targets."bcm27xx"."bcm2709".sha256 = "sha256-m0xJaIq3Kjo4E6RzUdwjrAPHyrCoizQQOTxXRdgHNR0=";
-  targets."bcm27xx"."bcm2709".packagesArch = "arm_cortex-a7_neon-vfpv4";
-  packages."arm_cortex-a7_neon-vfpv4"."base".sha256 = "sha256-GCpd24+G5RjOjQZKslXZBbdCqs7wraRGS8IB9GlXXFk=";
-  packages."arm_cortex-a7_neon-vfpv4"."luci".sha256 = "sha256-B9TI4NshF2fB7TYdTIh0dYFxydIZLvNmXh+hp+MAglE=";
-  packages."arm_cortex-a7_neon-vfpv4"."packages".sha256 = "sha256-be5XV1jh7hxZvlh+4e976p64eZMqoGrjqYigXnhfuNU=";
-  packages."arm_cortex-a7_neon-vfpv4"."routing".sha256 = "sha256-5piYWxlbWxR1+2BdDzz+o0Nxa9PgzmycJR7vqoUFB4s=";
-  packages."arm_cortex-a7_neon-vfpv4"."telephony".sha256 = "sha256-NEvS2Inkc3EdBx4/AhmJlN/uVhwdrSSnqf6DtNbHJx0=";
   targets."bcm27xx"."bcm2708".sha256 = "sha256-PdllysMF1tBnFoIIMHEehDgrgbwPGjy6C1bSIXOIRoE=";
   targets."bcm27xx"."bcm2708".packagesArch = "arm_arm1176jzf-s_vfp";
   packages."arm_arm1176jzf-s_vfp"."base".sha256 = "sha256-iU+im17QLanwhef7dNchuz/jcp3ZbnH5m8uwTRwZ/WY=";
@@ -86,6 +80,11 @@
   packages."arm_cortex-a9_neon"."telephony".sha256 = "sha256-67yOyJS72Dx3tNU9ZJC6tpvjIfITsXcAg43I2ZARt6Y=";
   targets."imx"."cortexa7".sha256 = "sha256-+9DfvhkubkdghGV+m8Di9t3Au5HcgP441P3EY4mdwUM=";
   targets."imx"."cortexa7".packagesArch = "arm_cortex-a7_neon-vfpv4";
+  packages."arm_cortex-a7_neon-vfpv4"."base".sha256 = "sha256-GCpd24+G5RjOjQZKslXZBbdCqs7wraRGS8IB9GlXXFk=";
+  packages."arm_cortex-a7_neon-vfpv4"."luci".sha256 = "sha256-B9TI4NshF2fB7TYdTIh0dYFxydIZLvNmXh+hp+MAglE=";
+  packages."arm_cortex-a7_neon-vfpv4"."packages".sha256 = "sha256-be5XV1jh7hxZvlh+4e976p64eZMqoGrjqYigXnhfuNU=";
+  packages."arm_cortex-a7_neon-vfpv4"."routing".sha256 = "sha256-5piYWxlbWxR1+2BdDzz+o0Nxa9PgzmycJR7vqoUFB4s=";
+  packages."arm_cortex-a7_neon-vfpv4"."telephony".sha256 = "sha256-NEvS2Inkc3EdBx4/AhmJlN/uVhwdrSSnqf6DtNbHJx0=";
   targets."ath79"."tiny".sha256 = "sha256-vedZj06nYaUPfCstvxJfksvp9sSclmtUrV3EAfTobSE=";
   targets."ath79"."tiny".packagesArch = "mips_24kc";
   packages."mips_24kc"."base".sha256 = "sha256-vr3LIAQ/bvZbsZuNQopq2WUI1esjkOl9mjfatrt/gAw=";
