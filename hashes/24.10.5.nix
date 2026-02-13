@@ -253,7 +253,7 @@
   kmods."mxs"."generic"."6.6.122-1-6bb11e0dba7d0ac5f4b35b98b159f1e9".sha256 = "sha256-YmCBKdey/qCxWiiywcgTaMcJUCV3x6uV+mCC7Pf8A9w=";
   targets."mxs"."generic".packagesArch = "arm_arm926ej-s";
   packages."arm_arm926ej-s"."base".sha256 = "sha256-W3PXNO+c+v8R2imkvcaboL1wQB/JUA+qFJi5oDoaWeg=";
-  packages."arm_arm926ej-s"."luci".sha256 = "sha256-5cpM3Clt+OxctoD7G/hhA87wdUaHrhH0C4KMo1EBqiI=";
+  packages."arm_arm926ej-s"."luci".sha256 = "";
   packages."arm_arm926ej-s"."packages".sha256 = "sha256-gFCyK2/erIqmn5LuPDDx433cQcGdHJyF4VDeqvU1lIA=";
   packages."arm_arm926ej-s"."routing".sha256 = "sha256-1Ilz70z7N79GPrAYmpDMwLUCnG0TjI+/JGBVkJ3NW0w=";
   packages."arm_arm926ej-s"."telephony".sha256 = "sha256-OInkze43qIk8DlblWemC5fD9WcO8dfX0r7Nrdk9pRNo=";
