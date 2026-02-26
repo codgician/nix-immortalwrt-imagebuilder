@@ -6,7 +6,7 @@ on:
 
 jobs:
   update-hashes:
-    if: github.repository_owner == 'astro'
+    if: github.repository_owner == 'codgician'
     runs-on: ubuntu-latest
     permissions:
       contents: write

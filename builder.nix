@@ -74,7 +74,7 @@ in
 
 stdenv.mkDerivation ({
   name = lib.concatStringsSep "-" ([
-    "openwrt" release
+    "immortalwrt" release
   ] ++ lib.optional (extraImageName != null) extraImageName
   ++ [ target variant profile ]);
 
@@ -134,11 +134,11 @@ stdenv.mkDerivation ({
       ${installPackages}
       ${installRepositories}
 
-      # if the user provided key-build, key-build.pub and key-build.ucert in /run/openwrt use it
+      # if the user provided key-build, key-build.pub and key-build.ucert in /run/immortalwrt use it
       # NOTE: they need to be owned by group nixbld and have permission 440
       # NOTE2: auto-allocate-uids must be disabled because of bug https://github.com/NixOS/nix/issues/9276
-      if [[ -d /run/openwrt ]]; then
-        for file in /run/openwrt/*; do
+      if [[ -d /run/immortalwrt ]]; then
+        for file in /run/immortalwrt/*; do
           ln -s $file $(basename $file)
         done
       fi
@@ -160,7 +160,7 @@ stdenv.mkDerivation ({
   nativeBuildInputs = with pkgs; [
     zlib unzip bzip2 zstd
     ncurses which rsync git file getopt wget
-    bash perl python311 dtc
+    bash perl python311 dtc qemu-utils cdrtools
   ] ++ lib.optional (openwrtLib.releaseOlder release "21") python2;
 
   buildFlags = [
@@ -189,7 +189,7 @@ stdenv.mkDerivation ({
     '';
 
   postBuild = ''
-    bin_files=(build_dir/target-*/linux-*/tmp/openwrt-*.*)
+    bin_files=(build_dir/target-*/linux-*/tmp/immortalwrt-*.*)
     if [[ ! -f ''${bin_files[0]} ]]; then
       echo "No squashfs or bin file produced at all, see above for errors, aborting"
       exit 5
@@ -216,7 +216,7 @@ stdenv.mkDerivation ({
 
   postInstall = ''
     shopt -s nullglob
-    files=($out/openwrt-*-sysupgrade.* $out/openwrt-*.img.gz)
+    files=($out/immortalwrt-*-sysupgrade.* $out/immortalwrt-*.img.gz)
     if ! (( ''${#files[@]} )); then
       echo "Build produced no bin file, see above for details"
       ls -l $out/

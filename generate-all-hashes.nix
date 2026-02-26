@@ -11,7 +11,7 @@ writeShellApplication {
 
   text = ''
     list-versions "$@" | while read -r release; do
-      echo "# Fetching hashes for OpenWrt $release"
+      echo "# Fetching hashes for ImmortalWrt $release"
       release2nix -Q "$release"
     done
   '';
