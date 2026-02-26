@@ -7,7 +7,7 @@ shopt -s extglob
 # Config and command-line options
 
 FEEDS=(base luci packages routing telephony)
-UPSTREAM_URL=https://mirrors.vsean.net/openwrt
+UPSTREAM_URL=https://mirrors.geekpie.club/immortalwrt
 QUICK=false
 DESTDIR=""
 

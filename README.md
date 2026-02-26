@@ -103,7 +103,7 @@ in
 
 ## Refreshing hashes
 
-**mirrors.vsean.net/openwrt** appears to be never at rest. That's why we
+**mirrors.geekpie.club/immortalwrt** appears to be never at rest. That's why we
 update the [cache subdirectory](./cache/) daily with [a Github
 action.](https://github.com/codgician/nix-immortalwrt-imagebuilder/actions/workflows/update-hashes.yml)
 

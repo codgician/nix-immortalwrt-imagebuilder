@@ -62,7 +62,7 @@ latest_release="$DESTDIR/LATEST_RELEASE"
 if $update; then
   >&2 echo "Fetching ImmortalWrt versions list..."
   mkdir -p "$DESTDIR"
-  curl 'https://mirrors.vsean.net/openwrt/.versions.json' --output "$versions"
+  curl 'https://mirrors.geekpie.club/immortalwrt/.versions.json' --output "$versions"
   jq -r 'include "lib"; "{", (list_versions[]|"  \(nixify_attrname) = import ./\(.)/default.nix;"), "}"' "$versions" > "$versions_nix"
   jq -r '.stable_version' "$versions" > "$latest_release"
   >&2 echo "... directory $DESTDIR updated."
