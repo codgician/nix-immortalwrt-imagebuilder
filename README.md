@@ -1,6 +1,6 @@
 # nix-immortalwrt-imagebuilder
 
-> ⚠️ We are now using `https://mirrors.geekpie.club/immortalwrt` as upstream given the official upstream `https://downloads.immortalwrt.org` is down temporarily due to regulations.
+> ⚠️ We are now using `https://mirror.nju.edu.cn/immortalwrt` as upstream given the official upstream `https://downloads.immortalwrt.org` is down temporarily due to regulations.
 
 > This project is forked from [astro/nix-openwrt-imagebuilder](https://github.com/astro/nix-openwrt-imagebuilder), producing ImmortalWrt images instead of Vanilla OpenWrt.
 >

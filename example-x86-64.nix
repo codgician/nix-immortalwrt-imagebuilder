@@ -4,6 +4,7 @@
 
 build {
   inherit pkgs;
+  release = "24.10.5";
   target = "x86";
   variant = "64";
   profile = "generic";

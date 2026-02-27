@@ -1,0 +1,370 @@
+# 21.02.7 ramips/rt305x
+{
+  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/ramips/rt305x/";
+  sha256sums = {
+    hash = "sha256-facwCSyFtwkk9NhRVtY+nNh7cGNzxkCzWEaMKRqHiHk=";
+    name = "ramips_rt305x-sha256sums";
+    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/ramips/rt305x/sha256sums";
+  };
+  imagebuilder = {
+    sha256 = "bb6ace25ef98b4e87f297e39045aac570c3f163a0069b78105865e525dc88477";
+    filename = "immortalwrt-imagebuilder-21.02.7-ramips-rt305x.Linux-x86_64.tar.xz";
+  };
+  profiles.sourceInfo = {
+    hash = "sha256-Gyo/EKjG7WnmevX3P2FZywokSJWUm0f/rbailylkNH8=";
+    name = "ramips_rt305x-profiles.json";
+    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/ramips/rt305x/profiles.json";
+  };
+  profiles.extract = {
+    arch_packages = "mipsel_24kc";
+    linux_kernel = null;
+    default_packages = [
+      "base-files"
+      "block-mount"
+      "busybox"
+      "ca-bundle"
+      "default-settings-chn"
+      "dnsmasq-full"
+      "dropbear"
+      "firewall"
+      "fstools"
+      "iptables"
+      "ipv6helper"
+      "kmod-gpio-button-hotplug"
+      "kmod-ipt-raw"
+      "kmod-leds-gpio"
+      "kmod-nf-nathelper"
+      "kmod-nf-nathelper-extra"
+      "kmod-rt2800-soc"
+      "libc"
+      "libgcc"
+      "libustream-openssl"
+      "logd"
+      "luci"
+      "luci-app-filetransfer"
+      "luci-app-turboacc"
+      "luci-compat"
+      "luci-lib-base"
+      "luci-lib-fs"
+      "luci-lib-ipkg"
+      "mtd"
+      "netifd"
+      "opkg"
+      "ppp"
+      "ppp-mod-pppoe"
+      "procd"
+      "swconfig"
+      "uci"
+      "uclient-fetch"
+      "urandom-seed"
+      "urngd"
+      "wpad-basic-openssl"
+    ];
+    kmods_target = "null-null-null";
+    profiles = {
+      "7links_px-4885-8m" = {
+        device_packages = [
+          "kmod-usb-dwc2"
+          "kmod-usb2"
+          "kmod-usb-ohci"
+          "kmod-usb-ledtrig-usbport"
+          "kmod-leds-gpio"
+        ];
+      };
+      "8devices_carambola" = {
+        device_packages = [ ];
+      };
+      accton_wr6202 = {
+        device_packages = [ ];
+      };
+      alfa-network_w502u = {
+        device_packages = [ ];
+      };
+      allnet_all0256n-8m = {
+        device_packages = [ "rssileds" ];
+      };
+      allnet_all5002 = {
+        device_packages = [
+          "kmod-usb-ohci"
+          "kmod-usb2"
+          "kmod-usb-ledtrig-usbport"
+          "kmod-i2c-gpio"
+          "kmod-hwmon-lm92"
+          "kmod-gpio-pcf857x"
+        ];
+      };
+      allnet_all5003 = {
+        device_packages = [
+          "kmod-usb-ohci"
+          "kmod-usb2"
+          "kmod-usb-ledtrig-usbport"
+          "kmod-i2c-gpio"
+          "kmod-hwmon-lm92"
+          "kmod-gpio-pcf857x"
+        ];
+      };
+      alphanetworks_asl26555-16m = {
+        device_packages = [
+          "kmod-usb-dwc2"
+          "kmod-usb-ledtrig-usbport"
+        ];
+      };
+      alphanetworks_asl26555-8m = {
+        device_packages = [
+          "kmod-usb-dwc2"
+          "kmod-usb-ledtrig-usbport"
+        ];
+      };
+      arcwireless_freestation5 = {
+        device_packages = [
+          "kmod-usb-dwc2"
+          "kmod-rt2500-usb"
+          "kmod-rt2800-usb"
+          "kmod-rt2x00-usb"
+        ];
+      };
+      argus_atp-52b = {
+        device_packages = [ ];
+      };
+      asiarf_awm002-evb-8m = {
+        device_packages = [
+          "kmod-usb-ohci"
+          "kmod-usb2"
+          "kmod-i2c-gpio"
+        ];
+      };
+      asus_rt-n13u = {
+        device_packages = [
+          "kmod-leds-gpio"
+          "kmod-rt2800-pci"
+          "kmod-usb-dwc2"
+        ];
+      };
+      aximcom_mr-102n = {
+        device_packages = [ ];
+      };
+      aztech_hw550-3g = {
+        device_packages = [
+          "kmod-usb-dwc2"
+          "kmod-usb-ledtrig-usbport"
+        ];
+      };
+      belkin_f5d8235-v2 = {
+        device_packages = [ "kmod-switch-rtl8366rb" ];
+      };
+      belkin_f7c027 = {
+        device_packages = [ ];
+      };
+      dlink_dap-1350 = {
+        device_packages = [ ];
+      };
+      dlink_dir-300-b7 = {
+        device_packages = [ ];
+      };
+      dlink_dir-320-b1 = {
+        device_packages = [ ];
+      };
+      dlink_dir-620-a1 = {
+        device_packages = [ ];
+      };
+      dlink_dir-620-d1 = {
+        device_packages = [ ];
+      };
+      dlink_dwr-512-b = {
+        device_packages = [
+          "jboot-tools"
+          "kmod-usb2"
+          "kmod-spi-dev"
+          "kmod-usb-serial-option"
+          "kmod-usb-net-cdc-ether"
+          "comgt-ncm"
+        ];
+      };
+      easyacc_wizard-8800 = {
+        device_packages = [ ];
+      };
+      fon_fonera-20n = {
+        device_packages = [
+          "kmod-usb-dwc2"
+          "kmod-usb-ledtrig-usbport"
+        ];
+      };
+      hame_mpr-a2 = {
+        device_packages = [
+          "kmod-usb-ohci"
+          "kmod-usb2"
+        ];
+      };
+      hauppauge_broadway = {
+        device_packages = [
+          "kmod-usb-dwc2"
+          "kmod-usb-ledtrig-usbport"
+        ];
+      };
+      huawei_hg255d = {
+        device_packages = [ ];
+      };
+      intenso_memory2move = {
+        device_packages = [
+          "kmod-usb2"
+          "kmod-usb-storage"
+          "kmod-scsi-core"
+          "kmod-fs-ext4"
+          "kmod-fs-vfat"
+          "block-mount"
+        ];
+      };
+      mofinetwork_mofi3500-3gn = {
+        device_packages = [ ];
+      };
+      nexaira_bc2 = {
+        device_packages = [ ];
+      };
+      nexx_wt1520-8m = {
+        device_packages = [ ];
+      };
+      nixcore_x1-16m = {
+        device_packages = [
+          "kmod-usb-ohci"
+          "kmod-usb2"
+          "kmod-i2c-ralink"
+          "kmod-spi-dev"
+        ];
+      };
+      nixcore_x1-8m = {
+        device_packages = [
+          "kmod-usb-ohci"
+          "kmod-usb2"
+          "kmod-i2c-ralink"
+          "kmod-spi-dev"
+        ];
+      };
+      olimex_rt5350f-olinuxino = {
+        device_packages = [
+          "kmod-usb-ohci"
+          "kmod-usb2"
+          "kmod-i2c-ralink"
+          "kmod-spi-dev"
+        ];
+      };
+      olimex_rt5350f-olinuxino-evb = {
+        device_packages = [
+          "kmod-usb-ohci"
+          "kmod-usb2"
+          "kmod-i2c-ralink"
+          "kmod-spi-dev"
+        ];
+      };
+      omnima_miniembplug = {
+        device_packages = [ ];
+      };
+      omnima_miniembwifi = {
+        device_packages = [ ];
+      };
+      planex_mzk-wdpr = {
+        device_packages = [ ];
+      };
+      poray_ip2202 = {
+        device_packages = [ ];
+      };
+      poray_m4-8m = {
+        device_packages = [ "kmod-usb2" ];
+      };
+      poray_x5 = {
+        device_packages = [ "kmod-usb2" ];
+      };
+      poray_x8 = {
+        device_packages = [ "kmod-usb2" ];
+      };
+      prolink_pwh2004 = {
+        device_packages = [ ];
+      };
+      teltonika_rut5xx = {
+        device_packages = [ "om-watchdog" ];
+      };
+      trendnet_tew-714tru = {
+        device_packages = [ ];
+      };
+      unbranded_wr512-3gn-8m = {
+        device_packages = [ ];
+      };
+      upvel_ur-336un = {
+        device_packages = [
+          "kmod-usb-dwc2"
+          "kmod-usb-ledtrig-usbport"
+        ];
+      };
+      vocore_vocore-16m = {
+        device_packages = [
+          "kmod-usb-ohci"
+          "kmod-usb2"
+          "kmod-i2c-ralink"
+          "kmod-spi-dev"
+        ];
+      };
+      vocore_vocore-8m = {
+        device_packages = [
+          "kmod-usb-ohci"
+          "kmod-usb2"
+          "kmod-i2c-ralink"
+          "kmod-spi-dev"
+        ];
+      };
+      wansview_ncs601w = {
+        device_packages = [
+          "kmod-video-core"
+          "kmod-video-uvc"
+          "kmod-usb-ohci"
+        ];
+      };
+      wiznet_wizfi630a = {
+        device_packages = [ ];
+      };
+      zorlik_zl5900v2 = {
+        device_packages = [
+          "kmod-usb-ohci"
+          "kmod-usb2"
+        ];
+      };
+      zte_mf283plus = {
+        device_packages = [
+          "kmod-usb-ohci"
+          "kmod-usb2"
+          "kmod-usb-net-qmi-wwan"
+          "uqmi"
+          "kmod-usb-serial"
+          "kmod-usb-serial-option"
+        ];
+      };
+      zyxel_keenetic = {
+        device_packages = [
+          "kmod-usb2"
+          "kmod-usb-ehci"
+          "kmod-usb-ledtrig-usbport"
+          "kmod-usb-dwc2"
+        ];
+      };
+      zyxel_keenetic-lite-b = {
+        device_packages = [ ];
+      };
+      zyxel_nbg-419n-v2 = {
+        device_packages = [ ];
+      };
+    };
+  };
+  corePackages = {
+    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/ramips/rt305x/packages/";
+    sourceInfo = {
+      hash = "sha256-LGM4KLMK323/Q3/JmELI/q1CzpYHFVCMJVrV1dAmMKU=";
+      name = "ramips_rt305x-Packages";
+      url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/ramips/rt305x/packages/Packages";
+    };
+    packages =
+      let
+        p = ./packages.nix;
+      in
+      if builtins.pathExists p then import p else null;
+  };
+  packagesArch = "mipsel_24kc";
+  feeds = import ./../../../packages/mipsel_24kc.nix;
+}

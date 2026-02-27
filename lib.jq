@@ -126,7 +126,7 @@ def load_sha256sums_map($prefix):
 def load_sha256sums_map: load_sha256sums_map("");
 
 def imagebuilder_filename:
-  [ "openwrt",
+  [ "immortalwrt",
     "imagebuilder",
     (if .release == "snapshot" then empty else .release end),
     .target,

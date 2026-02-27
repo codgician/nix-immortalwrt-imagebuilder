@@ -7,7 +7,7 @@ shopt -s extglob
 # Config and command-line options
 
 FEEDS=(base luci packages routing telephony)
-UPSTREAM_URL=https://mirrors.geekpie.club/immortalwrt
+UPSTREAM_URL=https://mirror.nju.edu.cn/immortalwrt
 QUICK=false
 DESTDIR=""
 
@@ -255,8 +255,20 @@ find_imagebuilder() {
 }
 
 list_targets() {
-  curl -s "${RELEASE_URL}/targets/?json-targets" | \
-    jq -r '.[]|select(startswith(".")|not)'
+  # Try json-targets first (OpenWrt official), fall back to HTML parsing (mirrors)
+  local json_result
+  json_result=$(curl -s "${RELEASE_URL}/targets/?json-targets")
+  if echo "$json_result" | jq -e 'type == "array"' > /dev/null 2>&1; then
+    echo "$json_result" | jq -r '.[]|select(startswith(".")|not)'
+  else
+    # Parse HTML directory listing for targets and variants
+    # Handle hrefs with query params like href="target/?C=S&O=D"
+    for target in $(curl -s "${RELEASE_URL}/targets/" | grep -oP 'href="\K[^"/?]+(?=/[?"])' | grep -v '^\.'); do
+      for variant in $(curl -s "${RELEASE_URL}/targets/${target}/" | grep -oP 'href="\K[^"/?]+(?=/[?"])' | grep -v '^\.'); do
+        echo "${target}/${variant}"
+      done
+    done
+  fi
 }
 
 reformat_nix() {
