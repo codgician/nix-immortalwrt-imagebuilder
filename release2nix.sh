@@ -7,7 +7,7 @@ shopt -s extglob
 # Config and command-line options
 
 FEEDS=(base luci packages routing telephony)
-UPSTREAM_URL=https://mirror.nju.edu.cn/immortalwrt
+UPSTREAM_URL=https://downloads.immortalwrt.org
 QUICK=false
 DESTDIR=""
 
