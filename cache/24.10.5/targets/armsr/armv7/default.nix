@@ -1,10 +1,10 @@
 # 24.10.5 armsr/armv7
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/armsr/armv7/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/armsr/armv7/";
   sha256sums = {
     hash = "sha256-kPgoDT/4kY4kF/M/fem9xGqjVIbO/RKYSGX0iqqQ4iQ=";
     name = "armsr_armv7-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/armsr/armv7/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/armsr/armv7/sha256sums";
   };
   imagebuilder = {
     sha256 = "989b25026591cac1dfb05fc03e3aa78d6a8750b6ef71eaed5e42485d5fc6d819";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-N/UZtbO3zd0ws7kXWrQUAC1GX3qNnfKShAXVOYh7zF4=";
     name = "armsr_armv7-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/armsr/armv7/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/armsr/armv7/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_cortex-a15_neon-vfpv4";
@@ -100,11 +100,11 @@
     };
   };
   kmods."6.6.122-1-9b6a36f17bb35e59cb53ceb1989c3e04" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/armsr/armv7/kmods/6.6.122-1-9b6a36f17bb35e59cb53ceb1989c3e04/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/armsr/armv7/kmods/6.6.122-1-9b6a36f17bb35e59cb53ceb1989c3e04/";
     sourceInfo = {
       hash = "sha256-a2zsW1aT6nd6Qn4CW2XmStUunnZPiQeg2uB4Z8RN6Kg=";
       name = "kmods-armsr_armv7-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/armsr/armv7/kmods/6.6.122-1-9b6a36f17bb35e59cb53ceb1989c3e04/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/armsr/armv7/kmods/6.6.122-1-9b6a36f17bb35e59cb53ceb1989c3e04/Packages";
     };
     packages =
       let
@@ -113,11 +113,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/armsr/armv7/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/armsr/armv7/packages/";
     sourceInfo = {
       hash = "sha256-40AIENOQ7tggcpGBDodJj2nRTmWPhx1sD6wI2dy8PUc=";
       name = "armsr_armv7-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/armsr/armv7/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/armsr/armv7/packages/Packages";
     };
     packages =
       let

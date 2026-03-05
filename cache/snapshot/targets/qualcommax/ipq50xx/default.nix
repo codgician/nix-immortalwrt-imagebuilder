@@ -1,10 +1,10 @@
 # snapshot qualcommax/ipq50xx
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/qualcommax/ipq50xx/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq50xx/";
   sha256sums = {
     hash = "sha256-3J3YbIOg/ZZRpeYd+1D01UHpb9F5XjLebxUTGTLq3a4=";
     name = "qualcommax_ipq50xx-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/qualcommax/ipq50xx/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq50xx/sha256sums";
   };
   imagebuilder = {
     sha256 = "940ffa6fd24050384e58b447ac2e4ad43584f7bb16325ccaf9d95a0f50700ce2";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-I325MjKAgZo2ypG4c1OYkeKAwaDqGg5cs9OHzrIpY0k=";
     name = "qualcommax_ipq50xx-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/qualcommax/ipq50xx/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq50xx/profiles.json";
   };
   profiles.extract = {
     arch_packages = "aarch64_cortex-a53";
@@ -154,11 +154,11 @@
     };
   };
   kmods."6.12.67-1-b13cfb6f95544b1b1d288a783f6e652f" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/qualcommax/ipq50xx/kmods/6.12.67-1-b13cfb6f95544b1b1d288a783f6e652f/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq50xx/kmods/6.12.67-1-b13cfb6f95544b1b1d288a783f6e652f/";
     sourceInfo = {
       hash = "sha256-6EbsuYFOv9itL1ghf7NE6nMIw5lgFOlQagKDbuA5rXs=";
       name = "kmods-qualcommax_ipq50xx-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/qualcommax/ipq50xx/kmods/6.12.67-1-b13cfb6f95544b1b1d288a783f6e652f/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq50xx/kmods/6.12.67-1-b13cfb6f95544b1b1d288a783f6e652f/packages.adb";
     };
     packages =
       let
@@ -167,11 +167,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/qualcommax/ipq50xx/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq50xx/packages/";
     sourceInfo = {
       hash = "sha256-loSVN27dLGyj3NlvfX4s4MWR9013ubN1ns3cg6UK1aE=";
       name = "qualcommax_ipq50xx-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/qualcommax/ipq50xx/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq50xx/packages/packages.adb";
     };
     packages =
       let

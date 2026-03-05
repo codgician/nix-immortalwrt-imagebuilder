@@ -1,10 +1,10 @@
 # 23.05.7 bcm47xx/mips74k
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/bcm47xx/mips74k/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/bcm47xx/mips74k/";
   sha256sums = {
     hash = "sha256-SoFxYqk+kLYnb3254QlWD0gJ1zhBFJu4kQL3tCkg0MU=";
     name = "bcm47xx_mips74k-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/bcm47xx/mips74k/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/bcm47xx/mips74k/sha256sums";
   };
   imagebuilder = {
     sha256 = "ff14a85f4b2f3f5195a26702ce8922677177b2c72370c601d1149522c8e00518";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-vHVlIs7P8KMck95LQ6xwC7NR4ha8lG+OJBzOBtckHmk=";
     name = "bcm47xx_mips74k-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/bcm47xx/mips74k/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/bcm47xx/mips74k/profiles.json";
   };
   profiles.extract = {
     arch_packages = "mipsel_74kc";
@@ -212,11 +212,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/bcm47xx/mips74k/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/bcm47xx/mips74k/packages/";
     sourceInfo = {
       hash = "sha256-iCWZMEnTHjEKPB/FA6L4vCwV3IcbnMaopep4NQv/7SI=";
       name = "bcm47xx_mips74k-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/bcm47xx/mips74k/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/bcm47xx/mips74k/packages/Packages";
     };
     packages =
       let

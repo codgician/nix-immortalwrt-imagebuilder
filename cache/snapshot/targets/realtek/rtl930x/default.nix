@@ -1,10 +1,10 @@
 # snapshot realtek/rtl930x
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/realtek/rtl930x/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x/";
   sha256sums = {
     hash = "sha256-/QXUIQH1ylNDz7m03c9ljRJ46zHyR8Nrm9g0g0ULl6w=";
     name = "realtek_rtl930x-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/realtek/rtl930x/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x/sha256sums";
   };
   imagebuilder = {
     sha256 = "744d6ec255c52a51bc6ca6bbe327540abdbc9fba733a0520633790ff3ebdb3c4";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-fQ3GYxGJodcI3y+5O4DC1/BUw7sC6jRgqTwmZiReZ6U=";
     name = "realtek_rtl930x-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/realtek/rtl930x/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x/profiles.json";
   };
   profiles.extract = {
     arch_packages = "mips_24kc";
@@ -101,11 +101,11 @@
     };
   };
   kmods."6.12.67-1-08a4cee5c70f9f2da5045ad6f19a0dfb" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/realtek/rtl930x/kmods/6.12.67-1-08a4cee5c70f9f2da5045ad6f19a0dfb/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x/kmods/6.12.67-1-08a4cee5c70f9f2da5045ad6f19a0dfb/";
     sourceInfo = {
       hash = "sha256-Im/6JnF/MahYHPeAfbxUA5UbWfmON/T1rEq/r6HgiRI=";
       name = "kmods-realtek_rtl930x-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/realtek/rtl930x/kmods/6.12.67-1-08a4cee5c70f9f2da5045ad6f19a0dfb/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x/kmods/6.12.67-1-08a4cee5c70f9f2da5045ad6f19a0dfb/packages.adb";
     };
     packages =
       let
@@ -114,11 +114,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/realtek/rtl930x/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x/packages/";
     sourceInfo = {
       hash = "sha256-mjCunVs9+CKMlVWBbJIKdyMimBuIXi0iqHMuLeEKlmA=";
       name = "realtek_rtl930x-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/realtek/rtl930x/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x/packages/packages.adb";
     };
     packages =
       let

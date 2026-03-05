@@ -1,16 +1,16 @@
 # 21.02.7 zynq/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/zynq/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/zynq/generic/";
   sha256sums = {
     hash = "sha256-pOhL90Y2tQgZjl7nKYOF2D3IE33hCZK671G6/n7zDLE=";
     name = "zynq_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/zynq/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/zynq/generic/sha256sums";
   };
   imagebuilder = null;
   profiles.sourceInfo = {
     hash = "sha256-zP5RJyhB6+XwywCJ50GQOFvouQZFOrdA1aOgfpHSpHY=";
     name = "zynq_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/zynq/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/zynq/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_cortex-a9_neon";
@@ -77,11 +77,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/zynq/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/zynq/generic/packages/";
     sourceInfo = {
       hash = "sha256-Pkxv3FF6Z/glOZ7NoIUpuE3xedFv2IZdriJzGxrbgeU=";
       name = "zynq_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/zynq/generic/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/zynq/generic/packages/Packages";
     };
     packages =
       let

@@ -1,10 +1,10 @@
 # 24.10.5 ath79/tiny
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ath79/tiny/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ath79/tiny/";
   sha256sums = {
     hash = "sha256-YCR2hzVSBI3vjLxtfEqksMPKOFz6ESo8WZ19QU9Jlo4=";
     name = "ath79_tiny-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ath79/tiny/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ath79/tiny/sha256sums";
   };
   imagebuilder = {
     sha256 = "9c6be7689edcf0da11a7dd92046ce8e4b27deea51541290b79640f4c2714f7c5";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-WiGm91PQ/1JGFEfAifJXT5qTWb179wyatpid5vguFmo=";
     name = "ath79_tiny-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ath79/tiny/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ath79/tiny/profiles.json";
   };
   profiles.extract = {
     arch_packages = "mips_24kc";
@@ -110,11 +110,11 @@
     };
   };
   kmods."6.6.122-1-49955d6322506d9232d887e0d1585154" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ath79/tiny/kmods/6.6.122-1-49955d6322506d9232d887e0d1585154/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ath79/tiny/kmods/6.6.122-1-49955d6322506d9232d887e0d1585154/";
     sourceInfo = {
       hash = "sha256-HedfdwdTAC9KwUXRdp8RfbXQizgYjQcOHycRfg60aKQ=";
       name = "kmods-ath79_tiny-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ath79/tiny/kmods/6.6.122-1-49955d6322506d9232d887e0d1585154/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ath79/tiny/kmods/6.6.122-1-49955d6322506d9232d887e0d1585154/Packages";
     };
     packages =
       let
@@ -123,11 +123,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ath79/tiny/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ath79/tiny/packages/";
     sourceInfo = {
       hash = "sha256-Spb8zdkhYpdfMh4vOsGYXM5IuoGap916fAvK3fErw6I=";
       name = "ath79_tiny-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ath79/tiny/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ath79/tiny/packages/Packages";
     };
     packages =
       let

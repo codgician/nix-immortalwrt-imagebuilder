@@ -1,10 +1,10 @@
 # 24.10.5 mvebu/cortexa53
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/mvebu/cortexa53/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/mvebu/cortexa53/";
   sha256sums = {
     hash = "sha256-gcq7TvvQGd1EQgf4Q5CoUJom02r14bXvF8tQkuWR5Uk=";
     name = "mvebu_cortexa53-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/mvebu/cortexa53/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/mvebu/cortexa53/sha256sums";
   };
   imagebuilder = {
     sha256 = "e8d960de4fda8f055084fb0ec90d9c6495f70c0bfe8a45c492fea345cfa3e62e";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-oY0rDUaPxKpsrwxNrtZQiFI62Aghr9rH5fv5x2mUFLs=";
     name = "mvebu_cortexa53-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/mvebu/cortexa53/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/mvebu/cortexa53/profiles.json";
   };
   profiles.extract = {
     arch_packages = "aarch64_cortex-a53";
@@ -109,11 +109,11 @@
     };
   };
   kmods."6.6.122-1-cad8e44b7f4b219fb97507e8283023e2" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/mvebu/cortexa53/kmods/6.6.122-1-cad8e44b7f4b219fb97507e8283023e2/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/mvebu/cortexa53/kmods/6.6.122-1-cad8e44b7f4b219fb97507e8283023e2/";
     sourceInfo = {
       hash = "sha256-CJJCXRgN1LBivzVVtc5g+I9W38KEBssJ+fAFmgwIa3w=";
       name = "kmods-mvebu_cortexa53-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/mvebu/cortexa53/kmods/6.6.122-1-cad8e44b7f4b219fb97507e8283023e2/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/mvebu/cortexa53/kmods/6.6.122-1-cad8e44b7f4b219fb97507e8283023e2/Packages";
     };
     packages =
       let
@@ -122,11 +122,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/mvebu/cortexa53/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/mvebu/cortexa53/packages/";
     sourceInfo = {
       hash = "sha256-V/ekL+pKPM80sXCdXmbMcihD/WkXat7JHnChW0az/zU=";
       name = "mvebu_cortexa53-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/mvebu/cortexa53/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/mvebu/cortexa53/packages/Packages";
     };
     packages =
       let

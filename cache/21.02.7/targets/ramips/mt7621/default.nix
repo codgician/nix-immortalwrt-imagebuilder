@@ -1,10 +1,10 @@
 # 21.02.7 ramips/mt7621
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/ramips/mt7621/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/ramips/mt7621/";
   sha256sums = {
     hash = "sha256-WrUR0oLsAhJ04UJN+xGRVJi8cV4aP3A1Ewrqkxeac0U=";
     name = "ramips_mt7621-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/ramips/mt7621/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/ramips/mt7621/sha256sums";
   };
   imagebuilder = {
     sha256 = "47f14c7f5026261f929da395ebacc5d6c850317869b2e56469f5626ae8c80749";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-MwPErlf6DOXgqaLwWMlMqZiaEd9WuFHJXc3nuPyM1eU=";
     name = "ramips_mt7621-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/ramips/mt7621/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/ramips/mt7621/profiles.json";
   };
   profiles.extract = {
     arch_packages = "mipsel_24kc";
@@ -1078,11 +1078,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/ramips/mt7621/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/ramips/mt7621/packages/";
     sourceInfo = {
       hash = "sha256-58Q1coAp4J73DVWOgnp02BUDA8cwUFRYcy3QBy0fxGk=";
       name = "ramips_mt7621-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/ramips/mt7621/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/ramips/mt7621/packages/Packages";
     };
     packages =
       let

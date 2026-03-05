@@ -1,10 +1,10 @@
 # snapshot mvebu/cortexa9
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/mvebu/cortexa9/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mvebu/cortexa9/";
   sha256sums = {
     hash = "sha256-v5yLzJ+jzDXq9IfSADfW3sm+rYV4XnGDy/qUqvHqhYk=";
     name = "mvebu_cortexa9-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/mvebu/cortexa9/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/mvebu/cortexa9/sha256sums";
   };
   imagebuilder = {
     sha256 = "a0d8026f30f63500d3f0d7a183ed1ab475c0b20a894416f4467b62e9a06882db";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-ooGfop/chjxaN9D7EFEesVxu5uMn3su+1mk/lnvnwNA=";
     name = "mvebu_cortexa9-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/mvebu/cortexa9/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/mvebu/cortexa9/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_cortex-a9_vfpv3-d16";
@@ -324,11 +324,11 @@
     };
   };
   kmods."6.12.67-1-9bc5eeef79672618f332c8df9e82dfc5" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/mvebu/cortexa9/kmods/6.12.67-1-9bc5eeef79672618f332c8df9e82dfc5/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mvebu/cortexa9/kmods/6.12.67-1-9bc5eeef79672618f332c8df9e82dfc5/";
     sourceInfo = {
       hash = "sha256-k8OEQz6hBO0RGj1T4hTxQVDgJAgeaH5toG51Ikq7bUk=";
       name = "kmods-mvebu_cortexa9-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/mvebu/cortexa9/kmods/6.12.67-1-9bc5eeef79672618f332c8df9e82dfc5/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/mvebu/cortexa9/kmods/6.12.67-1-9bc5eeef79672618f332c8df9e82dfc5/packages.adb";
     };
     packages =
       let
@@ -337,11 +337,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/mvebu/cortexa9/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mvebu/cortexa9/packages/";
     sourceInfo = {
       hash = "sha256-Z92oDr7Rlu5CxkDOAT8x31dP/fX6nqrYhYwUbS/JLMg=";
       name = "mvebu_cortexa9-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/mvebu/cortexa9/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/mvebu/cortexa9/packages/packages.adb";
     };
     packages =
       let

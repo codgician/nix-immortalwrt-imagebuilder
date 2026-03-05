@@ -1,10 +1,10 @@
 # 23.05.7 ipq807x/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/ipq807x/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/ipq807x/generic/";
   sha256sums = {
     hash = "sha256-ugJVMNsbj4f5icoa7akXoaP4cVd/AdunlJoKUy8XiuI=";
     name = "ipq807x_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/ipq807x/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/ipq807x/generic/sha256sums";
   };
   imagebuilder = {
     sha256 = "293c1590b92bededed62c780f1b557aed7f64a152f1f16a5820b0935f871e434";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-/f5/qJ2CVlYO6S0WFv9fXJ5IMDaUOh2+7CTRG08pynI=";
     name = "ipq807x_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/ipq807x/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/ipq807x/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "aarch64_cortex-a53";
@@ -175,11 +175,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/ipq807x/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/ipq807x/generic/packages/";
     sourceInfo = {
       hash = "sha256-6XtnGr/Nak3Dwt35irWmJR9FhKN0bXcwhnLDIKvhPKQ=";
       name = "ipq807x_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/ipq807x/generic/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/ipq807x/generic/packages/Packages";
     };
     packages =
       let

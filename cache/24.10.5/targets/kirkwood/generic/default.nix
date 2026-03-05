@@ -1,10 +1,10 @@
 # 24.10.5 kirkwood/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/kirkwood/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/kirkwood/generic/";
   sha256sums = {
     hash = "sha256-dwTIpKQO0ZHUDWXw8O3cpy29lDZMrTcBav5gpUNKkH4=";
     name = "kirkwood_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/kirkwood/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/kirkwood/generic/sha256sums";
   };
   imagebuilder = {
     sha256 = "5f5d64566072a0216c32600fcfd32c12ea96d2f9cde0ee41285f096810e589b7";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-cgmPL/hXuvqqcbel5H7wYwo59v4BbiA17E11ey0plY8=";
     name = "kirkwood_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/kirkwood/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/kirkwood/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_xscale";
@@ -275,11 +275,11 @@
     };
   };
   kmods."6.6.122-1-e27b405211974d66d8cbccb967ab08ce" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/kirkwood/generic/kmods/6.6.122-1-e27b405211974d66d8cbccb967ab08ce/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/kirkwood/generic/kmods/6.6.122-1-e27b405211974d66d8cbccb967ab08ce/";
     sourceInfo = {
       hash = "sha256-CkcjSSXdRCvfJHWZrc52lLgeTAsoHi2I8s1YWgI859o=";
       name = "kmods-kirkwood_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/kirkwood/generic/kmods/6.6.122-1-e27b405211974d66d8cbccb967ab08ce/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/kirkwood/generic/kmods/6.6.122-1-e27b405211974d66d8cbccb967ab08ce/Packages";
     };
     packages =
       let
@@ -288,11 +288,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/kirkwood/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/kirkwood/generic/packages/";
     sourceInfo = {
       hash = "sha256-rKTvjyfBpRJq3+jU4B48ei44MrzZYxHIb/I6ukzulz8=";
       name = "kirkwood_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/kirkwood/generic/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/kirkwood/generic/packages/Packages";
     };
     packages =
       let

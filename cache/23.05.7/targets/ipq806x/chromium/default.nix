@@ -1,10 +1,10 @@
 # 23.05.7 ipq806x/chromium
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/ipq806x/chromium/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/ipq806x/chromium/";
   sha256sums = {
     hash = "sha256-WH4qGayvSqpwtGYCKgjeogrbWqkj0vEoXyqoatquK5s=";
     name = "ipq806x_chromium-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/ipq806x/chromium/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/ipq806x/chromium/sha256sums";
   };
   imagebuilder = {
     sha256 = "df5caaf10a3931b7ddf0c9d90deda1a02051259e9db59b966819dd17298fd4d8";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-lXZjZlhgt3XsZQ0MBAgynBD/DVo2DczjUWObbj+Bo0g=";
     name = "ipq806x_chromium-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/ipq806x/chromium/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/ipq806x/chromium/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_cortex-a15_neon-vfpv4";
@@ -116,11 +116,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/ipq806x/chromium/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/ipq806x/chromium/packages/";
     sourceInfo = {
       hash = "sha256-RehmVq8Qwp1m2WusolGNNAy9Zu8iLvLgT6Y6Ki3Io7E=";
       name = "ipq806x_chromium-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/ipq806x/chromium/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/ipq806x/chromium/packages/Packages";
     };
     packages =
       let

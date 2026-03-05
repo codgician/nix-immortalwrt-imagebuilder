@@ -1,10 +1,10 @@
 # snapshot bcm47xx/mips74k
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/bcm47xx/mips74k/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/bcm47xx/mips74k/";
   sha256sums = {
     hash = "sha256-TwmTbbBHIzsvy2R2s6x2SbtimOGZgZSjD/wAqKhg/K4=";
     name = "bcm47xx_mips74k-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/bcm47xx/mips74k/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/bcm47xx/mips74k/sha256sums";
   };
   imagebuilder = {
     sha256 = "7c21094a913c20cb1ffe6f1e84fc672c2e3d3e28c8820f582c060321afb81b9a";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-v9GRDq7EvBv4nWuhKQwmcLKYSsvIQ5Unqvai+YdMQqM=";
     name = "bcm47xx_mips74k-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/bcm47xx/mips74k/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/bcm47xx/mips74k/profiles.json";
   };
   profiles.extract = {
     arch_packages = "mipsel_74kc";
@@ -200,11 +200,11 @@
     };
   };
   kmods."6.12.67-1-b1165fc806a57265d433ea202cda15d3" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/bcm47xx/mips74k/kmods/6.12.67-1-b1165fc806a57265d433ea202cda15d3/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/bcm47xx/mips74k/kmods/6.12.67-1-b1165fc806a57265d433ea202cda15d3/";
     sourceInfo = {
       hash = "sha256-YZ86CtwQB0KCPlfV0SQFqkd+K5dfkxjStDw0znH4Bq0=";
       name = "kmods-bcm47xx_mips74k-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/bcm47xx/mips74k/kmods/6.12.67-1-b1165fc806a57265d433ea202cda15d3/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/bcm47xx/mips74k/kmods/6.12.67-1-b1165fc806a57265d433ea202cda15d3/packages.adb";
     };
     packages =
       let
@@ -213,11 +213,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/bcm47xx/mips74k/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/bcm47xx/mips74k/packages/";
     sourceInfo = {
       hash = "sha256-7sdef1Luo2ikPv2PYeNMEv6YRinDTUGI+tbri6B0kYA=";
       name = "bcm47xx_mips74k-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/bcm47xx/mips74k/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/bcm47xx/mips74k/packages/packages.adb";
     };
     packages =
       let

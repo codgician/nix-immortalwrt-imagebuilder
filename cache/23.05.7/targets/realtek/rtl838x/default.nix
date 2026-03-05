@@ -1,10 +1,10 @@
 # 23.05.7 realtek/rtl838x
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/realtek/rtl838x/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/realtek/rtl838x/";
   sha256sums = {
     hash = "sha256-Hj8ywnrTSTB0rUk9VvRbKzEUkWJZl0bCyE8yaSzIV9Y=";
     name = "realtek_rtl838x-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/realtek/rtl838x/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/realtek/rtl838x/sha256sums";
   };
   imagebuilder = {
     sha256 = "b2876e560932564e3422f965cea452f9b630e37b87054347472a782e1c7e3ffa";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-gDO0twNYUJIm9hXE0sXj8fqO6IRErACllE2kma5cpVs=";
     name = "realtek_rtl838x-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/realtek/rtl838x/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/realtek/rtl838x/profiles.json";
   };
   profiles.extract = {
     arch_packages = "mips_4kec";
@@ -169,11 +169,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/realtek/rtl838x/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/realtek/rtl838x/packages/";
     sourceInfo = {
       hash = "sha256-TWWl2ZxjWgvy48XNV6gEvnsBPD8VnmIUtlu/T8l12jM=";
       name = "realtek_rtl838x-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/realtek/rtl838x/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/realtek/rtl838x/packages/Packages";
     };
     packages =
       let

@@ -1,10 +1,10 @@
 # snapshot ixp4xx/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ixp4xx/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ixp4xx/generic/";
   sha256sums = {
     hash = "sha256-p5srCg/YDiTrxI8mvKBbk/JrD1HcZ9fKc9fOmbFbokI=";
     name = "ixp4xx_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ixp4xx/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/ixp4xx/generic/sha256sums";
   };
   imagebuilder = {
     sha256 = "eeebd4e88a305c1731fd7596fd423e66fe0a12794a89baec0a809a5adbc0701b";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-E1pzm7ovVZLkHUOSOfyEAXR8xNnSXhQV8sg4WKncJwo=";
     name = "ixp4xx_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ixp4xx/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/ixp4xx/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "armeb_xscale";
@@ -98,11 +98,11 @@
     };
   };
   kmods."6.12.67-1-ea8634f2ca469a931ead3e0e1e8b9221" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ixp4xx/generic/kmods/6.12.67-1-ea8634f2ca469a931ead3e0e1e8b9221/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ixp4xx/generic/kmods/6.12.67-1-ea8634f2ca469a931ead3e0e1e8b9221/";
     sourceInfo = {
       hash = "sha256-FJP4+C+v+8/clsk43du8MzLUOllVeYjzFSL5u3XEygg=";
       name = "kmods-ixp4xx_generic-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ixp4xx/generic/kmods/6.12.67-1-ea8634f2ca469a931ead3e0e1e8b9221/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/ixp4xx/generic/kmods/6.12.67-1-ea8634f2ca469a931ead3e0e1e8b9221/packages.adb";
     };
     packages =
       let
@@ -111,11 +111,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ixp4xx/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ixp4xx/generic/packages/";
     sourceInfo = {
       hash = "sha256-RhgtadXAt2arjQlLYJlxUCEt7ye7eWJM6x95LjTaNCI=";
       name = "ixp4xx_generic-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ixp4xx/generic/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/ixp4xx/generic/packages/packages.adb";
     };
     packages =
       let

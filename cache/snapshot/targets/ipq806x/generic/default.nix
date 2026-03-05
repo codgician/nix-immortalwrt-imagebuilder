@@ -1,10 +1,10 @@
 # snapshot ipq806x/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ipq806x/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ipq806x/generic/";
   sha256sums = {
     hash = "sha256-NvSZq9pTMtCUzI24vzaca0tG7ufYD1kEIPWzvUOIz5E=";
     name = "ipq806x_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ipq806x/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/ipq806x/generic/sha256sums";
   };
   imagebuilder = {
     sha256 = "27d83c48306de32fcc3414e3890349193e558a6f163c02a20d71f3f1bd46d5fc";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-exmbPclJduI0Ut2xlfnrgoTSTTKlHc5ImFkpFXDQ1f0=";
     name = "ipq806x_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ipq806x/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/ipq806x/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_cortex-a15_neon-vfpv4";
@@ -257,11 +257,11 @@
     };
   };
   kmods."6.12.67-1-ed5b1e185764c8ac8568448bf263c7a5" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ipq806x/generic/kmods/6.12.67-1-ed5b1e185764c8ac8568448bf263c7a5/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ipq806x/generic/kmods/6.12.67-1-ed5b1e185764c8ac8568448bf263c7a5/";
     sourceInfo = {
       hash = "sha256-hyG9yYNk2KjhFB09JZVfrkfiT2sAWWK6XFPtckPZduk=";
       name = "kmods-ipq806x_generic-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ipq806x/generic/kmods/6.12.67-1-ed5b1e185764c8ac8568448bf263c7a5/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/ipq806x/generic/kmods/6.12.67-1-ed5b1e185764c8ac8568448bf263c7a5/packages.adb";
     };
     packages =
       let
@@ -270,11 +270,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ipq806x/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ipq806x/generic/packages/";
     sourceInfo = {
       hash = "sha256-/hhk7jdL6lDuAzFAlBfF4IuagwG1rRBQ9xiiyLDAXuQ=";
       name = "ipq806x_generic-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ipq806x/generic/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/ipq806x/generic/packages/packages.adb";
     };
     packages =
       let

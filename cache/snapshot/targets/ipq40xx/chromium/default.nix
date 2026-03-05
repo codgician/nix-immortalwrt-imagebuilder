@@ -1,10 +1,10 @@
 # snapshot ipq40xx/chromium
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ipq40xx/chromium/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/chromium/";
   sha256sums = {
     hash = "sha256-OwRIigqQ1GrPq38oh+e9+Ik9ws0e4d6gfo1M0fLHdoc=";
     name = "ipq40xx_chromium-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ipq40xx/chromium/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/chromium/sha256sums";
   };
   imagebuilder = {
     sha256 = "21b00e96f6a6f2856b0b0e7c80a7471f38a7d13f409d5739511169ec427652db";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-Gd/IZLp5+kJ+3u+hKSBNZRg9YQz+HWnlQsYH7lRq8nU=";
     name = "ipq40xx_chromium-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ipq40xx/chromium/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/chromium/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_cortex-a7_neon-vfpv4";
@@ -76,11 +76,11 @@
     };
   };
   kmods."6.12.67-1-536ea06107db6caac60219caf6423b9a" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ipq40xx/chromium/kmods/6.12.67-1-536ea06107db6caac60219caf6423b9a/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/chromium/kmods/6.12.67-1-536ea06107db6caac60219caf6423b9a/";
     sourceInfo = {
       hash = "sha256-rObBFdUoi/ChIzCBNVIIndKvvVr2D9YotdqSZ/tGn4c=";
       name = "kmods-ipq40xx_chromium-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ipq40xx/chromium/kmods/6.12.67-1-536ea06107db6caac60219caf6423b9a/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/chromium/kmods/6.12.67-1-536ea06107db6caac60219caf6423b9a/packages.adb";
     };
     packages =
       let
@@ -89,11 +89,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ipq40xx/chromium/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/chromium/packages/";
     sourceInfo = {
       hash = "sha256-WjBh1d/hAPYciB1yI+cOelZMYOwvqdL9YISLXtJ3BwY=";
       name = "ipq40xx_chromium-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ipq40xx/chromium/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/chromium/packages/packages.adb";
     };
     packages =
       let

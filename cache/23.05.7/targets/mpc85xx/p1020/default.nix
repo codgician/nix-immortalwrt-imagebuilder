@@ -1,10 +1,10 @@
 # 23.05.7 mpc85xx/p1020
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/mpc85xx/p1020/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/mpc85xx/p1020/";
   sha256sums = {
     hash = "sha256-rStSlHxps4gu15dZ+R9x2oAAaSJPYktIg3pJ3DM0S0U=";
     name = "mpc85xx_p1020-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/mpc85xx/p1020/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/mpc85xx/p1020/sha256sums";
   };
   imagebuilder = {
     sha256 = "972661c246e276087d0ad1f6fa1d2f3c74b100c0f2d5211df501d64979c31a4e";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-i/CrVKYzNl0SQ94LfKTO//7E8YHh8wWNaBLDIIot4MQ=";
     name = "mpc85xx_p1020-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/mpc85xx/p1020/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/mpc85xx/p1020/profiles.json";
   };
   profiles.extract = {
     arch_packages = "powerpc_8548";
@@ -95,11 +95,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/mpc85xx/p1020/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/mpc85xx/p1020/packages/";
     sourceInfo = {
       hash = "sha256-oZIZDC28hsJD3YYNPFkXPVTQXWIltUvCklVtZouKo1M=";
       name = "mpc85xx_p1020-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/mpc85xx/p1020/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/mpc85xx/p1020/packages/Packages";
     };
     packages =
       let

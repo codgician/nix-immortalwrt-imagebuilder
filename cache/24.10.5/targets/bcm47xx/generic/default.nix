@@ -1,10 +1,10 @@
 # 24.10.5 bcm47xx/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/bcm47xx/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/bcm47xx/generic/";
   sha256sums = {
     hash = "sha256-+qhGLBtc0nVABLpQFEYO9bZl6nWiWsXbw3lfOAVQSZM=";
     name = "bcm47xx_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/bcm47xx/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/bcm47xx/generic/sha256sums";
   };
   imagebuilder = {
     sha256 = "4c397d31322ff0045683a66125f1157e5dd68b8e98c1b98a368dd28525514c81";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-I+JsGwnX9fyAq4QyzJ/VBffx2MPoYq5/qMJWRj41EGk=";
     name = "bcm47xx_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/bcm47xx/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/bcm47xx/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "mipsel_mips32";
@@ -99,11 +99,11 @@
     };
   };
   kmods."6.6.122-1-b84c44fc2685f5e6070321690b155431" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/bcm47xx/generic/kmods/6.6.122-1-b84c44fc2685f5e6070321690b155431/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/bcm47xx/generic/kmods/6.6.122-1-b84c44fc2685f5e6070321690b155431/";
     sourceInfo = {
       hash = "sha256-v7wWgvfbYDZmWn5DVFFH4JDO/mbLrE6GnSHJO1mR51c=";
       name = "kmods-bcm47xx_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/bcm47xx/generic/kmods/6.6.122-1-b84c44fc2685f5e6070321690b155431/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/bcm47xx/generic/kmods/6.6.122-1-b84c44fc2685f5e6070321690b155431/Packages";
     };
     packages =
       let
@@ -112,11 +112,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/bcm47xx/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/bcm47xx/generic/packages/";
     sourceInfo = {
       hash = "sha256-Tmmnh4z1+bM7ateP/8kIFXNVnm52MYmkC3PHn3v72+0=";
       name = "bcm47xx_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/bcm47xx/generic/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/bcm47xx/generic/packages/Packages";
     };
     packages =
       let

@@ -1,10 +1,10 @@
 # snapshot loongarch64/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/loongarch64/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/loongarch64/generic/";
   sha256sums = {
     hash = "sha256-UoEuF6oWd0JKTB7EiW8TRAfRc8WxNWBqFFIABcYhxgM=";
     name = "loongarch64_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/loongarch64/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/loongarch64/generic/sha256sums";
   };
   imagebuilder = {
     sha256 = "21408abe51d28363272b7ac127dfab4a6d9fdf3e6dce6b048ba9fa0e4f484e38";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-cMui1V7pkveRJr+XN6yWgShRTk++goVPWOvl8jE7GnA=";
     name = "loongarch64_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/loongarch64/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/loongarch64/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "loongarch64_generic";
@@ -64,11 +64,11 @@
     };
   };
   kmods."6.12.67-1-7d011e74f3e72902aabc48ace5724e3d" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/loongarch64/generic/kmods/6.12.67-1-7d011e74f3e72902aabc48ace5724e3d/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/loongarch64/generic/kmods/6.12.67-1-7d011e74f3e72902aabc48ace5724e3d/";
     sourceInfo = {
       hash = "sha256-l3wiLAtsPvRuQngjD0UQEpw427LJLjED6dMHkoCeHM4=";
       name = "kmods-loongarch64_generic-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/loongarch64/generic/kmods/6.12.67-1-7d011e74f3e72902aabc48ace5724e3d/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/loongarch64/generic/kmods/6.12.67-1-7d011e74f3e72902aabc48ace5724e3d/packages.adb";
     };
     packages =
       let
@@ -77,11 +77,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/loongarch64/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/loongarch64/generic/packages/";
     sourceInfo = {
       hash = "sha256-7HJNkFuUrsqvk7evBoOGiRfDjSV55V4w4RNEmw2TFO0=";
       name = "loongarch64_generic-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/loongarch64/generic/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/loongarch64/generic/packages/packages.adb";
     };
     packages =
       let

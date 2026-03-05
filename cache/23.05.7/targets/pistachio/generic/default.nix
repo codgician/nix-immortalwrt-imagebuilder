@@ -1,10 +1,10 @@
 # 23.05.7 pistachio/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/pistachio/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/pistachio/generic/";
   sha256sums = {
     hash = "sha256-XjEQkZIQR0vQANYX/RU5KdEcoJLZMTg/JKGlV6Lfzig=";
     name = "pistachio_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/pistachio/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/pistachio/generic/sha256sums";
   };
   imagebuilder = {
     sha256 = "65c753705bf06393f5eb9695f01d5d0129d5a2fc50258acf1d193aca9458f6ec";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-FAj2giKxkBvUpnJ2tmYBRyTgKQXoMMAxoTFRu+Sv5TI=";
     name = "pistachio_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/pistachio/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/pistachio/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "mipsel_24kc_24kf";
@@ -74,11 +74,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/pistachio/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/pistachio/generic/packages/";
     sourceInfo = {
       hash = "sha256-YD+sOBbkHjFJAhIb9GPDe1t/4cbv487bZ3+Z0rucrO8=";
       name = "pistachio_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/pistachio/generic/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/pistachio/generic/packages/Packages";
     };
     packages =
       let

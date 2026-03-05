@@ -1,10 +1,10 @@
 # 23.05.7 sifiveu/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/sifiveu/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/sifiveu/generic/";
   sha256sums = {
     hash = "sha256-9arxzDBYy4ALcmIOl9YYa3MA0phRoy8FNiCUMHymrAU=";
     name = "sifiveu_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/sifiveu/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/sifiveu/generic/sha256sums";
   };
   imagebuilder = {
     sha256 = "9e3f55c12888a666fdc03e2834e8c25b2c11742807b20db8d6a81be76e739221";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-gbWp+b/axJDUYL6ib4X9MTsadls0OIHmctaL+XSOo+c=";
     name = "sifiveu_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/sifiveu/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/sifiveu/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "riscv64_riscv64";
@@ -73,11 +73,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/sifiveu/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/sifiveu/generic/packages/";
     sourceInfo = {
       hash = "sha256-DsXMx46cCbSDx7cpL6I4s9BIpLzsYaGDUUjcBHTl6nc=";
       name = "sifiveu_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/sifiveu/generic/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/sifiveu/generic/packages/Packages";
     };
     packages =
       let

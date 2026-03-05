@@ -1,10 +1,10 @@
 # 24.10.5 octeon/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/octeon/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/octeon/generic/";
   sha256sums = {
     hash = "sha256-H0WF0cEFyN9zXGn59HQSCU62cAUzc2RKUeilIyuguOQ=";
     name = "octeon_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/octeon/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/octeon/generic/sha256sums";
   };
   imagebuilder = {
     sha256 = "88d82647846f64cadda6f4e3a7f7ed285e1200bc8ed7c88bb22e42f437b5b2b1";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-INg5OZ+zfxVYR7Cs6lNVfSdLW5PfpBaFOawys0Uuax4=";
     name = "octeon_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/octeon/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/octeon/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "mips64_octeonplus";
@@ -119,11 +119,11 @@
     };
   };
   kmods."6.6.122-1-751e3894f4de2a041cf8e701e8a82a47" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/octeon/generic/kmods/6.6.122-1-751e3894f4de2a041cf8e701e8a82a47/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/octeon/generic/kmods/6.6.122-1-751e3894f4de2a041cf8e701e8a82a47/";
     sourceInfo = {
       hash = "sha256-RUNs2HwPSXs4f/ETn28rt+qSOTegc5FGXeYXEkfJt9s=";
       name = "kmods-octeon_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/octeon/generic/kmods/6.6.122-1-751e3894f4de2a041cf8e701e8a82a47/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/octeon/generic/kmods/6.6.122-1-751e3894f4de2a041cf8e701e8a82a47/Packages";
     };
     packages =
       let
@@ -132,11 +132,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/octeon/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/octeon/generic/packages/";
     sourceInfo = {
       hash = "sha256-5o2jkX77d3jNM02RI4Fwshne1A8eo0dBuMqNOGjGCEo=";
       name = "octeon_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/octeon/generic/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/octeon/generic/packages/Packages";
     };
     packages =
       let

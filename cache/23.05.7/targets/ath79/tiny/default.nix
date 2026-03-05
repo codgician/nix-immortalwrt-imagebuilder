@@ -1,10 +1,10 @@
 # 23.05.7 ath79/tiny
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/ath79/tiny/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/ath79/tiny/";
   sha256sums = {
     hash = "sha256-vedZj06nYaUPfCstvxJfksvp9sSclmtUrV3EAfTobSE=";
     name = "ath79_tiny-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/ath79/tiny/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/ath79/tiny/sha256sums";
   };
   imagebuilder = {
     sha256 = "4ee468203f6bf16110710da213586d33c53c9a5da3cfb8cd15f159a17efbf2ad";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-3UA3LEmACyr8oQ2J+UwQgAeRywJNwZPHLisnPS0wtek=";
     name = "ath79_tiny-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/ath79/tiny/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/ath79/tiny/profiles.json";
   };
   profiles.extract = {
     arch_packages = "mips_24kc";
@@ -78,11 +78,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/ath79/tiny/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/ath79/tiny/packages/";
     sourceInfo = {
       hash = "sha256-8lLJPh1xR2m2wa1QAosah+wLZIAWOl/01+5Yx+bzPF0=";
       name = "ath79_tiny-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/ath79/tiny/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/ath79/tiny/packages/Packages";
     };
     packages =
       let

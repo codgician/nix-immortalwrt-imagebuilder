@@ -1,10 +1,10 @@
 # 24.10.5 layerscape/armv8_64b
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/layerscape/armv8_64b/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/layerscape/armv8_64b/";
   sha256sums = {
     hash = "sha256-pxuinDfWA/QVEnEbbdyflU+HG0l3vyWjPklUO8Kgssw=";
     name = "layerscape_armv8_64b-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/layerscape/armv8_64b/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/layerscape/armv8_64b/sha256sums";
   };
   imagebuilder = {
     sha256 = "aae6358d9c796c2c650d06a1f454a9792ceed657ccf171e7f6574614cc0fae4f";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-BR4GWJnib9BqTOXsnWnHXUvRGDVgjMV5MI5kDOasLl0=";
     name = "layerscape_armv8_64b-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/layerscape/armv8_64b/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/layerscape/armv8_64b/profiles.json";
   };
   profiles.extract = {
     arch_packages = "aarch64_generic";
@@ -174,11 +174,11 @@
     };
   };
   kmods."6.6.122-1-80d60e5e25c8b4f01df92769064a3bbe" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/layerscape/armv8_64b/kmods/6.6.122-1-80d60e5e25c8b4f01df92769064a3bbe/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/layerscape/armv8_64b/kmods/6.6.122-1-80d60e5e25c8b4f01df92769064a3bbe/";
     sourceInfo = {
       hash = "sha256-tbAKhy57x7qLcydu6H9AsCCsfx0kLLx6AL1sO/Wh5Nk=";
       name = "kmods-layerscape_armv8_64b-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/layerscape/armv8_64b/kmods/6.6.122-1-80d60e5e25c8b4f01df92769064a3bbe/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/layerscape/armv8_64b/kmods/6.6.122-1-80d60e5e25c8b4f01df92769064a3bbe/Packages";
     };
     packages =
       let
@@ -187,11 +187,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/layerscape/armv8_64b/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/layerscape/armv8_64b/packages/";
     sourceInfo = {
       hash = "sha256-Gv9JsZk2063VieJSJzmk3PvoWm6dpv1cvaULIyXOFWk=";
       name = "layerscape_armv8_64b-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/layerscape/armv8_64b/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/layerscape/armv8_64b/packages/Packages";
     };
     packages =
       let

@@ -1,10 +1,10 @@
 # snapshot ath79/nand
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ath79/nand/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ath79/nand/";
   sha256sums = {
     hash = "sha256-II9ZhVDKc6hSiD9wFEUPaMh2OC/+avLJKXHzto45FBM=";
     name = "ath79_nand-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ath79/nand/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/ath79/nand/sha256sums";
   };
   imagebuilder = {
     sha256 = "2052eccd269fd3a2d09458bdaba8e130720167cdb13e2df65aadb6b41a63791e";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-rLT5n2Jv4KYGOyoe6tIzHpsIGxqh+QeZPXt/Dy2UF+c=";
     name = "ath79_nand-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ath79/nand/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/ath79/nand/profiles.json";
   };
   profiles.extract = {
     arch_packages = "mips_24kc";
@@ -307,11 +307,11 @@
     };
   };
   kmods."6.12.67-1-2a20f0bbcd7ecec780e210007a307da6" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ath79/nand/kmods/6.12.67-1-2a20f0bbcd7ecec780e210007a307da6/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ath79/nand/kmods/6.12.67-1-2a20f0bbcd7ecec780e210007a307da6/";
     sourceInfo = {
       hash = "sha256-fyV74xmQtK6KdPrGZVmRWOnObi9N1Wh2LO7w8hcfvDg=";
       name = "kmods-ath79_nand-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ath79/nand/kmods/6.12.67-1-2a20f0bbcd7ecec780e210007a307da6/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/ath79/nand/kmods/6.12.67-1-2a20f0bbcd7ecec780e210007a307da6/packages.adb";
     };
     packages =
       let
@@ -320,11 +320,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ath79/nand/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ath79/nand/packages/";
     sourceInfo = {
       hash = "sha256-7UTg+4/YAshp8nCVLHlPaQX3NJ9yLYOvvF5kSMp9XPU=";
       name = "ath79_nand-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ath79/nand/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/ath79/nand/packages/packages.adb";
     };
     packages =
       let

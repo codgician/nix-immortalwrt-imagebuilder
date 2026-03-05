@@ -1,10 +1,10 @@
 # 21.02.7 ipq40xx/mikrotik
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/ipq40xx/mikrotik/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/ipq40xx/mikrotik/";
   sha256sums = {
     hash = "sha256-uFJ8uEwGkye5kRDTaqpV010iVCRZRqF0nSkGza5otZs=";
     name = "ipq40xx_mikrotik-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/ipq40xx/mikrotik/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/ipq40xx/mikrotik/sha256sums";
   };
   imagebuilder = {
     sha256 = "f2ee33a3da7fa131063a8eb0266f35d11d0df80e016128f900e66a2829ff9ec1";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-/XQIWoJYISSmUb82DzFHZYG0lX6C7+4pqzZ8TTHp8I8=";
     name = "ipq40xx_mikrotik-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/ipq40xx/mikrotik/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/ipq40xx/mikrotik/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_cortex-a7_neon-vfpv4";
@@ -86,11 +86,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/ipq40xx/mikrotik/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/ipq40xx/mikrotik/packages/";
     sourceInfo = {
       hash = "sha256-Oji9RKCjUMYYAavnhyVOs7EOtHsv5mMxgEXXfjTmW+E=";
       name = "ipq40xx_mikrotik-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/ipq40xx/mikrotik/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/ipq40xx/mikrotik/packages/Packages";
     };
     packages =
       let

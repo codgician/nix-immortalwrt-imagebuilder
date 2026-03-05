@@ -1,10 +1,10 @@
 # snapshot ath79/tiny
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ath79/tiny/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ath79/tiny/";
   sha256sums = {
     hash = "sha256-z+n64zm/Hreln368Tw9YjYjc9kEieif8lynRVCWmpYc=";
     name = "ath79_tiny-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ath79/tiny/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/ath79/tiny/sha256sums";
   };
   imagebuilder = {
     sha256 = "c9d284ccba56f515aded8c6567f9a26450c2c0d8b3777c0542e2ad01779ae4a1";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-zJQa4aAHY8GcnTqBJcezBgIRWrCp+7dTZN5oIMOqmcE=";
     name = "ath79_tiny-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ath79/tiny/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/ath79/tiny/profiles.json";
   };
   profiles.extract = {
     arch_packages = "mips_24kc";
@@ -133,11 +133,11 @@
     };
   };
   kmods."6.12.67-1-d7dc915836fda018291f5b1ead5b1c88" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ath79/tiny/kmods/6.12.67-1-d7dc915836fda018291f5b1ead5b1c88/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ath79/tiny/kmods/6.12.67-1-d7dc915836fda018291f5b1ead5b1c88/";
     sourceInfo = {
       hash = "sha256-PmkDImL7hCyJ+Nc84aOdWMG8rO7TZHjeFNkyw5QsLuI=";
       name = "kmods-ath79_tiny-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ath79/tiny/kmods/6.12.67-1-d7dc915836fda018291f5b1ead5b1c88/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/ath79/tiny/kmods/6.12.67-1-d7dc915836fda018291f5b1ead5b1c88/packages.adb";
     };
     packages =
       let
@@ -146,11 +146,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ath79/tiny/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ath79/tiny/packages/";
     sourceInfo = {
       hash = "sha256-PKGn/YieFGPcIdr9Phvd1OdNc5fhG/WkN3jBT6QWwRI=";
       name = "ath79_tiny-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ath79/tiny/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/ath79/tiny/packages/packages.adb";
     };
     packages =
       let

@@ -1,10 +1,10 @@
 # snapshot rockchip/armv8
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/rockchip/armv8/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/rockchip/armv8/";
   sha256sums = {
     hash = "sha256-3ZJwBv9vX0XFiuyuIh4mzPrLfP3sq288uABwpzPGL2k=";
     name = "rockchip_armv8-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/rockchip/armv8/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/rockchip/armv8/sha256sums";
   };
   imagebuilder = {
     sha256 = "2384e04363c1f8405800e426cc128cddffde50227c7cb7554ceb1aab50af9189";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-S25cA/QWEsqwtmurp97j2pPpOGmQFzt7EQD0Tv4EbSE=";
     name = "rockchip_armv8-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/rockchip/armv8/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/rockchip/armv8/profiles.json";
   };
   profiles.extract = {
     arch_packages = "aarch64_generic";
@@ -432,11 +432,11 @@
     };
   };
   kmods."6.12.67-1-d616e9c117853e6d038c9d2f6475f455" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/rockchip/armv8/kmods/6.12.67-1-d616e9c117853e6d038c9d2f6475f455/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/rockchip/armv8/kmods/6.12.67-1-d616e9c117853e6d038c9d2f6475f455/";
     sourceInfo = {
       hash = "sha256-iUDLD2mZfbRizb3Sajydz7gP7AT7v/09E8LfqSzYDF8=";
       name = "kmods-rockchip_armv8-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/rockchip/armv8/kmods/6.12.67-1-d616e9c117853e6d038c9d2f6475f455/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/rockchip/armv8/kmods/6.12.67-1-d616e9c117853e6d038c9d2f6475f455/packages.adb";
     };
     packages =
       let
@@ -445,11 +445,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/rockchip/armv8/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/rockchip/armv8/packages/";
     sourceInfo = {
       hash = "sha256-03ohxhFD798gtzaeKjAVX5mVbiAF1wpKN0N79YgOQvs=";
       name = "rockchip_armv8-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/rockchip/armv8/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/rockchip/armv8/packages/packages.adb";
     };
     packages =
       let

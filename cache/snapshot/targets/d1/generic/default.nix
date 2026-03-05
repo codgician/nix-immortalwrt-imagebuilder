@@ -1,10 +1,10 @@
 # snapshot d1/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/d1/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/d1/generic/";
   sha256sums = {
     hash = "sha256-wzOOGEIYm38O1WxbwQFswpDPQllIx0Ov6g0GXYmu2OY=";
     name = "d1_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/d1/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/d1/generic/sha256sums";
   };
   imagebuilder = {
     sha256 = "d19b04be2e1405e39d169f100c4f2c4f1689c17de943b6d7e216df490cc50ed5";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-jq6Hw0l2hSwu6844sQf017S/aovp55+wvf7RnBSCIB0=";
     name = "d1_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/d1/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/d1/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "riscv64_generic";
@@ -74,11 +74,11 @@
     };
   };
   kmods."6.12.67-1-ad0e0b86de94cbfe52382cb746d99fb6" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/d1/generic/kmods/6.12.67-1-ad0e0b86de94cbfe52382cb746d99fb6/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/d1/generic/kmods/6.12.67-1-ad0e0b86de94cbfe52382cb746d99fb6/";
     sourceInfo = {
       hash = "sha256-sKh1ZhDza21V/lvHRvQAg31XyFy8ijdMp9C0WGweXak=";
       name = "kmods-d1_generic-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/d1/generic/kmods/6.12.67-1-ad0e0b86de94cbfe52382cb746d99fb6/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/d1/generic/kmods/6.12.67-1-ad0e0b86de94cbfe52382cb746d99fb6/packages.adb";
     };
     packages =
       let
@@ -87,11 +87,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/d1/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/d1/generic/packages/";
     sourceInfo = {
       hash = "sha256-VPyQfGVJGv8WQxsmzor/7nefV2G71gbdaYt5baKprJo=";
       name = "d1_generic-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/d1/generic/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/d1/generic/packages/packages.adb";
     };
     packages =
       let

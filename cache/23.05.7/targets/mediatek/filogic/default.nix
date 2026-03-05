@@ -1,10 +1,10 @@
 # 23.05.7 mediatek/filogic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/mediatek/filogic/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/mediatek/filogic/";
   sha256sums = {
     hash = "sha256-gcmlMt0Dmkw1VRHLtdjJnu63XinUqjXCsPRgKIgFD6g=";
     name = "mediatek_filogic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/mediatek/filogic/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/mediatek/filogic/sha256sums";
   };
   imagebuilder = {
     sha256 = "19cc5c91eb95110f9aae6e17c159cad847a626c62256e6bce71af0119b756960";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-gqBt0v7S5IXEYW1DpHArufzNh2HmkgvFWDq8jdjho9k=";
     name = "mediatek_filogic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/mediatek/filogic/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/mediatek/filogic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "aarch64_cortex-a53";
@@ -701,11 +701,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/mediatek/filogic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/mediatek/filogic/packages/";
     sourceInfo = {
       hash = "sha256-oKMEZdr0J9pZTbfWOqz6HvIn926KaEZCemejiWN37/A=";
       name = "mediatek_filogic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/mediatek/filogic/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/mediatek/filogic/packages/Packages";
     };
     packages =
       let

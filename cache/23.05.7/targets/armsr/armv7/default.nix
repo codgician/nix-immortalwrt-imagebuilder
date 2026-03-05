@@ -1,10 +1,10 @@
 # 23.05.7 armsr/armv7
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/armsr/armv7/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/armsr/armv7/";
   sha256sums = {
     hash = "sha256-00qzOSw7+DqyKnxr/5vbJcfcYvsY/0iibl6QGlNRHmA=";
     name = "armsr_armv7-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/armsr/armv7/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/armsr/armv7/sha256sums";
   };
   imagebuilder = {
     sha256 = "dfe090a060e01f06e7d473901de487ace4f335e28383df4e350d1241370e3e7e";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-lF+yAltyodKr8LLz93nTAPKIaAU697FmR/BTjegXB28=";
     name = "armsr_armv7-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/armsr/armv7/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/armsr/armv7/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_cortex-a15_neon-vfpv4";
@@ -101,11 +101,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/armsr/armv7/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/armsr/armv7/packages/";
     sourceInfo = {
       hash = "sha256-/xFOKhAAtF1LQVfbWEsVxtt4e27Zr9GZOypKChMVlJU=";
       name = "armsr_armv7-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/armsr/armv7/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/armsr/armv7/packages/Packages";
     };
     packages =
       let

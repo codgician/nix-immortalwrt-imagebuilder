@@ -1,10 +1,10 @@
 # 24.10.5 lantiq/xrx200_legacy
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/lantiq/xrx200_legacy/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/lantiq/xrx200_legacy/";
   sha256sums = {
     hash = "sha256-eY0u8cM1vfQEhvVGDi3047jXk1TR/gqhd3hv/nSD7TI=";
     name = "lantiq_xrx200_legacy-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/lantiq/xrx200_legacy/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/lantiq/xrx200_legacy/sha256sums";
   };
   imagebuilder = {
     sha256 = "7c4b87522f1abf217f3773fbd835d32336db7a2d35fc80a2b0db192d7dac3946";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-aK5V3/lw6oQJaIEfeskSW750EcCRjURirj5xitoXrGQ=";
     name = "lantiq_xrx200_legacy-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/lantiq/xrx200_legacy/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/lantiq/xrx200_legacy/profiles.json";
   };
   profiles.extract = {
     arch_packages = "mips_24kc";
@@ -76,11 +76,11 @@
     };
   };
   kmods."6.6.122-1-483d081b517d136178bf2da6e4ddb283" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/lantiq/xrx200_legacy/kmods/6.6.122-1-483d081b517d136178bf2da6e4ddb283/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/lantiq/xrx200_legacy/kmods/6.6.122-1-483d081b517d136178bf2da6e4ddb283/";
     sourceInfo = {
       hash = "sha256-DIhgOKulEcedBztXPUsB7ua5CkKsCviS+sgUqWLullM=";
       name = "kmods-lantiq_xrx200_legacy-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/lantiq/xrx200_legacy/kmods/6.6.122-1-483d081b517d136178bf2da6e4ddb283/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/lantiq/xrx200_legacy/kmods/6.6.122-1-483d081b517d136178bf2da6e4ddb283/Packages";
     };
     packages =
       let
@@ -89,11 +89,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/lantiq/xrx200_legacy/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/lantiq/xrx200_legacy/packages/";
     sourceInfo = {
       hash = "sha256-XL59Xur1Jfisz1CHIyqHQe07/HkS9/jGoSWIblmibNg=";
       name = "lantiq_xrx200_legacy-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/lantiq/xrx200_legacy/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/lantiq/xrx200_legacy/packages/Packages";
     };
     packages =
       let

@@ -1,16 +1,16 @@
 # 21.02.7 kirkwood/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/kirkwood/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/kirkwood/generic/";
   sha256sums = {
     hash = "sha256-1+OfzQaZWy//nzQfVcHqjIQycOgdlN+PmdnERdFGGq0=";
     name = "kirkwood_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/kirkwood/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/kirkwood/generic/sha256sums";
   };
   imagebuilder = null;
   profiles.sourceInfo = {
     hash = "sha256-PRRaMJHgdObeD1Yo5mxBMkChmsAaOhFAbFrRJY9+L+E=";
     name = "kirkwood_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/kirkwood/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/kirkwood/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_xscale";
@@ -175,11 +175,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/kirkwood/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/kirkwood/generic/packages/";
     sourceInfo = {
       hash = "sha256-CNrKSjlQFeTYPvtZ4KVcP3ZdYixB+0C34oTlmm1qIYw=";
       name = "kirkwood_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/kirkwood/generic/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/kirkwood/generic/packages/Packages";
     };
     packages =
       let

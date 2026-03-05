@@ -1,10 +1,10 @@
 # snapshot layerscape/armv8_64b
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/layerscape/armv8_64b/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/layerscape/armv8_64b/";
   sha256sums = {
     hash = "sha256-vidyBzTUnxbsp5m8+8iKf9Q8Phn6TYyOHHfNdC0g4pE=";
     name = "layerscape_armv8_64b-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/layerscape/armv8_64b/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/layerscape/armv8_64b/sha256sums";
   };
   imagebuilder = {
     sha256 = "a989337abebcbce4ab784b5bb270d5968af13c8321665fc96a782b39e78063db";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-RiO5XH+X7H0YWblMUioFAKhirIiF3iv1V3ebfSLD2gw=";
     name = "layerscape_armv8_64b-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/layerscape/armv8_64b/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/layerscape/armv8_64b/profiles.json";
   };
   profiles.extract = {
     arch_packages = "aarch64_generic";
@@ -165,11 +165,11 @@
     };
   };
   kmods."6.12.67-1-807d69d63c1207ee15eff160ac774b66" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/layerscape/armv8_64b/kmods/6.12.67-1-807d69d63c1207ee15eff160ac774b66/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/layerscape/armv8_64b/kmods/6.12.67-1-807d69d63c1207ee15eff160ac774b66/";
     sourceInfo = {
       hash = "sha256-duVtPGtIpo4FTl/4+YA7figykALV2HjueDJeq5brLZk=";
       name = "kmods-layerscape_armv8_64b-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/layerscape/armv8_64b/kmods/6.12.67-1-807d69d63c1207ee15eff160ac774b66/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/layerscape/armv8_64b/kmods/6.12.67-1-807d69d63c1207ee15eff160ac774b66/packages.adb";
     };
     packages =
       let
@@ -178,11 +178,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/layerscape/armv8_64b/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/layerscape/armv8_64b/packages/";
     sourceInfo = {
       hash = "sha256-uKHRDEuUn05Bh5J9zTMy+oIEk6E0L6MBDAupDxxdgTY=";
       name = "layerscape_armv8_64b-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/layerscape/armv8_64b/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/layerscape/armv8_64b/packages/packages.adb";
     };
     packages =
       let

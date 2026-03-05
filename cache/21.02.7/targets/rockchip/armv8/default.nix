@@ -1,10 +1,10 @@
 # 21.02.7 rockchip/armv8
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/rockchip/armv8/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/rockchip/armv8/";
   sha256sums = {
     hash = "sha256-e4fWr7owoZTz4T72NUHR2tSlUsUrdlK2Pkqg0ZHk1Ao=";
     name = "rockchip_armv8-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/rockchip/armv8/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/rockchip/armv8/sha256sums";
   };
   imagebuilder = {
     sha256 = "71486cc7e9abb99795ed0d0921e5f25ba69bf1ac811b017a81720bcb9ec6cda8";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-nXRR+aE5jIMyoEr8cXjYZQD9T/vyQy7n2hjdl6ja6kU=";
     name = "rockchip_armv8-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/rockchip/armv8/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/rockchip/armv8/profiles.json";
   };
   profiles.extract = {
     arch_packages = "aarch64_generic";
@@ -102,11 +102,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/rockchip/armv8/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/rockchip/armv8/packages/";
     sourceInfo = {
       hash = "sha256-FKKpAGFjMqaoGjGWx7IEGgAEi+SQYQlsR22X9cmkeq4=";
       name = "rockchip_armv8-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/rockchip/armv8/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/rockchip/armv8/packages/Packages";
     };
     packages =
       let

@@ -1,10 +1,10 @@
 # snapshot apm821xx/nand
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/apm821xx/nand/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/nand/";
   sha256sums = {
     hash = "sha256-sEwoNKEAT9i8+KMYGZOfarI0HUAndA7/AJFN3RwNY+s=";
     name = "apm821xx_nand-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/apm821xx/nand/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/nand/sha256sums";
   };
   imagebuilder = {
     sha256 = "5a69bd2c09380a61d911e7a2906415832ac58c986368e217cebe599feb19c705";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-z8YRRV54hDLQ4yZZEyS61tOLpybkUC1aZvq3AdRyIIc=";
     name = "apm821xx_nand-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/apm821xx/nand/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/nand/profiles.json";
   };
   profiles.extract = {
     arch_packages = "powerpc_464fp";
@@ -104,11 +104,11 @@
     };
   };
   kmods."6.12.67-1-88ff150a3b3051693673b5e28bb884e8" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/apm821xx/nand/kmods/6.12.67-1-88ff150a3b3051693673b5e28bb884e8/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/nand/kmods/6.12.67-1-88ff150a3b3051693673b5e28bb884e8/";
     sourceInfo = {
       hash = "sha256-zLBVKvSf+fC0AdtRKVhlgYHz/Xwa3FJ6NKoBoEGXSg0=";
       name = "kmods-apm821xx_nand-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/apm821xx/nand/kmods/6.12.67-1-88ff150a3b3051693673b5e28bb884e8/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/nand/kmods/6.12.67-1-88ff150a3b3051693673b5e28bb884e8/packages.adb";
     };
     packages =
       let
@@ -117,11 +117,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/apm821xx/nand/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/nand/packages/";
     sourceInfo = {
       hash = "sha256-KP3OOPXvNzwikrao3qO0XZcNnHT6ckOaEcQpakLc5HA=";
       name = "apm821xx_nand-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/apm821xx/nand/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/nand/packages/packages.adb";
     };
     packages =
       let

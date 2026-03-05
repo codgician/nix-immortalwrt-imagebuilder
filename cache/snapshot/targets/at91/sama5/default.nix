@@ -1,10 +1,10 @@
 # snapshot at91/sama5
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/at91/sama5/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/at91/sama5/";
   sha256sums = {
     hash = "sha256-V1EYZLZvTuk96WHbUITjY0plHAftSy6cXfb9JsKXAN8=";
     name = "at91_sama5-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/at91/sama5/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/at91/sama5/sha256sums";
   };
   imagebuilder = {
     sha256 = "54f548d2272605a8b35e509e6f50d88f093121b387a037563da2a333ee1c3b3d";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-DhuZThNZjRqMtq8gmz6ULAWmwcuESWM5Mf3cZGQMufQ=";
     name = "at91_sama5-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/at91/sama5/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/at91/sama5/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_cortex-a5_vfpv4";
@@ -78,11 +78,11 @@
     };
   };
   kmods."6.12.67-1-4ec4030db5dc455614295653c1e77d06" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/at91/sama5/kmods/6.12.67-1-4ec4030db5dc455614295653c1e77d06/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/at91/sama5/kmods/6.12.67-1-4ec4030db5dc455614295653c1e77d06/";
     sourceInfo = {
       hash = "sha256-SiK1cQBwZxL1IY82nso43SL751k0kaac+mAteN0pFb4=";
       name = "kmods-at91_sama5-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/at91/sama5/kmods/6.12.67-1-4ec4030db5dc455614295653c1e77d06/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/at91/sama5/kmods/6.12.67-1-4ec4030db5dc455614295653c1e77d06/packages.adb";
     };
     packages =
       let
@@ -91,11 +91,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/at91/sama5/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/at91/sama5/packages/";
     sourceInfo = {
       hash = "sha256-rY+lr/zSw044QbbE40/nRGKwlxvoBj1l5Vl12pTgMHc=";
       name = "at91_sama5-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/at91/sama5/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/at91/sama5/packages/packages.adb";
     };
     packages =
       let

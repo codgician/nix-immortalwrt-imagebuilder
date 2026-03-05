@@ -1,10 +1,10 @@
 # 24.10.5 bcm47xx/legacy
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/bcm47xx/legacy/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/bcm47xx/legacy/";
   sha256sums = {
     hash = "sha256-vyqeuZxSBF1lZ55du9ydLfxef9V64o6yU/xgf5C+cyI=";
     name = "bcm47xx_legacy-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/bcm47xx/legacy/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/bcm47xx/legacy/sha256sums";
   };
   imagebuilder = {
     sha256 = "9a6db084e0818be8283396263d8db781cdfc5a516a83d0ba031934aa4914e072";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-ujuQkPo+sbpttHYOTd6LziTssxYMb38AmX06JczD9B8=";
     name = "bcm47xx_legacy-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/bcm47xx/legacy/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/bcm47xx/legacy/profiles.json";
   };
   profiles.extract = {
     arch_packages = "mipsel_mips32";
@@ -76,11 +76,11 @@
     };
   };
   kmods."6.6.122-1-b82540539f69933d234987e5de4cc65b" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/bcm47xx/legacy/kmods/6.6.122-1-b82540539f69933d234987e5de4cc65b/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/bcm47xx/legacy/kmods/6.6.122-1-b82540539f69933d234987e5de4cc65b/";
     sourceInfo = {
       hash = "sha256-r2hbmFG7IfLebg9QV3S8uSQY312r/j9vs6eGacp4NQg=";
       name = "kmods-bcm47xx_legacy-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/bcm47xx/legacy/kmods/6.6.122-1-b82540539f69933d234987e5de4cc65b/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/bcm47xx/legacy/kmods/6.6.122-1-b82540539f69933d234987e5de4cc65b/Packages";
     };
     packages =
       let
@@ -89,11 +89,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/bcm47xx/legacy/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/bcm47xx/legacy/packages/";
     sourceInfo = {
       hash = "sha256-XOK73KAiYPtM5xlQyDJK7fmmvuI8LqhcE0W8ZeBX6ks=";
       name = "bcm47xx_legacy-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/bcm47xx/legacy/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/bcm47xx/legacy/packages/Packages";
     };
     packages =
       let

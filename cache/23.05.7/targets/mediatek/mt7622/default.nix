@@ -1,10 +1,10 @@
 # 23.05.7 mediatek/mt7622
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/mediatek/mt7622/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/mediatek/mt7622/";
   sha256sums = {
     hash = "sha256-qHavKjHuCruxkoMVTlj9+cO5ER6vBERdmtdyBPSBWuA=";
     name = "mediatek_mt7622-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/mediatek/mt7622/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/mediatek/mt7622/sha256sums";
   };
   imagebuilder = {
     sha256 = "4ac17e83cc9d37a0a6e56a186f74ba570a4bbf0ec5f55aa87d7c6097a512a788";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-02//1Nyjd7Mn2OJA0HEfLA5Y8x3PCsPUhGVDQqUiaSI=";
     name = "mediatek_mt7622-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/mediatek/mt7622/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/mediatek/mt7622/profiles.json";
   };
   profiles.extract = {
     arch_packages = "aarch64_cortex-a53";
@@ -190,11 +190,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/mediatek/mt7622/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/mediatek/mt7622/packages/";
     sourceInfo = {
       hash = "sha256-9HxO8QKlDjpeR9MN1ijQY/456L4PvBy8XHozVxu/uPU=";
       name = "mediatek_mt7622-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/mediatek/mt7622/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/mediatek/mt7622/packages/Packages";
     };
     packages =
       let

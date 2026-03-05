@@ -1,10 +1,10 @@
 # snapshot mpc85xx/p2020
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/mpc85xx/p2020/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mpc85xx/p2020/";
   sha256sums = {
     hash = "sha256-JngwBmJZ28AbqEO6Hh0wS+ps3z3zR0pjDS/4srmQXus=";
     name = "mpc85xx_p2020-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/mpc85xx/p2020/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/mpc85xx/p2020/sha256sums";
   };
   imagebuilder = {
     sha256 = "c3b7e1da88b2eae21d311a303f0d9e4b14cb647a3164e4ec97b3cf5c4477b2b3";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-f6BNmnPphRNmB/by8aX0yckJ5bD3onZIbYDMhi4RZLE=";
     name = "mpc85xx_p2020-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/mpc85xx/p2020/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/mpc85xx/p2020/profiles.json";
   };
   profiles.extract = {
     arch_packages = "powerpc_8548";
@@ -77,11 +77,11 @@
     };
   };
   kmods."6.12.67-1-0ad4c21660e7e55664b0d518734229c6" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/mpc85xx/p2020/kmods/6.12.67-1-0ad4c21660e7e55664b0d518734229c6/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mpc85xx/p2020/kmods/6.12.67-1-0ad4c21660e7e55664b0d518734229c6/";
     sourceInfo = {
       hash = "sha256-3NwY8HUB6OnAVsD2dWps7cBY/R4X7ZkTgMWRCs58IOs=";
       name = "kmods-mpc85xx_p2020-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/mpc85xx/p2020/kmods/6.12.67-1-0ad4c21660e7e55664b0d518734229c6/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/mpc85xx/p2020/kmods/6.12.67-1-0ad4c21660e7e55664b0d518734229c6/packages.adb";
     };
     packages =
       let
@@ -90,11 +90,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/mpc85xx/p2020/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mpc85xx/p2020/packages/";
     sourceInfo = {
       hash = "sha256-gH/t25f3mh5KUcCBLf1iyaLzmwH+TbwOeFMxCrYnY3k=";
       name = "mpc85xx_p2020-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/mpc85xx/p2020/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/mpc85xx/p2020/packages/packages.adb";
     };
     packages =
       let

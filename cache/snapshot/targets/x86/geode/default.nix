@@ -1,10 +1,10 @@
 # snapshot x86/geode
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/x86/geode/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/x86/geode/";
   sha256sums = {
     hash = "sha256-RNlsu7sa/ORRJhRthUx5Jgs7m9+EXhHKIeW1VKHS+7U=";
     name = "x86_geode-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/x86/geode/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/x86/geode/sha256sums";
   };
   imagebuilder = {
     sha256 = "d1c5de3793f3bfd8e843695942c5378609b666305f90984531e9bbec92a11f0f";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-AJ6zkpDLGjFEUXX7FROnPUp+BWK8PBAno3ajjTqG3O4=";
     name = "x86_geode-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/x86/geode/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/x86/geode/profiles.json";
   };
   profiles.extract = {
     arch_packages = "i386_pentium-mmx";
@@ -111,11 +111,11 @@
     };
   };
   kmods."6.12.67-1-54e5516eca487c846537a9cd99d3f8a3" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/x86/geode/kmods/6.12.67-1-54e5516eca487c846537a9cd99d3f8a3/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/x86/geode/kmods/6.12.67-1-54e5516eca487c846537a9cd99d3f8a3/";
     sourceInfo = {
       hash = "sha256-fN3PB/fvyNeknbN1D2wWXftEoLN9kKFVPbP9IddS5To=";
       name = "kmods-x86_geode-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/x86/geode/kmods/6.12.67-1-54e5516eca487c846537a9cd99d3f8a3/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/x86/geode/kmods/6.12.67-1-54e5516eca487c846537a9cd99d3f8a3/packages.adb";
     };
     packages =
       let
@@ -124,11 +124,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/x86/geode/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/x86/geode/packages/";
     sourceInfo = {
       hash = "sha256-W/34FoGkjL9+/o2WnyKBu/Nwb4G4OQQfXDh0Ck4Brio=";
       name = "x86_geode-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/x86/geode/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/x86/geode/packages/packages.adb";
     };
     packages =
       let

@@ -1,10 +1,10 @@
 # snapshot qoriq/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/qoriq/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/qoriq/generic/";
   sha256sums = {
     hash = "sha256-LMvJD98fk1TPCGrEK9wiOl/XQMCgzrcbkC2ikU6fSh4=";
     name = "qoriq_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/qoriq/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/qoriq/generic/sha256sums";
   };
   imagebuilder = {
     sha256 = "e04774e71ae73c78e12187b5544c06a7e7d90a512b9079d34797d98f0f018e2f";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-Kw5mLuQgXYgA61XUJbZZmLx75YbT4feR4SPx5GctdLk=";
     name = "qoriq_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/qoriq/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/qoriq/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "powerpc64_e5500";
@@ -77,11 +77,11 @@
     };
   };
   kmods."6.12.67-1-3e572dd1203562fb6e72b06d2b2342c6" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/qoriq/generic/kmods/6.12.67-1-3e572dd1203562fb6e72b06d2b2342c6/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/qoriq/generic/kmods/6.12.67-1-3e572dd1203562fb6e72b06d2b2342c6/";
     sourceInfo = {
       hash = "sha256-ACB7KQtV2udxJEwpA5ya4G55DdxrVYWL0vpX3PYNaaA=";
       name = "kmods-qoriq_generic-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/qoriq/generic/kmods/6.12.67-1-3e572dd1203562fb6e72b06d2b2342c6/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/qoriq/generic/kmods/6.12.67-1-3e572dd1203562fb6e72b06d2b2342c6/packages.adb";
     };
     packages =
       let
@@ -90,11 +90,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/qoriq/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/qoriq/generic/packages/";
     sourceInfo = {
       hash = "sha256-6oVWyi+leTYxKHeXwrycHuy30ACfKec8KWpW7UlsdPQ=";
       name = "qoriq_generic-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/qoriq/generic/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/qoriq/generic/packages/packages.adb";
     };
     packages =
       let

@@ -1,10 +1,10 @@
 # 24.10.5 loongarch64/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/loongarch64/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/loongarch64/generic/";
   sha256sums = {
     hash = "sha256-cNNddUhxqr1JAESNRVHgVlzFqiQOn6vkAmYewV2xRGg=";
     name = "loongarch64_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/loongarch64/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/loongarch64/generic/sha256sums";
   };
   imagebuilder = {
     sha256 = "acbe1affbc41450ced843c0252c6aac1a81e4cb1e7af2a4aef24ff1b83935a77";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-W8vh/iKbewkePRd6UTJRHx7iBMIqDrRBcJw6hdZtSPY=";
     name = "loongarch64_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/loongarch64/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/loongarch64/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "loongarch64_generic";
@@ -73,11 +73,11 @@
     };
   };
   kmods."6.6.122-1-db8df0df5e3cb21c006793cf0bd0a740" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/loongarch64/generic/kmods/6.6.122-1-db8df0df5e3cb21c006793cf0bd0a740/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/loongarch64/generic/kmods/6.6.122-1-db8df0df5e3cb21c006793cf0bd0a740/";
     sourceInfo = {
       hash = "sha256-F1hHZFPESvPXfKDMhLTTYz5nVhMS0rqNTraemNdzg4Q=";
       name = "kmods-loongarch64_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/loongarch64/generic/kmods/6.6.122-1-db8df0df5e3cb21c006793cf0bd0a740/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/loongarch64/generic/kmods/6.6.122-1-db8df0df5e3cb21c006793cf0bd0a740/Packages";
     };
     packages =
       let
@@ -86,11 +86,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/loongarch64/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/loongarch64/generic/packages/";
     sourceInfo = {
       hash = "sha256-1bLdwmk253ssd0ws0O77ZbcV1GBOq1mHff32R572Xvg=";
       name = "loongarch64_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/loongarch64/generic/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/loongarch64/generic/packages/Packages";
     };
     packages =
       let

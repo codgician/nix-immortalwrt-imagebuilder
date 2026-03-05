@@ -1,10 +1,10 @@
 # 23.05.7 mxs/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/mxs/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/mxs/generic/";
   sha256sums = {
     hash = "sha256-Z8rWvTcUjHNUeHCF69sB+pWPFbiPSLzkuK7B/hI4LoA=";
     name = "mxs_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/mxs/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/mxs/generic/sha256sums";
   };
   imagebuilder = {
     sha256 = "b5a5d7a0c7ee62e35d3af7783eef242773aab1364c6a94e4a061d575e6eb3fb2";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-W7MRVEMq6IN6RMS7JQzalkfN4fE6y4cnEioTd2gcFXw=";
     name = "mxs_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/mxs/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/mxs/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_arm926ej-s";
@@ -95,11 +95,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/mxs/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/mxs/generic/packages/";
     sourceInfo = {
       hash = "sha256-pbgsFOHqPIR30yrDTyjGi4SOyuVDxS6e9nb4B+W5nfI=";
       name = "mxs_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/mxs/generic/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/mxs/generic/packages/Packages";
     };
     packages =
       let

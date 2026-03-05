@@ -1,10 +1,10 @@
 # snapshot at91/sam9x
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/at91/sam9x/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/at91/sam9x/";
   sha256sums = {
     hash = "sha256-+Vt3VOhUsgw8cM9f+mcQJDKLQT2GvYsQ2bvYkYys5C4=";
     name = "at91_sam9x-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/at91/sam9x/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/at91/sam9x/sha256sums";
   };
   imagebuilder = {
     sha256 = "09e9f9cda560063a07a3d0de0a8ae441d3c0d2f0a2c25aff3be9de5cfc47abcb";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-Soc4DgiVv/R0I2+sn4lyfZew+7KS5Hk9PIK5tdhR6r4=";
     name = "at91_sam9x-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/at91/sam9x/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/at91/sam9x/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_arm926ej-s";
@@ -127,11 +127,11 @@
     };
   };
   kmods."6.12.67-1-5409416f8ce8936cbf0d7a3e36b5b034" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/at91/sam9x/kmods/6.12.67-1-5409416f8ce8936cbf0d7a3e36b5b034/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/at91/sam9x/kmods/6.12.67-1-5409416f8ce8936cbf0d7a3e36b5b034/";
     sourceInfo = {
       hash = "sha256-nNl7aGVqlp27ynM4CawPlru/nXRPd6Bet3+dWFq8hjI=";
       name = "kmods-at91_sam9x-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/at91/sam9x/kmods/6.12.67-1-5409416f8ce8936cbf0d7a3e36b5b034/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/at91/sam9x/kmods/6.12.67-1-5409416f8ce8936cbf0d7a3e36b5b034/packages.adb";
     };
     packages =
       let
@@ -140,11 +140,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/at91/sam9x/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/at91/sam9x/packages/";
     sourceInfo = {
       hash = "sha256-SjmHNT6AL9B9rgdxmOk7iR8eNYGxPJo/db+UvwFAYKs=";
       name = "at91_sam9x-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/at91/sam9x/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/at91/sam9x/packages/packages.adb";
     };
     packages =
       let

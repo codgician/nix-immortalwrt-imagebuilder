@@ -1,10 +1,10 @@
 # snapshot x86/legacy
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/x86/legacy/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/x86/legacy/";
   sha256sums = {
     hash = "sha256-AlngDXgND++2fo8IPyVg0vdEOCDAkQvJtQlbRIbC3JI=";
     name = "x86_legacy-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/x86/legacy/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/x86/legacy/sha256sums";
   };
   imagebuilder = {
     sha256 = "cadacc96732c0bba1b4c5f6a41623fa7690d6be581845b3fc8df05b50485304b";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-re4PljH9LsySJ1Tkxzl2ZL1yDaHTMhVffHvwWkkUAn0=";
     name = "x86_legacy-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/x86/legacy/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/x86/legacy/profiles.json";
   };
   profiles.extract = {
     arch_packages = "i386_pentium-mmx";
@@ -99,11 +99,11 @@
     };
   };
   kmods."6.12.67-1-4c74789eaea637c0f925c9aa21e71fba" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/x86/legacy/kmods/6.12.67-1-4c74789eaea637c0f925c9aa21e71fba/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/x86/legacy/kmods/6.12.67-1-4c74789eaea637c0f925c9aa21e71fba/";
     sourceInfo = {
       hash = "sha256-V82j23tY0AaI4u9oGcW/aFKa3i0LLdsiPox3/v1ftFg=";
       name = "kmods-x86_legacy-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/x86/legacy/kmods/6.12.67-1-4c74789eaea637c0f925c9aa21e71fba/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/x86/legacy/kmods/6.12.67-1-4c74789eaea637c0f925c9aa21e71fba/packages.adb";
     };
     packages =
       let
@@ -112,11 +112,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/x86/legacy/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/x86/legacy/packages/";
     sourceInfo = {
       hash = "sha256-OtZHk+AK+LZq5MYtYLsCpTXXFU34pcyocbRttmni2ko=";
       name = "x86_legacy-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/x86/legacy/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/x86/legacy/packages/packages.adb";
     };
     packages =
       let

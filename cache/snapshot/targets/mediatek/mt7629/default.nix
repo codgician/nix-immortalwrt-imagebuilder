@@ -1,10 +1,10 @@
 # snapshot mediatek/mt7629
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/mediatek/mt7629/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/mt7629/";
   sha256sums = {
     hash = "sha256-ZsKm0XtRVvHVRgYyUI0MhyPg+tE5w59e92xKfdpg8Ro=";
     name = "mediatek_mt7629-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/mediatek/mt7629/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/mt7629/sha256sums";
   };
   imagebuilder = {
     sha256 = "02a32d9d0daf5cbe755881785af790e272a0fcbcda1b40968ac5849b5ed123a7";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-3oBtV/4EKBAY7GPmDQHxNNrt3lZRg55FzdwgxhbgDJw=";
     name = "mediatek_mt7629-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/mediatek/mt7629/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/mt7629/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_cortex-a7";
@@ -76,11 +76,11 @@
     };
   };
   kmods."6.12.67-1-91aab7c21ea354be95f6115a16fd8eca" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/mediatek/mt7629/kmods/6.12.67-1-91aab7c21ea354be95f6115a16fd8eca/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/mt7629/kmods/6.12.67-1-91aab7c21ea354be95f6115a16fd8eca/";
     sourceInfo = {
       hash = "sha256-Eszjt3yDZ6QV8pWGmnzDRipXTaYefaxZ0Rn2ximQScY=";
       name = "kmods-mediatek_mt7629-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/mediatek/mt7629/kmods/6.12.67-1-91aab7c21ea354be95f6115a16fd8eca/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/mt7629/kmods/6.12.67-1-91aab7c21ea354be95f6115a16fd8eca/packages.adb";
     };
     packages =
       let
@@ -89,11 +89,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/mediatek/mt7629/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/mt7629/packages/";
     sourceInfo = {
       hash = "sha256-2Vs9W7nytoorhCrCUmBoYphjmrMCiBzQIlLTPi/qxR8=";
       name = "mediatek_mt7629-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/mediatek/mt7629/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/mt7629/packages/packages.adb";
     };
     packages =
       let

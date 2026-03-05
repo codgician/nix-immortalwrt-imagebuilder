@@ -1,10 +1,10 @@
 # snapshot sunxi/cortexa53
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/sunxi/cortexa53/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/cortexa53/";
   sha256sums = {
     hash = "sha256-QDqeyBA1VAR/JVXkr8PlkKvaNJXkL214nK4T0U0cIZM=";
     name = "sunxi_cortexa53-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/sunxi/cortexa53/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/cortexa53/sha256sums";
   };
   imagebuilder = {
     sha256 = "c264c323180c388cfbf517041e75a72c98d0c5a4444f5dffbed1cbced89c3bc7";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-I45rn46gaP5G2DDsGPXKU+WMqRMAPZ9EUUGWFjOyVg4=";
     name = "sunxi_cortexa53-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/sunxi/cortexa53/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/cortexa53/profiles.json";
   };
   profiles.extract = {
     arch_packages = "aarch64_cortex-a53";
@@ -115,11 +115,11 @@
     };
   };
   kmods."6.12.67-1-29656b1363cd71826112c8663d610586" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/sunxi/cortexa53/kmods/6.12.67-1-29656b1363cd71826112c8663d610586/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/cortexa53/kmods/6.12.67-1-29656b1363cd71826112c8663d610586/";
     sourceInfo = {
       hash = "sha256-cQF+bZazoC7PrbHll8hU7ypR9/m2mCz1kYvjy5IjPj8=";
       name = "kmods-sunxi_cortexa53-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/sunxi/cortexa53/kmods/6.12.67-1-29656b1363cd71826112c8663d610586/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/cortexa53/kmods/6.12.67-1-29656b1363cd71826112c8663d610586/packages.adb";
     };
     packages =
       let
@@ -128,11 +128,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/sunxi/cortexa53/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/cortexa53/packages/";
     sourceInfo = {
       hash = "sha256-pspa+MrVBN2trnN57FugEJJApxzXaJiHWpt77YIH1cM=";
       name = "sunxi_cortexa53-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/sunxi/cortexa53/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/cortexa53/packages/packages.adb";
     };
     packages =
       let

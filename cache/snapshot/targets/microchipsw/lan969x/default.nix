@@ -1,10 +1,10 @@
 # snapshot microchipsw/lan969x
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/microchipsw/lan969x/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/microchipsw/lan969x/";
   sha256sums = {
     hash = "sha256-ILkwQaXCypFFr2mb4NH9aD1PcbPu2oNPHPvCFdjzKTE=";
     name = "microchipsw_lan969x-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/microchipsw/lan969x/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/microchipsw/lan969x/sha256sums";
   };
   imagebuilder = {
     sha256 = "743c1598a30815de506087a230dc351f422597477e77f5da9f69398e7175006c";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-agl1P283zZe7My7SZwMnri6kPKiQgc36FDPwecSUjtY=";
     name = "microchipsw_lan969x-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/microchipsw/lan969x/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/microchipsw/lan969x/profiles.json";
   };
   profiles.extract = {
     arch_packages = "aarch64_cortex-a53";
@@ -82,11 +82,11 @@
     };
   };
   kmods."6.12.67-1-8d585b84acbd07d3b9c90c56361eeeb2" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/microchipsw/lan969x/kmods/6.12.67-1-8d585b84acbd07d3b9c90c56361eeeb2/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/microchipsw/lan969x/kmods/6.12.67-1-8d585b84acbd07d3b9c90c56361eeeb2/";
     sourceInfo = {
       hash = "sha256-VM2Mb5yX7RZsXLRahIoynNps7/vq7XnFO0YTaIyd4QQ=";
       name = "kmods-microchipsw_lan969x-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/microchipsw/lan969x/kmods/6.12.67-1-8d585b84acbd07d3b9c90c56361eeeb2/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/microchipsw/lan969x/kmods/6.12.67-1-8d585b84acbd07d3b9c90c56361eeeb2/packages.adb";
     };
     packages =
       let
@@ -95,11 +95,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/microchipsw/lan969x/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/microchipsw/lan969x/packages/";
     sourceInfo = {
       hash = "sha256-yEeUdXIgEzmFpa0JvPhT9/q/oBRHT0Azyh/SoC900fc=";
       name = "microchipsw_lan969x-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/microchipsw/lan969x/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/microchipsw/lan969x/packages/packages.adb";
     };
     packages =
       let

@@ -1,10 +1,10 @@
 # 21.02.7 realtek/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/realtek/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/realtek/generic/";
   sha256sums = {
     hash = "sha256-GAUKM8SjMLfQ/UrDn6uAMgwFkArWQDvJedGUvh5AV84=";
     name = "realtek_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/realtek/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/realtek/generic/sha256sums";
   };
   imagebuilder = {
     sha256 = "d940760fc9bea76f7e3e836795df2d1d4a3497743024ad8b2d845145619c96ee";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-TY7pB8AemPx0CQXP9LgE4AQUrtP8NhWjx0CrIii0mEI=";
     name = "realtek_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/realtek/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/realtek/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "mips_4kec";
@@ -94,11 +94,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/realtek/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/realtek/generic/packages/";
     sourceInfo = {
       hash = "sha256-vQ/ZWuSIo+qo6OtyCGv+kqSN0CWr1+5NzsLk53DU9Q8=";
       name = "realtek_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/realtek/generic/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/realtek/generic/packages/Packages";
     };
     packages =
       let

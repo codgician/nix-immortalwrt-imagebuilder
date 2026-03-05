@@ -1,10 +1,10 @@
 # snapshot realtek/rtl838x
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/realtek/rtl838x/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl838x/";
   sha256sums = {
     hash = "sha256-S5njT1hL7KIW0hMsPK244bEPhHwjBe/c+drNejMbug0=";
     name = "realtek_rtl838x-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/realtek/rtl838x/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl838x/sha256sums";
   };
   imagebuilder = {
     sha256 = "4fa412ee4cebc7738e1dac8f1e23ad28f23715dbf94fd24fcfe2ef0834970998";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-rxjq0cg9KeNi8j3wtJKT/p5V6HT8QFbspkgXlUpodg4=";
     name = "realtek_rtl838x-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/realtek/rtl838x/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl838x/profiles.json";
   };
   profiles.extract = {
     arch_packages = "mips_24kc";
@@ -200,11 +200,11 @@
     };
   };
   kmods."6.12.67-1-1e351dfb74d79ab3d4166e5f02ba1c59" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/realtek/rtl838x/kmods/6.12.67-1-1e351dfb74d79ab3d4166e5f02ba1c59/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl838x/kmods/6.12.67-1-1e351dfb74d79ab3d4166e5f02ba1c59/";
     sourceInfo = {
       hash = "sha256-hkmYGtXuoqGbYSsxXj8f/UGtqV2AYD/IK+ou7iFLtfc=";
       name = "kmods-realtek_rtl838x-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/realtek/rtl838x/kmods/6.12.67-1-1e351dfb74d79ab3d4166e5f02ba1c59/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl838x/kmods/6.12.67-1-1e351dfb74d79ab3d4166e5f02ba1c59/packages.adb";
     };
     packages =
       let
@@ -213,11 +213,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/realtek/rtl838x/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl838x/packages/";
     sourceInfo = {
       hash = "sha256-R6TT4Pi77xG6rY45Cp8+ybCNoGbtJl8L/66IQzOUqAA=";
       name = "realtek_rtl838x-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/realtek/rtl838x/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl838x/packages/packages.adb";
     };
     packages =
       let

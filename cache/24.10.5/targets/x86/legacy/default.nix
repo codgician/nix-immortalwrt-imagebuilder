@@ -1,10 +1,10 @@
 # 24.10.5 x86/legacy
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/x86/legacy/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/x86/legacy/";
   sha256sums = {
     hash = "sha256-DVVBrNYqW+3cEqnxUM+lKFm5GuLSItpCO8rgp7TPNig=";
     name = "x86_legacy-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/x86/legacy/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/x86/legacy/sha256sums";
   };
   imagebuilder = {
     sha256 = "8be1d01c9ba20828bb920b06c4f66a10373037ab89dfed0318d63cf041c61641";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-oZFY4HH24NPlXI3D5DEmVw0P0vUmUPXozQO4X/uiShs=";
     name = "x86_legacy-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/x86/legacy/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/x86/legacy/profiles.json";
   };
   profiles.extract = {
     arch_packages = "i386_pentium-mmx";
@@ -109,11 +109,11 @@
     };
   };
   kmods."6.6.122-1-5105d9c46364be77de0d776ff7cc4aaf" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/x86/legacy/kmods/6.6.122-1-5105d9c46364be77de0d776ff7cc4aaf/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/x86/legacy/kmods/6.6.122-1-5105d9c46364be77de0d776ff7cc4aaf/";
     sourceInfo = {
       hash = "sha256-GKOYARt0Bs1bE3pdOo2YOmbglqNekqosUQAo5PyP+Tw=";
       name = "kmods-x86_legacy-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/x86/legacy/kmods/6.6.122-1-5105d9c46364be77de0d776ff7cc4aaf/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/x86/legacy/kmods/6.6.122-1-5105d9c46364be77de0d776ff7cc4aaf/Packages";
     };
     packages =
       let
@@ -122,11 +122,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/x86/legacy/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/x86/legacy/packages/";
     sourceInfo = {
       hash = "sha256-gJvV0Br5Xu+M5DSRpdcj0X2wooCTwQEw2fgUJinB7HE=";
       name = "x86_legacy-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/x86/legacy/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/x86/legacy/packages/Packages";
     };
     packages =
       let

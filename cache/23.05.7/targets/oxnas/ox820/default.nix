@@ -1,10 +1,10 @@
 # 23.05.7 oxnas/ox820
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/oxnas/ox820/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/oxnas/ox820/";
   sha256sums = {
     hash = "sha256-CKwL0wukzsemU2RAyQ4gJrQLWubp//P1JU5v6eVGBdY=";
     name = "oxnas_ox820-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/oxnas/ox820/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/oxnas/ox820/sha256sums";
   };
   imagebuilder = {
     sha256 = "6c9fcb642b7ca85b59d58b580f9d0f4bdce5ecdace963941fa137ec2e3371a74";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-nkEuKB7BQg/4/QU/HqXWJxGXXMfF6r2b//sd2eJ5Uew=";
     name = "oxnas_ox820-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/oxnas/ox820/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/oxnas/ox820/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_mpcore";
@@ -118,11 +118,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/oxnas/ox820/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/oxnas/ox820/packages/";
     sourceInfo = {
       hash = "sha256-d32bUpm+UzLHmPWFHLcKsg9JqzWky9/K8xrd2IWjA7E=";
       name = "oxnas_ox820-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/oxnas/ox820/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/oxnas/ox820/packages/Packages";
     };
     packages =
       let

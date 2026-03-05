@@ -1,10 +1,10 @@
 # 21.02.7 layerscape/armv8_64b
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/layerscape/armv8_64b/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/layerscape/armv8_64b/";
   sha256sums = {
     hash = "sha256-GbQV/qn1KchVzKwWzEFcbA2Cmy7i9FrDWmYGkAfS3Bs=";
     name = "layerscape_armv8_64b-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/layerscape/armv8_64b/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/layerscape/armv8_64b/sha256sums";
   };
   imagebuilder = {
     sha256 = "f0ba2ed8dc976c4a514c053241904b0e068acb9f638dd2b869d2e75d95d0e12c";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-ANurSA+f9SFBAzjEOKTgX2K1cOiuFPF04qmDDVc0/Lo=";
     name = "layerscape_armv8_64b-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/layerscape/armv8_64b/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/layerscape/armv8_64b/profiles.json";
   };
   profiles.extract = {
     arch_packages = "aarch64_generic";
@@ -206,11 +206,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/layerscape/armv8_64b/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/layerscape/armv8_64b/packages/";
     sourceInfo = {
       hash = "sha256-X/2/aaN1sHF4nz1WYDsq+hXM9aCT1S/hBx/1BCPCCWU=";
       name = "layerscape_armv8_64b-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/layerscape/armv8_64b/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/layerscape/armv8_64b/packages/Packages";
     };
     packages =
       let

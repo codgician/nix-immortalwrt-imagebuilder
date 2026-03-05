@@ -1,10 +1,10 @@
 # 24.10.5 ramips/rt305x
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ramips/rt305x/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ramips/rt305x/";
   sha256sums = {
     hash = "sha256-sl26brNArOMa4jqUhz3KKkQ5/NamegzLg8IJqSts128=";
     name = "ramips_rt305x-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ramips/rt305x/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ramips/rt305x/sha256sums";
   };
   imagebuilder = {
     sha256 = "8bddbd27a4c84a684caf67e4bbc3a54fa07d3f5270e064432aaa6dca856583db";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-E8qsHMJPokmFNSzqvTSe9EbRaT+Rq9QnjOaLsQaY/uw=";
     name = "ramips_rt305x-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ramips/rt305x/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ramips/rt305x/profiles.json";
   };
   profiles.extract = {
     arch_packages = "mipsel_24kc";
@@ -120,11 +120,11 @@
     };
   };
   kmods."6.6.122-1-312b055b2611e35bad49c15a4061361d" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ramips/rt305x/kmods/6.6.122-1-312b055b2611e35bad49c15a4061361d/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ramips/rt305x/kmods/6.6.122-1-312b055b2611e35bad49c15a4061361d/";
     sourceInfo = {
       hash = "sha256-u30eN5HtCnlqawilMJHldVb+moO30bZxgmLo1BhoCY4=";
       name = "kmods-ramips_rt305x-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ramips/rt305x/kmods/6.6.122-1-312b055b2611e35bad49c15a4061361d/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ramips/rt305x/kmods/6.6.122-1-312b055b2611e35bad49c15a4061361d/Packages";
     };
     packages =
       let
@@ -133,11 +133,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ramips/rt305x/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ramips/rt305x/packages/";
     sourceInfo = {
       hash = "sha256-N9VmLmEEhrFGRVQSh+NEggzzF1cgs09bSI3G8+TIB8A=";
       name = "ramips_rt305x-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ramips/rt305x/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ramips/rt305x/packages/Packages";
     };
     packages =
       let

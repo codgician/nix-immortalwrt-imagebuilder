@@ -1,10 +1,10 @@
 # snapshot gemini/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/gemini/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/gemini/generic/";
   sha256sums = {
     hash = "sha256-n2Rzm5wfEzxaoEhTu1214jzqUGylsDYaPcpCGbPbB0M=";
     name = "gemini_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/gemini/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/gemini/generic/sha256sums";
   };
   imagebuilder = {
     sha256 = "c102ec4e7efaf50723cdc3ad19dc62667e84ddf9425cdc489434e304d1404477";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-D4He4cwAFDif9hg6pR00YNaIGlYFynJqgGfsllKSYjg=";
     name = "gemini_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/gemini/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/gemini/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_fa526";
@@ -203,11 +203,11 @@
     };
   };
   kmods."6.12.67-1-61e09207db541b8bbd99282800fe5e32" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/gemini/generic/kmods/6.12.67-1-61e09207db541b8bbd99282800fe5e32/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/gemini/generic/kmods/6.12.67-1-61e09207db541b8bbd99282800fe5e32/";
     sourceInfo = {
       hash = "sha256-L5Q/5Qj2ioYmzxeGj5Th7QBBtSA5UJhP+J7+gLfa9Js=";
       name = "kmods-gemini_generic-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/gemini/generic/kmods/6.12.67-1-61e09207db541b8bbd99282800fe5e32/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/gemini/generic/kmods/6.12.67-1-61e09207db541b8bbd99282800fe5e32/packages.adb";
     };
     packages =
       let
@@ -216,11 +216,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/gemini/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/gemini/generic/packages/";
     sourceInfo = {
       hash = "sha256-9ht6EZymPX4mBDxFJ9Ew1+Y7smAFwCwPGeGrTdKEOHA=";
       name = "gemini_generic-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/gemini/generic/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/gemini/generic/packages/packages.adb";
     };
     packages =
       let

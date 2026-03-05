@@ -1,10 +1,10 @@
 # 23.05.7 realtek/rtl839x
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/realtek/rtl839x/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/realtek/rtl839x/";
   sha256sums = {
     hash = "sha256-vvKNc3WmAWNLDoXq7euzjzY2od15AR3yzzHFz/lyV6w=";
     name = "realtek_rtl839x-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/realtek/rtl839x/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/realtek/rtl839x/sha256sums";
   };
   imagebuilder = {
     sha256 = "3469a1919c5d61d3fc1ae9fed6b9407d10a3065991868d873443aec8b4df202f";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-YTtH4o7V2B8vB10nqHTWy5oVIjL+9oAMdLIxEC6CnNU=";
     name = "realtek_rtl839x-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/realtek/rtl839x/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/realtek/rtl839x/profiles.json";
   };
   profiles.extract = {
     arch_packages = "mips_24kc";
@@ -90,11 +90,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/realtek/rtl839x/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/realtek/rtl839x/packages/";
     sourceInfo = {
       hash = "sha256-059HrXGptNt7tKGcp74VEiKkRJvWYgjO4n2ioeRx6kI=";
       name = "realtek_rtl839x-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/realtek/rtl839x/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/realtek/rtl839x/packages/Packages";
     };
     packages =
       let

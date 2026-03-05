@@ -1,10 +1,10 @@
 # snapshot lantiq/xway
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/lantiq/xway/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xway/";
   sha256sums = {
     hash = "sha256-y4MQX3OI7eLu1XYywdNSt2cC46DyQW9yFnQECbHdnUA=";
     name = "lantiq_xway-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/lantiq/xway/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xway/sha256sums";
   };
   imagebuilder = {
     sha256 = "fdef9f41050302c52db865f61e379ac736417767278bf418a93b2b3d4ad39c72";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-5BW5xAX3sk+VHY1bGq4lXStn++1eRfQQ+yx5CLOMUMg=";
     name = "lantiq_xway-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/lantiq/xway/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xway/profiles.json";
   };
   profiles.extract = {
     arch_packages = "mips_24kc";
@@ -288,11 +288,11 @@
     };
   };
   kmods."6.12.67-1-5daca7163968ff1dd22ab31175587905" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/lantiq/xway/kmods/6.12.67-1-5daca7163968ff1dd22ab31175587905/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xway/kmods/6.12.67-1-5daca7163968ff1dd22ab31175587905/";
     sourceInfo = {
       hash = "sha256-z5I+ajXBAEy8QBT5y6Q9Jxc9sk0ULnwbx6BASdPXB7M=";
       name = "kmods-lantiq_xway-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/lantiq/xway/kmods/6.12.67-1-5daca7163968ff1dd22ab31175587905/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xway/kmods/6.12.67-1-5daca7163968ff1dd22ab31175587905/packages.adb";
     };
     packages =
       let
@@ -301,11 +301,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/lantiq/xway/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xway/packages/";
     sourceInfo = {
       hash = "sha256-hdjfTmlswv6GURLI95zWPU7mlGnotugdUeK48RyzC0w=";
       name = "lantiq_xway-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/lantiq/xway/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xway/packages/packages.adb";
     };
     packages =
       let

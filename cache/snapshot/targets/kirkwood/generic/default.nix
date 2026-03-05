@@ -1,10 +1,10 @@
 # snapshot kirkwood/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/kirkwood/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/kirkwood/generic/";
   sha256sums = {
     hash = "sha256-HnaNLuE9CNnQlnyZQaniXUs8LVH8BUXkT9ACCRt0Uqw=";
     name = "kirkwood_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/kirkwood/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/kirkwood/generic/sha256sums";
   };
   imagebuilder = {
     sha256 = "e11d6ee092dbc2e2f2be9ef824a282f5acb2756970a3142036ad50736d8139e2";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-57KlshthceVeHXhRKoxU96/iAxlKUySidWdSKdbWPOw=";
     name = "kirkwood_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/kirkwood/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/kirkwood/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_xscale";
@@ -286,11 +286,11 @@
     };
   };
   kmods."6.12.67-1-a39126ac8f0b39e9cf2e5a7e2b31624b" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/kirkwood/generic/kmods/6.12.67-1-a39126ac8f0b39e9cf2e5a7e2b31624b/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/kirkwood/generic/kmods/6.12.67-1-a39126ac8f0b39e9cf2e5a7e2b31624b/";
     sourceInfo = {
       hash = "sha256-j8H3nm+w7/z4yaBR5r+MqJ9AKWOm+GMmPW3gU3SbNu8=";
       name = "kmods-kirkwood_generic-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/kirkwood/generic/kmods/6.12.67-1-a39126ac8f0b39e9cf2e5a7e2b31624b/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/kirkwood/generic/kmods/6.12.67-1-a39126ac8f0b39e9cf2e5a7e2b31624b/packages.adb";
     };
     packages =
       let
@@ -299,11 +299,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/kirkwood/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/kirkwood/generic/packages/";
     sourceInfo = {
       hash = "sha256-DyqLo5wFgtGuton/iTrHrbtMrxQs78WdnqkKtF216Nw=";
       name = "kirkwood_generic-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/kirkwood/generic/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/kirkwood/generic/packages/packages.adb";
     };
     packages =
       let

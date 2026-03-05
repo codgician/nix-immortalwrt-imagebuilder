@@ -1,10 +1,10 @@
 # 23.05.7 at91/sama5
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/at91/sama5/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/at91/sama5/";
   sha256sums = {
     hash = "sha256-UYlmDvG+MUUFgSm4Oh6kO110iYx8nInVC5MBsu7MZbk=";
     name = "at91_sama5-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/at91/sama5/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/at91/sama5/sha256sums";
   };
   imagebuilder = {
     sha256 = "fa658820f572681b923553a459aa29260b0b6f07a32cc1884d933f42648c03c3";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-FG2X1/qBR6UvEdNbapwDvUuuom+2Uv0oKnmGRs+mzPs=";
     name = "at91_sama5-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/at91/sama5/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/at91/sama5/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_cortex-a5_vfpv4";
@@ -90,11 +90,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/at91/sama5/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/at91/sama5/packages/";
     sourceInfo = {
       hash = "sha256-jGdjP+H9EVa9CVqzPTrqrPkY8Lyq4uJzyJ80eQtSTaQ=";
       name = "at91_sama5-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/at91/sama5/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/at91/sama5/packages/Packages";
     };
     packages =
       let

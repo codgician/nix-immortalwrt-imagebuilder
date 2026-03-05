@@ -1,10 +1,10 @@
 # snapshot zynq/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/zynq/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/zynq/generic/";
   sha256sums = {
     hash = "sha256-NXWwmkLrCgdquZ6+rX9Yv+Kg52N1XFsBSOqY8jR3fug=";
     name = "zynq_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/zynq/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/zynq/generic/sha256sums";
   };
   imagebuilder = {
     sha256 = "47c7a78b89eab8623cea56459fcf875a781e5f5a5ec37d6d58859f16fbaf52fb";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-LKPTPyDAe5I/PWupJksWtcNWNoEzpnvg7ciE9NpCC50=";
     name = "zynq_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/zynq/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/zynq/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_cortex-a9_neon";
@@ -73,11 +73,11 @@
     };
   };
   kmods."6.12.67-1-6d3bbaae097baf859fa95479eb003051" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/zynq/generic/kmods/6.12.67-1-6d3bbaae097baf859fa95479eb003051/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/zynq/generic/kmods/6.12.67-1-6d3bbaae097baf859fa95479eb003051/";
     sourceInfo = {
       hash = "sha256-0NcyZDxuIUjd5fODTf/DH3keBpCQWqzFKJLcNW2y1fQ=";
       name = "kmods-zynq_generic-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/zynq/generic/kmods/6.12.67-1-6d3bbaae097baf859fa95479eb003051/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/zynq/generic/kmods/6.12.67-1-6d3bbaae097baf859fa95479eb003051/packages.adb";
     };
     packages =
       let
@@ -86,11 +86,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/zynq/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/zynq/generic/packages/";
     sourceInfo = {
       hash = "sha256-LItFXRaCfHZADOZ+/6yesgHofD88oOW1jK4zAWE3VwI=";
       name = "zynq_generic-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/zynq/generic/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/zynq/generic/packages/packages.adb";
     };
     packages =
       let

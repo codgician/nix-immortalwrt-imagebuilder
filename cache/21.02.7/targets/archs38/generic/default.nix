@@ -1,10 +1,10 @@
 # 21.02.7 archs38/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/archs38/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/archs38/generic/";
   sha256sums = {
     hash = "sha256-WBTOAnwAUIue2e2HZbap9cyc7gyhbREf8besYhumpiw=";
     name = "archs38_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/archs38/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/archs38/generic/sha256sums";
   };
   imagebuilder = {
     sha256 = "24204a6a1da8713e50f955c3a68d462337222fa43eefcc23a1af497a781fe5b7";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-FYZRe/NZQb0j+U03NC8ciFktbc10vcBcHa/pTimnsms=";
     name = "archs38_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/archs38/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/archs38/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arc_archs";
@@ -57,11 +57,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/archs38/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/archs38/generic/packages/";
     sourceInfo = {
       hash = "sha256-gydhikIg530i5HzEsU6XxA73C6YFY6X/gdVv4LIJLRs=";
       name = "archs38_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/archs38/generic/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/archs38/generic/packages/Packages";
     };
     packages =
       let

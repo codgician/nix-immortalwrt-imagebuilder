@@ -1,10 +1,10 @@
 # snapshot starfive/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/starfive/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/starfive/generic/";
   sha256sums = {
     hash = "sha256-19o7i0bpN99CjGolfAv3TRgXbI4vN5SkFEs0zbLDiIM=";
     name = "starfive_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/starfive/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/starfive/generic/sha256sums";
   };
   imagebuilder = {
     sha256 = "fdec24471ed5f462a226f70306ee7d1607e0dbb0f82bc79c8f7bc403948074bf";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-tHPcdUywUqhzHfJGm3o+H+CsYcHLGTwkGTcWTyyA8uU=";
     name = "starfive_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/starfive/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/starfive/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "riscv64_generic";
@@ -70,11 +70,11 @@
     };
   };
   kmods."6.12.67-1-30979d8047c9cc873a00469cd5bbb8e1" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/starfive/generic/kmods/6.12.67-1-30979d8047c9cc873a00469cd5bbb8e1/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/starfive/generic/kmods/6.12.67-1-30979d8047c9cc873a00469cd5bbb8e1/";
     sourceInfo = {
       hash = "sha256-7ABS/ZYro4ERVCWp2dm0I7N9/LAwgb+NnIDMtWMk7Vo=";
       name = "kmods-starfive_generic-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/starfive/generic/kmods/6.12.67-1-30979d8047c9cc873a00469cd5bbb8e1/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/starfive/generic/kmods/6.12.67-1-30979d8047c9cc873a00469cd5bbb8e1/packages.adb";
     };
     packages =
       let
@@ -83,11 +83,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/starfive/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/starfive/generic/packages/";
     sourceInfo = {
       hash = "sha256-sWRl4t0uNyNQfyw+HX//oMMrrKqNbf0Ov+0qmblCi1s=";
       name = "starfive_generic-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/starfive/generic/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/starfive/generic/packages/packages.adb";
     };
     packages =
       let

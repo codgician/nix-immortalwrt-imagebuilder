@@ -1,10 +1,10 @@
 # snapshot apm821xx/sata
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/apm821xx/sata/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/sata/";
   sha256sums = {
     hash = "sha256-skfQ2nnCseLvLSZxhgYZRzeSh1sKbxYdCjWycrSbeLA=";
     name = "apm821xx_sata-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/apm821xx/sata/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/sata/sha256sums";
   };
   imagebuilder = {
     sha256 = "b1aced89131c57542ff3183437daab237df03ecb5763dfcd0f2979446c62ce4f";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-9ed32n02yhxWnttlo+yoeYjXZyILY6EYjgf8Zf3OmDc=";
     name = "apm821xx_sata-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/apm821xx/sata/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/sata/profiles.json";
   };
   profiles.extract = {
     arch_packages = "powerpc_464fp";
@@ -73,11 +73,11 @@
     };
   };
   kmods."6.12.67-1-396ce74a00c91a1fb48ca76eb67eec53" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/apm821xx/sata/kmods/6.12.67-1-396ce74a00c91a1fb48ca76eb67eec53/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/sata/kmods/6.12.67-1-396ce74a00c91a1fb48ca76eb67eec53/";
     sourceInfo = {
       hash = "sha256-WegK00ytgLdbdrdIQ8bf1g8MfoUJjYWjleLu+t1dnwY=";
       name = "kmods-apm821xx_sata-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/apm821xx/sata/kmods/6.12.67-1-396ce74a00c91a1fb48ca76eb67eec53/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/sata/kmods/6.12.67-1-396ce74a00c91a1fb48ca76eb67eec53/packages.adb";
     };
     packages =
       let
@@ -86,11 +86,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/apm821xx/sata/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/sata/packages/";
     sourceInfo = {
       hash = "sha256-ZfDxjITGb/CwNWp2zg+mMlsTimymyqRUtbL6rd8jrCc=";
       name = "apm821xx_sata-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/apm821xx/sata/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/sata/packages/packages.adb";
     };
     packages =
       let

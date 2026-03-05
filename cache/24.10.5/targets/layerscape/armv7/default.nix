@@ -1,10 +1,10 @@
 # 24.10.5 layerscape/armv7
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/layerscape/armv7/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/layerscape/armv7/";
   sha256sums = {
     hash = "sha256-aRo4vJw6SUkoTHRbRZYUUb77jCk1R/ZERqxkunVssr0=";
     name = "layerscape_armv7-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/layerscape/armv7/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/layerscape/armv7/sha256sums";
   };
   imagebuilder = {
     sha256 = "38336d158be2a0ad11433bfbb864a0aa96097af477862ef5e18fb1c184f0b7fd";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-h/nhFPI2pRO5OLj1uCW+XWAtsRSZ7/2zic6Q5QQaQr4=";
     name = "layerscape_armv7-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/layerscape/armv7/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/layerscape/armv7/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_cortex-a7_neon-vfpv4";
@@ -77,11 +77,11 @@
     };
   };
   kmods."6.6.122-1-cc4f805d4a317f7f6062354d0fbfc068" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/layerscape/armv7/kmods/6.6.122-1-cc4f805d4a317f7f6062354d0fbfc068/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/layerscape/armv7/kmods/6.6.122-1-cc4f805d4a317f7f6062354d0fbfc068/";
     sourceInfo = {
       hash = "sha256-UmRLv1Mj8IFCYGMs2DLbd0vX1Tm9KRSRLXRrFtFYKsc=";
       name = "kmods-layerscape_armv7-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/layerscape/armv7/kmods/6.6.122-1-cc4f805d4a317f7f6062354d0fbfc068/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/layerscape/armv7/kmods/6.6.122-1-cc4f805d4a317f7f6062354d0fbfc068/Packages";
     };
     packages =
       let
@@ -90,11 +90,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/layerscape/armv7/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/layerscape/armv7/packages/";
     sourceInfo = {
       hash = "sha256-PYZzMeZa304H2D0b1I/9ohTe0zauwf1iViXAnbsx6Zk=";
       name = "layerscape_armv7-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/layerscape/armv7/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/layerscape/armv7/packages/Packages";
     };
     packages =
       let

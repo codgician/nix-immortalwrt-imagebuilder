@@ -1,10 +1,10 @@
 # 21.02.7 sunxi/cortexa7
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/sunxi/cortexa7/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/sunxi/cortexa7/";
   sha256sums = {
     hash = "sha256-wjw7gljpR2/lJkaR13IeAMZBg8L26Xvbi95EPd2xqF8=";
     name = "sunxi_cortexa7-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/sunxi/cortexa7/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/sunxi/cortexa7/sha256sums";
   };
   imagebuilder = {
     sha256 = "09f5107bb5156d7bfb5ef31060252da7e6ef85b1b00123509d03491a24930a53";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-btlaYW+BnFxUoUc2KOg2boif6GpCzknqMFLTNTLhi6I=";
     name = "sunxi_cortexa7-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/sunxi/cortexa7/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/sunxi/cortexa7/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_cortex-a7_neon-vfpv4";
@@ -248,11 +248,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/sunxi/cortexa7/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/sunxi/cortexa7/packages/";
     sourceInfo = {
       hash = "sha256-6ITgNwwGfzjMiVAZGXMUSO5i6K563/A5OklcxD+XCOc=";
       name = "sunxi_cortexa7-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/sunxi/cortexa7/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/sunxi/cortexa7/packages/Packages";
     };
     packages =
       let

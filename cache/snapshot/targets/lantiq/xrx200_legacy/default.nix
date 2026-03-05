@@ -1,10 +1,10 @@
 # snapshot lantiq/xrx200_legacy
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/lantiq/xrx200_legacy/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xrx200_legacy/";
   sha256sums = {
     hash = "sha256-0yuZ0GiYpD1uvF4ryc9A2R+6vAipEA8V7XqkHI01Llw=";
     name = "lantiq_xrx200_legacy-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/lantiq/xrx200_legacy/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xrx200_legacy/sha256sums";
   };
   imagebuilder = {
     sha256 = "24cd433e031af4b37d12b8542916ecbe0a2ca3323ef2904006fe7fc0e7280ad7";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-EqRBSpb4mOCMuiakSBcCp/mgvH3ZH2S5xgAyoHokEAU=";
     name = "lantiq_xrx200_legacy-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/lantiq/xrx200_legacy/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xrx200_legacy/profiles.json";
   };
   profiles.extract = {
     arch_packages = "mips_24kc";
@@ -71,11 +71,11 @@
     };
   };
   kmods."6.12.67-1-1c24bf3b5c3e8d2b6d5e6ae0efd245f7" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/lantiq/xrx200_legacy/kmods/6.12.67-1-1c24bf3b5c3e8d2b6d5e6ae0efd245f7/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xrx200_legacy/kmods/6.12.67-1-1c24bf3b5c3e8d2b6d5e6ae0efd245f7/";
     sourceInfo = {
       hash = "sha256-WQ2P7fpSBfylN7ZRR1XyY5H9AFIuCrpJd4QXg9sTUnQ=";
       name = "kmods-lantiq_xrx200_legacy-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/lantiq/xrx200_legacy/kmods/6.12.67-1-1c24bf3b5c3e8d2b6d5e6ae0efd245f7/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xrx200_legacy/kmods/6.12.67-1-1c24bf3b5c3e8d2b6d5e6ae0efd245f7/packages.adb";
     };
     packages =
       let
@@ -84,11 +84,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/lantiq/xrx200_legacy/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xrx200_legacy/packages/";
     sourceInfo = {
       hash = "sha256-SjZO9V44ROt4WxRFrwx2AzyyRES7E8G/hmmZclAX3j4=";
       name = "lantiq_xrx200_legacy-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/lantiq/xrx200_legacy/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xrx200_legacy/packages/packages.adb";
     };
     packages =
       let

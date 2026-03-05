@@ -1,10 +1,10 @@
 # 23.05.7 x86/geode
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/x86/geode/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/x86/geode/";
   sha256sums = {
     hash = "sha256-+TgJHUfXuZmMzcpFRKt1l7nCjlp/8p1pa6MRQdbWErw=";
     name = "x86_geode-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/x86/geode/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/x86/geode/sha256sums";
   };
   imagebuilder = {
     sha256 = "43e1b47911d4c3c54efd5f3e4953c7f63a2f1b5b44cbdfa15453158109fbbb53";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-XbQFYL93ewXkXcwTfDw4+cRxfG7ItPFZyuHRIfxaTGw=";
     name = "x86_geode-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/x86/geode/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/x86/geode/profiles.json";
   };
   profiles.extract = {
     arch_packages = "i386_pentium-mmx";
@@ -134,11 +134,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/x86/geode/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/x86/geode/packages/";
     sourceInfo = {
       hash = "sha256-KwnYMgMDi0k2+xsFirxnrtJB5cDbojvJz7+AFA+FMME=";
       name = "x86_geode-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/x86/geode/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/x86/geode/packages/Packages";
     };
     packages =
       let

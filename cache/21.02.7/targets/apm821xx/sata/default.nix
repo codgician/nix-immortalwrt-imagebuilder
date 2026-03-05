@@ -1,10 +1,10 @@
 # 21.02.7 apm821xx/sata
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/apm821xx/sata/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/apm821xx/sata/";
   sha256sums = {
     hash = "sha256-HvMqJb29G1VdtAVEEbHW4YnB+jOBSnvsT4oWItoqJLI=";
     name = "apm821xx_sata-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/apm821xx/sata/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/apm821xx/sata/sha256sums";
   };
   imagebuilder = {
     sha256 = "ddea8c6d3f0fad8e827dbd761be6495a370278bd8831db86d066f5e540559b92";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-g6rKKIMYO1EWdiGWW8OYqySGe3ebvPQz6fWBoKZKwa0=";
     name = "apm821xx_sata-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/apm821xx/sata/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/apm821xx/sata/profiles.json";
   };
   profiles.extract = {
     arch_packages = "powerpc_464fp";
@@ -80,11 +80,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/apm821xx/sata/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/apm821xx/sata/packages/";
     sourceInfo = {
       hash = "sha256-YAO3BxCjU11qylBevbYy2Fi3+RfJQ+klxC/DMRZQcOw=";
       name = "apm821xx_sata-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/apm821xx/sata/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/apm821xx/sata/packages/Packages";
     };
     packages =
       let

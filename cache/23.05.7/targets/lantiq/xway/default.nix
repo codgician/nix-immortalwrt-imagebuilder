@@ -1,10 +1,10 @@
 # 23.05.7 lantiq/xway
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/lantiq/xway/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/lantiq/xway/";
   sha256sums = {
     hash = "sha256-ReS8XC2KU5bkDXcTVVb+TXI0EwcOmhwoQHDYIejOwYw=";
     name = "lantiq_xway-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/lantiq/xway/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/lantiq/xway/sha256sums";
   };
   imagebuilder = {
     sha256 = "7edaa250c8ed349388c2bc5f0052a07bc6e01e21492d415c7e7e695e265340f9";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-sAOPqjnh5HDDReaFLkxmARiQDTO9FB8lUh6eE9/A+hw=";
     name = "lantiq_xway-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/lantiq/xway/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/lantiq/xway/profiles.json";
   };
   profiles.extract = {
     arch_packages = "mips_24kc";
@@ -315,11 +315,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/lantiq/xway/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/lantiq/xway/packages/";
     sourceInfo = {
       hash = "sha256-ar1CmE9ZtrRBuhL7Xs262a5m4sB2yvM96uGP/p/TmF8=";
       name = "lantiq_xway-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/lantiq/xway/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/lantiq/xway/packages/Packages";
     };
     packages =
       let

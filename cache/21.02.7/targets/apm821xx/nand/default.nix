@@ -1,10 +1,10 @@
 # 21.02.7 apm821xx/nand
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/apm821xx/nand/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/apm821xx/nand/";
   sha256sums = {
     hash = "sha256-3u4a6YqOsUmsYW8skfYM1ki5vZ2fuWntEFIwx81zh9s=";
     name = "apm821xx_nand-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/apm821xx/nand/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/apm821xx/nand/sha256sums";
   };
   imagebuilder = {
     sha256 = "80d233ae9fc3bba2ea9996e8562352fff8724265720d13c214a9305d5cd7a54c";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-csYEx24bMRNPr4rMKhi6gp+o73fjFe8NVK80mKpceWU=";
     name = "apm821xx_nand-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/apm821xx/nand/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/apm821xx/nand/profiles.json";
   };
   profiles.extract = {
     arch_packages = "powerpc_464fp";
@@ -108,11 +108,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/apm821xx/nand/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/apm821xx/nand/packages/";
     sourceInfo = {
       hash = "sha256-QDuCeEua7tnm0+6juPIb8tTa4FJTw9ZhGXQCC9VpKWY=";
       name = "apm821xx_nand-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/apm821xx/nand/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/apm821xx/nand/packages/Packages";
     };
     packages =
       let

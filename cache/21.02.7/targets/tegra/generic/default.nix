@@ -1,16 +1,16 @@
 # 21.02.7 tegra/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/tegra/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/tegra/generic/";
   sha256sums = {
     hash = "sha256-9UYyTIOe8uQtsQoagEFikIfgBOofh4JBSUQIy2OhKLY=";
     name = "tegra_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/tegra/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/tegra/generic/sha256sums";
   };
   imagebuilder = null;
   profiles.sourceInfo = {
     hash = "sha256-pnkV5lHs3FCIcoeKM7M7E4XxcaYtah4XPyqjdxVt6Bg=";
     name = "tegra_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/tegra/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/tegra/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_cortex-a9_vfpv3-d16";
@@ -70,11 +70,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/tegra/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/tegra/generic/packages/";
     sourceInfo = {
       hash = "sha256-jusywRIcLrtCSIpiSjl5ydNrBwiJrt6HtQbgqxFmwPA=";
       name = "tegra_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/tegra/generic/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/tegra/generic/packages/Packages";
     };
     packages =
       let

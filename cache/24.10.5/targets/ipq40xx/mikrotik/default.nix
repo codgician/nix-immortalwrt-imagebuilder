@@ -1,10 +1,10 @@
 # 24.10.5 ipq40xx/mikrotik
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ipq40xx/mikrotik/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ipq40xx/mikrotik/";
   sha256sums = {
     hash = "sha256-Q7C9JBJkx5mDKHz4dVR11bmTF3LllDcL0qQCs6I2mxc=";
     name = "ipq40xx_mikrotik-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ipq40xx/mikrotik/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ipq40xx/mikrotik/sha256sums";
   };
   imagebuilder = {
     sha256 = "ee066c005aec4ed8899c8ecdf891a9b68fdd080e27f7fce4b7d554a56f0c4301";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-+NAu2YRxTqSySMjISqsLtJG63obHRY67AegdpKsygng=";
     name = "ipq40xx_mikrotik-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ipq40xx/mikrotik/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ipq40xx/mikrotik/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_cortex-a7_neon-vfpv4";
@@ -130,11 +130,11 @@
     };
   };
   kmods."6.6.122-1-4d2350b4f9e7c605f8d79dc5e6ff8e25" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ipq40xx/mikrotik/kmods/6.6.122-1-4d2350b4f9e7c605f8d79dc5e6ff8e25/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ipq40xx/mikrotik/kmods/6.6.122-1-4d2350b4f9e7c605f8d79dc5e6ff8e25/";
     sourceInfo = {
       hash = "sha256-LNDwlj/VRVLHJZL/vUhSYYJ+Tbg2vGvujTdJ1Av8WQE=";
       name = "kmods-ipq40xx_mikrotik-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ipq40xx/mikrotik/kmods/6.6.122-1-4d2350b4f9e7c605f8d79dc5e6ff8e25/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ipq40xx/mikrotik/kmods/6.6.122-1-4d2350b4f9e7c605f8d79dc5e6ff8e25/Packages";
     };
     packages =
       let
@@ -143,11 +143,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ipq40xx/mikrotik/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ipq40xx/mikrotik/packages/";
     sourceInfo = {
       hash = "sha256-J5YQrwx+MSXodaz81QlR12ni7h1qHMzUV/sHMYVxb4U=";
       name = "ipq40xx_mikrotik-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ipq40xx/mikrotik/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ipq40xx/mikrotik/packages/Packages";
     };
     packages =
       let

@@ -1,10 +1,10 @@
 # snapshot x86/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/x86/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/x86/generic/";
   sha256sums = {
     hash = "sha256-Em3pgryNpXezHC/hgbBW5ObpG+j2mFXQU5li1NT4YmY=";
     name = "x86_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/x86/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/x86/generic/sha256sums";
   };
   imagebuilder = {
     sha256 = "e17524f215bea8c780af29d2438d963692cbe72a094b20fe82109cb638e39f4f";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-lJp8I3pnRgghAu7U9OJ1PAMTU92JZeI1k2/OYQvOvlE=";
     name = "x86_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/x86/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/x86/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "i386_pentium4";
@@ -100,11 +100,11 @@
     };
   };
   kmods."6.12.67-1-49109746f02e552e0301bd2ae7faa70f" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/x86/generic/kmods/6.12.67-1-49109746f02e552e0301bd2ae7faa70f/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/x86/generic/kmods/6.12.67-1-49109746f02e552e0301bd2ae7faa70f/";
     sourceInfo = {
       hash = "sha256-b6SKaqfqmkg2XsDL6a57n0J4Oz/zOU4k0MIj5rwd0Fs=";
       name = "kmods-x86_generic-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/x86/generic/kmods/6.12.67-1-49109746f02e552e0301bd2ae7faa70f/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/x86/generic/kmods/6.12.67-1-49109746f02e552e0301bd2ae7faa70f/packages.adb";
     };
     packages =
       let
@@ -113,11 +113,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/x86/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/x86/generic/packages/";
     sourceInfo = {
       hash = "sha256-qAGkQsSOlaFjXf/NS30pBgEZAKc+Ja3D6Ou6bxv0xX0=";
       name = "x86_generic-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/x86/generic/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/x86/generic/packages/packages.adb";
     };
     packages =
       let

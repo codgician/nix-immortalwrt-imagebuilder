@@ -1,10 +1,10 @@
 # snapshot ramips/mt76x8
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ramips/mt76x8/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt76x8/";
   sha256sums = {
     hash = "sha256-AOv8XE9d4mnaj+9zdufHTixqhzrBhMQTGrKw1RB9Ink=";
     name = "ramips_mt76x8-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ramips/mt76x8/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt76x8/sha256sums";
   };
   imagebuilder = {
     sha256 = "5979ac3f64ac531869ef7326619197189bafca0650d0bc406608e9a7a9bc6813";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-3i+Rjv4nBb9Z05JNTnCncsEjbYp0HF58a/7RbkvOrx0=";
     name = "ramips_mt76x8-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ramips/mt76x8/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt76x8/profiles.json";
   };
   profiles.extract = {
     arch_packages = "mipsel_24kc";
@@ -742,11 +742,11 @@
     };
   };
   kmods."6.12.67-1-bea00440878cec6f69ea5df43dc733b8" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ramips/mt76x8/kmods/6.12.67-1-bea00440878cec6f69ea5df43dc733b8/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt76x8/kmods/6.12.67-1-bea00440878cec6f69ea5df43dc733b8/";
     sourceInfo = {
       hash = "sha256-NLeERplH4bJML/jyusIOkpnCCkz43q9D4uhXChq8jh4=";
       name = "kmods-ramips_mt76x8-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ramips/mt76x8/kmods/6.12.67-1-bea00440878cec6f69ea5df43dc733b8/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt76x8/kmods/6.12.67-1-bea00440878cec6f69ea5df43dc733b8/packages.adb";
     };
     packages =
       let
@@ -755,11 +755,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ramips/mt76x8/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt76x8/packages/";
     sourceInfo = {
       hash = "sha256-iKqdfO5beM4etHu1C7NiJL8sbgmTPaVYjDp0XBcpF1Q=";
       name = "ramips_mt76x8-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/ramips/mt76x8/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt76x8/packages/packages.adb";
     };
     packages =
       let

@@ -1,10 +1,10 @@
 # 24.10.5 x86/64
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/x86/64/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/x86/64/";
   sha256sums = {
     hash = "sha256-0byBDaX4G9OfaAsXFjNFaIp+QtabIXmM4zqA1H7tsqk=";
     name = "x86_64-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/x86/64/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/x86/64/sha256sums";
   };
   imagebuilder = {
     sha256 = "87bf37d3c3d90f5acb18882282adb8ee661cc79df59442c9ea297cbcc80b8e3f";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-42Q9FS1faOXTn6WGrlwuNNhr7mI1LiVU6lnxHXK8yfg=";
     name = "x86_64-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/x86/64/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/x86/64/profiles.json";
   };
   profiles.extract = {
     arch_packages = "x86_64";
@@ -106,11 +106,11 @@
     };
   };
   kmods."6.6.122-1-e7e50fbc0aafa7443418a79928da2602" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/x86/64/kmods/6.6.122-1-e7e50fbc0aafa7443418a79928da2602/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/x86/64/kmods/6.6.122-1-e7e50fbc0aafa7443418a79928da2602/";
     sourceInfo = {
       hash = "sha256-JyyFNW35+RhguTw/vioesdCKGo/z5PXph9yGWBarEhk=";
       name = "kmods-x86_64-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/x86/64/kmods/6.6.122-1-e7e50fbc0aafa7443418a79928da2602/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/x86/64/kmods/6.6.122-1-e7e50fbc0aafa7443418a79928da2602/Packages";
     };
     packages =
       let
@@ -119,11 +119,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/x86/64/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/x86/64/packages/";
     sourceInfo = {
       hash = "sha256-n2oLd5IziJZZwIb3vluiuQUGM9p2TcgFLKBSSJ+g7pI=";
       name = "x86_64-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/x86/64/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/x86/64/packages/Packages";
     };
     packages =
       let

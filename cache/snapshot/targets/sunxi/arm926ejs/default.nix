@@ -1,10 +1,10 @@
 # snapshot sunxi/arm926ejs
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/sunxi/arm926ejs/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/arm926ejs/";
   sha256sums = {
     hash = "sha256-8DlDrdvaRtDwTbh4/aC8P2cbvmzgO36Nb31fL0bLxTE=";
     name = "sunxi_arm926ejs-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/sunxi/arm926ejs/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/arm926ejs/sha256sums";
   };
   imagebuilder = {
     sha256 = "b19173205d4ec8fc0a7ea1f68fe02486314c477dc9131e1a970f251c11d9060f";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-69Velsbc/tEjbErm6aQPU07EBmLS3paJoNRYNjf1cSk=";
     name = "sunxi_arm926ejs-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/sunxi/arm926ejs/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/arm926ejs/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_arm926ej-s";
@@ -64,11 +64,11 @@
     };
   };
   kmods."6.12.67-1-07b1efcc58daf4ce9158c255628e3086" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/sunxi/arm926ejs/kmods/6.12.67-1-07b1efcc58daf4ce9158c255628e3086/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/arm926ejs/kmods/6.12.67-1-07b1efcc58daf4ce9158c255628e3086/";
     sourceInfo = {
       hash = "sha256-TmeXMljC8SyMqGsRQAg2wPj7bjQRgc5oT66GkY4/8S0=";
       name = "kmods-sunxi_arm926ejs-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/sunxi/arm926ejs/kmods/6.12.67-1-07b1efcc58daf4ce9158c255628e3086/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/arm926ejs/kmods/6.12.67-1-07b1efcc58daf4ce9158c255628e3086/packages.adb";
     };
     packages =
       let
@@ -77,11 +77,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/sunxi/arm926ejs/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/arm926ejs/packages/";
     sourceInfo = {
       hash = "sha256-Cx6lIH2Fb/RkPvEwlGv4DfS9JkBRBvA29HAnEb5uj3Q=";
       name = "sunxi_arm926ejs-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/sunxi/arm926ejs/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/arm926ejs/packages/packages.adb";
     };
     packages =
       let

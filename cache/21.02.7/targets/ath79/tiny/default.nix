@@ -1,10 +1,10 @@
 # 21.02.7 ath79/tiny
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/ath79/tiny/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/ath79/tiny/";
   sha256sums = {
     hash = "sha256-TKKGqUHVjqk/m9rhspTlYEizcBEat9a5borSzn5Xa3c=";
     name = "ath79_tiny-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/ath79/tiny/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/ath79/tiny/sha256sums";
   };
   imagebuilder = {
     sha256 = "d48d53f569b3ab681238a79f4eb688882556c1850ed6aeb63c7e7ec246e03be2";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-Lx+cBrMhURbn1y1gYC99tfQc45bFvtMYNyNYYeH6yQw=";
     name = "ath79_tiny-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/ath79/tiny/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/ath79/tiny/profiles.json";
   };
   profiles.extract = {
     arch_packages = "mips_24kc";
@@ -95,11 +95,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/ath79/tiny/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/ath79/tiny/packages/";
     sourceInfo = {
       hash = "sha256-wULkWlGx/lbEturfwtkHS5NQA6L0/jBOIQSfQu1j92E=";
       name = "ath79_tiny-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/ath79/tiny/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/ath79/tiny/packages/Packages";
     };
     packages =
       let

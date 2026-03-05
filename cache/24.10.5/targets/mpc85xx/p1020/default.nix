@@ -1,10 +1,10 @@
 # 24.10.5 mpc85xx/p1020
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/mpc85xx/p1020/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/mpc85xx/p1020/";
   sha256sums = {
     hash = "sha256-ZjsWYyWlY4ommBzFakdI+mJX4sSw8jcb5HwtpR0FKOE=";
     name = "mpc85xx_p1020-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/mpc85xx/p1020/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/mpc85xx/p1020/sha256sums";
   };
   imagebuilder = {
     sha256 = "51d3169369b7cb5b1713ba63835a8290f208ef897d66cafe0e6c581d22eb8cc7";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-Ps+6df6Sz7B4GIg4Qyp4Aho7Eu3xCexVZgbac+/99KE=";
     name = "mpc85xx_p1020-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/mpc85xx/p1020/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/mpc85xx/p1020/profiles.json";
   };
   profiles.extract = {
     arch_packages = "powerpc_8548";
@@ -93,11 +93,11 @@
     };
   };
   kmods."6.6.122-1-9a33a955849b167558eb31f904e5260a" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/mpc85xx/p1020/kmods/6.6.122-1-9a33a955849b167558eb31f904e5260a/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/mpc85xx/p1020/kmods/6.6.122-1-9a33a955849b167558eb31f904e5260a/";
     sourceInfo = {
       hash = "sha256-ioROAJ0Qape+zWZSSwUtKcH3l+ZzbqCF46fqj+PfR+E=";
       name = "kmods-mpc85xx_p1020-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/mpc85xx/p1020/kmods/6.6.122-1-9a33a955849b167558eb31f904e5260a/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/mpc85xx/p1020/kmods/6.6.122-1-9a33a955849b167558eb31f904e5260a/Packages";
     };
     packages =
       let
@@ -106,11 +106,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/mpc85xx/p1020/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/mpc85xx/p1020/packages/";
     sourceInfo = {
       hash = "sha256-S5TdXOaWR3+A16rGjkVl4ofk5Rolm0kNdu3vJBMSKe4=";
       name = "mpc85xx_p1020-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/mpc85xx/p1020/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/mpc85xx/p1020/packages/Packages";
     };
     packages =
       let

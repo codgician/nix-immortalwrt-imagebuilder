@@ -1,10 +1,10 @@
 # 21.02.7 mvebu/cortexa72
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/mvebu/cortexa72/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/mvebu/cortexa72/";
   sha256sums = {
     hash = "sha256-HHMVFG80PIH5sFvRIBN34gmHjqvyGPUpfBkdahSQp6E=";
     name = "mvebu_cortexa72-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/mvebu/cortexa72/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/mvebu/cortexa72/sha256sums";
   };
   imagebuilder = {
     sha256 = "b8171d0f7e28a00ce0140ae5ec770047f2c03d1b637bef3c63bd0923d97f3293";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-tvaosRG3i3gqA+FcF3AlvgTsvBY0ZztUFWXW9ipXNbM=";
     name = "mvebu_cortexa72-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/mvebu/cortexa72/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/mvebu/cortexa72/profiles.json";
   };
   profiles.extract = {
     arch_packages = "aarch64_cortex-a72";
@@ -85,11 +85,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/mvebu/cortexa72/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/mvebu/cortexa72/packages/";
     sourceInfo = {
       hash = "sha256-bU3eoXnkazMBrFLovovq2nAnUbpuEh/Pt4F0ZpaVBaQ=";
       name = "mvebu_cortexa72-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/mvebu/cortexa72/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/mvebu/cortexa72/packages/Packages";
     };
     packages =
       let

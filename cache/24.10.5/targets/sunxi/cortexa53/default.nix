@@ -1,10 +1,10 @@
 # 24.10.5 sunxi/cortexa53
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/sunxi/cortexa53/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/sunxi/cortexa53/";
   sha256sums = {
     hash = "sha256-uU9RJeVI3DDzypjFAcYw6muRc3PkuT0ZV33tujg7l3E=";
     name = "sunxi_cortexa53-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/sunxi/cortexa53/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/sunxi/cortexa53/sha256sums";
   };
   imagebuilder = {
     sha256 = "d660188a7d6478f9710e69e13573ddbe7443e1a7c36ad3be30cf94fc891080b9";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-3I0DVXJn+loyWZvICNrn9TTsH+OdWesi7PkYUYgkuC0=";
     name = "sunxi_cortexa53-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/sunxi/cortexa53/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/sunxi/cortexa53/profiles.json";
   };
   profiles.extract = {
     arch_packages = "aarch64_cortex-a53";
@@ -122,11 +122,11 @@
     };
   };
   kmods."6.6.122-1-a9c3989248061c2300c9770d3c403256" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/sunxi/cortexa53/kmods/6.6.122-1-a9c3989248061c2300c9770d3c403256/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/sunxi/cortexa53/kmods/6.6.122-1-a9c3989248061c2300c9770d3c403256/";
     sourceInfo = {
       hash = "sha256-rxzqSEy0HFGGWrSFosIoSMQMduAefFNcvMI9e2dT7tw=";
       name = "kmods-sunxi_cortexa53-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/sunxi/cortexa53/kmods/6.6.122-1-a9c3989248061c2300c9770d3c403256/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/sunxi/cortexa53/kmods/6.6.122-1-a9c3989248061c2300c9770d3c403256/Packages";
     };
     packages =
       let
@@ -135,11 +135,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/sunxi/cortexa53/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/sunxi/cortexa53/packages/";
     sourceInfo = {
       hash = "sha256-aWeUw9mBzuutvf5pGYtmAqLM7PZ9UWOetvRSDhDeaec=";
       name = "sunxi_cortexa53-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/sunxi/cortexa53/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/sunxi/cortexa53/packages/Packages";
     };
     packages =
       let

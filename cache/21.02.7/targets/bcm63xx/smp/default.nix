@@ -1,10 +1,10 @@
 # 21.02.7 bcm63xx/smp
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/bcm63xx/smp/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/bcm63xx/smp/";
   sha256sums = {
     hash = "sha256-QhSO8yKa6DPL/5ochIMZuVxDKQxk0UV+P1tgj84wOIE=";
     name = "bcm63xx_smp-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/bcm63xx/smp/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/bcm63xx/smp/sha256sums";
   };
   imagebuilder = {
     sha256 = "66bc28f2cc7192b57141bbe8242288aba16dd6155c1d144e81be63c24fdc4c3b";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-SkAWz770t7i0QZPp1wKkQrpAyVtjx1I6q0lGgwlaQtE=";
     name = "bcm63xx_smp-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/bcm63xx/smp/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/bcm63xx/smp/profiles.json";
   };
   profiles.extract = {
     arch_packages = "mips_mips32";
@@ -603,11 +603,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/bcm63xx/smp/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/bcm63xx/smp/packages/";
     sourceInfo = {
       hash = "sha256-GLtBKlzuFsAr8iior0j72Ltk/KZLLWsAq5VQycDH1fM=";
       name = "bcm63xx_smp-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/bcm63xx/smp/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/bcm63xx/smp/packages/Packages";
     };
     packages =
       let

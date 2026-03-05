@@ -1,10 +1,10 @@
 # 24.10.5 mediatek/filogic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/mediatek/filogic/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/mediatek/filogic/";
   sha256sums = {
     hash = "sha256-IzHM3h540P61yeaZkwGGNZnTYwBxOcRyzWs/xMX58Qc=";
     name = "mediatek_filogic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/mediatek/filogic/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/mediatek/filogic/sha256sums";
   };
   imagebuilder = {
     sha256 = "1383bee01841e6c78ff4d0020b928b37bbac5c92a1ef8fc9900bcfb339ec1963";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-gZ5fUIqVgEsFj1b68ELMazTeImf3Ou1qKWTran3CFkI=";
     name = "mediatek_filogic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/mediatek/filogic/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/mediatek/filogic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "aarch64_cortex-a53";
@@ -1136,11 +1136,11 @@
     };
   };
   kmods."6.6.122-1-db54f778a3b2b2dcbe4dad7cd73274c0" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/mediatek/filogic/kmods/6.6.122-1-db54f778a3b2b2dcbe4dad7cd73274c0/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/mediatek/filogic/kmods/6.6.122-1-db54f778a3b2b2dcbe4dad7cd73274c0/";
     sourceInfo = {
       hash = "sha256-xoiCk+PYnp74K09i2Asl5OBh9EPHLLjLjKCF+Xgglws=";
       name = "kmods-mediatek_filogic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/mediatek/filogic/kmods/6.6.122-1-db54f778a3b2b2dcbe4dad7cd73274c0/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/mediatek/filogic/kmods/6.6.122-1-db54f778a3b2b2dcbe4dad7cd73274c0/Packages";
     };
     packages =
       let
@@ -1149,11 +1149,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/mediatek/filogic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/mediatek/filogic/packages/";
     sourceInfo = {
       hash = "sha256-CN6i5j0GvIhPjQIQRNq0PMzZrV3dTWYIaqY9mnN+ZiY=";
       name = "mediatek_filogic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/mediatek/filogic/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/mediatek/filogic/packages/Packages";
     };
     packages =
       let

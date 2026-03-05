@@ -1,10 +1,10 @@
 # snapshot sifiveu/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/sifiveu/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/sifiveu/generic/";
   sha256sums = {
     hash = "sha256-olWgWi6I1rzz0wCTQjPjZWcLjvKTR0cwpVZS4G8NgJ8=";
     name = "sifiveu_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/sifiveu/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/sifiveu/generic/sha256sums";
   };
   imagebuilder = {
     sha256 = "6067d7341ec970a5c963e3f08dd2911c7ab2dc817da0ca132099484edd186699";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-tOcgNo1tDmk891kNE3mgKrq3tyaCsPWXeolrJmHe3Ec=";
     name = "sifiveu_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/sifiveu/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/sifiveu/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "riscv64_generic";
@@ -62,11 +62,11 @@
     };
   };
   kmods."6.12.67-1-c1e08daaad7cb0ccbef83637da497eb5" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/sifiveu/generic/kmods/6.12.67-1-c1e08daaad7cb0ccbef83637da497eb5/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/sifiveu/generic/kmods/6.12.67-1-c1e08daaad7cb0ccbef83637da497eb5/";
     sourceInfo = {
       hash = "sha256-5qrEmT0P+ODk38Jl7LsViCFZqoThbUU/feB4yLvpGNI=";
       name = "kmods-sifiveu_generic-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/sifiveu/generic/kmods/6.12.67-1-c1e08daaad7cb0ccbef83637da497eb5/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/sifiveu/generic/kmods/6.12.67-1-c1e08daaad7cb0ccbef83637da497eb5/packages.adb";
     };
     packages =
       let
@@ -75,11 +75,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/sifiveu/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/sifiveu/generic/packages/";
     sourceInfo = {
       hash = "sha256-vYoisLjoRXfj41OzJcmHU02yHNdJqfAKMLlIvOQtDDg=";
       name = "sifiveu_generic-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/sifiveu/generic/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/sifiveu/generic/packages/packages.adb";
     };
     packages =
       let

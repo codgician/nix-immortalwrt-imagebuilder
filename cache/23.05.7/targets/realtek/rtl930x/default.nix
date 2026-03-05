@@ -1,10 +1,10 @@
 # 23.05.7 realtek/rtl930x
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/realtek/rtl930x/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/realtek/rtl930x/";
   sha256sums = {
     hash = "sha256-/AGd8rDSuRJPTjwKS9tkZu1upF8DwvOHUGa3oDxDRXY=";
     name = "realtek_rtl930x-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/realtek/rtl930x/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/realtek/rtl930x/sha256sums";
   };
   imagebuilder = {
     sha256 = "984184cc115a8777e046f196c8d76185ece3d220c6697589c561af5fac9708ee";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-zp0Hd0pjqS6SypGLG/yX12fOYGU0sLstjArZ5oaqG5s=";
     name = "realtek_rtl930x-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/realtek/rtl930x/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/realtek/rtl930x/profiles.json";
   };
   profiles.extract = {
     arch_packages = "mips_24kc";
@@ -70,11 +70,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/realtek/rtl930x/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/realtek/rtl930x/packages/";
     sourceInfo = {
       hash = "sha256-Yv427ZmxdcdLrSE/QxEKPBhCXMB7kS2UsLRD+N5PkXM=";
       name = "realtek_rtl930x-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/realtek/rtl930x/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/realtek/rtl930x/packages/Packages";
     };
     packages =
       let

@@ -1,10 +1,10 @@
 # snapshot x86/64
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/x86/64/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/x86/64/";
   sha256sums = {
     hash = "sha256-Y3GNNAlvlSS6g4B6uweTtURIT52oxMyiFGd16S4dAs4=";
     name = "x86_64-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/x86/64/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/x86/64/sha256sums";
   };
   imagebuilder = {
     sha256 = "cd75c0dd2cc5b4982e085189520182a57c2435d8ce407dfca413e864baa1ab2c";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-dG3w5/kYnW6O38WllnLeha7eQc7cOY0eAuHPPIUqMDk=";
     name = "x86_64-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/x86/64/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/x86/64/profiles.json";
   };
   profiles.extract = {
     arch_packages = "x86_64";
@@ -96,11 +96,11 @@
     };
   };
   kmods."6.12.67-1-d35abff69dc28fe0c31399d408087b8d" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/x86/64/kmods/6.12.67-1-d35abff69dc28fe0c31399d408087b8d/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/x86/64/kmods/6.12.67-1-d35abff69dc28fe0c31399d408087b8d/";
     sourceInfo = {
       hash = "sha256-oB09us7apwRw3iMTtZwICcfVayatrPepUM/3fsVqzVU=";
       name = "kmods-x86_64-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/x86/64/kmods/6.12.67-1-d35abff69dc28fe0c31399d408087b8d/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/x86/64/kmods/6.12.67-1-d35abff69dc28fe0c31399d408087b8d/packages.adb";
     };
     packages =
       let
@@ -109,11 +109,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/x86/64/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/x86/64/packages/";
     sourceInfo = {
       hash = "sha256-2bP30G/kVm50jTZwwJuCLLU3hgHLKfgwKW3AbdjDHF0=";
       name = "x86_64-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/x86/64/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/x86/64/packages/packages.adb";
     };
     packages =
       let

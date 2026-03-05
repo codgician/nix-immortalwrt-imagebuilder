@@ -1,10 +1,10 @@
 # snapshot armsr/armv7
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/armsr/armv7/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/armsr/armv7/";
   sha256sums = {
     hash = "sha256-zBdlEcu2eolV35pHuMnuFlW41NolIXpjuhEgkw6FMpw=";
     name = "armsr_armv7-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/armsr/armv7/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/armsr/armv7/sha256sums";
   };
   imagebuilder = {
     sha256 = "ceb59a053318b7b81a128e13a84fa6eabfab41b193dab21d917f189e73a7a403";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-skfK4q6e1QDG1n5ipeW3/zG39PovIRaJd4noIzer9tQ=";
     name = "armsr_armv7-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/armsr/armv7/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/armsr/armv7/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_cortex-a15_neon-vfpv4";
@@ -89,11 +89,11 @@
     };
   };
   kmods."6.12.67-1-c654dcedeb5f64a9b69e472b04a7861c" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/armsr/armv7/kmods/6.12.67-1-c654dcedeb5f64a9b69e472b04a7861c/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/armsr/armv7/kmods/6.12.67-1-c654dcedeb5f64a9b69e472b04a7861c/";
     sourceInfo = {
       hash = "sha256-kVhWV25uCVTlwWwY6S5ERZ40Q0jlUIxbD07ml4B9OIg=";
       name = "kmods-armsr_armv7-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/armsr/armv7/kmods/6.12.67-1-c654dcedeb5f64a9b69e472b04a7861c/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/armsr/armv7/kmods/6.12.67-1-c654dcedeb5f64a9b69e472b04a7861c/packages.adb";
     };
     packages =
       let
@@ -102,11 +102,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/armsr/armv7/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/armsr/armv7/packages/";
     sourceInfo = {
       hash = "sha256-Ldwe7tFgTuKkiYCZfJLDeGxjE3X3v9HoYnxXfrhoCwU=";
       name = "armsr_armv7-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/armsr/armv7/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/armsr/armv7/packages/packages.adb";
     };
     packages =
       let

@@ -1,10 +1,10 @@
 # 21.02.7 layerscape/armv7
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/layerscape/armv7/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/layerscape/armv7/";
   sha256sums = {
     hash = "sha256-UWEmj8x7Dd8j0kdUUwkInrKy6G53W5NrsU9LY8FBiVI=";
     name = "layerscape_armv7-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/layerscape/armv7/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/layerscape/armv7/sha256sums";
   };
   imagebuilder = {
     sha256 = "f06d2343fb6330e10805a2f1f9c6279019e034a5413f1a561c4539982beebb5c";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-9oNYEm7ia9//++GjuqrKEqQcaE7HDxCqeW+h59CZ0SE=";
     name = "layerscape_armv7-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/layerscape/armv7/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/layerscape/armv7/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_cortex-a7_neon-vfpv4";
@@ -75,11 +75,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/layerscape/armv7/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/layerscape/armv7/packages/";
     sourceInfo = {
       hash = "sha256-nsXZSLTLP0Fo7d/RPs7w62SmUlH8fwDwVvPAJxStAPI=";
       name = "layerscape_armv7-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/layerscape/armv7/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/layerscape/armv7/packages/Packages";
     };
     packages =
       let

@@ -1,16 +1,16 @@
 # 21.02.7 imx6/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/imx6/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/imx6/generic/";
   sha256sums = {
     hash = "sha256-JXXLiXOf4aA0Cv4WUwvJ4zkXBGuPhTGurn5TPrCVLJI=";
     name = "imx6_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/imx6/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/imx6/generic/sha256sums";
   };
   imagebuilder = null;
   profiles.sourceInfo = {
     hash = "sha256-hg74bXIu0w7jZYNDBPJJi9sOUZLOEfYTHqtULQnSYlE=";
     name = "imx6_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/imx6/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/imx6/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_cortex-a9_neon";
@@ -94,11 +94,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/imx6/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/imx6/generic/packages/";
     sourceInfo = {
       hash = "sha256-bTH/a09dm3IhOrqVWyt9J0kAnvw7yrbEH1V1DyimaXs=";
       name = "imx6_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/imx6/generic/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/imx6/generic/packages/Packages";
     };
     packages =
       let

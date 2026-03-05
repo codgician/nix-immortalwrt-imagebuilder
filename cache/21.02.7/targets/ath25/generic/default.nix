@@ -1,16 +1,16 @@
 # 21.02.7 ath25/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/ath25/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/ath25/generic/";
   sha256sums = {
     hash = "sha256-3eOz1oY2MFRYYXhWhGUl3cdodosg6johLC4HMTQvxxA=";
     name = "ath25_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/ath25/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/ath25/generic/sha256sums";
   };
   imagebuilder = null;
   profiles.sourceInfo = {
     hash = "sha256-IuL91p0kQcjsv3u0Uiwe7PC4u4v9Vr/EMXT2XXeeDvQ=";
     name = "ath25_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/ath25/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/ath25/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "mips_mips32";
@@ -67,11 +67,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/ath25/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/ath25/generic/packages/";
     sourceInfo = {
       hash = "sha256-Nska41y3y+vvZmP8flT/wvrYKC9AbCFgbQAuGP7AYkU=";
       name = "ath25_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/ath25/generic/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/ath25/generic/packages/Packages";
     };
     packages =
       let

@@ -1,10 +1,10 @@
 # 24.10.5 sunxi/cortexa7
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/sunxi/cortexa7/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/sunxi/cortexa7/";
   sha256sums = {
     hash = "sha256-fhdjnEcX1Do/r8avdBMVnez6mPLpkh0wKfq7X4W3eXk=";
     name = "sunxi_cortexa7-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/sunxi/cortexa7/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/sunxi/cortexa7/sha256sums";
   };
   imagebuilder = {
     sha256 = "0c8ad1f61a445b13157c4a63ce3208a49ddc040495d3f9c13350956b4c025785";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-KV7oiu5tSDiuMoIbu1Gtu4KmX8jbfbpBCuitJtOEpnU=";
     name = "sunxi_cortexa7-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/sunxi/cortexa7/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/sunxi/cortexa7/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_cortex-a7_neon-vfpv4";
@@ -259,11 +259,11 @@
     };
   };
   kmods."6.6.122-1-bc998f472c5018529cbe993c3c4df9b0" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/sunxi/cortexa7/kmods/6.6.122-1-bc998f472c5018529cbe993c3c4df9b0/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/sunxi/cortexa7/kmods/6.6.122-1-bc998f472c5018529cbe993c3c4df9b0/";
     sourceInfo = {
       hash = "sha256-xakmIWxdsPATjkk9f41I01uyvqrwIBQfJoMAY48l8o8=";
       name = "kmods-sunxi_cortexa7-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/sunxi/cortexa7/kmods/6.6.122-1-bc998f472c5018529cbe993c3c4df9b0/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/sunxi/cortexa7/kmods/6.6.122-1-bc998f472c5018529cbe993c3c4df9b0/Packages";
     };
     packages =
       let
@@ -272,11 +272,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/sunxi/cortexa7/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/sunxi/cortexa7/packages/";
     sourceInfo = {
       hash = "sha256-EVlNKmoL6iUxe2/L8MLL7v/S9n8dzM9gcO09c0zpwnE=";
       name = "sunxi_cortexa7-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/sunxi/cortexa7/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/sunxi/cortexa7/packages/Packages";
     };
     packages =
       let

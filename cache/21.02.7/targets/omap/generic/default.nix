@@ -1,16 +1,16 @@
 # 21.02.7 omap/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/omap/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/omap/generic/";
   sha256sums = {
     hash = "sha256-denU0e2jd7WMN1IbJLPFGusFXp5wP1uSVzqF/AJa9+g=";
     name = "omap_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/omap/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/omap/generic/sha256sums";
   };
   imagebuilder = null;
   profiles.sourceInfo = {
     hash = "sha256-xYdxsdGsJJLGROqjru7B1h3DrzuaHSHHPDf3b9OGNKk=";
     name = "omap_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/omap/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/omap/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_cortex-a8_vfpv3";
@@ -81,11 +81,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/omap/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/omap/generic/packages/";
     sourceInfo = {
       hash = "sha256-gH9ygjIa8ag98wBHrJjjCI4yuZVr3pO1lQAVnxqGUMU=";
       name = "omap_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/omap/generic/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/omap/generic/packages/Packages";
     };
     packages =
       let

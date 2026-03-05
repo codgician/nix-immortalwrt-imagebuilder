@@ -1,10 +1,10 @@
 # 24.10.5 bcm4908/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/bcm4908/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/bcm4908/generic/";
   sha256sums = {
     hash = "sha256-3UlK3U3H4rxTaODkmJy5rpcT//fFBntbXDlhJUxQkZM=";
     name = "bcm4908_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/bcm4908/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/bcm4908/generic/sha256sums";
   };
   imagebuilder = {
     sha256 = "9efce3eeb93213b24cbbc1ea100492e59df2e399b5fb3e539d3b7ed2abeec581";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-AglsSmwSJFnHSUej8552iv1x0nJRK3YpuBClt8GxErE=";
     name = "bcm4908_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/bcm4908/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/bcm4908/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "aarch64_cortex-a53";
@@ -76,11 +76,11 @@
     };
   };
   kmods."6.6.122-1-f7cc8c56a5e7f81d663eefe78617d62a" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/bcm4908/generic/kmods/6.6.122-1-f7cc8c56a5e7f81d663eefe78617d62a/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/bcm4908/generic/kmods/6.6.122-1-f7cc8c56a5e7f81d663eefe78617d62a/";
     sourceInfo = {
       hash = "sha256-pjgnCVAlUvqWPwffKIieQoJvfXttbtx6lKko6smMWQo=";
       name = "kmods-bcm4908_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/bcm4908/generic/kmods/6.6.122-1-f7cc8c56a5e7f81d663eefe78617d62a/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/bcm4908/generic/kmods/6.6.122-1-f7cc8c56a5e7f81d663eefe78617d62a/Packages";
     };
     packages =
       let
@@ -89,11 +89,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/bcm4908/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/bcm4908/generic/packages/";
     sourceInfo = {
       hash = "sha256-LG+J6tJIMj+0b+fFpSuS2eH457oqLT4e/B9mad0cbqY=";
       name = "bcm4908_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/bcm4908/generic/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/bcm4908/generic/packages/Packages";
     };
     packages =
       let

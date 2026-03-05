@@ -1,10 +1,10 @@
 # 24.10.5 mxs/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/mxs/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/mxs/generic/";
   sha256sums = {
     hash = "sha256-9VvAa2VcedqmBQxUEPREOkGFHGyuc+I99Q4cgONrK+E=";
     name = "mxs_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/mxs/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/mxs/generic/sha256sums";
   };
   imagebuilder = {
     sha256 = "0b81a5202dcb7363325fcc60d8b84188a69efd5a4f22b80cf1f16dd1ccfd8536";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-AwjQmtnCnPb1ZY8GBR4NE4M+wku4ZY8fafeOXYauXP8=";
     name = "mxs_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/mxs/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/mxs/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_arm926ej-s";
@@ -90,11 +90,11 @@
     };
   };
   kmods."6.6.122-1-6bb11e0dba7d0ac5f4b35b98b159f1e9" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/mxs/generic/kmods/6.6.122-1-6bb11e0dba7d0ac5f4b35b98b159f1e9/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/mxs/generic/kmods/6.6.122-1-6bb11e0dba7d0ac5f4b35b98b159f1e9/";
     sourceInfo = {
       hash = "sha256-YmCBKdey/qCxWiiywcgTaMcJUCV3x6uV+mCC7Pf8A9w=";
       name = "kmods-mxs_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/mxs/generic/kmods/6.6.122-1-6bb11e0dba7d0ac5f4b35b98b159f1e9/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/mxs/generic/kmods/6.6.122-1-6bb11e0dba7d0ac5f4b35b98b159f1e9/Packages";
     };
     packages =
       let
@@ -103,11 +103,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/mxs/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/mxs/generic/packages/";
     sourceInfo = {
       hash = "sha256-a063sp5GKuDdDRMlWbaOm06Fka1GrQA35BTGYeoAM/E=";
       name = "mxs_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/mxs/generic/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/mxs/generic/packages/Packages";
     };
     packages =
       let

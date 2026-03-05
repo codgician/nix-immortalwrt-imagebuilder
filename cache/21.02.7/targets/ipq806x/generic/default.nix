@@ -1,10 +1,10 @@
 # 21.02.7 ipq806x/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/ipq806x/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/ipq806x/generic/";
   sha256sums = {
     hash = "sha256-++FDjfOaufh6wbhVM/EwQcYwdvpS2xP4fQ0gTK9tHtM=";
     name = "ipq806x_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/ipq806x/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/ipq806x/generic/sha256sums";
   };
   imagebuilder = {
     sha256 = "adb03b5cbba2001ae8568efe72e9620963b7500648daa9d98c57246c3d72b13e";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-NyTtUUdDBCiqSQjbvXWf9j217Q5RaaG2+MJfdVPmFBw=";
     name = "ipq806x_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/ipq806x/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/ipq806x/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_cortex-a15_neon-vfpv4";
@@ -193,11 +193,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/ipq806x/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/ipq806x/generic/packages/";
     sourceInfo = {
       hash = "sha256-s7yFIEmW0PujmHS250Gjxu3WIey/l01d9Di8wvZW2co=";
       name = "ipq806x_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/ipq806x/generic/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/ipq806x/generic/packages/Packages";
     };
     packages =
       let

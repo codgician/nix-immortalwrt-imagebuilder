@@ -1,10 +1,10 @@
 # 24.10.5 stm32/stm32mp1
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/stm32/stm32mp1/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/stm32/stm32mp1/";
   sha256sums = {
     hash = "sha256-vRvJQbXDlVOtZYmiGLUvQvmGH0Rc2haZvyFkH7cuRJ8=";
     name = "stm32_stm32mp1-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/stm32/stm32mp1/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/stm32/stm32mp1/sha256sums";
   };
   imagebuilder = {
     sha256 = "b062c5b5f77ea11bc3d9d79f1f21ee9c7f228008211f509c579a662e03c51fc4";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-RPjvkw/Q86rfy76QMN2MNl1UiauEDq/wb6/v+/1NaEo=";
     name = "stm32_stm32mp1-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/stm32/stm32mp1/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/stm32/stm32mp1/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_cortex-a7_neon-vfpv4";
@@ -78,11 +78,11 @@
     };
   };
   kmods."6.6.122-1-9dd7a3f9c9dfd468bf11c8264dd9a07e" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/stm32/stm32mp1/kmods/6.6.122-1-9dd7a3f9c9dfd468bf11c8264dd9a07e/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/stm32/stm32mp1/kmods/6.6.122-1-9dd7a3f9c9dfd468bf11c8264dd9a07e/";
     sourceInfo = {
       hash = "sha256-i3q12sb3Eqhmz5r3uXSyj1iAboMFgggMaroyEgo+rYQ=";
       name = "kmods-stm32_stm32mp1-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/stm32/stm32mp1/kmods/6.6.122-1-9dd7a3f9c9dfd468bf11c8264dd9a07e/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/stm32/stm32mp1/kmods/6.6.122-1-9dd7a3f9c9dfd468bf11c8264dd9a07e/Packages";
     };
     packages =
       let
@@ -91,11 +91,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/stm32/stm32mp1/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/stm32/stm32mp1/packages/";
     sourceInfo = {
       hash = "sha256-JgClS7OUcp9tu+j3MH8wByoub6yObyJPFqhgbplIs3k=";
       name = "stm32_stm32mp1-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/stm32/stm32mp1/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/stm32/stm32mp1/packages/Packages";
     };
     packages =
       let

@@ -1,10 +1,10 @@
 # 24.10.5 ixp4xx/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ixp4xx/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ixp4xx/generic/";
   sha256sums = {
     hash = "sha256-yvUMJ5mfGacx9Upq+BgBLSm8TLKxw08Im7jPyNOxcbY=";
     name = "ixp4xx_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ixp4xx/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ixp4xx/generic/sha256sums";
   };
   imagebuilder = {
     sha256 = "147f45bfd33852ce54750e7b9f9f2fbc2869f43480697a901a0d8d5090a7dce6";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-XjiONQX9IOez5I52ekFWJNSqxsM0/2sfhQHthAGlSH4=";
     name = "ixp4xx_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ixp4xx/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ixp4xx/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "armeb_xscale";
@@ -108,11 +108,11 @@
     };
   };
   kmods."6.6.122-1-506bddee533e329d28b6fc699bb09dec" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ixp4xx/generic/kmods/6.6.122-1-506bddee533e329d28b6fc699bb09dec/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ixp4xx/generic/kmods/6.6.122-1-506bddee533e329d28b6fc699bb09dec/";
     sourceInfo = {
       hash = "sha256-nNMT0QFhauSMqaX2qJ8IBXD1rTCF5KIJf3LZ+VbPCBo=";
       name = "kmods-ixp4xx_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ixp4xx/generic/kmods/6.6.122-1-506bddee533e329d28b6fc699bb09dec/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ixp4xx/generic/kmods/6.6.122-1-506bddee533e329d28b6fc699bb09dec/Packages";
     };
     packages =
       let
@@ -121,11 +121,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ixp4xx/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ixp4xx/generic/packages/";
     sourceInfo = {
       hash = "sha256-Z1c7HS7Nrnrw/Y19Co+w1OV3Ax+acIzJ3nrQxbe6HuQ=";
       name = "ixp4xx_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ixp4xx/generic/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ixp4xx/generic/packages/Packages";
     };
     packages =
       let

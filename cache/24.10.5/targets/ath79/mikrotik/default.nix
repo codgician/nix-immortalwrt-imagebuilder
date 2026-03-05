@@ -1,10 +1,10 @@
 # 24.10.5 ath79/mikrotik
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ath79/mikrotik/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ath79/mikrotik/";
   sha256sums = {
     hash = "sha256-dYqrQzHrZH+D7KE0QhCwrvUU39YZ7cMYWNnz/cagTIk=";
     name = "ath79_mikrotik-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ath79/mikrotik/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ath79/mikrotik/sha256sums";
   };
   imagebuilder = {
     sha256 = "08bf0cf1e3525f69c89e5311dbffd6074728d2165363ca08ba954bcce7f4ed02";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-JXik5ECNlzK+FsDx6bTCFg7X9nrSY+hs2nbw3izjK2M=";
     name = "ath79_mikrotik-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ath79/mikrotik/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ath79/mikrotik/profiles.json";
   };
   profiles.extract = {
     arch_packages = "mips_24kc";
@@ -190,11 +190,11 @@
     };
   };
   kmods."6.6.122-1-ee5b0d0b85aef3c42d5c1d1ebf1e1b70" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ath79/mikrotik/kmods/6.6.122-1-ee5b0d0b85aef3c42d5c1d1ebf1e1b70/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ath79/mikrotik/kmods/6.6.122-1-ee5b0d0b85aef3c42d5c1d1ebf1e1b70/";
     sourceInfo = {
       hash = "sha256-H/WjTcU08GHW5NhwbgnxXLVjyqrytroL2qCJ0admHOY=";
       name = "kmods-ath79_mikrotik-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ath79/mikrotik/kmods/6.6.122-1-ee5b0d0b85aef3c42d5c1d1ebf1e1b70/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ath79/mikrotik/kmods/6.6.122-1-ee5b0d0b85aef3c42d5c1d1ebf1e1b70/Packages";
     };
     packages =
       let
@@ -203,11 +203,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ath79/mikrotik/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ath79/mikrotik/packages/";
     sourceInfo = {
       hash = "sha256-KKdQhXuCDMuDYYQCDgmPY2z5lL5B97MvjFpRx3nKBNU=";
       name = "ath79_mikrotik-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ath79/mikrotik/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ath79/mikrotik/packages/Packages";
     };
     packages =
       let

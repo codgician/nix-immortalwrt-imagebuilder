@@ -1,10 +1,10 @@
 # 21.02.7 x86/64
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/x86/64/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/x86/64/";
   sha256sums = {
     hash = "sha256-pKWyUsdlNW3R65oE3H0gJb3F7FdgDJ1k3/L6ix4JN9I=";
     name = "x86_64-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/x86/64/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/x86/64/sha256sums";
   };
   imagebuilder = {
     sha256 = "6ecedfcef84a9bfa73bd9c95d771941d65791656e06f87f8c3af8c425885d08b";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-bR0uBhHma6r2qrmDfntRP5/hlBSWPoeVNxcAM4+rXcw=";
     name = "x86_64-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/x86/64/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/x86/64/profiles.json";
   };
   profiles.extract = {
     arch_packages = "x86_64";
@@ -106,11 +106,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/x86/64/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/x86/64/packages/";
     sourceInfo = {
       hash = "sha256-JdEVxYnQio4weA2cuGMV+FcRC7DQpcZiVyLdnYdu5+E=";
       name = "x86_64-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/x86/64/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/x86/64/packages/Packages";
     };
     packages =
       let

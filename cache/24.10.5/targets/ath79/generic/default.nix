@@ -1,10 +1,10 @@
 # 24.10.5 ath79/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ath79/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ath79/generic/";
   sha256sums = {
     hash = "sha256-u0cV3aPD7mY4o5csZ1fgbxe04r4OeA3+0wR01b5EeSI=";
     name = "ath79_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ath79/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ath79/generic/sha256sums";
   };
   imagebuilder = {
     sha256 = "3259638d7fe7bc1fe310389b67528588feba7ce67f9549bfe3b96031362d7780";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-R0XaSk9TKOfXwSjHpjoHbNURI14cOdPHJTV9nfkQlyE=";
     name = "ath79_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ath79/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ath79/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "mips_24kc";
@@ -2162,11 +2162,11 @@
     };
   };
   kmods."6.6.122-1-7e65f026db1a6848c893abe1e0c938a2" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ath79/generic/kmods/6.6.122-1-7e65f026db1a6848c893abe1e0c938a2/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ath79/generic/kmods/6.6.122-1-7e65f026db1a6848c893abe1e0c938a2/";
     sourceInfo = {
       hash = "sha256-v7q232vhabOf9SI0dp0anp8dq9/gkojnkI57tNVaMrI=";
       name = "kmods-ath79_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ath79/generic/kmods/6.6.122-1-7e65f026db1a6848c893abe1e0c938a2/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ath79/generic/kmods/6.6.122-1-7e65f026db1a6848c893abe1e0c938a2/Packages";
     };
     packages =
       let
@@ -2175,11 +2175,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ath79/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ath79/generic/packages/";
     sourceInfo = {
       hash = "sha256-anXtJRc06suQczc5vI+EOPpQeD9/hflWV+usAsunm9Y=";
       name = "ath79_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ath79/generic/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ath79/generic/packages/Packages";
     };
     packages =
       let

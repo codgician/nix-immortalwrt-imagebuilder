@@ -1,10 +1,10 @@
 # 24.10.5 ipq40xx/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ipq40xx/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ipq40xx/generic/";
   sha256sums = {
     hash = "sha256-mCe66VSZYvXMqrgxKYwpBYIQZfAFjFIY00pav1xtiMQ=";
     name = "ipq40xx_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ipq40xx/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ipq40xx/generic/sha256sums";
   };
   imagebuilder = {
     sha256 = "cdf4e9c6d19816b4abadf47ab47c78ff3b5e85987096bb79732822d3dcd22653";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-OZcFz3D4fQy+56oq+vaWCQhPAGeqXR8BkfBnn4jrPZQ=";
     name = "ipq40xx_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ipq40xx/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ipq40xx/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_cortex-a7_neon-vfpv4";
@@ -431,11 +431,11 @@
     };
   };
   kmods."6.6.122-1-bbaeae3a52af01073ccf77081021516e" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ipq40xx/generic/kmods/6.6.122-1-bbaeae3a52af01073ccf77081021516e/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ipq40xx/generic/kmods/6.6.122-1-bbaeae3a52af01073ccf77081021516e/";
     sourceInfo = {
       hash = "sha256-bk+Qj9F9kEuIW+Z7OK5zbD/Ds8SlUQnTLV8JADt28I0=";
       name = "kmods-ipq40xx_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ipq40xx/generic/kmods/6.6.122-1-bbaeae3a52af01073ccf77081021516e/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ipq40xx/generic/kmods/6.6.122-1-bbaeae3a52af01073ccf77081021516e/Packages";
     };
     packages =
       let
@@ -444,11 +444,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ipq40xx/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ipq40xx/generic/packages/";
     sourceInfo = {
       hash = "sha256-C7u/Fea0QYbfzuMseCL9uxTPsYOI/C2FRJNjanQKUjY=";
       name = "ipq40xx_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/ipq40xx/generic/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/ipq40xx/generic/packages/Packages";
     };
     packages =
       let

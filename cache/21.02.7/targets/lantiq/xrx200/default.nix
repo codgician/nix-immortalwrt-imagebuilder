@@ -1,10 +1,10 @@
 # 21.02.7 lantiq/xrx200
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/lantiq/xrx200/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/lantiq/xrx200/";
   sha256sums = {
     hash = "sha256-1/0r40H3u5VlHMKamqxbkC6gvE+z8h0eJvwdAf2KO8w=";
     name = "lantiq_xrx200-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/lantiq/xrx200/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/lantiq/xrx200/sha256sums";
   };
   imagebuilder = {
     sha256 = "78a336bbad2159785c1fdde1124f92f41c1831a5b80d35425430322bbf0acf27";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-6FOHVEcieYGATVW+T/gqzlbqkQlSgt8Jyfm2sa5XSRg=";
     name = "lantiq_xrx200-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/lantiq/xrx200/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/lantiq/xrx200/profiles.json";
   };
   profiles.extract = {
     arch_packages = "mips_24kc";
@@ -255,11 +255,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/lantiq/xrx200/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/lantiq/xrx200/packages/";
     sourceInfo = {
       hash = "sha256-sfeRvadnVq28uGJqQAe2pflOPY4TG/i/6lLcJ+80Rm4=";
       name = "lantiq_xrx200-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/lantiq/xrx200/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/lantiq/xrx200/packages/Packages";
     };
     packages =
       let

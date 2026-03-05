@@ -1,10 +1,10 @@
 # 23.05.7 octeon/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/octeon/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/octeon/generic/";
   sha256sums = {
     hash = "sha256-B1WH79xqhkp9/geEa7u7LRHtNg/IXg/Yo7dqW1ZZGeI=";
     name = "octeon_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/octeon/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/octeon/generic/sha256sums";
   };
   imagebuilder = {
     sha256 = "d271601fb86921838af64447db843472e6875eec36678c080a48b01c81f77e75";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-S0OZ2XyrQGdDcCRVEdfF4X2P2hsnwblkqhr/6aDqmaE=";
     name = "octeon_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/octeon/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/octeon/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "mips64_octeonplus";
@@ -107,11 +107,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/octeon/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/23.05.7/targets/octeon/generic/packages/";
     sourceInfo = {
       hash = "sha256-ZqZZP/p2dvZYgl7UIdrWx+Dm8Mv+/8uogJZhVdlyhak=";
       name = "octeon_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/23.05.7/targets/octeon/generic/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/23.05.7/targets/octeon/generic/packages/Packages";
     };
     packages =
       let

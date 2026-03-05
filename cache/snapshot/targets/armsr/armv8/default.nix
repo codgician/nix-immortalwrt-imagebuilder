@@ -1,10 +1,10 @@
 # snapshot armsr/armv8
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/armsr/armv8/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/armsr/armv8/";
   sha256sums = {
     hash = "sha256-1N2aqHc5anOiEZVYPoCm2XeLcnE2oMNRiUajJm2WgM4=";
     name = "armsr_armv8-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/armsr/armv8/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/armsr/armv8/sha256sums";
   };
   imagebuilder = {
     sha256 = "432a2369a6a4272754798e7608a7756520b32376790ed7afd59fbfe29dd5c21d";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-jpNralVYRDyJt3thMlbUKeiE2qczMjdeGT4lrUjhynI=";
     name = "armsr_armv8-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/armsr/armv8/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/armsr/armv8/profiles.json";
   };
   profiles.extract = {
     arch_packages = "aarch64_generic";
@@ -90,11 +90,11 @@
     };
   };
   kmods."6.12.67-1-2666fc275e87e1af3c85f5b641418d41" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/armsr/armv8/kmods/6.12.67-1-2666fc275e87e1af3c85f5b641418d41/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/armsr/armv8/kmods/6.12.67-1-2666fc275e87e1af3c85f5b641418d41/";
     sourceInfo = {
       hash = "sha256-AWZIgWtfWPd/QuzqAE6mkl+1po6Qof9IwkcKg7+jeXU=";
       name = "kmods-armsr_armv8-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/armsr/armv8/kmods/6.12.67-1-2666fc275e87e1af3c85f5b641418d41/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/armsr/armv8/kmods/6.12.67-1-2666fc275e87e1af3c85f5b641418d41/packages.adb";
     };
     packages =
       let
@@ -103,11 +103,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/armsr/armv8/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/armsr/armv8/packages/";
     sourceInfo = {
       hash = "sha256-NJb52Zs+sZ1asc+1QJhfnEpylxiX6g6NYrwvz6QW14Q=";
       name = "armsr_armv8-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/armsr/armv8/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/armsr/armv8/packages/packages.adb";
     };
     packages =
       let

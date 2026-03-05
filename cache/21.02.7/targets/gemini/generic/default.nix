@@ -1,16 +1,16 @@
 # 21.02.7 gemini/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/gemini/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/gemini/generic/";
   sha256sums = {
     hash = "sha256-rPhDkEVVRCBj8CqC0QvaaruZmbMZQUXLSP85fKa4kIo=";
     name = "gemini_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/gemini/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/gemini/generic/sha256sums";
   };
   imagebuilder = null;
   profiles.sourceInfo = {
     hash = "sha256-MR97cAMqxgMrubbUlAMtJyKnDhFMUtIyv0juPy8d3RM=";
     name = "gemini_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/gemini/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/gemini/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_fa526";
@@ -209,11 +209,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/gemini/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/gemini/generic/packages/";
     sourceInfo = {
       hash = "sha256-VY9KhUuNItl4maLPp4y3ZoGcIpY5JaP9/eQJxBydrqc=";
       name = "gemini_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/gemini/generic/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/gemini/generic/packages/Packages";
     };
     packages =
       let

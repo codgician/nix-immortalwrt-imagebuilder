@@ -1,10 +1,10 @@
 # snapshot imx/cortexa9
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/imx/cortexa9/";
+  baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/imx/cortexa9/";
   sha256sums = {
     hash = "sha256-gzu8yp6fHUWPoTuaftBr4BmEX7ojvuuGOlpB7YsnT+A=";
     name = "imx_cortexa9-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/imx/cortexa9/sha256sums";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/imx/cortexa9/sha256sums";
   };
   imagebuilder = {
     sha256 = "709caebf114094d41d79adf008499a5b5f617989c5ae304ade0e6456f11500cb";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-hHswnAZ93HfpekT96y1Rbviroth6p8/zw3DcKVF3ybM=";
     name = "imx_cortexa9-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/imx/cortexa9/profiles.json";
+    url = "https://downloads.immortalwrt.org/snapshots/targets/imx/cortexa9/profiles.json";
   };
   profiles.extract = {
     arch_packages = "arm_cortex-a9_neon";
@@ -91,11 +91,11 @@
     };
   };
   kmods."6.12.67-1-6e5db1b5137e156b7f83e1cd4da0a45a" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/imx/cortexa9/kmods/6.12.67-1-6e5db1b5137e156b7f83e1cd4da0a45a/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/imx/cortexa9/kmods/6.12.67-1-6e5db1b5137e156b7f83e1cd4da0a45a/";
     sourceInfo = {
       hash = "sha256-8iHJIGa0ShDUtWrDGt58t8D+xcyx1ubgtnly6x4NY/8=";
       name = "kmods-imx_cortexa9-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/imx/cortexa9/kmods/6.12.67-1-6e5db1b5137e156b7f83e1cd4da0a45a/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/imx/cortexa9/kmods/6.12.67-1-6e5db1b5137e156b7f83e1cd4da0a45a/packages.adb";
     };
     packages =
       let
@@ -104,11 +104,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/imx/cortexa9/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/imx/cortexa9/packages/";
     sourceInfo = {
       hash = "sha256-JK5ToK4nuZL48WmuHA0ebiS/X+pmb4rv1mxms69IDXE=";
       name = "imx_cortexa9-packages.adb";
-      url = "https://mirror.nju.edu.cn/immortalwrt/snapshots/targets/imx/cortexa9/packages/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/imx/cortexa9/packages/packages.adb";
     };
     packages =
       let

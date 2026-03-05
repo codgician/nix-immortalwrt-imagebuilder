@@ -1,10 +1,10 @@
 # 24.10.5 pistachio/generic
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/pistachio/generic/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/pistachio/generic/";
   sha256sums = {
     hash = "sha256-IBvvstNS1Ro8FmPu4v93E7dAanD9rdplC7bjHXKcfQo=";
     name = "pistachio_generic-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/pistachio/generic/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/pistachio/generic/sha256sums";
   };
   imagebuilder = {
     sha256 = "6f8f637f78cb6d995838a956229cd421922977c2ca339ef80b3a5d4f22b2f5df";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-0ZSV+gcOAWoe9c9xx/a/KgSPj2ObKSd43Cu4lPjrzKY=";
     name = "pistachio_generic-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/pistachio/generic/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/pistachio/generic/profiles.json";
   };
   profiles.extract = {
     arch_packages = "mipsel_24kc_24kf";
@@ -71,11 +71,11 @@
     };
   };
   kmods."6.6.122-1-2a40eb0c484ebb8c6481e00b7f1c5e4b" = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/pistachio/generic/kmods/6.6.122-1-2a40eb0c484ebb8c6481e00b7f1c5e4b/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/pistachio/generic/kmods/6.6.122-1-2a40eb0c484ebb8c6481e00b7f1c5e4b/";
     sourceInfo = {
       hash = "sha256-sqPQUKJt7uPXTD6moaxKEnGLDoFzf2z1ks1LIMmGnfU=";
       name = "kmods-pistachio_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/pistachio/generic/kmods/6.6.122-1-2a40eb0c484ebb8c6481e00b7f1c5e4b/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/pistachio/generic/kmods/6.6.122-1-2a40eb0c484ebb8c6481e00b7f1c5e4b/Packages";
     };
     packages =
       let
@@ -84,11 +84,11 @@
       if builtins.pathExists p then import p else null;
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/pistachio/generic/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/targets/pistachio/generic/packages/";
     sourceInfo = {
       hash = "sha256-kbTTCTAIEfpy/3MiKOO010J3udQvxG95BXyeqEj6gUA=";
       name = "pistachio_generic-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/24.10.5/targets/pistachio/generic/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/24.10.5/targets/pistachio/generic/packages/Packages";
     };
     packages =
       let

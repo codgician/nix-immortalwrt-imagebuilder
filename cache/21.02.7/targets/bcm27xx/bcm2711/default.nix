@@ -1,10 +1,10 @@
 # 21.02.7 bcm27xx/bcm2711
 {
-  baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/bcm27xx/bcm2711/";
+  baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/bcm27xx/bcm2711/";
   sha256sums = {
     hash = "sha256-8UlaBaNIf9L4CHy6B9IFYZFakL4spw24Cx8WrrLxJhI=";
     name = "bcm27xx_bcm2711-sha256sums";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/bcm27xx/bcm2711/sha256sums";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/bcm27xx/bcm2711/sha256sums";
   };
   imagebuilder = {
     sha256 = "1992ff2bb490f4f9046915e0c8f11abc105e98b58acff868a8cbfd860ac5dd39";
@@ -13,7 +13,7 @@
   profiles.sourceInfo = {
     hash = "sha256-zlzAu0vUNW6+qOyZWK2cttVUP5EJsGFm0OLlG8aAuk0=";
     name = "bcm27xx_bcm2711-profiles.json";
-    url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/bcm27xx/bcm2711/profiles.json";
+    url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/bcm27xx/bcm2711/profiles.json";
   };
   profiles.extract = {
     arch_packages = "aarch64_cortex-a72";
@@ -80,11 +80,11 @@
     };
   };
   corePackages = {
-    baseUrl = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/bcm27xx/bcm2711/packages/";
+    baseUrl = "https://downloads.immortalwrt.org/releases/21.02.7/targets/bcm27xx/bcm2711/packages/";
     sourceInfo = {
       hash = "sha256-Ro8VYyZN5m77kwufruOmp5buRvXLXsEKo/1FoU9Q+oo=";
       name = "bcm27xx_bcm2711-Packages";
-      url = "https://mirror.nju.edu.cn/immortalwrt/releases/21.02.7/targets/bcm27xx/bcm2711/packages/Packages";
+      url = "https://downloads.immortalwrt.org/releases/21.02.7/targets/bcm27xx/bcm2711/packages/Packages";
     };
     packages =
       let
