@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ramips/rt305x/";
   sha256sums = {
-    hash = "sha256-YIQhY68kZu0DfHgpamo1ZTlyzROZuWBbJQQQvCDaE7Y=";
+    hash = "sha256-nO/ACozSUcjFSeKS+6FTAH+ySjA/Zd3GyQZxCfuhN4A=";
     name = "ramips_rt305x-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/ramips/rt305x/sha256sums";
   };
   imagebuilder = {
-    sha256 = "7d09278cf86be577f382a1c692fae3b76d3022339305ac27ef0912d5517bd6c9";
+    sha256 = "b13b53b79cc6f72d37ddcbdce6db91a5daa722e432f0f7ea7c6e6856429e365b";
     filename = "immortalwrt-imagebuilder-ramips-rt305x.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-+kFoVK2cojpjhtm6izNjIlwZdAqgQY3JPpPYZkOc0DU=";
+    hash = "sha256-D7eam7bc+9knpq/JSuF/rf78E4T+UXaVmKv7jRKrmVQ=";
     name = "ramips_rt305x-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/ramips/rt305x/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "mipsel_24kc";
     linux_kernel = {
       release = "1";
-      vermagic = "66189151a2835bfe8fa4fa9cacddac7b";
-      version = "6.12.67";
+      vermagic = "eab68fa70a53652ab007fb7cb55958ec";
+      version = "6.12.74";
     };
     default_packages = [
       "apk-openssl"
@@ -52,7 +52,7 @@
       "urngd"
       "wpad-basic-openssl"
     ];
-    kmods_target = "6.12.67-1-66189151a2835bfe8fa4fa9cacddac7b";
+    kmods_target = "6.12.74-1-eab68fa70a53652ab007fb7cb55958ec";
     profiles = {
       allnet_all5002 = {
         device_packages = [
@@ -110,12 +110,12 @@
       };
     };
   };
-  kmods."6.12.67-1-66189151a2835bfe8fa4fa9cacddac7b" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ramips/rt305x/kmods/6.12.67-1-66189151a2835bfe8fa4fa9cacddac7b/";
+  kmods."6.12.74-1-eab68fa70a53652ab007fb7cb55958ec" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ramips/rt305x/kmods/6.12.74-1-eab68fa70a53652ab007fb7cb55958ec/";
     sourceInfo = {
-      hash = "sha256-ocLSPBBEg/SQb/9EZMgq1w/7WpYw+yPRUNriqhWnAJ8=";
+      hash = "sha256-LwU/viU5BnPEAPgkVhCptcyN/MQuooLzAcj5Y4RPJ3I=";
       name = "kmods-ramips_rt305x-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/ramips/rt305x/kmods/6.12.67-1-66189151a2835bfe8fa4fa9cacddac7b/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/ramips/rt305x/kmods/6.12.74-1-eab68fa70a53652ab007fb7cb55958ec/packages.adb";
     };
     packages =
       let
@@ -126,7 +126,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ramips/rt305x/packages/";
     sourceInfo = {
-      hash = "sha256-igZT62SNXCoi2C2I/G0ffA7w1kwKf4iEoIlaZFWChwU=";
+      hash = "sha256-qOyu9af/hPeN5SUDFcU1denGY+gncxuQ8oFGD6u1xJk=";
       name = "ramips_rt305x-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/ramips/rt305x/packages/packages.adb";
     };

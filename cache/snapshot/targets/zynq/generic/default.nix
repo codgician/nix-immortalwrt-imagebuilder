@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/zynq/generic/";
   sha256sums = {
-    hash = "sha256-NXWwmkLrCgdquZ6+rX9Yv+Kg52N1XFsBSOqY8jR3fug=";
+    hash = "sha256-0gU+v748cRmvT7QbHZWABwk94dTNYGUHaemO+OnjLSo=";
     name = "zynq_generic-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/zynq/generic/sha256sums";
   };
   imagebuilder = {
-    sha256 = "47c7a78b89eab8623cea56459fcf875a781e5f5a5ec37d6d58859f16fbaf52fb";
+    sha256 = "39a6c7fd33ee4f5a62d3ccd7d97757c71612e3365ff917c5980ad0ec3f971ad9";
     filename = "immortalwrt-imagebuilder-zynq-generic.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-LKPTPyDAe5I/PWupJksWtcNWNoEzpnvg7ciE9NpCC50=";
+    hash = "sha256-sQdr0aoocVENrAPPqfnaOhebKue8I67XLLH9e5QHzsE=";
     name = "zynq_generic-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/zynq/generic/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "arm_cortex-a9_neon";
     linux_kernel = {
       release = "1";
-      vermagic = "6d3bbaae097baf859fa95479eb003051";
-      version = "6.12.67";
+      vermagic = "d317fb0ab584aa6d818a5aeae76e7265";
+      version = "6.12.74";
     };
     default_packages = [
       "apk-openssl"
@@ -53,7 +53,7 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.12.67-1-6d3bbaae097baf859fa95479eb003051";
+    kmods_target = "6.12.74-1-d317fb0ab584aa6d818a5aeae76e7265";
     profiles = {
       avnet_zynq-zed = {
         device_packages = [ ];
@@ -72,12 +72,12 @@
       };
     };
   };
-  kmods."6.12.67-1-6d3bbaae097baf859fa95479eb003051" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/zynq/generic/kmods/6.12.67-1-6d3bbaae097baf859fa95479eb003051/";
+  kmods."6.12.74-1-d317fb0ab584aa6d818a5aeae76e7265" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/zynq/generic/kmods/6.12.74-1-d317fb0ab584aa6d818a5aeae76e7265/";
     sourceInfo = {
-      hash = "sha256-0NcyZDxuIUjd5fODTf/DH3keBpCQWqzFKJLcNW2y1fQ=";
+      hash = "sha256-UuEwHvPwaMwUynBXP52gBynYj6Qob/tN2ls22dacXe0=";
       name = "kmods-zynq_generic-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/zynq/generic/kmods/6.12.67-1-6d3bbaae097baf859fa95479eb003051/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/zynq/generic/kmods/6.12.74-1-d317fb0ab584aa6d818a5aeae76e7265/packages.adb";
     };
     packages =
       let
@@ -88,7 +88,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/zynq/generic/packages/";
     sourceInfo = {
-      hash = "sha256-LItFXRaCfHZADOZ+/6yesgHofD88oOW1jK4zAWE3VwI=";
+      hash = "sha256-BSezL9yxZBkT9Kq35IvvQGL50LLKHhPc2pCe8ZdC6nA=";
       name = "zynq_generic-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/zynq/generic/packages/packages.adb";
     };

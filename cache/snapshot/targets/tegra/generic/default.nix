@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/tegra/generic/";
   sha256sums = {
-    hash = "sha256-uJ85aGxW+68XI7xG61/XH+yorYR/rCKTTx1dsz8skJQ=";
+    hash = "sha256-zHm8aIsSrIXDADxJU5jCFoudltCDpOPVBx5UyrZ5dLk=";
     name = "tegra_generic-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/tegra/generic/sha256sums";
   };
   imagebuilder = {
-    sha256 = "d49943a2753cc8346a0bbdb651c2d94c551b6441b9949fbae1cda02239f422b0";
+    sha256 = "8fdd1f48ea94d4dd7f646f8237ca166adf8901490a22182c973f8867242242e6";
     filename = "immortalwrt-imagebuilder-tegra-generic.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-bd610qbyaP80NGQ1RuI9prOOF19y0G756yPJCXUQMH4=";
+    hash = "sha256-jKzUlM7gL9C4aPWsUM70lUBJIU4ET+gPPDu44+Jhr0w=";
     name = "tegra_generic-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/tegra/generic/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "arm_cortex-a9_vfpv3-d16";
     linux_kernel = {
       release = "1";
-      vermagic = "3ad9b75bd7e9263fbea6bb825714e6b1";
-      version = "6.12.67";
+      vermagic = "b95bb7405e3edc675dfec0e94bdd5716";
+      version = "6.12.74";
     };
     default_packages = [
       "apk-openssl"
@@ -51,7 +51,7 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.12.67-1-3ad9b75bd7e9263fbea6bb825714e6b1";
+    kmods_target = "6.12.74-1-b95bb7405e3edc675dfec0e94bdd5716";
     profiles = {
       compulab_trimslice = {
         device_packages = [
@@ -66,12 +66,12 @@
       };
     };
   };
-  kmods."6.12.67-1-3ad9b75bd7e9263fbea6bb825714e6b1" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/tegra/generic/kmods/6.12.67-1-3ad9b75bd7e9263fbea6bb825714e6b1/";
+  kmods."6.12.74-1-b95bb7405e3edc675dfec0e94bdd5716" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/tegra/generic/kmods/6.12.74-1-b95bb7405e3edc675dfec0e94bdd5716/";
     sourceInfo = {
-      hash = "sha256-W+JnS2Vr0AtDuQ+lQ9z5bL7J89myYeVrJt1i1iC9wfc=";
+      hash = "sha256-t6o1Hjr5zq9jR1Rj4SO0H36g8dWKORWw3kmM106b3t4=";
       name = "kmods-tegra_generic-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/tegra/generic/kmods/6.12.67-1-3ad9b75bd7e9263fbea6bb825714e6b1/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/tegra/generic/kmods/6.12.74-1-b95bb7405e3edc675dfec0e94bdd5716/packages.adb";
     };
     packages =
       let
@@ -82,7 +82,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/tegra/generic/packages/";
     sourceInfo = {
-      hash = "sha256-PnDm5Oc2/Jt9fdugKu9bz9/192JpvroJsn9pZrke17Q=";
+      hash = "sha256-72yIZTip7OHKjWx5ks/K7Gopgxcqb8dr537dtE+HEZ0=";
       name = "tegra_generic-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/tegra/generic/packages/packages.adb";
     };

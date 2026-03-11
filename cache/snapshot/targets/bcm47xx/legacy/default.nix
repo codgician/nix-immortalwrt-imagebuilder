@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/bcm47xx/legacy/";
   sha256sums = {
-    hash = "sha256-331RcL1SPTyzDRRf0Q835fnS1A6VBjzQY5h1LRkeS3w=";
+    hash = "sha256-joj86zGUkf72p5Mk6qHwKLeUQm7+k4n0ujbaH56ygmY=";
     name = "bcm47xx_legacy-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/bcm47xx/legacy/sha256sums";
   };
   imagebuilder = {
-    sha256 = "5ee8ea26eaa1433d329eec5ce3d93eab64e5e65acd2ac6cd7ef7def7dbc52431";
+    sha256 = "4e6e22cd5361edac99260cd7f3cb4242fd80721caf4b777738228d1205598d0d";
     filename = "immortalwrt-imagebuilder-bcm47xx-legacy.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-OyH36lsJz1IB8Cl1+TDqgKcnBTz1XYfLveF18cET0Nk=";
+    hash = "sha256-OeuohIyLHqr+z9kqzFeqHrIeGw5MX1m+Xv8vv9aWmkI=";
     name = "bcm47xx_legacy-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/bcm47xx/legacy/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "mipsel_mips32";
     linux_kernel = {
       release = "1";
-      vermagic = "49a9090b7910275985092c681b6bc8ce";
-      version = "6.12.67";
+      vermagic = "44d93ca9f20fc5f80602e5a409ea842e";
+      version = "6.12.74";
     };
     default_packages = [
       "apk-openssl"
@@ -53,7 +53,7 @@
       "urngd"
       "wpad-basic-openssl"
     ];
-    kmods_target = "6.12.67-1-49a9090b7910275985092c681b6bc8ce";
+    kmods_target = "6.12.74-1-44d93ca9f20fc5f80602e5a409ea842e";
     profiles = {
       dlink_dwl-3150 = {
         device_packages = [ ];
@@ -66,12 +66,12 @@
       };
     };
   };
-  kmods."6.12.67-1-49a9090b7910275985092c681b6bc8ce" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/bcm47xx/legacy/kmods/6.12.67-1-49a9090b7910275985092c681b6bc8ce/";
+  kmods."6.12.74-1-44d93ca9f20fc5f80602e5a409ea842e" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/bcm47xx/legacy/kmods/6.12.74-1-44d93ca9f20fc5f80602e5a409ea842e/";
     sourceInfo = {
-      hash = "sha256-9wXqb8r4QLnezAMECgqmGbTCa47vO8QfxWeDXlm7dow=";
+      hash = "sha256-8jpFNHR2guCJgCxdkvDZpCHe8ZVqxBrxK7bNj4JZopU=";
       name = "kmods-bcm47xx_legacy-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/bcm47xx/legacy/kmods/6.12.67-1-49a9090b7910275985092c681b6bc8ce/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/bcm47xx/legacy/kmods/6.12.74-1-44d93ca9f20fc5f80602e5a409ea842e/packages.adb";
     };
     packages =
       let
@@ -82,7 +82,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/bcm47xx/legacy/packages/";
     sourceInfo = {
-      hash = "sha256-FhWMtRv8zFfDbdUTrhSJJ2pzCAAPfaSQnn/x0Lh6B+o=";
+      hash = "sha256-8XEmapbLvLp8PuwmZUyQCVEPKIvWJnInZ5J4NM1ssMY=";
       name = "bcm47xx_legacy-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/bcm47xx/legacy/packages/packages.adb";
     };

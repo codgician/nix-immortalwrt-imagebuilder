@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mpc85xx/p1020/";
   sha256sums = {
-    hash = "sha256-6fpHksMsKhNTedoprUm8rgGUT8BQswsgrFkWnR+pXNI=";
+    hash = "sha256-CgQ2lqzRZQbNceHpnexRolJU62aDAodwVgtUybtidy0=";
     name = "mpc85xx_p1020-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/mpc85xx/p1020/sha256sums";
   };
   imagebuilder = {
-    sha256 = "c05ef0cbcc10173017dada39b002e174e6935ec8f5fa4e070cfd81de96924469";
+    sha256 = "6e34b843bd6b46558d5cec3e8698ba5b2b7cb3526b9760e7f3614423971ad757";
     filename = "immortalwrt-imagebuilder-mpc85xx-p1020.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-zMqpW+vMU23fElD0JJFz4GBUNP0XpDEexyyjPSXyEkw=";
+    hash = "sha256-lVaX1s+AR6ieDnuxOOcyXakqZEPHlmn0tH+w/vdGKcg=";
     name = "mpc85xx_p1020-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/mpc85xx/p1020/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "powerpc_8548";
     linux_kernel = {
       release = "1";
-      vermagic = "3b1c0ad97250ff09bac3742d5c4dda84";
-      version = "6.12.67";
+      vermagic = "34c315cdcdd0ac58ab9c12c69e02a6b0";
+      version = "6.12.74";
     };
     default_packages = [
       "apk-openssl"
@@ -58,7 +58,7 @@
       "urngd"
       "wpad-openssl"
     ];
-    kmods_target = "6.12.67-1-3b1c0ad97250ff09bac3742d5c4dda84";
+    kmods_target = "6.12.74-1-34c315cdcdd0ac58ab9c12c69e02a6b0";
     profiles = {
       aerohive_hiveap-330 = {
         device_packages = [
@@ -83,12 +83,12 @@
       };
     };
   };
-  kmods."6.12.67-1-3b1c0ad97250ff09bac3742d5c4dda84" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mpc85xx/p1020/kmods/6.12.67-1-3b1c0ad97250ff09bac3742d5c4dda84/";
+  kmods."6.12.74-1-34c315cdcdd0ac58ab9c12c69e02a6b0" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mpc85xx/p1020/kmods/6.12.74-1-34c315cdcdd0ac58ab9c12c69e02a6b0/";
     sourceInfo = {
-      hash = "sha256-9YT3LF1mLEx/uwvpzH2NKHsBz0P5RafKEH0M0L3fhkg=";
+      hash = "sha256-VS2xDzNAryqcsNJvL1gjWz1Ap1PVFSxtmfBd8JRqFFk=";
       name = "kmods-mpc85xx_p1020-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/mpc85xx/p1020/kmods/6.12.67-1-3b1c0ad97250ff09bac3742d5c4dda84/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/mpc85xx/p1020/kmods/6.12.74-1-34c315cdcdd0ac58ab9c12c69e02a6b0/packages.adb";
     };
     packages =
       let
@@ -99,7 +99,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mpc85xx/p1020/packages/";
     sourceInfo = {
-      hash = "sha256-q5VfPJELRh0M5EgPWPy4SW1XQudJsOSb+HXDohFpsNU=";
+      hash = "sha256-tCY4gLbVYlFAZnTCEozCiPuxKE7hw/KnRc16ScV+g+s=";
       name = "mpc85xx_p1020-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/mpc85xx/p1020/packages/packages.adb";
     };

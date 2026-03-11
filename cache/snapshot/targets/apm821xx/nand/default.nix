@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/nand/";
   sha256sums = {
-    hash = "sha256-sEwoNKEAT9i8+KMYGZOfarI0HUAndA7/AJFN3RwNY+s=";
+    hash = "sha256-bemopQK9lMQSjmhBoZcceTx5N+Agswz8deM74/tZKW8=";
     name = "apm821xx_nand-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/nand/sha256sums";
   };
   imagebuilder = {
-    sha256 = "5a69bd2c09380a61d911e7a2906415832ac58c986368e217cebe599feb19c705";
+    sha256 = "472e87cbe693ba58d1072d5e70fb3c3ce4358b9d00f025cc1d6cbe5b6281572d";
     filename = "immortalwrt-imagebuilder-apm821xx-nand.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-z8YRRV54hDLQ4yZZEyS61tOLpybkUC1aZvq3AdRyIIc=";
+    hash = "sha256-Ob27A3RrwTenj2PU1OHmzVW6GVamBTT7sWycJJVGGns=";
     name = "apm821xx_nand-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/nand/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "powerpc_464fp";
     linux_kernel = {
       release = "1";
-      vermagic = "88ff150a3b3051693673b5e28bb884e8";
-      version = "6.12.67";
+      vermagic = "f781ca8a5ff9b19d37e2a2eb2b333610";
+      version = "6.12.74";
     };
     default_packages = [
       "apk-openssl"
@@ -56,7 +56,7 @@
       "urngd"
       "wpad-openssl"
     ];
-    kmods_target = "6.12.67-1-88ff150a3b3051693673b5e28bb884e8";
+    kmods_target = "6.12.74-1-f781ca8a5ff9b19d37e2a2eb2b333610";
     profiles = {
       meraki_mr24 = {
         device_packages = [
@@ -103,12 +103,12 @@
       };
     };
   };
-  kmods."6.12.67-1-88ff150a3b3051693673b5e28bb884e8" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/nand/kmods/6.12.67-1-88ff150a3b3051693673b5e28bb884e8/";
+  kmods."6.12.74-1-f781ca8a5ff9b19d37e2a2eb2b333610" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/nand/kmods/6.12.74-1-f781ca8a5ff9b19d37e2a2eb2b333610/";
     sourceInfo = {
-      hash = "sha256-zLBVKvSf+fC0AdtRKVhlgYHz/Xwa3FJ6NKoBoEGXSg0=";
+      hash = "sha256-+fRsZNxq55WiBpBG1bP3Y+eyee9BYV3f9VUYJNENHfg=";
       name = "kmods-apm821xx_nand-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/nand/kmods/6.12.67-1-88ff150a3b3051693673b5e28bb884e8/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/nand/kmods/6.12.74-1-f781ca8a5ff9b19d37e2a2eb2b333610/packages.adb";
     };
     packages =
       let
@@ -119,7 +119,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/nand/packages/";
     sourceInfo = {
-      hash = "sha256-KP3OOPXvNzwikrao3qO0XZcNnHT6ckOaEcQpakLc5HA=";
+      hash = "sha256-6H9Xm656cUTz0+7qZKHDbCnz7QbpKATwR2AZV4XE/NQ=";
       name = "apm821xx_nand-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/nand/packages/packages.adb";
     };

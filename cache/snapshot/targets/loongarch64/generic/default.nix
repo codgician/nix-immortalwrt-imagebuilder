@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/loongarch64/generic/";
   sha256sums = {
-    hash = "sha256-UoEuF6oWd0JKTB7EiW8TRAfRc8WxNWBqFFIABcYhxgM=";
+    hash = "sha256-Y/6p00BSQ27Lm3jHmDmB4e1m8wP8fSMkCkTznRJ9l2Q=";
     name = "loongarch64_generic-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/loongarch64/generic/sha256sums";
   };
   imagebuilder = {
-    sha256 = "21408abe51d28363272b7ac127dfab4a6d9fdf3e6dce6b048ba9fa0e4f484e38";
+    sha256 = "3f76a2729a53f8aa216393be3d294a4fce29a3b75958ffc1a05974fce0000847";
     filename = "immortalwrt-imagebuilder-loongarch64-generic.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-cMui1V7pkveRJr+XN6yWgShRTk++goVPWOvl8jE7GnA=";
+    hash = "sha256-Vi5RTStuOQ/3FCKbWqyWLMIepR0H09F1MhsprTSYHfU=";
     name = "loongarch64_generic-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/loongarch64/generic/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "loongarch64_generic";
     linux_kernel = {
       release = "1";
-      vermagic = "7d011e74f3e72902aabc48ace5724e3d";
-      version = "6.12.67";
+      vermagic = "9cb0f93f459f2446a4dd2d38fe0e8d38";
+      version = "6.12.74";
     };
     default_packages = [
       "apk-openssl"
@@ -53,7 +53,7 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.12.67-1-7d011e74f3e72902aabc48ace5724e3d";
+    kmods_target = "6.12.74-1-9cb0f93f459f2446a4dd2d38fe0e8d38";
     profiles = {
       generic = {
         device_packages = [
@@ -63,12 +63,12 @@
       };
     };
   };
-  kmods."6.12.67-1-7d011e74f3e72902aabc48ace5724e3d" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/loongarch64/generic/kmods/6.12.67-1-7d011e74f3e72902aabc48ace5724e3d/";
+  kmods."6.12.74-1-9cb0f93f459f2446a4dd2d38fe0e8d38" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/loongarch64/generic/kmods/6.12.74-1-9cb0f93f459f2446a4dd2d38fe0e8d38/";
     sourceInfo = {
-      hash = "sha256-l3wiLAtsPvRuQngjD0UQEpw427LJLjED6dMHkoCeHM4=";
+      hash = "sha256-FfLIIgebjskXHWoNKIOK3C6vvR7CUp1tXWYNSlnjO90=";
       name = "kmods-loongarch64_generic-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/loongarch64/generic/kmods/6.12.67-1-7d011e74f3e72902aabc48ace5724e3d/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/loongarch64/generic/kmods/6.12.74-1-9cb0f93f459f2446a4dd2d38fe0e8d38/packages.adb";
     };
     packages =
       let
@@ -79,7 +79,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/loongarch64/generic/packages/";
     sourceInfo = {
-      hash = "sha256-7HJNkFuUrsqvk7evBoOGiRfDjSV55V4w4RNEmw2TFO0=";
+      hash = "sha256-BGgMjQ78q0jiO/McLMigJd1w7Y+GquB4zFhdLmFRkLI=";
       name = "loongarch64_generic-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/loongarch64/generic/packages/packages.adb";
     };

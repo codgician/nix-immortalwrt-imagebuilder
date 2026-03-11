@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl931x/";
   sha256sums = {
-    hash = "sha256-MKozAWEOqAQWBsM/YxFZwDyPZOrjYHhbUQEhBL/7b1o=";
+    hash = "sha256-HRfcep5QF2AbD03ShLn7RTDm6vxO9W2kHAmw1KypSew=";
     name = "realtek_rtl931x-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl931x/sha256sums";
   };
   imagebuilder = {
-    sha256 = "7aacdff97a222c61b8df63c85a5e33139b32ac422499bca397f6c5ab84f10761";
+    sha256 = "8988719605299fbf58e341d3335bc40f84aedb19ec76d801150f3dfa7f87f2d3";
     filename = "immortalwrt-imagebuilder-realtek-rtl931x.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-oP3eODTYbKFWFhzIdNL9il15olB9+J/7cVcbuxfh4f0=";
+    hash = "sha256-JS0A3KcqPRNzQeoA8yg/WAZYWiEVv1XYU436UfRUJKo=";
     name = "realtek_rtl931x-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl931x/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "mips_24kc";
     linux_kernel = {
       release = "1";
-      vermagic = "8ffbbb923a92f3949e37e6a18d4ba580";
-      version = "6.12.67";
+      vermagic = "0cba7e94e55eabfe040fd0daab82efc5";
+      version = "6.12.74";
     };
     default_packages = [
       "apk-openssl"
@@ -45,7 +45,7 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.12.67-1-8ffbbb923a92f3949e37e6a18d4ba580";
+    kmods_target = "6.12.74-1-0cba7e94e55eabfe040fd0daab82efc5";
     profiles = {
       plasmacloud_esx28 = {
         device_packages = [ "kmod-hwmon-adt7475" ];
@@ -56,14 +56,17 @@
           "poemgr"
         ];
       };
+      xikestor_sks8300-12x-v1 = {
+        device_packages = [ ];
+      };
     };
   };
-  kmods."6.12.67-1-8ffbbb923a92f3949e37e6a18d4ba580" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl931x/kmods/6.12.67-1-8ffbbb923a92f3949e37e6a18d4ba580/";
+  kmods."6.12.74-1-0cba7e94e55eabfe040fd0daab82efc5" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl931x/kmods/6.12.74-1-0cba7e94e55eabfe040fd0daab82efc5/";
     sourceInfo = {
-      hash = "sha256-xJE+EZN+m+myP3c7ufiyTJB0yDL5ft1/G1NqbSmrscc=";
+      hash = "sha256-mOktjI76PkK/mPut7dC/3vce4LVG2x/F2S60/Xy7DJM=";
       name = "kmods-realtek_rtl931x-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl931x/kmods/6.12.67-1-8ffbbb923a92f3949e37e6a18d4ba580/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl931x/kmods/6.12.74-1-0cba7e94e55eabfe040fd0daab82efc5/packages.adb";
     };
     packages =
       let
@@ -74,7 +77,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl931x/packages/";
     sourceInfo = {
-      hash = "sha256-Bi3QZenickZcETONfbePf3rwhx8Buy1CuOHXbAr0i+Y=";
+      hash = "sha256-5bfKZrgjXtVMNTYoImZ493HoO7g33z+aPgS8NEGNF2s=";
       name = "realtek_rtl931x-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl931x/packages/packages.adb";
     };

@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/x86/legacy/";
   sha256sums = {
-    hash = "sha256-AlngDXgND++2fo8IPyVg0vdEOCDAkQvJtQlbRIbC3JI=";
+    hash = "sha256-gjKXOTV3iKFBl5+QyOmKQj16rM9+QYR88LHoNIq5YAM=";
     name = "x86_legacy-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/x86/legacy/sha256sums";
   };
   imagebuilder = {
-    sha256 = "cadacc96732c0bba1b4c5f6a41623fa7690d6be581845b3fc8df05b50485304b";
+    sha256 = "09059015c8a1e1f2a4d7f9221508f508ce84c5909afc8de70db2cf40545c15ae";
     filename = "immortalwrt-imagebuilder-x86-legacy.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-re4PljH9LsySJ1Tkxzl2ZL1yDaHTMhVffHvwWkkUAn0=";
+    hash = "sha256-EffNFs6dve8tSIfulKTUAlTOF7786EECYZsY16dbrMk=";
     name = "x86_legacy-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/x86/legacy/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "i386_pentium-mmx";
     linux_kernel = {
       release = "1";
-      vermagic = "4c74789eaea637c0f925c9aa21e71fba";
-      version = "6.12.67";
+      vermagic = "b3478750a5c12914726ab785dd1c79ae";
+      version = "6.12.74";
     };
     default_packages = [
       "apk-openssl"
@@ -78,7 +78,7 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.12.67-1-4c74789eaea637c0f925c9aa21e71fba";
+    kmods_target = "6.12.74-1-b3478750a5c12914726ab785dd1c79ae";
     profiles = {
       generic = {
         device_packages = [
@@ -98,12 +98,12 @@
       };
     };
   };
-  kmods."6.12.67-1-4c74789eaea637c0f925c9aa21e71fba" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/x86/legacy/kmods/6.12.67-1-4c74789eaea637c0f925c9aa21e71fba/";
+  kmods."6.12.74-1-b3478750a5c12914726ab785dd1c79ae" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/x86/legacy/kmods/6.12.74-1-b3478750a5c12914726ab785dd1c79ae/";
     sourceInfo = {
-      hash = "sha256-V82j23tY0AaI4u9oGcW/aFKa3i0LLdsiPox3/v1ftFg=";
+      hash = "sha256-5hR8Zzs89rVHsrN780ylHpehQTJP+oaor3jOa1dpVLk=";
       name = "kmods-x86_legacy-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/x86/legacy/kmods/6.12.67-1-4c74789eaea637c0f925c9aa21e71fba/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/x86/legacy/kmods/6.12.74-1-b3478750a5c12914726ab785dd1c79ae/packages.adb";
     };
     packages =
       let
@@ -114,7 +114,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/x86/legacy/packages/";
     sourceInfo = {
-      hash = "sha256-OtZHk+AK+LZq5MYtYLsCpTXXFU34pcyocbRttmni2ko=";
+      hash = "sha256-CydSD0uYwNHWwxqaMMxCgPlpmOJ2tlWcHP7SEXD8vDU=";
       name = "x86_legacy-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/x86/legacy/packages/packages.adb";
     };

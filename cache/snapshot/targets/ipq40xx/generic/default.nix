@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/generic/";
   sha256sums = {
-    hash = "sha256-vyCmj3ojEWaPeS21G3J0Rkp9dKCM1IDLvEmZadb5j5o=";
+    hash = "sha256-hi1LTkje8QOkq2n1V5a05YYOtIQ1rwMvKRVqgEkPOOI=";
     name = "ipq40xx_generic-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/generic/sha256sums";
   };
   imagebuilder = {
-    sha256 = "f2596aaee0d696812eba74a7d0fb9cc8689a57bd3b36845055314cfc765dd259";
+    sha256 = "66f0523c5863f2334868aa42d072cf2d632dbb7d663d34fbafda056dd952d53a";
     filename = "immortalwrt-imagebuilder-ipq40xx-generic.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-Kd577KllvS2HNJ3zIdm7cRN9hlo214bs87OAbznbgJ8=";
+    hash = "sha256-9VoHa6EIbtoAzWsPLYq40TGSMuzlKiBzlObXLLykM4Q=";
     name = "ipq40xx_generic-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/generic/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "arm_cortex-a7_neon-vfpv4";
     linux_kernel = {
       release = "1";
-      vermagic = "7c0c1f004f8cc6693404b4a79b37e252";
-      version = "6.12.67";
+      vermagic = "d6778dbbc6843ede981657e0a1b589b7";
+      version = "6.12.74";
     };
     default_packages = [
       "apk-openssl"
@@ -60,7 +60,7 @@
       "urngd"
       "wpad-openssl"
     ];
-    kmods_target = "6.12.67-1-7c0c1f004f8cc6693404b4a79b37e252";
+    kmods_target = "6.12.74-1-d6778dbbc6843ede981657e0a1b589b7";
     profiles = {
       "8dev_habanero-dvk" = {
         device_packages = [ ];
@@ -141,6 +141,14 @@
           "uqmi"
         ];
       };
+      cilab_meshpoint-one = {
+        device_packages = [
+          "kmod-i2c-gpio"
+          "kmod-iio-bmp280-i2c"
+          "kmod-hwmon-ina2xx"
+          "kmod-rtc-pcf2127"
+        ];
+      };
       dlink_dap-2610 = {
         device_packages = [ ];
       };
@@ -192,6 +200,9 @@
           "kmod-mmc"
           "kmod-spi-dev"
         ];
+      };
+      huawei_ap4050dn = {
+        device_packages = [ "ipq-wifi-huawei_ap4050dn" ];
       };
       linksys_ea6350v3 = {
         device_packages = [ ];
@@ -266,6 +277,9 @@
       };
       meraki_mr33 = {
         device_packages = [ "ath10k-firmware-qca9887-ct" ];
+      };
+      meraki_mr70 = {
+        device_packages = [ "ipq-wifi-meraki_underdog" ];
       };
       meraki_mr74 = {
         device_packages = [ "ath10k-firmware-qca9887-ct" ];
@@ -468,12 +482,12 @@
       };
     };
   };
-  kmods."6.12.67-1-7c0c1f004f8cc6693404b4a79b37e252" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/generic/kmods/6.12.67-1-7c0c1f004f8cc6693404b4a79b37e252/";
+  kmods."6.12.74-1-d6778dbbc6843ede981657e0a1b589b7" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/generic/kmods/6.12.74-1-d6778dbbc6843ede981657e0a1b589b7/";
     sourceInfo = {
-      hash = "sha256-JxkfDQM7SDOzRcc1YPZy5n3wT9hf+al922pBvFobprU=";
+      hash = "sha256-WBrmzggFfccTai7sF+36TSBzCs14+jO8ux5XCwqxhWM=";
       name = "kmods-ipq40xx_generic-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/generic/kmods/6.12.67-1-7c0c1f004f8cc6693404b4a79b37e252/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/generic/kmods/6.12.74-1-d6778dbbc6843ede981657e0a1b589b7/packages.adb";
     };
     packages =
       let
@@ -484,7 +498,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/generic/packages/";
     sourceInfo = {
-      hash = "sha256-0sxi+D/u1coSsylzXc116kuJcnDRJrkvHEaOJSdfphY=";
+      hash = "sha256-HC9iXa3ZK8+7EdbTyAiQ76p97wL2ByvR4MtDLuRtJI4=";
       name = "ipq40xx_generic-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/generic/packages/packages.adb";
     };
