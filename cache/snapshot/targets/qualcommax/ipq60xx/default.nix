@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq60xx/";
   sha256sums = {
-    hash = "sha256-1UP9IWUnAL1C22Njbeb4sLBqKvCWHY5XAmeGwVfm0/A=";
+    hash = "sha256-oB8go2U1V/uBQNkWgXE/tZoHNrasjjwU+aW0OZ8PR/E=";
     name = "qualcommax_ipq60xx-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq60xx/sha256sums";
   };
   imagebuilder = {
-    sha256 = "0a01e88c39c849491ff4f23f9147fde2cc3a5d6399fbc2b4723ed020f96a37de";
+    sha256 = "bd6fa60ad97b1956e73780492fba4deaf0d01362c30c594b53daf0001dcffb4d";
     filename = "immortalwrt-imagebuilder-qualcommax-ipq60xx.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-k3doL/JR/qJihGczJxF0V/XSn9Va7u8jowBs84v95F8=";
+    hash = "sha256-v/k9YNFZs9NCpRcp4pjtFRKxj8cjvJ8kXDMHBOwt5Lk=";
     name = "qualcommax_ipq60xx-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq60xx/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "aarch64_cortex-a53";
     linux_kernel = {
       release = "1";
-      vermagic = "0b3fcc93bd2fab2466858f36452c615d";
-      version = "6.12.63";
+      vermagic = "f59643a846fedc2d716e81ca0d662ba6";
+      version = "6.12.74";
     };
     default_packages = [
       "apk-openssl"
@@ -61,7 +61,7 @@
       "urngd"
       "wpad-openssl"
     ];
-    kmods_target = "6.12.63-1-0b3fcc93bd2fab2466858f36452c615d";
+    kmods_target = "6.12.74-1-f59643a846fedc2d716e81ca0d662ba6";
     profiles = {
       "8devices_mango-dvk" = {
         device_packages = [ "ipq-wifi-8devices_mango" ];
@@ -85,6 +85,23 @@
           "kmod-hwmon-pwmfan"
         ];
       };
+      jdcloud_re-cs-02 = {
+        device_packages = [
+          "ath11k-firmware-qcn9074"
+          "ipq-wifi-jdcloud_re-cs-02"
+          "kmod-ath11k-pci"
+        ];
+      };
+      jdcloud_re-cs-07 = {
+        device_packages = [
+          "-ath11k-firmware-ipq6018"
+          "-kmod-ath11k-ahb"
+          "-wpad-openssl"
+        ];
+      };
+      jdcloud_re-ss-01 = {
+        device_packages = [ "ipq-wifi-jdcloud_re-ss-01" ];
+      };
       linksys_mr7350 = {
         device_packages = [
           "ipq-wifi-linksys_mr7350"
@@ -99,6 +116,12 @@
           "kmod-leds-pwm"
           "kmod-phy-aquantia"
         ];
+      };
+      netgear_rbr350 = {
+        device_packages = [ "ipq-wifi-netgear_rbk350" ];
+      };
+      netgear_rbs350 = {
+        device_packages = [ "ipq-wifi-netgear_rbk350" ];
       };
       netgear_wax214 = {
         device_packages = [ "ipq-wifi-netgear_wax214" ];
@@ -115,9 +138,12 @@
       tplink_eap610-outdoor = {
         device_packages = [ "ipq-wifi-tplink_eap610-outdoor" ];
       };
+      tplink_eap620-hd-v3 = {
+        device_packages = [ "ipq-wifi-tplink_eap620-hd-v3" ];
+      };
       tplink_eap623od-hd-v1 = {
         device_packages = [
-          "ipq-wifi-tplink_eap623od-hd-v1"
+          "ipq-wifi-tplink_eap623-outdoor-hd-v1"
           "kmod-phy-realtek"
         ];
       };
@@ -129,12 +155,12 @@
       };
     };
   };
-  kmods."6.12.63-1-0b3fcc93bd2fab2466858f36452c615d" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq60xx/kmods/6.12.63-1-0b3fcc93bd2fab2466858f36452c615d/";
+  kmods."6.12.74-1-f59643a846fedc2d716e81ca0d662ba6" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq60xx/kmods/6.12.74-1-f59643a846fedc2d716e81ca0d662ba6/";
     sourceInfo = {
-      hash = "sha256-5JlSDyUgjIrPNW0VHe99+mQKgfXH1A3uROOGBVlDYSo=";
+      hash = "sha256-qa0tHizuCt6wJWnAWn+g4dKEoOYtu2CkAOVolSfiAuc=";
       name = "kmods-qualcommax_ipq60xx-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq60xx/kmods/6.12.63-1-0b3fcc93bd2fab2466858f36452c615d/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq60xx/kmods/6.12.74-1-f59643a846fedc2d716e81ca0d662ba6/packages.adb";
     };
     packages =
       let
@@ -145,7 +171,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq60xx/packages/";
     sourceInfo = {
-      hash = "sha256-e5yRBkYRifBLDzDe9y15ETbgRD9gWiwh3NgadrAQR8M=";
+      hash = "sha256-4cSzi60GYny1cTyXrl2WvFhdY9Vc2tn8wZKw09uQsMc=";
       name = "qualcommax_ipq60xx-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq60xx/packages/packages.adb";
     };
