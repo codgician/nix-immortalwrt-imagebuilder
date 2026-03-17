@@ -1,14 +1,14 @@
 # snapshot package feeds for arm_fa526
 {
   sha256sums = {
-    hash = "sha256-pbveeJ5Hs0CpCsUWprW2LH5Y4tb2anDUk3kZuG5ULRg=";
+    hash = "sha256-maMR6Z61IIpBewAfgZD1rGn97sOLijYytbwGKbuvtiQ=";
     name = "arm_fa526-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/packages/arm_fa526/sha256sums";
   };
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/arm_fa526/base/";
     sourceInfo = {
-      hash = "sha256-W4ygXEqN9hBf9KLSzcOml2hC9Pt4HHQ2Orh/1CAVA7w=";
+      hash = "sha256-L24yL+AVA4DJCX87Bz/AjvmA0lXev9zw/5h+PEDIzcc=";
       name = "arm_fa526-base-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/arm_fa526/base/packages.adb";
     };
@@ -21,7 +21,7 @@
   feeds."luci" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/arm_fa526/luci/";
     sourceInfo = {
-      hash = "sha256-l9PPuXqt2kPj5EZUDqr0m0V/hm+G3QJWhjvoEUJncnI=";
+      hash = "sha256-wUwhM32fLOnmadrnK0d9w2EtbB+JVbjMxFYK3XHFyqg=";
       name = "arm_fa526-luci-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/arm_fa526/luci/packages.adb";
     };
@@ -34,7 +34,7 @@
   feeds."packages" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/arm_fa526/packages/";
     sourceInfo = {
-      hash = "sha256-8PJ9+G7aqeeD+AM1/6c0GYbtJKN4dgmu+LXDvaoQEks=";
+      hash = "sha256-NqMIJLUPSZ8Vv99m+RoiL/wyF1ZrTnxbmEOo4i5hlLw=";
       name = "arm_fa526-packages-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/arm_fa526/packages/packages.adb";
     };
@@ -47,7 +47,7 @@
   feeds."routing" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/arm_fa526/routing/";
     sourceInfo = {
-      hash = "sha256-4e0OZbwtUVanGCIYzFgujvKpCtAGD12GlnGvo6aR0lo=";
+      hash = "sha256-4o6Ld2oF2b+or82mQKQew6sPgL5U41LKkhmW/GcKjEw=";
       name = "arm_fa526-routing-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/arm_fa526/routing/packages.adb";
     };
@@ -60,7 +60,7 @@
   feeds."telephony" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/arm_fa526/telephony/";
     sourceInfo = {
-      hash = "sha256-8oiSJs+TPlrT3NurB4lnZDoDAG0B9EgFBNhqfBg2vRY=";
+      hash = "sha256-nVqY1LbDwIqeBnFs0vTeya2hl3eEg5Nr6taiOYOEWiE=";
       name = "arm_fa526-telephony-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/arm_fa526/telephony/packages.adb";
     };
