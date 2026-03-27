@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xway/";
   sha256sums = {
-    hash = "sha256-6uMuf38xtxnfR0KxiTwSBEdscuVfS5jgdmoC+haX6j8=";
+    hash = "sha256-e/fVPIY9/6/uPxEedmaAGSsOq/sOSzNd4b8WWySfqSE=";
     name = "lantiq_xway-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xway/sha256sums";
   };
   imagebuilder = {
-    sha256 = "8946b1977a1c940786a8718f1f69817914adfa01e08201ff05fd772b2eab5ddb";
+    sha256 = "f634c407fce33ec2c5e13bfe67640a99dc773f69c6a165037cf8c2f2a05c0cc4";
     filename = "immortalwrt-imagebuilder-lantiq-xway.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-/rFrytC+siOP+vQC15C9fZy/Pyox4BhfrQIeWmAn2WI=";
+    hash = "sha256-3wad7SSMr1jlg2cwVXoZAb7N7QZpRgDmsPev3JK7BgI=";
     name = "lantiq_xway-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xway/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "mips_24kc";
     linux_kernel = {
       release = "1";
-      vermagic = "4cd071eaea910bbdc8f169bc0de8dcd9";
-      version = "6.12.74";
+      vermagic = "8e11e8e2535ba631980c4858a4a21a86";
+      version = "6.12.77";
     };
     default_packages = [
       "apk-openssl"
@@ -51,7 +51,7 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.12.74-1-4cd071eaea910bbdc8f169bc0de8dcd9";
+    kmods_target = "6.12.77-1-8e11e8e2535ba631980c4858a4a21a86";
     profiles = {
       arcadyan_arv7506pw11 = {
         device_packages = [
@@ -287,12 +287,12 @@
       };
     };
   };
-  kmods."6.12.74-1-4cd071eaea910bbdc8f169bc0de8dcd9" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xway/kmods/6.12.74-1-4cd071eaea910bbdc8f169bc0de8dcd9/";
+  kmods."6.12.77-1-8e11e8e2535ba631980c4858a4a21a86" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xway/kmods/6.12.77-1-8e11e8e2535ba631980c4858a4a21a86/";
     sourceInfo = {
-      hash = "sha256-/lfv0Kj4EcW72/QXou3EA5gMAPuqLFIDycdVqp5WPqI=";
+      hash = "sha256-kNLvZBURqNl6UBLV+BzjnTg5jDx+hgM5bqtN7KR3BHc=";
       name = "kmods-lantiq_xway-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xway/kmods/6.12.74-1-4cd071eaea910bbdc8f169bc0de8dcd9/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xway/kmods/6.12.77-1-8e11e8e2535ba631980c4858a4a21a86/packages.adb";
     };
     packages =
       let
@@ -303,7 +303,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xway/packages/";
     sourceInfo = {
-      hash = "sha256-HAg9uNbeTBentF170asMmDb2bvOcax5yhPQbdbzFUxI=";
+      hash = "sha256-ZqTeEIaBurOz9/YEkFLYfy3us62l+ogQVWY5VvjqghU=";
       name = "lantiq_xway-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xway/packages/packages.adb";
     };

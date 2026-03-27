@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/siflower/sf21/";
   sha256sums = {
-    hash = "sha256-VUoaOG1weryCOMVdZyiU/wSGiHVRfQAss0c0vPi/B6I=";
+    hash = "sha256-Xeqhds0Pu/vub8EiarHPdoQEbZ+oZCoNQE35wOPWruw=";
     name = "siflower_sf21-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/siflower/sf21/sha256sums";
   };
   imagebuilder = {
-    sha256 = "03b738f039b34e395f9ecadba1c69bbf9396a9a700a3e1cc075f3e771780dca6";
+    sha256 = "53974ee85433fc06dfb256a8161bd57e62115bc2d0da63cbf11298064504daf7";
     filename = "immortalwrt-imagebuilder-siflower-sf21.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-23I1pJHfT3B49P+cunwNPaIeJ4jIzfly2wd6rN8iOxc=";
+    hash = "sha256-9obw+/+C51kfEdu/EUQbUuHsevPXqn37sbBlPO+jVW0=";
     name = "siflower_sf21-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/siflower/sf21/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "riscv64_generic";
     linux_kernel = {
       release = "1";
-      vermagic = "2edc8750ee54561c535c83d3f3aee6c9";
-      version = "6.12.74";
+      vermagic = "73f572f6e157330e55120f336d7feb9a";
+      version = "6.12.77";
     };
     default_packages = [
       "apk-openssl"
@@ -51,7 +51,7 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.12.74-1-2edc8750ee54561c535c83d3f3aee6c9";
+    kmods_target = "6.12.77-1-73f572f6e157330e55120f336d7feb9a";
     profiles = {
       bananapi_bpi-rv2-nand = {
         device_packages = [
@@ -73,12 +73,12 @@
       };
     };
   };
-  kmods."6.12.74-1-2edc8750ee54561c535c83d3f3aee6c9" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/siflower/sf21/kmods/6.12.74-1-2edc8750ee54561c535c83d3f3aee6c9/";
+  kmods."6.12.77-1-73f572f6e157330e55120f336d7feb9a" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/siflower/sf21/kmods/6.12.77-1-73f572f6e157330e55120f336d7feb9a/";
     sourceInfo = {
-      hash = "sha256-zx45d+kfnNtWZNBRtLoNlcE3qjvBtF2VmEtFSic7LYI=";
+      hash = "sha256-Yyt9muQkG/HgGk2ZxRvBvGnNE9MsurGQRXagsEzy3rY=";
       name = "kmods-siflower_sf21-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/siflower/sf21/kmods/6.12.74-1-2edc8750ee54561c535c83d3f3aee6c9/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/siflower/sf21/kmods/6.12.77-1-73f572f6e157330e55120f336d7feb9a/packages.adb";
     };
     packages =
       let
@@ -89,7 +89,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/siflower/sf21/packages/";
     sourceInfo = {
-      hash = "sha256-8jf6A4U69Zs3QN5UvXCfWTOEEtITVQ/8kU06LY6hseo=";
+      hash = "sha256-+FGsBquCUHjp6oH2HlnwzobHisPSxUJmNJH8WyLF5uA=";
       name = "siflower_sf21-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/siflower/sf21/packages/packages.adb";
     };

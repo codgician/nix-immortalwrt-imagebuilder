@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/sifiveu/generic/";
   sha256sums = {
-    hash = "sha256-RdKWP/IQQ5KAMcbNUNml0SfIAQIVm1xvV59ij6bJfDc=";
+    hash = "sha256-2ujGEL0Ro3l3aHvdtSWj4vdo9KWmJRZ2z+fZPsC+USA=";
     name = "sifiveu_generic-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/sifiveu/generic/sha256sums";
   };
   imagebuilder = {
-    sha256 = "1b719cf0b081ad643b2759158d2fa8ea2dc4551d61e95c8f6ee07cc3a3eb39ee";
+    sha256 = "13481d88b8470cfd786b68c140448788070a1198f5ccd0894aa8f5b7e756c350";
     filename = "immortalwrt-imagebuilder-sifiveu-generic.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-+hW64/hb1XnkdvnXaxnQNsVep4CJ7yVfQLnTBrNYyZs=";
+    hash = "sha256-zHhX8VBCLR0Qd4F57eef+Gc+gx8GIuZZyCmP9bg7Zv0=";
     name = "sifiveu_generic-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/sifiveu/generic/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "riscv64_generic";
     linux_kernel = {
       release = "1";
-      vermagic = "a66afef4e07e119b628cb8ab301af453";
-      version = "6.12.74";
+      vermagic = "15135f922f80d6e12f751a36a3f0bb98";
+      version = "6.12.77";
     };
     default_packages = [
       "apk-openssl"
@@ -48,7 +48,7 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.12.74-1-a66afef4e07e119b628cb8ab301af453";
+    kmods_target = "6.12.77-1-15135f922f80d6e12f751a36a3f0bb98";
     profiles = {
       sifive_unleashed = {
         device_packages = [ ];
@@ -61,12 +61,12 @@
       };
     };
   };
-  kmods."6.12.74-1-a66afef4e07e119b628cb8ab301af453" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/sifiveu/generic/kmods/6.12.74-1-a66afef4e07e119b628cb8ab301af453/";
+  kmods."6.12.77-1-15135f922f80d6e12f751a36a3f0bb98" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/sifiveu/generic/kmods/6.12.77-1-15135f922f80d6e12f751a36a3f0bb98/";
     sourceInfo = {
-      hash = "sha256-uNF5dSHitSIS0V/2VD+W1EMhLHlv7KAyc6HpI9zLAW8=";
+      hash = "sha256-UbJKC/Lu/aEdUAGysYgRGvf0ir5RwmNXdNjQdRt975g=";
       name = "kmods-sifiveu_generic-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/sifiveu/generic/kmods/6.12.74-1-a66afef4e07e119b628cb8ab301af453/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/sifiveu/generic/kmods/6.12.77-1-15135f922f80d6e12f751a36a3f0bb98/packages.adb";
     };
     packages =
       let
@@ -77,7 +77,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/sifiveu/generic/packages/";
     sourceInfo = {
-      hash = "sha256-CzI5wg2RO6ewVfmKzkJW40zQ4MumAhVr7JaaPzE47nA=";
+      hash = "sha256-P01vRVYY4tQX4VdhNyh/fuldYdjIuaFWo+Hbcl+Tz7Q=";
       name = "sifiveu_generic-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/sifiveu/generic/packages/packages.adb";
     };

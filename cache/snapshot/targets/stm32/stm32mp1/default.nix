@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/stm32/stm32mp1/";
   sha256sums = {
-    hash = "sha256-MWddgPsBdWl/uaZzLhpLa9E+MaJPIJRRqjtzM4a0YK0=";
+    hash = "sha256-uoe4+jlzJQ4wlxwgpKIn7Oxh84YAL7zKQWBaQC1TZMw=";
     name = "stm32_stm32mp1-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/stm32/stm32mp1/sha256sums";
   };
   imagebuilder = {
-    sha256 = "906a7c65ec8055fb010aff72aa99469f6ea9412690345582c0ef798ae0a4a1d8";
+    sha256 = "8971078a309fa911abdca7a3de534036b18d326e2c964baa639223420a3cd134";
     filename = "immortalwrt-imagebuilder-stm32-stm32mp1.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-Ox+RZ20W8SwLq5XVekfJmuUWP4BvasBPanglixXKKQk=";
+    hash = "sha256-1qmtFG3B7BfM3eYmdBDcNZATv6cjiBoNjKwc+35TEns=";
     name = "stm32_stm32mp1-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/stm32/stm32mp1/profiles.json";
   };
@@ -20,7 +20,7 @@
     linux_kernel = {
       release = "1";
       vermagic = "cb0e8de8d401d93c9c350ff2f6aff35c";
-      version = "6.12.74";
+      version = "6.12.77";
     };
     default_packages = [
       "apk-openssl"
@@ -50,7 +50,7 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.12.74-1-cb0e8de8d401d93c9c350ff2f6aff35c";
+    kmods_target = "6.12.77-1-cb0e8de8d401d93c9c350ff2f6aff35c";
     profiles = {
       stm32mp135f-dk = {
         device_packages = [
@@ -93,12 +93,12 @@
       };
     };
   };
-  kmods."6.12.74-1-cb0e8de8d401d93c9c350ff2f6aff35c" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/stm32/stm32mp1/kmods/6.12.74-1-cb0e8de8d401d93c9c350ff2f6aff35c/";
+  kmods."6.12.77-1-cb0e8de8d401d93c9c350ff2f6aff35c" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/stm32/stm32mp1/kmods/6.12.77-1-cb0e8de8d401d93c9c350ff2f6aff35c/";
     sourceInfo = {
-      hash = "sha256-IkFOEQhIxBfAvf7GEsIVkoKrxuTGH9OhlwFmphK58II=";
+      hash = "sha256-owVuyV3bPGi40ZyySeMYQAq5thHqrGh4oiljjN/24jY=";
       name = "kmods-stm32_stm32mp1-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/stm32/stm32mp1/kmods/6.12.74-1-cb0e8de8d401d93c9c350ff2f6aff35c/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/stm32/stm32mp1/kmods/6.12.77-1-cb0e8de8d401d93c9c350ff2f6aff35c/packages.adb";
     };
     packages =
       let
@@ -109,7 +109,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/stm32/stm32mp1/packages/";
     sourceInfo = {
-      hash = "sha256-O0EFDp3bCkJO0wNNQN1bP5lZdMX21RLGPVEk+88znXU=";
+      hash = "sha256-SyowYOnQItPv+ZR3o3dHZlV+9kBwaE10qrj6arUlV/E=";
       name = "stm32_stm32mp1-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/stm32/stm32mp1/packages/packages.adb";
     };

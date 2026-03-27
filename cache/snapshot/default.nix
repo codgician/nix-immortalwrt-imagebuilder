@@ -10,6 +10,7 @@
   targets.siflower.sf21 = import ./targets/siflower/sf21/default.nix;
   targets.layerscape.armv7 = import ./targets/layerscape/armv7/default.nix;
   targets.layerscape.armv8_64b = import ./targets/layerscape/armv8_64b/default.nix;
+  targets.airoha.an7581 = import ./targets/airoha/an7581/default.nix;
   targets.gemini.generic = import ./targets/gemini/generic/default.nix;
   targets.mxs.generic = import ./targets/mxs/generic/default.nix;
   targets.zynq.generic = import ./targets/zynq/generic/default.nix;

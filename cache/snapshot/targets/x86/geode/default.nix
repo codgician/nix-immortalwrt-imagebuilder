@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/x86/geode/";
   sha256sums = {
-    hash = "sha256-HPDwXsR4AmoG4GIvYaR6dt0orHNapIQO2YoQwADiKUs=";
+    hash = "sha256-jdx5/VzkzofE1ng9wFHp5diCVq8IsqM/u/6ZvQRdZpU=";
     name = "x86_geode-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/x86/geode/sha256sums";
   };
   imagebuilder = {
-    sha256 = "c3c7508a76e4fa7ec49bc8400965d171b444ad3696914a6afc0b7e1b10ba00e2";
+    sha256 = "bdfa6d1a9a15e18f7c98a82390f4e7e1368ee9f9c233249ddf86aed332a588a2";
     filename = "immortalwrt-imagebuilder-x86-geode.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-Lgn64Vh/zC6wxgMwFFqvLd8WWZEYdMZyy/yU94gfPd0=";
+    hash = "sha256-e1VQb/rRYfs85FZOqXHuHqfDbIxtaA9bTpHx/qdmqjo=";
     name = "x86_geode-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/x86/geode/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "i386_pentium-mmx";
     linux_kernel = {
       release = "1";
-      vermagic = "1d883d9ffb6506022e80a7568cd43d25";
-      version = "6.12.74";
+      vermagic = "1b20205c436f64e2c0e5fbcea4912ef3";
+      version = "6.12.77";
     };
     default_packages = [
       "apk-openssl"
@@ -78,7 +78,7 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.12.74-1-1d883d9ffb6506022e80a7568cd43d25";
+    kmods_target = "6.12.77-1-1b20205c436f64e2c0e5fbcea4912ef3";
     profiles = {
       generic = {
         device_packages = [
@@ -110,12 +110,12 @@
       };
     };
   };
-  kmods."6.12.74-1-1d883d9ffb6506022e80a7568cd43d25" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/x86/geode/kmods/6.12.74-1-1d883d9ffb6506022e80a7568cd43d25/";
+  kmods."6.12.77-1-1b20205c436f64e2c0e5fbcea4912ef3" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/x86/geode/kmods/6.12.77-1-1b20205c436f64e2c0e5fbcea4912ef3/";
     sourceInfo = {
-      hash = "sha256-0rhvsxkJlWFrr4uX31jFiIJpjGRbBzDjWKGzmXVOzZI=";
+      hash = "sha256-hq9deyBOQSsM4xFw4DnALCE/EHCp1MR1oeC94ZcOKoY=";
       name = "kmods-x86_geode-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/x86/geode/kmods/6.12.74-1-1d883d9ffb6506022e80a7568cd43d25/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/x86/geode/kmods/6.12.77-1-1b20205c436f64e2c0e5fbcea4912ef3/packages.adb";
     };
     packages =
       let
@@ -126,7 +126,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/x86/geode/packages/";
     sourceInfo = {
-      hash = "sha256-9m2FX3DcaaGigowxf3jIds0amRemY9BBp7DFmjy1npo=";
+      hash = "sha256-2m45d786K5DHoXTiOvrEo0EPZlaQuRmMVKfBgg/wpwk=";
       name = "x86_geode-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/x86/geode/packages/packages.adb";
     };
