@@ -1,11 +1,4 @@
 {
-  "21.02.0" = import ./21.02.0/default.nix;
-  "21.02.1" = import ./21.02.1/default.nix;
-  "21.02.3" = import ./21.02.3/default.nix;
-  "21.02.4" = import ./21.02.4/default.nix;
-  "21.02.5" = import ./21.02.5/default.nix;
-  "21.02.6" = import ./21.02.6/default.nix;
-  "21.02.7" = import ./21.02.7/default.nix;
   "23.05.0" = import ./23.05.0/default.nix;
   "23.05.1" = import ./23.05.1/default.nix;
   "23.05.2" = import ./23.05.2/default.nix;
