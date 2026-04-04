@@ -1,14 +1,14 @@
 # 25.12.0-rc1 package feeds for i386_pentium-mmx
 {
   sha256sums = {
-    hash = "sha256-gDNlClbyEkOb8tQJij8jUfCRYlPJvW2WHqvAGSCMIjc=";
+    hash = "sha256-w+QhhmoW6lW03d/Tq30NCjBhW4nEuB1qX+f0LEySY8Q=";
     name = "i386_pentium-mmx-sha256sums";
     url = "https://downloads.immortalwrt.org/releases/25.12.0-rc1/packages/i386_pentium-mmx/sha256sums";
   };
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc1/packages/i386_pentium-mmx/base/";
     sourceInfo = {
-      hash = "sha256-yNLrNWD38c15da70K3AzuzdvW7v1F9wKNFmButjPV3s=";
+      hash = "sha256-hHQve73VyQrSJKbjgKEY55puxpgPR8CDlkfkK0ssiwc=";
       name = "i386_pentium-mmx-base-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc1/packages/i386_pentium-mmx/base/packages.adb";
     };
@@ -21,7 +21,7 @@
   feeds."luci" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc1/packages/i386_pentium-mmx/luci/";
     sourceInfo = {
-      hash = "sha256-+p4UyxI7vsw2n/OocdPql3W4Oxo79YnxvKCYFkQ5iJU=";
+      hash = "sha256-6+XIbPk+RZAIOx3aSZB+7iwWmalQEqBTSZmHRDu3JeU=";
       name = "i386_pentium-mmx-luci-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc1/packages/i386_pentium-mmx/luci/packages.adb";
     };
@@ -34,7 +34,7 @@
   feeds."packages" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc1/packages/i386_pentium-mmx/packages/";
     sourceInfo = {
-      hash = "sha256-3tEGFhm40od/WzxhLqc9QaMHpgtXX82rxyvbr5A2f7s=";
+      hash = "sha256-rDJz/28hNKR9bvcU5iVBNEX4hpIYK1IYL/RqbIAgh1E=";
       name = "i386_pentium-mmx-packages-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc1/packages/i386_pentium-mmx/packages/packages.adb";
     };
@@ -47,7 +47,7 @@
   feeds."routing" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc1/packages/i386_pentium-mmx/routing/";
     sourceInfo = {
-      hash = "sha256-ZzLJAaYy5hOZvvFkaRy32hCxG9aLzXzX4l5Fji/cEGQ=";
+      hash = "sha256-u60ygHIbjJhCbRTDsce4EGpfUF/0h1zULV3QUIKZ1vE=";
       name = "i386_pentium-mmx-routing-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc1/packages/i386_pentium-mmx/routing/packages.adb";
     };
@@ -60,7 +60,7 @@
   feeds."telephony" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc1/packages/i386_pentium-mmx/telephony/";
     sourceInfo = {
-      hash = "sha256-Y0nXtOar3euVnECdIFmDaB3LDspmco5rIBwVWMCGbGE=";
+      hash = "sha256-szs1u7ebal0Ao24xmGt4hYl8No7j6fCoBERVbwLNPbI=";
       name = "i386_pentium-mmx-telephony-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc1/packages/i386_pentium-mmx/telephony/packages.adb";
     };
