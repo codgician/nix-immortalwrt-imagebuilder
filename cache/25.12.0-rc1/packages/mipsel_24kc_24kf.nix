@@ -1,14 +1,14 @@
 # 25.12.0-rc1 package feeds for mipsel_24kc_24kf
 {
   sha256sums = {
-    hash = "sha256-cs7RI5iV44XJqft3fg5W/f9KOKYQ1RLc8UEsjvY9Zj4=";
+    hash = "sha256-qwX/5tyzgDt5CPdTt/3MPGr1gEkjrxvMrp7I4otrnRY=";
     name = "mipsel_24kc_24kf-sha256sums";
     url = "https://downloads.immortalwrt.org/releases/25.12.0-rc1/packages/mipsel_24kc_24kf/sha256sums";
   };
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc1/packages/mipsel_24kc_24kf/base/";
     sourceInfo = {
-      hash = "sha256-mzDfK86FhgNu0WxFtF9yGOwxLEhCd5P2IWGA5YX1/yA=";
+      hash = "sha256-wZUBjEeT7gXI+n6+tcQhCPEd5ed52eO8Pdoa9C68+jY=";
       name = "mipsel_24kc_24kf-base-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc1/packages/mipsel_24kc_24kf/base/packages.adb";
     };
@@ -21,7 +21,7 @@
   feeds."luci" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc1/packages/mipsel_24kc_24kf/luci/";
     sourceInfo = {
-      hash = "sha256-WN28JQNMQyb+udpD94K3F83wSYnrX3MNzm+136oX6rk=";
+      hash = "sha256-k6cRSSD3tjW6UsLieaAFkj+5CY7w2FgQniOF8xC3M1I=";
       name = "mipsel_24kc_24kf-luci-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc1/packages/mipsel_24kc_24kf/luci/packages.adb";
     };
@@ -34,7 +34,7 @@
   feeds."packages" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc1/packages/mipsel_24kc_24kf/packages/";
     sourceInfo = {
-      hash = "sha256-P7kE1rG//QJPt+vEgLXuxE3kymM/YShIiLvs1JkCxMo=";
+      hash = "sha256-4NwhPrG07+4FIZlIvlhbOeU/NPWxX41PuSxpioHOjds=";
       name = "mipsel_24kc_24kf-packages-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc1/packages/mipsel_24kc_24kf/packages/packages.adb";
     };

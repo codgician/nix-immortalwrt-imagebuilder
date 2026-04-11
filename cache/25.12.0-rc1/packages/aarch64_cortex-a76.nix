@@ -1,14 +1,14 @@
 # 25.12.0-rc1 package feeds for aarch64_cortex-a76
 {
   sha256sums = {
-    hash = "sha256-ju7CMP2WXu5qTZjCSItzBsul0HPAxQ1pnE/YtxWv714=";
+    hash = "sha256-MRx5PYjt2+aLUjvtGxiCTZVkzHxA2u1Ga4Krypd3XKs=";
     name = "aarch64_cortex-a76-sha256sums";
     url = "https://downloads.immortalwrt.org/releases/25.12.0-rc1/packages/aarch64_cortex-a76/sha256sums";
   };
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc1/packages/aarch64_cortex-a76/base/";
     sourceInfo = {
-      hash = "sha256-nyTAxrgLn9QudPXXhUh0wu0WDww7cyrpgGniZH6HPdk=";
+      hash = "sha256-D6O+xmtlc+wKnjNZKTgHcdaVaE/wolSvotXGiXEE+m8=";
       name = "aarch64_cortex-a76-base-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc1/packages/aarch64_cortex-a76/base/packages.adb";
     };
@@ -21,7 +21,7 @@
   feeds."luci" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc1/packages/aarch64_cortex-a76/luci/";
     sourceInfo = {
-      hash = "sha256-HWaKYZRyVBOWOVkYDhm+A70HqU1Vp4gv6Ch5/dotXW0=";
+      hash = "sha256-XepTOzqeW1ez6obP4JP1GXT9aOjCqzg7IwgASWIW3TA=";
       name = "aarch64_cortex-a76-luci-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc1/packages/aarch64_cortex-a76/luci/packages.adb";
     };
@@ -34,7 +34,7 @@
   feeds."packages" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc1/packages/aarch64_cortex-a76/packages/";
     sourceInfo = {
-      hash = "sha256-Jfv3ft4Osw6zsIR81TEcKDINYDTeIYgj1QjLwVbca6A=";
+      hash = "sha256-H96CsNlVWhHUeb37dr1+LzglEtB1oE0t2D4sx24rAPw=";
       name = "aarch64_cortex-a76-packages-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc1/packages/aarch64_cortex-a76/packages/packages.adb";
     };
@@ -47,7 +47,7 @@
   feeds."routing" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc1/packages/aarch64_cortex-a76/routing/";
     sourceInfo = {
-      hash = "sha256-LJN85kWxsMnZWYwWQ96w4CH+ZRg2TkpsoYFRuVeI6sg=";
+      hash = "sha256-iy84LYv0Un6dSWzJg/gzhn0+D9Vs/MCzfqS9Az6Hc3o=";
       name = "aarch64_cortex-a76-routing-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc1/packages/aarch64_cortex-a76/routing/packages.adb";
     };
@@ -60,7 +60,7 @@
   feeds."telephony" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc1/packages/aarch64_cortex-a76/telephony/";
     sourceInfo = {
-      hash = "sha256-cGoNwJZA1Wh04gGh8SBA9Wvoz4nWUWSLJX3tWt2ug0c=";
+      hash = "sha256-/W3rf0uLTVkR4QrcjxvjRI477Scr191GoA+v2nQ5TBc=";
       name = "aarch64_cortex-a76-telephony-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc1/packages/aarch64_cortex-a76/telephony/packages.adb";
     };
