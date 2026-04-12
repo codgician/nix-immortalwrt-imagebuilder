@@ -78,7 +78,7 @@
   kmods."6.12.77-1-f4b743b9442531012cac35846242000a" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/chromium/kmods/6.12.77-1-f4b743b9442531012cac35846242000a/";
     sourceInfo = {
-      hash = "sha256-gpfiF7qfuzjJEdfjuiBDz00RkIfo2ytyn99sqD7s8UA=";
+      errcode = 1;
       name = "kmods-ipq40xx_chromium-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/chromium/kmods/6.12.77-1-f4b743b9442531012cac35846242000a/packages.adb";
     };
@@ -91,7 +91,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/chromium/packages/";
     sourceInfo = {
-      hash = "sha256-lrc5IxVngMFk9AmoNZQtaANtRqsA7D1lbw6a+6Xcd44=";
+      errcode = 1;
       name = "ipq40xx_chromium-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/chromium/packages/packages.adb";
     };

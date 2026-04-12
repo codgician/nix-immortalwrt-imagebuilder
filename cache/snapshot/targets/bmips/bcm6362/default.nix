@@ -79,7 +79,7 @@
   kmods."6.12.77-1-fc42a1b81f5e626bf945db02bc02fb01" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/bmips/bcm6362/kmods/6.12.77-1-fc42a1b81f5e626bf945db02bc02fb01/";
     sourceInfo = {
-      hash = "sha256-3/AG5ToxYu3xp2kOKMKGgkyroOUeWWW3UWLExuuJckE=";
+      errcode = 1;
       name = "kmods-bmips_bcm6362-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/bmips/bcm6362/kmods/6.12.77-1-fc42a1b81f5e626bf945db02bc02fb01/packages.adb";
     };

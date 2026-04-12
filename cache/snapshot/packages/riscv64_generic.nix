@@ -8,7 +8,7 @@
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/riscv64_generic/base/";
     sourceInfo = {
-      hash = "sha256-f6pj+u8wNEn7XAOdsn4pxtzpkL936o9xpuHmrLReFGI=";
+      errcode = 1;
       name = "riscv64_generic-base-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/riscv64_generic/base/packages.adb";
     };
@@ -34,7 +34,7 @@
   feeds."packages" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/riscv64_generic/packages/";
     sourceInfo = {
-      hash = "sha256-q4BDgyEbJRIvhkARYLuKGodqDjiERf8+QZLj1OV+jc8=";
+      errcode = 1;
       name = "riscv64_generic-packages-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/riscv64_generic/packages/packages.adb";
     };
