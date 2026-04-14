@@ -25,7 +25,6 @@
   targets.bmips.bcm6318 = import ./targets/bmips/bcm6318/default.nix;
   targets.bmips.bcm63268 = import ./targets/bmips/bcm63268/default.nix;
   targets.bmips.bcm6328 = import ./targets/bmips/bcm6328/default.nix;
-  targets.bmips.bcm6358 = import removed 'cache/snapshot/targets/bmips/bcm6358/default.nix.tmp';
   targets.bmips.bcm6358 = import ./targets/bmips/bcm6358/default.nix;
   targets.bmips.bcm6362 = import ./targets/bmips/bcm6362/default.nix;
   targets.bmips.bcm6368 = import ./targets/bmips/bcm6368/default.nix;
@@ -33,7 +32,6 @@
   targets.gemini.generic = import ./targets/gemini/generic/default.nix;
   targets.imx.cortexa53 = import ./targets/imx/cortexa53/default.nix;
   targets.imx.cortexa7 = import ./targets/imx/cortexa7/default.nix;
-  targets.imx.cortexa9 = import removed 'cache/snapshot/targets/imx/cortexa9/default.nix.tmp';
   targets.imx.cortexa9 = import ./targets/imx/cortexa9/default.nix;
   targets.ipq40xx.chromium = import ./targets/ipq40xx/chromium/default.nix;
   targets.ipq40xx.generic = import ./targets/ipq40xx/generic/default.nix;
