@@ -1,14 +1,14 @@
 # 24.10.1 package feeds for mips_4kec
 {
   sha256sums = {
-    hash = "sha256-l1QvxYPJkBZ1oCr7uwRpBBqzoG+fS/0BdDSToSh/zXs=";
+    hash = "sha256-z2JGPSWPW9w7f0VcWegIOWsBQUKc/DkX7jdgDEWUCio=";
     name = "mips_4kec-sha256sums";
     url = "https://downloads.immortalwrt.org/releases/24.10.1/packages/mips_4kec/sha256sums";
   };
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.1/packages/mips_4kec/base/";
     sourceInfo = {
-      hash = "sha256-0SJZwL3ZiAJuWFENcY0ojllq93EfdZ+VhMgW12CnRQ8=";
+      hash = "sha256-bUUP0y/Q0+hwnEpXI7kIiSXzYyvuu0YEB14N4kEmBVA=";
       name = "mips_4kec-base-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.1/packages/mips_4kec/base/Packages";
     };
@@ -21,7 +21,7 @@
   feeds."luci" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.1/packages/mips_4kec/luci/";
     sourceInfo = {
-      hash = "sha256-v01nuJYEDq2/VpGiAyFlGqKd2A9zO51DxJ9UfYLzN8Y=";
+      hash = "sha256-Wo06YlCnnOy4jWkF4VY176HCeWnMQhZg6ZWhEcOa41s=";
       name = "mips_4kec-luci-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.1/packages/mips_4kec/luci/Packages";
     };
@@ -34,7 +34,7 @@
   feeds."packages" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.1/packages/mips_4kec/packages/";
     sourceInfo = {
-      hash = "sha256-4lMJtSOXYtlk/rPQZyMF7oZdLHVE0A4u8zwXt6Mgj0c=";
+      hash = "sha256-A7FtKZKXc0ZG6w/y9XJd5UDNBjUtLPRgIxg8Qrp6nw8=";
       name = "mips_4kec-packages-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.1/packages/mips_4kec/packages/Packages";
     };
@@ -47,7 +47,7 @@
   feeds."routing" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.1/packages/mips_4kec/routing/";
     sourceInfo = {
-      hash = "sha256-u4Cpd3ykjONRfn6CCB17cPpR8oTXw230LfNREvBRIM8=";
+      hash = "sha256-EMVsyLdYDnPbWV8XHtX1BXg/SNQn3a34iMSMqrDOvyo=";
       name = "mips_4kec-routing-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.1/packages/mips_4kec/routing/Packages";
     };
@@ -60,7 +60,7 @@
   feeds."telephony" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.1/packages/mips_4kec/telephony/";
     sourceInfo = {
-      hash = "sha256-kZ681+WYM0Xlz5/8doECqzaSWs6GeozsV1gmc7/W0IE=";
+      hash = "sha256-q85diqbrjpbODFMX1M9OvNMqLQzWfKpD/d9J57ptLJc=";
       name = "mips_4kec-telephony-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.1/packages/mips_4kec/telephony/Packages";
     };

@@ -1,14 +1,14 @@
 # 24.10.4 package feeds for powerpc64_e5500
 {
   sha256sums = {
-    hash = "sha256-PwWtJZTMb6/drCNERYGHXnnzzvoCYi6xypDpdjd/BVM=";
+    hash = "sha256-sCjEl39hXa9+r7eo6LfLxbPFahj+NrWOIExOwX3S/98=";
     name = "powerpc64_e5500-sha256sums";
     url = "https://downloads.immortalwrt.org/releases/24.10.4/packages/powerpc64_e5500/sha256sums";
   };
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.4/packages/powerpc64_e5500/base/";
     sourceInfo = {
-      hash = "sha256-SnUxDtmtrPnzo9jm4Uq6x4hukDVRhDt7kJSw+oMOWr4=";
+      hash = "sha256-1AmJDe1crE1/UXFvdqKeXkdLk452kBiHLGinhOd9Geg=";
       name = "powerpc64_e5500-base-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.4/packages/powerpc64_e5500/base/Packages";
     };
@@ -21,7 +21,7 @@
   feeds."luci" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.4/packages/powerpc64_e5500/luci/";
     sourceInfo = {
-      hash = "sha256-3uwYQuDvDTH2W+vx5ohI+QnbdQQaf1rFUheUlnN8T2w=";
+      hash = "sha256-81HQVa3ql3bLWLkUzSg8gepuauRpDvrA69KfPLUcpP0=";
       name = "powerpc64_e5500-luci-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.4/packages/powerpc64_e5500/luci/Packages";
     };
@@ -34,7 +34,7 @@
   feeds."packages" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.4/packages/powerpc64_e5500/packages/";
     sourceInfo = {
-      hash = "sha256-eSBCoRLdfxhQCzptKW3U2o8WIoocW/m/grhFa2HiszI=";
+      hash = "sha256-x0Yl7G0uBbmpzOnsf5ONMrrm+yjMdyej4d1h6uKuOog=";
       name = "powerpc64_e5500-packages-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.4/packages/powerpc64_e5500/packages/Packages";
     };
@@ -47,7 +47,7 @@
   feeds."routing" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.4/packages/powerpc64_e5500/routing/";
     sourceInfo = {
-      hash = "sha256-4Dqmux1KFYpbc2Q2LS1kZSUS/x9ct3e3s8jcnr2rMAY=";
+      hash = "sha256-2IA7NRBZlXqE63ZVEuAXwZKA/ticpqQxalX5KMCIbMY=";
       name = "powerpc64_e5500-routing-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.4/packages/powerpc64_e5500/routing/Packages";
     };
@@ -60,7 +60,7 @@
   feeds."telephony" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.4/packages/powerpc64_e5500/telephony/";
     sourceInfo = {
-      hash = "sha256-kVMKq43sua0jxYWRyHLn2Zb+H/vXWvGMSRJkHRCdLfs=";
+      hash = "sha256-8uoHXBmqA8zygLPk96XSoQMwKdb0/YpNKz416LqP6lg=";
       name = "powerpc64_e5500-telephony-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.4/packages/powerpc64_e5500/telephony/Packages";
     };

@@ -1,14 +1,14 @@
 # 24.10.3 package feeds for arm_cortex-a5_vfpv4
 {
   sha256sums = {
-    hash = "sha256-MVOF9bLumFxM7fv9BRvsW7oikwr6JSNpxpB6SFSiZ6o=";
+    hash = "sha256-vadsfe2jt+kxQuV/jgVIaqu81VXCTwK08mrg/Iu7pbs=";
     name = "arm_cortex-a5_vfpv4-sha256sums";
     url = "https://downloads.immortalwrt.org/releases/24.10.3/packages/arm_cortex-a5_vfpv4/sha256sums";
   };
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.3/packages/arm_cortex-a5_vfpv4/base/";
     sourceInfo = {
-      hash = "sha256-zmPqnD4Tp6w6cB3ZjMFMrvxgYb5qXNQUzqlwwMFWSQQ=";
+      hash = "sha256-RQ1GJ3HvZIweBPojNDeO4Qu/kifI0lGlqh59ko+QS7M=";
       name = "arm_cortex-a5_vfpv4-base-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.3/packages/arm_cortex-a5_vfpv4/base/Packages";
     };
@@ -21,7 +21,7 @@
   feeds."luci" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.3/packages/arm_cortex-a5_vfpv4/luci/";
     sourceInfo = {
-      hash = "sha256-BCLR+pje63uGEyWsaZDzm6Lt8jlnf/OQeBikeO7apWA=";
+      hash = "sha256-vsEtnRjDyoHmR7D6ghtFxWlS7LOfA1p5SV7IMjW7gTE=";
       name = "arm_cortex-a5_vfpv4-luci-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.3/packages/arm_cortex-a5_vfpv4/luci/Packages";
     };
@@ -34,7 +34,7 @@
   feeds."packages" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.3/packages/arm_cortex-a5_vfpv4/packages/";
     sourceInfo = {
-      hash = "sha256-1E1nQyu4aSkrgs6H52hOBWFx47pUkfwnWh8+iawhKpM=";
+      hash = "sha256-+TMhEPamOTbj8DAmSy7dQbKVqAGC0AZ6M3hEcPBDjV8=";
       name = "arm_cortex-a5_vfpv4-packages-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.3/packages/arm_cortex-a5_vfpv4/packages/Packages";
     };
@@ -47,7 +47,7 @@
   feeds."routing" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.3/packages/arm_cortex-a5_vfpv4/routing/";
     sourceInfo = {
-      hash = "sha256-QrdWVjTZuiTEygSYmePqrBx4bc8FBxHmBblSNVH3oyE=";
+      hash = "sha256-yp9b5ePmEqFXxFexAce//DVIbf2MsuElwQd6gkKyjzU=";
       name = "arm_cortex-a5_vfpv4-routing-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.3/packages/arm_cortex-a5_vfpv4/routing/Packages";
     };
@@ -60,7 +60,7 @@
   feeds."telephony" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.3/packages/arm_cortex-a5_vfpv4/telephony/";
     sourceInfo = {
-      hash = "sha256-dH9GucBTxdOD3ZQifXsPDRFjozK+5oUlxG0NAEXy248=";
+      hash = "sha256-YVFoW8uXIpcC2hsbJx7Q2pXagDZekamG2jU2IALzNic=";
       name = "arm_cortex-a5_vfpv4-telephony-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.3/packages/arm_cortex-a5_vfpv4/telephony/Packages";
     };
