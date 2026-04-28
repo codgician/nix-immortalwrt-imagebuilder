@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/at91/sam9x/";
   sha256sums = {
-    hash = "sha256-xMLDX9TZ0xD9PuT0iK8UjQSR5tOMhabs+SD3iQFEopE=";
+    hash = "sha256-5BtxfyYLIj+xBql6IkOIbvuqRaOu7Wt9Y80Pn/hnxGU=";
     name = "at91_sam9x-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/at91/sam9x/sha256sums";
   };
   imagebuilder = {
-    sha256 = "c3c677221200a7f24cfd0f617a009069853c09dc84a920588de97afed31f67c3";
+    sha256 = "5d126c2211616a88fd6ce912b8e5c72698e313cd9528d75feaf2637a908c9eec";
     filename = "immortalwrt-imagebuilder-at91-sam9x.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-pp/PLWHf2DpyFtadd0BHFFdMmu1/uX7Q2FXOsyj0YFo=";
+    hash = "sha256-i4WCpQ6dmVBMlGPxGy5BH7xaRrwAXRj6sSAbDIX/SP4=";
     name = "at91_sam9x-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/at91/sam9x/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "arm_arm926ej-s";
     linux_kernel = {
       release = "1";
-      vermagic = "87aeffaa6d2f08b62bef7a2ca5e89d08";
-      version = "6.12.77";
+      vermagic = "161f37513c60342657a10d9511b8562c";
+      version = "6.12.80";
     };
     default_packages = [
       "apk-openssl"
@@ -51,7 +51,7 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.12.77-1-87aeffaa6d2f08b62bef7a2ca5e89d08";
+    kmods_target = "6.12.80-1-161f37513c60342657a10d9511b8562c";
     profiles = {
       atmel_at91sam9263ek = {
         device_packages = [ ];
@@ -126,12 +126,12 @@
       };
     };
   };
-  kmods."6.12.77-1-87aeffaa6d2f08b62bef7a2ca5e89d08" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/at91/sam9x/kmods/6.12.77-1-87aeffaa6d2f08b62bef7a2ca5e89d08/";
+  kmods."6.12.80-1-161f37513c60342657a10d9511b8562c" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/at91/sam9x/kmods/6.12.80-1-161f37513c60342657a10d9511b8562c/";
     sourceInfo = {
-      hash = "sha256-BbSkUBiW8l2IvSuMI/pZ2vSkaNaEtiFHraiyXU3lXgk=";
+      hash = "sha256-Tq8ARZZu8WJGifLag2JH0t7pgZDqKLtAyBKSC8r6uSA=";
       name = "kmods-at91_sam9x-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/at91/sam9x/kmods/6.12.77-1-87aeffaa6d2f08b62bef7a2ca5e89d08/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/at91/sam9x/kmods/6.12.80-1-161f37513c60342657a10d9511b8562c/packages.adb";
     };
     packages =
       let
@@ -142,7 +142,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/at91/sam9x/packages/";
     sourceInfo = {
-      hash = "sha256-Y3L8RDXV+AkVMhFWoQgAOhceBDAGojYuWAcurjb29zI=";
+      hash = "sha256-rNxqxcHH4ezDMiDiKp35fjrvNLgRIPZRmHWiXSo6BbM=";
       name = "at91_sam9x-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/at91/sam9x/packages/packages.adb";
     };
