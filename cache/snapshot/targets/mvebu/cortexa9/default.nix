@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mvebu/cortexa9/";
   sha256sums = {
-    hash = "sha256-Yv3OeyNILd6DtkEqcv/BLhD+AFm13P71drbYOstfH3c=";
+    hash = "sha256-Oyd075mo/Jtw0aNgEnuhCnMMsWVkx4AORBIGbISfubI=";
     name = "mvebu_cortexa9-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/mvebu/cortexa9/sha256sums";
   };
   imagebuilder = {
-    sha256 = "9f74935000bad9e7c5e95e309a579fca33c120b0c01ea0bad611277ae76a5a56";
+    sha256 = "29575069d06dc465a03175d2fd0d6544bc6ddc851d55ccb5b8187b4b2cb88411";
     filename = "immortalwrt-imagebuilder-mvebu-cortexa9.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-fyYIhD78QVzQNQZ/AdmH28bt/lBLA8uqMDjyiVqRbGY=";
+    hash = "sha256-dVfJOPEwEMA10RRTF3genQwGy2q9nHqs/UGodoOGDBQ=";
     name = "mvebu_cortexa9-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/mvebu/cortexa9/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "arm_cortex-a9_vfpv3-d16";
     linux_kernel = {
       release = "1";
-      vermagic = "80e33cc521003189051cbf25d02de9b1";
-      version = "6.12.77";
+      vermagic = "7e7567d0cc8ea722b6d419d6cdf43eca";
+      version = "6.12.80";
     };
     default_packages = [
       "apk-openssl"
@@ -50,7 +50,7 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.12.77-1-80e33cc521003189051cbf25d02de9b1";
+    kmods_target = "6.12.80-1-7e7567d0cc8ea722b6d419d6cdf43eca";
     profiles = {
       buffalo_ls220de = {
         device_packages = [
@@ -270,6 +270,7 @@
           "mkf2fs"
           "e2fsprogs"
           "partx-utils"
+          "kmod-dsa-mv88e6xxx"
         ];
       };
       solidrun_clearfog-pro-a1 = {
@@ -277,6 +278,7 @@
           "mkf2fs"
           "e2fsprogs"
           "partx-utils"
+          "kmod-dsa-mv88e6xxx"
         ];
       };
       synology_ds213j = {
@@ -323,12 +325,12 @@
       };
     };
   };
-  kmods."6.12.77-1-80e33cc521003189051cbf25d02de9b1" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mvebu/cortexa9/kmods/6.12.77-1-80e33cc521003189051cbf25d02de9b1/";
+  kmods."6.12.80-1-7e7567d0cc8ea722b6d419d6cdf43eca" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mvebu/cortexa9/kmods/6.12.80-1-7e7567d0cc8ea722b6d419d6cdf43eca/";
     sourceInfo = {
-      hash = "sha256-XleSwRJksu4KGXKf5JU7CmDDh+bMEm9qr18H4B/qWdg=";
+      hash = "sha256-64fhLUpo4dknaVsx80vdpDr9eQiy7AVVwYxyZqlI/IM=";
       name = "kmods-mvebu_cortexa9-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/mvebu/cortexa9/kmods/6.12.77-1-80e33cc521003189051cbf25d02de9b1/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/mvebu/cortexa9/kmods/6.12.80-1-7e7567d0cc8ea722b6d419d6cdf43eca/packages.adb";
     };
     packages =
       let
@@ -339,7 +341,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mvebu/cortexa9/packages/";
     sourceInfo = {
-      hash = "sha256-8Nm6y8MHWeJMv15zRgF8ygCidUUpKaNGU4dUryMuSNc=";
+      hash = "sha256-IlsbWtmAs+UKWiDyQRMzd0Nht26cIeciQ3mmgn730SI=";
       name = "mvebu_cortexa9-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/mvebu/cortexa9/packages/packages.adb";
     };
