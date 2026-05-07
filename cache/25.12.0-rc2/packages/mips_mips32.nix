@@ -1,14 +1,14 @@
 # 25.12.0-rc2 package feeds for mips_mips32
 {
   sha256sums = {
-    hash = "sha256-N/8HgW9BJbP4Ebhrmn5LSbcGITOjchFKeCOULT/lhsM=";
+    hash = "sha256-bQYavZbhjPwlHy6G4wokhia00v8EsNH8CK21agweZ/k=";
     name = "mips_mips32-sha256sums";
     url = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/mips_mips32/sha256sums";
   };
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/mips_mips32/base/";
     sourceInfo = {
-      hash = "sha256-GQ2l22vSEQTKsWWFUdtV606S+r0gDNblyvtOt0dPNCw=";
+      hash = "sha256-HNd8IieTK+WMcAP5tklBclFxkv/c3sfC75Wcq1ZmQ8U=";
       name = "mips_mips32-base-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/mips_mips32/base/packages.adb";
     };
@@ -21,7 +21,7 @@
   feeds."luci" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/mips_mips32/luci/";
     sourceInfo = {
-      hash = "sha256-OBLY9EhCHgrDu/xU8bgEtOE9OOePWHcONrIMpz9pUqU=";
+      hash = "sha256-lvA9Cpiibo2ptlExFSWJS59HnvlCSDoREW1ngf3rqLo=";
       name = "mips_mips32-luci-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/mips_mips32/luci/packages.adb";
     };
@@ -34,7 +34,7 @@
   feeds."packages" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/mips_mips32/packages/";
     sourceInfo = {
-      hash = "sha256-SdPP2CxkL3ZzrKK59LmYSMY8q/Pwi6yCMcUYgguE0CA=";
+      hash = "sha256-SGoKqRqmIew0BiKW4LYR2NyBS54HGM4YU6jz/G4O/kc=";
       name = "mips_mips32-packages-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/mips_mips32/packages/packages.adb";
     };
@@ -47,7 +47,7 @@
   feeds."routing" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/mips_mips32/routing/";
     sourceInfo = {
-      hash = "sha256-7waiqrLJf32Pf5RiYiCgvPRkrhJLr6iST9fZO6jn9Y8=";
+      hash = "sha256-7O+zEbHmMRhClFYWKzS1DOe/arTYMDUeuzu9Pi2zaUU=";
       name = "mips_mips32-routing-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/mips_mips32/routing/packages.adb";
     };
@@ -60,7 +60,7 @@
   feeds."telephony" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/mips_mips32/telephony/";
     sourceInfo = {
-      hash = "sha256-jLO8ki+rTOh4BDLK4tWSCh1QofcaqLM66TaqbdcxAAE=";
+      hash = "sha256-dKi1vpFZ1AWTyScJiwAFeEdW5nLXzL6V/gBvA5eOGig=";
       name = "mips_mips32-telephony-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/mips_mips32/telephony/packages.adb";
     };

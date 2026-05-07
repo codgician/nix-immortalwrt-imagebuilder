@@ -1,14 +1,14 @@
 # 25.12.0-rc2 package feeds for arm_arm1176jzf-s_vfp
 {
   sha256sums = {
-    hash = "sha256-0/sQW44Jk2Zo1Y/83Poz9nH+daIka0HE6XJTHq+hYrY=";
+    hash = "sha256-Y2a33W4Xy58q8yFjIDTmgsdvJfyZzu8sF6l4xwuNm28=";
     name = "arm_arm1176jzf-s_vfp-sha256sums";
     url = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/arm_arm1176jzf-s_vfp/sha256sums";
   };
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/arm_arm1176jzf-s_vfp/base/";
     sourceInfo = {
-      hash = "sha256-slPXj7uM3/tti/l8teU8zQ1BHWAayEfN4/ZjAxO8hus=";
+      hash = "sha256-5iTD9wnWaxkS8xSH99g0YQvUpUJHYIQd/lSS9yRIjio=";
       name = "arm_arm1176jzf-s_vfp-base-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/arm_arm1176jzf-s_vfp/base/packages.adb";
     };
@@ -21,7 +21,7 @@
   feeds."luci" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/arm_arm1176jzf-s_vfp/luci/";
     sourceInfo = {
-      hash = "sha256-MouKTfuJ8gYzpoo7IyMytJvvpIxeNhuqjhXpqOhmMyM=";
+      hash = "sha256-p7N72sA4oPxKr6Er2WJ+NVE5Wp5sbnNSmiItcVDNpSk=";
       name = "arm_arm1176jzf-s_vfp-luci-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/arm_arm1176jzf-s_vfp/luci/packages.adb";
     };
@@ -34,7 +34,7 @@
   feeds."packages" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/arm_arm1176jzf-s_vfp/packages/";
     sourceInfo = {
-      hash = "sha256-9hJ/iRsqSpkfT+GJ/HBerOFy0kbNHxeUKakYIzUjKPk=";
+      hash = "sha256-a6kH4zO+Xw9O/MH+a33SAqrYLnLDAeRZ4nrDzK4YJRk=";
       name = "arm_arm1176jzf-s_vfp-packages-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/arm_arm1176jzf-s_vfp/packages/packages.adb";
     };
@@ -47,7 +47,7 @@
   feeds."routing" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/arm_arm1176jzf-s_vfp/routing/";
     sourceInfo = {
-      hash = "sha256-OtpLI7Yet5OsMnrLI0hoIfu4r+/TouNIIfN+TYthRzQ=";
+      hash = "sha256-rYJRxfzS/koD27YxB1Pkw3N42874cPeuWhDXDDsTsQQ=";
       name = "arm_arm1176jzf-s_vfp-routing-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/arm_arm1176jzf-s_vfp/routing/packages.adb";
     };
@@ -60,7 +60,7 @@
   feeds."telephony" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/arm_arm1176jzf-s_vfp/telephony/";
     sourceInfo = {
-      hash = "sha256-CvxbOuIthcwxbd0dalCceCl9VjrjUxQ/AghH7sRTxjc=";
+      hash = "sha256-5CGMdzPGDuw62ivhGImR9C5/yDDvwMWteJakBJYAkS0=";
       name = "arm_arm1176jzf-s_vfp-telephony-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/arm_arm1176jzf-s_vfp/telephony/packages.adb";
     };

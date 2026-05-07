@@ -1,14 +1,14 @@
 # 25.12.0-rc2 package feeds for loongarch64_generic
 {
   sha256sums = {
-    hash = "sha256-ZWYjzVelhLvkjzWIrZbsFj6f0OcUFfXlWbq774Td8rw=";
+    hash = "sha256-r4goJ2WplBR52vmQxVFBlqgEK+fEnUsr7QVWnD0hthQ=";
     name = "loongarch64_generic-sha256sums";
     url = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/loongarch64_generic/sha256sums";
   };
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/loongarch64_generic/base/";
     sourceInfo = {
-      hash = "sha256-SniWJ/hhFcdsKPjCgJfTAThRasKTKyD9kfbEbpKAP78=";
+      hash = "sha256-nY7B2gv7r5qYB36cPTVXEmyOPyfbxfyXcZCKO+wxfFo=";
       name = "loongarch64_generic-base-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/loongarch64_generic/base/packages.adb";
     };
@@ -21,7 +21,7 @@
   feeds."luci" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/loongarch64_generic/luci/";
     sourceInfo = {
-      hash = "sha256-qafZMzwynLMoVaS/h63taRR+YMUSv4r/BTfD1peqE4g=";
+      hash = "sha256-obS6APRFgAyPaYuy7X0dcNzMOL1Tbz3+UXscsNHzm9M=";
       name = "loongarch64_generic-luci-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/loongarch64_generic/luci/packages.adb";
     };
@@ -34,7 +34,7 @@
   feeds."packages" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/loongarch64_generic/packages/";
     sourceInfo = {
-      hash = "sha256-lXEGMVIga/lPKNdZDYzqObU2H3wPlpbNCj+2D0Cbh94=";
+      hash = "sha256-Dct7D54C88Cid8KeGnZzJBk+KdIxPKpl3FUHL6mKPY4=";
       name = "loongarch64_generic-packages-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/loongarch64_generic/packages/packages.adb";
     };
@@ -47,7 +47,7 @@
   feeds."routing" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/loongarch64_generic/routing/";
     sourceInfo = {
-      hash = "sha256-Mm+sA8UOTH5pZQGkSzZUMJIJQDojiXc+u8AwE4mey9w=";
+      hash = "sha256-naFjAWYsK5gP6APXUrQG+WKq/D+WRqZyoNMPSCfojj0=";
       name = "loongarch64_generic-routing-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/loongarch64_generic/routing/packages.adb";
     };
@@ -60,7 +60,7 @@
   feeds."telephony" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/loongarch64_generic/telephony/";
     sourceInfo = {
-      hash = "sha256-IhDvlsyH599LGuBK9kBVWWnjddolpEJAagA40hUmV8w=";
+      hash = "sha256-97MbPCJho4JJ61shptjYDBnoEzWbIvLIFTWXjNtm2SQ=";
       name = "loongarch64_generic-telephony-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/loongarch64_generic/telephony/packages.adb";
     };
