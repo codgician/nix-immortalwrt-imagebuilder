@@ -1,14 +1,14 @@
 # snapshot package feeds for i386_pentium-mmx
 {
   sha256sums = {
-    hash = "sha256-Mba3P5FEKiq+vOVLrkzArH5m9/Qk3o1asado/A7p75g=";
+    hash = "sha256-lclRobgwrlMH1hpX976C8p9LQKZgUs4yNJIn/zcvH9g=";
     name = "i386_pentium-mmx-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/packages/i386_pentium-mmx/sha256sums";
   };
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/i386_pentium-mmx/base/";
     sourceInfo = {
-      hash = "sha256-DsldV9FIwOTt42eIs/wAkZ9SjAZMXLbX89xHKcYs4Z0=";
+      hash = "sha256-Ipnx98U8w1NeRx78TZ2auxxfJD3Y5D6LKyoLXwskLeY=";
       name = "i386_pentium-mmx-base-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/i386_pentium-mmx/base/packages.adb";
     };
@@ -21,7 +21,7 @@
   feeds."luci" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/i386_pentium-mmx/luci/";
     sourceInfo = {
-      hash = "sha256-5d6uHAXmckQSveXGrTJJ2AWdqgcZEJZmiVKh7wvF2L8=";
+      hash = "sha256-MXBh3g3/uwmeng8EZxkXnBYQUV5aMRn0DumaEqBaRAY=";
       name = "i386_pentium-mmx-luci-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/i386_pentium-mmx/luci/packages.adb";
     };
