@@ -1,14 +1,14 @@
 # snapshot package feeds for armeb_xscale
 {
   sha256sums = {
-    hash = "sha256-xEHKz6ckq8pXCxynhXcjRWpjz3lqpLtxyUFLtxWZNqc=";
+    hash = "sha256-nCwRcKhEyRLcVVEIi9JWElKiHvd7Bvqa7wKWZPZ6lXk=";
     name = "armeb_xscale-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/packages/armeb_xscale/sha256sums";
   };
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/armeb_xscale/base/";
     sourceInfo = {
-      hash = "sha256-EHgV6MFE0DCS0o25dmI89cylIGPUp3UJOgqQnpgHR8A=";
+      hash = "sha256-BG4PhjzCt8o18foWgDWNwhtglXVwsQGPn+gxG+it84I=";
       name = "armeb_xscale-base-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/armeb_xscale/base/packages.adb";
     };
@@ -21,7 +21,7 @@
   feeds."luci" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/armeb_xscale/luci/";
     sourceInfo = {
-      hash = "sha256-/wdDVtSL/QleEIeVYQpO9H2ovW1/TsQodgRdC+WBs4U=";
+      hash = "sha256-EK2MP2GotwhG0UfHyH3hk+A3Oa3iCQyipUvdkYPk4Ho=";
       name = "armeb_xscale-luci-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/armeb_xscale/luci/packages.adb";
     };
