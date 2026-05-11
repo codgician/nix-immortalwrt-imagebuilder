@@ -1,14 +1,14 @@
 # 24.10.6 package feeds for aarch64_generic
 {
   sha256sums = {
-    hash = "sha256-JMSSQyYE3QyN9cBYlnxip7e3jUrl9RoPJz6MPBmtUAs=";
+    hash = "sha256-IF9eC5yffOZWVYHhOIJU9rPbRLdfg45PQen2n5lIe2c=";
     name = "aarch64_generic-sha256sums";
     url = "https://downloads.immortalwrt.org/releases/24.10.6/packages/aarch64_generic/sha256sums";
   };
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.6/packages/aarch64_generic/base/";
     sourceInfo = {
-      hash = "sha256-2lxwIxZo64qgOvpBCilpWV37hKZ0NBFEk8nEj+oK4t4=";
+      hash = "sha256-aFBl8Z115mI1JelTnzQjP2tVmKNm9VPGwO/yp1tp2JE=";
       name = "aarch64_generic-base-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.6/packages/aarch64_generic/base/Packages";
     };
@@ -21,7 +21,7 @@
   feeds."luci" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.6/packages/aarch64_generic/luci/";
     sourceInfo = {
-      hash = "sha256-keUUzI3xnVEqPojRDFjjp/B+IFtLxWbcQj12If/pb78=";
+      hash = "sha256-GLgfHX8ZMi1w+rTzbtHSi4Zcz5KUEP9Ifk+t92pQKeE=";
       name = "aarch64_generic-luci-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.6/packages/aarch64_generic/luci/Packages";
     };
@@ -34,7 +34,7 @@
   feeds."packages" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.6/packages/aarch64_generic/packages/";
     sourceInfo = {
-      hash = "sha256-Vd0bdgc+wrZgzap4iRm4l1AMICYftFlexITSFn7ri/0=";
+      hash = "sha256-v5G+45Gyh6djjv9rsaWQoA+14UB3QnurqEUR+U0xvAE=";
       name = "aarch64_generic-packages-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.6/packages/aarch64_generic/packages/Packages";
     };
@@ -47,7 +47,7 @@
   feeds."routing" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.6/packages/aarch64_generic/routing/";
     sourceInfo = {
-      hash = "sha256-qnGn0o8RazQyiiGddUkQkF68EqhiIsBjCleArHa8wIM=";
+      hash = "sha256-8liQVZcFI8cIajNb/t5CVNoF/thqJGFfrJQ+fZ6x3lY=";
       name = "aarch64_generic-routing-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.6/packages/aarch64_generic/routing/Packages";
     };
@@ -60,7 +60,7 @@
   feeds."telephony" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.6/packages/aarch64_generic/telephony/";
     sourceInfo = {
-      hash = "sha256-M2bhGlg2hHWHBDG4ozd7sGOotx1ErsmtxV5bZrWsBkI=";
+      hash = "sha256-ui4kGKAv5if5H3Gr2FM6Uqt7oXQLYqqBCMnKAe2nF+k=";
       name = "aarch64_generic-telephony-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.6/packages/aarch64_generic/telephony/Packages";
     };

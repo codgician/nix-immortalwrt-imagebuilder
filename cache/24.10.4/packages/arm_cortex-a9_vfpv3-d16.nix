@@ -1,14 +1,14 @@
 # 24.10.4 package feeds for arm_cortex-a9_vfpv3-d16
 {
   sha256sums = {
-    hash = "sha256-Plzo92hR9kzi6qyLbVrTplLpX0P91o0iHp5pGuT7BI4=";
+    hash = "sha256-cK+a7wJp1QlmVUJg2I/ZoIpKmh2WWxkU5sl8Qpmh9QY=";
     name = "arm_cortex-a9_vfpv3-d16-sha256sums";
     url = "https://downloads.immortalwrt.org/releases/24.10.4/packages/arm_cortex-a9_vfpv3-d16/sha256sums";
   };
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.4/packages/arm_cortex-a9_vfpv3-d16/base/";
     sourceInfo = {
-      hash = "sha256-GC9BQuXN/18oAXBD8gbmS/d3U0G6ZGotuzLKtKQ+Kdg=";
+      hash = "sha256-DhRzgYHZqd8qaOk6t7960reC/Go5bxFq9aB+ztPDi1s=";
       name = "arm_cortex-a9_vfpv3-d16-base-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.4/packages/arm_cortex-a9_vfpv3-d16/base/Packages";
     };
@@ -21,7 +21,7 @@
   feeds."luci" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.4/packages/arm_cortex-a9_vfpv3-d16/luci/";
     sourceInfo = {
-      hash = "sha256-d7t0t+BclKaPazejdBgvPAFeQ3TmT8DTewEY9T6YGi4=";
+      hash = "sha256-eTRaDFWHXrs+OTjs03njh6NlSm4yyGUKAWO10g/eiTk=";
       name = "arm_cortex-a9_vfpv3-d16-luci-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.4/packages/arm_cortex-a9_vfpv3-d16/luci/Packages";
     };
@@ -34,7 +34,7 @@
   feeds."packages" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.4/packages/arm_cortex-a9_vfpv3-d16/packages/";
     sourceInfo = {
-      hash = "sha256-wvYF2IL3eHdtA+TtfbJY3NHz2Rdy38w4RESS279ibo0=";
+      hash = "sha256-tK58AcFrMF4zP0v5rk+uGSDQMTgfqsk/QZDvcFHFQxU=";
       name = "arm_cortex-a9_vfpv3-d16-packages-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.4/packages/arm_cortex-a9_vfpv3-d16/packages/Packages";
     };

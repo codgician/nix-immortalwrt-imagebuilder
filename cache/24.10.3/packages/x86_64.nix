@@ -1,14 +1,14 @@
 # 24.10.3 package feeds for x86_64
 {
   sha256sums = {
-    hash = "sha256-ljBHT6RDXo8g26CFxCrT0ZEVf2iD/4xw3y44ydhrkQM=";
+    hash = "sha256-7iXh74z521nqICmt6X3tbHx6ESPD8OoNc5qzrgr8kCA=";
     name = "x86_64-sha256sums";
     url = "https://downloads.immortalwrt.org/releases/24.10.3/packages/x86_64/sha256sums";
   };
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.3/packages/x86_64/base/";
     sourceInfo = {
-      hash = "sha256-2gN9szae7zUmwsoD53VKYO7F7NjoBNVAFXwtAtxH4y4=";
+      hash = "sha256-S28GAc5+7nLnEFoHjgUXIK7P0TiDbrJSkgGHMqh9BdE=";
       name = "x86_64-base-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.3/packages/x86_64/base/Packages";
     };
@@ -21,7 +21,7 @@
   feeds."luci" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.3/packages/x86_64/luci/";
     sourceInfo = {
-      hash = "sha256-P/x152pY/6zN1f6yv8xQGHxbK2yxWM+Mw5DI15qLhzo=";
+      hash = "sha256-LVgh/hV7QrkvpIvN37Y3cQogPqL2bDBMBTXRPb7tY90=";
       name = "x86_64-luci-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.3/packages/x86_64/luci/Packages";
     };
@@ -34,7 +34,7 @@
   feeds."packages" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.3/packages/x86_64/packages/";
     sourceInfo = {
-      hash = "sha256-QHCWiDzBHJtumzrvFBxaBQKAsVOR/SmnM/5766hHMNY=";
+      hash = "sha256-RCobf4ky+xFSzFN9SRcI2YuTqJrudhu10VB9yZdSZm8=";
       name = "x86_64-packages-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.3/packages/x86_64/packages/Packages";
     };
@@ -47,7 +47,7 @@
   feeds."routing" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.3/packages/x86_64/routing/";
     sourceInfo = {
-      hash = "sha256-hazU8UyhwkOwXE5yRFD7mYlhXzJnMaLKldQQ/IkFd4s=";
+      hash = "sha256-EUH0K1n3rE5oy9urkiGBkP02Mpxmk0pIkhOoqRQ2Xb0=";
       name = "x86_64-routing-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.3/packages/x86_64/routing/Packages";
     };
@@ -60,7 +60,7 @@
   feeds."telephony" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.3/packages/x86_64/telephony/";
     sourceInfo = {
-      hash = "sha256-/odjQFjTGEqryh5GTJXFCfoGanEBJJYfgxIYLk783ms=";
+      hash = "sha256-eTQL62ttrWd4FKfWfpZVU9+F5pMXs/cS0wVlQiJXOcU=";
       name = "x86_64-telephony-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.3/packages/x86_64/telephony/Packages";
     };
