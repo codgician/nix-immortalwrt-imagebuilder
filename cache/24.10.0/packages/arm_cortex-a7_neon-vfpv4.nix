@@ -47,7 +47,7 @@
   feeds."routing" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.0/packages/arm_cortex-a7_neon-vfpv4/routing/";
     sourceInfo = {
-      hash = "sha256-S4a5xrMpVlEd1M+QzoX7dEowvtEUyRkuU7QRPWM3cGQ=";
+      hash = "sha256-qPUYYe69AJ/0OZTx8EBIDFN0q99v+lkAfkf7Vys8JKc=";
       name = "arm_cortex-a7_neon-vfpv4-routing-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.0/packages/arm_cortex-a7_neon-vfpv4/routing/Packages";
     };
@@ -60,7 +60,7 @@
   feeds."telephony" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.0/packages/arm_cortex-a7_neon-vfpv4/telephony/";
     sourceInfo = {
-      hash = "sha256-eOwczIP3eRpB2vzZkOTv5aDMTdMh4BKVOUu25CJGHMs=";
+      hash = "sha256-uBH3g6EKztnZF4ysBy5YD6J3GXbIC4FOPS7GObpBF2E=";
       name = "arm_cortex-a7_neon-vfpv4-telephony-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.0/packages/arm_cortex-a7_neon-vfpv4/telephony/Packages";
     };

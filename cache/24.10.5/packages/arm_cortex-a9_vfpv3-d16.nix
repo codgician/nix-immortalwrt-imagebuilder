@@ -47,7 +47,7 @@
   feeds."routing" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/packages/arm_cortex-a9_vfpv3-d16/routing/";
     sourceInfo = {
-      hash = "sha256-65hS3Y64F57AvltpehGl1qAfJVuCRIA3h9jRd87yRjI=";
+      hash = "sha256-YY4cWf2WA403lgGnraq1NSGucjXXY1OPCy1jSXf6vSo=";
       name = "arm_cortex-a9_vfpv3-d16-routing-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.5/packages/arm_cortex-a9_vfpv3-d16/routing/Packages";
     };
@@ -60,7 +60,7 @@
   feeds."telephony" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/packages/arm_cortex-a9_vfpv3-d16/telephony/";
     sourceInfo = {
-      hash = "sha256-n2Hm3eJzj7KVX/xxLqhp7RCjT2sf171tbTYtLsqlfgU=";
+      hash = "sha256-EqEGFgmJX4e0cnZGhn4uN0598Mjjc4mUDFwNdkXp5WQ=";
       name = "arm_cortex-a9_vfpv3-d16-telephony-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.5/packages/arm_cortex-a9_vfpv3-d16/telephony/Packages";
     };
