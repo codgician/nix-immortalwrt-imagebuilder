@@ -1,14 +1,14 @@
 # 25.12.0-rc2 package feeds for mips64_octeonplus
 {
   sha256sums = {
-    hash = "sha256-RlHEIjYwJJBeOy4g2rBMxmRI+Nji3fqCA7GGhIVxHdQ=";
+    hash = "sha256-GoL3vjZSwEyFo50tTBTbFXXsOKZqMsNkDuqrNNC1Ltc=";
     name = "mips64_octeonplus-sha256sums";
     url = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/mips64_octeonplus/sha256sums";
   };
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/mips64_octeonplus/base/";
     sourceInfo = {
-      hash = "sha256-OI/Of8avJLtjY6PsogwVAUb1UI5ql9EQyAV4aENnrQw=";
+      hash = "sha256-8Lrz5ZSlGLigUFIoByjGJdQD7RRBF4+0LaQ+drzlfT4=";
       name = "mips64_octeonplus-base-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/mips64_octeonplus/base/packages.adb";
     };
@@ -21,7 +21,7 @@
   feeds."luci" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/mips64_octeonplus/luci/";
     sourceInfo = {
-      hash = "sha256-3P+I0f2SvyJKnPi6bKuXLtkVVA9tEOEKT6uJPDLhO5E=";
+      hash = "sha256-kBBkgO2XlKtnS1i9gIUSFBPGC4y4JvCqg1j3MdbdwgU=";
       name = "mips64_octeonplus-luci-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/mips64_octeonplus/luci/packages.adb";
     };
@@ -34,7 +34,7 @@
   feeds."packages" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/mips64_octeonplus/packages/";
     sourceInfo = {
-      hash = "sha256-Sm/HSEMregjuT2N1eehQX1ltxqYQpMaSQ/FPjc1yq6E=";
+      hash = "sha256-CF+CGnDVWS/f5ggwtN5zHHU190hAR1SOhD6YjkjbAUc=";
       name = "mips64_octeonplus-packages-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/mips64_octeonplus/packages/packages.adb";
     };
@@ -47,7 +47,7 @@
   feeds."routing" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/mips64_octeonplus/routing/";
     sourceInfo = {
-      hash = "sha256-oj68oE8QWMBnYnoE9+j3Mi0YvyQdfLYpUK7AB8NuPyA=";
+      hash = "sha256-xERkaT3ilowHCVF7RJU69+ADYL4k05q+S/GdZhPt/xg=";
       name = "mips64_octeonplus-routing-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/mips64_octeonplus/routing/packages.adb";
     };
@@ -60,7 +60,7 @@
   feeds."telephony" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/mips64_octeonplus/telephony/";
     sourceInfo = {
-      hash = "sha256-Xt4lWFw9wdU79R6Gn+rEkqvCC4w1x5J5HEYxMmiZSP8=";
+      hash = "sha256-NIYG3l8aoNsA14HZI4UVWuhgqyTjNoGP7pvQ1jj9AEU=";
       name = "mips64_octeonplus-telephony-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/mips64_octeonplus/telephony/packages.adb";
     };
