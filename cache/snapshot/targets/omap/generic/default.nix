@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/omap/generic/";
   sha256sums = {
-    hash = "sha256-Bm3fWo62/xMbdP4ihqfkBXsbx6Jk6H5RM/xQJcbF1Gw=";
+    hash = "sha256-Dyr21pkxQbTWNkw28jxZqyFwWlZ2r+VowY2lal9J+KY=";
     name = "omap_generic-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/omap/generic/sha256sums";
   };
   imagebuilder = {
-    sha256 = "86776c79471a86c77f5a29fb16c106d59f31edeb87eb5e8539bbf4a46e7ea04a";
+    sha256 = "59070468c62db79ad04fdab481c566c8444be18952412579a2787ef92b290c71";
     filename = "immortalwrt-imagebuilder-omap-generic.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-1N+5J5yyqYEF6QNIMKn+O2F0kmY6Y7ZMfjMGLQBO3hk=";
+    hash = "sha256-Bh4fFd66HA30TtGOBTz6272erIo4s4QIH+RAZyEcggo=";
     name = "omap_generic-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/omap/generic/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "arm_cortex-a8_vfpv3";
     linux_kernel = {
       release = "1";
-      vermagic = "50f8e43ebda97eaffc956c167b9b904b";
-      version = "6.12.80";
+      vermagic = "f9e30a21156d8de6a8ad5f752fb4be63";
+      version = "6.12.89";
     };
     default_packages = [
       "apk-openssl"
@@ -51,7 +51,7 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.12.80-1-50f8e43ebda97eaffc956c167b9b904b";
+    kmods_target = "6.12.89-1-f9e30a21156d8de6a8ad5f752fb4be63";
     profiles = {
       ti_am335x-bone-black = {
         device_packages = [ ];
@@ -76,12 +76,12 @@
       };
     };
   };
-  kmods."6.12.80-1-50f8e43ebda97eaffc956c167b9b904b" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/omap/generic/kmods/6.12.80-1-50f8e43ebda97eaffc956c167b9b904b/";
+  kmods."6.12.89-1-f9e30a21156d8de6a8ad5f752fb4be63" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/omap/generic/kmods/6.12.89-1-f9e30a21156d8de6a8ad5f752fb4be63/";
     sourceInfo = {
-      hash = "sha256-dXBBT5sEOvsQpFNJvQGSHVj2UggKXfajF82uczf0pXY=";
+      hash = "sha256-jBVXDY9uMbprvvhH8hrU6SwA7bkTRa3nYD7fyKh34X0=";
       name = "kmods-omap_generic-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/omap/generic/kmods/6.12.80-1-50f8e43ebda97eaffc956c167b9b904b/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/omap/generic/kmods/6.12.89-1-f9e30a21156d8de6a8ad5f752fb4be63/packages.adb";
     };
     packages =
       let
@@ -92,7 +92,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/omap/generic/packages/";
     sourceInfo = {
-      hash = "sha256-EqKri/4kCDz7dxWc4ebscLEfgOOk3Nj0V+78dM3/le8=";
+      hash = "sha256-+B4VkLtS7H3E114LjS60TRNPGnc0m3QDZGAXFWbNcgo=";
       name = "omap_generic-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/omap/generic/packages/packages.adb";
     };

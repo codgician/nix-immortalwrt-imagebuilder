@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ath79/tiny/";
   sha256sums = {
-    hash = "sha256-1FBW1gXpJKLjANjO7uVqRVLNIapBtkSiHhNp2niwUaQ=";
+    hash = "sha256-O/ylSS1fPUG9aQvTmCZ4TGxOBJ3xgokrKFaN2Omqp9A=";
     name = "ath79_tiny-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/ath79/tiny/sha256sums";
   };
   imagebuilder = {
-    sha256 = "54093ebe0d70815092c0693e3ebb5d631e055754447a0f72272fd3719be718a9";
+    sha256 = "7274d0d8bd148079f362b3cbdefdce76730805e00dc917444104d113f9786281";
     filename = "immortalwrt-imagebuilder-ath79-tiny.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-+6gpDi1Rgg3PGxcXXrdlfesxe21P6O3sItw2rMtUTXw=";
+    hash = "sha256-154A9tAjlfdGxc1zrlTU2Hau7ltjJ3rATnSXbyUT4+k=";
     name = "ath79_tiny-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/ath79/tiny/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "mips_24kc";
     linux_kernel = {
       release = "1";
-      vermagic = "7d2c53d9c5cd8cad0d8a442982f67276";
-      version = "6.12.80";
+      vermagic = "7a6bb72532edcd59337bf5b3a5c8c61a";
+      version = "6.12.89";
     };
     default_packages = [
       "apk-openssl"
@@ -52,7 +52,7 @@
       "urngd"
       "wpad-basic-openssl"
     ];
-    kmods_target = "6.12.80-1-7d2c53d9c5cd8cad0d8a442982f67276";
+    kmods_target = "6.12.89-1-7a6bb72532edcd59337bf5b3a5c8c61a";
     profiles = {
       dlink_dap-1720-a1 = {
         device_packages = [
@@ -112,6 +112,13 @@
           "-uboot-envtools"
         ];
       };
+      sitecom_wlr-7100 = {
+        device_packages = [
+          "ath10k-firmware-qca988x-ct"
+          "kmod-ath10k-ct-smallbuffers"
+          "kmod-usb2"
+        ];
+      };
       tplink_re355-v1 = {
         device_packages = [
           "kmod-ath10k-ct-smallbuffers"
@@ -130,14 +137,24 @@
           "ath10k-firmware-qca988x-ct"
         ];
       };
+      tplink_tl-wr902ac-v1 = {
+        device_packages = [
+          "kmod-usb2"
+          "kmod-usb-ledtrig-usbport"
+          "kmod-ath10k-ct-smallbuffers"
+          "ath10k-firmware-qca9887-ct"
+          "-swconfig"
+          "-uboot-envtools"
+        ];
+      };
     };
   };
-  kmods."6.12.80-1-7d2c53d9c5cd8cad0d8a442982f67276" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ath79/tiny/kmods/6.12.80-1-7d2c53d9c5cd8cad0d8a442982f67276/";
+  kmods."6.12.89-1-7a6bb72532edcd59337bf5b3a5c8c61a" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ath79/tiny/kmods/6.12.89-1-7a6bb72532edcd59337bf5b3a5c8c61a/";
     sourceInfo = {
-      hash = "sha256-lxF3qbgD535y6jlYjTVRTH+8SqdaW1JmQMbqeGa1m00=";
+      hash = "sha256-rboB5vytdXWhKwNULGpegpXxkAUNgoQmb3wq9P6DBZc=";
       name = "kmods-ath79_tiny-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/ath79/tiny/kmods/6.12.80-1-7d2c53d9c5cd8cad0d8a442982f67276/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/ath79/tiny/kmods/6.12.89-1-7a6bb72532edcd59337bf5b3a5c8c61a/packages.adb";
     };
     packages =
       let
@@ -148,7 +165,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ath79/tiny/packages/";
     sourceInfo = {
-      hash = "sha256-AruJGifBsUBWnd2uBD6zhVG+Iqe0NL9kmu98HI02JoQ=";
+      hash = "sha256-SFORDATf+8aF8RC6beUd32+sLpwmUuZfdqk6MGaXuQk=";
       name = "ath79_tiny-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/ath79/tiny/packages/packages.adb";
     };
