@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/microchipsw/lan969x/";
   sha256sums = {
-    hash = "sha256-8CqyTHG/6qO9wAc/loNC6P3WR9f330Ys9Sf3nljAqpY=";
+    hash = "sha256-vP26hIzhPvptHoGQLs7xgFvi5guMbssalgvLXuybfpg=";
     name = "microchipsw_lan969x-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/microchipsw/lan969x/sha256sums";
   };
   imagebuilder = {
-    sha256 = "a6d1cc452d9fac2e259e4b3b406b223e391691e6a71da16d04293f603a65341a";
+    sha256 = "198b06832c0468016ef0902362050f3da9622ba5c0ea7967bd4930a82b7266f5";
     filename = "immortalwrt-imagebuilder-microchipsw-lan969x.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-JObz057C9UoeFkwze5mnQAS+ycggWaTyXCQdMiqICsI=";
+    hash = "sha256-6EC42z9JeBdZm+DrhkRoYuWDXLZhAullKYLoB9BrRvI=";
     name = "microchipsw_lan969x-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/microchipsw/lan969x/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "aarch64_cortex-a53";
     linux_kernel = {
       release = "1";
-      vermagic = "2b60dffe446da6a84c24edfaba3a6e5e";
-      version = "6.18.21";
+      vermagic = "ff566f6ea46a5a9735bff7ae5ee3ebd7";
+      version = "6.18.31";
     };
     default_packages = [
       "apk-openssl"
@@ -64,7 +64,7 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.18.21-1-2b60dffe446da6a84c24edfaba3a6e5e";
+    kmods_target = "6.18.31-1-ff566f6ea46a5a9735bff7ae5ee3ebd7";
     profiles = {
       microchip_ev23x71a = {
         device_packages = [ "kmod-i2c-mux-gpio" ];
@@ -81,12 +81,12 @@
       };
     };
   };
-  kmods."6.18.21-1-2b60dffe446da6a84c24edfaba3a6e5e" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/microchipsw/lan969x/kmods/6.18.21-1-2b60dffe446da6a84c24edfaba3a6e5e/";
+  kmods."6.18.31-1-ff566f6ea46a5a9735bff7ae5ee3ebd7" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/microchipsw/lan969x/kmods/6.18.31-1-ff566f6ea46a5a9735bff7ae5ee3ebd7/";
     sourceInfo = {
-      hash = "sha256-0Cd+AIKBlUJFFiCSZlHGVcgnLhnoaRTCUMwL7jT7Pu8=";
+      hash = "sha256-8nKUgRNxNROmBHbLOtsJCin3znpVPxJhDOA5jogx7Qw=";
       name = "kmods-microchipsw_lan969x-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/microchipsw/lan969x/kmods/6.18.21-1-2b60dffe446da6a84c24edfaba3a6e5e/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/microchipsw/lan969x/kmods/6.18.31-1-ff566f6ea46a5a9735bff7ae5ee3ebd7/packages.adb";
     };
     packages =
       let
@@ -97,7 +97,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/microchipsw/lan969x/packages/";
     sourceInfo = {
-      hash = "sha256-w1YPec+xbar09C8U38xMcD3l8S5yEQ/XKUTKa/RiW0o=";
+      hash = "sha256-t6DY4i5U+2TRO/QYWzVUrV60X2ATaIPi7LaWStRJKeM=";
       name = "microchipsw_lan969x-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/microchipsw/lan969x/packages/packages.adb";
     };

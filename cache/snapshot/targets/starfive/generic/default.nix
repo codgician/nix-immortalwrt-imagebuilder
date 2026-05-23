@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/starfive/generic/";
   sha256sums = {
-    hash = "sha256-Cc3Fe4J1E/taRQevZ3yUwENPB7+VY7wyB+1VOz5Mmnw=";
+    hash = "sha256-367R3jlW5iK1SrK+2+r4BdvP19buPv5wDx8KnEBsNdM=";
     name = "starfive_generic-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/starfive/generic/sha256sums";
   };
   imagebuilder = {
-    sha256 = "15fdaa4d17e8d8a5a168fb7bb4ba0d54d0219ab3880df87cda1bc24a38b37b10";
+    sha256 = "136e10dd97a63e5e122cc35c1b42069111d7c6d9ccd53cb4696cda2c63a9b18f";
     filename = "immortalwrt-imagebuilder-starfive-generic.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-49XDdKMzZVgC01s0rZL7C7Oz9OjWpz41gzmymGOjxVs=";
+    hash = "sha256-4Ztx6V4+Jingru99n8pNDeV4ZqMob2Xp8HhoNXK0MCE=";
     name = "starfive_generic-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/starfive/generic/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "riscv64_generic";
     linux_kernel = {
       release = "1";
-      vermagic = "5bb4ab5d83b125cbf49de8c1beaacafb";
-      version = "6.12.80";
+      vermagic = "14cff4dee19d324677198a4abbcccbec";
+      version = "6.18.31";
     };
     default_packages = [
       "apk-openssl"
@@ -48,7 +48,7 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.12.80-1-5bb4ab5d83b125cbf49de8c1beaacafb";
+    kmods_target = "6.18.31-1-14cff4dee19d324677198a4abbcccbec";
     profiles = {
       beaglev-starlight = {
         device_packages = [ ];
@@ -77,12 +77,12 @@
       };
     };
   };
-  kmods."6.12.80-1-5bb4ab5d83b125cbf49de8c1beaacafb" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/starfive/generic/kmods/6.12.80-1-5bb4ab5d83b125cbf49de8c1beaacafb/";
+  kmods."6.18.31-1-14cff4dee19d324677198a4abbcccbec" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/starfive/generic/kmods/6.18.31-1-14cff4dee19d324677198a4abbcccbec/";
     sourceInfo = {
-      hash = "sha256-iD83AclroBX5qnb/sD1IiR+kjf+tSqAuTCltR3LwtPs=";
+      hash = "sha256-Ba+BMt3VDAEbGmJkWsHY4yU7CY3NLzV7UWH5Ws1t2QI=";
       name = "kmods-starfive_generic-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/starfive/generic/kmods/6.12.80-1-5bb4ab5d83b125cbf49de8c1beaacafb/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/starfive/generic/kmods/6.18.31-1-14cff4dee19d324677198a4abbcccbec/packages.adb";
     };
     packages =
       let
@@ -93,7 +93,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/starfive/generic/packages/";
     sourceInfo = {
-      hash = "sha256-a/RJT+rn+nzr6kD1hyzr0ttIlwbKB9F5zuujKoruApQ=";
+      hash = "sha256-evTyUQQvYUGJGUFNGXcLg1c9HnYHBy3k9MtY4/ciHEk=";
       name = "starfive_generic-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/starfive/generic/packages/packages.adb";
     };
