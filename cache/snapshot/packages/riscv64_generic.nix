@@ -1,14 +1,14 @@
 # snapshot package feeds for riscv64_generic
 {
   sha256sums = {
-    hash = "sha256-wztC5/r6GZUsLDY3n5Oy27SxxcaxlrOT5DgIfZfxtaw=";
+    hash = "sha256-r3XdPHeJ6dgA/leLRWFBlOB/EOLR6JYxvT+f4gHSdi8=";
     name = "riscv64_generic-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/packages/riscv64_generic/sha256sums";
   };
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/riscv64_generic/base/";
     sourceInfo = {
-      hash = "sha256-yoawfIn+xevGoFNgaceM/YsTv18VSIk1PaaCQfbTDWE=";
+      hash = "sha256-+h9rNbLEpkOSzGpYEGyCN7oW5lykIObn+37OJeln/aQ=";
       name = "riscv64_generic-base-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/riscv64_generic/base/packages.adb";
     };
@@ -21,7 +21,7 @@
   feeds."luci" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/riscv64_generic/luci/";
     sourceInfo = {
-      hash = "sha256-S/e5qj4/uOTdrcPb55LHXX4AvBjfazNxSFHGA4Y7ryY=";
+      hash = "sha256-2tKKhMsApN44SIs0ZCGJbI0e2fH4+zBIVc/rejUVKy8=";
       name = "riscv64_generic-luci-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/riscv64_generic/luci/packages.adb";
     };
@@ -34,7 +34,7 @@
   feeds."packages" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/riscv64_generic/packages/";
     sourceInfo = {
-      hash = "sha256-kFmPpZ0AYC/0ahivMfvSdl4cP17GChjofQAObCZtiI4=";
+      hash = "sha256-HB+cCQyLxwG1R9PhR/fztxYLUEsW8VDwvuR3tDDGd6c=";
       name = "riscv64_generic-packages-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/riscv64_generic/packages/packages.adb";
     };
@@ -47,7 +47,7 @@
   feeds."routing" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/riscv64_generic/routing/";
     sourceInfo = {
-      hash = "sha256-wyXW5hrdCNlDk3E3T9CSMuUAWZ2vMUEXF1JNwiJj2As=";
+      hash = "sha256-r+oncIFgvhbl2ZWKDTps8mew4MllUXScac78HG+iGls=";
       name = "riscv64_generic-routing-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/riscv64_generic/routing/packages.adb";
     };
@@ -60,7 +60,7 @@
   feeds."telephony" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/riscv64_generic/telephony/";
     sourceInfo = {
-      hash = "sha256-IZ4V6CXe/5eoETjw9P3+tqeEYk2hPxxtdsuYYfYRYl4=";
+      hash = "sha256-bglSaH2O2wdvzcZcOfiFeWpzDFfheszTI32xJFsYf4E=";
       name = "riscv64_generic-telephony-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/riscv64_generic/telephony/packages.adb";
     };
