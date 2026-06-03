@@ -103,7 +103,7 @@ in
 
 ## Refreshing hashes
 
-**downloads.immortalwrt.org** appears to be never at rest. That's why we
+**downloads.immortalwrt.org** appears to never be at rest. That's why we
 update the [cache subdirectory](./cache/) daily with [a Github
 action.](https://github.com/codgician/nix-immortalwrt-imagebuilder/actions/workflows/update-hashes.yml)
 
