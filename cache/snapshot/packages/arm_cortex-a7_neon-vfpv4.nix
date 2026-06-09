@@ -1,14 +1,14 @@
 # snapshot package feeds for arm_cortex-a7_neon-vfpv4
 {
   sha256sums = {
-    hash = "sha256-ym/m+9Fk/gmS0sdZNhEXmOu+mGKkXoDTvWmjj88sZqA=";
+    hash = "sha256-hMDNthJAPCEkeqay9w39yWgYxed/tBa5Sjd715MakWU=";
     name = "arm_cortex-a7_neon-vfpv4-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/packages/arm_cortex-a7_neon-vfpv4/sha256sums";
   };
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/arm_cortex-a7_neon-vfpv4/base/";
     sourceInfo = {
-      hash = "sha256-XgzUysjZBrUzHEPLLMlPDamtNhlXvs27O87y3+TjsFQ=";
+      hash = "sha256-oYkzcm2YzJjzlUpfDBqvLK2PHthpitByGOnCefAGFUI=";
       name = "arm_cortex-a7_neon-vfpv4-base-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/arm_cortex-a7_neon-vfpv4/base/packages.adb";
     };
@@ -21,7 +21,7 @@
   feeds."luci" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/arm_cortex-a7_neon-vfpv4/luci/";
     sourceInfo = {
-      hash = "sha256-2JrlhM0mMBuhbpN0sPC2E+20DHQ5t+JtP8jsDbOBc3Y=";
+      hash = "sha256-9lsmeFNcbvEBpvJfRG62m/5DeHjVhmIAzxq/1hR2fTQ=";
       name = "arm_cortex-a7_neon-vfpv4-luci-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/arm_cortex-a7_neon-vfpv4/luci/packages.adb";
     };
@@ -34,7 +34,7 @@
   feeds."packages" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/arm_cortex-a7_neon-vfpv4/packages/";
     sourceInfo = {
-      hash = "sha256-zsuZ5ZjT7wLTaBaQa0gquOvv+bUFKlRsN2ILE7QC9UU=";
+      hash = "sha256-OmK5D8dGT6dQ4jyAGgSpP3AAS7VRD2g5TeGDr715gJg=";
       name = "arm_cortex-a7_neon-vfpv4-packages-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/arm_cortex-a7_neon-vfpv4/packages/packages.adb";
     };
@@ -47,7 +47,7 @@
   feeds."routing" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/arm_cortex-a7_neon-vfpv4/routing/";
     sourceInfo = {
-      hash = "sha256-6aXqtYmZyGPu/6HgXRkfHal5u95eLbRSI+VEJ83yNks=";
+      hash = "sha256-yIjDtaon6egDtz4oQn++hPLbTbaGj++zlPGtZq/LNfA=";
       name = "arm_cortex-a7_neon-vfpv4-routing-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/arm_cortex-a7_neon-vfpv4/routing/packages.adb";
     };
@@ -60,7 +60,7 @@
   feeds."telephony" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/arm_cortex-a7_neon-vfpv4/telephony/";
     sourceInfo = {
-      hash = "sha256-g1VFglbKyQpdL/RE4FFQsKihKUL38kGA0h4+LcZgedI=";
+      hash = "sha256-D83tlTjxIGBDrsUncQeFsJvhlVOj+Cr2GmgjjHxNfnk=";
       name = "arm_cortex-a7_neon-vfpv4-telephony-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/arm_cortex-a7_neon-vfpv4/telephony/packages.adb";
     };

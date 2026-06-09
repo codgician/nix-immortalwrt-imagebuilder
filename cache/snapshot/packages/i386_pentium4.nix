@@ -1,14 +1,14 @@
 # snapshot package feeds for i386_pentium4
 {
   sha256sums = {
-    hash = "sha256-KkM05aVVOX0By845z2wNFvjymSxQQwNjElVWuigYRIY=";
+    hash = "sha256-YXz3TUiqUhxWFIpe3p7B5JHVZNwBx1ED4ZaOLaBWdvU=";
     name = "i386_pentium4-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/packages/i386_pentium4/sha256sums";
   };
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/i386_pentium4/base/";
     sourceInfo = {
-      hash = "sha256-fm6I7ynRquWtJR+D/izKUFtLE+IKs479xUMda8rT/Nw=";
+      hash = "sha256-qpb0/hrm8KXOyFTUp6MtpsDULeA3G4mYFBWQUGJVCeU=";
       name = "i386_pentium4-base-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/i386_pentium4/base/packages.adb";
     };
@@ -21,7 +21,7 @@
   feeds."luci" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/i386_pentium4/luci/";
     sourceInfo = {
-      hash = "sha256-LATEzjrVS+EIs6bMlQHxNlwhgtQgEeF5Gkg+bEimjWI=";
+      hash = "sha256-1RvCl57Tslc2gAQ8q6WdbLkQvl4nokD0ZlXI2bhovgc=";
       name = "i386_pentium4-luci-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/i386_pentium4/luci/packages.adb";
     };
@@ -34,7 +34,7 @@
   feeds."packages" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/i386_pentium4/packages/";
     sourceInfo = {
-      hash = "sha256-OPK1fVPrxmQlqQJv5jrtdORnnz2tbAv74/e1Tie1Wts=";
+      hash = "sha256-anrumYUmYaP3HsEmZR1ovt9hB3CgmfY1/UEHTowyVuY=";
       name = "i386_pentium4-packages-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/i386_pentium4/packages/packages.adb";
     };
@@ -47,7 +47,7 @@
   feeds."routing" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/i386_pentium4/routing/";
     sourceInfo = {
-      hash = "sha256-vTW/9f26I6T40vnScSLJ3Mf5i/rdjvC5e7ceI8x3Od8=";
+      hash = "sha256-YXEZAc22sFAiJ6/TPq7IH2f4wrlGqGX7tG+P5/AAvJ8=";
       name = "i386_pentium4-routing-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/i386_pentium4/routing/packages.adb";
     };
@@ -60,7 +60,7 @@
   feeds."telephony" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/i386_pentium4/telephony/";
     sourceInfo = {
-      hash = "sha256-J1lXf/yoTpj5g8gzEetQlZi9dSu+Drl8mY0NjYKKq0E=";
+      hash = "sha256-XZu3psrfqPUYOAFrym3Hen36Z0dT3oT75WCus46bZu8=";
       name = "i386_pentium4-telephony-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/i386_pentium4/telephony/packages.adb";
     };
