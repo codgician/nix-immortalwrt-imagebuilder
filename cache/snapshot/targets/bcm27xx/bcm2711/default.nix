@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/bcm27xx/bcm2711/";
   sha256sums = {
-    hash = "sha256-4EDfmfUGAhdah8Uk6skMg/XnPoi9Hz9n8YUPCNOKfms=";
+    hash = "sha256-kKeTCYlRKXZzGhahQeITUxahUbZtav0eltX4yd6jGaU=";
     name = "bcm27xx_bcm2711-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/bcm27xx/bcm2711/sha256sums";
   };
   imagebuilder = {
-    sha256 = "5dd13802584e066201b6fca68c023c6d9833de30130c1a9e1e6ca36a4c27dbd5";
+    sha256 = "52fa1e102fbba6e2be383f16a1877eb3d6e8da543111434336bab4cf59863f70";
     filename = "immortalwrt-imagebuilder-bcm27xx-bcm2711.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-ybT8kLF6hZ58vnRoZZnbC4YxCthLLP0w3Ldw2Z87oJQ=";
+    hash = "sha256-XhIwD5hE/VIj+4sESfXhADVBinxS1Mm5dXrMnnWNLIA=";
     name = "bcm27xx_bcm2711-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/bcm27xx/bcm2711/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "aarch64_cortex-a72";
     linux_kernel = {
       release = "1";
-      vermagic = "9b0a05f0b01fb83ce1f6157011bfcfd3";
-      version = "6.12.89";
+      vermagic = "c27047a896c9fe24529b51ccf332eeae";
+      version = "6.12.92";
     };
     default_packages = [
       "apk-openssl"
@@ -59,7 +59,7 @@
       "uclient-fetch"
       "urandom-seed"
     ];
-    kmods_target = "6.12.89-1-9b0a05f0b01fb83ce1f6157011bfcfd3";
+    kmods_target = "6.12.92-1-c27047a896c9fe24529b51ccf332eeae";
     profiles = {
       rpi-4 = {
         device_packages = [
@@ -78,12 +78,12 @@
       };
     };
   };
-  kmods."6.12.89-1-9b0a05f0b01fb83ce1f6157011bfcfd3" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/bcm27xx/bcm2711/kmods/6.12.89-1-9b0a05f0b01fb83ce1f6157011bfcfd3/";
+  kmods."6.12.92-1-c27047a896c9fe24529b51ccf332eeae" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/bcm27xx/bcm2711/kmods/6.12.92-1-c27047a896c9fe24529b51ccf332eeae/";
     sourceInfo = {
-      hash = "sha256-p2HMPb5pIW2+IqzX+MtiYybrbMNe2FdpGqrZlBZPtCY=";
+      hash = "sha256-usIup1eoS2sZMCkYUEW8xmQDixYXrWrhKvTcv7ZMiuo=";
       name = "kmods-bcm27xx_bcm2711-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/bcm27xx/bcm2711/kmods/6.12.89-1-9b0a05f0b01fb83ce1f6157011bfcfd3/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/bcm27xx/bcm2711/kmods/6.12.92-1-c27047a896c9fe24529b51ccf332eeae/packages.adb";
     };
     packages =
       let
@@ -94,7 +94,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/bcm27xx/bcm2711/packages/";
     sourceInfo = {
-      hash = "sha256-4/uevZegZpymbT2HVm+CJm9peNOKBJM20j3kNvD4jq4=";
+      hash = "sha256-nfsDOgpxD5wDvptwlIaq22TDYf3uUir6yzF1+fv6npQ=";
       name = "bcm27xx_bcm2711-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/bcm27xx/bcm2711/packages/packages.adb";
     };

@@ -1,14 +1,14 @@
 # snapshot package feeds for powerpc_464fp
 {
   sha256sums = {
-    hash = "sha256-0gi86KbN/zWlEWsmn5tm0pIrdfWiPZzO1N2o8aciu6A=";
+    hash = "sha256-SZrWv9LRUqldXaD/PxUMHFDERwXso8E84Dk4eIQRlzk=";
     name = "powerpc_464fp-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/packages/powerpc_464fp/sha256sums";
   };
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/powerpc_464fp/base/";
     sourceInfo = {
-      hash = "sha256-bVlRCAq1sPOmoRRFMIChW3rFXOA/3zJG/vOeDKkBIX4=";
+      hash = "sha256-j4Tuaedszb88sP3Ndeu+h/fOK/dJd08RTwQvKz1ro+Q=";
       name = "powerpc_464fp-base-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/powerpc_464fp/base/packages.adb";
     };
@@ -21,7 +21,7 @@
   feeds."luci" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/powerpc_464fp/luci/";
     sourceInfo = {
-      hash = "sha256-td3xA9GNpruV0ZGVkBgDL4WJyWS1TKaBNJIk+KnCAlI=";
+      hash = "sha256-RxATH3yRVp1fo5lz+/VXKo7ARyrpwjJuvArjBhgo3RU=";
       name = "powerpc_464fp-luci-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/powerpc_464fp/luci/packages.adb";
     };
@@ -34,7 +34,7 @@
   feeds."packages" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/powerpc_464fp/packages/";
     sourceInfo = {
-      hash = "sha256-QdWw2nCgF1f8Xg5ukT/5i6Y7DBEwy5NMC4bU3ul9Kzo=";
+      hash = "sha256-VEg7PCIqH/7FZaADUvqeOOEBini5lKiRf4GNEbVtsCY=";
       name = "powerpc_464fp-packages-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/powerpc_464fp/packages/packages.adb";
     };
@@ -47,7 +47,7 @@
   feeds."routing" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/powerpc_464fp/routing/";
     sourceInfo = {
-      hash = "sha256-dMLNjwWAmB3Ir+W/mfcz3/wScSS4Yyh8mRS67rta4Dw=";
+      hash = "sha256-TNLXYQg/QkcxdCjsr+FIH0VBTo8xewDSr1kbgQ0xiBU=";
       name = "powerpc_464fp-routing-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/powerpc_464fp/routing/packages.adb";
     };
@@ -60,7 +60,7 @@
   feeds."telephony" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/powerpc_464fp/telephony/";
     sourceInfo = {
-      hash = "sha256-TSGyYjRaoNZebY8QM5XfAB4UGjFqea6LjFTPtuzvMak=";
+      hash = "sha256-EmV3uZEUcqcc3xtsi+LvUz/VoPOZlGkAYQvPuwuPwJY=";
       name = "powerpc_464fp-telephony-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/powerpc_464fp/telephony/packages.adb";
     };
