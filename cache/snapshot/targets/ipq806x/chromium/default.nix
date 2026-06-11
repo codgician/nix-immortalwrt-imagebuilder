@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ipq806x/chromium/";
   sha256sums = {
-    hash = "sha256-+iIemZkxvi0BoxmRUxWSNnzVW98XSskN8MXSRPKmZhI=";
+    hash = "sha256-XRko7PttNgLr3o7ZCxNCdVVsEAOZ4BsY2RnNLsp0zNE=";
     name = "ipq806x_chromium-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/ipq806x/chromium/sha256sums";
   };
   imagebuilder = {
-    sha256 = "7b7fd5f5b925040ffde0de308cf96f229c9ec09434c1591d7ba66d5230be4016";
+    sha256 = "75c9fe1b048f84ef4b75513dca5d7c924b476233fd1041d0c4a76a65ade4c8d4";
     filename = "immortalwrt-imagebuilder-ipq806x-chromium.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-mbT/16IXqk/35xrTsPoxj8UvBdExoNBzVaUuqkloJXY=";
+    hash = "sha256-zBuZ0Hq3pkSH25a8tav0ukeinDR82hb5RMHho5FwZ/0=";
     name = "ipq806x_chromium-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/ipq806x/chromium/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "arm_cortex-a15_neon-vfpv4";
     linux_kernel = {
       release = "1";
-      vermagic = "9da36f26b06442cf9c7dad3413161570";
-      version = "6.12.89";
+      vermagic = "591258473e2d6656876523eca7bd7de8";
+      version = "6.12.92";
     };
     default_packages = [
       "apk-openssl"
@@ -63,7 +63,7 @@
       "urngd"
       "wpad-openssl"
     ];
-    kmods_target = "6.12.89-1-9da36f26b06442cf9c7dad3413161570";
+    kmods_target = "6.12.92-1-591258473e2d6656876523eca7bd7de8";
     profiles = {
       asus_onhub = {
         device_packages = [
@@ -101,12 +101,12 @@
       };
     };
   };
-  kmods."6.12.89-1-9da36f26b06442cf9c7dad3413161570" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ipq806x/chromium/kmods/6.12.89-1-9da36f26b06442cf9c7dad3413161570/";
+  kmods."6.12.92-1-591258473e2d6656876523eca7bd7de8" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ipq806x/chromium/kmods/6.12.92-1-591258473e2d6656876523eca7bd7de8/";
     sourceInfo = {
-      hash = "sha256-4bjiCBA5yu2qTQy7paNYCkgK33if8osC92IESQWNb9c=";
+      hash = "sha256-4SFhEntstaZcAmSv9Q3DOjp6TBIT4mu7MRr2QARPQk0=";
       name = "kmods-ipq806x_chromium-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/ipq806x/chromium/kmods/6.12.89-1-9da36f26b06442cf9c7dad3413161570/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/ipq806x/chromium/kmods/6.12.92-1-591258473e2d6656876523eca7bd7de8/packages.adb";
     };
     packages =
       let
@@ -117,7 +117,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ipq806x/chromium/packages/";
     sourceInfo = {
-      hash = "sha256-ghM+4tZWr13oNixKiaKwOhVGkg6p/8dyTg50e/9oO1A=";
+      hash = "sha256-x/Ilx/6+6gHaC3l8Y8rE8EebzWbvCJDv0Tp2objX8KY=";
       name = "ipq806x_chromium-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/ipq806x/chromium/packages/packages.adb";
     };

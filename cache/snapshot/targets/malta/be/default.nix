@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/malta/be/";
   sha256sums = {
-    hash = "sha256-j0l++ckD6+Pu9zVHgKlpXJW8XVaEagxlTZHbVclSRE8=";
+    hash = "sha256-PV4nlYCcWOGDcK3pstkz/Jr21dT50SUGPY9/Pc5Asro=";
     name = "malta_be-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/malta/be/sha256sums";
   };
   imagebuilder = {
-    sha256 = "ef5869bea88692e094da2e86e7e59438881c7f1be0e9180505453a7bff91b955";
+    sha256 = "3f37dd0461322f504e6c510c031d7a8eb7826647b2c8e1eb34304e08337cc6a2";
     filename = "immortalwrt-imagebuilder-malta-be.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-nLrskBJ6vBKWuVW5uEZ6cKouGq6RSOXEDYSWL+85zHA=";
+    hash = "sha256-T80NsnG9vc57cor+dIEDeHqarQOHHQDrv3FX/v3XsAE=";
     name = "malta_be-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/malta/be/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "mips_24kc";
     linux_kernel = {
       release = "1";
-      vermagic = "47c2fa523211cb35a3a9f75bc38646a0";
-      version = "6.18.31";
+      vermagic = "ba211d285c44b3378b6728221927f354";
+      version = "6.18.34";
     };
     default_packages = [
       "apk-openssl"
@@ -53,19 +53,19 @@
       "urngd"
       "wpad-openssl"
     ];
-    kmods_target = "6.18.31-1-47c2fa523211cb35a3a9f75bc38646a0";
+    kmods_target = "6.18.34-1-ba211d285c44b3378b6728221927f354";
     profiles = {
       generic = {
         device_packages = [ ];
       };
     };
   };
-  kmods."6.18.31-1-47c2fa523211cb35a3a9f75bc38646a0" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/malta/be/kmods/6.18.31-1-47c2fa523211cb35a3a9f75bc38646a0/";
+  kmods."6.18.34-1-ba211d285c44b3378b6728221927f354" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/malta/be/kmods/6.18.34-1-ba211d285c44b3378b6728221927f354/";
     sourceInfo = {
-      hash = "sha256-hQIHgFQXebwX7TpEsqZsH7Kl43ZHt0p19JqRzVAHVg8=";
+      hash = "sha256-Zj6YdbZA69+y9IuqeGWfg6m7cGdgHujqR+zybdk/5cI=";
       name = "kmods-malta_be-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/malta/be/kmods/6.18.31-1-47c2fa523211cb35a3a9f75bc38646a0/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/malta/be/kmods/6.18.34-1-ba211d285c44b3378b6728221927f354/packages.adb";
     };
     packages =
       let
@@ -76,7 +76,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/malta/be/packages/";
     sourceInfo = {
-      hash = "sha256-7oZHLdIUDKlHFsA98VN8tsQ7TIZqpV9G7XndSddJ6M8=";
+      hash = "sha256-l/sJ4xncU9eKbVHgL33h3uQ0a/CRjO9tUo7T8fQWL3o=";
       name = "malta_be-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/malta/be/packages/packages.adb";
     };
