@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt76x8/";
   sha256sums = {
-    hash = "sha256-v3qg9VtA3SKxduBAVOIaRfgpK8cQM5QyBdwjc/mK9B8=";
+    hash = "sha256-W/P1dHxLGbl3/dtD5R3Ai6ShDkSKEq6+Ts8E2EwmsWU=";
     name = "ramips_mt76x8-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt76x8/sha256sums";
   };
   imagebuilder = {
-    sha256 = "ab2606e1f5ae2f05979d748df468357075a59a49b7634d43a703ad0bad681341";
+    sha256 = "2e68704226607db39c91c7022e17106e948c1b32aeabf0d7c80d5aefa0aba956";
     filename = "immortalwrt-imagebuilder-ramips-mt76x8.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-c40i9FmQSQifNzB58SjhEvkSJEVnmZu4W2LGRaOEp/M=";
+    hash = "sha256-Bzp7K0T+0vyUuLp6eJQTtiod4t9i2GHPy7XqIvwdb8k=";
     name = "ramips_mt76x8-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt76x8/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "mipsel_24kc";
     linux_kernel = {
       release = "1";
-      vermagic = "81c553945f54951ea77a293444c21382";
-      version = "6.18.31";
+      vermagic = "6528ce08ec4a6da7e340ad2a15932ebe";
+      version = "6.18.34";
     };
     default_packages = [
       "apk-openssl"
@@ -52,7 +52,7 @@
       "urngd"
       "wpad-basic-openssl"
     ];
-    kmods_target = "6.18.31-1-81c553945f54951ea77a293444c21382";
+    kmods_target = "6.18.34-1-6528ce08ec4a6da7e340ad2a15932ebe";
     profiles = {
       "7links_wlr-1230" = {
         device_packages = [
@@ -150,6 +150,9 @@
       };
       cudy_wr1000 = {
         device_packages = [ "kmod-mt76x2" ];
+      };
+      cudy_wr300-v1 = {
+        device_packages = [ ];
       };
       d-team_pbr-d1 = {
         device_packages = [
@@ -741,6 +744,15 @@
       xiaomi_miwifi-nano = {
         device_packages = [ "uboot-envtools" ];
       };
+      yuncore_1200f = {
+        device_packages = [
+          "kmod-mt7615e"
+          "kmod-mt7663-firmware-ap"
+          "-kmod-mt76x2"
+          "-kmod-mt76x2-common"
+          "-kmod-mt76x02-common"
+        ];
+      };
       yuncore_cpe200 = {
         device_packages = [
           "-kmod-mt7603"
@@ -772,12 +784,12 @@
       };
     };
   };
-  kmods."6.18.31-1-81c553945f54951ea77a293444c21382" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt76x8/kmods/6.18.31-1-81c553945f54951ea77a293444c21382/";
+  kmods."6.18.34-1-6528ce08ec4a6da7e340ad2a15932ebe" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt76x8/kmods/6.18.34-1-6528ce08ec4a6da7e340ad2a15932ebe/";
     sourceInfo = {
-      hash = "sha256-Y3TXlneUh0GlT5t3pxTi4tTHjUvrnhKnl5oWjiFsRzk=";
+      hash = "sha256-KowVVWMfImzH17r7mJkmdakiIHF4Mgv8tFQYCL3zAg0=";
       name = "kmods-ramips_mt76x8-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt76x8/kmods/6.18.31-1-81c553945f54951ea77a293444c21382/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt76x8/kmods/6.18.34-1-6528ce08ec4a6da7e340ad2a15932ebe/packages.adb";
     };
     packages =
       let
@@ -788,7 +800,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt76x8/packages/";
     sourceInfo = {
-      hash = "sha256-lP7Vq+N+GUMuaaLIeflUDWeblM06s40g5s0Umd4b5yk=";
+      hash = "sha256-tYgMe1AgvdphvIn80HbKxMv5S5Ks/5v8/uDX+hWsSTo=";
       name = "ramips_mt76x8-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt76x8/packages/packages.adb";
     };

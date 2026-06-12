@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x/";
   sha256sums = {
-    hash = "sha256-Ac9/kVBZz/m5KeSvuvGWoteE0ZuZtcGj43tvo4canjY=";
+    hash = "sha256-j4pv/qS719EcOB+wz489eDYw425LfAlfp4hrKe8Jgv8=";
     name = "realtek_rtl930x-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x/sha256sums";
   };
   imagebuilder = {
-    sha256 = "94ab51e4875b18404da6adc33d3ddbc5e8e5445eb238bd66ca0c095c45d74774";
+    sha256 = "d7fa6b6c17449210fe9e02b13a2ad6756427ac5362ea9c627f633536beadbeea";
     filename = "immortalwrt-imagebuilder-realtek-rtl930x.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-POUyJOtq5gZ5jj3/FFh7a5+V2Zt3096R2ieHyjT4Oac=";
+    hash = "sha256-EGEgykoCECBzt/1vqHts3gC3MRhNaQXVXapdlxrbdYk=";
     name = "realtek_rtl930x-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "mips_24kc";
     linux_kernel = {
       release = "1";
-      vermagic = "4da898d8b8b192accd0a5537f6a87b6d";
-      version = "6.18.31";
+      vermagic = "2691be6948d50a7747e4219295fe6077";
+      version = "6.18.34";
     };
     default_packages = [
       "apk-openssl"
@@ -45,10 +45,22 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.18.31-1-4da898d8b8b192accd0a5537f6a87b6d";
+    kmods_target = "6.18.34-1-2691be6948d50a7747e4219295fe6077";
     profiles = {
       d-link_dgs-1250-28x = {
         device_packages = [ "kmod-hwmon-lm75" ];
+      };
+      hasivo_f1100w-4sx-4xgt = {
+        device_packages = [
+          "kmod-phy-realtek"
+          "rtl8261n-firmware"
+        ];
+      };
+      hasivo_f1100w-4sx-4xgt-512mb = {
+        device_packages = [
+          "kmod-phy-realtek"
+          "rtl8261n-firmware"
+        ];
       };
       hasivo_s1100w-8xgt-se = {
         device_packages = [ "rtl8264b-firmware" ];
@@ -57,6 +69,9 @@
         device_packages = [ ];
       };
       hasivo_s600wp-5gt-2sx-se = {
+        device_packages = [ ];
+      };
+      horaco_zx-swtgw2c8f = {
         device_packages = [ ];
       };
       plasmacloud_mcx3 = {
@@ -68,8 +83,17 @@
       plasmacloud_psx8 = {
         device_packages = [ "poemgr" ];
       };
+      sirivision_sr-st3408f = {
+        device_packages = [
+          "kmod-phy-realtek"
+          "rtl8261n-firmware"
+        ];
+      };
       tplink_tl-st1008f-v2 = {
         device_packages = [ "kmod-gpio-pca953x" ];
+      };
+      ubnt_usw-aggregation = {
+        device_packages = [ ];
       };
       vimin_vm-s100-0800ms = {
         device_packages = [ ];
@@ -125,12 +149,12 @@
       };
     };
   };
-  kmods."6.18.31-1-4da898d8b8b192accd0a5537f6a87b6d" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x/kmods/6.18.31-1-4da898d8b8b192accd0a5537f6a87b6d/";
+  kmods."6.18.34-1-2691be6948d50a7747e4219295fe6077" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x/kmods/6.18.34-1-2691be6948d50a7747e4219295fe6077/";
     sourceInfo = {
-      hash = "sha256-hL/K9SiPb27oveQMFF3FA727hw2vkl5z23kAa6glpfc=";
+      hash = "sha256-1D58T+RQktG3eZQGP5a5Ny1HZmDxBUPsfBCJmaekrvU=";
       name = "kmods-realtek_rtl930x-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x/kmods/6.18.31-1-4da898d8b8b192accd0a5537f6a87b6d/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x/kmods/6.18.34-1-2691be6948d50a7747e4219295fe6077/packages.adb";
     };
     packages =
       let
@@ -141,7 +165,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x/packages/";
     sourceInfo = {
-      hash = "sha256-GvPhnunVSP/aXYXWvpt8fm6keL8jvzhpUeraXsvNRDg=";
+      hash = "sha256-uD458qdEVi4SNwcxCMOVk02qQYJGWntV6tNObW9HNG0=";
       name = "realtek_rtl930x-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x/packages/packages.adb";
     };

@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/qoriq/generic/";
   sha256sums = {
-    hash = "sha256-NsuvMJJ5J0UK9pv5bZ1FcfQDReaRc+cwRJjfwNyzfYA=";
+    hash = "sha256-qVfVBHER4lQ4xCHaFZ4sAQ1ylVQa/yLjc/CgKYnWeOI=";
     name = "qoriq_generic-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/qoriq/generic/sha256sums";
   };
   imagebuilder = {
-    sha256 = "6830010af1d59e444dfc29a56d16dcf525c1b659c53052d95a4f7d79fc7c4a5d";
+    sha256 = "6124dec1f71d1cf33b138f48e82360d9037bebec19c7130aeef50863708ac693";
     filename = "immortalwrt-imagebuilder-qoriq-generic.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-VhzD9Z0ya+Q9cFLT0XqyltAo785P8CFNwLjKatyxghA=";
+    hash = "sha256-042PoZeIVFbIlEM4bKxehc6I+2A/P+QQNjv/5wytNK0=";
     name = "qoriq_generic-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/qoriq/generic/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "powerpc64_e5500";
     linux_kernel = {
       release = "1";
-      vermagic = "f13b2e108e340a508a99bcc9a6612910";
-      version = "6.12.89";
+      vermagic = "ae2ee0d2b1a130cd157cc373c644facb";
+      version = "6.18.34";
     };
     default_packages = [
       "apk-openssl"
@@ -51,7 +51,7 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.12.89-1-f13b2e108e340a508a99bcc9a6612910";
+    kmods_target = "6.18.34-1-ae2ee0d2b1a130cd157cc373c644facb";
     profiles = {
       fsl_T4240RDB = {
         device_packages = [
@@ -76,12 +76,12 @@
       };
     };
   };
-  kmods."6.12.89-1-f13b2e108e340a508a99bcc9a6612910" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/qoriq/generic/kmods/6.12.89-1-f13b2e108e340a508a99bcc9a6612910/";
+  kmods."6.18.34-1-ae2ee0d2b1a130cd157cc373c644facb" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/qoriq/generic/kmods/6.18.34-1-ae2ee0d2b1a130cd157cc373c644facb/";
     sourceInfo = {
-      hash = "sha256-3Atzai38i7UnbPBMpJVH0GYs7Or9kl9E9pMvITxsRqk=";
+      hash = "sha256-ex+JHim8OGC2eLuD5fIDl1aBopC2MgicnXPhvfK4goY=";
       name = "kmods-qoriq_generic-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/qoriq/generic/kmods/6.12.89-1-f13b2e108e340a508a99bcc9a6612910/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/qoriq/generic/kmods/6.18.34-1-ae2ee0d2b1a130cd157cc373c644facb/packages.adb";
     };
     packages =
       let
@@ -92,7 +92,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/qoriq/generic/packages/";
     sourceInfo = {
-      hash = "sha256-9kEtJ1cgJEr9cCXnulGZXUfTNxyf+GIfv3MaBea0oDA=";
+      hash = "sha256-to2Cea/2ucYaoNXx2NvJCjyiH0+aLvH8Dk4FSz0P2+I=";
       name = "qoriq_generic-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/qoriq/generic/packages/packages.adb";
     };
