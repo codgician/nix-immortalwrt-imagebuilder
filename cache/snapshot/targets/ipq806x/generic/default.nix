@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ipq806x/generic/";
   sha256sums = {
-    hash = "sha256-jwokBQ6b/dQrUKjMPpY5W/sT2EiClfINS+BukuDiODk=";
+    hash = "sha256-zLtSctSDbi9EYWVbv4ajWMpbEqqsO9mJuMRmakKxK0Y=";
     name = "ipq806x_generic-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/ipq806x/generic/sha256sums";
   };
   imagebuilder = {
-    sha256 = "f7e233753e4858fb1a38538d2fa9b4db699d8eda3dd42fe05d7a937532d67a1d";
+    sha256 = "e69f6dd2fed0c913cf7cbb14fad8c496b495c71ac840dd4ce739b822e4eefeec";
     filename = "immortalwrt-imagebuilder-ipq806x-generic.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-Npw8Jt5jxRITg+Kksnx39rEsAoIjR8EJ5bghxi0/6e0=";
+    hash = "sha256-x135R6dvH8IPTqkTtvq76W9KNdW42ZhRYNDtu9pdxyo=";
     name = "ipq806x_generic-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/ipq806x/generic/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "arm_cortex-a15_neon-vfpv4";
     linux_kernel = {
       release = "1";
-      vermagic = "3e239bbc397fbe7ff3aa2f331e81006a";
-      version = "6.12.92";
+      vermagic = "f3eef664df41d135b1c81b5f779a1711";
+      version = "6.12.94";
     };
     default_packages = [
       "apk-openssl"
@@ -63,12 +63,20 @@
       "urngd"
       "wpad-openssl"
     ];
-    kmods_target = "6.12.92-1-3e239bbc397fbe7ff3aa2f331e81006a";
+    kmods_target = "6.12.94-1-f3eef664df41d135b1c81b5f779a1711";
     profiles = {
       arris_tr4400-v2 = {
         device_packages = [
           "ath10k-firmware-qca9984-ct"
           "ath10k-firmware-qca99x0-ct"
+        ];
+      };
+      aruba_ap-32x = {
+        device_packages = [
+          "ath10k-firmware-qca99x0-ct"
+          "kmod-i2c-gpio"
+          "kmod-tpm-i2c-atmel"
+          "apboot-aruba-ipq806x"
         ];
       };
       askey_rt4230w-rev6 = {
@@ -193,7 +201,10 @@
         ];
       };
       nokia_ac400i = {
-        device_packages = [ "ath10k-firmware-qca9984-ct" ];
+        device_packages = [
+          "ath10k-firmware-qca9984-ct"
+          "kmod-hwmon-lm75"
+        ];
       };
       qcom_ipq8064-ap148 = {
         device_packages = [ "ath10k-firmware-qca99x0-ct" ];
@@ -256,12 +267,12 @@
       };
     };
   };
-  kmods."6.12.92-1-3e239bbc397fbe7ff3aa2f331e81006a" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ipq806x/generic/kmods/6.12.92-1-3e239bbc397fbe7ff3aa2f331e81006a/";
+  kmods."6.12.94-1-f3eef664df41d135b1c81b5f779a1711" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ipq806x/generic/kmods/6.12.94-1-f3eef664df41d135b1c81b5f779a1711/";
     sourceInfo = {
-      hash = "sha256-Emnhrzy2pwBIHW0Z3swz6vFE/A0u+C1NFjqWI15iJKI=";
+      hash = "sha256-tbqOVH+eH1DINPWmEjM3+15Exo0iPzt2dz2/ugtZUbc=";
       name = "kmods-ipq806x_generic-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/ipq806x/generic/kmods/6.12.92-1-3e239bbc397fbe7ff3aa2f331e81006a/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/ipq806x/generic/kmods/6.12.94-1-f3eef664df41d135b1c81b5f779a1711/packages.adb";
     };
     packages =
       let
@@ -272,7 +283,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ipq806x/generic/packages/";
     sourceInfo = {
-      hash = "sha256-p9hU3jqhkmq5zp9lW45N4MQUNfyoQQZBO5vm15hF0LQ=";
+      hash = "sha256-c5SHPzIp4EdUMD/kfaq1vX8QmFsh8zgW2vbWUSQQOIU=";
       name = "ipq806x_generic-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/ipq806x/generic/packages/packages.adb";
     };

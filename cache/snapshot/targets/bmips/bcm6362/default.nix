@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/bmips/bcm6362/";
   sha256sums = {
-    hash = "sha256-FTzXimbpWY+mclF6ETRmqn5XdIAJC75GzkfzLSMljoA=";
+    hash = "sha256-mbPt3MzK5j+V4WaEoWPCRK8qH0hZMXLdm8G4r0SesBU=";
     name = "bmips_bcm6362-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/bmips/bcm6362/sha256sums";
   };
   imagebuilder = {
-    sha256 = "cdebc3c0ca4812d05b7eae0f2a81e2c589ff97bb75159cbc7ec4802029395fdc";
+    sha256 = "9adc0638f9f164c7396312994872b5ea2415726ec31b5b2c2b8fc2f6931a7678";
     filename = "immortalwrt-imagebuilder-bmips-bcm6362.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-zliM5rQPm5z6UBR2GIpPDJAreroNWE49/hOiZpY+6k8=";
+    hash = "sha256-WJKL2Xx7vsBB46tPyMRMN9+yvKQ61ep6zUaw26KC2is=";
     name = "bmips_bcm6362-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/bmips/bcm6362/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "mips_mips32";
     linux_kernel = {
       release = "1";
-      vermagic = "9562c32fe1b5d60b1839203078c69251";
-      version = "6.12.92";
+      vermagic = "edaca8b9cb2abde195966636bff48f93";
+      version = "6.12.94";
     };
     default_packages = [
       "apk-openssl"
@@ -50,7 +50,7 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.12.92-1-9562c32fe1b5d60b1839203078c69251";
+    kmods_target = "6.12.94-1-edaca8b9cb2abde195966636bff48f93";
     profiles = {
       huawei_hg253s-v2 = {
         device_packages = [
@@ -76,12 +76,12 @@
       };
     };
   };
-  kmods."6.12.92-1-9562c32fe1b5d60b1839203078c69251" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/bmips/bcm6362/kmods/6.12.92-1-9562c32fe1b5d60b1839203078c69251/";
+  kmods."6.12.94-1-edaca8b9cb2abde195966636bff48f93" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/bmips/bcm6362/kmods/6.12.94-1-edaca8b9cb2abde195966636bff48f93/";
     sourceInfo = {
-      hash = "sha256-D8Yq/a40QyNe+ZbJjxb1YHkZVZRIl9hFyYAqgADXHNA=";
+      hash = "sha256-TEepgmqZJXPDS8IaovA4/eRY+wKm3rztg15PRvCNFoA=";
       name = "kmods-bmips_bcm6362-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/bmips/bcm6362/kmods/6.12.92-1-9562c32fe1b5d60b1839203078c69251/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/bmips/bcm6362/kmods/6.12.94-1-edaca8b9cb2abde195966636bff48f93/packages.adb";
     };
     packages =
       let
@@ -92,7 +92,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/bmips/bcm6362/packages/";
     sourceInfo = {
-      hash = "sha256-goCs1HkNifhJ317blHcvt0mX3Vy4Wudy9XuqHZmuXc8=";
+      hash = "sha256-JzA8XK72I8bnlmQgK+e4CbHjic0zAHWlpeceHLjs54o=";
       name = "bmips_bcm6362-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/bmips/bcm6362/packages/packages.adb";
     };
