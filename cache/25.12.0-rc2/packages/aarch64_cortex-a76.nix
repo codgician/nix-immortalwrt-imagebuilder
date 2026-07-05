@@ -1,7 +1,7 @@
 # 25.12.0-rc2 package feeds for aarch64_cortex-a76
 {
   sha256sums = {
-    hash = "sha256-LtUmBtJYMwj3iACwpqKQDHECZ9SM4HrRX0zLhuYk61c=";
+    hash = "sha256-1qRF68jlGmffveOG4ataoy3gYt4UogiojXRyzo7orYY=";
     name = "aarch64_cortex-a76-sha256sums";
     url = "https://downloads.immortalwrt.org/releases/25.12.0-rc2/packages/aarch64_cortex-a76/sha256sums";
   };
