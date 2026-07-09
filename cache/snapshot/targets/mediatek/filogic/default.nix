@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/filogic/";
   sha256sums = {
-    hash = "sha256-x0QMMfYjCThoK5ZsHeiI4OAAbES+hoJPdnFJSbpZb3Q=";
+    hash = "sha256-DVhk4IY0dbXSMENOepG8cHdVsFmXjHuCzrpR7HjrDSs=";
     name = "mediatek_filogic-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/filogic/sha256sums";
   };
   imagebuilder = {
-    sha256 = "3a876d5438ebd5db208c08c16d5de623b7c9ba286c117f55ac7624003e6e018f";
+    sha256 = "fe522b58cceff821fccbd5bfea994aa5898df905e7e0e7bd94ee2e46eced5991";
     filename = "immortalwrt-imagebuilder-mediatek-filogic.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-lhsWu468XnRL+4pII6VlTW4rU/MP1UAH4YvmD5I9j3s=";
+    hash = "sha256-jH7IDFgmLzVArbjUX3TV/A7eIZrzlP2JLE4duvK9Ftw=";
     name = "mediatek_filogic-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/filogic/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "aarch64_cortex-a53";
     linux_kernel = {
       release = "1";
-      vermagic = "fbbb308526d908e60e188acd6d57f9cc";
-      version = "6.18.34";
+      vermagic = "e89ef2ea2baa148c3ca3a3c0460223a6";
+      version = "6.18.37";
     };
     default_packages = [
       "apk-openssl"
@@ -55,7 +55,7 @@
       "urngd"
       "wpad-openssl"
     ];
-    kmods_target = "6.18.34-1-fbbb308526d908e60e188acd6d57f9cc";
+    kmods_target = "6.18.37-1-e89ef2ea2baa148c3ca3a3c0460223a6";
     profiles = {
       abt_asr3000 = {
         device_packages = [
@@ -437,6 +437,13 @@
           "mt7981-wo-firmware"
         ];
       };
+      creatlentem_clt-r30b1-ubi = {
+        device_packages = [
+          "kmod-mt7915e"
+          "kmod-mt7981-firmware"
+          "mt7981-wo-firmware"
+        ];
+      };
       cudy_ap3000-v1 = {
         device_packages = [
           "kmod-mt7915e"
@@ -466,7 +473,22 @@
           "mt7981-wo-firmware"
         ];
       };
+      cudy_m3000-v1-ubootmod = {
+        device_packages = [
+          "kmod-mt7915e"
+          "kmod-mt7981-firmware"
+          "mt7981-wo-firmware"
+        ];
+      };
       cudy_m3000-v2-yt8821 = {
+        device_packages = [
+          "kmod-mt7915e"
+          "kmod-mt7981-firmware"
+          "mt7981-wo-firmware"
+          "kmod-phy-motorcomm"
+        ];
+      };
+      cudy_m3000-v2-yt8821-ubootmod = {
         device_packages = [
           "kmod-mt7915e"
           "kmod-mt7981-firmware"
@@ -806,6 +828,7 @@
           "kmod-mt7981-firmware"
           "mt7981-wo-firmware"
           "kmod-usb3"
+          "automount"
         ];
       };
       imou_hx21 = {
@@ -834,6 +857,7 @@
           "kmod-mt7915e"
           "kmod-mt7981-firmware"
           "mt7981-wo-firmware"
+          "kmod-ledtrig-network"
         ];
       };
       iptime_ax3000sm = {
@@ -904,7 +928,7 @@
           "mt7988-2p5g-phy-firmware"
           "mt7988-wo-firmware"
           "kmod-phy-realtek"
-          "rtl8261n-firmware"
+          "rtl826x-firmware"
         ];
       };
       keenetic_kn-3711 = {
@@ -932,6 +956,13 @@
         ];
       };
       konka_komi-a31 = {
+        device_packages = [
+          "kmod-mt7915e"
+          "kmod-mt7981-firmware"
+          "mt7981-wo-firmware"
+        ];
+      };
+      livinet_li320 = {
         device_packages = [
           "kmod-mt7915e"
           "kmod-mt7981-firmware"
@@ -1053,7 +1084,7 @@
           "mt7988-2p5g-phy-firmware"
           "mt7988-wo-firmware"
           "kmod-phy-realtek"
-          "rtl8261n-firmware"
+          "rtl826x-firmware"
         ];
       };
       netgear_eax17 = {
@@ -1376,7 +1407,7 @@
           "mt7988-2p5g-phy-firmware"
           "mt7988-wo-firmware"
           "kmod-phy-realtek"
-          "rtl8261n-firmware"
+          "rtl826x-firmware"
         ];
       };
       tplink_eap683-lr = {
@@ -1515,10 +1546,11 @@
       };
       wavlink_wl-wn536ax6-a = {
         device_packages = [
-          "kmod-usb3"
+          "kmod-ledtrig-network"
           "kmod-mt7915e"
           "kmod-mt7986-firmware"
           "mt7986-wo-firmware"
+          "kmod-usb3"
           "automount"
         ];
       };
@@ -1744,12 +1776,12 @@
       };
     };
   };
-  kmods."6.18.34-1-fbbb308526d908e60e188acd6d57f9cc" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/filogic/kmods/6.18.34-1-fbbb308526d908e60e188acd6d57f9cc/";
+  kmods."6.18.37-1-e89ef2ea2baa148c3ca3a3c0460223a6" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/filogic/kmods/6.18.37-1-e89ef2ea2baa148c3ca3a3c0460223a6/";
     sourceInfo = {
-      hash = "sha256-aAs6eqLXtHVtPqf84zwEHoECKVIBQFBsHxHgQgWeFsE=";
+      hash = "sha256-sPoQVVD2+hSZGFwRMHlF30VbV2/lSM6+tz6T0iUkTZE=";
       name = "kmods-mediatek_filogic-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/filogic/kmods/6.18.34-1-fbbb308526d908e60e188acd6d57f9cc/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/filogic/kmods/6.18.37-1-e89ef2ea2baa148c3ca3a3c0460223a6/packages.adb";
     };
     packages =
       let
@@ -1760,7 +1792,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/filogic/packages/";
     sourceInfo = {
-      hash = "sha256-jUZzm1WHnBzZKQY3l6d4Qj+HSIIphgPE2ar/dwejq1E=";
+      hash = "sha256-gF51S7BAKtO2zcIteux+8i49UC+F3eg2465t7rp6PH0=";
       name = "mediatek_filogic-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/filogic/packages/packages.adb";
     };

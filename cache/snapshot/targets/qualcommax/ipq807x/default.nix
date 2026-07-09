@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq807x/";
   sha256sums = {
-    hash = "sha256-AXfwME090+5QSEyLuvrKuep+YjWPF/0pRVfaBehTVEA=";
+    hash = "sha256-RIUdfogp2pD5ssvbyPnPlUsyL130i+Mfda3tp30wSkk=";
     name = "qualcommax_ipq807x-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq807x/sha256sums";
   };
   imagebuilder = {
-    sha256 = "cbf3494a590909bc74661bdb7b59e52a70c24462263e4b0ae0c90c32b1b6845a";
+    sha256 = "cc530e4a73fe440f96ee2bf7734ab3135b475e5d9a1683dbd12715b25698ee64";
     filename = "immortalwrt-imagebuilder-qualcommax-ipq807x.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-AajZXQyc3H4RqBzDtZjR4qF4wEY4TRVrpJeSoJ4WIEQ=";
+    hash = "sha256-rgKwckIh2KtS88nKAJRhNuNl5/ceZrTLjHV/qu6r860=";
     name = "qualcommax_ipq807x-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq807x/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "aarch64_cortex-a53";
     linux_kernel = {
       release = "1";
-      vermagic = "77b555c186ec32652b5add6e5a3681fe";
-      version = "6.12.92";
+      vermagic = "c8bbf145214087b4c7d1685112695f95";
+      version = "6.12.94";
     };
     default_packages = [
       "apk-openssl"
@@ -62,7 +62,7 @@
       "urngd"
       "wpad-openssl"
     ];
-    kmods_target = "6.12.92-1-77b555c186ec32652b5add6e5a3681fe";
+    kmods_target = "6.12.94-1-c8bbf145214087b4c7d1685112695f95";
     profiles = {
       aliyun_ap8220 = {
         device_packages = [ "ipq-wifi-aliyun_ap8220" ];
@@ -251,6 +251,9 @@
           "ipq-wifi-tplink_deco-x80-5g"
           "kmod-usb-serial-option"
           "kmod-usb-net-qmi-wwan"
+          "kmod-mhi-pci-generic"
+          "kmod-mhi-wwan-ctrl"
+          "kmod-mhi-wwan-mbim"
         ];
       };
       tplink_eap620hd-v1 = {
@@ -339,12 +342,12 @@
       };
     };
   };
-  kmods."6.12.92-1-77b555c186ec32652b5add6e5a3681fe" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq807x/kmods/6.12.92-1-77b555c186ec32652b5add6e5a3681fe/";
+  kmods."6.12.94-1-c8bbf145214087b4c7d1685112695f95" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq807x/kmods/6.12.94-1-c8bbf145214087b4c7d1685112695f95/";
     sourceInfo = {
-      hash = "sha256-GdlEy8zOqUGvT2+rWooEj1CtiXNVsetrG8oeC5fsnos=";
+      hash = "sha256-U1pTt1cwvcjCLteDpUY9Hztsb3oFjqAjnvIOkqwX9Rk=";
       name = "kmods-qualcommax_ipq807x-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq807x/kmods/6.12.92-1-77b555c186ec32652b5add6e5a3681fe/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq807x/kmods/6.12.94-1-c8bbf145214087b4c7d1685112695f95/packages.adb";
     };
     packages =
       let
@@ -355,7 +358,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq807x/packages/";
     sourceInfo = {
-      hash = "sha256-ba86QEkY04IcbrAsZRtqmC8dcBjrw3QhxK8x68QgTvk=";
+      hash = "sha256-Gnc05jYRhjSEwSEXsEa0PSfzeak9YEiVehjBuG+p3x0=";
       name = "qualcommax_ipq807x-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq807x/packages/packages.adb";
     };

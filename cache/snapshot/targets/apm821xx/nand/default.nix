@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/nand/";
   sha256sums = {
-    hash = "sha256-fNx5WgRw1kvuLkUg0UmBqndOO6G54OvAxsWjKksEaRI=";
+    hash = "sha256-ySvVENioY5HmmXj5G6ZBZyrHl8Xpkj2Q4QkhCM1+v+A=";
     name = "apm821xx_nand-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/nand/sha256sums";
   };
   imagebuilder = {
-    sha256 = "3efc623c42982c498446338d461ea7e13dddf504e653d98b4ebe374306ded94b";
+    sha256 = "33294b4a4cd3d11ea5559d9c470cd6a228cb5e6b22ed255800b724ee00d5465f";
     filename = "immortalwrt-imagebuilder-apm821xx-nand.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-4ufIy9qqoEfFt6RjbVgqSSlxhe1XKdrPNYUuzyAlT7s=";
+    hash = "sha256-Qu0Zr5dsZJty9rbO11QyKRrep/q6F3wnEMqoXxNYsaM=";
     name = "apm821xx_nand-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/nand/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "powerpc_464fp";
     linux_kernel = {
       release = "1";
-      vermagic = "fd54b2fc79a62e69047be8ef397bd9b6";
-      version = "6.12.92";
+      vermagic = "7c58d8f66742c5d45bbf1e4ce177dc74";
+      version = "6.18.37";
     };
     default_packages = [
       "apk-openssl"
@@ -48,7 +48,6 @@
       "ppp"
       "ppp-mod-pppoe"
       "procd-ujail"
-      "swconfig"
       "uboot-envtools"
       "uci"
       "uclient-fetch"
@@ -56,12 +55,12 @@
       "urngd"
       "wpad-openssl"
     ];
-    kmods_target = "6.12.92-1-fd54b2fc79a62e69047be8ef397bd9b6";
+    kmods_target = "6.18.37-1-7c58d8f66742c5d45bbf1e4ce177dc74";
     profiles = {
       meraki_mr24 = {
         device_packages = [
           "kmod-spi-gpio"
-          "-swconfig"
+          "kmod-phy-at803x"
         ];
       };
       meraki_mx60 = {
@@ -71,13 +70,21 @@
           "kmod-usb-dwc2"
           "kmod-usb-storage"
           "block-mount"
+          "kmod-dsa-qca8k"
+          "kmod-phy-qca83xx"
         ];
       };
       netgear_wndap620 = {
-        device_packages = [ "kmod-eeprom-at24" ];
+        device_packages = [
+          "kmod-eeprom-at24"
+          "swconfig"
+        ];
       };
       netgear_wndap660 = {
-        device_packages = [ "kmod-eeprom-at24" ];
+        device_packages = [
+          "kmod-eeprom-at24"
+          "swconfig"
+        ];
       };
       netgear_wndr4700 = {
         device_packages = [
@@ -99,16 +106,18 @@
           "kmod-usb-storage"
           "partx-utils"
           "kmod-ata-dwc"
+          "kmod-dsa-qca8k"
+          "kmod-phy-qca83xx"
         ];
       };
     };
   };
-  kmods."6.12.92-1-fd54b2fc79a62e69047be8ef397bd9b6" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/nand/kmods/6.12.92-1-fd54b2fc79a62e69047be8ef397bd9b6/";
+  kmods."6.18.37-1-7c58d8f66742c5d45bbf1e4ce177dc74" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/nand/kmods/6.18.37-1-7c58d8f66742c5d45bbf1e4ce177dc74/";
     sourceInfo = {
-      hash = "sha256-Xyi1mqeB2PqhdZC4RTsm5r6XNDDVzba0OEa7DKjWIAo=";
+      hash = "sha256-Yzqkcn4dybUNOjuJ9WwclSzRye2TtW0bPM9Cjteipvc=";
       name = "kmods-apm821xx_nand-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/nand/kmods/6.12.92-1-fd54b2fc79a62e69047be8ef397bd9b6/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/nand/kmods/6.18.37-1-7c58d8f66742c5d45bbf1e4ce177dc74/packages.adb";
     };
     packages =
       let
@@ -119,7 +128,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/nand/packages/";
     sourceInfo = {
-      hash = "sha256-z/0NSjWQB9P93khxEIirZNOhL+QoI+JGewgr6VFY94k=";
+      hash = "sha256-S35hHtnVbZS8HI+MszVAcPRif7KCr+Tsj5qcGgk8vrU=";
       name = "apm821xx_nand-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/apm821xx/nand/packages/packages.adb";
     };

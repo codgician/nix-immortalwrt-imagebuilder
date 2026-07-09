@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/airoha/an7581/";
   sha256sums = {
-    hash = "sha256-dOzxNSA4D3x7PPjqtmu01bNUBSiS+JgU3q40P/v1Dvk=";
+    hash = "sha256-dgbS38tkNZ8AzO6SLkE0yLQXVRb+F+Hg+EUb0rCkf/Y=";
     name = "airoha_an7581-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/airoha/an7581/sha256sums";
   };
   imagebuilder = {
-    sha256 = "d27686a8f5fd29ba8fd4edca91e8e829c28a3c389022012f395f732db8c7d054";
+    sha256 = "48ce1ee1224f91f9d91359bf925f976112976dd5c20103ec71dd846778f37b7d";
     filename = "immortalwrt-imagebuilder-airoha-an7581.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-8CFoV8wJspnNilwsz06D0K7krB4RdOtq4rBI5aRd0UY=";
+    hash = "sha256-AJqh+yM29cx3DkWTWRohgcCkYC9EYH+D/MCg4WLsuHI=";
     name = "airoha_an7581-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/airoha/an7581/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "aarch64_cortex-a53";
     linux_kernel = {
       release = "1";
-      vermagic = "13c4baeaa3583ba04bd78fbf8a96d83a";
-      version = "6.18.34";
+      vermagic = "acd5fdda17c2012089eb327131355a79";
+      version = "6.18.37";
     };
     default_packages = [
       "airoha-en7581-npu-firmware"
@@ -52,7 +52,7 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.18.34-1-13c4baeaa3583ba04bd78fbf8a96d83a";
+    kmods_target = "6.18.37-1-acd5fdda17c2012089eb327131355a79";
     profiles = {
       airoha_an7581-evb = {
         device_packages = [
@@ -86,7 +86,7 @@
           "kmod-hwmon-nct7802"
           "kmod-mt7996-firmware"
           "wpad-openssl"
-          "rtl8261n-firmware"
+          "rtl826x-firmware"
         ];
       };
       nokia_valyrian = {
@@ -102,14 +102,35 @@
           "kmod-mt7996-firmware"
         ];
       };
+      nokia_xg-040g-md = {
+        device_packages = [
+          "kmod-gpio-button-hotplug"
+          "kmod-leds-gpio"
+          "kmod-phy-airoha-en8811h"
+          "kmod-regulator-userspace-consumer"
+          "kmod-usb-ledtrig-usbport"
+          "kmod-usb3"
+        ];
+      };
+      nokia_xg-040g-md-ubi = {
+        device_packages = [
+          "kmod-gpio-button-hotplug"
+          "kmod-leds-gpio"
+          "kmod-phy-airoha-en8811h"
+          "kmod-regulator-userspace-consumer"
+          "kmod-usb-ledtrig-usbport"
+          "kmod-usb3"
+          "fitblk"
+        ];
+      };
     };
   };
-  kmods."6.18.34-1-13c4baeaa3583ba04bd78fbf8a96d83a" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/airoha/an7581/kmods/6.18.34-1-13c4baeaa3583ba04bd78fbf8a96d83a/";
+  kmods."6.18.37-1-acd5fdda17c2012089eb327131355a79" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/airoha/an7581/kmods/6.18.37-1-acd5fdda17c2012089eb327131355a79/";
     sourceInfo = {
-      hash = "sha256-pKJ9S3DWx589EeJOnYsEjezYqH63LAo2RnI2os1xUJ8=";
+      hash = "sha256-o8evL4rl5osALHHchWohBwvQUXCzBt4LJTL5kG2W19Q=";
       name = "kmods-airoha_an7581-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/airoha/an7581/kmods/6.18.34-1-13c4baeaa3583ba04bd78fbf8a96d83a/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/airoha/an7581/kmods/6.18.37-1-acd5fdda17c2012089eb327131355a79/packages.adb";
     };
     packages =
       let
@@ -120,7 +141,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/airoha/an7581/packages/";
     sourceInfo = {
-      hash = "sha256-7yrvA0iQXSktuy/s2dVzhPv1E65np1/E/9oC3fr8/h0=";
+      hash = "sha256-CrxSARp4M0/S0GF6V/fCmfTzlTbHlkht6TeoTNBMIGs=";
       name = "airoha_an7581-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/airoha/an7581/packages/packages.adb";
     };
