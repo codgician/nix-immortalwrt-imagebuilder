@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ramips/rt3883/";
   sha256sums = {
-    hash = "sha256-ECWamih5xXdHPF2f0IoZ7/qM36aQEQsmMDXDAWUwGHI=";
+    hash = "sha256-UdRm9vg+uItd/xaDVq8YB4g5ObVX4Hd5AXB/Q5QxCeA=";
     name = "ramips_rt3883-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/ramips/rt3883/sha256sums";
   };
   imagebuilder = {
-    sha256 = "3b0a5033ef8e93d0be22477675cc534f848a8b0e51b7813e614b7c2cda7fcb44";
+    sha256 = "523a98bbcbccbebb80807b7b9348912f98cdddc0823e26bb9ab00e41ec955141";
     filename = "immortalwrt-imagebuilder-ramips-rt3883.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-yUaZiLm2DXAJpA/M4iCJl4zivu1WMYFWwxaxopkp23A=";
+    hash = "sha256-FcKx1SEJQ3C1uIA76BF89meWvOtjm1lvCRGVDJnlS+k=";
     name = "ramips_rt3883-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/ramips/rt3883/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "mipsel_74kc";
     linux_kernel = {
       release = "1";
-      vermagic = "b1733f0bf4be6cd05c4ef881bdd504f1";
-      version = "6.18.34";
+      vermagic = "e552bc36e42f1c1b9cd3ae6ce5f774ba";
+      version = "6.18.37";
     };
     default_packages = [
       "apk-openssl"
@@ -53,7 +53,7 @@
       "urngd"
       "wpad-basic-openssl"
     ];
-    kmods_target = "6.18.34-1-b1733f0bf4be6cd05c4ef881bdd504f1";
+    kmods_target = "6.18.37-1-e552bc36e42f1c1b9cd3ae6ce5f774ba";
     profiles = {
       belkin_f9k1109v1 = {
         device_packages = [
@@ -99,12 +99,12 @@
       };
     };
   };
-  kmods."6.18.34-1-b1733f0bf4be6cd05c4ef881bdd504f1" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ramips/rt3883/kmods/6.18.34-1-b1733f0bf4be6cd05c4ef881bdd504f1/";
+  kmods."6.18.37-1-e552bc36e42f1c1b9cd3ae6ce5f774ba" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ramips/rt3883/kmods/6.18.37-1-e552bc36e42f1c1b9cd3ae6ce5f774ba/";
     sourceInfo = {
-      hash = "sha256-IbpSr8jDbrq3rDA0Q78h6UIEZrjybsEa94/8TiIQ3XA=";
+      hash = "sha256-fFcUf1h8b6jUPP/Nxi/KQb9Hgbu9l9HkZwP7N755zcI=";
       name = "kmods-ramips_rt3883-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/ramips/rt3883/kmods/6.18.34-1-b1733f0bf4be6cd05c4ef881bdd504f1/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/ramips/rt3883/kmods/6.18.37-1-e552bc36e42f1c1b9cd3ae6ce5f774ba/packages.adb";
     };
     packages =
       let
@@ -115,7 +115,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ramips/rt3883/packages/";
     sourceInfo = {
-      hash = "sha256-4q95pLFUm5te3HFN0VRU8B9yvnkYIIPF9o1Ye17H1ps=";
+      hash = "sha256-1dw6Grh0fIn2Ai6+ZceNXJtRuaunz2X8nmqRY1V/dcM=";
       name = "ramips_rt3883-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/ramips/rt3883/packages/packages.adb";
     };
