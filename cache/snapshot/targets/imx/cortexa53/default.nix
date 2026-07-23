@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/imx/cortexa53/";
   sha256sums = {
-    hash = "sha256-4JPfy4EhKGynEXLnlqijFOw4ntOHt5sMrsuR258xOL8=";
+    hash = "sha256-Ss9VDav/Ib+4HjRVqXdslzAZ5cU/FC8+teu0D2ELXuQ=";
     name = "imx_cortexa53-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/imx/cortexa53/sha256sums";
   };
   imagebuilder = {
-    sha256 = "e496512771bcd9a9e82d4a0cd0fb16e67aa38745fbf9c106ca554c7b3e766510";
+    sha256 = "a0dda0258106fa4dfc7ea8552e3acd97ba4b3f3f444fe215e3048d632d9c937e";
     filename = "immortalwrt-imagebuilder-imx-cortexa53.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-vYcvhgHYkR7Lv8g93OytOcf2Q2Y5exGnEXTRXt1Qy+Y=";
+    hash = "sha256-4K+mSX0rawz9bA0RNaHB7Htgl65A0oP12WxP7L1sdDc=";
     name = "imx_cortexa53-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/imx/cortexa53/profiles.json";
   };
@@ -19,7 +19,7 @@
     arch_packages = "aarch64_cortex-a53";
     linux_kernel = {
       release = "1";
-      vermagic = "caabc9a44e7dc6ec8548e0aa48f67f3e";
+      vermagic = "8691da2ffefe31ddc891c813a62f560c";
       version = "6.12.94";
     };
     default_packages = [
@@ -52,7 +52,7 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.12.94-1-caabc9a44e7dc6ec8548e0aa48f67f3e";
+    kmods_target = "6.12.94-1-8691da2ffefe31ddc891c813a62f560c";
     profiles = {
       gateworks_venice = {
         device_packages = [
@@ -85,12 +85,12 @@
       };
     };
   };
-  kmods."6.12.94-1-caabc9a44e7dc6ec8548e0aa48f67f3e" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/imx/cortexa53/kmods/6.12.94-1-caabc9a44e7dc6ec8548e0aa48f67f3e/";
+  kmods."6.12.94-1-8691da2ffefe31ddc891c813a62f560c" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/imx/cortexa53/kmods/6.12.94-1-8691da2ffefe31ddc891c813a62f560c/";
     sourceInfo = {
-      hash = "sha256-HZOBF6IWHZtavB9fLqpWNjeWg5IvHrsjgRX5yGeaS/A=";
+      hash = "sha256-LGo+t9j/VQJ5dQWWjTIl3iE0Rm6VMeSrT4AGEUIoNJQ=";
       name = "kmods-imx_cortexa53-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/imx/cortexa53/kmods/6.12.94-1-caabc9a44e7dc6ec8548e0aa48f67f3e/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/imx/cortexa53/kmods/6.12.94-1-8691da2ffefe31ddc891c813a62f560c/packages.adb";
     };
     packages =
       let
@@ -101,7 +101,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/imx/cortexa53/packages/";
     sourceInfo = {
-      hash = "sha256-7fxfpv5jg5aIMDbHL1v9LwdoCaMRLuzi3GBEsruipeA=";
+      hash = "sha256-JqxeUrNiKI8PN+SzZ49VpDcvqF/BoQTld92BQz3lDho=";
       name = "imx_cortexa53-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/imx/cortexa53/packages/packages.adb";
     };
