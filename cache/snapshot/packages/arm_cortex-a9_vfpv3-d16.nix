@@ -1,14 +1,14 @@
 # snapshot package feeds for arm_cortex-a9_vfpv3-d16
 {
   sha256sums = {
-    hash = "sha256-/eu+ieY+Pe3/yjH6/QtH36NmQ95x2Qi+2DK+gb88SF8=";
+    hash = "sha256-/sANKFPJxUF4GvyC69yxbsAuV2ajEmQaDfqdy5Yy4QQ=";
     name = "arm_cortex-a9_vfpv3-d16-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/packages/arm_cortex-a9_vfpv3-d16/sha256sums";
   };
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/arm_cortex-a9_vfpv3-d16/base/";
     sourceInfo = {
-      hash = "sha256-3ZdUsWSEcMqER2AwkXWe0pSqg1c5kQE+j5OKdhY49mo=";
+      hash = "sha256-gifuYRmLJGiPP/vSh8j31+YPbjh6eE21EM032CISwPk=";
       name = "arm_cortex-a9_vfpv3-d16-base-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/arm_cortex-a9_vfpv3-d16/base/packages.adb";
     };
@@ -21,7 +21,7 @@
   feeds."luci" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/arm_cortex-a9_vfpv3-d16/luci/";
     sourceInfo = {
-      hash = "sha256-K/x+jPRBKoy+xYzecnlF0EvmoFHZ6RqQJYs5fiuHJDQ=";
+      hash = "sha256-0mfG6fVZDrdTw1jN3YCtoTRn7Xyy+jPMlijnMHIrrcQ=";
       name = "arm_cortex-a9_vfpv3-d16-luci-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/arm_cortex-a9_vfpv3-d16/luci/packages.adb";
     };
@@ -34,7 +34,7 @@
   feeds."packages" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/arm_cortex-a9_vfpv3-d16/packages/";
     sourceInfo = {
-      hash = "sha256-XU5dd2BTNgmE51rnF0mJ58URUrHl7VBPj4ah9s5pFe8=";
+      hash = "sha256-kwsB2ZZcMl+Rmjof800rfLcBBXb0Ve0KN+1kdVaj1gw=";
       name = "arm_cortex-a9_vfpv3-d16-packages-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/arm_cortex-a9_vfpv3-d16/packages/packages.adb";
     };
@@ -47,7 +47,7 @@
   feeds."routing" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/arm_cortex-a9_vfpv3-d16/routing/";
     sourceInfo = {
-      hash = "sha256-LNDRzBQtuTMB9l+shs/mQN6pXLZU5X04jLph65dzSrY=";
+      hash = "sha256-NuKkyOrCVKroFL/m0oPFGWh+FnGBC2LGVIJRbufMrxI=";
       name = "arm_cortex-a9_vfpv3-d16-routing-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/arm_cortex-a9_vfpv3-d16/routing/packages.adb";
     };
@@ -60,7 +60,7 @@
   feeds."telephony" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/arm_cortex-a9_vfpv3-d16/telephony/";
     sourceInfo = {
-      hash = "sha256-J9TX/1VDwz0jk2kIjV/3mh8OsatEdRxEHgr557RB/O8=";
+      hash = "sha256-BleKYe3Zph7meObQTrT10Qg5lPGgaLWZ2GaMfO2cWwE=";
       name = "arm_cortex-a9_vfpv3-d16-telephony-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/arm_cortex-a9_vfpv3-d16/telephony/packages.adb";
     };
