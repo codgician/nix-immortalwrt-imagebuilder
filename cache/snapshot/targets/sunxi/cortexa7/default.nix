@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/cortexa7/";
   sha256sums = {
-    hash = "sha256-fDgQF1ZoJNfGt09r+HZrulljsFKRcwArzmuziZljkBU=";
+    hash = "sha256-th1MeqlvyBeyt9uxjoHMGQBPgYkKzfzgJCiH90D1Ikg=";
     name = "sunxi_cortexa7-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/cortexa7/sha256sums";
   };
   imagebuilder = {
-    sha256 = "abe454a0c65c7bb1271a703a13dd305eac8323f48f767bf2d7b347a1c5efbefc";
+    sha256 = "c396acdee8abbb7cbedb9365e52e754cf4dd85e366d43384aae936d540c6f98a";
     filename = "immortalwrt-imagebuilder-sunxi-cortexa7.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-KNboRtcVoeEZARjRUWmkenoV/WVZtL44YibNjlbVnBM=";
+    hash = "sha256-qQ43H4MdldKzbpbzo+7gFD4nDWd0OURkhspuUbPowSs=";
     name = "sunxi_cortexa7-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/cortexa7/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "arm_cortex-a7_neon-vfpv4";
     linux_kernel = {
       release = "1";
-      vermagic = "b67c2218afa6d783169d8996aa334956";
-      version = "6.18.37";
+      vermagic = "46a49770b2d35d67c503905c187348ba";
+      version = "6.18.39";
     };
     default_packages = [
       "apk-openssl"
@@ -53,7 +53,7 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.18.37-1-b67c2218afa6d783169d8996aa334956";
+    kmods_target = "6.18.39-1-46a49770b2d35d67c503905c187348ba";
     profiles = {
       cubietech_cubieboard2 = {
         device_packages = [
@@ -287,12 +287,12 @@
       };
     };
   };
-  kmods."6.18.37-1-b67c2218afa6d783169d8996aa334956" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/cortexa7/kmods/6.18.37-1-b67c2218afa6d783169d8996aa334956/";
+  kmods."6.18.39-1-46a49770b2d35d67c503905c187348ba" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/cortexa7/kmods/6.18.39-1-46a49770b2d35d67c503905c187348ba/";
     sourceInfo = {
-      hash = "sha256-onNRA2+c3fQ/0dcRJgEoFcCZTHrcgqdlEpwivoaBmgM=";
+      hash = "sha256-nydZbltbEohmZNQfZXxQm3KchWoAK5FvId3UKXm3oWc=";
       name = "kmods-sunxi_cortexa7-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/cortexa7/kmods/6.18.37-1-b67c2218afa6d783169d8996aa334956/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/cortexa7/kmods/6.18.39-1-46a49770b2d35d67c503905c187348ba/packages.adb";
     };
     packages =
       let
@@ -303,7 +303,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/cortexa7/packages/";
     sourceInfo = {
-      hash = "sha256-kwHwrTLj59qyx2owPH6kcaFWjCjRs/7pXJaZ09T/JC0=";
+      hash = "sha256-TO5j1pCyKD4hRdCtFg0Lis63f65cQgtLw034YlaUwoU=";
       name = "sunxi_cortexa7-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/cortexa7/packages/packages.adb";
     };
