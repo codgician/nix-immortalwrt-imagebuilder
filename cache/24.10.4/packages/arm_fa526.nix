@@ -1,14 +1,14 @@
 # 24.10.4 package feeds for arm_fa526
 {
   sha256sums = {
-    hash = "sha256-J2A/Y8j+VZ4TT4K5i5hpuwrJDLTzlS4b5Gu9Of8esHk=";
+    hash = "sha256-NUR0qOiczlzxyBLNyIHqD8VcIfzkQ5L9CqmX4ZGXOik=";
     name = "arm_fa526-sha256sums";
     url = "https://downloads.immortalwrt.org/releases/24.10.4/packages/arm_fa526/sha256sums";
   };
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.4/packages/arm_fa526/base/";
     sourceInfo = {
-      hash = "sha256-N5OAJL2BIgYkhLMauIAxIOnWEwXmds7vm0T5Zcz0X7c=";
+      hash = "sha256-ulUCrO3ILL+fZZXrp4pOXUMPxYXIcLxPUQuwamYb7ak=";
       name = "arm_fa526-base-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.4/packages/arm_fa526/base/Packages";
     };
@@ -21,7 +21,7 @@
   feeds."luci" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.4/packages/arm_fa526/luci/";
     sourceInfo = {
-      hash = "sha256-T0rRG38rsGtNSou1C3cFRWNA3d7zLbm3R/cpXnOzZ+0=";
+      hash = "sha256-i5kMM+OFkWtAwT0C1junwTx1JeyQBJ24qmADiC/dP4A=";
       name = "arm_fa526-luci-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.4/packages/arm_fa526/luci/Packages";
     };
@@ -34,7 +34,7 @@
   feeds."packages" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.4/packages/arm_fa526/packages/";
     sourceInfo = {
-      hash = "sha256-n0LUc7lPb77S6JMU5rKh3bKBzdpQE7UzBh8RwunanOQ=";
+      hash = "sha256-ZGHIRoobie+inTzbaI0QHfH9Q9qgosB2ruj5BHKKs/A=";
       name = "arm_fa526-packages-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.4/packages/arm_fa526/packages/Packages";
     };
