@@ -1,14 +1,14 @@
 # 24.10.5 package feeds for mipsel_74kc
 {
   sha256sums = {
-    hash = "sha256-mZrRHK+gTKG0OygxLsdjMb7xzFZgq3gkbkjefwqbnBA=";
+    hash = "sha256-Q9S0oAnriQSBj8QL687MbaH/pcUfFcMG5GcAmTbUbgQ=";
     name = "mipsel_74kc-sha256sums";
     url = "https://downloads.immortalwrt.org/releases/24.10.5/packages/mipsel_74kc/sha256sums";
   };
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/packages/mipsel_74kc/base/";
     sourceInfo = {
-      hash = "sha256-9RLA/DNLvJdRf9EHU0hBsfYmbryVGlQFiGtscVvf2+E=";
+      hash = "sha256-r4y9D3t9Km4xHwWWU4X63xV1NGwBtST5NWok/lUw1Qc=";
       name = "mipsel_74kc-base-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.5/packages/mipsel_74kc/base/Packages";
     };
@@ -21,7 +21,7 @@
   feeds."luci" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/packages/mipsel_74kc/luci/";
     sourceInfo = {
-      hash = "sha256-/AF8lsEL6NYyI20UuL+RFXc4eHFlTLg9U3yRAUDPxfk=";
+      hash = "sha256-W4dzTfVAZop5PgUAhZI1Enqqzu8k+imixj6phUXwMHg=";
       name = "mipsel_74kc-luci-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.5/packages/mipsel_74kc/luci/Packages";
     };
@@ -34,7 +34,7 @@
   feeds."packages" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/packages/mipsel_74kc/packages/";
     sourceInfo = {
-      hash = "sha256-OXK8CN9SD14oGuqGnmpQ9ILmhpeuXIvC/ZASQmIuUAw=";
+      hash = "sha256-vjZLd7dTgAlx6CfFf67PD7VA8ep/YdF6QzU6hd0xmy8=";
       name = "mipsel_74kc-packages-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.5/packages/mipsel_74kc/packages/Packages";
     };
@@ -47,7 +47,7 @@
   feeds."routing" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/packages/mipsel_74kc/routing/";
     sourceInfo = {
-      hash = "sha256-641+dlKelFoHuyono2TWAI47A17GT4yFRXWQgT1RWXQ=";
+      hash = "sha256-mEIc+hYayD2gmGIlVZsksYgetlvAP1ggkSs6wNXpDUI=";
       name = "mipsel_74kc-routing-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.5/packages/mipsel_74kc/routing/Packages";
     };
@@ -60,7 +60,7 @@
   feeds."telephony" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.5/packages/mipsel_74kc/telephony/";
     sourceInfo = {
-      hash = "sha256-5To3UHc5b/xBfIg3sbONxfv40cVDrht4oZ7VhPpTK2g=";
+      hash = "sha256-ON5Qd3Ik63pQT0ZRAgYrafNQWt3iCF6Dv03iKSq2EAQ=";
       name = "mipsel_74kc-telephony-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.5/packages/mipsel_74kc/telephony/Packages";
     };

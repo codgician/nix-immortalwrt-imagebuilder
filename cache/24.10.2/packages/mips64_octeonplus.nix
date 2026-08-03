@@ -1,14 +1,14 @@
 # 24.10.2 package feeds for mips64_octeonplus
 {
   sha256sums = {
-    hash = "sha256-SzPve4dZprJQ54uGhbnsyUPt4GdYNOJP6PuyaBeGkDA=";
+    hash = "sha256-mOGlcoHH7ApqUjXLi6UoVMGIoa+PBzq8kzh9fdKxleA=";
     name = "mips64_octeonplus-sha256sums";
     url = "https://downloads.immortalwrt.org/releases/24.10.2/packages/mips64_octeonplus/sha256sums";
   };
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.2/packages/mips64_octeonplus/base/";
     sourceInfo = {
-      hash = "sha256-aVe8VlUfD98ZMwlJYBxxrqODE0m6yrH3+QavexLKaTw=";
+      hash = "sha256-78yflfG53TRoED67xmme9KvwvWGJVUzTb96la1fsjls=";
       name = "mips64_octeonplus-base-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.2/packages/mips64_octeonplus/base/Packages";
     };
@@ -21,7 +21,7 @@
   feeds."luci" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.2/packages/mips64_octeonplus/luci/";
     sourceInfo = {
-      hash = "sha256-gf2bguYKbg9HR8zPzbUKRx58sGClHomlG8LLNxMCsMo=";
+      hash = "sha256-On6LMDiwTD7KKapEEE4slvf8xGQ2owpu6rdxChC2SZ4=";
       name = "mips64_octeonplus-luci-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.2/packages/mips64_octeonplus/luci/Packages";
     };
@@ -34,7 +34,7 @@
   feeds."packages" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.2/packages/mips64_octeonplus/packages/";
     sourceInfo = {
-      hash = "sha256-GiU6jmNPEBhVZZPikV74HRyGW2zps4YsyY+On5pej7Q=";
+      hash = "sha256-5xvzoEr2R98C+Tl5ggbwxmyprK9WDIJ8g9MM5zRFDFQ=";
       name = "mips64_octeonplus-packages-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.2/packages/mips64_octeonplus/packages/Packages";
     };
@@ -47,7 +47,7 @@
   feeds."routing" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.2/packages/mips64_octeonplus/routing/";
     sourceInfo = {
-      hash = "sha256-a8kg+5g+MZDpBulwWmylYKFKK4HmASy6wlHUxV700XA=";
+      hash = "sha256-pYbZKrY8B/bKkufnTG835rVd5gQJB26SRuHeOPEFKBE=";
       name = "mips64_octeonplus-routing-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.2/packages/mips64_octeonplus/routing/Packages";
     };
@@ -60,7 +60,7 @@
   feeds."telephony" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.2/packages/mips64_octeonplus/telephony/";
     sourceInfo = {
-      hash = "sha256-ZCkrtyVN62V0dMOEsKtBiAbLSsM2TktqyWsG/I6wl44=";
+      hash = "sha256-8fchjsA9veI2MgzMbKkMEolJBTJR9nOH8vtOPWfG7TM=";
       name = "mips64_octeonplus-telephony-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.2/packages/mips64_octeonplus/telephony/Packages";
     };

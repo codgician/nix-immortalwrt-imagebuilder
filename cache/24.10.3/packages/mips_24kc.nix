@@ -1,7 +1,7 @@
 # 24.10.3 package feeds for mips_24kc
 {
   sha256sums = {
-    hash = "sha256-/caKbHPo0s5sVZJmVqo5t+xfg2Hc5boyL3xKGGmYagM=";
+    hash = "sha256-OJcNVMpPQuIC+i7oAZZL+qKgRX6rHUI4Z7AspSwyrLI=";
     name = "mips_24kc-sha256sums";
     url = "https://downloads.immortalwrt.org/releases/24.10.3/packages/mips_24kc/sha256sums";
   };

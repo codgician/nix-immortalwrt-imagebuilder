@@ -47,7 +47,7 @@
   feeds."routing" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.0/packages/arm_fa526/routing/";
     sourceInfo = {
-      hash = "sha256-XIlmWizGwN0iIBDLUwFhHPL9p8U07MePTtX0u3rWz+k=";
+      hash = "sha256-jPfK7gUmGEFXiC4HelCYSzhJyPYsysO2mI3aLDNEmkM=";
       name = "arm_fa526-routing-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.0/packages/arm_fa526/routing/Packages";
     };
@@ -60,7 +60,7 @@
   feeds."telephony" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.0/packages/arm_fa526/telephony/";
     sourceInfo = {
-      hash = "sha256-FCYYjyHoBcRXs6phvHaeGrJh8FAg9kYTCOF+GRPSwsw=";
+      hash = "sha256-hiWDUA7goadlDSvhZBnuODkwG34GQKWLJ59/UsNmcKk=";
       name = "arm_fa526-telephony-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.0/packages/arm_fa526/telephony/Packages";
     };
