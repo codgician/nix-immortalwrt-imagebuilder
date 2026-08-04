@@ -8,7 +8,7 @@
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.4/packages/mips_24kc/base/";
     sourceInfo = {
-      hash = "sha256-Phzd42MLfeFMh6LTMBVWUrVo+KF0mXEGYgnnN71MzpA=";
+      hash = "sha256-PNoLn0/5iD41P2QztVNtGeM6fNH7Lf+glgWhm+tsWfc=";
       name = "mips_24kc-base-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.4/packages/mips_24kc/base/Packages";
     };
@@ -21,7 +21,7 @@
   feeds."luci" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.4/packages/mips_24kc/luci/";
     sourceInfo = {
-      hash = "sha256-DZmAEofG3y3lVzevtHyobg4/1ZDWq6lhJbgdJjI4VFk=";
+      hash = "sha256-DT/JJZzf+RIQkvJ8GSEDzPvIfQPi19ymmG1oWsTifN4=";
       name = "mips_24kc-luci-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.4/packages/mips_24kc/luci/Packages";
     };
@@ -34,7 +34,7 @@
   feeds."packages" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.4/packages/mips_24kc/packages/";
     sourceInfo = {
-      hash = "sha256-gZXbjgIq8YmFTOFhmVdI6tmYNOkll08OeYBUgF9IMCI=";
+      hash = "sha256-PxKrxRb7ADWcFjQKSIs6bZOLdfSkP33gkIFbvNqFg90=";
       name = "mips_24kc-packages-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.4/packages/mips_24kc/packages/Packages";
     };
@@ -47,7 +47,7 @@
   feeds."routing" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.4/packages/mips_24kc/routing/";
     sourceInfo = {
-      hash = "sha256-JOwDv//UsY4YuZZC55Zv2VViEijaFHL3L5cOHW9J+J0=";
+      hash = "sha256-55JRql7EU7Yj18QokjF7pEwAnZsl0X9wzzZbcDiZwZI=";
       name = "mips_24kc-routing-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.4/packages/mips_24kc/routing/Packages";
     };
@@ -60,7 +60,7 @@
   feeds."telephony" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.4/packages/mips_24kc/telephony/";
     sourceInfo = {
-      hash = "sha256-XBct7mHVoeNi6nu2hdYRtFqizc1z5sTx64F4PTD+pCE=";
+      hash = "sha256-lxYe7/1eFVgJnyie4dbtqWZopruZLzs+kv8im+MaPFY=";
       name = "mips_24kc-telephony-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.4/packages/mips_24kc/telephony/Packages";
     };
