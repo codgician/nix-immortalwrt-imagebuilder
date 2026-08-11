@@ -22,6 +22,7 @@
   targets.bcm4908.generic = import ./targets/bcm4908/generic/default.nix;
   targets.bcm53xx.generic = import ./targets/bcm53xx/generic/default.nix;
   targets.bmips.bcm6318 = import ./targets/bmips/bcm6318/default.nix;
+  targets.bmips.bcm63268 = import removed 'cache/24.10.2/targets/bmips/bcm63268/default.nix.tmp';
   targets.bmips.bcm63268 = import ./targets/bmips/bcm63268/default.nix;
   targets.bmips.bcm6328 = import ./targets/bmips/bcm6328/default.nix;
   targets.bmips.bcm6358 = import ./targets/bmips/bcm6358/default.nix;
