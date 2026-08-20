@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/bcm47xx/mips74k/";
   sha256sums = {
-    hash = "sha256-FFOpqGwaCV2InUUGivNfJ8pR2v1vULWDFvrcBUlIsGs=";
+    hash = "sha256-MyvT+Uzg2p71PYS9/J0biocwGOp7E5pKlw/wxIKygsg=";
     name = "bcm47xx_mips74k-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/bcm47xx/mips74k/sha256sums";
   };
   imagebuilder = {
-    sha256 = "1611b5a514b8f4b63d8a584124a8b25443d0cd83699b5c3aef45010ec12dc9ea";
+    sha256 = "c77adb64228c24529490a96d5ac78c58baf607e4087a770cb60317dce2c3e6b7";
     filename = "immortalwrt-imagebuilder-bcm47xx-mips74k.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-zHFtOYIpXeUd71bV/GzBfZbZgsivfgu3nBuG8iG4W7Y=";
+    hash = "sha256-tDhLfZlONtiPgv15sgePBdsO9PFpoPTD5zePc/kfBYs=";
     name = "bcm47xx_mips74k-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/bcm47xx/mips74k/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "mipsel_74kc";
     linux_kernel = {
       release = "1";
-      vermagic = "95e6074cc54cf5d0d3503b39e5cf9142";
-      version = "6.12.94";
+      vermagic = "68c328a9fffa9da61320f0c8bb8b2186";
+      version = "6.12.103";
     };
     default_packages = [
       "apk-openssl"
@@ -54,7 +54,7 @@
       "urngd"
       "wpad-basic-openssl"
     ];
-    kmods_target = "6.12.94-1-95e6074cc54cf5d0d3503b39e5cf9142";
+    kmods_target = "6.12.103-1-68c328a9fffa9da61320f0c8bb8b2186";
     profiles = {
       asus_rt-ac53u = {
         device_packages = [
@@ -199,12 +199,12 @@
       };
     };
   };
-  kmods."6.12.94-1-95e6074cc54cf5d0d3503b39e5cf9142" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/bcm47xx/mips74k/kmods/6.12.94-1-95e6074cc54cf5d0d3503b39e5cf9142/";
+  kmods."6.12.103-1-68c328a9fffa9da61320f0c8bb8b2186" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/bcm47xx/mips74k/kmods/6.12.103-1-68c328a9fffa9da61320f0c8bb8b2186/";
     sourceInfo = {
-      hash = "sha256-v2lJ9QqA1k4odknj3SnGnuoMFOE3qFp6Y424bryW1CE=";
+      hash = "sha256-ntLiaL/0ngMC3ympy2yJZROKCttQWOK/cJKvuYkOMiM=";
       name = "kmods-bcm47xx_mips74k-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/bcm47xx/mips74k/kmods/6.12.94-1-95e6074cc54cf5d0d3503b39e5cf9142/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/bcm47xx/mips74k/kmods/6.12.103-1-68c328a9fffa9da61320f0c8bb8b2186/packages.adb";
     };
     packages =
       let
@@ -215,7 +215,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/bcm47xx/mips74k/packages/";
     sourceInfo = {
-      hash = "sha256-Dhp5AAOWcXHhTJ4Y3oUKI0mYyjh22qPz008sJGqkYm0=";
+      hash = "sha256-RotPdtjSUwI+B1m+1MCLBdYtcBB1TPC0b3LDQtsFAPE=";
       name = "bcm47xx_mips74k-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/bcm47xx/mips74k/packages/packages.adb";
     };

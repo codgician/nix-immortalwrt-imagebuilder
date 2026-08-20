@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/airoha/an7581/";
   sha256sums = {
-    hash = "sha256-SIk13xJm+jkRqXlV9SZqKSYh4gUJsTMe/PB/trZQtjk=";
+    hash = "sha256-ui00/sJkJhmeLrOqmgbLd9gwivnH/X7VP41fqTHRZX4=";
     name = "airoha_an7581-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/airoha/an7581/sha256sums";
   };
   imagebuilder = {
-    sha256 = "0e86906dbde390cb65f42caa5264cb1ad30113a2c8f5da18e539783472e02ebb";
+    sha256 = "24324de89e0cae6eaf17caf628f61dd94a3ad4d4b76da13bc3dabeed9f651a61";
     filename = "immortalwrt-imagebuilder-airoha-an7581.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-RisgsRqqwkyqrwX4oIUBJajoBpekMR34NpPyZ3x0phE=";
+    hash = "sha256-pTTRYw0ZL1B5H7E4R2ctPPye9Ch/FuvMsHa+75b7kEg=";
     name = "airoha_an7581-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/airoha/an7581/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "aarch64_cortex-a53";
     linux_kernel = {
       release = "1";
-      vermagic = "90b7bd63ea7c251c828f61b2a322499d";
-      version = "6.18.39";
+      vermagic = "7c08b90b811abacfe00d9dfacc86634c";
+      version = "6.18.44";
     };
     default_packages = [
       "airoha-en7581-npu-firmware"
@@ -52,19 +52,17 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.18.39-1-90b7bd63ea7c251c828f61b2a322499d";
+    kmods_target = "6.18.44-1-7c08b90b811abacfe00d9dfacc86634c";
     profiles = {
       airoha_an7581-evb = {
         device_packages = [
           "kmod-leds-pwm"
-          "kmod-i2c-an7581"
           "kmod-pwm-airoha"
           "kmod-input-gpio-keys-polled"
         ];
       };
       airoha_an7581-evb-emmc-eagle = {
         device_packages = [
-          "kmod-i2c-an7581"
           "airoha-en7581-mt7996-npu-firmware"
           "kmod-mt7996-firmware"
           "wpad-openssl"
@@ -72,7 +70,6 @@
       };
       airoha_an7581-evb-emmc-kite = {
         device_packages = [
-          "kmod-i2c-an7581"
           "airoha-en7581-npu-firmware"
           "kmod-mt7992-firmware"
           "wpad-openssl"
@@ -82,7 +79,6 @@
         device_packages = [
           "airoha-en7581-mt7996-npu-firmware"
           "fitblk"
-          "kmod-i2c-an7581"
           "kmod-hwmon-nct7802"
           "kmod-mt7996-firmware"
           "wpad-openssl"
@@ -94,7 +90,6 @@
           "kmod-spi-gpio"
           "kmod-gpio-nxp-74hc164"
           "kmod-leds-gpio"
-          "kmod-i2c-an7581"
           "kmod-i2c-gpio"
           "kmod-iio-richtek-rtq6056"
           "kmod-sfp"
@@ -127,12 +122,12 @@
       };
     };
   };
-  kmods."6.18.39-1-90b7bd63ea7c251c828f61b2a322499d" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/airoha/an7581/kmods/6.18.39-1-90b7bd63ea7c251c828f61b2a322499d/";
+  kmods."6.18.44-1-7c08b90b811abacfe00d9dfacc86634c" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/airoha/an7581/kmods/6.18.44-1-7c08b90b811abacfe00d9dfacc86634c/";
     sourceInfo = {
-      hash = "sha256-IUF++ibFM2NBaKWY2xlItNRSa2qDAA1e1xLGNpkAGN0=";
+      hash = "sha256-E1DlAJx59F79LDVwchPxO6+sUuBqYhfF0vptPQNT+Kk=";
       name = "kmods-airoha_an7581-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/airoha/an7581/kmods/6.18.39-1-90b7bd63ea7c251c828f61b2a322499d/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/airoha/an7581/kmods/6.18.44-1-7c08b90b811abacfe00d9dfacc86634c/packages.adb";
     };
     packages =
       let
@@ -143,7 +138,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/airoha/an7581/packages/";
     sourceInfo = {
-      hash = "sha256-rs+VgEanLz9yrOyyL0pqbyuKxpadEZdq2QQieXAIH4E=";
+      hash = "sha256-hGHlc8VtH8+MNnCkbGHpnCL3rOtyjJZvZZI+BX99yJs=";
       name = "airoha_an7581-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/airoha/an7581/packages/packages.adb";
     };

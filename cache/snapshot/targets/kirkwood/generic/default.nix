@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/kirkwood/generic/";
   sha256sums = {
-    hash = "sha256-FJ9yrLUALgmjjIH2qn7Eaj7aHrNlm+kqQ9YJsMyQorA=";
+    hash = "sha256-F/y2+AahbZnhHihbGk0ldV0ZpFX3BuQmdYrttwMyFRI=";
     name = "kirkwood_generic-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/kirkwood/generic/sha256sums";
   };
   imagebuilder = {
-    sha256 = "cf25d81e517c33f2083c226fe5ff9a74b7f696443cf2335d1fddaa4bd697556a";
+    sha256 = "516d534e88f080da45302768d5edbbf350f0a3979707737a882b29a7a0b25c58";
     filename = "immortalwrt-imagebuilder-kirkwood-generic.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-9cK1f9dMQJWBOBZHcpEOWCDdaF/EUUQzU1zJWBAPLSQ=";
+    hash = "sha256-62vXj3ecIjuWVIM6wkNPqrlv+8Guj6WHs9loxblNZ9o=";
     name = "kirkwood_generic-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/kirkwood/generic/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "arm_xscale";
     linux_kernel = {
       release = "1";
-      vermagic = "0e460bca720bd028cd2e21f7379a1dcd";
-      version = "6.18.39";
+      vermagic = "faf8017f364be907583607aefbfd1d90";
+      version = "6.18.44";
     };
     default_packages = [
       "apk-openssl"
@@ -50,7 +50,7 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.18.39-1-0e460bca720bd028cd2e21f7379a1dcd";
+    kmods_target = "6.18.44-1-faf8017f364be907583607aefbfd1d90";
     profiles = {
       checkpoint_l-50 = {
         device_packages = [
@@ -285,12 +285,12 @@
       };
     };
   };
-  kmods."6.18.39-1-0e460bca720bd028cd2e21f7379a1dcd" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/kirkwood/generic/kmods/6.18.39-1-0e460bca720bd028cd2e21f7379a1dcd/";
+  kmods."6.18.44-1-faf8017f364be907583607aefbfd1d90" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/kirkwood/generic/kmods/6.18.44-1-faf8017f364be907583607aefbfd1d90/";
     sourceInfo = {
-      hash = "sha256-07fEm4gL2HjhdQFjvEOhazCPxWYNLyIPDsdWE4Dlz2I=";
+      hash = "sha256-F6y8DYi0xqRXUiTJEhIsIkgP3iieBjiBt86WT+zU+1o=";
       name = "kmods-kirkwood_generic-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/kirkwood/generic/kmods/6.18.39-1-0e460bca720bd028cd2e21f7379a1dcd/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/kirkwood/generic/kmods/6.18.44-1-faf8017f364be907583607aefbfd1d90/packages.adb";
     };
     packages =
       let
@@ -301,7 +301,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/kirkwood/generic/packages/";
     sourceInfo = {
-      hash = "sha256-r8ZFlUy0BHd8puv5wKKhf416U70fnuG7oMIrxfez7Zg=";
+      hash = "sha256-0UjRDNj+1LuvPm9dqKjqcnAE7XU9wlo2IXO8s6dlaIQ=";
       name = "kirkwood_generic-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/kirkwood/generic/packages/packages.adb";
     };
