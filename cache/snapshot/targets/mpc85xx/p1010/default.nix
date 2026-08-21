@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mpc85xx/p1010/";
   sha256sums = {
-    hash = "sha256-HOx5667tB2EsGh4YIqO7Kk0CiVSF6W6Kq/GdWa2OqwU=";
+    hash = "sha256-RFbEHgpdyj+WF1MXwN4SfbGWj6L4V1NGqNP/7WREZRY=";
     name = "mpc85xx_p1010-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/mpc85xx/p1010/sha256sums";
   };
   imagebuilder = {
-    sha256 = "dac28965863e010cf6defc8576ae5eac6cdaccd6cb15930899ab3a955af5a793";
+    sha256 = "e73369ef96b9b97dfce3c706793ead9066427780b99ae47511ea960fcaaddc88";
     filename = "immortalwrt-imagebuilder-mpc85xx-p1010.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-9+hjqtioeztc0rpU+88SgmJ2ShQsJ53S+3Wap8XF3aU=";
+    hash = "sha256-VZz3+mftxNkCApinUG7DyraVBK6EA0cyHBQWosYMh74=";
     name = "mpc85xx_p1010-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/mpc85xx/p1010/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "powerpc_8548";
     linux_kernel = {
       release = "1";
-      vermagic = "a9bbcdb65a91b4cc3a06c4a458dbbf21";
-      version = "6.12.94";
+      vermagic = "835591a90c9c7849a2252f48e03a0104";
+      version = "6.18.44";
     };
     default_packages = [
       "apk-openssl"
@@ -55,40 +55,49 @@
       "urngd"
       "wpad-openssl"
     ];
-    kmods_target = "6.12.94-1-a9bbcdb65a91b4cc3a06c4a458dbbf21";
+    kmods_target = "6.18.44-1-835591a90c9c7849a2252f48e03a0104";
     profiles = {
       aerohive_br200-wp = {
-        device_packages = [ ];
+        device_packages = [
+          "kmod-dsa-qca8k"
+          "kmod-phy-qca83xx"
+        ];
       };
       enterasys_ws-ap3715i = {
-        device_packages = [ ];
+        device_packages = [ "kmod-phy-at803x" ];
       };
       sophos_red-15w-rev1 = {
-        device_packages = [ ];
+        device_packages = [ "kmod-phy-realtek" ];
       };
       tplink_tl-wdr4900-v1 = {
-        device_packages = [ "kmod-usb-ledtrig-usbport" ];
+        device_packages = [
+          "kmod-usb-ledtrig-usbport"
+          "kmod-dsa-qca8k"
+          "kmod-phy-qca83xx"
+        ];
       };
       watchguard_firebox-t10 = {
         device_packages = [
           "kmod-rtc-s35390a"
           "kmod-eeprom-at24"
+          "kmod-phy-at803x"
         ];
       };
       watchguard_firebox-t15 = {
         device_packages = [
           "kmod-rtc-s35390a"
           "kmod-eeprom-at24"
+          "kmod-phy-at803x"
         ];
       };
     };
   };
-  kmods."6.12.94-1-a9bbcdb65a91b4cc3a06c4a458dbbf21" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mpc85xx/p1010/kmods/6.12.94-1-a9bbcdb65a91b4cc3a06c4a458dbbf21/";
+  kmods."6.18.44-1-835591a90c9c7849a2252f48e03a0104" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mpc85xx/p1010/kmods/6.18.44-1-835591a90c9c7849a2252f48e03a0104/";
     sourceInfo = {
-      hash = "sha256-uwewA5XTpfINHmcrLidd6SJaBqLxmQd+Uc1JTYX34rg=";
+      hash = "sha256-4YMmdFM7l4Zefh1utjE2BmGavlIPF+JK3jH+rbxvsq0=";
       name = "kmods-mpc85xx_p1010-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/mpc85xx/p1010/kmods/6.12.94-1-a9bbcdb65a91b4cc3a06c4a458dbbf21/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/mpc85xx/p1010/kmods/6.18.44-1-835591a90c9c7849a2252f48e03a0104/packages.adb";
     };
     packages =
       let
@@ -99,7 +108,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mpc85xx/p1010/packages/";
     sourceInfo = {
-      hash = "sha256-/han2u4ckeS7OZz270I4WmH6lfGaaQbIUyIM3n9n5bc=";
+      hash = "sha256-l9Cp+ysV/3M98Uh4+H56jPK3RxkyNsgKMqfVSgA4czU=";
       name = "mpc85xx_p1010-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/mpc85xx/p1010/packages/packages.adb";
     };

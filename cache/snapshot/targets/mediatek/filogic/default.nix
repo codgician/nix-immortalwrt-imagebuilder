@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/filogic/";
   sha256sums = {
-    hash = "sha256-6ZXggWEUINqFsLonu2nRHxCi8U8+behL+75sIL4B2w4=";
+    hash = "sha256-o3uzR/j1csUHVVLDq7m+QJfLiquqBqZR5N02Ru8Gef0=";
     name = "mediatek_filogic-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/filogic/sha256sums";
   };
   imagebuilder = {
-    sha256 = "190a8af090997e6c179091c71edfd6bd9c93215a08cf3c957effa5b2f28735f9";
+    sha256 = "5d0f682b8a44b481ca40e90a18e8e1f09f4d095392a3b4099acbc1da895f9533";
     filename = "immortalwrt-imagebuilder-mediatek-filogic.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-BUsnw+ZIJBwPAz0U19u87YvL6Il1hNrVO8q/Q4DcEsI=";
+    hash = "sha256-msU/e29EemCzBmlgGZiVvz2efjdhPF4PnSJGcOIVobE=";
     name = "mediatek_filogic-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/filogic/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "aarch64_cortex-a53";
     linux_kernel = {
       release = "1";
-      vermagic = "40296d45ac7d4a1ca541e72aec5af1c0";
-      version = "6.18.39";
+      vermagic = "2400fd2b1f079a7d3ca15b291f7db881";
+      version = "6.18.44";
     };
     default_packages = [
       "apk-openssl"
@@ -55,7 +55,7 @@
       "urngd"
       "wpad-openssl"
     ];
-    kmods_target = "6.18.39-1-40296d45ac7d4a1ca541e72aec5af1c0";
+    kmods_target = "6.18.44-1-2400fd2b1f079a7d3ca15b291f7db881";
     profiles = {
       abt_asr3000 = {
         device_packages = [
@@ -126,6 +126,14 @@
           "e2fsprogs"
           "f2fsck"
           "mkf2fs"
+        ];
+      };
+      airtel_aap4221zy = {
+        device_packages = [
+          "kmod-ledtrig-network"
+          "kmod-mt7915e"
+          "kmod-mt7981-firmware"
+          "mt7981-wo-firmware"
         ];
       };
       alwaylink_m01k43 = {
@@ -387,7 +395,33 @@
           "mt7981-wo-firmware"
         ];
       };
+      comfast_cf-wa933 = {
+        device_packages = [
+          "kmod-ledtrig-network"
+          "kmod-mt7915e"
+          "kmod-mt7981-firmware"
+          "mt7981-wo-firmware"
+        ];
+      };
+      comfast_cf-wa933-128m = {
+        device_packages = [
+          "kmod-ledtrig-network"
+          "kmod-mt7915e"
+          "kmod-mt7981-firmware"
+          "mt7981-wo-firmware"
+        ];
+      };
       comfast_cf-wr632ax = {
+        device_packages = [
+          "kmod-mt7915e"
+          "kmod-mt7981-firmware"
+          "mt7981-wo-firmware"
+          "kmod-hwmon-pwmfan"
+          "kmod-usb3"
+          "automount"
+        ];
+      };
+      comfast_cf-wr632ax-ubi = {
         device_packages = [
           "kmod-mt7915e"
           "kmod-mt7981-firmware"
@@ -617,6 +651,15 @@
           "mt7981-wo-firmware"
         ];
       };
+      cudy_wr3000u-v1 = {
+        device_packages = [
+          "kmod-usb3"
+          "kmod-mt7915e"
+          "kmod-mt7981-firmware"
+          "mt7981-wo-firmware"
+          "automount"
+        ];
+      };
       dlink_aquila-pro-ai-e30-a1 = {
         device_packages = [
           "kmod-leds-gca230718"
@@ -682,6 +725,14 @@
           "kmod-usb3"
           "mt7981-wo-firmware"
           "automount"
+        ];
+      };
+      glinet_gl-be10000 = {
+        device_packages = [
+          "mt7987-2p5g-phy-firmware"
+          "kmod-mt7996-233-firmware"
+          "kmod-hwmon-pwmfan"
+          "kmod-usb3"
         ];
       };
       glinet_gl-mt2500 = {
@@ -1120,6 +1171,16 @@
           "mt7981-wo-firmware"
         ];
       };
+      netis_n6-v2 = {
+        device_packages = [
+          "kmod-mt7915e"
+          "kmod-mt7981-firmware"
+          "mt7981-wo-firmware"
+          "kmod-usb3"
+          "kmod-usb-ledtrig-usbport"
+          "automount"
+        ];
+      };
       netis_nx30v2 = {
         device_packages = [
           "kmod-mt7915e"
@@ -1385,6 +1446,14 @@
           "kmod-mt7992-firmware"
         ];
       };
+      teralink_tl3020-256mb = {
+        device_packages = [
+          "kmod-usb3"
+          "kmod-mt7915e"
+          "kmod-mt7981-firmware"
+          "mt7981-wo-firmware"
+        ];
+      };
       totolink_x6000r = {
         device_packages = [
           "kmod-mt7915e"
@@ -1412,6 +1481,17 @@
         ];
       };
       tplink_be450 = {
+        device_packages = [
+          "kmod-mt7992-firmware"
+          "kmod-usb3"
+          "automount"
+          "mt7988-2p5g-phy-firmware"
+          "mt7988-wo-firmware"
+          "kmod-phy-realtek"
+          "rtl826x-firmware"
+        ];
+      };
+      tplink_be450-ubi = {
         device_packages = [
           "kmod-mt7992-firmware"
           "kmod-usb3"
@@ -1788,12 +1868,12 @@
       };
     };
   };
-  kmods."6.18.39-1-40296d45ac7d4a1ca541e72aec5af1c0" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/filogic/kmods/6.18.39-1-40296d45ac7d4a1ca541e72aec5af1c0/";
+  kmods."6.18.44-1-2400fd2b1f079a7d3ca15b291f7db881" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/filogic/kmods/6.18.44-1-2400fd2b1f079a7d3ca15b291f7db881/";
     sourceInfo = {
-      hash = "sha256-2wJDJuqir0Nun6TyORwwrKlKsw2fcNEcmaVzAzHaYL4=";
+      hash = "sha256-lgYbB8FUZLwQfNEfJLo4yUkia7OA0D1YH12n56GCD7c=";
       name = "kmods-mediatek_filogic-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/filogic/kmods/6.18.39-1-40296d45ac7d4a1ca541e72aec5af1c0/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/filogic/kmods/6.18.44-1-2400fd2b1f079a7d3ca15b291f7db881/packages.adb";
     };
     packages =
       let
@@ -1804,7 +1884,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/filogic/packages/";
     sourceInfo = {
-      hash = "sha256-/2r+9j/nzp0yXEbYa7V6T2ssxRnoHhVm6S8bl0pygi0=";
+      hash = "sha256-FWEj/ej3NJlOzcSErYI0ip9+wVsiTEz9Ww65R9hI4+8=";
       name = "mediatek_filogic-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/filogic/packages/packages.adb";
     };
