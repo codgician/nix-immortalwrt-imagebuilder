@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x/";
   sha256sums = {
-    hash = "sha256-1NJPs0FBJwqXDBkTTtUbJNnK7AcUhoLsovkdfGnK3BY=";
+    hash = "sha256-1idQ8Z/QF1OUspnjlrKGrDPcH8jB9B3jlPtSRrgR294=";
     name = "realtek_rtl930x-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x/sha256sums";
   };
   imagebuilder = {
-    sha256 = "8219ffb9af18af5816c7c636adf80102f443aa601c100fe6c976affec22b92ed";
+    sha256 = "707bafed2fdc5c8efde59acbb938fe9beb002f829badc94368cdb2a36bb69580";
     filename = "immortalwrt-imagebuilder-realtek-rtl930x.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-kE7LjUZ1eIVyM+0i3j3cupKJi96wlRiprnDF0zmN8eQ=";
+    hash = "sha256-ttP2PX762j+TyprKk7jknSFV1DguJLgG+jp6kK8Ktj4=";
     name = "realtek_rtl930x-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "mips_24kc";
     linux_kernel = {
       release = "1";
-      vermagic = "dbc02bd2dc92a4adf4c0b563becb28bb";
-      version = "6.18.39";
+      vermagic = "88bfec0a3dde57e3a9b1793f83485fa0";
+      version = "6.18.44";
     };
     default_packages = [
       "apk-openssl"
@@ -45,20 +45,46 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.18.39-1-dbc02bd2dc92a4adf4c0b563becb28bb";
+    kmods_target = "6.18.44-1-88bfec0a3dde57e3a9b1793f83485fa0";
     profiles = {
       d-link_dgs-1250-28x = {
         device_packages = [ "kmod-hwmon-lm75" ];
       };
       hasivo_f1100w-4sx-4xgt = {
         device_packages = [
+          "kmod-hasivo-mcu-sensor"
+          "kmod-hasivo-mcu-wdt"
+          "kmod-mfd-hasivo-stc8"
           "kmod-phy-realtek"
           "rtl826x-firmware"
         ];
       };
       hasivo_f1100w-4sx-4xgt-512mb = {
         device_packages = [
+          "kmod-hasivo-mcu-sensor"
+          "kmod-hasivo-mcu-wdt"
+          "kmod-mfd-hasivo-stc8"
           "kmod-phy-realtek"
+          "rtl826x-firmware"
+        ];
+      };
+      hasivo_f1100wp-4sx-4xgt = {
+        device_packages = [
+          "kmod-hasivo-mcu-sensor"
+          "kmod-hasivo-mcu-wdt"
+          "kmod-mfd-hasivo-stc8"
+          "kmod-phy-realtek"
+          "kmod-pse-hasivo-hs104"
+          "rtl826x-firmware"
+        ];
+      };
+      hasivo_f1100wp-4sx-4xgt-512mb = {
+        device_packages = [
+          "kmod-hasivo-mcu-sensor"
+          "kmod-hasivo-mcu-wdt"
+          "kmod-mfd-hasivo-stc8"
+          "kmod-phy-realtek"
+          "kmod-pse-hasivo-hs104"
           "rtl826x-firmware"
         ];
       };
@@ -66,6 +92,19 @@
         device_packages = [ "rtl826x-firmware" ];
       };
       hasivo_s1100wp-8gt-se = {
+        device_packages = [
+          "kmod-pse-hasivo-hs104"
+          "kmod-mfd-hasivo-stc8"
+        ];
+      };
+      hasivo_s1100wp-8xgt-se = {
+        device_packages = [
+          "rtl826x-firmware"
+          "kmod-pse-hasivo-hs104"
+          "kmod-mfd-hasivo-stc8"
+        ];
+      };
+      hasivo_s600wp-5gt-2s-plus = {
         device_packages = [
           "kmod-pse-hasivo-hs104"
           "kmod-mfd-hasivo-stc8"
@@ -164,12 +203,12 @@
       };
     };
   };
-  kmods."6.18.39-1-dbc02bd2dc92a4adf4c0b563becb28bb" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x/kmods/6.18.39-1-dbc02bd2dc92a4adf4c0b563becb28bb/";
+  kmods."6.18.44-1-88bfec0a3dde57e3a9b1793f83485fa0" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x/kmods/6.18.44-1-88bfec0a3dde57e3a9b1793f83485fa0/";
     sourceInfo = {
-      hash = "sha256-rnxqzx/iebcqHthMwA/sv2P8EDJcSVKfgpluyyZO43U=";
+      hash = "sha256-3TDsFApO9+kiFYr1VRtgqsZh6NFWEdIk6hx9P2177+A=";
       name = "kmods-realtek_rtl930x-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x/kmods/6.18.39-1-dbc02bd2dc92a4adf4c0b563becb28bb/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x/kmods/6.18.44-1-88bfec0a3dde57e3a9b1793f83485fa0/packages.adb";
     };
     packages =
       let
@@ -180,7 +219,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x/packages/";
     sourceInfo = {
-      hash = "sha256-azTVjF3tAAJncbUyHNQUis9nTLStSec4wNWxBu8fPqA=";
+      hash = "sha256-IygD33GVPgh+itRmTVgHUNthxMgCM/9CloROTzAeqC0=";
       name = "realtek_rtl930x-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x/packages/packages.adb";
     };
