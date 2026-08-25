@@ -1,14 +1,14 @@
 # 25.12.0 package feeds for aarch64_cortex-a72
 {
   sha256sums = {
-    hash = "sha256-rkDa1o6R5Ycv1044BGtTXIMkMRJShHlknLKG3TxhMR8=";
+    hash = "sha256-7r6T8+ze8QCWscIJ3IUfN22DqhvYAbKxmiijKmiE3kQ=";
     name = "aarch64_cortex-a72-sha256sums";
     url = "https://downloads.immortalwrt.org/releases/25.12.0/packages/aarch64_cortex-a72/sha256sums";
   };
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0/packages/aarch64_cortex-a72/base/";
     sourceInfo = {
-      hash = "sha256-yeK9PUV0YxQsCrSXJYEllBshkbQfSXb691Jmg9y2q1A=";
+      hash = "sha256-Dmo7bE/imrAW4QfgnCLpJeie0xySDvZolyioJD203bc=";
       name = "aarch64_cortex-a72-base-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0/packages/aarch64_cortex-a72/base/packages.adb";
     };
