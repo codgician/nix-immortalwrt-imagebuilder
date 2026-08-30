@@ -1,7 +1,7 @@
 # snapshot package feeds for loongarch64_generic
 {
   sha256sums = {
-    hash = "sha256-vGUW+Z61b7TMj9C81mgdgw+TIxfn5U3jGcf4L4XRsuA=";
+    hash = "sha256-syjCCX4yCl0pHsdWDFFCxplEqy3jv0WkruhI2Ppd8pQ=";
     name = "loongarch64_generic-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/packages/loongarch64_generic/sha256sums";
   };
