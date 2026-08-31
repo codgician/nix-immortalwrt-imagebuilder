@@ -1,14 +1,14 @@
 # snapshot package feeds for armeb_xscale
 {
   sha256sums = {
-    hash = "sha256-ryBu08695qLYPAmAOsp7DfFh8m537ECVwoxv2+WtYU4=";
+    hash = "sha256-gLFBdtxuLulhoCwK7c2LYa4ICDV5TxBXrKPDTN0eouY=";
     name = "armeb_xscale-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/packages/armeb_xscale/sha256sums";
   };
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/armeb_xscale/base/";
     sourceInfo = {
-      hash = "sha256-tSPu3BXLDaOg2trLi8ASotXArKEhKvMWzbO+p3ICDi0=";
+      hash = "sha256-auCMXKqZPeI5Gipj/nhP4ZjsjBfkAfpHn8qI56C/LuE=";
       name = "armeb_xscale-base-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/armeb_xscale/base/packages.adb";
     };
@@ -21,7 +21,7 @@
   feeds."luci" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/armeb_xscale/luci/";
     sourceInfo = {
-      hash = "sha256-O12zwLZ9+i/7MJajdc3mx6XpfKDX+939mLsJ2yyV4zM=";
+      hash = "sha256-zgEamIXW7Hz0s+6zEOMVgMfOXIHBix0bXyOHJ9icDos=";
       name = "armeb_xscale-luci-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/armeb_xscale/luci/packages.adb";
     };
@@ -34,7 +34,7 @@
   feeds."packages" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/armeb_xscale/packages/";
     sourceInfo = {
-      hash = "sha256-jsqf2/QOL/4nH7VVdqgRTZgEcNsQCD7TjcyQcG5VaRQ=";
+      hash = "sha256-ZHtI1woLyHLCong1L20RNMsTFJGLDyMsHs4YiuR2xnk=";
       name = "armeb_xscale-packages-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/armeb_xscale/packages/packages.adb";
     };
@@ -47,7 +47,7 @@
   feeds."routing" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/armeb_xscale/routing/";
     sourceInfo = {
-      hash = "sha256-3ottvDuiJWaAzmF4S/bXbcyy/bjUTZcKbh40cwiSihE=";
+      hash = "sha256-62prh2/G6Xun578J/4mtUHX3LTWJoRefou4ggfV25Cw=";
       name = "armeb_xscale-routing-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/armeb_xscale/routing/packages.adb";
     };
@@ -60,7 +60,7 @@
   feeds."telephony" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/armeb_xscale/telephony/";
     sourceInfo = {
-      hash = "sha256-+quYXRYE92LBnMygr5DbPs8r9/+DnYPpANXLSrOxqd0=";
+      hash = "sha256-AMkUe2S7ghA8g3ucR1Gkp02lxsNpyXfiYDeWP00P+oU=";
       name = "armeb_xscale-telephony-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/armeb_xscale/telephony/packages.adb";
     };
