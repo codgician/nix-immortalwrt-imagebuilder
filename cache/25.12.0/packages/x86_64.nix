@@ -1,14 +1,14 @@
 # 25.12.0 package feeds for x86_64
 {
   sha256sums = {
-    hash = "sha256-K6L21XqoAGHW4NzLzsEnf/WoNNrwSqb7NNuO13M46Wk=";
+    hash = "sha256-IzQjq/N6SK3ZSCxae0m4iSy/a8bk/TOnXN7Kk3+kg0U=";
     name = "x86_64-sha256sums";
     url = "https://downloads.immortalwrt.org/releases/25.12.0/packages/x86_64/sha256sums";
   };
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0/packages/x86_64/base/";
     sourceInfo = {
-      hash = "sha256-Y9gwo8on+9TY86GGIW45hn04XwfuCDnDkpU1tWTN09M=";
+      hash = "sha256-QK3rbON4DuhWkEMch8NPn95bQD//HcbrWB6QHKDQtqE=";
       name = "x86_64-base-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0/packages/x86_64/base/packages.adb";
     };
@@ -21,7 +21,7 @@
   feeds."luci" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0/packages/x86_64/luci/";
     sourceInfo = {
-      hash = "sha256-dCxsUncSzYs0+pbSNY5U2HYKW4a8McF59mZmKbD6Vxo=";
+      hash = "sha256-HbkM9a9leov3sOqo7NuRxMiH5kzk5S9nNIuRoOGPdxI=";
       name = "x86_64-luci-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0/packages/x86_64/luci/packages.adb";
     };
@@ -34,7 +34,7 @@
   feeds."packages" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0/packages/x86_64/packages/";
     sourceInfo = {
-      hash = "sha256-VvssHAVmvnaf/A6gvA7ljptlffUsjCMA/X/Yq5u6u9U=";
+      hash = "sha256-VNr14tEzrEtTlXKes3nL5kInWN9UsXquBGHdY21jcTE=";
       name = "x86_64-packages-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0/packages/x86_64/packages/packages.adb";
     };
@@ -47,7 +47,7 @@
   feeds."routing" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0/packages/x86_64/routing/";
     sourceInfo = {
-      hash = "sha256-tkv1NkIm7tdNGxEq8VMD18jvI718wKQ1bG1w1sfZHDE=";
+      hash = "sha256-raJDMTZgR31x37jNCzIEHJwgG+rII/tMxU5CzIYi1Sc=";
       name = "x86_64-routing-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0/packages/x86_64/routing/packages.adb";
     };
@@ -60,7 +60,7 @@
   feeds."telephony" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0/packages/x86_64/telephony/";
     sourceInfo = {
-      hash = "sha256-PdGlrGrSwrsm/SlFcuaOzwxyVqNa326G0rrHNEXV7mo=";
+      hash = "sha256-EhwCjVkC4CHz1U94ksTZC1Zv3hbEJgBnOx/4xEg8bkY=";
       name = "x86_64-telephony-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0/packages/x86_64/telephony/packages.adb";
     };
