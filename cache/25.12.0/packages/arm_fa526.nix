@@ -1,14 +1,14 @@
 # 25.12.0 package feeds for arm_fa526
 {
   sha256sums = {
-    hash = "sha256-8BCAdQjvs9XdTwXSwDj1eDDiWE1V2mH6+ECmBPDkq90=";
+    hash = "sha256-q26nEtsthmIWXkmMZ4poc9uqpNQ70zA7r+eo7uQdHPc=";
     name = "arm_fa526-sha256sums";
     url = "https://downloads.immortalwrt.org/releases/25.12.0/packages/arm_fa526/sha256sums";
   };
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/25.12.0/packages/arm_fa526/base/";
     sourceInfo = {
-      hash = "sha256-3ph6S22WuPQNHnpvl4WJao1mCwbysEYEoQji0uPZtR0=";
+      hash = "sha256-9LdLf0RfgW9H2vouB/bfMwHqw62DOaLPCOmdtZNvYwE=";
       name = "arm_fa526-base-packages.adb";
       url = "https://downloads.immortalwrt.org/releases/25.12.0/packages/arm_fa526/base/packages.adb";
     };
