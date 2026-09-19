@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt7621/";
   sha256sums = {
-    hash = "sha256-k24udC+3bSJEUIo5882x2OGsdTzw/4pyr2YyqxdaAUA=";
+    hash = "sha256-lVlPia3hJYKvUeO8WhcHuFGtQybTkTgRdcCtsmMYWHA=";
     name = "ramips_mt7621-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt7621/sha256sums";
   };
   imagebuilder = {
-    sha256 = "b72f52dac0ce2a562c66fddd9a1f7bfdd25c6ee261c096c5120071ddda1c30e3";
+    sha256 = "961cd0fcee1ad86ba2ebf7a4253a3ed4e49242c07f638bf0b4e70c3939a468ad";
     filename = "immortalwrt-imagebuilder-ramips-mt7621.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-oaCvGMtvfxJH/KUjMI23aAJbVEumZXpAEW2aG5v+Cx4=";
+    hash = "sha256-ow6vBZSKNrUdM6YGg03dP1C7P89iLNsg6Q2deNugUVk=";
     name = "ramips_mt7621-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt7621/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "mipsel_24kc";
     linux_kernel = {
       release = "1";
-      vermagic = "b8f0e0630ca2f3128a012ed591f5a99e";
-      version = "6.18.44";
+      vermagic = "19dfbe5c3fa9abe318169078fde54f65";
+      version = "6.18.52";
     };
     default_packages = [
       "apk-openssl"
@@ -53,7 +53,7 @@
       "urngd"
       "wpad-openssl"
     ];
-    kmods_target = "6.18.44-1-b8f0e0630ca2f3128a012ed591f5a99e";
+    kmods_target = "6.18.52-1-19dfbe5c3fa9abe318169078fde54f65";
     profiles = {
       adslr_g7 = {
         device_packages = [
@@ -2188,12 +2188,12 @@
       };
     };
   };
-  kmods."6.18.44-1-b8f0e0630ca2f3128a012ed591f5a99e" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt7621/kmods/6.18.44-1-b8f0e0630ca2f3128a012ed591f5a99e/";
+  kmods."6.18.52-1-19dfbe5c3fa9abe318169078fde54f65" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt7621/kmods/6.18.52-1-19dfbe5c3fa9abe318169078fde54f65/";
     sourceInfo = {
-      hash = "sha256-cH56g66XXHrgV8ftPn4fDh4SaGzBPTLd/l3Ltog4rPE=";
+      hash = "sha256-v2g3gEAC3KJaIGgfvEnMPNO2jOZPg0IUTFcrh0aLpKA=";
       name = "kmods-ramips_mt7621-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt7621/kmods/6.18.44-1-b8f0e0630ca2f3128a012ed591f5a99e/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt7621/kmods/6.18.52-1-19dfbe5c3fa9abe318169078fde54f65/packages.adb";
     };
     packages =
       let
@@ -2204,7 +2204,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt7621/packages/";
     sourceInfo = {
-      hash = "sha256-phZ5YWsw+9DQyRwUuO7ohBNOUKrFijSVr0MHPVsJVjY=";
+      hash = "sha256-Iz+nrCGBD8fVlLtZABiuuLo0KD8Zx7VW6z8E+ds66oc=";
       name = "ramips_mt7621-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt7621/packages/packages.adb";
     };

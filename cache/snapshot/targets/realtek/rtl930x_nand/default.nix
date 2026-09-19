@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x_nand/";
   sha256sums = {
-    hash = "sha256-a8xPcKLUOOps9RsIeTXOCSeOlFwZCwrTuYIi5Kz5dA0=";
+    hash = "sha256-j9m5zAmriCcjDvi+S2F9Bt1s7hS3CEOMX32FIG9tXik=";
     name = "realtek_rtl930x_nand-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x_nand/sha256sums";
   };
   imagebuilder = {
-    sha256 = "9e2a80c2e2f476c50c905450af20a02e3eee8dd1d7f6b2cceb9890d7b296c2d5";
+    sha256 = "aa93d0648231b8ab29a36f840be0bf24bb800df86ec8804610a50159af58187a";
     filename = "immortalwrt-imagebuilder-realtek-rtl930x_nand.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-WxbiGJpONjwhUdH7ikB40K/XpvfraTUA/Qp0RG5VdmQ=";
+    hash = "sha256-GWLJTL9Gh56T4yil9ZVG+OAdoU4LfyW7L00F1P6gmKc=";
     name = "realtek_rtl930x_nand-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x_nand/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "mips_24kc";
     linux_kernel = {
       release = "1";
-      vermagic = "ea2e151ad3a159d1690f41a74a24e175";
-      version = "6.18.44";
+      vermagic = "b11167f409eb28de95137da7ef2571c2";
+      version = "6.18.52";
     };
     default_packages = [
       "apk-openssl"
@@ -45,7 +45,7 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.18.44-1-ea2e151ad3a159d1690f41a74a24e175";
+    kmods_target = "6.18.52-1-b11167f409eb28de95137da7ef2571c2";
     profiles = {
       linksys_lgs328c = {
         device_packages = [ ];
@@ -58,12 +58,12 @@
       };
     };
   };
-  kmods."6.18.44-1-ea2e151ad3a159d1690f41a74a24e175" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x_nand/kmods/6.18.44-1-ea2e151ad3a159d1690f41a74a24e175/";
+  kmods."6.18.52-1-b11167f409eb28de95137da7ef2571c2" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x_nand/kmods/6.18.52-1-b11167f409eb28de95137da7ef2571c2/";
     sourceInfo = {
-      hash = "sha256-k4OMSHkIUZ48l5Sxg+88f9EfReRKl4xudqd34VQR2uU=";
+      hash = "sha256-X9ilpuuGW1TuF5bDWRzHOCB6EZe7gnLds5Aq/jiYnx4=";
       name = "kmods-realtek_rtl930x_nand-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x_nand/kmods/6.18.44-1-ea2e151ad3a159d1690f41a74a24e175/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x_nand/kmods/6.18.52-1-b11167f409eb28de95137da7ef2571c2/packages.adb";
     };
     packages =
       let
@@ -74,7 +74,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x_nand/packages/";
     sourceInfo = {
-      hash = "sha256-UXYxDtxkH9SzGMg0dF3t4USzgHCTFb4zCkfclocUE5g=";
+      hash = "sha256-TW8w6Ojj02WuJgRigcGySFP3IxAs4ehCsOiHSP2HjrY=";
       name = "realtek_rtl930x_nand-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl930x_nand/packages/packages.adb";
     };

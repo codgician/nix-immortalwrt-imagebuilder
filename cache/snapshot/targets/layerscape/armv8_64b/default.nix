@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/layerscape/armv8_64b/";
   sha256sums = {
-    hash = "sha256-y73lG81lLkQEKdBfylyK+VXDap3vn/jPCYDQHH/3Uoc=";
+    hash = "sha256-RWTA9HruG7WZ58m78Z6AnO7rnXHBB54esxr7F06Zavw=";
     name = "layerscape_armv8_64b-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/layerscape/armv8_64b/sha256sums";
   };
   imagebuilder = {
-    sha256 = "dd4db784a5466561cbd763d06ca2221bbc57d6244cfe19c58f59a3e88c96e8c9";
+    sha256 = "be2d1617a68a7aba7a7f2a7074f1ca45da878d38d18e2286b9e15b241976d251";
     filename = "immortalwrt-imagebuilder-layerscape-armv8_64b.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-0xkdTsyOsWoUpPlvPiisyodUQwW7KbPjJY2OqwP0PEA=";
+    hash = "sha256-M7igPCLVyWSq/ifnEVky5UuvEO+j29WJtHNOPogmJzw=";
     name = "layerscape_armv8_64b-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/layerscape/armv8_64b/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "aarch64_generic";
     linux_kernel = {
       release = "1";
-      vermagic = "6572810ab88e64819d8684a4df7f2a41";
-      version = "6.18.44";
+      vermagic = "9c7c01bbfd8625d14b6acacd537848d8";
+      version = "6.18.52";
     };
     default_packages = [
       "apk-openssl"
@@ -54,7 +54,7 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.18.44-1-6572810ab88e64819d8684a4df7f2a41";
+    kmods_target = "6.18.52-1-9c7c01bbfd8625d14b6acacd537848d8";
     profiles = {
       fsl_ls1012a-frdm = {
         device_packages = [
@@ -164,12 +164,12 @@
       };
     };
   };
-  kmods."6.18.44-1-6572810ab88e64819d8684a4df7f2a41" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/layerscape/armv8_64b/kmods/6.18.44-1-6572810ab88e64819d8684a4df7f2a41/";
+  kmods."6.18.52-1-9c7c01bbfd8625d14b6acacd537848d8" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/layerscape/armv8_64b/kmods/6.18.52-1-9c7c01bbfd8625d14b6acacd537848d8/";
     sourceInfo = {
-      hash = "sha256-JOzqcrC2DSLRfSlJbKWA2DqOzY/s9ejp+iGZg4iNUb0=";
+      hash = "sha256-4PV7xjz3TPFy9r49KYz6F0qWMiK7XiFkBrT8WD81rkQ=";
       name = "kmods-layerscape_armv8_64b-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/layerscape/armv8_64b/kmods/6.18.44-1-6572810ab88e64819d8684a4df7f2a41/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/layerscape/armv8_64b/kmods/6.18.52-1-9c7c01bbfd8625d14b6acacd537848d8/packages.adb";
     };
     packages =
       let
@@ -180,7 +180,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/layerscape/armv8_64b/packages/";
     sourceInfo = {
-      hash = "sha256-OVqAeo+iTo5m9T84GiQICWrTHjcobRodZzyyZlVGCEg=";
+      hash = "sha256-0XpZs0SAo4qKHl+r5C8H6SXwhY03BjQ9wtNxEUbKzQI=";
       name = "layerscape_armv8_64b-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/layerscape/armv8_64b/packages/packages.adb";
     };
