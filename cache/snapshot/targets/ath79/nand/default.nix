@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ath79/nand/";
   sha256sums = {
-    hash = "sha256-3b2grO07IVk9BI0EtWgI4YZYDuYypJvWFVZO9sOivl8=";
+    hash = "sha256-f4OML5T4MHv+AuZ/SaUMsY4TDGd0EltJNDYFaOY+q0E=";
     name = "ath79_nand-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/ath79/nand/sha256sums";
   };
   imagebuilder = {
-    sha256 = "9a3a918755e29e7e82b990d757d019f719fc366084adb4a377cd9c7a3f7ec2c3";
+    sha256 = "b1def1fe9516390e2a144ca6d0ad436f3e3746d50b242bd44c49875b49bd5897";
     filename = "immortalwrt-imagebuilder-ath79-nand.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-8xmzmyaJiy0v4VmDtDKuP6EupwWIA1S+PzreZgCmvtM=";
+    hash = "sha256-6ts9gSfCjcM82nkKWo/jSn/SEYYgCdoTS0WTM5GMp/M=";
     name = "ath79_nand-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/ath79/nand/profiles.json";
   };
@@ -19,7 +19,7 @@
     arch_packages = "mips_24kc";
     linux_kernel = {
       release = "1";
-      vermagic = "94b9c06cd33c5ffa6ad9188beb4fee7a";
+      vermagic = "f34fe64dae44a3bcb60d02e77a04c9f4";
       version = "6.18.52";
     };
     default_packages = [
@@ -53,7 +53,7 @@
       "urngd"
       "wpad-openssl"
     ];
-    kmods_target = "6.18.52-1-94b9c06cd33c5ffa6ad9188beb4fee7a";
+    kmods_target = "6.18.52-1-f34fe64dae44a3bcb60d02e77a04c9f4";
     profiles = {
       "8dev_rambutan" = {
         device_packages = [ "kmod-usb2" ];
@@ -317,12 +317,12 @@
       };
     };
   };
-  kmods."6.18.52-1-94b9c06cd33c5ffa6ad9188beb4fee7a" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ath79/nand/kmods/6.18.52-1-94b9c06cd33c5ffa6ad9188beb4fee7a/";
+  kmods."6.18.52-1-f34fe64dae44a3bcb60d02e77a04c9f4" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ath79/nand/kmods/6.18.52-1-f34fe64dae44a3bcb60d02e77a04c9f4/";
     sourceInfo = {
-      hash = "sha256-j1tG8WMSKPNB6F0dNOCu0SbKAFoOJQPwiY96AvwIDUA=";
+      hash = "sha256-zEVjWvk8FruvVWE6gbCofOtfx+obeayRkEnPOfxBDDM=";
       name = "kmods-ath79_nand-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/ath79/nand/kmods/6.18.52-1-94b9c06cd33c5ffa6ad9188beb4fee7a/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/ath79/nand/kmods/6.18.52-1-f34fe64dae44a3bcb60d02e77a04c9f4/packages.adb";
     };
     packages =
       let
@@ -333,7 +333,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ath79/nand/packages/";
     sourceInfo = {
-      hash = "sha256-AztVsk7XIEtPQVKVd41DhfTE7gjTwEiTsVEN72eo6j0=";
+      hash = "sha256-WC/JYdUwzuCVQsREunCQuDDOTGUMkiucC2cz7sINPeU=";
       name = "ath79_nand-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/ath79/nand/packages/packages.adb";
     };

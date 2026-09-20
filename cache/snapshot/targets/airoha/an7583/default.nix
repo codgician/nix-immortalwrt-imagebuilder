@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/airoha/an7583/";
   sha256sums = {
-    hash = "sha256-X6Rq0UcGOhmsNuiSSuuvKDWB3w4linT5OfAkZoJTpV8=";
+    hash = "sha256-jhr69gE6sAenbTFe9Ho0wttPRmdMsY5aLoGMR6QSXLo=";
     name = "airoha_an7583-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/airoha/an7583/sha256sums";
   };
   imagebuilder = {
-    sha256 = "30fec0f7839a3fdbc110247f7c1b612c44ed97e5a2f4f7933c1e17a788cd509a";
+    sha256 = "2d04f26b50db4d9dc9111d985f8c1eec8ca288ae1fa48dbd4a915417851311ed";
     filename = "immortalwrt-imagebuilder-airoha-an7583.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-22lwkcZeu5kK25dcZM5ZlObFi/GUUEkPl+e02peVnIA=";
+    hash = "sha256-93xSOMQhSDYlijlNPBn7GLtAj3qZHlnQk7A8HF1yO+4=";
     name = "airoha_an7583-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/airoha/an7583/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "aarch64_cortex-a53";
     linux_kernel = {
       release = "1";
-      vermagic = "cf56cd4a6c48d9b280550358883479e1";
-      version = "6.18.44";
+      vermagic = "69bf3ff79605836797421612f1f53840";
+      version = "6.18.52";
     };
     default_packages = [
       "airoha-an7583-npu-firmware"
@@ -54,11 +54,11 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.18.44-1-cf56cd4a6c48d9b280550358883479e1";
+    kmods_target = "6.18.52-1-69bf3ff79605836797421612f1f53840";
     profiles = {
       airoha_an7583-evb = {
         device_packages = [
-          "kmod-phy-aeonsemi-as21xxx"
+          "aeonsemi-as21xxx-firmware"
           "kmod-leds-pwm"
           "kmod-pwm-airoha"
           "kmod-input-gpio-keys-polled"
@@ -84,12 +84,12 @@
       };
     };
   };
-  kmods."6.18.44-1-cf56cd4a6c48d9b280550358883479e1" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/airoha/an7583/kmods/6.18.44-1-cf56cd4a6c48d9b280550358883479e1/";
+  kmods."6.18.52-1-69bf3ff79605836797421612f1f53840" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/airoha/an7583/kmods/6.18.52-1-69bf3ff79605836797421612f1f53840/";
     sourceInfo = {
-      hash = "sha256-1mHRPfO3CnNDFmIuXCO9bfznid9fzj+0SPQUfW8ck5M=";
+      hash = "sha256-52JJMtFqOPvwMhBglizklW8AO6o+eArn8piRgp9hGTk=";
       name = "kmods-airoha_an7583-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/airoha/an7583/kmods/6.18.44-1-cf56cd4a6c48d9b280550358883479e1/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/airoha/an7583/kmods/6.18.52-1-69bf3ff79605836797421612f1f53840/packages.adb";
     };
     packages =
       let
@@ -100,7 +100,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/airoha/an7583/packages/";
     sourceInfo = {
-      hash = "sha256-fJNDn660//eqOJdSx/GDycNxOHdgvTtmtKCIQ6rpOjE=";
+      hash = "sha256-Mf0Cl0lfx1BOxC1kktXHSAFmijc6Sy4yACl3hpLfNtk=";
       name = "airoha_an7583-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/airoha/an7583/packages/packages.adb";
     };
