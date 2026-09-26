@@ -1,14 +1,14 @@
 # 24.10.1 package feeds for aarch64_cortex-a53
 {
   sha256sums = {
-    hash = "sha256-1pZ9ihXMT5mMadJSAI3mlq0Wr161V2UViVM/Y5LumgY=";
+    hash = "sha256-/Sa4kEEL954+XOCnqgXsbu9SsNxQo7Kx59bohF3Zl8c=";
     name = "aarch64_cortex-a53-sha256sums";
     url = "https://downloads.immortalwrt.org/releases/24.10.1/packages/aarch64_cortex-a53/sha256sums";
   };
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.1/packages/aarch64_cortex-a53/base/";
     sourceInfo = {
-      hash = "sha256-WKWcPGkGHwfBNXP8yPgZsauzdhGFp/3ucozCx2sWtsI=";
+      hash = "sha256-EJdUGxHeSamaVsXvJvzXleK5cchD8eGLCsUMdk6WsH0=";
       name = "aarch64_cortex-a53-base-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.1/packages/aarch64_cortex-a53/base/Packages";
     };
@@ -21,7 +21,7 @@
   feeds."luci" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.1/packages/aarch64_cortex-a53/luci/";
     sourceInfo = {
-      hash = "sha256-yCoIdKsqqZw/ayWmcPp5twh+z+14bLmxggSWCmfSwh8=";
+      hash = "sha256-g3MVJ4HhpzSJf0TIccqvVQqMElXrZN7me16Yaeurb6s=";
       name = "aarch64_cortex-a53-luci-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.1/packages/aarch64_cortex-a53/luci/Packages";
     };
@@ -34,7 +34,7 @@
   feeds."packages" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.1/packages/aarch64_cortex-a53/packages/";
     sourceInfo = {
-      hash = "sha256-SI+mMOHzPDhu+rFuwdkXPBdsCmvUkoY8+IzooUjcSiw=";
+      hash = "sha256-iSYN9RA1Bd2hwjt+D1C0fn5J33MFAjlb/XmCIW4MqJU=";
       name = "aarch64_cortex-a53-packages-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.1/packages/aarch64_cortex-a53/packages/Packages";
     };
@@ -47,7 +47,7 @@
   feeds."routing" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.1/packages/aarch64_cortex-a53/routing/";
     sourceInfo = {
-      hash = "sha256-+4kUCNrGucUIoaIclR8VLyr9rM9entyPhvuxdRVTpn8=";
+      hash = "sha256-GMG9fEY3hw3uX6o1lKc4Qpjk4++waY0WBC3AXMPULl8=";
       name = "aarch64_cortex-a53-routing-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.1/packages/aarch64_cortex-a53/routing/Packages";
     };
@@ -60,7 +60,7 @@
   feeds."telephony" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.1/packages/aarch64_cortex-a53/telephony/";
     sourceInfo = {
-      hash = "sha256-EdIYXOJxQHmnMGWNl9vJ4JkT1z/60Moul+V4Xe8Vgk0=";
+      hash = "sha256-OQlVHPC2l7ixr0BbExX6konI3sQyW58Gtf/QG857fMI=";
       name = "aarch64_cortex-a53-telephony-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.1/packages/aarch64_cortex-a53/telephony/Packages";
     };
