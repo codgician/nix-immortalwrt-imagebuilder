@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ath79/mikrotik/";
   sha256sums = {
-    hash = "sha256-+Qd52DtljrLirfJ26g5Evp3AJenwLdQOr6QicFOiu1M=";
+    hash = "sha256-C2T5BBFlatemEy3JKykpKd1karCE17+VYDMtJpGcp4M=";
     name = "ath79_mikrotik-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/ath79/mikrotik/sha256sums";
   };
   imagebuilder = {
-    sha256 = "429b834d9cbcd17d66b8810d68eacb855493e447af3cef69268a30f37fc6a296";
+    sha256 = "98545a492ad869608b441e4b9423325a7bf8669423809c89163d56fb8d260ca9";
     filename = "immortalwrt-imagebuilder-ath79-mikrotik.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-Cr9dI67yc71ghZjq3SpAyJRuz6vpwPgJJL9xVoZDrKM=";
+    hash = "sha256-oVg+dBxVEVSQHdX44fSF/KcJuVY2MCqffCAoZgHp0jM=";
     name = "ath79_mikrotik-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/ath79/mikrotik/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "mips_24kc";
     linux_kernel = {
       release = "1";
-      vermagic = "e0b4df071d49b8f6537d8bac466f3d16";
-      version = "6.18.52";
+      vermagic = "3806238685fc7fee437af242bea2e86e";
+      version = "6.18.55";
     };
     default_packages = [
       "apk-openssl"
@@ -56,7 +56,7 @@
       "wpad-openssl"
       "yafut"
     ];
-    kmods_target = "6.18.52-1-e0b4df071d49b8f6537d8bac466f3d16";
+    kmods_target = "6.18.55-1-3806238685fc7fee437af242bea2e86e";
     profiles = {
       mikrotik_routerboard-2011uias-2hnd = {
         device_packages = [
@@ -123,7 +123,6 @@
           "kmod-usb-ohci"
           "kmod-usb2"
           "kmod-dsa-qca8k"
-          "kmod-phy-qca83xx"
           "-swconfig"
           "-kmod-switch-ar8xxx"
         ];
@@ -167,7 +166,6 @@
           "kmod-i2c-gpio"
           "kmod-sfp"
           "kmod-dsa-qca8k"
-          "kmod-phy-qca83xx"
           "-swconfig"
           "-kmod-switch-ar8xxx"
         ];
@@ -216,12 +214,12 @@
       };
     };
   };
-  kmods."6.18.52-1-e0b4df071d49b8f6537d8bac466f3d16" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ath79/mikrotik/kmods/6.18.52-1-e0b4df071d49b8f6537d8bac466f3d16/";
+  kmods."6.18.55-1-3806238685fc7fee437af242bea2e86e" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ath79/mikrotik/kmods/6.18.55-1-3806238685fc7fee437af242bea2e86e/";
     sourceInfo = {
-      hash = "sha256-gygRGOxnWnwL7054S2GATzZ/lPaGaSASDVNG5HgqumQ=";
+      hash = "sha256-5/a91k5kd8LtAPnRSiALp7QI4jmBi0xVpmfXvplOggw=";
       name = "kmods-ath79_mikrotik-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/ath79/mikrotik/kmods/6.18.52-1-e0b4df071d49b8f6537d8bac466f3d16/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/ath79/mikrotik/kmods/6.18.55-1-3806238685fc7fee437af242bea2e86e/packages.adb";
     };
     packages =
       let
@@ -232,7 +230,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ath79/mikrotik/packages/";
     sourceInfo = {
-      hash = "sha256-aXneNBdyjR22Oo4w0oridaDS48eLbeUS0kxmHeFDHuU=";
+      hash = "sha256-wrfKTROrBysmwysSjwpWIGY9LFEV8N27FzZI9dox3h8=";
       name = "ath79_mikrotik-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/ath79/mikrotik/packages/packages.adb";
     };
