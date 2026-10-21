@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/mikrotik/";
   sha256sums = {
-    hash = "sha256-sUFJOiWCOFp+9sqC8NaSSBSKxu759Rw9P4rE+0xgz8o=";
+    hash = "sha256-/AlK5+jbHKVcH+cDfjuuGGHviRujB/VimZLzCdnK/5E=";
     name = "ipq40xx_mikrotik-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/mikrotik/sha256sums";
   };
   imagebuilder = {
-    sha256 = "08a5ecbb40ef97598742e4b5e70597a9d0b5758c4c88c369fa544686bd3c1a31";
+    sha256 = "c15760aff58eb35d29dd3ce4d850d7cdb1dd49fd121474d18380f3826c691daf";
     filename = "immortalwrt-imagebuilder-ipq40xx-mikrotik.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-5c3eTI5rQuwxDPrR0hSRtou1CQaGpfOA15mMGupxLWY=";
+    hash = "sha256-xFgfjBJ11D9BXQIecWquTEeasEOESMY3i64W7H+GCl8=";
     name = "ipq40xx_mikrotik-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/mikrotik/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "arm_cortex-a7_neon-vfpv4";
     linux_kernel = {
       release = "1";
-      vermagic = "71803117a131680458594cb86bc7f615";
-      version = "6.18.52";
+      vermagic = "6b79cbbf97fcec20686d831bef7873d6";
+      version = "6.18.55";
     };
     default_packages = [
       "apk-openssl"
@@ -59,7 +59,7 @@
       "urngd"
       "wpad-openssl"
     ];
-    kmods_target = "6.18.52-1-71803117a131680458594cb86bc7f615";
+    kmods_target = "6.18.55-1-6b79cbbf97fcec20686d831bef7873d6";
     profiles = {
       mikrotik_cap-ac = {
         device_packages = [
@@ -119,12 +119,12 @@
       };
     };
   };
-  kmods."6.18.52-1-71803117a131680458594cb86bc7f615" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/mikrotik/kmods/6.18.52-1-71803117a131680458594cb86bc7f615/";
+  kmods."6.18.55-1-6b79cbbf97fcec20686d831bef7873d6" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/mikrotik/kmods/6.18.55-1-6b79cbbf97fcec20686d831bef7873d6/";
     sourceInfo = {
-      hash = "sha256-BuZt8uLGnUJgi97r3iBVeGLXSfQX80CkhDEq6ecKmS0=";
+      hash = "sha256-acjo+89VYWMnQd5o2nkRboPWRs9hudCp5sKwA/+MWZ4=";
       name = "kmods-ipq40xx_mikrotik-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/mikrotik/kmods/6.18.52-1-71803117a131680458594cb86bc7f615/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/mikrotik/kmods/6.18.55-1-6b79cbbf97fcec20686d831bef7873d6/packages.adb";
     };
     packages =
       let
@@ -135,7 +135,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/mikrotik/packages/";
     sourceInfo = {
-      hash = "sha256-KblYHP2PGviWh0/szamSjkolEvia3iKOFD4VlC1+9AQ=";
+      hash = "sha256-+AKjL0feYYKpxSy8X+/SrRK+rl+uIRYeTFISZyApYa0=";
       name = "ipq40xx_mikrotik-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/mikrotik/packages/packages.adb";
     };

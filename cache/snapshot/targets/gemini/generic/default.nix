@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/gemini/generic/";
   sha256sums = {
-    hash = "sha256-nJI6c7kU6NUu0UufaGs7txhO/ZucEstE4nkLZ7TOJ5s=";
+    hash = "sha256-wxOu0f61RY8dSYISy6IM+GHvEk31foi1oiWB3NcdJlU=";
     name = "gemini_generic-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/gemini/generic/sha256sums";
   };
   imagebuilder = {
-    sha256 = "1a66c40769c563db6bcb47166476e60547ad9700ef13d7a9eaa572e67bbbf87e";
+    sha256 = "b376fbdddd351f058abc6f4cf82f2d9201fddfbc2c8d569b541c40cb1c103b55";
     filename = "immortalwrt-imagebuilder-gemini-generic.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-LYOrroO8l1FLXB+wI67uTnYVcfDhKbGcbgrgbaQGanY=";
+    hash = "sha256-YldOCV3RvM8TVrviWWMBpzPlbA017CumUug12453rro=";
     name = "gemini_generic-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/gemini/generic/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "arm_fa526";
     linux_kernel = {
       release = "1";
-      vermagic = "5a3cf3eeb574056f1b3df822dfbd055f";
-      version = "6.18.52";
+      vermagic = "17561a6e777cd0d7523f432926c14d2a";
+      version = "6.18.55";
     };
     default_packages = [
       "apk-openssl"
@@ -51,8 +51,9 @@
       "uclient-fetch"
       "urandom-seed"
       "urngd"
+      "video-support"
     ];
-    kmods_target = "6.18.52-1-5a3cf3eeb574056f1b3df822dfbd055f";
+    kmods_target = "6.18.55-1-17561a6e777cd0d7523f432926c14d2a";
     profiles = {
       dlink_dir-685 = {
         device_packages = [
@@ -71,7 +72,6 @@
           "kmod-fs-nfs"
           "kmod-fs-nfsd"
           "kmod-fs-ntfs3"
-          "kmod-fs-reiserfs"
           "kmod-fs-vfat"
           "kmod-nls-utf8"
           "kmod-usb-storage-extras"
@@ -100,7 +100,6 @@
           "kmod-fs-nfs"
           "kmod-fs-nfsd"
           "kmod-fs-ntfs3"
-          "kmod-fs-reiserfs"
           "kmod-fs-vfat"
           "kmod-nls-utf8"
           "kmod-usb-storage-extras"
@@ -129,7 +128,6 @@
           "kmod-fs-nfs"
           "kmod-fs-nfsd"
           "kmod-fs-ntfs3"
-          "kmod-fs-reiserfs"
           "kmod-fs-vfat"
           "kmod-nls-utf8"
           "kmod-usb-storage-extras"
@@ -160,7 +158,6 @@
           "kmod-fs-nfs"
           "kmod-fs-nfsd"
           "kmod-fs-ntfs3"
-          "kmod-fs-reiserfs"
           "kmod-fs-vfat"
           "kmod-nls-utf8"
           "kmod-usb-storage-extras"
@@ -188,7 +185,6 @@
           "kmod-fs-nfs"
           "kmod-fs-nfsd"
           "kmod-fs-ntfs3"
-          "kmod-fs-reiserfs"
           "kmod-fs-vfat"
           "kmod-nls-utf8"
           "kmod-usb-storage-extras"
@@ -216,7 +212,6 @@
           "kmod-fs-nfs"
           "kmod-fs-nfsd"
           "kmod-fs-ntfs3"
-          "kmod-fs-reiserfs"
           "kmod-fs-vfat"
           "kmod-nls-utf8"
           "kmod-usb-storage-extras"
@@ -245,7 +240,6 @@
           "kmod-fs-nfs"
           "kmod-fs-nfsd"
           "kmod-fs-ntfs3"
-          "kmod-fs-reiserfs"
           "kmod-fs-vfat"
           "kmod-nls-utf8"
           "kmod-usb-storage-extras"
@@ -258,12 +252,12 @@
       };
     };
   };
-  kmods."6.18.52-1-5a3cf3eeb574056f1b3df822dfbd055f" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/gemini/generic/kmods/6.18.52-1-5a3cf3eeb574056f1b3df822dfbd055f/";
+  kmods."6.18.55-1-17561a6e777cd0d7523f432926c14d2a" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/gemini/generic/kmods/6.18.55-1-17561a6e777cd0d7523f432926c14d2a/";
     sourceInfo = {
-      hash = "sha256-zuKOwYkTK37u7VMlv/cwg0YOHbAGPAQAMOEOdZT8kws=";
+      hash = "sha256-lrLehUtR5UenE7yp4E1C28KeWFD8RBtW/X5Y3BAqlQs=";
       name = "kmods-gemini_generic-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/gemini/generic/kmods/6.18.52-1-5a3cf3eeb574056f1b3df822dfbd055f/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/gemini/generic/kmods/6.18.55-1-17561a6e777cd0d7523f432926c14d2a/packages.adb";
     };
     packages =
       let
@@ -274,7 +268,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/gemini/generic/packages/";
     sourceInfo = {
-      hash = "sha256-RUVbN+PtzFN961UqsB9S3k1UJpHKsi0BxS6XOcHkOn0=";
+      hash = "sha256-tkKcpYfvBiA15qyCrY3SFFzyBtnN/qgQ1Rgvz/u7O8c=";
       name = "gemini_generic-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/gemini/generic/packages/packages.adb";
     };

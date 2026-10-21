@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/arm926ejs/";
   sha256sums = {
-    hash = "sha256-tEMtjaU42x9OL1QfMdXrqerYg+tssgGM7A/eB96qgAU=";
+    hash = "sha256-H2P/RyZl+P1RALZYn5bKNfh2Vk+9wu3GB0xVgMtumTY=";
     name = "sunxi_arm926ejs-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/arm926ejs/sha256sums";
   };
   imagebuilder = {
-    sha256 = "0d3506dc76ce558867ecf7764551fd9296a37142356079ac8bdd8465eef9446b";
+    sha256 = "ab49ad60de6fc5a139406f75aa5a1174406537237d18c7f15d8c55e5e41c7110";
     filename = "immortalwrt-imagebuilder-sunxi-arm926ejs.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-c02tw9GgjihdxdqlEBU+E6Yg6F7D/CzbAHfZVG1WiJc=";
+    hash = "sha256-Aa2QR2u9HMej/Q1RKMtdS1OkJdAm5/3EyKIbbSZZh6A=";
     name = "sunxi_arm926ejs-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/arm926ejs/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "arm_arm926ej-s";
     linux_kernel = {
       release = "1";
-      vermagic = "453752456978189e255a0fdfb6619ace";
-      version = "6.18.52";
+      vermagic = "9436481ca4f6313451143d4b6935e993";
+      version = "6.18.55";
     };
     default_packages = [
       "apk-openssl"
@@ -52,8 +52,9 @@
       "uclient-fetch"
       "urandom-seed"
       "urngd"
+      "video-support"
     ];
-    kmods_target = "6.18.52-1-453752456978189e255a0fdfb6619ace";
+    kmods_target = "6.18.55-1-9436481ca4f6313451143d4b6935e993";
     profiles = {
       licheepi_licheepi-nano = {
         device_packages = [ "kmod-rtc-sunxi" ];
@@ -63,12 +64,12 @@
       };
     };
   };
-  kmods."6.18.52-1-453752456978189e255a0fdfb6619ace" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/arm926ejs/kmods/6.18.52-1-453752456978189e255a0fdfb6619ace/";
+  kmods."6.18.55-1-9436481ca4f6313451143d4b6935e993" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/arm926ejs/kmods/6.18.55-1-9436481ca4f6313451143d4b6935e993/";
     sourceInfo = {
-      hash = "sha256-qE1nkd6UOoYFojPaASq7QF7L9x+U2DPo/hur8yzxdTw=";
+      hash = "sha256-tyWsNMc/79rsfjWevyZjcsc7qjCS//N7xv661eWJwVk=";
       name = "kmods-sunxi_arm926ejs-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/arm926ejs/kmods/6.18.52-1-453752456978189e255a0fdfb6619ace/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/arm926ejs/kmods/6.18.55-1-9436481ca4f6313451143d4b6935e993/packages.adb";
     };
     packages =
       let
@@ -79,7 +80,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/arm926ejs/packages/";
     sourceInfo = {
-      hash = "sha256-K1lBzgTYRrQDz169D90AbBAXSqiLpJfdwwI3gUnFOpQ=";
+      hash = "sha256-A7LJSX2KIow/qd0NoCFrlnMW/ktxPa9MfsUKU/H2R2c=";
       name = "sunxi_arm926ejs-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/sunxi/arm926ejs/packages/packages.adb";
     };

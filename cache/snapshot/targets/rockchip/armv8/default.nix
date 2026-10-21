@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/rockchip/armv8/";
   sha256sums = {
-    hash = "sha256-poD8/JHlxymvmBZQKC0blezxR7a1I97EgjoRb1pEfFM=";
+    hash = "sha256-S1UL1FwQOwo8kLW2Aqat18YBYOnUptkHO1rIeDAyt7w=";
     name = "rockchip_armv8-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/rockchip/armv8/sha256sums";
   };
   imagebuilder = {
-    sha256 = "664e91a7e74ab65a7c6b8605e0089c233e2941a01b25b49789e1700fc1de6fd9";
+    sha256 = "22470e08cb5b99bd81e697614e115bbdde329ca636e018d3356db4d143a2bf4a";
     filename = "immortalwrt-imagebuilder-rockchip-armv8.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-z0NfrhDSnXeBWGF1Z0dde3AsAayUSkMiab+rMR4RRt8=";
+    hash = "sha256-ThjAialuQQyhZl/eDaoj/PSpaRpHcUwMp2HS7buEz7Q=";
     name = "rockchip_armv8-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/rockchip/armv8/profiles.json";
   };
@@ -19,7 +19,7 @@
     arch_packages = "aarch64_generic";
     linux_kernel = {
       release = "1";
-      vermagic = "bdf12f5842797b5bd34b71a7110a2e84";
+      vermagic = "f0ca890aed2b03ac9e16d9f5e37b343b";
       version = "6.18.55";
     };
     default_packages = [
@@ -55,7 +55,7 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.18.55-1-bdf12f5842797b5bd34b71a7110a2e84";
+    kmods_target = "6.18.55-1-f0ca890aed2b03ac9e16d9f5e37b343b";
     profiles = {
       "9tripod_x3568-v4" = {
         device_packages = [
@@ -499,12 +499,12 @@
       };
     };
   };
-  kmods."6.18.55-1-bdf12f5842797b5bd34b71a7110a2e84" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/rockchip/armv8/kmods/6.18.55-1-bdf12f5842797b5bd34b71a7110a2e84/";
+  kmods."6.18.55-1-f0ca890aed2b03ac9e16d9f5e37b343b" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/rockchip/armv8/kmods/6.18.55-1-f0ca890aed2b03ac9e16d9f5e37b343b/";
     sourceInfo = {
-      hash = "sha256-5o5yH8vy1VmyxUCYFuUy6eUcKFsk0FQsdb2LgRZy9Lc=";
+      hash = "sha256-l7kU3Cegg9uTQPQXD7QCddyYZ/nhmmHkRBpu7QPG7mU=";
       name = "kmods-rockchip_armv8-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/rockchip/armv8/kmods/6.18.55-1-bdf12f5842797b5bd34b71a7110a2e84/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/rockchip/armv8/kmods/6.18.55-1-f0ca890aed2b03ac9e16d9f5e37b343b/packages.adb";
     };
     packages =
       let
@@ -515,7 +515,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/rockchip/armv8/packages/";
     sourceInfo = {
-      hash = "sha256-Jz96fqyzr4O273ELJcdQqhqfDYaIaZJa268Sta7AyX4=";
+      hash = "sha256-q2rRpuVEcICoTcg3lIbSZUQKTD0HalJx5AlyjcGG1kw=";
       name = "rockchip_armv8-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/rockchip/armv8/packages/packages.adb";
     };

@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq50xx/";
   sha256sums = {
-    hash = "sha256-kjax9TZGXzKDFnY39NuZ8MIeDeYcCQAZRGtMFymmdTo=";
+    hash = "sha256-SHXvRWkZQbZMUyAKkRN2AIz2gJpmVQidypqCTVpLdWc=";
     name = "qualcommax_ipq50xx-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq50xx/sha256sums";
   };
   imagebuilder = {
-    sha256 = "e66f386123ddfb6b994074b618cba257c66f655827322b0d53d0346ecec24c2b";
+    sha256 = "b101456482b34c799f8cde9368d1267880d351a991522f235e6be99a7e422df1";
     filename = "immortalwrt-imagebuilder-qualcommax-ipq50xx.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-uiLyiW0UjJXrTu7kg2OOQkaXdnWQEaRG0lBWTX+z/2s=";
+    hash = "sha256-4wxtjt6n0jStSjTMrtEfbCrkEh7RzKrfLRYuOy4p62g=";
     name = "qualcommax_ipq50xx-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq50xx/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "aarch64_cortex-a53";
     linux_kernel = {
       release = "1";
-      vermagic = "6c5f2cdde6869bfb44cd915d3b0f1bf5";
-      version = "6.18.52";
+      vermagic = "e5165dcb325b32dcb817bc8c239288c9";
+      version = "6.18.55";
     };
     default_packages = [
       "apk-openssl"
@@ -59,8 +59,18 @@
       "urngd"
       "wpad-openssl"
     ];
-    kmods_target = "6.18.52-1-6c5f2cdde6869bfb44cd915d3b0f1bf5";
+    kmods_target = "6.18.55-1-e5165dcb325b32dcb817bc8c239288c9";
     profiles = {
+      avm_fritzbox-4050 = {
+        device_packages = [
+          "ath11k-firmware-ipq5018-qcn6122"
+          "ipq-wifi-avm_fritzbox-4050"
+          "fritz-caldata"
+          "-uboot-envtools"
+          "kmod-spi-gpio"
+          "kmod-gpio-nxp-74hc164"
+        ];
+      };
       cmcc_mr3000d-ci = {
         device_packages = [
           "ath11k-firmware-ipq5018-qcn6122"
@@ -68,6 +78,9 @@
         ];
       };
       cmcc_pz-l8 = {
+        device_packages = [ ];
+      };
+      cmcc_rax3000q = {
         device_packages = [ ];
       };
       elecom_wrc-x3000gs2 = {
@@ -89,10 +102,28 @@
           "dumpimage"
         ];
       };
+      glinet_gl-x2000 = {
+        device_packages = [
+          "ath11k-firmware-ipq5018-qcn6122"
+          "ipq-wifi-glinet_gl-x2000"
+          "kmod-hwmon-pwmfan"
+          "kmod-usb-net-qmi-wwan"
+          "kmod-usb-serial-option"
+          "dumpimage"
+        ];
+      };
       iodata_wn-dax3000gr = {
         device_packages = [
           "ath11k-firmware-ipq5018-qcn6122"
           "ipq-wifi-iodata_wn-dax3000gr"
+        ];
+      };
+      linksys_mr2000 = {
+        device_packages = [
+          "ath11k-firmware-ipq5018-qcn6122"
+          "ipq-wifi-linksys_mr2000"
+          "kmod-usb-storage"
+          "kmod-usb-ledtrig-usbport"
         ];
       };
       linksys_mr5500 = {
@@ -132,12 +163,37 @@
           "ipq-wifi-linksys_spnmx56"
         ];
       };
+      mercusys_mr80x-v2 = {
+        device_packages = [ "kmod-dsa-rtl8365mb" ];
+      };
       tplink_archer-ax55-v1 = {
         device_packages = [
           "ath11k-firmware-ipq5018-qcn6122"
           "ipq-wifi-tplink_archer-ax55-v1"
           "kmod-dsa-rtl8365mb"
           "kmod-usb-ledtrig-usbport"
+        ];
+      };
+      tplink_eap650-outdoor-v1 = {
+        device_packages = [
+          "ath11k-firmware-ipq5018"
+          "kmod-ath11k-pci"
+          "ath11k-firmware-qcn9074"
+          "ipq-wifi-tplink_eap650-outdoor-v1"
+          "kmod-phy-realtek"
+        ];
+      };
+      tplink_re700x = {
+        device_packages = [
+          "ath11k-firmware-ipq5018-qcn6122"
+          "ipq-wifi-tplink_re700x"
+          "kmod-phy-realtek"
+        ];
+      };
+      wallys_dr5018s = {
+        device_packages = [
+          "ath11k-firmware-ipq5018-qcn6122"
+          "ipq-wifi-wallys_dr5018s"
         ];
       };
       xiaomi_ax6000 = {
@@ -158,6 +214,19 @@
           "ipq-wifi-xiaomi_redmi-ax5400"
         ];
       };
+      xunison_exigo-hub-d50-5g = {
+        device_packages = [
+          "ath11k-firmware-ipq5018"
+          "kmod-ath11k-pci"
+          "ath11k-firmware-qcn9074"
+          "ipq-wifi-xunison_exigo-hub-d50-5g"
+          "kmod-ledtrig-network"
+          "kmod-mhi-pci-generic"
+          "kmod-mhi-wwan-ctrl"
+          "kmod-mhi-wwan-mbim"
+          "umbim"
+        ];
+      };
       yuncore_ax830 = {
         device_packages = [
           "ath11k-firmware-ipq5018-qcn6122"
@@ -172,6 +241,14 @@
           "ipq-wifi-yuncore_ax850"
         ];
       };
+      zte_t5400 = {
+        device_packages = [
+          "ath11k-firmware-ipq5018"
+          "kmod-ath11k-pci"
+          "ath11k-firmware-qcn9074"
+          "ipq-wifi-zte_t5400"
+        ];
+      };
       zyxel_scr50axe = {
         device_packages = [
           "ath11k-firmware-ipq5018-qcn6122"
@@ -180,12 +257,12 @@
       };
     };
   };
-  kmods."6.18.52-1-6c5f2cdde6869bfb44cd915d3b0f1bf5" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq50xx/kmods/6.18.52-1-6c5f2cdde6869bfb44cd915d3b0f1bf5/";
+  kmods."6.18.55-1-e5165dcb325b32dcb817bc8c239288c9" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq50xx/kmods/6.18.55-1-e5165dcb325b32dcb817bc8c239288c9/";
     sourceInfo = {
-      hash = "sha256-JZ7IHfjaehj6n45ncq7P/GRVTTm4XsRVceKxG+PkXA8=";
+      hash = "sha256-ER8Z8UB90nx05n3XkqbZN1eADxdeYLX9bbaU4gHYzWQ=";
       name = "kmods-qualcommax_ipq50xx-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq50xx/kmods/6.18.52-1-6c5f2cdde6869bfb44cd915d3b0f1bf5/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq50xx/kmods/6.18.55-1-e5165dcb325b32dcb817bc8c239288c9/packages.adb";
     };
     packages =
       let
@@ -196,7 +273,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq50xx/packages/";
     sourceInfo = {
-      hash = "sha256-tZJdwYuMLoactisXiRxQZmkfYhAipEdtfRfYUKCgFYo=";
+      hash = "sha256-/z1gXOC9S2JlB3slSB/szaMAhyR0xmjkOk8QgkNeaYw=";
       name = "qualcommax_ipq50xx-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/qualcommax/ipq50xx/packages/packages.adb";
     };

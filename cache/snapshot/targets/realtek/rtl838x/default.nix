@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl838x/";
   sha256sums = {
-    hash = "sha256-V1u24MDgrKPjqTXs8PopkZDTqAmQsmmEJ/H7DUAi29E=";
+    hash = "sha256-1wiJ0CzKgL3kSCW8TD/E9LDYw0Pp1h8cMDMPTL6T8ik=";
     name = "realtek_rtl838x-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl838x/sha256sums";
   };
   imagebuilder = {
-    sha256 = "c40449ac3129bfcc683855b871c55432d00c03a1d65309d6bcde79fc697df16c";
+    sha256 = "115593c803c7e944f544694d194e05415d318653945bda6162718bc5667bbb83";
     filename = "immortalwrt-imagebuilder-realtek-rtl838x.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-vpyO3OGWkrCg+JBB4Xh6pxufi3Oi4o+OoIsxdLa7DFQ=";
+    hash = "sha256-c5FMu//UQr1mc8HX8yRZNHy5iHUGS8jFGEW4qEJSL08=";
     name = "realtek_rtl838x-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl838x/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "mips_24kc";
     linux_kernel = {
       release = "1";
-      vermagic = "93d961b8fddbf991248ce72482be1b85";
-      version = "6.18.52";
+      vermagic = "5b081349df9387fa4f725c0c8f29bde9";
+      version = "6.18.55";
     };
     default_packages = [
       "apk-openssl"
@@ -45,7 +45,7 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.18.52-1-93d961b8fddbf991248ce72482be1b85";
+    kmods_target = "6.18.55-1-5b081349df9387fa4f725c0c8f29bde9";
     profiles = {
       allnet_all-sg8208m = {
         device_packages = [ ];
@@ -134,8 +134,11 @@
       netgear_gs108t-v3 = {
         device_packages = [ ];
       };
+      netgear_gs110tp-v3 = {
+        device_packages = [ "kmod-pse-realtek-mcu-uart" ];
+      };
       netgear_gs110tpp-v1 = {
-        device_packages = [ "realtek-poe" ];
+        device_packages = [ "kmod-pse-realtek-mcu-uart" ];
       };
       netgear_gs110tup-v1 = {
         device_packages = [ "realtek-poe" ];
@@ -144,7 +147,10 @@
         device_packages = [ ];
       };
       netgear_gs310tp-v1 = {
-        device_packages = [ "realtek-poe" ];
+        device_packages = [
+          "kmod-i2c-gpio"
+          "kmod-pse-realtek-mcu-i2c"
+        ];
       };
       panasonic_m16eg-pn28160k = {
         device_packages = [ "kmod-i2c-mux-pca954x" ];
@@ -217,12 +223,12 @@
       };
     };
   };
-  kmods."6.18.52-1-93d961b8fddbf991248ce72482be1b85" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl838x/kmods/6.18.52-1-93d961b8fddbf991248ce72482be1b85/";
+  kmods."6.18.55-1-5b081349df9387fa4f725c0c8f29bde9" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl838x/kmods/6.18.55-1-5b081349df9387fa4f725c0c8f29bde9/";
     sourceInfo = {
-      hash = "sha256-WtySOKbhYI8YqsDHRyxQtYfjFgjgpXIbuVOsm7A4Bp0=";
+      hash = "sha256-q65/ZRfXvu05F15Ho3eAC4QlGljMYSy5jJ2226gVFKo=";
       name = "kmods-realtek_rtl838x-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl838x/kmods/6.18.52-1-93d961b8fddbf991248ce72482be1b85/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl838x/kmods/6.18.55-1-5b081349df9387fa4f725c0c8f29bde9/packages.adb";
     };
     packages =
       let
@@ -233,7 +239,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl838x/packages/";
     sourceInfo = {
-      hash = "sha256-pQAYHRPj2NJ7vgMTYJiMPfmHnNEQdlz9As847RAaJJ8=";
+      hash = "sha256-Rd9UyJiBVDYha0itCPi3FWyloeRFViCuCGv+0/aJpC8=";
       name = "realtek_rtl838x-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl838x/packages/packages.adb";
     };

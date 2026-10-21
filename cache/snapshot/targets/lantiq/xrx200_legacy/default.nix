@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xrx200_legacy/";
   sha256sums = {
-    hash = "sha256-WvX7MgQIr89Jbr/2C2yqsIrfwKN5b/3lJm6J+trFloQ=";
+    hash = "sha256-ea8+j7A3dOjSUNYw2OL9XkiXqYjMvjzlvt4FoJCQn88=";
     name = "lantiq_xrx200_legacy-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xrx200_legacy/sha256sums";
   };
   imagebuilder = {
-    sha256 = "ad52255eeefca75f53c5b6a87718f88c0f1c1e32390f562392d048829ae7bcac";
+    sha256 = "e3d083d5ca39f843668e6106c8f116bf82136808ea17be2bd05e8989b0b989a5";
     filename = "immortalwrt-imagebuilder-lantiq-xrx200_legacy.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-xNDFmHj3ee64g4mycozYtZoEG0hSKAn+RwXOutASJ8E=";
+    hash = "sha256-Y6Xyi8VBaxtcVbLIU3FcS0B3HtUsW81myt/EWT4CkYc=";
     name = "lantiq_xrx200_legacy-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xrx200_legacy/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "mips_24kc";
     linux_kernel = {
       release = "1";
-      vermagic = "183aa3c799cebdf31104a4c45a23477f";
-      version = "6.18.52";
+      vermagic = "813411637239288bcd634f99f017260e";
+      version = "6.18.55";
     };
     default_packages = [
       "apk-openssl"
@@ -60,7 +60,7 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.18.52-1-183aa3c799cebdf31104a4c45a23477f";
+    kmods_target = "6.18.55-1-813411637239288bcd634f99f017260e";
     profiles = {
       netgear_dm200 = {
         device_packages = [
@@ -70,12 +70,12 @@
       };
     };
   };
-  kmods."6.18.52-1-183aa3c799cebdf31104a4c45a23477f" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xrx200_legacy/kmods/6.18.52-1-183aa3c799cebdf31104a4c45a23477f/";
+  kmods."6.18.55-1-813411637239288bcd634f99f017260e" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xrx200_legacy/kmods/6.18.55-1-813411637239288bcd634f99f017260e/";
     sourceInfo = {
-      hash = "sha256-I/yLer0QESjb+AJsSj8PllEQ0aeooH5xmKjEqCWdNBw=";
+      hash = "sha256-QR6d8pfvCBF0PXj+xag3ffa6Lc8YcT50xc+Xnsy2gNg=";
       name = "kmods-lantiq_xrx200_legacy-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xrx200_legacy/kmods/6.18.52-1-183aa3c799cebdf31104a4c45a23477f/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xrx200_legacy/kmods/6.18.55-1-813411637239288bcd634f99f017260e/packages.adb";
     };
     packages =
       let
@@ -86,7 +86,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xrx200_legacy/packages/";
     sourceInfo = {
-      hash = "sha256-P7hdQUW8Tb5XI3gGSLyoo7w9+/8Ot5ciCQ6wJEWnKFc=";
+      hash = "sha256-Q2PLkxbqTdC+/urMuqPF2mYA0f8TGRtuasUtnqgHZa8=";
       name = "lantiq_xrx200_legacy-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/lantiq/xrx200_legacy/packages/packages.adb";
     };

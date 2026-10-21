@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/pistachio/generic/";
   sha256sums = {
-    hash = "sha256-XrcfqENdKeb4yqDMdicx9It1p31qYJ4h6qPEbG+k5ZU=";
+    hash = "sha256-s+2uKp5WtRuF8MPeSezZ/VVrXIga9mdE9Xnj9oB/L+Q=";
     name = "pistachio_generic-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/pistachio/generic/sha256sums";
   };
   imagebuilder = {
-    sha256 = "316236edc5fdfe58870be15592b04de4cde3ba9802feacb1a2a6ac70c1420041";
+    sha256 = "3dc638339468b024c1dbd25d04787ecab336e8c272e2d96c25c4015b6b18b44a";
     filename = "immortalwrt-imagebuilder-pistachio-generic.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-vrxtFfyERcbPxcSCvFeo2o3tcqZVuqwCWo44nCO5wMU=";
+    hash = "sha256-KEA0V1PT3Gmk1Fh59C7Vxuk7SEMPdb1unHcoQtMQwvA=";
     name = "pistachio_generic-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/pistachio/generic/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "mipsel_24kc_24kf";
     linux_kernel = {
       release = "1";
-      vermagic = "5f010ebbf329985702a691e4f8349fa0";
-      version = "6.18.52";
+      vermagic = "3c169cec1d3249866274ba7d06f63547";
+      version = "6.18.55";
     };
     default_packages = [
       "apk-openssl"
@@ -50,7 +50,7 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.18.52-1-5f010ebbf329985702a691e4f8349fa0";
+    kmods_target = "6.18.55-1-3c169cec1d3249866274ba7d06f63547";
     profiles = {
       img_creator-ci40 = {
         device_packages = [
@@ -61,12 +61,12 @@
       };
     };
   };
-  kmods."6.18.52-1-5f010ebbf329985702a691e4f8349fa0" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/pistachio/generic/kmods/6.18.52-1-5f010ebbf329985702a691e4f8349fa0/";
+  kmods."6.18.55-1-3c169cec1d3249866274ba7d06f63547" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/pistachio/generic/kmods/6.18.55-1-3c169cec1d3249866274ba7d06f63547/";
     sourceInfo = {
-      hash = "sha256-/Hwsl02e+KKhvSOYHygnO1F0JTGAwS9JEEyPqlcxaMo=";
+      hash = "sha256-DYM+zANJVfeBBSOWTiWvIQyT/ojD2f2eKk/JYRicqNs=";
       name = "kmods-pistachio_generic-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/pistachio/generic/kmods/6.18.52-1-5f010ebbf329985702a691e4f8349fa0/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/pistachio/generic/kmods/6.18.55-1-3c169cec1d3249866274ba7d06f63547/packages.adb";
     };
     packages =
       let
@@ -77,7 +77,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/pistachio/generic/packages/";
     sourceInfo = {
-      hash = "sha256-db630ld0Q6owr9Z8TXeJRaEOSY2lmaal5fseYk9AdeU=";
+      hash = "sha256-c5bXYzzq3sM5PVtbldlqnhdH1UFtamURqk3XKfgFkdA=";
       name = "pistachio_generic-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/pistachio/generic/packages/packages.adb";
     };

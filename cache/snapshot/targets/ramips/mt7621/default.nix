@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt7621/";
   sha256sums = {
-    hash = "sha256-lVlPia3hJYKvUeO8WhcHuFGtQybTkTgRdcCtsmMYWHA=";
+    hash = "sha256-TktK3Ynj06QRhFMK9fThAZ06upHjcZn47zFTAJnVRzE=";
     name = "ramips_mt7621-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt7621/sha256sums";
   };
   imagebuilder = {
-    sha256 = "961cd0fcee1ad86ba2ebf7a4253a3ed4e49242c07f638bf0b4e70c3939a468ad";
+    sha256 = "02fbd2a885a1a57de9c5696587f107eca843be6506b9ab3da4a02de004b3b81f";
     filename = "immortalwrt-imagebuilder-ramips-mt7621.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-ow6vBZSKNrUdM6YGg03dP1C7P89iLNsg6Q2deNugUVk=";
+    hash = "sha256-jaY2zvrxU8lBJAz0D/1BZYAfZUgw38f0WIB2SLIyYdg=";
     name = "ramips_mt7621-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt7621/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "mipsel_24kc";
     linux_kernel = {
       release = "1";
-      vermagic = "19dfbe5c3fa9abe318169078fde54f65";
-      version = "6.18.52";
+      vermagic = "bc6f18037e27f120af9599c147c67042";
+      version = "6.18.55";
     };
     default_packages = [
       "apk-openssl"
@@ -53,7 +53,7 @@
       "urngd"
       "wpad-openssl"
     ];
-    kmods_target = "6.18.52-1-19dfbe5c3fa9abe318169078fde54f65";
+    kmods_target = "6.18.55-1-bc6f18037e27f120af9599c147c67042";
     profiles = {
       adslr_g7 = {
         device_packages = [
@@ -133,6 +133,7 @@
           "kmod-usb3"
           "kmod-usb-serial-option"
           "kmod-usb-net-cdc-ncm"
+          "comgt-ncm"
         ];
       };
       asus_rp-ac56 = {
@@ -140,6 +141,7 @@
           "kmod-mt7603"
           "kmod-mt76x2"
           "kmod-sound-mt7620"
+          "audio-support"
           "-uboot-envtools"
         ];
       };
@@ -319,6 +321,18 @@
           "-uboot-envtools"
           "-wpad-openssl"
           "kmod-usb3"
+        ];
+      };
+      cudy_lt700-outdoor-v1 = {
+        device_packages = [
+          "kmod-mt7603"
+          "kmod-mt7615e"
+          "kmod-mt7663-firmware-ap"
+          "kmod-usb3"
+          "kmod-usb-net-cdc-ncm"
+          "kmod-usb-serial-option"
+          "comgt-ncm"
+          "-uboot-envtools"
         ];
       };
       cudy_m1300-v2 = {
@@ -1115,6 +1129,7 @@
           "kmod-usb3"
           "kmod-mmc-mtk"
           "kmod-sound-mt7620"
+          "audio-support"
           "-wpad-openssl"
           "-uboot-envtools"
         ];
@@ -1155,6 +1170,7 @@
         device_packages = [
           "kmod-usb3"
           "-uboot-envtools"
+          "kmod-mmc-mtk"
           "-wpad-openssl"
         ];
       };
@@ -1162,6 +1178,7 @@
         device_packages = [
           "kmod-usb3"
           "-uboot-envtools"
+          "kmod-mmc-mtk"
           "kmod-sfp"
           "-wpad-openssl"
         ];
@@ -1171,6 +1188,7 @@
       };
       mikrotik_routerboard-m33g = {
         device_packages = [
+          "kmod-mmc-mtk"
           "kmod-usb3"
           "-wpad-openssl"
         ];
@@ -1632,7 +1650,7 @@
       };
       tplink_er605-v1 = {
         device_packages = [
-          "-wpad-basic-mbedtls"
+          "-wpad-openssl"
           "-uboot-envtools"
         ];
       };
@@ -1644,6 +1662,12 @@
         ];
       };
       tplink_ex220-v1 = {
+        device_packages = [
+          "kmod-mt7915-firmware"
+          "-uboot-envtools"
+        ];
+      };
+      tplink_ex220-v1-nand = {
         device_packages = [
           "kmod-mt7915-firmware"
           "-uboot-envtools"
@@ -1799,6 +1823,14 @@
       wavlink_wl-wn573hx1 = {
         device_packages = [
           "kmod-mt7915-firmware"
+          "-uboot-envtools"
+        ];
+      };
+      wavlink_ws-wn552k1-c = {
+        device_packages = [
+          "kmod-mt7603"
+          "kmod-mt7615-firmware"
+          "kmod-usb3"
           "-uboot-envtools"
         ];
       };
@@ -2188,12 +2220,12 @@
       };
     };
   };
-  kmods."6.18.52-1-19dfbe5c3fa9abe318169078fde54f65" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt7621/kmods/6.18.52-1-19dfbe5c3fa9abe318169078fde54f65/";
+  kmods."6.18.55-1-bc6f18037e27f120af9599c147c67042" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt7621/kmods/6.18.55-1-bc6f18037e27f120af9599c147c67042/";
     sourceInfo = {
-      hash = "sha256-v2g3gEAC3KJaIGgfvEnMPNO2jOZPg0IUTFcrh0aLpKA=";
+      hash = "sha256-gzjLndZhDOyhYehlG8DAAXmmumdQZKzfcyWeLLEHwh8=";
       name = "kmods-ramips_mt7621-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt7621/kmods/6.18.52-1-19dfbe5c3fa9abe318169078fde54f65/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt7621/kmods/6.18.55-1-bc6f18037e27f120af9599c147c67042/packages.adb";
     };
     packages =
       let
@@ -2204,7 +2236,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt7621/packages/";
     sourceInfo = {
-      hash = "sha256-Iz+nrCGBD8fVlLtZABiuuLo0KD8Zx7VW6z8E+ds66oc=";
+      hash = "sha256-OfHJSJ3xgK8MMVgBCOASP37MTx+QGMK8bkCLcNMKJ18=";
       name = "ramips_mt7621-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/ramips/mt7621/packages/packages.adb";
     };
