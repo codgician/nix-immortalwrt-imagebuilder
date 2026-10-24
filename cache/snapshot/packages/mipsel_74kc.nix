@@ -1,14 +1,14 @@
 # snapshot package feeds for mipsel_74kc
 {
   sha256sums = {
-    hash = "sha256-py3O2UJvrlzdUK267OqMju686onG7EBSsadtPj39NgY=";
+    hash = "sha256-5QqKfOge7Aa4zQ0/rQmHhcSJ5j/9p1ieduyVX+eUpCs=";
     name = "mipsel_74kc-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/packages/mipsel_74kc/sha256sums";
   };
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/mipsel_74kc/base/";
     sourceInfo = {
-      hash = "sha256-3o0PWlZF6aZWeiVLvHdTW6xswdbXRNN1WVkukuNa4aE=";
+      hash = "sha256-/fkKP+L22yV/g+RAnYdUtXtpf07H1RIlVJun6YWGG8w=";
       name = "mipsel_74kc-base-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/mipsel_74kc/base/packages.adb";
     };
@@ -21,7 +21,7 @@
   feeds."luci" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/mipsel_74kc/luci/";
     sourceInfo = {
-      hash = "sha256-23ate5f6/qlIcshBjYhG7jR8SJGDiMzFJ+/iWcQjsEY=";
+      hash = "sha256-ecRPL40EjvSasg14QpKSelGGOAjPBWEiRi1ZPIm/FK8=";
       name = "mipsel_74kc-luci-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/mipsel_74kc/luci/packages.adb";
     };
@@ -34,7 +34,7 @@
   feeds."packages" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/mipsel_74kc/packages/";
     sourceInfo = {
-      hash = "sha256-dLk9JCmi7zceOWJ2sekS4k6pUtujmhk9siuUyD6dImo=";
+      hash = "sha256-keRDMVBGs1ID/akx4/8vWoAJB2PhVDTCqWx32PA6vKU=";
       name = "mipsel_74kc-packages-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/mipsel_74kc/packages/packages.adb";
     };
@@ -47,7 +47,7 @@
   feeds."routing" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/mipsel_74kc/routing/";
     sourceInfo = {
-      hash = "sha256-qf8p63bd3Uokt5BseFsV8wBrGah9sLA4KPjU0jkEx2U=";
+      hash = "sha256-YsyAUVfEycw/Co2NlPzEstD0LU0Z1oIYZRrJoUm49ts=";
       name = "mipsel_74kc-routing-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/mipsel_74kc/routing/packages.adb";
     };
@@ -60,7 +60,7 @@
   feeds."telephony" = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/packages/mipsel_74kc/telephony/";
     sourceInfo = {
-      hash = "sha256-Z+EDiNxM7MN5iDfZES2IX5uJcWtwv6S4gZRrFW14erU=";
+      hash = "sha256-CoRKYw4Q+aa/vw/N/NVoDmOAJKHMkxwPj1dVLE//dcE=";
       name = "mipsel_74kc-telephony-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/packages/mipsel_74kc/telephony/packages.adb";
     };
