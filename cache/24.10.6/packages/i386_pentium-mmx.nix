@@ -1,14 +1,14 @@
 # 24.10.6 package feeds for i386_pentium-mmx
 {
   sha256sums = {
-    hash = "sha256-5TUkymxiK31xVTSBvdnGqJklzqEPDIEaMD0HqrLzIYo=";
+    hash = "sha256-FYUvrtjf3qUo1nXtsuB+PvdHKJVZqOdNW/L91mWxIPM=";
     name = "i386_pentium-mmx-sha256sums";
     url = "https://downloads.immortalwrt.org/releases/24.10.6/packages/i386_pentium-mmx/sha256sums";
   };
   feeds."base" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.6/packages/i386_pentium-mmx/base/";
     sourceInfo = {
-      hash = "sha256-hJ7k4XNZbGPmgaZKiciJNgypHjI5cSWx8j30DgneJws=";
+      hash = "sha256-lGIeCWBj0DEQbRda+QZMqsqPcGczxi9o0lQHz+Mu0pQ=";
       name = "i386_pentium-mmx-base-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.6/packages/i386_pentium-mmx/base/Packages";
     };
@@ -21,7 +21,7 @@
   feeds."luci" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.6/packages/i386_pentium-mmx/luci/";
     sourceInfo = {
-      hash = "sha256-SynJeUKfrGvFjs2SAe8npriPaLamSwQPgKMMhkU5ekM=";
+      hash = "sha256-9GeKSCWPzL5B2bjmdRVUcNR2LSWcnc+2UsADRi7pMCU=";
       name = "i386_pentium-mmx-luci-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.6/packages/i386_pentium-mmx/luci/Packages";
     };
@@ -34,7 +34,7 @@
   feeds."packages" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.6/packages/i386_pentium-mmx/packages/";
     sourceInfo = {
-      hash = "sha256-rzgr12BAjmwSWKsA8IY8oQZiPKN1rolbfuTjjAAP0Q8=";
+      hash = "sha256-PbnckApHZnzAKutsxGQhPlOpTEuWpnXwqBeT45A9wck=";
       name = "i386_pentium-mmx-packages-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.6/packages/i386_pentium-mmx/packages/Packages";
     };
@@ -47,7 +47,7 @@
   feeds."routing" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.6/packages/i386_pentium-mmx/routing/";
     sourceInfo = {
-      hash = "sha256-EOSOYkPIzAmQ1tc0vXGVFq9r3dmM8YIt6bK/JJ7LVKo=";
+      hash = "sha256-J+DDQEOkwEflI7KlTDEWllUhLOJe20TZoXLKK8Sz6DE=";
       name = "i386_pentium-mmx-routing-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.6/packages/i386_pentium-mmx/routing/Packages";
     };
@@ -60,7 +60,7 @@
   feeds."telephony" = {
     baseUrl = "https://downloads.immortalwrt.org/releases/24.10.6/packages/i386_pentium-mmx/telephony/";
     sourceInfo = {
-      hash = "sha256-wPVI5maRtGVLHPUiFDpwIT9nxPYN0AkmDDVVDw+iQGg=";
+      hash = "sha256-b6x60lxOvxLCUJ/evZzMw8+9wd9qVfBrhxsHDqmgdeY=";
       name = "i386_pentium-mmx-telephony-Packages";
       url = "https://downloads.immortalwrt.org/releases/24.10.6/packages/i386_pentium-mmx/telephony/Packages";
     };
