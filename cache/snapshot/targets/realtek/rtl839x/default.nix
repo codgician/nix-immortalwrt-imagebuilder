@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl839x/";
   sha256sums = {
-    hash = "sha256-RB3XD5kcPqCECeS+5hvxUg7tYuqFAPKEQN5ZWW9jtgg=";
+    hash = "sha256-0NuahOM01scswQYNLjFDRWsYkIyUzQli7PN/mTvPgPE=";
     name = "realtek_rtl839x-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl839x/sha256sums";
   };
   imagebuilder = {
-    sha256 = "09802a963bd9cb1671e933f0b2fdf33dada29dcfd24575003fb26286dd5aecc1";
+    sha256 = "7cb621c0b13beba69ab8e8a92b722a4a37b3ba75ed88214d51a099a5525ff1b6";
     filename = "immortalwrt-imagebuilder-realtek-rtl839x.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-J1+DDMR0Tbmj5nVArRdlfEuy/2uMbGObE+5P5mcpC9Q=";
+    hash = "sha256-BnL7l0WjMTNNBgLLz+MZ/+GGC/ZwWnLcRjEdryOmpgQ=";
     name = "realtek_rtl839x-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl839x/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "mips_24kc";
     linux_kernel = {
       release = "1";
-      vermagic = "7ddd9c54d3d8777c68a61c640d5a2f76";
-      version = "6.18.55";
+      vermagic = "741f9a3337444c148b1129d716df5bca";
+      version = "6.18.60";
     };
     default_packages = [
       "apk-openssl"
@@ -45,7 +45,7 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.18.55-1-7ddd9c54d3d8777c68a61c640d5a2f76";
+    kmods_target = "6.18.60-1-741f9a3337444c148b1129d716df5bca";
     profiles = {
       d-link_dgs-1210-52 = {
         device_packages = [ ];
@@ -117,12 +117,12 @@
       };
     };
   };
-  kmods."6.18.55-1-7ddd9c54d3d8777c68a61c640d5a2f76" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl839x/kmods/6.18.55-1-7ddd9c54d3d8777c68a61c640d5a2f76/";
+  kmods."6.18.60-1-741f9a3337444c148b1129d716df5bca" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl839x/kmods/6.18.60-1-741f9a3337444c148b1129d716df5bca/";
     sourceInfo = {
-      hash = "sha256-6UvtEIN7eNf+P4K8gY7ySB4guLscPp8WXJy3CttoIeM=";
+      hash = "sha256-7v5srzUyq/9iMtfTaJYO4+6mHZL41bu6B1bzbWqHTQc=";
       name = "kmods-realtek_rtl839x-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl839x/kmods/6.18.55-1-7ddd9c54d3d8777c68a61c640d5a2f76/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl839x/kmods/6.18.60-1-741f9a3337444c148b1129d716df5bca/packages.adb";
     };
     packages =
       let
@@ -133,7 +133,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl839x/packages/";
     sourceInfo = {
-      hash = "sha256-46xuNkdWX251PQ+CuG2LzWy+XrvewojJVhl7peFWSDk=";
+      hash = "sha256-Je3nKS30qhNijwZQoF+d7vTj20ScjiQTMa1eWlVFXYw=";
       name = "realtek_rtl839x-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl839x/packages/packages.adb";
     };

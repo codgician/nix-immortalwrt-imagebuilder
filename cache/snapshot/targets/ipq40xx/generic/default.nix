@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/generic/";
   sha256sums = {
-    hash = "sha256-iWqhfUndgVNqv/huDM0H+q2ecO6yvevYzp+bKfev2QE=";
+    hash = "sha256-7Yx0cOXJavqGD09+DHVRfo5Y400CCfUo1jOtXN6wPDY=";
     name = "ipq40xx_generic-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/generic/sha256sums";
   };
   imagebuilder = {
-    sha256 = "36dc758178ccd88d84a155f21d923c7a561ec3f44ecdc3fa8fea5fd4e2ee5fe7";
+    sha256 = "9cc95568345464c4f2bfa1c566e311d53385b85f5e2b79153f181d72365386c5";
     filename = "immortalwrt-imagebuilder-ipq40xx-generic.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-yD74aoWmontMqUAH7wVHKcm3a7U+gXAqDSOaFNxgyJQ=";
+    hash = "sha256-TY4Llx8bz8gDwRsV78KQA73YYfQjbYNiqFMmD8H2H1k=";
     name = "ipq40xx_generic-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/generic/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "arm_cortex-a7_neon-vfpv4";
     linux_kernel = {
       release = "1";
-      vermagic = "8e4d1799e129f0817a49d048812f4a78";
-      version = "6.18.55";
+      vermagic = "5be6f842d98f703acb1eea9597e1b919";
+      version = "6.18.60";
     };
     default_packages = [
       "apk-openssl"
@@ -60,7 +60,7 @@
       "urngd"
       "wpad-openssl"
     ];
-    kmods_target = "6.18.55-1-8e4d1799e129f0817a49d048812f4a78";
+    kmods_target = "6.18.60-1-5be6f842d98f703acb1eea9597e1b919";
     profiles = {
       "8dev_habanero-dvk" = {
         device_packages = [ ];
@@ -75,13 +75,16 @@
         ];
       };
       aruba_ap-303 = {
-        device_packages = [ ];
+        device_packages = [ "ipq-wifi-aruba_ap-303" ];
       };
       aruba_ap-303h = {
-        device_packages = [ ];
+        device_packages = [ "ipq-wifi-aruba_ap-303h" ];
       };
       aruba_ap-365 = {
-        device_packages = [ "kmod-hwmon-ad7418" ];
+        device_packages = [
+          "kmod-hwmon-ad7418"
+          "ipq-wifi-aruba_ap-365"
+        ];
       };
       asus_map-ac1300 = {
         device_packages = [
@@ -507,13 +510,22 @@
         ];
       };
       tplink_deco-m5-v1 = {
-        device_packages = [ "kmod-leds-lp5521" ];
+        device_packages = [
+          "ipq-wifi-tplink_deco-m5"
+          "kmod-leds-lp5521"
+        ];
       };
       tplink_deco-m5-v2 = {
-        device_packages = [ "kmod-leds-lp5521" ];
+        device_packages = [
+          "ipq-wifi-tplink_deco-m5"
+          "kmod-leds-lp5521"
+        ];
       };
       tplink_deco-m5-v3 = {
-        device_packages = [ "kmod-leds-lp5521" ];
+        device_packages = [
+          "ipq-wifi-tplink_deco-m5"
+          "kmod-leds-lp5521"
+        ];
       };
       ubnt_utr = {
         device_packages = [
@@ -589,12 +601,12 @@
       };
     };
   };
-  kmods."6.18.55-1-8e4d1799e129f0817a49d048812f4a78" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/generic/kmods/6.18.55-1-8e4d1799e129f0817a49d048812f4a78/";
+  kmods."6.18.60-1-5be6f842d98f703acb1eea9597e1b919" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/generic/kmods/6.18.60-1-5be6f842d98f703acb1eea9597e1b919/";
     sourceInfo = {
-      hash = "sha256-vVb99ucDepR149PoNYGGilOhybdI8ByLeKefKsHlmv0=";
+      hash = "sha256-3UWsAdq2OoZBiH702ImEB2IPq1Xi1XKMMtHhgJquaXk=";
       name = "kmods-ipq40xx_generic-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/generic/kmods/6.18.55-1-8e4d1799e129f0817a49d048812f4a78/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/generic/kmods/6.18.60-1-5be6f842d98f703acb1eea9597e1b919/packages.adb";
     };
     packages =
       let
@@ -605,7 +617,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/generic/packages/";
     sourceInfo = {
-      hash = "sha256-jGcIZ6LJB+WAyvJoNIRrX1bxyRejxE0J0RmdCuS0YgY=";
+      hash = "sha256-7mNtvyY2TpGP1caTZS6W38HPCipAHCi4tiPjMsnji2c=";
       name = "ipq40xx_generic-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/ipq40xx/generic/packages/packages.adb";
     };

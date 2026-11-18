@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/qualcommbe/ipq95xx/";
   sha256sums = {
-    hash = "sha256-g6E10zyiGyoUhQ7Y0j6jL0UsL9jn6gdbz63j9agz/WU=";
+    hash = "sha256-CIOH/Bduax4PzQhOt0NuXW0mDycjugW2yoq6qfe+8Yo=";
     name = "qualcommbe_ipq95xx-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/qualcommbe/ipq95xx/sha256sums";
   };
   imagebuilder = {
-    sha256 = "6f52a6ad26b97575f1cdd55ec84d9ea3cc712aa6f98968d803ad9fa03eb01caa";
+    sha256 = "66ad86066555982191aff2fbb0c3cca76926fd1792d81a53dddc4dedebb0bc5e";
     filename = "immortalwrt-imagebuilder-qualcommbe-ipq95xx.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-s+Zx+NzwXuE3gsydLlFbAIJztQVAAsa1HVKEE1qFvH4=";
+    hash = "sha256-2uyp5A11D/zzFsYr+LhPrv438FVdeP72jKZIXHC/ZtA=";
     name = "qualcommbe_ipq95xx-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/qualcommbe/ipq95xx/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "aarch64_cortex-a53";
     linux_kernel = {
       release = "1";
-      vermagic = "f1a6a34e2b2cfb8d65e23e659c5d63d8";
-      version = "6.18.55";
+      vermagic = "a14ad0c89ee76d9a6c2e590b02b7d487";
+      version = "6.18.60";
     };
     default_packages = [
       "apk-openssl"
@@ -59,7 +59,7 @@
       "urngd"
       "wpad-openssl"
     ];
-    kmods_target = "6.18.55-1-f1a6a34e2b2cfb8d65e23e659c5d63d8";
+    kmods_target = "6.18.60-1-a14ad0c89ee76d9a6c2e590b02b7d487";
     profiles = {
       "8devices_kiwi-dvk" = {
         device_packages = [
@@ -81,6 +81,7 @@
           "ipq-wifi-askey_sbe1v1k"
           "kmod-ath12k"
           "kmod-hwmon-pwmfan"
+          "kmod-leds-pwm"
           "kmod-phy-realtek"
           "mkf2fs"
           "rtl826x-firmware"
@@ -100,12 +101,12 @@
       };
     };
   };
-  kmods."6.18.55-1-f1a6a34e2b2cfb8d65e23e659c5d63d8" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/qualcommbe/ipq95xx/kmods/6.18.55-1-f1a6a34e2b2cfb8d65e23e659c5d63d8/";
+  kmods."6.18.60-1-a14ad0c89ee76d9a6c2e590b02b7d487" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/qualcommbe/ipq95xx/kmods/6.18.60-1-a14ad0c89ee76d9a6c2e590b02b7d487/";
     sourceInfo = {
-      hash = "sha256-mP2qicdmvo//OvKMS3chdvwjGCRETDasV5+z/UJLmVc=";
+      hash = "sha256-gHhlJ/tSmJ9le8vDb6ToRuIVjE9gnQ3nmtjWRQIsylo=";
       name = "kmods-qualcommbe_ipq95xx-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/qualcommbe/ipq95xx/kmods/6.18.55-1-f1a6a34e2b2cfb8d65e23e659c5d63d8/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/qualcommbe/ipq95xx/kmods/6.18.60-1-a14ad0c89ee76d9a6c2e590b02b7d487/packages.adb";
     };
     packages =
       let
@@ -116,7 +117,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/qualcommbe/ipq95xx/packages/";
     sourceInfo = {
-      hash = "sha256-Vqay2ClwjF0Q/YeumoL9lT6rWkunMj2KShB860GDnqM=";
+      hash = "sha256-F0BHCq3JFiX02wNXN8Z36ZU+NFLh/hc4uWTW8dGpayM=";
       name = "qualcommbe_ipq95xx-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/qualcommbe/ipq95xx/packages/packages.adb";
     };

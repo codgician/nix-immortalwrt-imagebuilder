@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ath79/generic/";
   sha256sums = {
-    hash = "sha256-Xu3lr2OLmYrz4cg1UXXoRVXKyGJ0dfRmuOlhhdnTlL0=";
+    hash = "sha256-XccPUacuMujR59i+bKgIgoL/lTlK6QzxM3szLza6Iyo=";
     name = "ath79_generic-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/ath79/generic/sha256sums";
   };
   imagebuilder = {
-    sha256 = "d6f082ecf0d51182d6e37407f145c69eebb9b77124b527e44e223cb8bf22a6cd";
+    sha256 = "37d47c246e0246ad34e44bb8a3475880eaba31dbe5dd3fb802d4755d9d383b4b";
     filename = "immortalwrt-imagebuilder-ath79-generic.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-Zwbej/oJfipAhdEzO/0/WK5sV9+40S6YChYSkXHk57k=";
+    hash = "sha256-oJCa3BvACd8xpyFQ0Vu8eOC2fCrRzoSbL/XQ0wOd7cY=";
     name = "ath79_generic-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/ath79/generic/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "mips_24kc";
     linux_kernel = {
       release = "1";
-      vermagic = "5213856f7513fa11ad3f15e83d3f991f";
-      version = "6.18.55";
+      vermagic = "0d18749fb9bf46bd8f9b4e68a8047afb";
+      version = "6.18.60";
     };
     default_packages = [
       "apk-openssl"
@@ -53,7 +53,7 @@
       "urngd"
       "wpad-openssl"
     ];
-    kmods_target = "6.18.55-1-5213856f7513fa11ad3f15e83d3f991f";
+    kmods_target = "6.18.60-1-0d18749fb9bf46bd8f9b4e68a8047afb";
     profiles = {
       "8dev_carambola2" = {
         device_packages = [ "kmod-usb-chipidea2" ];
@@ -775,14 +775,6 @@
         device_packages = [
           "ath10k-firmware-qca988x-ct"
           "kmod-ath10k-ct"
-        ];
-      };
-      fortinet_fap-220-b = {
-        device_packages = [
-          "-uboot-envtools"
-          "kmod-usb-ohci"
-          "kmod-usb2"
-          "kmod-owl-loader"
         ];
       };
       fortinet_fap-221-b = {
@@ -1695,6 +1687,12 @@
           "ath10k-firmware-qca99x0-ct"
         ];
       };
+      tplink_f52-outdoor-v1 = {
+        device_packages = [
+          "kmod-ath10k-ct"
+          "ath10k-firmware-qca9888-ct"
+        ];
+      };
       tplink_re350k-v1 = {
         device_packages = [
           "kmod-ath10k-ct"
@@ -2199,12 +2197,12 @@
       };
     };
   };
-  kmods."6.18.55-1-5213856f7513fa11ad3f15e83d3f991f" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ath79/generic/kmods/6.18.55-1-5213856f7513fa11ad3f15e83d3f991f/";
+  kmods."6.18.60-1-0d18749fb9bf46bd8f9b4e68a8047afb" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ath79/generic/kmods/6.18.60-1-0d18749fb9bf46bd8f9b4e68a8047afb/";
     sourceInfo = {
-      hash = "sha256-Ynplc6ufyHxHIhkUrsCmMC7Zyx8g996IEb2O7nv1AwE=";
+      hash = "sha256-NcbhYO7qXCy36dHyekd2fDBARspAZ7qIUJMRegRDmXs=";
       name = "kmods-ath79_generic-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/ath79/generic/kmods/6.18.55-1-5213856f7513fa11ad3f15e83d3f991f/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/ath79/generic/kmods/6.18.60-1-0d18749fb9bf46bd8f9b4e68a8047afb/packages.adb";
     };
     packages =
       let
@@ -2215,7 +2213,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/ath79/generic/packages/";
     sourceInfo = {
-      hash = "sha256-uyZE9MIXYMmdYEq5+RpcRyOhvL++yALIDl+XQ9Zk6qs=";
+      hash = "sha256-lDXRgh2ielj6TPutlCQZxebj+WVNgPSLkHp+m/ryUAE=";
       name = "ath79_generic-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/ath79/generic/packages/packages.adb";
     };

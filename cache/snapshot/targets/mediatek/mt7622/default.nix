@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/mt7622/";
   sha256sums = {
-    hash = "sha256-E+jsIQvugkxVvzzC9SbqUaTkyx4RfFwscUobQ8P2KPg=";
+    hash = "sha256-Gb9TNwumTEroyGBOG4fCPEnJxhH9B4eI3XazHORBIA8=";
     name = "mediatek_mt7622-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/mt7622/sha256sums";
   };
   imagebuilder = {
-    sha256 = "9474b928377f374e0692a734bc0c477bf15812bae9c8609f77b424bf8960ca4e";
+    sha256 = "25cf17b2cfb4aa224c668dd2e34b1bb45fda664d091ec107c3ed07f262819d06";
     filename = "immortalwrt-imagebuilder-mediatek-mt7622.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-K5pNEJb1ueGE/hK9KI6wrQldNk7IBUaW0elRHxMXr3c=";
+    hash = "sha256-M+0tqUptAG5VsOrtu34iWaZWDGgoZwcah6RWkC1ORSw=";
     name = "mediatek_mt7622-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/mt7622/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "aarch64_cortex-a53";
     linux_kernel = {
       release = "1";
-      vermagic = "d1b16e39cf48aceadc811d57a1a427ac";
-      version = "6.18.55";
+      vermagic = "bd63c8b84bb982bc65b99063cc513ef4";
+      version = "6.18.60";
     };
     default_packages = [
       "apk-openssl"
@@ -55,7 +55,7 @@
       "urngd"
       "wpad-openssl"
     ];
-    kmods_target = "6.18.55-1-d1b16e39cf48aceadc811d57a1a427ac";
+    kmods_target = "6.18.60-1-bd63c8b84bb982bc65b99063cc513ef4";
     profiles = {
       asiarf_ap7622-wh1 = {
         device_packages = [
@@ -198,12 +198,12 @@
       };
     };
   };
-  kmods."6.18.55-1-d1b16e39cf48aceadc811d57a1a427ac" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/mt7622/kmods/6.18.55-1-d1b16e39cf48aceadc811d57a1a427ac/";
+  kmods."6.18.60-1-bd63c8b84bb982bc65b99063cc513ef4" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/mt7622/kmods/6.18.60-1-bd63c8b84bb982bc65b99063cc513ef4/";
     sourceInfo = {
-      hash = "sha256-yrg0c2XKTApXrzHtT8l8eOoMTaufPiVdxrhbYmO9OWo=";
+      hash = "sha256-hZ9r0u9irhh8C0U4IC28qEd0c06VaWm8vmpkwW5lMlQ=";
       name = "kmods-mediatek_mt7622-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/mt7622/kmods/6.18.55-1-d1b16e39cf48aceadc811d57a1a427ac/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/mt7622/kmods/6.18.60-1-bd63c8b84bb982bc65b99063cc513ef4/packages.adb";
     };
     packages =
       let
@@ -214,7 +214,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/mt7622/packages/";
     sourceInfo = {
-      hash = "sha256-4h62DAv/gjS02xRx9IbzfrkM1zMIGE21orRX3bZaxbU=";
+      hash = "sha256-cwLjY494oIDlalJkDHkn/ypCFJv7xjI72eOaVDCZXY4=";
       name = "mediatek_mt7622-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/mediatek/mt7622/packages/packages.adb";
     };

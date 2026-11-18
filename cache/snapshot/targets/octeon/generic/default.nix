@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/octeon/generic/";
   sha256sums = {
-    hash = "sha256-fQTS+gGB6nNiB4hKkJWN/VY7bC3pFW/ftQrVBBhQEdA=";
+    hash = "sha256-uTsL+6sYp4BFAiQRcF93BmC4pDBQxoPctqzoH0NQd0k=";
     name = "octeon_generic-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/octeon/generic/sha256sums";
   };
   imagebuilder = {
-    sha256 = "bc78ec2c6e466c4367d1d24f39a3287c252919d89fcffe8b4451ce329c5cbf1e";
+    sha256 = "869736946b5eb0842dd93f39cebcd5bcefa130a1ab31f2b58351a3c3e4ce3e98";
     filename = "immortalwrt-imagebuilder-octeon-generic.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-rJmHHXAfxaaqA/niMzFOsuxhwlO8+BYPwvMmYOy+kXk=";
+    hash = "sha256-hyBHPplyneREO20uy96CnxUsM7zukQ5CLZ/KR1ZozWo=";
     name = "octeon_generic-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/octeon/generic/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "mips64_octeonplus";
     linux_kernel = {
       release = "1";
-      vermagic = "8b06259a428e95782d2d491f2c732c4d";
-      version = "6.18.55";
+      vermagic = "3ece6c8993661067134e59466ea00f59";
+      version = "6.18.60";
     };
     default_packages = [
       "apk-openssl"
@@ -51,7 +51,7 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.18.55-1-8b06259a428e95782d2d491f2c732c4d";
+    kmods_target = "6.18.60-1-3ece6c8993661067134e59466ea00f59";
     profiles = {
       cisco_vedge1000 = {
         device_packages = [
@@ -109,12 +109,12 @@
       };
     };
   };
-  kmods."6.18.55-1-8b06259a428e95782d2d491f2c732c4d" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/octeon/generic/kmods/6.18.55-1-8b06259a428e95782d2d491f2c732c4d/";
+  kmods."6.18.60-1-3ece6c8993661067134e59466ea00f59" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/octeon/generic/kmods/6.18.60-1-3ece6c8993661067134e59466ea00f59/";
     sourceInfo = {
-      hash = "sha256-Xt4guqadFQ15dORUDrDsgTFxsmEITakFa/t8GWQrHVM=";
+      hash = "sha256-1gJMSjqRi74Rhk3fwBrqhXWGZ3/O/Q4dYBGQikEyQPc=";
       name = "kmods-octeon_generic-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/octeon/generic/kmods/6.18.55-1-8b06259a428e95782d2d491f2c732c4d/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/octeon/generic/kmods/6.18.60-1-3ece6c8993661067134e59466ea00f59/packages.adb";
     };
     packages =
       let
@@ -125,7 +125,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/octeon/generic/packages/";
     sourceInfo = {
-      hash = "sha256-BT7DmmNaA6kItQzymWLmTFX+kOn4+n5czd19qhdF5Ps=";
+      hash = "sha256-UmwEKuOsQ2ydcE0cVcizGrKlz806wuknGpRbpFXGzKY=";
       name = "octeon_generic-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/octeon/generic/packages/packages.adb";
     };

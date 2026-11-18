@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl838x/";
   sha256sums = {
-    hash = "sha256-1wiJ0CzKgL3kSCW8TD/E9LDYw0Pp1h8cMDMPTL6T8ik=";
+    hash = "sha256-VEojz4Swywm1Kfw4GXpTbBS0qtGEfmAkEUx7ZPZwG+g=";
     name = "realtek_rtl838x-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl838x/sha256sums";
   };
   imagebuilder = {
-    sha256 = "115593c803c7e944f544694d194e05415d318653945bda6162718bc5667bbb83";
+    sha256 = "4b2cca27f28cecb710dc3e8ab6ba7d0716dba2d80e45d2efa01588f6ce8b2901";
     filename = "immortalwrt-imagebuilder-realtek-rtl838x.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-c5FMu//UQr1mc8HX8yRZNHy5iHUGS8jFGEW4qEJSL08=";
+    hash = "sha256-imeV4H/6BsA7lTfYn+OG0km/qfAmjorlB141ZnQl3L4=";
     name = "realtek_rtl838x-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl838x/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "mips_24kc";
     linux_kernel = {
       release = "1";
-      vermagic = "5b081349df9387fa4f725c0c8f29bde9";
-      version = "6.18.55";
+      vermagic = "050a525698cfafe1cce7419acb7ae3f8";
+      version = "6.18.60";
     };
     default_packages = [
       "apk-openssl"
@@ -45,7 +45,7 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.18.55-1-5b081349df9387fa4f725c0c8f29bde9";
+    kmods_target = "6.18.60-1-050a525698cfafe1cce7419acb7ae3f8";
     profiles = {
       allnet_all-sg8208m = {
         device_packages = [ ];
@@ -223,12 +223,12 @@
       };
     };
   };
-  kmods."6.18.55-1-5b081349df9387fa4f725c0c8f29bde9" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl838x/kmods/6.18.55-1-5b081349df9387fa4f725c0c8f29bde9/";
+  kmods."6.18.60-1-050a525698cfafe1cce7419acb7ae3f8" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl838x/kmods/6.18.60-1-050a525698cfafe1cce7419acb7ae3f8/";
     sourceInfo = {
-      hash = "sha256-q65/ZRfXvu05F15Ho3eAC4QlGljMYSy5jJ2226gVFKo=";
+      hash = "sha256-gnnl5p3HDgblApd/HRgYM+5K658izjQaPXkWG3a4xC4=";
       name = "kmods-realtek_rtl838x-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl838x/kmods/6.18.55-1-5b081349df9387fa4f725c0c8f29bde9/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl838x/kmods/6.18.60-1-050a525698cfafe1cce7419acb7ae3f8/packages.adb";
     };
     packages =
       let
@@ -239,7 +239,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl838x/packages/";
     sourceInfo = {
-      hash = "sha256-Rd9UyJiBVDYha0itCPi3FWyloeRFViCuCGv+0/aJpC8=";
+      hash = "sha256-oHzQkseB1EaoO61rT6+kulapdUBl+Y0L4quZOLX/aWM=";
       name = "realtek_rtl838x-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/realtek/rtl838x/packages/packages.adb";
     };

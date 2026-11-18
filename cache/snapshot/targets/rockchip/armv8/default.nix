@@ -2,16 +2,16 @@
 {
   baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/rockchip/armv8/";
   sha256sums = {
-    hash = "sha256-JSZEWGOqvCWUhjcAi1xZQB9RZbGCoX0TxQoOXFXnlNU=";
+    hash = "sha256-kN3RncgYTOXAxEb5UyBPOz0l493hYdz9OOrC/C2yhWI=";
     name = "rockchip_armv8-sha256sums";
     url = "https://downloads.immortalwrt.org/snapshots/targets/rockchip/armv8/sha256sums";
   };
   imagebuilder = {
-    sha256 = "a17eb1e8d51dfc04bd7f68062edf7431de7007052f605fd7a8985ad6232d7ec6";
+    sha256 = "db6fcad7f61d0ce0f21fae09a679a423719af46e3c4386f052b7ca71f439dbf3";
     filename = "immortalwrt-imagebuilder-rockchip-armv8.Linux-x86_64.tar.zst";
   };
   profiles.sourceInfo = {
-    hash = "sha256-mP5PqtG+etW+owyUFpYK586Xs2NveCjHRxzvKmfZIOc=";
+    hash = "sha256-kfCkACPxZ7P5YuVQZ69KlWPi3znclLWNMrXUPvXsiQ0=";
     name = "rockchip_armv8-profiles.json";
     url = "https://downloads.immortalwrt.org/snapshots/targets/rockchip/armv8/profiles.json";
   };
@@ -19,8 +19,8 @@
     arch_packages = "aarch64_generic";
     linux_kernel = {
       release = "1";
-      vermagic = "587069b86939e049430d2c172bb65bbb";
-      version = "6.18.55";
+      vermagic = "35fc956639776f57a8796e46a23eab0a";
+      version = "6.18.60";
     };
     default_packages = [
       "apk-openssl"
@@ -55,7 +55,7 @@
       "urandom-seed"
       "urngd"
     ];
-    kmods_target = "6.18.55-1-587069b86939e049430d2c172bb65bbb";
+    kmods_target = "6.18.60-1-35fc956639776f57a8796e46a23eab0a";
     profiles = {
       "9tripod_x3568-v4" = {
         device_packages = [
@@ -86,6 +86,7 @@
       };
       ariaboard_photonicat2 = {
         device_packages = [
+          "kmod-phy-rockchip-usbdp"
           "kmod-photonicat-pm"
           "kmod-aic8800-usb"
           "wpad-openssl"
@@ -106,6 +107,7 @@
       };
       armsom_sige7 = {
         device_packages = [
+          "kmod-phy-rockchip-usbdp"
           "kmod-brcmfmac"
           "kmod-r8125"
           "wpad-openssl"
@@ -115,6 +117,7 @@
       };
       cyber_cyber3588-aib = {
         device_packages = [
+          "kmod-phy-rockchip-usbdp"
           "kmod-ata-ahci-dwc"
           "kmod-r8125"
           "kmod-mt7921e"
@@ -153,6 +156,7 @@
       };
       friendlyarm_nanopc-t6 = {
         device_packages = [
+          "kmod-phy-rockchip-usbdp"
           "kmod-button-hotplug"
           "kmod-input-adc-keys"
           "kmod-r8125"
@@ -160,6 +164,7 @@
       };
       friendlyarm_nanopi-m5 = {
         device_packages = [
+          "kmod-phy-rockchip-usbdp"
           "blkdiscard"
           "block-mount"
           "kmod-button-hotplug"
@@ -210,6 +215,7 @@
       };
       friendlyarm_nanopi-r6c = {
         device_packages = [
+          "kmod-phy-rockchip-usbdp"
           "kmod-button-hotplug"
           "kmod-input-adc-keys"
           "kmod-r8125"
@@ -217,6 +223,7 @@
       };
       friendlyarm_nanopi-r6s = {
         device_packages = [
+          "kmod-phy-rockchip-usbdp"
           "kmod-button-hotplug"
           "kmod-input-adc-keys"
           "kmod-r8125"
@@ -224,6 +231,7 @@
       };
       friendlyarm_nanopi-r76s = {
         device_packages = [
+          "kmod-phy-rockchip-usbdp"
           "kmod-r8125"
           "kmod-rtw88-8822cs"
           "wpad-openssl"
@@ -314,6 +322,7 @@
       };
       radxa_e52c = {
         device_packages = [
+          "kmod-phy-rockchip-usbdp"
           "blkdiscard"
           "kmod-button-hotplug"
           "kmod-input-adc-keys"
@@ -354,13 +363,14 @@
         device_packages = [ ];
       };
       radxa_rock-4d = {
-        device_packages = [ ];
+        device_packages = [ "kmod-phy-rockchip-usbdp" ];
       };
       radxa_rock-4se = {
         device_packages = [ ];
       };
       radxa_rock-5-itx = {
         device_packages = [
+          "kmod-phy-rockchip-usbdp"
           "blkdiscard"
           "block-mount"
           "kmod-ata-ahci"
@@ -375,6 +385,7 @@
       };
       radxa_rock-5a = {
         device_packages = [
+          "kmod-phy-rockchip-usbdp"
           "blkdiscard"
           "block-mount"
           "kmod-ata-ahci"
@@ -387,6 +398,7 @@
       };
       radxa_rock-5b = {
         device_packages = [
+          "kmod-phy-rockchip-usbdp"
           "blkdiscard"
           "block-mount"
           "kmod-hwmon-pwmfan"
@@ -398,6 +410,7 @@
       };
       radxa_rock-5b-plus = {
         device_packages = [
+          "kmod-phy-rockchip-usbdp"
           "blkdiscard"
           "block-mount"
           "kmod-hwmon-pwmfan"
@@ -409,6 +422,7 @@
       };
       radxa_rock-5c = {
         device_packages = [
+          "kmod-phy-rockchip-usbdp"
           "blkdiscard"
           "block-mount"
           "kmod-ata-ahci"
@@ -419,6 +433,7 @@
       };
       radxa_rock-5t = {
         device_packages = [
+          "kmod-phy-rockchip-usbdp"
           "blkdiscard"
           "block-mount"
           "iwlwifi-firmware-ax210"
@@ -486,10 +501,13 @@
         ];
       };
       xunlong_orangepi-5 = {
-        device_packages = [ ];
+        device_packages = [ "kmod-phy-rockchip-usbdp" ];
       };
       xunlong_orangepi-5-plus = {
-        device_packages = [ "kmod-r8125" ];
+        device_packages = [
+          "kmod-phy-rockchip-usbdp"
+          "kmod-r8125"
+        ];
       };
       xunlong_orangepi-r1-plus = {
         device_packages = [ "kmod-usb-net-rtl8152" ];
@@ -499,12 +517,12 @@
       };
     };
   };
-  kmods."6.18.55-1-587069b86939e049430d2c172bb65bbb" = {
-    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/rockchip/armv8/kmods/6.18.55-1-587069b86939e049430d2c172bb65bbb/";
+  kmods."6.18.60-1-35fc956639776f57a8796e46a23eab0a" = {
+    baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/rockchip/armv8/kmods/6.18.60-1-35fc956639776f57a8796e46a23eab0a/";
     sourceInfo = {
-      hash = "sha256-SFYN+qIIjj1jz9AVzTiIIcV2+7R0XKN2/NIGbhE7Nv4=";
+      hash = "sha256-2h6GnOd46A41ngTa++ecgs12tiEDekagAFQI18dRj58=";
       name = "kmods-rockchip_armv8-packages.adb";
-      url = "https://downloads.immortalwrt.org/snapshots/targets/rockchip/armv8/kmods/6.18.55-1-587069b86939e049430d2c172bb65bbb/packages.adb";
+      url = "https://downloads.immortalwrt.org/snapshots/targets/rockchip/armv8/kmods/6.18.60-1-35fc956639776f57a8796e46a23eab0a/packages.adb";
     };
     packages =
       let
@@ -515,7 +533,7 @@
   corePackages = {
     baseUrl = "https://downloads.immortalwrt.org/snapshots/targets/rockchip/armv8/packages/";
     sourceInfo = {
-      hash = "sha256-ShdEDIiX+6L7U/1eqCe2ifWRyo3m976Sj/DZQ6TkOfo=";
+      hash = "sha256-9A+DE/TKW4MrTvZPMLqqVng3oMqO6SvnTVn1LQA9I1g=";
       name = "rockchip_armv8-packages.adb";
       url = "https://downloads.immortalwrt.org/snapshots/targets/rockchip/armv8/packages/packages.adb";
     };
