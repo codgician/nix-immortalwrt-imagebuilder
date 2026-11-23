@@ -13,6 +13,7 @@
   "24.10.4" = import ./24.10.4/default.nix;
   "24.10.5" = import ./24.10.5/default.nix;
   "24.10.6" = import ./24.10.6/default.nix;
+  "24.10.7" = import ./24.10.7/default.nix;
   "25.12.0" = import ./25.12.0/default.nix;
   "25.12.1" = import ./25.12.1/default.nix;
   "25.12.2" = import ./25.12.2/default.nix;
